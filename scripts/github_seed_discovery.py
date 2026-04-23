@@ -119,12 +119,6 @@ def next_rate_limit_backoff_seconds(error, now=None):
         reset_wait = max(0, int(reset_at - now))
 
     sleep_seconds = next_backoff
-    if rate_limit_kind == "primary" and reset_wait is not None:
-        sleep_seconds = max(sleep_seconds, reset_wait)
-    elif retry_after is not None:
-        sleep_seconds = max(sleep_seconds, retry_after)
-    elif reset_wait is not None:
-        sleep_seconds = min(sleep_seconds, reset_wait)
 
     RATE_LIMIT_BACKOFF_SECONDS = next_backoff
     RATE_LIMIT_BACKOFF_TOTAL_SLEEP_SECONDS += sleep_seconds
@@ -137,6 +131,7 @@ def next_rate_limit_backoff_seconds(error, now=None):
         "retry_after": summary.get("retry_after"),
         "rate_limit_remaining": summary.get("rate_limit_remaining"),
         "rate_limit_reset": summary.get("rate_limit_reset"),
+        "observed_reset_wait_seconds": reset_wait,
         "sleep_seconds": sleep_seconds,
         "next_backoff_seconds": next_backoff,
     })
