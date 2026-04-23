@@ -85,7 +85,7 @@ def test_api_get_json_retries_rate_limit_and_resets_backoff(monkeypatch):
         url="https://api.github.com/repos/example/repo",
         code=403,
         msg="Forbidden",
-        hdrs={"X-RateLimit-Remaining": "0"},
+        hdrs={"X-RateLimit-Remaining": "0", "X-RateLimit-Reset": "1710009999"},
         fp=None,
     )
     responses = [rate_limited, FakeResponse({"ok": True})]
@@ -98,6 +98,7 @@ def test_api_get_json_retries_rate_limit_and_resets_backoff(monkeypatch):
 
     monkeypatch.setattr(module.urllib.request, "urlopen", fake_urlopen)
     monkeypatch.setattr(module.time, "sleep", lambda seconds: sleeps.append(seconds))
+    monkeypatch.setattr(module.time, "time", lambda: 1710000000)
 
     result = module.api_get_json("https://api.github.com/repos/example/repo")
 

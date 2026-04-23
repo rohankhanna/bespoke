@@ -1,9 +1,8 @@
-name: github-seed-discovery-lane-1
+name: github-seed-discovery-lane-4
 
 on:
-  workflow_dispatch:
   schedule:
-    - cron: '0 0 * * *'
+    - cron: '0 18 * * *'
 
 jobs:
   discover:

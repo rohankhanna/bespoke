@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bespoke-cli"
+version = "0.1.0"
+description = "Constraint-first tailoring system for end-to-end AI products"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=1.26,<3",
+  "torch>=2.2,<3",
+  "transformers>=4.56,<5",
+]
+
+[project.scripts]
+bespoke-embed = "bespoke_cli.embedding_pipeline:main"
+bespoke-vocab = "bespoke_cli.vocabulary_pipeline:main"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8,<9",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
