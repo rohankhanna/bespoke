@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Recipes for the ConanCenter repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mark stale pull requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mark stale pull requests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29581,
+      "status": "candidate",
+      "text": "pressure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29351,
+      "status": "candidate",
+      "text": "flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29187,
+      "status": "candidate",
+      "text": "triumph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29093,
+      "status": "candidate",
+      "text": "flagged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28764,
+      "status": "candidate",
+      "text": "scar"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mark stale pull requests",
+      "sense_id": "mark-stale-pull-requests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mark-stale-pull-requests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mark-stale-pull-requests",
+  "observation_id": "92b36e47b86e8b58",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "Mark stale pull requests",
+  "source_context_snippet": "Mark stale pull requests",
+  "source_file": ".github/workflows/stale.yml",
+  "source_repo": "conan-io/conan-center-index",
+  "source_repo_description": "Recipes for the ConanCenter repository"
+}

@@ -1150,6 +1150,234 @@
       "source_repo": "aquasecurity/trivy",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/packager",
+      "status": "candidate-context",
+      "text": "Customize and package your Electron app with OS-specific bundles (.app, .exe, etc.) via JS or CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/packager",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmake-js/cmake-js",
+      "status": "candidate-context",
+      "text": "CMake.js - a Node.js native addon build tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmake-js/cmake-js",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/leveldown",
+      "status": "candidate-context",
+      "text": "Superseded by classic-level. Pure C++ Node.js LevelDB binding. An abstract-leveldown compliant store."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/leveldown",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/node-abi",
+      "status": "candidate-context",
+      "text": ":turtle: :rocket: Get the Node.js and Electron ABI for a given target and runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/node-abi",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prebuild/node-gyp-build",
+      "status": "candidate-context",
+      "text": "Build tool and bindings loader for node-gyp that supports prebuilds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/node-gyp-build",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prebuild/prebuildify",
+      "status": "candidate-context",
+      "text": "Create and package prebuilds for native modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuildify",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/whisper",
+      "status": "candidate-context",
+      "text": "Robust Speech Recognition via Large-Scale Weak Supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/whisper",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate-context",
+      "text": ":package::rocket: Fully automated version management and package publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/berglas",
+      "status": "candidate-context",
+      "text": "A tool for managing secrets on Google Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/berglas",
+      "status": "candidate-context",
+      "text": "'test'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/docs",
+      "status": "candidate-context",
+      "text": "User documentation for Knative components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/docs",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httplib2/httplib2",
+      "status": "candidate-context",
+      "text": "Small, fast HTTP client library for Python. Features persistent connections, cache, and Google App Engine support. Originally written by Joe Gregorio, now supported by community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httplib2/httplib2",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AssemblyScript/assemblyscript",
+      "status": "candidate-context",
+      "text": "A TypeScript-like language for WebAssembly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AssemblyScript/assemblyscript",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gohugoio/hugo",
+      "status": "candidate-context",
+      "text": "The world\u2019s fastest framework for building websites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gohugoio/hugo",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate-context",
+      "text": "OpenRPC Markdown Generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ml-explore/mlx-examples",
+      "status": "candidate-context",
+      "text": "Examples in the MLX framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx-examples",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actboy168/json.lua",
+      "status": "candidate-context",
+      "text": "A pure Lua JSON library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actboy168/json.lua",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flutter/website",
+      "status": "candidate-context",
+      "text": "Flutter documentation web site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/website",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "genome21/langflow",
+      "status": "candidate-context",
+      "text": "\u26d3\ufe0f LangFlow is a UI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "genome21/langflow",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": ":electron: \ud83d\ude80 The easiest way to get started with Electron"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": "Test"
     }
   ],
   "candidate_glosses": [
@@ -1720,6 +1948,120 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aquasecurity/trivy",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/packager",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmake-js/cmake-js",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/leveldown",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/node-abi",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/node-gyp-build",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuildify",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/whisper",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/berglas",
+      "status": "candidate",
+      "text": "'test'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/docs",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httplib2/httplib2",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AssemblyScript/assemblyscript",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gohugoio/hugo",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx-examples",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actboy168/json.lua",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/website",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "genome21/langflow",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
       "status": "candidate",
       "text": "Test"
     }
@@ -2443,11 +2785,137 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/bypass-test.yaml",
       "source_repo": "aquasecurity/trivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/node.yaml",
+      "source_repo": "cmake-js/cmake-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/leveldown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/node-abi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prebuild/node-gyp-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "prebuild/prebuildify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "openai/whisper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "semantic-release/semantic-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "GoogleCloudPlatform/berglas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/knative-go-test.yaml",
+      "source_repo": "knative/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "httplib2/httplib2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "AssemblyScript/assemblyscript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dukesoferl/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gohugoio/hugo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "open-rpc/markdown-gen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ml-explore/mlx-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "actboy168/json.lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flutter/website"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "genome21/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/fiddle"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "gloxec/CrossC2",
       "status": "candidate-context",
       "text": "![ Linux ](https://img.shields.io/badge/platform-Linux-green)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrossC2/CrossC2Kit",
+      "status": "candidate-context",
+      "text": "CrossC2 developed based on the Cobalt Strike framework can be used for other cross-platform system control. CrossC2Kit provides some interfaces for users to call to manipulate the CrossC2 Beacon session, thereby extending the functionality of Cobalt Strike."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrossC2/CrossC2Kit",
+      "status": "candidate-context",
+      "text": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "gloxec/CrossC2",
       "status": "candidate",
       "text": "![ Linux ](https://img.shields.io/badge/platform-Linux-green)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrossC2/CrossC2Kit",
+      "status": "candidate",
+      "text": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "gloxec/CrossC2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "CrossC2/CrossC2Kit"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

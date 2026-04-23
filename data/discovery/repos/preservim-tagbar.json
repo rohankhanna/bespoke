@@ -31,13 +31,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "preservim/tagbar",
-      "target": "ludovicchabant/vim-gutentags",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "preservim/tagbar",
       "target": "sergioramos/jsctags",
       "target_type": "repository"
     },
@@ -161,7 +154,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T05:11:02.101980+00:00",
+  "fetched_at": "2026-04-23T01:24:09.896212+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -190,7 +183,7 @@
     "html_url": "https://github.com/preservim/tagbar",
     "language": "Vim Script",
     "pushed_at": "2025-10-02T14:54:19Z",
-    "stargazers_count": 6223,
+    "stargazers_count": 6220,
     "topics": [
       "exuberant-ctags",
       "linux",
@@ -201,14 +194,9 @@
       "vim-plugins",
       "windows"
     ],
-    "updated_at": "2026-04-19T05:35:22Z"
+    "updated_at": "2026-04-22T14:49:42Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ludovicchabant/vim-gutentags",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "majutsushi/tagbar",

@@ -79,6 +79,18 @@
       "source_repo": "agronholm/anyio",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/agronholm/anyio/actions/workflows/test.yml/badge.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "agronholm/anyio",
       "status": "candidate",
       "text": ".. image:: https://github.com/agronholm/anyio/actions/workflows/test.yml/badge.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "agronholm/anyio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

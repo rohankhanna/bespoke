@@ -91,6 +91,54 @@
       "source_repo": "dualverse-ai/station",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/neural-compressor",
+      "status": "candidate-context",
+      "text": "SOTA low-bit LLM quantization (INT8/FP8/MXFP8/INT4/MXFP4/NVFP4) & sparsity; leading model compression techniques on PyTorch, TensorFlow, and ONNX Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-compressor",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "status": "candidate-context",
+      "text": "Ongoing research training transformer models at scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RUC-NLPIR/FlashRAG",
+      "status": "candidate-context",
+      "text": "\u26a1FlashRAG: A Python Toolkit for Efficient RAG Research (WWW2025 Resource)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RUC-NLPIR/FlashRAG",
+      "status": "candidate-context",
+      "text": "\\[ English | [\u4e2d\u6587](README_zh.md) \\]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepset-ai/haystack",
+      "status": "candidate-context",
+      "text": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "dualverse-ai/station",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-compressor",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RUC-NLPIR/FlashRAG",
+      "status": "candidate",
+      "text": "\\[ English | [\u4e2d\u6587](README_zh.md) \\]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +280,41 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "dualverse-ai/station"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/Megatron-LM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/FlashRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

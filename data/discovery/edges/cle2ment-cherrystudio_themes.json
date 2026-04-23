@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "boningtonchen/cherrystudio_themes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "subframe7536/maple-font",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "pal3love/dream-han-cjk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-theme-to-readme.yml",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-theme-to-readme.yml",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "Sync Theme to READMEs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "cherrystudio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "scss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "themes",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "source_repo": "Cle2ment/CherryStudio_themes"
+}

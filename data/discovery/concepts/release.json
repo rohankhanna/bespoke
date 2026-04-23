@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -2078,6 +2080,360 @@
       "source_repo": "Softeria/ms-365-mcp-server",
       "status": "candidate-context",
       "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VoltAgent/voltagent",
+      "status": "candidate-context",
+      "text": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VoltAgent/voltagent",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/packager",
+      "status": "candidate-context",
+      "text": "Customize and package your Electron app with OS-specific bundles (.app, .exe, etc.) via JS or CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/packager",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/leveldown",
+      "status": "candidate-context",
+      "text": "Superseded by classic-level. Pure C++ Node.js LevelDB binding. An abstract-leveldown compliant store."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/leveldown",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/node-abi",
+      "status": "candidate-context",
+      "text": ":turtle: :rocket: Get the Node.js and Electron ABI for a given target and runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/node-abi",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrickkabwe/create-nitro-module",
+      "status": "candidate-context",
+      "text": "A CLI tool that simplifies creating React Native modules powered by Nitro Modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrickkabwe/create-nitro-module",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/model-runner",
+      "status": "candidate-context",
+      "text": "Docker Model Runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/model-runner",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agl/jbig2enc",
+      "status": "candidate-context",
+      "text": "JBIG2 Encoder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agl/jbig2enc",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerocha/netflixdb",
+      "status": "candidate-context",
+      "text": "Sample database for MySQL, Oracle, PostgreSQL, SQLite, and SQL Server. Based on data from the Netflix Engagement Report and the Netflix Global Top 10 weekly list, it includes movies and TV shows for learning and practice purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerocha/netflixdb",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/whisper",
+      "status": "candidate-context",
+      "text": "Robust Speech Recognition via Large-Scale Weak Supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/whisper",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate-context",
+      "text": ":package::rocket: Fully automated version management and package publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none;\">\ud83d\udce6\ud83d\ude80 semantic-release</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nektos/act",
+      "status": "candidate-context",
+      "text": "Run your GitHub Actions locally \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nektos/act",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "status": "candidate-context",
+      "text": "A next-generation framework for building Terraform providers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-plugin-sdk",
+      "status": "candidate-context",
+      "text": "Terraform Plugin SDK enables building plugins (providers) to manage any service providers or custom in-house solutions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-sdk",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-scaffolding",
+      "status": "candidate-context",
+      "text": "Quick start repository for creating a Terraform provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-scaffolding",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/DiffSynth-Studio",
+      "status": "candidate-context",
+      "text": "Enjoy the magic of Diffusion models!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/DiffSynth-Studio",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "status": "candidate-context",
+      "text": "Ongoing research training transformer models at scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "status": "candidate-context",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmetb/runsd",
+      "status": "candidate-context",
+      "text": "Drop-in Service Discovery capabilities for Google Cloud Run."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmetb/runsd",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/berglas",
+      "status": "candidate-context",
+      "text": "A tool for managing secrets on Google Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/berglas",
+      "status": "candidate-context",
+      "text": "'release'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate-context",
+      "text": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashbots/mev-boost",
+      "status": "candidate-context",
+      "text": "MEV-Boost allows Ethereum validators to source high-MEV blocks from a competitive builder marketplace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/mev-boost",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate-context",
+      "text": "OpenRPC Markdown Generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drahnr/cargo-spellcheck",
+      "status": "candidate-context",
+      "text": "Checks all your documentation for spelling and grammar mistakes with hunspell and a nlprule based checker for grammar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drahnr/cargo-spellcheck",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andys8/git-brunch",
+      "status": "candidate-context",
+      "text": "Git branch checkout menu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andys8/git-brunch",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mason-org/mason.nvim",
+      "status": "candidate-context",
+      "text": "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason.nvim",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "labring/aiproxy",
+      "status": "candidate-context",
+      "text": "AI Proxy is a high performance AI gateway using OpenAI / Claude / Gemini protocol as the entry point. It features intelligent error handling, multi-channel management, and comprehensive monitoring. With support for multiple models, rate limiting, and multi-tenant isolation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labring/aiproxy",
+      "status": "candidate-context",
+      "text": "Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "genome21/langflow",
+      "status": "candidate-context",
+      "text": "\u26d3\ufe0f LangFlow is a UI for LangChain, designed with react-flow to provide an effortless way to experiment and prototype flows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "genome21/langflow",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate-context",
+      "text": "A RWKV management and startup tool, full automation, only 8MB. And provides an interface compatible with the OpenAI API. RWKV is a large language model that is fully open source and available for commercial use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "infiniflow/ragflow",
+      "status": "candidate-context",
+      "text": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infiniflow/ragflow",
+      "status": "candidate-context",
+      "text": "release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": ":electron: \ud83d\ude80 The easiest way to get started with Electron"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": "Release"
     }
   ],
   "candidate_glosses": [
@@ -3104,6 +3460,186 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Softeria/ms-365-mcp-server",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VoltAgent/voltagent",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/packager",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/leveldown",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/node-abi",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrickkabwe/create-nitro-module",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/model-runner",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agl/jbig2enc",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerocha/netflixdb",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/whisper",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none;\">\ud83d\udce6\ud83d\ude80 semantic-release</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nektos/act",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-sdk",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-scaffolding",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/DiffSynth-Studio",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "status": "candidate",
+      "text": "\"Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmetb/runsd",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/berglas",
+      "status": "candidate",
+      "text": "'release'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/mev-boost",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drahnr/cargo-spellcheck",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andys8/git-brunch",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason.nvim",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labring/aiproxy",
+      "status": "candidate",
+      "text": "Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "genome21/langflow",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infiniflow/ragflow",
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
       "status": "candidate",
       "text": "Release"
     }
@@ -4619,11 +5155,227 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "Softeria/ms-365-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "VoltAgent/voltagent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "compozy/kb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Level/leveldown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "electron/node-abi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "patrickkabwe/create-nitro-module"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "docker/model-runner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "agl/jbig2enc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "lerocha/netflixdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "openai/whisper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "semantic-release/semantic-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/semantic-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nektos/act"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hashicorp/terraform-plugin-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hashicorp/terraform-provider-scaffolding"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "modelscope/DiffSynth-Studio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/_release_library.yml",
+      "source_repo": "NVIDIA/Megatron-LM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ahmetb/runsd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleCloudPlatform/berglas"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "caddyserver/caddy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "flashbots/mev-boost"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "open-rpc/markdown-gen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "drahnr/cargo-spellcheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "andys8/git-brunch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "labring/aiproxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "genome21/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "josStorer/RWKV-Runner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "infiniflow/ragflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "electron/fiddle"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

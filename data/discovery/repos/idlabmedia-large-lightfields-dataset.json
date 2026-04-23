@@ -1,0 +1,152 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "idlabmedia/blender-lightfield-addon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "idlabmedia/image-lens-reproject",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "idlabmedia/large-lightfield-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "blender",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "immersive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "lightfield",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "plenoptic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "virtual-reality",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:28:31.682320+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Synthetic Immersive Large-Volume Plenoptic Dataset",
+    "fork": false,
+    "full_name": "IDLabMedia/large-lightfields-dataset",
+    "html_url": "https://github.com/IDLabMedia/large-lightfields-dataset",
+    "language": "Python",
+    "pushed_at": "2023-12-21T16:45:33Z",
+    "stargazers_count": 134,
+    "topics": [
+      "blender",
+      "immersive",
+      "lightfield",
+      "open-source",
+      "plenoptic",
+      "virtual-reality",
+      "vr"
+    ],
+    "updated_at": "2026-03-14T05:31:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idlabmedia/blender-lightfield-addon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idlabmedia/image-lens-reproject",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idlabmedia/large-lightfield-dataset",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div class=\"thumbnails in-body\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blender"
+    },
+    {
+      "context_snippet": "<div class=\"thumbnails in-body\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "immersive"
+    },
+    {
+      "context_snippet": "<div class=\"thumbnails in-body\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightfield"
+    },
+    {
+      "context_snippet": "<div class=\"thumbnails in-body\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    },
+    {
+      "context_snippet": "<div class=\"thumbnails in-body\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plenoptic"
+    },
+    {
+      "context_snippet": "<div class=\"thumbnails in-body\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-reality"
+    }
+  ]
+}

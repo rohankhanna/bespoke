@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Personal PKGBUILDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Personal PKGBUILDs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Personal PKGBUILDs"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "arch-linux",
+      "sense_id": "arch-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "arch-linux",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "arch-linux",
+  "observation_id": "17bf427a292b6fc5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "arch-linux",
+  "source_context_snippet": "Personal PKGBUILDs",
+  "source_file": null,
+  "source_repo": "nfnty/pkgbuilds",
+  "source_repo_description": "Personal PKGBUILDs"
+}

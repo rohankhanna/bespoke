@@ -1,12 +1,37 @@
 {
   "component": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "spf13/viper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/modules-integration-test.yaml",
+      "source_repo": "ko-build/ko"
     }
   ]
 }

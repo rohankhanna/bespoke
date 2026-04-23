@@ -43,6 +43,18 @@
       "source_repo": "addyosmani/chatty",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate-context",
+      "text": "The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate-context",
+      "text": "> ### The TypeScript library for building AI applications."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "addyosmani/chatty",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate",
+      "text": "> ### The TypeScript library for building AI applications."
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "addyosmani/chatty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

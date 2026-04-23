@@ -1,0 +1,138 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR",
+      "target": "hiroi-sora/umi-ocr_plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR",
+      "target": "hiroi-sora/umi-ocr_runtime_linux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR",
+      "target": "hiroi-sora/paddleocr-json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR",
+      "target": "hiroi-sora/rapidocr-json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiroi-sora/Umi-OCR",
+      "target": "ocr-python",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiroi-sora/Umi-OCR",
+      "target": "paddleocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiroi-sora/Umi-OCR",
+      "target": "screenshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiroi-sora/Umi-OCR",
+      "target": "umi-ocr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:27:23.704546+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OCR software, free and offline. \u5f00\u6e90\u3001\u514d\u8d39\u7684\u79bb\u7ebfOCR\u8f6f\u4ef6\u3002\u652f\u6301\u622a\u5c4f/\u6279\u91cf\u5bfc\u5165\u56fe\u7247\uff0cPDF\u6587\u6863\u8bc6\u522b\uff0c\u6392\u9664\u6c34\u5370/\u9875\u7709\u9875\u811a\uff0c\u626b\u63cf/\u751f\u6210\u4e8c\u7ef4\u7801\u3002\u5185\u7f6e\u591a\u56fd\u8bed\u8a00\u5e93\u3002",
+    "fork": false,
+    "full_name": "hiroi-sora/Umi-OCR",
+    "html_url": "https://github.com/hiroi-sora/Umi-OCR",
+    "language": "Python",
+    "pushed_at": "2025-11-20T14:58:13Z",
+    "stargazers_count": 43546,
+    "topics": [
+      "ocr",
+      "ocr-python",
+      "paddleocr",
+      "qml",
+      "qt",
+      "screenshot",
+      "umi-ocr"
+    ],
+    "updated_at": "2026-04-23T01:26:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiroi-sora/paddleocr-json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiroi-sora/rapidocr-json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiroi-sora/umi-ocr_plugins",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiroi-sora/umi-ocr_runtime_linux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocr-python"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddleocr"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "screenshot"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "umi-ocr"
+    }
+  ]
+}

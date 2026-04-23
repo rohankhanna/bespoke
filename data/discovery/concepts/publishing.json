@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Publishing"
+    "Publishing",
+    "publishing"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "modelcontextprotocol/python-sdk",
       "status": "candidate-context",
       "text": "Publishing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerna/lerna",
+      "status": "candidate-context",
+      "text": "Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna/lerna",
+      "status": "candidate-context",
+      "text": "> **Important note: this project [changed stewardship to Nx](https://github.com/lerna/lerna/issues/3121)!**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "modelcontextprotocol/python-sdk",
       "status": "candidate",
       "text": "Publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna/lerna",
+      "status": "candidate",
+      "text": "> **Important note: this project [changed stewardship to Nx](https://github.com/lerna/lerna/issues/3121)!**"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +105,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/publish-pypi.yml",
       "source_repo": "modelcontextprotocol/python-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "lerna/lerna"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "test docker build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamba-org/quetz",
+      "status": "candidate-context",
+      "text": "The Open-Source Server for Conda Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/quetz",
+      "status": "candidate-context",
+      "text": "test docker build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/quetz",
+      "status": "candidate",
+      "text": "test docker build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "longshoreman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "lumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10326,
+      "status": "candidate",
+      "text": "assessor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10326,
+      "status": "candidate",
+      "text": "ballplayer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10326,
+      "status": "candidate",
+      "text": "detective"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "test docker build",
+  "concept_id": "test-docker-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "mamba-org/quetz"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "test docker build",
+      "sense_id": "test-docker-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lock Old Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "status": "candidate-context",
+      "text": "A code-completion engine for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "status": "candidate-context",
+      "text": "\"Lock Old Issues\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "status": "candidate",
+      "text": "\"Lock Old Issues\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19131,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18892,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18892,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18892,
+      "status": "candidate",
+      "text": "tagging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18868,
+      "status": "candidate",
+      "text": "drop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lock Old Issues",
+  "concept_id": "lock-old-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/lock_old_issues.yaml",
+      "source_repo": "ycm-core/YouCompleteMe"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lock Old Issues",
+      "sense_id": "lock-old-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

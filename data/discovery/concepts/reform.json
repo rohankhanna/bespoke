@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "reform"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shavian-info/interalia",
+      "status": "candidate-context",
+      "text": "Inter Alia is an expanded version of the Inter font family"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shavian-info/interalia",
+      "status": "candidate-context",
+      "text": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shavian-info/interalia",
+      "status": "candidate",
+      "text": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041075,
+      "status": "candidate",
+      "text": "regenerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035662,
+      "status": "candidate",
+      "text": "straighten out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041805,
+      "status": "candidate",
+      "text": "reformation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041798,
+      "status": "candidate",
+      "text": "amendment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041593,
+      "status": "candidate",
+      "text": "revamp"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8037,
+      "status": "candidate",
+      "text": "regenerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7021,
+      "status": "candidate",
+      "text": "straighten out"
+    }
+  ],
+  "canonical_name": "reform",
+  "concept_id": "reform",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "Shavian-info/interalia"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reform",
+      "sense_id": "reform#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

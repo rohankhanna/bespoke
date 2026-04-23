@@ -70,6 +70,30 @@
       "source_repo": "containers/buildah",
       "status": "candidate-context",
       "text": "![buildah logo (light)](logos/buildah-logo_large.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "Build and deploy Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "labring/sealos",
+      "status": "candidate-context",
+      "text": "Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfect for building and scaling modern AI applications, managed databases (MySQL, PostgreSQL, Redis, MongoDB) and complex microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labring/sealos",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +126,18 @@
       "source_repo": "containers/buildah",
       "status": "candidate",
       "text": "![buildah logo (light)](logos/buildah-logo_large.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
+      "status": "candidate",
+      "text": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labring/sealos",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -175,11 +211,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "containers/buildah"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "labring/sealos"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ervandew/supertab",
+      "target": "gmarik/vundle.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ervandew/supertab",
+      "target": "msanders/snipmate.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ervandew/supertab",
+      "target": "garbas/vim-snipmate",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "source_repo": "ervandew/supertab"
+}

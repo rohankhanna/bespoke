@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "aws-torch-latest-full"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "status": "candidate-context",
+      "text": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "status": "candidate-context",
+      "text": "aws-torch-latest-full"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "status": "candidate",
+      "text": "aws-torch-latest-full"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "aws-torch-latest-full",
+  "concept_id": "aws-torch-latest-full",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/aws-torch-latest-full.yml",
+      "source_repo": "deepspeedai/DeepSpeed"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "aws-torch-latest-full",
+      "sense_id": "aws-torch-latest-full#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

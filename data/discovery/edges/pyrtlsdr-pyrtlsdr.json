@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "target": "librtlsdr/librtlsdr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "target": "pyrtlsdr/pyrtlsdrlib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "target": "roger-/pyrtlsdr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "target": "dbasden/python-librtlsdr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-test.yml",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-test.yml",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-test.yml",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-test.yml",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist-test.yml",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dist-test.yml",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "target": "Test Distribution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-package.yml",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "source_repo": "pyrtlsdr/pyrtlsdr"
+}

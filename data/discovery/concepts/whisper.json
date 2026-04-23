@@ -31,6 +31,30 @@
       "source_repo": "aarnphm/whispercpp",
       "status": "candidate-context",
       "text": "_Pybind11 bindings for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate-context",
+      "text": "The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate-context",
+      "text": "> ### The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "exPHAT/SwiftWhisper",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa4 The easiest way to transcribe audio in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exPHAT/SwiftWhisper",
+      "status": "candidate-context",
+      "text": "> The easiest way to use Whisper in Swift"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "aarnphm/whispercpp",
       "status": "candidate",
       "text": "_Pybind11 bindings for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate",
+      "text": "> ### The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exPHAT/SwiftWhisper",
+      "status": "candidate",
+      "text": "> The easiest way to use Whisper in Swift"
     }
   ],
   "candidate_related_terms": [
@@ -134,11 +170,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "exPHAT/SwiftWhisper"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

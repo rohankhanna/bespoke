@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pkware"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zlib-ng/minizip-ng",
+      "status": "candidate-context",
+      "text": "Fork of the popular zip manipulation library found in the zlib distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/minizip-ng",
+      "status": "candidate-context",
+      "text": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/minizip-ng",
+      "status": "candidate",
+      "text": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pkware",
+  "concept_id": "pkware",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pkware",
+      "sense_id": "pkware#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -91,6 +91,66 @@
       "source_repo": "coderaiser/supertape",
       "status": "candidate-context",
       "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "\u2728\u2601\ufe0f\ud83d\udcc1\u2728 Cloud Commander file manager for the web with console and editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/speca",
+      "status": "candidate-context",
+      "text": "\u2668\ufe0f Speca writes tape tests for you."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/speca",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/try-catch",
+      "status": "candidate-context",
+      "text": "Try-catch wrapper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-catch",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/try-to-catch",
+      "status": "candidate-context",
+      "text": "functional try-catch wrapper for promises"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-to-catch",
+      "status": "candidate-context",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "taylorhakes/promise-polyfill",
+      "status": "candidate-context",
+      "text": "Lightweight ES6 Promise polyfill for the browser and node. A+ Compliant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorhakes/promise-polyfill",
+      "status": "candidate-context",
+      "text": "Node CI"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +193,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "coderaiser/supertape",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/speca",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-catch",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-to-catch",
+      "status": "candidate",
+      "text": "Node CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "taylorhakes/promise-polyfill",
       "status": "candidate",
       "text": "Node CI"
     }
@@ -220,11 +310,41 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "coderaiser/supertape"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/cloudcmd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/speca"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/try-catch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "coderaiser/try-to-catch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "taylorhakes/promise-polyfill"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Component Fixture Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Component Fixture Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18283,
+      "status": "candidate",
+      "text": "resolution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18283,
+      "status": "candidate",
+      "text": "resolving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18261,
+      "status": "candidate",
+      "text": "complement fixation test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18157,
+      "status": "candidate",
+      "text": "breadboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18157,
+      "status": "candidate",
+      "text": "impression"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Component Fixture Tests",
+      "sense_id": "component-fixture-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "component-fixture-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "component-fixture-tests",
+  "observation_id": "78a9f2e4b82ebb45",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "Component Fixture Tests",
+  "source_context_snippet": "Component Fixture Tests",
+  "source_file": ".github/workflows/component-fixture-tests.yml",
+  "source_repo": "microsoft/vscode",
+  "source_repo_description": "Visual Studio Code"
+}

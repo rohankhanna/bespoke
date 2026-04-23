@@ -19,6 +19,30 @@
       "source_repo": "berty/berty",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerna/lerna",
+      "status": "candidate-context",
+      "text": "Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna/lerna",
+      "status": "candidate-context",
+      "text": "> **Important note: this project [changed stewardship to Nx](https://github.com/lerna/lerna/issues/3121)!**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerna-lite/lerna-lite",
+      "status": "candidate-context",
+      "text": "Subset of Lerna in a smaller & more modular project. Help manage and publish multiple packages in a monorepo/workspace structure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna-lite/lerna-lite",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "berty/berty",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna/lerna",
+      "status": "candidate",
+      "text": "> **Important note: this project [changed stewardship to Nx](https://github.com/lerna/lerna/issues/3121)!**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna-lite/lerna-lite",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "berty/berty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "lerna/lerna"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "lerna-lite/lerna-lite"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

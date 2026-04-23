@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "install"
+    "install",
+    "Install"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,30 @@
       "source_repo": "nvm-sh/nvm",
       "status": "candidate-context",
       "text": "<a href=\"https://github.com/nvm-sh/logos\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dtolnay/cargo-expand",
+      "status": "candidate-context",
+      "text": "Subcommand to show result of macro expansion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dtolnay/cargo-expand",
+      "status": "candidate-context",
+      "text": "Install"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "labring/sealos",
+      "status": "candidate-context",
+      "text": "Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfect for building and scaling modern AI applications, managed databases (MySQL, PostgreSQL, Redis, MongoDB) and complex microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labring/sealos",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +54,18 @@
       "source_repo": "nvm-sh/nvm",
       "status": "candidate",
       "text": "<a href=\"https://github.com/nvm-sh/logos\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dtolnay/cargo-expand",
+      "status": "candidate",
+      "text": "Install"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labring/sealos",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -111,11 +150,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "dtolnay/cargo-expand"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "labring/sealos"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "azure/setup-kubectl@829323503d1be3d00ca8346e5391ca0b07a9ab0d",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/functional_test.yml",
+      "source_repo": "kubernetes/minikube"
+    }
+  ]
+}

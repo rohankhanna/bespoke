@@ -67,6 +67,30 @@
       "source_repo": "addyosmani/chatty",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate-context",
+      "text": "The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate-context",
+      "text": "> ### The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "status": "candidate-context",
+      "text": "GUI for ChatGPT API and many LLMs. Supports agents, file-based QA, GPT finetuning and query with web search. All with a neat UI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "status": "candidate-context",
+      "text": "<div align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "addyosmani/chatty",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate",
+      "text": "> ### The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "status": "candidate",
+      "text": "<div align=\"right\">"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +220,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "addyosmani/chatty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

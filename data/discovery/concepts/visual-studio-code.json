@@ -19,6 +19,30 @@
       "source_repo": "microsoft/vscode-dev-containers",
       "status": "candidate-context",
       "text": "**IMPORTANT NOTE: Dev containers have a new, expanded home in the [dev containers GitHub org](https://github.com/devcontainers)! We're so excited to connect with you there. To learn more, you can check out our [migration announcement](https://github.com/microsoft/vscode-dev-cont\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/vscode-haskell",
+      "status": "candidate-context",
+      "text": "VS Code extension for Haskell, powered by haskell-language-server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/vscode-haskell",
+      "status": "candidate-context",
+      "text": "[![vsmarketplacebadge](https://vsmarketplacebadges.dev/version/haskell.haskell.png)](https://marketplace.visualstudio.com/items?itemName=haskell.haskell)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode",
+      "status": "candidate-context",
+      "text": "Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode",
+      "status": "candidate-context",
+      "text": "[![Feature Requests](https://img.shields.io/github/issues/microsoft/vscode/feature-request.svg)](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "microsoft/vscode-dev-containers",
       "status": "candidate",
       "text": "**IMPORTANT NOTE: Dev containers have a new, expanded home in the [dev containers GitHub org](https://github.com/devcontainers)! We're so excited to connect with you there. To learn more, you can check out our [migration announcement](https://github.com/microsoft/vscode-dev-cont\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/vscode-haskell",
+      "status": "candidate",
+      "text": "[![vsmarketplacebadge](https://vsmarketplacebadges.dev/version/haskell.haskell.png)](https://marketplace.visualstudio.com/items?itemName=haskell.haskell)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode",
+      "status": "candidate",
+      "text": "[![Feature Requests](https://img.shields.io/github/issues/microsoft/vscode/feature-request.svg)](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode-dev-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "haskell/vscode-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

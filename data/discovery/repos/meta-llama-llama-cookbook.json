@@ -41,13 +41,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "meta-llama/llama-cookbook",
-      "target": "meta-llama/synthetic-data-kit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "meta-llama/llama-cookbook",
       "target": "meta-llama/llama-prompt-ops",
       "target_type": "repository"
     },
@@ -143,7 +136,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T17:37:20.265371+00:00",
+  "fetched_at": "2026-04-23T01:15:23.298819+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -175,8 +168,8 @@
     "full_name": "meta-llama/llama-cookbook",
     "html_url": "https://github.com/meta-llama/llama-cookbook",
     "language": "Jupyter Notebook",
-    "pushed_at": "2026-04-17T12:36:07Z",
-    "stargazers_count": 18292,
+    "pushed_at": "2026-04-21T21:24:26Z",
+    "stargazers_count": 18298,
     "topics": [
       "ai",
       "finetuning",
@@ -189,17 +182,12 @@
       "pytorch",
       "vllm"
     ],
-    "updated_at": "2026-04-19T10:29:12Z"
+    "updated_at": "2026-04-22T20:57:15Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "meta-llama/llama-prompt-ops",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "meta-llama/synthetic-data-kit",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "aero"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hakadao/CherryStudio-Aero",
+      "status": "candidate-context",
+      "text": "Give your Cherry Studio a modern, Aero theme | \u7d66\u4f60 Cherry Studio \u4e00\u500b\u73fe\u4ee3\u7684 Aero \u4e3b\u984c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hakadao/CherryStudio-Aero",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README-cmn_CN.md) | [\u7e41\u9ad4\u4e2d\u6587](README-cmn_TW.md) | [\u5ee3\u6771\u8a71](README-jyut.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hakadao/CherryStudio-Aero",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](README-cmn_CN.md) | [\u7e41\u9ad4\u4e2d\u6587](README-cmn_TW.md) | [\u5ee3\u6771\u8a71](README-jyut.md)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29997714,
+      "status": "candidate",
+      "text": "aviation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29952128,
+      "status": "candidate",
+      "text": "cal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29849646,
+      "status": "candidate",
+      "text": "optical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29807296,
+      "status": "candidate",
+      "text": "avn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999618,
+      "status": "candidate",
+      "text": "aviatory"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "aero",
+  "concept_id": "aero",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "hakadao/CherryStudio-Aero"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aero",
+      "sense_id": "aero#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

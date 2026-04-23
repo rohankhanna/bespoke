@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Pre-Release",
-    "Pre-release"
+    "Pre-release",
+    "pre-release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "ethereum/beacon-APIs",
       "status": "candidate-context",
       "text": "Pre-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate-context",
+      "text": "A RWKV management and startup tool, full automation, only 8MB. And provides an interface compatible with the OpenAI API. RWKV is a large language model that is fully open source and available for commercial use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate-context",
+      "text": "pre-release"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "ethereum/beacon-APIs",
       "status": "candidate",
       "text": "Pre-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate",
+      "text": "pre-release"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +120,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/pre-release.yaml",
       "source_repo": "ethereum/beacon-APIs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "josStorer/RWKV-Runner"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

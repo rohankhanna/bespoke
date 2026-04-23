@@ -76,21 +76,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "TryGhost/node-sqlite3",
-      "target": "prebuild/prebuild-install",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TryGhost/node-sqlite3",
-      "target": "prebuild/prebuild",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TryGhost/node-sqlite3",
       "target": "rogerwang/node-webkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TryGhost/node-sqlite3",
+      "target": "sqlcipher/sqlcipher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TryGhost/node-sqlite3",
+      "target": "rogerwang/nw-gyp",
       "target_type": "repository"
     },
     {
@@ -185,7 +185,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-22T04:51:26.292471+00:00",
+  "fetched_at": "2026-04-23T01:11:39.997779+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -222,17 +222,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "prebuild/prebuild",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "prebuild/prebuild-install",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "rogerwang/node-webkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rogerwang/nw-gyp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sqlcipher/sqlcipher",
       "source_file": "README.md"
     }
   ],

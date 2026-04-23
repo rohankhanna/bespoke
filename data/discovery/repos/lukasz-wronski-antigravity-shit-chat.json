@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "ws",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/express",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/ws",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lukasz-wronski/Antigravity-Shit-Chat",
+      "target": "ws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lukasz-wronski/Antigravity-Shit-Chat",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukasz-wronski/Antigravity-Shit-Chat",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukasz-wronski/Antigravity-Shit-Chat",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukasz-wronski/Antigravity-Shit-Chat",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukasz-wronski/Antigravity-Shit-Chat",
+      "target": "@types/express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukasz-wronski/Antigravity-Shit-Chat",
+      "target": "@types/ws",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:09:25.701925+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2247
+    },
+    {
+      "path": "package.json",
+      "size": 663
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A hacky real-time mobile interface to watch and interact with Antigravity chats while you\u2019re away from your desk.",
+    "fork": true,
+    "full_name": "lukasz-wronski/Antigravity-Shit-Chat",
+    "html_url": "https://github.com/lukasz-wronski/Antigravity-Shit-Chat",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-17T07:34:52Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-11T08:15:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

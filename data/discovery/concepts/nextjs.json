@@ -79,6 +79,18 @@
       "source_repo": "Azzedde/brainstormers",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langgenius/dify",
+      "status": "candidate-context",
+      "text": "Production-ready platform for agentic workflow development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgenius/dify",
+      "status": "candidate-context",
+      "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "Azzedde/brainstormers",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgenius/dify",
+      "status": "candidate",
+      "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -196,11 +214,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Azzedde/brainstormers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "langgenius/dify"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

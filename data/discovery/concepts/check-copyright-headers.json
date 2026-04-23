@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Copyright Headers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/web-unified-docs",
+      "status": "candidate-context",
+      "text": "Hashicorp Unified Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/web-unified-docs",
+      "status": "candidate-context",
+      "text": "'Check Copyright Headers'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/web-unified-docs",
+      "status": "candidate",
+      "text": "'Check Copyright Headers'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23300,
+      "status": "candidate",
+      "text": "mistress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22505,
+      "status": "candidate",
+      "text": "bear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18505,
+      "status": "candidate",
+      "text": "titles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "bond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15064,
+      "status": "candidate",
+      "text": "trimmer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Copyright Headers",
+  "concept_id": "check-copyright-headers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/copyright-headers-check.yml",
+      "source_repo": "hashicorp/web-unified-docs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Copyright Headers",
+      "sense_id": "check-copyright-headers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

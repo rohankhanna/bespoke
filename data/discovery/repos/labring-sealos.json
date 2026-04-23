@@ -1,0 +1,621 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-cherry-pick.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-cherry-pick.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-cherry-pick.yml"
+    },
+    {
+      "component": "lizheming/github-translate-action@1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-issues-translator.yml"
+    },
+    {
+      "component": "actions/labeler@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-labels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-base-images.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-base-images.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-base-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-base-images.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-coverage.yml"
+    },
+    {
+      "component": "magnetikonline/action-golang-cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-coverage.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title-lint-semantic.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title-lint-semantic.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title-lint-semantic.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title-lint-semantic.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-semgrep.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml"
+    },
+    {
+      "component": "rlespinasse/git-commit-data-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml"
+    },
+    {
+      "component": "rlespinasse/git-commit-data-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-cherry-pick.yml",
+      "source_repo": "labring/sealos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-cherry-pick.yml",
+      "source_repo": "labring/sealos",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-cherry-pick.yml",
+      "source_repo": "labring/sealos",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-cherry-pick.yml",
+      "source_repo": "labring/sealos",
+      "target": "Github Rebot for Cherry Pick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-issues-translator.yml",
+      "source_repo": "labring/sealos",
+      "target": "lizheming/github-translate-action@1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-issues-translator.yml",
+      "source_repo": "labring/sealos",
+      "target": "Github Rebot for github-translate-action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-labels.yml",
+      "source_repo": "labring/sealos",
+      "target": "actions/labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-labels.yml",
+      "source_repo": "labring/sealos",
+      "target": "Github Rebot for Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-base-images.yml",
+      "source_repo": "labring/sealos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-base-images.yml",
+      "source_repo": "labring/sealos",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-base-images.yml",
+      "source_repo": "labring/sealos",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-base-images.yml",
+      "source_repo": "labring/sealos",
+      "target": "\ud83d\ude80 Build public cloud base images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-coverage.yml",
+      "source_repo": "labring/sealos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-coverage.yml",
+      "source_repo": "labring/sealos",
+      "target": "magnetikonline/action-golang-cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-coverage.yml",
+      "source_repo": "labring/sealos",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-coverage.yml",
+      "source_repo": "labring/sealos",
+      "target": "Check-Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license.yml",
+      "source_repo": "labring/sealos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license.yml",
+      "source_repo": "labring/sealos",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-license.yml",
+      "source_repo": "labring/sealos",
+      "target": "Check-License",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title-lint-semantic.yml",
+      "source_repo": "labring/sealos",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title-lint-semantic.yml",
+      "source_repo": "labring/sealos",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-pr-title-lint-semantic.yml",
+      "source_repo": "labring/sealos",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pr-title-lint-semantic.yml",
+      "source_repo": "labring/sealos",
+      "target": "Check PR title semantic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-semgrep.yml",
+      "source_repo": "labring/sealos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-semgrep.yml",
+      "source_repo": "labring/sealos",
+      "target": "Check-Semgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml",
+      "source_repo": "labring/sealos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml",
+      "source_repo": "labring/sealos",
+      "target": "rlespinasse/git-commit-data-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml",
+      "source_repo": "labring/sealos",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml",
+      "source_repo": "labring/sealos",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml",
+      "source_repo": "labring/sealos",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-patch-image.yml",
+      "source_repo": "labring/sealos",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-patch-image.yml",
+      "source_repo": "labring/sealos",
+      "target": "CI Patch Images Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "labring/sealos",
+      "target": "cloudos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "labring/sealos",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "labring/sealos",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "labring/sealos",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "labring/sealos",
+      "target": "install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "labring/sealos",
+      "target": "ipvs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "labring/sealos",
+      "target": "kubeadm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "labring/sealos",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "labring/sealos",
+      "target": "kubernetes-ha",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:26:09.926520+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8007
+    },
+    {
+      "path": ".github/workflows/bot-cherry-pick.yml",
+      "size": 2555
+    },
+    {
+      "path": ".github/workflows/bot-issues-translator.yml",
+      "size": 579
+    },
+    {
+      "path": ".github/workflows/bot-labels.yml",
+      "size": 247
+    },
+    {
+      "path": ".github/workflows/build-base-images.yml",
+      "size": 3563
+    },
+    {
+      "path": ".github/workflows/check-coverage.yml",
+      "size": 1221
+    },
+    {
+      "path": ".github/workflows/check-license.yml",
+      "size": 1026
+    },
+    {
+      "path": ".github/workflows/check-pr-title-lint-semantic.yml",
+      "size": 2120
+    },
+    {
+      "path": ".github/workflows/check-semgrep.yml",
+      "size": 2109
+    },
+    {
+      "path": ".github/workflows/ci-patch-image.yml",
+      "size": 5549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfect for building and scaling modern AI applications, managed databases (MySQL, PostgreSQL, Redis, MongoDB) and complex microservice architectures.",
+    "fork": false,
+    "full_name": "labring/sealos",
+    "html_url": "https://github.com/labring/sealos",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-22T08:36:30Z",
+    "stargazers_count": 17383,
+    "topics": [
+      "cloudos",
+      "container",
+      "docker",
+      "golang",
+      "install",
+      "ipvs",
+      "kubeadm",
+      "kubernetes",
+      "kubernetes-ha"
+    ],
+    "updated_at": "2026-04-23T01:02:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Github Rebot for Cherry Pick",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-cherry-pick.yml",
+      "term": "Github Rebot for Cherry Pick"
+    },
+    {
+      "context_snippet": "'Github Rebot for github-translate-action'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-issues-translator.yml",
+      "term": "Github Rebot for github-translate-action"
+    },
+    {
+      "context_snippet": "\"Github Rebot for Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-labels.yml",
+      "term": "Github Rebot for Pull Request Labeler"
+    },
+    {
+      "context_snippet": "\ud83d\ude80 Build public cloud base images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-base-images.yml",
+      "term": "\ud83d\ude80 Build public cloud base images"
+    },
+    {
+      "context_snippet": "Check-Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-coverage.yml",
+      "term": "Check-Coverage"
+    },
+    {
+      "context_snippet": "Check-License",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-license.yml",
+      "term": "Check-License"
+    },
+    {
+      "context_snippet": "'Check PR title semantic'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-pr-title-lint-semantic.yml",
+      "term": "Check PR title semantic"
+    },
+    {
+      "context_snippet": "Check-Semgrep",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-semgrep.yml",
+      "term": "Check-Semgrep"
+    },
+    {
+      "context_snippet": "CI Patch Images Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-patch-image.yml",
+      "term": "CI Patch Images Package"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudos"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "install"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipvs"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubeadm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-ha"
+    }
+  ]
+}

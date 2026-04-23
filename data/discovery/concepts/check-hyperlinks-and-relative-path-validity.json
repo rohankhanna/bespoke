@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check hyperlinks and relative path validity"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/neural-compressor",
+      "status": "candidate-context",
+      "text": "SOTA low-bit LLM quantization (INT8/FP8/MXFP8/INT4/MXFP4/NVFP4) & sparsity; leading model compression techniques on PyTorch, TensorFlow, and ONNX Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-compressor",
+      "status": "candidate-context",
+      "text": "Check hyperlinks and relative path validity"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-compressor",
+      "status": "candidate",
+      "text": "Check hyperlinks and relative path validity"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42737,
+      "status": "candidate",
+      "text": "lie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27554,
+      "status": "candidate",
+      "text": "accounting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27531,
+      "status": "candidate",
+      "text": "collection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27511,
+      "status": "candidate",
+      "text": "validate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27511,
+      "status": "candidate",
+      "text": "validated"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check hyperlinks and relative path validity",
+  "concept_id": "check-hyperlinks-and-relative-path-validity",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/pr-link-scan.yml",
+      "source_repo": "intel/neural-compressor"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check hyperlinks and relative path validity",
+      "sense_id": "check-hyperlinks-and-relative-path-validity#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

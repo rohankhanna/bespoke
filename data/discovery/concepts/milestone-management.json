@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Milestone Management"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "winsw/winsw",
+      "status": "candidate-context",
+      "text": "A wrapper executable that can run any executable as a Windows service, in a permissive license."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winsw/winsw",
+      "status": "candidate-context",
+      "text": "Milestone Management"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winsw/winsw",
+      "status": "candidate",
+      "text": "Milestone Management"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12960,
+      "status": "candidate",
+      "text": "framework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11940,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11940,
+      "status": "candidate",
+      "text": "advancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11940,
+      "status": "candidate",
+      "text": "breakthrough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11940,
+      "status": "candidate",
+      "text": "era"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Milestone Management",
+  "concept_id": "milestone-management",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/milestone-management.yml",
+      "source_repo": "winsw/winsw"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Milestone Management",
+      "sense_id": "milestone-management#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

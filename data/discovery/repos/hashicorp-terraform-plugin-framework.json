@@ -1,0 +1,498 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-changie.yml"
+    },
+    {
+      "component": "miniscruff/changie-action@11bcad388e7973948cbcecb10863baf024d5f607",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-changie.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github-actions.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github-actions.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@5e8dbf3c6d9deaf4193ca7a8fb23f2ac83bb6c85",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@5e8dbf3c6d9deaf4193ca7a8fb23f2ac83bb6c85",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-goreleaser.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-goreleaser.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-goreleaser.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compliance.yml"
+    },
+    {
+      "component": "hashicorp/setup-copywrite@32638da2d4e81d56a0764aa1547882fc4d209636",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compliance.yml"
+    },
+    {
+      "component": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "miniscruff/changie-action@11bcad388e7973948cbcecb10863baf024d5f607",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "miniscruff/changie-action@11bcad388e7973948cbcecb10863baf024d5f607",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "hashicorp/terraform-plugin-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "hashicorp/terraform-plugin-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-changie.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-changie.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "miniscruff/changie-action@11bcad388e7973948cbcecb10863baf024d5f607",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-changie.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "ci-changie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github-actions.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-github-actions.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-github-actions.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "ci-github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "golangci/golangci-lint-action@1e7e51e771db61008b38414a730f564565cf7c20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "hashicorp/setup-terraform@5e8dbf3c6d9deaf4193ca7a8fb23f2ac83bb6c85",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-go.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "ci-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-goreleaser.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-goreleaser.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-goreleaser.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-goreleaser.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "ci-goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compliance.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compliance.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "hashicorp/setup-copywrite@32638da2d4e81d56a0764aa1547882fc4d209636",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compliance.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "compliance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-comment-triage.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "Issue Comment Triage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "Lock Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "miniscruff/changie-action@11bcad388e7973948cbcecb10863baf024d5f607",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "goreleaser/goreleaser-action@ec59f474b9834571250b370d4735c50f8e2d1e29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-plugin-framework",
+      "target": "terraform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:16:54.336253+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2928
+    },
+    {
+      "path": "go.mod",
+      "size": 1240
+    },
+    {
+      "path": ".github/workflows/ci-changie.yml",
+      "size": 779
+    },
+    {
+      "path": ".github/workflows/ci-github-actions.yml",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/ci-go.yml",
+      "size": 3551
+    },
+    {
+      "path": ".github/workflows/ci-goreleaser.yml",
+      "size": 595
+    },
+    {
+      "path": ".github/workflows/compliance.yml",
+      "size": 399
+    },
+    {
+      "path": ".github/workflows/issue-comment-triage.yml",
+      "size": 944
+    },
+    {
+      "path": ".github/workflows/lock.yml",
+      "size": 768
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 4158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A next-generation framework for building Terraform providers.",
+    "fork": false,
+    "full_name": "hashicorp/terraform-plugin-framework",
+    "html_url": "https://github.com/hashicorp/terraform-plugin-framework",
+    "language": "Go",
+    "pushed_at": "2026-04-22T08:05:20Z",
+    "stargazers_count": 377,
+    "topics": [
+      "terraform"
+    ],
+    "updated_at": "2026-04-13T17:09:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashicorp/terraform-plugin-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashicorp/terraform-plugin-sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ci-changie",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-changie.yml",
+      "term": "ci-changie"
+    },
+    {
+      "context_snippet": "ci-github-actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-github-actions.yml",
+      "term": "ci-github-actions"
+    },
+    {
+      "context_snippet": "ci-go",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-go.yml",
+      "term": "ci-go"
+    },
+    {
+      "context_snippet": "ci-goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-goreleaser.yml",
+      "term": "ci-goreleaser"
+    },
+    {
+      "context_snippet": "compliance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compliance.yml",
+      "term": "compliance"
+    },
+    {
+      "context_snippet": "Issue Comment Triage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-comment-triage.yml",
+      "term": "Issue Comment Triage"
+    },
+    {
+      "context_snippet": "'Lock Threads'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "term": "Lock Threads"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "[![PkgGoDev](https://pkg.go.dev/badge/github.com/hashicorp/terraform-plugin-framework)](https://pkg.go.dev/github.com/hashicorp/terraform-plugin-framework)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    }
+  ]
+}

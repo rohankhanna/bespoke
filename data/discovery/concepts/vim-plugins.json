@@ -43,6 +43,30 @@
       "source_repo": "itchyny/vim-gitbranch",
       "status": "candidate-context",
       "text": "This plugin provides a function which returns the name of the git branch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kana/vim-vspec",
+      "status": "candidate-context",
+      "text": "Vim plugin: Testing framework for Vim script"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kana/vim-vspec",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/kana/vim-vspec/actions/workflows/ci.yml/badge.svg)](https://github.com/kana/vim-vspec/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ludovicchabant/vim-gutentags",
+      "status": "candidate-context",
+      "text": "A Vim plugin that manages your tag files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ludovicchabant/vim-gutentags",
+      "status": "candidate-context",
+      "text": "Gutentags is a plugin that takes care of the much needed management of tags"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "itchyny/vim-gitbranch",
       "status": "candidate",
       "text": "This plugin provides a function which returns the name of the git branch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kana/vim-vspec",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/kana/vim-vspec/actions/workflows/ci.yml/badge.svg)](https://github.com/kana/vim-vspec/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ludovicchabant/vim-gutentags",
+      "status": "candidate",
+      "text": "Gutentags is a plugin that takes care of the much needed management of tags"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +130,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "kana/vim-vspec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ludovicchabant/vim-gutentags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

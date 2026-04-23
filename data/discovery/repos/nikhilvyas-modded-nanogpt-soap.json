@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nikhilvyas/modded-nanogpt-SOAP",
+      "target": "nikhilvyas/soap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nikhilvyas/modded-nanogpt-SOAP",
+      "target": "facebookresearch/optimizers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:23:17.559837+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8153
+    },
+    {
+      "path": "requirements.txt",
+      "size": 51
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NanoGPT (124M) quality in 3.7B tokens with SOAP optimizer",
+    "fork": true,
+    "full_name": "nikhilvyas/modded-nanogpt-SOAP",
+    "html_url": "https://github.com/nikhilvyas/modded-nanogpt-SOAP",
+    "language": "Python",
+    "pushed_at": "2024-10-06T08:52:17Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-03-02T12:51:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/optimizers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nikhilvyas/soap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

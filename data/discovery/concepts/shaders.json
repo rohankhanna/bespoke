@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Shaders"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate-context",
+      "text": "A cross-platform, safe, pure-Rust graphics API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate-context",
+      "text": "Shaders"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate",
+      "text": "Shaders"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012306,
+      "status": "candidate",
+      "text": "fragment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31464,
+      "status": "candidate",
+      "text": "tessellation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31463,
+      "status": "candidate",
+      "text": "renderer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31462,
+      "status": "candidate",
+      "text": "antialiasing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31461,
+      "status": "candidate",
+      "text": "plugins"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Shaders",
+  "concept_id": "shaders",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/shaders.yml",
+      "source_repo": "gfx-rs/wgpu"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Shaders",
+      "sense_id": "shaders#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -85,6 +85,18 @@
       "source_repo": "AIPexStudio/AIPex",
       "status": "candidate-context",
       "text": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate-context",
+      "text": "Google Workspace CLI \u2014 one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">gws</h1>"
     }
   ],
   "candidate_glosses": [
@@ -123,6 +135,12 @@
       "source_repo": "AIPexStudio/AIPex",
       "status": "candidate",
       "text": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">gws</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +196,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "AIPexStudio/AIPex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "googleworkspace/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:13:34.788084+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Source training data for Tesseract for lots of languages",
+    "fork": false,
+    "full_name": "tesseract-ocr/langdata",
+    "html_url": "https://github.com/tesseract-ocr/langdata",
+    "language": null,
+    "pushed_at": "2025-04-01T10:29:37Z",
+    "stargazers_count": 866,
+    "topics": [],
+    "updated_at": "2026-04-10T13:04:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

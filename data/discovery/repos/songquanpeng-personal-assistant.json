@@ -1,0 +1,193 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/personal-assistant",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/personal-assistant",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/personal-assistant",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/personal-assistant",
+      "target": "Linux Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/personal-assistant",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/personal-assistant",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/personal-assistant",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/personal-assistant",
+      "target": "macOS Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/personal-assistant",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/personal-assistant",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/personal-assistant",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/personal-assistant",
+      "target": "Windows Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:26:22.827696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2626
+    },
+    {
+      "path": "requirements.txt",
+      "size": 113
+    },
+    {
+      "path": ".github/workflows/linux-release.yml",
+      "size": 849
+    },
+    {
+      "path": ".github/workflows/macos-release.yml",
+      "size": 825
+    },
+    {
+      "path": ".github/workflows/windows-release.yml",
+      "size": 842
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u8ba9\u751f\u6d3b\u7b80\u5355\u4e00\u70b9\u7684\u4e2a\u4eba\u52a9\u7406\u5e94\u7528. A personal assistant app that makes your life easier.",
+    "fork": false,
+    "full_name": "songquanpeng/personal-assistant",
+    "html_url": "https://github.com/songquanpeng/personal-assistant",
+    "language": "Python",
+    "pushed_at": "2023-05-31T03:14:08Z",
+    "stargazers_count": 35,
+    "topics": [],
+    "updated_at": "2026-04-02T12:59:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linux Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-release.yml",
+      "term": "Linux Release"
+    },
+    {
+      "context_snippet": "macOS Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-release.yml",
+      "term": "macOS Release"
+    },
+    {
+      "context_snippet": "Windows Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-release.yml",
+      "term": "Windows Release"
+    }
+  ]
+}

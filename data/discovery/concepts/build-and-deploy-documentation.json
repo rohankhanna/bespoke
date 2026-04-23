@@ -31,6 +31,18 @@
       "source_repo": "ROCm/iris",
       "status": "candidate-context",
       "text": "Build and Deploy Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/tritonBLAS",
+      "status": "candidate-context",
+      "text": "A lightweight triton-based General Matrix Multiplication (GEMM) library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/tritonBLAS",
+      "status": "candidate-context",
+      "text": "Build and Deploy Documentation"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ROCm/iris",
+      "status": "candidate",
+      "text": "Build and Deploy Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/tritonBLAS",
       "status": "candidate",
       "text": "Build and Deploy Documentation"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "ROCm/iris"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ROCm/tritonBLAS"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

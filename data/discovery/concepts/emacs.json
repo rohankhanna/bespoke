@@ -55,6 +55,54 @@
       "source_repo": "jwiegley/use-package",
       "status": "candidate-context",
       "text": "Since `use-package` is now a part of Emacs core, all development has"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flycheck/flycheck",
+      "status": "candidate-context",
+      "text": "On the fly syntax checking for GNU Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flycheck/flycheck",
+      "status": "candidate-context",
+      "text": "[![License GPL 3](https://img.shields.io/github/license/flycheck/flycheck.svg)][COPYING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bbatsov/crux",
+      "status": "candidate-context",
+      "text": "A Collection of Ridiculously Useful eXtensions for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/crux",
+      "status": "candidate-context",
+      "text": "[![License GPL 3][badge-license]][copying]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bbatsov/super-save",
+      "status": "candidate-context",
+      "text": "Save Emacs buffers when they lose focus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/super-save",
+      "status": "candidate-context",
+      "text": "[![License GPL 3][badge-license]][copying]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radian-software/straight.el",
+      "status": "candidate-context",
+      "text": "\ud83c\udf40 Next-generation, purely functional package manager for the Emacs hacker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radian-software/straight.el",
+      "status": "candidate-context",
+      "text": "**straight.el**: next-generation, purely functional package manager"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "jwiegley/use-package",
       "status": "candidate",
       "text": "Since `use-package` is now a part of Emacs core, all development has"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flycheck/flycheck",
+      "status": "candidate",
+      "text": "[![License GPL 3](https://img.shields.io/github/license/flycheck/flycheck.svg)][COPYING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/crux",
+      "status": "candidate",
+      "text": "[![License GPL 3][badge-license]][copying]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/super-save",
+      "status": "candidate",
+      "text": "[![License GPL 3][badge-license]][copying]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radian-software/straight.el",
+      "status": "candidate",
+      "text": "**straight.el**: next-generation, purely functional package manager"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +220,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "jwiegley/use-package"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "flycheck/flycheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "bbatsov/crux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "bbatsov/super-save"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "radian-software/straight.el"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

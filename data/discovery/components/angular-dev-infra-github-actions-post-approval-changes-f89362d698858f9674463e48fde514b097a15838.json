@@ -1,0 +1,12 @@
+{
+  "component": "angular/dev-infra/github-actions/post-approval-changes@f89362d698858f9674463e48fde514b097a15838",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev-infra.yml",
+      "source_repo": "angular/vscode-ng-language-service"
+    }
+  ]
+}

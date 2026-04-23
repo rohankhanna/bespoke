@@ -85,6 +85,30 @@
       "source_repo": "anse-app/anse",
       "status": "candidate-context",
       "text": "![Banner](https://user-images.githubusercontent.com/1998168/235366625-e615e68d-592c-4f18-9c9f-1e5cd1778557.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepset-ai/haystack",
+      "status": "candidate-context",
+      "text": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langgenius/dify",
+      "status": "candidate-context",
+      "text": "Production-ready platform for agentic workflow development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgenius/dify",
+      "status": "candidate-context",
+      "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
     }
   ],
   "candidate_glosses": [
@@ -123,6 +147,18 @@
       "source_repo": "anse-app/anse",
       "status": "candidate",
       "text": "![Banner](https://user-images.githubusercontent.com/1998168/235366625-e615e68d-592c-4f18-9c9f-1e5cd1778557.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgenius/dify",
+      "status": "candidate",
+      "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +220,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "langgenius/dify"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

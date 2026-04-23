@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "aiagent"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aporthq/aport-spec",
+      "status": "candidate-context",
+      "text": "Open Agent Passport (OAP) Spec for AI Agent Passport and pre-action authourization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aporthq/aport-spec",
+      "status": "candidate-context",
+      "text": "> *The runtime trust rail for AI agents*"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aporthq/aport-spec",
+      "status": "candidate",
+      "text": "> *The runtime trust rail for AI agents*"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "aiagent",
+  "concept_id": "aiagent",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "aporthq/aport-spec"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aiagent",
+      "sense_id": "aiagent#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

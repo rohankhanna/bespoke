@@ -55,6 +55,30 @@
       "source_repo": "Charlie85270/Dorothy",
       "status": "candidate-context",
       "text": "![Dorothy](screenshots/background-2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepset-ai/haystack",
+      "status": "candidate-context",
+      "text": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langgenius/dify",
+      "status": "candidate-context",
+      "text": "Production-ready platform for agentic workflow development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgenius/dify",
+      "status": "candidate-context",
+      "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "Charlie85270/Dorothy",
       "status": "candidate",
       "text": "![Dorothy](screenshots/background-2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgenius/dify",
+      "status": "candidate",
+      "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "Charlie85270/Dorothy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "langgenius/dify"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

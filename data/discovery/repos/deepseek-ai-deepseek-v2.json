@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:19:09.311913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+    "fork": false,
+    "full_name": "deepseek-ai/DeepSeek-V2",
+    "html_url": "https://github.com/deepseek-ai/DeepSeek-V2",
+    "language": null,
+    "pushed_at": "2024-09-25T10:23:55Z",
+    "stargazers_count": 5007,
+    "topics": [],
+    "updated_at": "2026-04-22T14:00:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

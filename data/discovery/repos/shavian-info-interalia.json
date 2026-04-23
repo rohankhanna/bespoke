@@ -1,0 +1,160 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shavian-info/interalia",
+      "target": "alphabet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shavian-info/interalia",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shavian-info/interalia",
+      "target": "international",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shavian-info/interalia",
+      "target": "phonetic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shavian-info/interalia",
+      "target": "reform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shavian-info/interalia",
+      "target": "sans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shavian-info/interalia",
+      "target": "shavian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shavian-info/interalia",
+      "target": "shaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shavian-info/interalia",
+      "target": "spelling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:15:26.748436+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3723
+    },
+    {
+      "path": "requirements.txt",
+      "size": 33
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Inter Alia is an expanded version of the Inter font family",
+    "fork": false,
+    "full_name": "Shavian-info/interalia",
+    "html_url": "https://github.com/Shavian-info/interalia",
+    "language": "Shell",
+    "pushed_at": "2024-01-12T20:51:54Z",
+    "stargazers_count": 72,
+    "topics": [
+      "alphabet",
+      "font",
+      "international",
+      "phonetic",
+      "reform",
+      "sans",
+      "shavian",
+      "shaw",
+      "spelling"
+    ],
+    "updated_at": "2026-04-14T11:28:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alphabet"
+    },
+    {
+      "context_snippet": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "international"
+    },
+    {
+      "context_snippet": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phonetic"
+    },
+    {
+      "context_snippet": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reform"
+    },
+    {
+      "context_snippet": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sans"
+    },
+    {
+      "context_snippet": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shavian"
+    },
+    {
+      "context_snippet": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shaw"
+    },
+    {
+      "context_snippet": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spelling"
+    }
+  ]
+}

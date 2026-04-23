@@ -91,6 +91,42 @@
       "source_repo": "serde-rs/json",
       "status": "candidate-context",
       "text": "[Build Status]: https://img.shields.io/github/actions/workflow/status/serde-rs/json/ci.yml?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itchyny/gojq",
+      "status": "candidate-context",
+      "text": "Pure Go implementation of jq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itchyny/gojq",
+      "status": "candidate-context",
+      "text": "[![CI Status](https://github.com/itchyny/gojq/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/itchyny/gojq/actions?query=branch:main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "circe/circe",
+      "status": "candidate-context",
+      "text": "Yet another JSON library for Scala"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "circe/circe",
+      "status": "candidate-context",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/circe/circe/ci.yml)](https://github.com/circe/circe/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "serde-rs/json",
       "status": "candidate",
       "text": "[Build Status]: https://img.shields.io/github/actions/workflow/status/serde-rs/json/ci.yml?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itchyny/gojq",
+      "status": "candidate",
+      "text": "[![CI Status](https://github.com/itchyny/gojq/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/itchyny/gojq/actions?query=branch:main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "circe/circe",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/circe/circe/ci.yml)](https://github.com/circe/circe/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -213,11 +267,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "serde-rs/json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "itchyny/gojq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "circe/circe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

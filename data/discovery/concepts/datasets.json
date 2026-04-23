@@ -55,6 +55,18 @@
       "source_repo": "explosion/projects",
       "status": "candidate-context",
       "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RUC-NLPIR/FlashRAG",
+      "status": "candidate-context",
+      "text": "\u26a1FlashRAG: A Python Toolkit for Efficient RAG Research (WWW2025 Resource)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RUC-NLPIR/FlashRAG",
+      "status": "candidate-context",
+      "text": "\\[ English | [\u4e2d\u6587](README_zh.md) \\]"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "explosion/projects",
       "status": "candidate",
       "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RUC-NLPIR/FlashRAG",
+      "status": "candidate",
+      "text": "\\[ English | [\u4e2d\u6587](README_zh.md) \\]"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "explosion/projects"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/FlashRAG"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Selene check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Selene check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13700,
+      "status": "candidate",
+      "text": "eos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13700,
+      "status": "candidate",
+      "text": "moon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13085,
+      "status": "candidate",
+      "text": "aphrodite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10669,
+      "status": "candidate",
+      "text": "bride"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10669,
+      "status": "candidate",
+      "text": "sun"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Selene check",
+      "sense_id": "selene-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "selene-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "selene-check",
+  "observation_id": "d4d6d0e53d127441",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "Selene check",
+  "source_context_snippet": "Selene check",
+  "source_file": ".github/workflows/selene.yml",
+  "source_repo": "mason-org/mason.nvim",
+  "source_repo_description": "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters."
+}

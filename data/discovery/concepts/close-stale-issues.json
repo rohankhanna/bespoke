@@ -248,6 +248,102 @@
       "source_repo": "libp2p/js-libp2p-example-auto-tls",
       "status": "candidate-context",
       "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nektos/act",
+      "status": "candidate-context",
+      "text": "Run your GitHub Actions locally \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nektos/act",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/specs",
+      "status": "candidate-context",
+      "text": "Technical specifications for the IPFS protocol stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/specs",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/community",
+      "status": "candidate-context",
+      "text": "Discussion and documentation on community practices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/community",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/multiformats",
+      "status": "candidate-context",
+      "text": "The main repository for discussing multiformats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/multiformats",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/cid",
+      "status": "candidate-context",
+      "text": "Self-describing content-addressed identifiers for distributed systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/cid",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/multibase",
+      "status": "candidate-context",
+      "text": "Self identifying base encodings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/multibase",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/multicodec",
+      "status": "candidate-context",
+      "text": "Compact self-describing codecs. Save space by using predefined multicodec tables."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/multicodec",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/multihash",
+      "status": "candidate-context",
+      "text": "Self describing hashes - for future proofing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/multihash",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
     }
   ],
   "candidate_glosses": [
@@ -368,6 +464,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "libp2p/js-libp2p-example-auto-tls",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nektos/act",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/specs",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/community",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/multiformats",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/cid",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/multibase",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/multicodec",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/multihash",
       "status": "candidate",
       "text": "Close Stale Issues"
     }
@@ -539,11 +683,59 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "libp2p/js-libp2p-example-auto-tls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "nektos/act"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/multiformats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/multibase"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/multicodec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/multihash"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

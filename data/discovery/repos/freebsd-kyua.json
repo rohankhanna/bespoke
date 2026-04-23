@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "freebsd/kyua",
+      "target": "freebsd/atf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "freebsd/kyua",
+      "target": "automated-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "freebsd/kyua",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "freebsd/kyua",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "freebsd/kyua",
+      "target": "infrastructure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "freebsd/kyua",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:17:03.465378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2655
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Port/Package build and test system",
+    "fork": false,
+    "full_name": "freebsd/kyua",
+    "html_url": "https://github.com/freebsd/kyua",
+    "language": "C++",
+    "pushed_at": "2026-04-18T18:16:04Z",
+    "stargazers_count": 175,
+    "topics": [
+      "automated-tests",
+      "automation",
+      "framework",
+      "infrastructure",
+      "testing"
+    ],
+    "updated_at": "2026-04-18T18:16:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "freebsd/atf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Kyua is a **testing framework** for infrastructure software, originally",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automated-tests"
+    },
+    {
+      "context_snippet": "Kyua is a **testing framework** for infrastructure software, originally",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "Kyua is a **testing framework** for infrastructure software, originally",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "Kyua is a **testing framework** for infrastructure software, originally",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure"
+    },
+    {
+      "context_snippet": "Kyua is a **testing framework** for infrastructure software, originally",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

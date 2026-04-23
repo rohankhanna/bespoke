@@ -4,21 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "TryGhost/node-sqlite3",
-      "target": "prebuild/prebuild-install",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TryGhost/node-sqlite3",
-      "target": "prebuild/prebuild",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TryGhost/node-sqlite3",
       "target": "rogerwang/node-webkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TryGhost/node-sqlite3",
+      "target": "sqlcipher/sqlcipher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TryGhost/node-sqlite3",
+      "target": "rogerwang/nw-gyp",
       "target_type": "repository"
     },
     {
@@ -113,6 +113,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
   "source_repo": "TryGhost/node-sqlite3"
 }

@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:12:48.271745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8301
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 960
+    },
+    {
+      "path": "requirements.txt",
+      "size": 97
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch Extension:  Tools for easy mixed precision and distributed training in Pytorch",
+    "fork": false,
+    "full_name": "NVIDIA/apex",
+    "html_url": "https://github.com/NVIDIA/apex",
+    "language": "Python",
+    "pushed_at": "2026-04-20T20:51:11Z",
+    "stargazers_count": 8950,
+    "topics": [],
+    "updated_at": "2026-04-21T17:38:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

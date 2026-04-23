@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "huffman"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cyan4973/FiniteStateEntropy",
+      "status": "candidate-context",
+      "text": "New generation entropy codecs : Finite State Entropy and Huff0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cyan4973/FiniteStateEntropy",
+      "status": "candidate-context",
+      "text": "New Generation Entropy coders"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cyan4973/FiniteStateEntropy",
+      "status": "candidate",
+      "text": "New Generation Entropy coders"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18629675,
+      "status": "candidate",
+      "text": "hoffmann"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18627508,
+      "status": "candidate",
+      "text": "hoffman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8630699,
+      "status": "candidate",
+      "text": "hofmann"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8630697,
+      "status": "candidate",
+      "text": "huffaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8630696,
+      "status": "candidate",
+      "text": "huff"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "huffman",
+  "concept_id": "huffman",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "Cyan4973/FiniteStateEntropy"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "huffman",
+      "sense_id": "huffman#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

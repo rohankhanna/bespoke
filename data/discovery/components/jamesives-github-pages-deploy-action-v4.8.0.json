@@ -1,0 +1,17 @@
+{
+  "component": "JamesIves/github-pages-deploy-action@v4.8.0",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "gfx-rs/wgpu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "gfx-rs/wgpu"
+    }
+  ]
+}

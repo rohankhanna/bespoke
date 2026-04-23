@@ -151,6 +151,30 @@
       "source_repo": "apache/dubbo",
       "status": "candidate-context",
       "text": "[![Build and Test For PR](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml/badge.svg)](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httplib2/httplib2",
+      "status": "candidate-context",
+      "text": "Small, fast HTTP client library for Python. Features persistent connections, cache, and Google App Engine support. Originally written by Joe Gregorio, now supported by community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httplib2/httplib2",
+      "status": "candidate-context",
+      "text": "Introduction"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate-context",
+      "text": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +249,18 @@
       "source_repo": "apache/dubbo",
       "status": "candidate",
       "text": "[![Build and Test For PR](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml/badge.svg)](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httplib2/httplib2",
+      "status": "candidate",
+      "text": "Introduction"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -366,11 +402,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "httplib2/httplib2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "caddyserver/caddy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

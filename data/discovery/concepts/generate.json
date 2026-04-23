@@ -33,6 +33,18 @@
       "source_repo": "go-woo/protoc-gen-echo",
       "status": "candidate-context",
       "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate-context",
+      "text": "A Pluggable Terraform Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate-context",
+      "text": "generate"
     }
   ],
   "candidate_glosses": [
@@ -47,6 +59,12 @@
       "source_repo": "go-woo/protoc-gen-echo",
       "status": "candidate",
       "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate",
+      "text": "generate"
     }
   ],
   "candidate_related_terms": [
@@ -138,11 +156,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "go-woo/protoc-gen-echo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "terraform-linters/tflint"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

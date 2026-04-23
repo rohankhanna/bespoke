@@ -68,6 +68,30 @@
       "source_repo": "voxel51/fiftyone",
       "status": "candidate-context",
       "text": "Build docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "status": "candidate-context",
+      "text": "Ongoing research training transformer models at scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "status": "candidate-context",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "Build Docs"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +124,18 @@
       "source_repo": "voxel51/fiftyone",
       "status": "candidate",
       "text": "Build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "status": "candidate",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate",
+      "text": "Build Docs"
     }
   ],
   "candidate_related_terms": [
@@ -179,11 +215,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "voxel51/fiftyone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA/Megatron-LM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

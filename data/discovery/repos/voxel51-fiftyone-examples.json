@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voxel51/fiftyone-examples",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voxel51/fiftyone-examples",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voxel51/fiftyone-examples",
+      "target": "dev-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "voxel51/fiftyone-examples",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:20:28.707615+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 56193
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 84
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Examples of using FiftyOne",
+    "fork": false,
+    "full_name": "voxel51/fiftyone-examples",
+    "html_url": "https://github.com/voxel51/fiftyone-examples",
+    "language": "Python",
+    "pushed_at": "2026-03-23T22:24:14Z",
+    "stargazers_count": 234,
+    "topics": [
+      "artificial-intelligence",
+      "computer-vision",
+      "dev-tools",
+      "machine-learning"
+    ],
+    "updated_at": "2026-03-23T22:24:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dev-tools"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

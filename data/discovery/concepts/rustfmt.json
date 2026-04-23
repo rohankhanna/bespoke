@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "rust-lang/rustfmt",
       "status": "candidate-context",
       "text": "A tool for formatting Rust code according to style guidelines."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anderejd/cargo-geiger",
+      "status": "candidate-context",
+      "text": "Detects usage of unsafe Rust in a Rust crate and its dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anderejd/cargo-geiger",
+      "status": "candidate-context",
+      "text": "rustfmt"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "rust-lang/rustfmt",
       "status": "candidate",
       "text": "A tool for formatting Rust code according to style guidelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anderejd/cargo-geiger",
+      "status": "candidate",
+      "text": "rustfmt"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +66,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "rust-lang/rustfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "anderejd/cargo-geiger"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

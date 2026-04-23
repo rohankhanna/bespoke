@@ -84,7 +84,7 @@
   "normalized_form": "protobuf-janitor",
   "observation_id": "8cf432ca45f62505",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
   "observed_text": "Protobuf Janitor",
   "source_context_snippet": "Protobuf Janitor",
   "source_file": ".github/workflows/janitor.yml",

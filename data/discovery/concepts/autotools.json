@@ -31,6 +31,18 @@
       "source_repo": "tesseract-ocr/tesseract",
       "status": "candidate-context",
       "text": "autotools"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agl/jbig2enc",
+      "status": "candidate-context",
+      "text": "JBIG2 Encoder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agl/jbig2enc",
+      "status": "candidate-context",
+      "text": "autotools"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tesseract-ocr/tesseract",
+      "status": "candidate",
+      "text": "autotools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agl/jbig2enc",
       "status": "candidate",
       "text": "autotools"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/autotools.yml",
       "source_repo": "tesseract-ocr/tesseract"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/autotools.yaml",
+      "source_repo": "agl/jbig2enc"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

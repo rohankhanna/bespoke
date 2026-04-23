@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -66,6 +66,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "shuaibiyy/awesome-tf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "terraform-linters/tflint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-plugin-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-plugin-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashicorp/terraform-provider-scaffolding"
     }
   ],
   "term": "terraform"

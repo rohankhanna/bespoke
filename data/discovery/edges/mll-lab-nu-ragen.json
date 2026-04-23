@@ -4,31 +4,31 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mll-lab-nu/RAGEN",
-      "target": "alibaba/roll",
+      "target": "openmanus/openmanus-rl",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mll-lab-nu/RAGEN",
-      "target": "alibaba-nlp/zerosearch",
+      "target": "pzyseere/metaspatial",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mll-lab-nu/RAGEN",
-      "target": "agentr1/agent-r1",
+      "target": "pat-jj/s3",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mll-lab-nu/RAGEN",
-      "target": "deepseek-ai/deepseek-r1",
+      "target": "jiayi-pan/tinyzero",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
   "source_repo": "mll-lab-nu/RAGEN"
 }

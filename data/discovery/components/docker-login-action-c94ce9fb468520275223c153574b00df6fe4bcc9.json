@@ -2,7 +2,7 @@
   "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -94,6 +94,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yaml",
       "source_repo": "coder/code-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "huggingface/trl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docker_images.yml",
+      "source_repo": "fish-shell/fish-shell"
     }
   ]
 }

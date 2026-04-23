@@ -19,6 +19,18 @@
       "source_repo": "birdofpreyru/js-utils",
       "status": "candidate-context",
       "text": "[React Utils]: https://github.com/birdofpreyru/react-utils"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashberg-io/typing-validation",
+      "status": "candidate-context",
+      "text": "A simple library for runtime type-checking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashberg-io/typing-validation",
+      "status": "candidate-context",
+      "text": "typing-validation: Validation using Type Hints"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "birdofpreyru/js-utils",
       "status": "candidate",
       "text": "[React Utils]: https://github.com/birdofpreyru/react-utils"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashberg-io/typing-validation",
+      "status": "candidate",
+      "text": "typing-validation: Validation using Type Hints"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "birdofpreyru/js-utils"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "hashberg-io/typing-validation"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

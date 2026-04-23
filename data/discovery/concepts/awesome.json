@@ -115,6 +115,42 @@
       "source_repo": "shuaibiyy/awesome-tf",
       "status": "candidate-context",
       "text": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "steren/awesome-cloud-run",
+      "status": "candidate-context",
+      "text": "\ud83d\udc53 \u23e9 A curated list of resources about all things Cloud Run"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "steren/awesome-cloud-run",
+      "status": "candidate-context",
+      "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "status": "candidate-context",
+      "text": "\ud83d\ude4b \u95ee\u5f97\u597d\uff0c\ud83d\udde3 \u7b54\u5f97\u5999\u3002\u90a3\u4e9b\u503c\u5f97\u8bb0\u5f55\u7684\u4e0eChatGPT\u7684\u95ee\u7b54\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "status": "candidate-context",
+      "text": "\ud83e\udda9 \u4f18\u79c0\u7684\u4e2d\u6587\u533a\u4e2a\u4eba\u4e3b\u9875\u641c\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -165,6 +201,24 @@
       "source_repo": "shuaibiyy/awesome-tf",
       "status": "candidate",
       "text": "[![Link Checker](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml/badge.svg)](https://github.com/shuaibiyy/awesome-tf/actions/workflows/link-checker.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "steren/awesome-cloud-run",
+      "status": "candidate",
+      "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -310,11 +364,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "shuaibiyy/awesome-tf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "steren/awesome-cloud-run"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-chatgpt-answer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

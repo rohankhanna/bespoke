@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multiarch/crossbuild",
+      "target": "bit-spark/objective-c-hello-world",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multiarch/crossbuild",
+      "target": "scaleway/initrd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multiarch/crossbuild",
+      "target": "multiarch/build-xnbd-client-static",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multiarch/crossbuild",
+      "target": "steeve/cross-compiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "multiarch/crossbuild",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "multiarch/crossbuild",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "multiarch/crossbuild",
+      "target": "build-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "multiarch/crossbuild",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "multiarch/crossbuild",
+      "target": "builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "multiarch/crossbuild",
+      "target": "cross-compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "multiarch/crossbuild",
+      "target": "crossbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "multiarch/crossbuild",
+      "target": "multiarch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:23:39.977298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5880
+    },
+    {
+      "path": "Dockerfile",
+      "size": 9259
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 668
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":earth_africa: multiarch cross compiling environments",
+    "fork": false,
+    "full_name": "multiarch/crossbuild",
+    "html_url": "https://github.com/multiarch/crossbuild",
+    "language": "Dockerfile",
+    "pushed_at": "2022-03-21T07:38:14Z",
+    "stargazers_count": 970,
+    "topics": [
+      "build-system",
+      "build-tool",
+      "builder",
+      "cross-compiler",
+      "crossbuild",
+      "multiarch"
+    ],
+    "updated_at": "2026-04-22T16:45:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bit-spark/objective-c-hello-world",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multiarch/build-xnbd-client-static",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scaleway/initrd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "steeve/cross-compiler",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "actions"
+    },
+    {
+      "context_snippet": ":earth_africa: multiarch cross compiling environments",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-system"
+    },
+    {
+      "context_snippet": ":earth_africa: multiarch cross compiling environments",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": ":earth_africa: multiarch cross compiling environments",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "builder"
+    },
+    {
+      "context_snippet": ":earth_africa: multiarch cross compiling environments",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-compiler"
+    },
+    {
+      "context_snippet": ":earth_africa: multiarch cross compiling environments",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crossbuild"
+    },
+    {
+      "context_snippet": ":earth_africa: multiarch cross compiling environments",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiarch"
+    }
+  ]
+}

@@ -19,12 +19,30 @@
       "source_repo": "comit-network/xmr-btc-swap",
       "status": "candidate-context",
       "text": "\"Build swap and asb release binaries\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UnstoppableSwap/wallet",
+      "status": "candidate-context",
+      "text": "Moved to https://github.com/eigenwallet/core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UnstoppableSwap/wallet",
+      "status": "candidate-context",
+      "text": "\"Build swap and asb release binaries\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "comit-network/xmr-btc-swap",
+      "status": "candidate",
+      "text": "\"Build swap and asb release binaries\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UnstoppableSwap/wallet",
       "status": "candidate",
       "text": "\"Build swap and asb release binaries\""
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/build-release-binaries.yml",
       "source_repo": "comit-network/xmr-btc-swap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build-release-binaries.yml",
+      "source_repo": "UnstoppableSwap/wallet"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

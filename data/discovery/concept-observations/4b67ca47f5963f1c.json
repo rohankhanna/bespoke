@@ -79,7 +79,7 @@
   "normalized_form": "add-pull-ready-label",
   "observation_id": "4b67ca47f5963f1c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
   "observed_text": "Add Pull Ready Label",
   "source_context_snippet": "Add Pull Ready Label",
   "source_file": ".github/workflows/AddPullReady.yml",

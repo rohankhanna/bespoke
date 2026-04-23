@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "gpu-mode/Triton-Puzzles",
-      "target": "deep-learning-profiling-tools/triton-viz",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gpu-mode/Triton-Puzzles",
       "target": "openai/triton",
       "target_type": "repository"
     },
@@ -18,14 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "gpu-mode/Triton-Puzzles",
-      "target": "srush/autodiff-puzzles",
+      "target": "srush/gpu-puzzles",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "gpu-mode/Triton-Puzzles",
-      "target": "srush/gptworld",
+      "target": "srush/tensor-puzzles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gpu-mode/Triton-Puzzles",
+      "target": "srush/llm-training-puzzles",
       "target_type": "repository"
     },
     {
@@ -43,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
   "source_repo": "gpu-mode/Triton-Puzzles"
 }

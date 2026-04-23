@@ -19,12 +19,30 @@
       "source_repo": "alibaba/nacos",
       "status": "candidate-context",
       "text": "Integration Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "Build and deploy Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "Integration Test"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "alibaba/nacos",
+      "status": "candidate",
+      "text": "Integration Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
       "status": "candidate",
       "text": "Integration Test"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/it-new.yml",
       "source_repo": "alibaba/nacos"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/modules-integration-test.yaml",
+      "source_repo": "ko-build/ko"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

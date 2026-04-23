@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "app-mesh"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-app-mesh-examples",
+      "status": "candidate-context",
+      "text": "AWS App Mesh is a service mesh that you can use with your microservices to manage service to service communication."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-examples",
+      "status": "candidate-context",
+      "text": "*After careful consideration, we have made the decision to discontinue support for AWS App Mesh, effective September 30th, 2026. Until this date, existing AWS App Mesh customers will be able to use the service as normal, including creating new resources and onboarding new accoun\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-examples",
+      "status": "candidate",
+      "text": "*After careful consideration, we have made the decision to discontinue support for AWS App Mesh, effective September 30th, 2026. Until this date, existing AWS App Mesh customers will be able to use the service as normal, including creating new resources and onboarding new accoun\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "app-mesh",
+  "concept_id": "app-mesh",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-app-mesh-examples"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "app-mesh",
+      "sense_id": "app-mesh#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

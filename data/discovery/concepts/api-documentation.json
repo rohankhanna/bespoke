@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "API Documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": ":electron: A complete tool for building and publishing Electron applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": "API Documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
+      "status": "candidate",
+      "text": "API Documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36504,
+      "status": "candidate",
+      "text": "source code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36503,
+      "status": "candidate",
+      "text": "codebase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36502,
+      "status": "candidate",
+      "text": "information"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36501,
+      "status": "candidate",
+      "text": "document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36500,
+      "status": "candidate",
+      "text": "data structure"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "API Documentation",
+  "concept_id": "api-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "electron/forge"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "API Documentation",
+      "sense_id": "api-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

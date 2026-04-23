@@ -1,0 +1,305 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gb-pages.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gb-pages.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gb-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "nvidia/transformerengine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "Build Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gb-pages.yml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gb-pages.yml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gb-pages.yml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "webfactory/ssh-agent@v0.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gb-pages.yml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "Azure/MS-AMP",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/MS-AMP",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/MS-AMP",
+      "target": "mixed-precision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/MS-AMP",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/MS-AMP",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:14:46.826093+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1487
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2249
+    },
+    {
+      "path": ".github/workflows/build-image.yaml",
+      "size": 3771
+    },
+    {
+      "path": ".github/workflows/gb-pages.yml",
+      "size": 986
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 947
+    },
+    {
+      "path": ".github/workflows/unit-tests.yaml",
+      "size": 1819
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Microsoft Automatic Mixed Precision Library",
+    "fork": false,
+    "full_name": "Azure/MS-AMP",
+    "html_url": "https://github.com/Azure/MS-AMP",
+    "language": "Python",
+    "pushed_at": "2025-12-01T20:35:44Z",
+    "stargazers_count": 636,
+    "topics": [
+      "amp",
+      "deep-learning",
+      "fp8",
+      "gpu",
+      "mixed-precision",
+      "pytorch",
+      "transformer"
+    ],
+    "updated_at": "2026-04-08T05:17:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/transformerengine",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-image.yaml",
+      "term": "Build Image"
+    },
+    {
+      "context_snippet": "GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gb-pages.yml",
+      "term": "GitHub Pages"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "__MS-AMP__ is an automatic mixed precision package for deep learning developed by Microsoft.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "__MS-AMP__ is an automatic mixed precision package for deep learning developed by Microsoft.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixed-precision"
+    },
+    {
+      "context_snippet": "__MS-AMP__ is an automatic mixed precision package for deep learning developed by Microsoft.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "__MS-AMP__ is an automatic mixed precision package for deep learning developed by Microsoft.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "patches"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zlib-ng/patches",
+      "status": "candidate-context",
+      "text": "Patches for 3rd party applications to enable compiling against zlib-ng in native mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/patches",
+      "status": "candidate-context",
+      "text": "This repository is here to allow sharing patches that allow compiling an application against zlib-ng."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/patches",
+      "status": "candidate",
+      "text": "This repository is here to allow sharing patches that allow compiling an application against zlib-ng."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047683,
+      "status": "candidate",
+      "text": "patch up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046196,
+      "status": "candidate",
+      "text": "mend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10040942,
+      "status": "candidate",
+      "text": "piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017775,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012800,
+      "status": "candidate",
+      "text": "spot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "patches",
+  "concept_id": "patches",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "zlib-ng/patches"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "patches",
+      "sense_id": "patches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

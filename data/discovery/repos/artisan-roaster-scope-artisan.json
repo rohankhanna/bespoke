@@ -1,0 +1,439 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "tsuyoshicho/action-mypy@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yaml"
+    },
+    {
+      "component": "chartboost/ruff-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "mahmoud/awesome-python-applications",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "Codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "tsuyoshicho/action-mypy@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "Mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yaml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yaml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yaml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "Pylint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "Pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yaml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yaml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "chartboost/ruff-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yaml",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "Ruff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "aillio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "coffee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "coffee-roasting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "fuji",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "hottop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "modbus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "phidgets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "probat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "roasting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "thermocouple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artisan-roaster-scope/artisan",
+      "target": "yoctopuce",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:16:10.051960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30535
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 1354
+    },
+    {
+      "path": ".github/workflows/mypy.yml",
+      "size": 1785
+    },
+    {
+      "path": ".github/workflows/pylint.yaml",
+      "size": 2263
+    },
+    {
+      "path": ".github/workflows/pytest.yaml",
+      "size": 1971
+    },
+    {
+      "path": ".github/workflows/ruff.yaml",
+      "size": 705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "artisan: the world's most trusted roasting software",
+    "fork": false,
+    "full_name": "artisan-roaster-scope/artisan",
+    "html_url": "https://github.com/artisan-roaster-scope/artisan",
+    "language": "Python",
+    "pushed_at": "2026-04-21T15:14:03Z",
+    "stargazers_count": 1165,
+    "topics": [
+      "aillio",
+      "coffee",
+      "coffee-roasting",
+      "fuji",
+      "hottop",
+      "modbus",
+      "phidgets",
+      "probat",
+      "roasting",
+      "thermocouple",
+      "yoctopuce"
+    ],
+    "updated_at": "2026-04-22T16:39:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahmoud/awesome-python-applications",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell"
+    },
+    {
+      "context_snippet": "Mypy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mypy.yml",
+      "term": "Mypy"
+    },
+    {
+      "context_snippet": "Pylint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yaml",
+      "term": "Pylint"
+    },
+    {
+      "context_snippet": "Pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest.yaml",
+      "term": "Pytest"
+    },
+    {
+      "context_snippet": "Ruff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yaml",
+      "term": "Ruff"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/wiki/screenshots/artisan.png\" width=\"70\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aillio"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/wiki/screenshots/artisan.png\" width=\"70\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coffee"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/wiki/screenshots/artisan.png\" width=\"70\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coffee-roasting"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/wiki/screenshots/artisan.png\" width=\"70\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuji"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/wiki/screenshots/artisan.png\" width=\"70\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hottop"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/wiki/screenshots/artisan.png\" width=\"70\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modbus"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/wiki/screenshots/artisan.png\" width=\"70\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phidgets"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/wiki/screenshots/artisan.png\" width=\"70\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probat"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/wiki/screenshots/artisan.png\" width=\"70\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roasting"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/wiki/screenshots/artisan.png\" width=\"70\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thermocouple"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"https://raw.githubusercontent.com/artisan-roaster-scope/artisan/master/wiki/screenshots/artisan.png\" width=\"70\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yoctopuce"
+    }
+  ]
+}

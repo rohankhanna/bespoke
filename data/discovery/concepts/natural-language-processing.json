@@ -109,6 +109,30 @@
       "source_repo": "fukuball/jieba-php",
       "status": "candidate-context",
       "text": "[![Made with Love](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg)](http://www.fukuball.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/torchscale",
+      "status": "candidate-context",
+      "text": "Foundation Architecture for (M)LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/torchscale",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catalyst-team/catalyst",
+      "status": "candidate-context",
+      "text": "Accelerated deep learning R&D"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catalyst-team/catalyst",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -159,6 +183,18 @@
       "source_repo": "fukuball/jieba-php",
       "status": "candidate",
       "text": "[![Made with Love](https://img.shields.io/badge/made%20with-%e2%9d%a4-ff69b4.svg)](http://www.fukuball.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/torchscale",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catalyst-team/catalyst",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -220,11 +256,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "fukuball/jieba-php"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/torchscale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "catalyst-team/catalyst"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

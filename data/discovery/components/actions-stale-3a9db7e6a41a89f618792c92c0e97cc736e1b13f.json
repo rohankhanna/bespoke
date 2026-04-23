@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@3a9db7e6a41a89f618792c92c0e97cc736e1b13f",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/close-stalled.yml",
       "source_repo": "nodejs/citgm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/broken-link-check-full.yml",
+      "source_repo": "hashicorp/web-unified-docs"
     }
   ]
 }

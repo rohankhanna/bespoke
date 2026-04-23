@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close and lock inactive threads"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QwenLM/Qwen3",
+      "status": "candidate-context",
+      "text": "Qwen3 is the large language model series developed by Qwen team, Alibaba Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen3",
+      "status": "candidate-context",
+      "text": "Close and lock inactive threads"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen3",
+      "status": "candidate",
+      "text": "Close and lock inactive threads"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33498,
+      "status": "candidate",
+      "text": "locking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33498,
+      "status": "candidate",
+      "text": "locks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33498,
+      "status": "candidate",
+      "text": "shut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33450,
+      "status": "candidate",
+      "text": "snap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27672,
+      "status": "candidate",
+      "text": "tuft"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close and lock inactive threads",
+  "concept_id": "close-and-lock-inactive-threads",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/inactive.yml",
+      "source_repo": "QwenLM/Qwen3"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close and lock inactive threads",
+      "sense_id": "close-and-lock-inactive-threads#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

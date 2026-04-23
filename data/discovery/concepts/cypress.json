@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "Cypress"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckan/ckan",
+      "status": "candidate-context",
+      "text": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckan",
+      "status": "candidate-context",
+      "text": "Cypress"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckan",
+      "status": "candidate",
+      "text": "Cypress"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046966,
+      "status": "candidate",
+      "text": "cypress tree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20046965,
+      "status": "candidate",
+      "text": "cedar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19971686,
+      "status": "candidate",
+      "text": "pecky"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19561037,
+      "status": "candidate",
+      "text": "cyprus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10047078,
+      "status": "candidate",
+      "text": "golden cypress"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "cypress tree"
+    }
+  ],
+  "canonical_name": "Cypress",
+  "concept_id": "cypress",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/cypress.yml",
+      "source_repo": "ckan/ckan"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cypress",
+      "sense_id": "cypress#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

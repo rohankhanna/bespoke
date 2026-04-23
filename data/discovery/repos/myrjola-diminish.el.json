@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:24:47.171526+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3095
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Diminished modes are minor modes with no modeline display",
+    "fork": false,
+    "full_name": "myrjola/diminish.el",
+    "html_url": "https://github.com/myrjola/diminish.el",
+    "language": "Emacs Lisp",
+    "pushed_at": "2022-09-09T08:47:45Z",
+    "stargazers_count": 187,
+    "topics": [],
+    "updated_at": "2026-04-02T03:54:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

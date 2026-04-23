@@ -369,6 +369,66 @@
       "source_repo": "aquasecurity/trivy",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/apprunner-roadmap",
+      "status": "candidate-context",
+      "text": "This is the public roadmap for AWS App Runner."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/apprunner-roadmap",
+      "status": "candidate-context",
+      "text": "This is a public roadmap for AWS App Runner. We learnt from customers that knowing about our upcoming features and priorities helps them plan. This repository contains information about what we are working on and allows customers to give direct feedback."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/minikube",
+      "status": "candidate-context",
+      "text": "Run Kubernetes locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/minikube",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/kubernetes/minikube/workflows/build/badge.svg)](https://github.com/kubernetes/minikube/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kops",
+      "status": "candidate-context",
+      "text": "Kubernetes Operations (kOps) - Production Grade k8s Installation, Upgrades and Management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kops",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/kubernetes/kops/actions/workflows/main.yml/badge.svg)](https://github.com/kubernetes/kops/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "Build and deploy Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "steren/awesome-cloud-run",
+      "status": "candidate-context",
+      "text": "\ud83d\udc53 \u23e9 A curated list of resources about all things Cloud Run"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "steren/awesome-cloud-run",
+      "status": "candidate-context",
+      "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
     }
   ],
   "candidate_glosses": [
@@ -551,6 +611,36 @@
       "source_repo": "aquasecurity/trivy",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/apprunner-roadmap",
+      "status": "candidate",
+      "text": "This is a public roadmap for AWS App Runner. We learnt from customers that knowing about our upcoming features and priorities helps them plan. This repository contains information about what we are working on and allows customers to give direct feedback."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/minikube",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/kubernetes/minikube/workflows/build/badge.svg)](https://github.com/kubernetes/minikube/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kops",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/kubernetes/kops/actions/workflows/main.yml/badge.svg)](https://github.com/kubernetes/kops/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
+      "status": "candidate",
+      "text": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "steren/awesome-cloud-run",
+      "status": "candidate",
+      "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
     }
   ],
   "candidate_related_terms": [
@@ -792,11 +882,47 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "aquasecurity/trivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "aws/apprunner-roadmap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/minikube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/kops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "steren/awesome-cloud-run"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -67,6 +67,18 @@
       "source_repo": "ethereum/trin",
       "status": "candidate-context",
       "text": "book"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ralexstokes/mev-rs",
+      "status": "candidate-context",
+      "text": "a gateway to a network of block builders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ralexstokes/mev-rs",
+      "status": "candidate-context",
+      "text": "book"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ethereum/trin",
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ralexstokes/mev-rs",
       "status": "candidate",
       "text": "book"
     }
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/book.yml",
       "source_repo": "ethereum/trin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "ralexstokes/mev-rs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

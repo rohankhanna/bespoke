@@ -1,0 +1,12 @@
+{
+  "component": "crowdin/github-action@ce33ce793a5cbc401d9cd748716e03fc90c001f1",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crowdin.yml",
+      "source_repo": "iorate/ublacklist"
+    }
+  ]
+}

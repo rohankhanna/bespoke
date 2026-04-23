@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-image.yaml",
       "source_repo": "antonbabenko/pre-commit-terraform"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "gohugoio/hugo"
     }
   ]
 }

@@ -19,6 +19,18 @@
       "source_repo": "microsoft/unilm",
       "status": "candidate-context",
       "text": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmpretrain",
+      "status": "candidate-context",
+      "text": "OpenMMLab Pre-training Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmpretrain",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "microsoft/unilm",
       "status": "candidate",
       "text": "<!--# Large-scale Self-supervised Pre-training Across Tasks, Languages, and Modalities-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmpretrain",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "microsoft/unilm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

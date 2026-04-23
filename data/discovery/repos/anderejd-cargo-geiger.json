@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-audit-check.yml"
+    },
+    {
+      "component": "actions-rs/audit-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-audit-check.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anderejd/cargo-geiger",
+      "target": "sfackler/cargo-tree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anderejd/cargo-geiger",
+      "target": "rust-secure-code/cargo-geiger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-audit-check.yml",
+      "source_repo": "anderejd/cargo-geiger",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-audit-check.yml",
+      "source_repo": "anderejd/cargo-geiger",
+      "target": "actions-rs/audit-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-audit-check.yml",
+      "source_repo": "anderejd/cargo-geiger",
+      "target": "cargo audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "anderejd/cargo-geiger",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "anderejd/cargo-geiger",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "anderejd/cargo-geiger",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "anderejd/cargo-geiger",
+      "target": "rustfmt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:22:56.905972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28833
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 460
+    },
+    {
+      "path": "Dockerfile",
+      "size": 609
+    },
+    {
+      "path": ".github/workflows/rust-audit-check.yml",
+      "size": 244
+    },
+    {
+      "path": ".github/workflows/rustfmt.yml",
+      "size": 469
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Detects usage of unsafe Rust in a Rust crate and its dependencies.",
+    "fork": true,
+    "full_name": "anderejd/cargo-geiger",
+    "html_url": "https://github.com/anderejd/cargo-geiger",
+    "language": "Rust",
+    "pushed_at": "2021-04-27T21:37:54Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2025-09-07T10:32:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-secure-code/cargo-geiger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sfackler/cargo-tree",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "cargo audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-audit-check.yml",
+      "term": "cargo audit"
+    },
+    {
+      "context_snippet": "rustfmt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "term": "rustfmt"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Claw-R1: Empowering OpenClaw with Advanced Agentic RL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\"> Claw-R1: The Data Foundation for <br> Agentic Reinforcement Learning </h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> Claw-R1: The Data Foundation for <br> Agentic Reinforcement Learning </h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openclaw",
+      "sense_id": "openclaw#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "openclaw",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "openclaw",
+  "observation_id": "6b8a337a273d429e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "openclaw",
+  "source_context_snippet": "<h1 align=\"center\"> Claw-R1: The Data Foundation for <br> Agentic Reinforcement Learning </h1>",
+  "source_file": null,
+  "source_repo": "AgentR1/Claw-R1",
+  "source_repo_description": "Claw-R1: Empowering OpenClaw with Advanced Agentic RL."
+}

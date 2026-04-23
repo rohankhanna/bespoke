@@ -53,34 +53,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hukkin/mdformat",
-      "target": "mkdocs/mkdocs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hukkin/mdformat",
-      "target": "prettier/prettier",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hukkin/mdformat",
-      "target": "remarkjs/remark",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hukkin/mdformat",
-      "target": "hukkin/mdformat-toc",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "hukkin/mdformat",
@@ -151,7 +123,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T18:58:46.589266+00:00",
+  "fetched_at": "2026-04-23T01:09:55.860963+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -189,28 +161,7 @@
     ],
     "updated_at": "2026-04-17T14:48:59Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "hukkin/mdformat-toc",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mkdocs/mkdocs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "prettier/prettier",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "remarkjs/remark",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Tests",

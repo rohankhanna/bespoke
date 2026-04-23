@@ -1,11 +1,31 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/semantic.yml",
       "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semantic.yml",
+      "source_repo": "electron/forge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semantic.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semantic.yml",
+      "source_repo": "electron/node-abi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/semantic.yml",
+      "source_repo": "electron/fiddle"
     }
   ],
   "term": "Check Semantic Commit"

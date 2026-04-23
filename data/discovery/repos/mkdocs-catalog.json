@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-best-of-list.yml"
+    },
+    {
+      "component": "peterjgrainger/action-create-branch@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-best-of-list.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-best-of-list.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-best-of-list.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-best-of-list.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mkdocs/catalog",
+      "target": "agarthetiger/mkdocs_latest_release_plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mkdocs/catalog",
+      "target": "aetherinox/mkdocs-link-embeds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mkdocs/catalog",
+      "target": "adamb70/mdx-breakless-lists",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mkdocs/catalog",
+      "target": "adrienbrignon/mkdocs-exporter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mkdocs/catalog",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mkdocs/catalog",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-best-of-list.yml",
+      "source_repo": "mkdocs/catalog",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-best-of-list.yml",
+      "source_repo": "mkdocs/catalog",
+      "target": "peterjgrainger/action-create-branch@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-best-of-list.yml",
+      "source_repo": "mkdocs/catalog",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-best-of-list.yml",
+      "source_repo": "mkdocs/catalog",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-best-of-list.yml",
+      "source_repo": "mkdocs/catalog",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-best-of-list.yml",
+      "source_repo": "mkdocs/catalog",
+      "target": "update-best-of-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkdocs/catalog",
+      "target": "best-of",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkdocs/catalog",
+      "target": "best-of-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mkdocs/catalog",
+      "target": "mkdocs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:10:52.406211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 239747
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 520
+    },
+    {
+      "path": ".github/workflows/update-best-of-list.yml",
+      "size": 3351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":trophy: :books: A list of awesome MkDocs projects and plugins. ",
+    "fork": false,
+    "full_name": "mkdocs/catalog",
+    "html_url": "https://github.com/mkdocs/catalog",
+    "language": "Python",
+    "pushed_at": "2026-04-16T19:19:33Z",
+    "stargazers_count": 1731,
+    "topics": [
+      "best-of",
+      "best-of-list",
+      "mkdocs"
+    ],
+    "updated_at": "2026-04-21T13:14:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamb70/mdx-breakless-lists",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adrienbrignon/mkdocs-exporter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aetherinox/mkdocs-link-embeds",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agarthetiger/mkdocs_latest_release_plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "update-best-of-list",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-best-of-list.yml",
+      "term": "update-best-of-list"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "best-of"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "best-of-list"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mkdocs"
+    }
+  ]
+}

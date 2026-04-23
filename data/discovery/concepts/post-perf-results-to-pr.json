@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Post Perf Results to PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/react-native-windows",
+      "status": "candidate-context",
+      "text": "A framework for building native Windows apps with React."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-windows",
+      "status": "candidate-context",
+      "text": "Post Perf Results to PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-windows",
+      "status": "candidate",
+      "text": "Post Perf Results to PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21530,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21530,
+      "status": "candidate",
+      "text": "report"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21494,
+      "status": "candidate",
+      "text": "return"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21474,
+      "status": "candidate",
+      "text": "intermediary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21474,
+      "status": "candidate",
+      "text": "opening balance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Post Perf Results to PR",
+  "concept_id": "post-perf-results-to-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/perf-comment.yml",
+      "source_repo": "microsoft/react-native-windows"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Post Perf Results to PR",
+      "sense_id": "post-perf-results-to-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

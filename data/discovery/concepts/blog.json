@@ -31,6 +31,18 @@
       "source_repo": "MariaLetta/free-gophers-pack",
       "status": "candidate-context",
       "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "songquanpeng/blog",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8e Node.js \u7684\u4e2a\u4eba\u535a\u5ba2\u7cfb\u7edf. Node.js based blog system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songquanpeng/blog",
+      "status": "candidate-context",
+      "text": "<p align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "MariaLetta/free-gophers-pack",
       "status": "candidate",
       "text": "[![Mentioned in Awesome Go](https://awesome.re/mentioned-badge-flat.svg)](https://github.com/avelino/awesome-go)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songquanpeng/blog",
+      "status": "candidate",
+      "text": "<p align=\"right\">"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "MariaLetta/free-gophers-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "songquanpeng/blog"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

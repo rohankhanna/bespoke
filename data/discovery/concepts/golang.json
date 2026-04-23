@@ -643,6 +643,102 @@
       "source_repo": "aquasecurity/trivy",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "itchyny/gojq",
+      "status": "candidate-context",
+      "text": "Pure Go implementation of jq"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itchyny/gojq",
+      "status": "candidate-context",
+      "text": "[![CI Status](https://github.com/itchyny/gojq/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/itchyny/gojq/actions?query=branch:main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nektos/act",
+      "status": "candidate-context",
+      "text": "Run your GitHub Actions locally \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nektos/act",
+      "status": "candidate-context",
+      "text": "![act-logo](https://raw.githubusercontent.com/wiki/nektos/act/img/logo-150.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "Build and deploy Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ekalinin/github-markdown-toc.go",
+      "status": "candidate-context",
+      "text": "Easy TOC creation for GitHub README.md (in go)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekalinin/github-markdown-toc.go",
+      "status": "candidate-context",
+      "text": "github-markdown-toc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate-context",
+      "text": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/hive",
+      "status": "candidate-context",
+      "text": "Ethereum end-to-end test harness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/hive",
+      "status": "candidate-context",
+      "text": "Hive is a system for running integration tests against Ethereum clients."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "labring/sealos",
+      "status": "candidate-context",
+      "text": "Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfect for building and scaling modern AI applications, managed databases (MySQL, PostgreSQL, Redis, MongoDB) and complex microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labring/sealos",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avast/retry-go",
+      "status": "candidate-context",
+      "text": "Simple golang library for retry mechanism"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avast/retry-go",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/avast/retry-go.svg?style=flat-square)](https://github.com/avast/retry-go/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -963,6 +1059,54 @@
       "source_repo": "aquasecurity/trivy",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "itchyny/gojq",
+      "status": "candidate",
+      "text": "[![CI Status](https://github.com/itchyny/gojq/actions/workflows/ci.yaml/badge.svg?branch=main)](https://github.com/itchyny/gojq/actions?query=branch:main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nektos/act",
+      "status": "candidate",
+      "text": "![act-logo](https://raw.githubusercontent.com/wiki/nektos/act/img/logo-150.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
+      "status": "candidate",
+      "text": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekalinin/github-markdown-toc.go",
+      "status": "candidate",
+      "text": "github-markdown-toc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/hive",
+      "status": "candidate",
+      "text": "Hive is a system for running integration tests against Ethereum clients."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labring/sealos",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avast/retry-go",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/avast/retry-go.svg?style=flat-square)](https://github.com/avast/retry-go/releases/latest)"
     }
   ],
   "candidate_related_terms": [],
@@ -1306,11 +1450,59 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "aquasecurity/trivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "itchyny/gojq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "nektos/act"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ekalinin/github-markdown-toc.go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "caddyserver/caddy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "labring/sealos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "avast/retry-go"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

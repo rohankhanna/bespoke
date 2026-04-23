@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PeterGriffinJin/Search-R1",
+      "target": "acade-mate/o2-searcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PeterGriffinJin/Search-R1",
+      "target": "alibaba-nlp/masksearch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PeterGriffinJin/Search-R1",
+      "target": "alibaba-nlp/vrag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PeterGriffinJin/Search-R1",
+      "target": "amap-ml/tree-grpo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:18:50.375787+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16742
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2219
+    },
+    {
+      "path": "requirements.txt",
+      "size": 153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Search-R1: An Efficient, Scalable RL Training Framework for Reasoning & Search Engine Calling interleaved LLM based on veRL",
+    "fork": false,
+    "full_name": "PeterGriffinJin/Search-R1",
+    "html_url": "https://github.com/PeterGriffinJin/Search-R1",
+    "language": "Python",
+    "pushed_at": "2025-11-13T21:56:33Z",
+    "stargazers_count": 4545,
+    "topics": [],
+    "updated_at": "2026-04-22T16:00:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acade-mate/o2-searcher",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-nlp/masksearch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-nlp/vrag",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amap-ml/tree-grpo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

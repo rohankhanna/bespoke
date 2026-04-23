@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:23:25.252389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LLM training in simple, raw C#/CUDA",
+    "fork": false,
+    "full_name": "azret/llm.cs",
+    "html_url": "https://github.com/azret/llm.cs",
+    "language": "C#",
+    "pushed_at": "2024-04-23T01:45:09Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2026-04-17T14:17:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

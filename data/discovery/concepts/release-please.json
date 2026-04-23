@@ -148,6 +148,30 @@
       "source_repo": "neostandard/neostandard",
       "status": "candidate-context",
       "text": "Release Please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/node-gyp",
+      "status": "candidate-context",
+      "text": "Node.js native addon build tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/node-gyp",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bcoe/c8",
+      "status": "candidate-context",
+      "text": "output coverage reports using Node.js' built in coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bcoe/c8",
+      "status": "candidate-context",
+      "text": "release-please"
     }
   ],
   "candidate_glosses": [
@@ -222,6 +246,18 @@
       "source_repo": "neostandard/neostandard",
       "status": "candidate",
       "text": "Release Please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/node-gyp",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bcoe/c8",
+      "status": "candidate",
+      "text": "release-please"
     }
   ],
   "candidate_related_terms": [
@@ -361,11 +397,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "neostandard/neostandard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "nodejs/node-gyp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "bcoe/c8"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JakeChampion/fetch"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

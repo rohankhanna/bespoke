@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:23:28.410562+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6877
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Suggest changes to Bevy and view accepted designs ",
+    "fork": false,
+    "full_name": "bevyengine/rfcs",
+    "html_url": "https://github.com/bevyengine/rfcs",
+    "language": null,
+    "pushed_at": "2025-06-03T06:53:28Z",
+    "stargazers_count": 119,
+    "topics": [],
+    "updated_at": "2026-03-26T12:07:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

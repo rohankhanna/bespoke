@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close stale issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/neural-compressor",
+      "status": "candidate-context",
+      "text": "SOTA low-bit LLM quantization (INT8/FP8/MXFP8/INT4/MXFP4/NVFP4) & sparsity; leading model compression techniques on PyTorch, TensorFlow, and ONNX Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-compressor",
+      "status": "candidate-context",
+      "text": "Close stale issue"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-compressor",
+      "status": "candidate",
+      "text": "Close stale issue"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985,
+      "status": "candidate",
+      "text": "flatten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19985,
+      "status": "candidate",
+      "text": "flattening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19849,
+      "status": "candidate",
+      "text": "staleness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19726,
+      "status": "candidate",
+      "text": "deaden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19726,
+      "status": "candidate",
+      "text": "deadened"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close stale issue",
+  "concept_id": "close-stale-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/check-stale-issue.yml",
+      "source_repo": "intel/neural-compressor"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close stale issue",
+      "sense_id": "close-stale-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

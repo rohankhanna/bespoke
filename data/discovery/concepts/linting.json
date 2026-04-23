@@ -131,6 +131,18 @@
       "source_repo": "slothy-optimizer/slothy",
       "status": "candidate-context",
       "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashbots/mev-boost",
+      "status": "candidate-context",
+      "text": "MEV-Boost allows Ethereum validators to source high-MEV blocks from a competitive builder marketplace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/mev-boost",
+      "status": "candidate-context",
+      "text": "Linting"
     }
   ],
   "candidate_glosses": [
@@ -191,6 +203,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "slothy-optimizer/slothy",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/mev-boost",
       "status": "candidate",
       "text": "Linting"
     }
@@ -337,11 +355,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/linting.yml",
       "source_repo": "slothy-optimizer/slothy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "flashbots/mev-boost"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

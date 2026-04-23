@@ -1,0 +1,17 @@
+{
+  "component": "hoverkraft-tech/compose-action@d2bee4f07e8ca410d6b196d00f90c12e7d48c33a",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/api-tests.yml",
+      "source_repo": "langgenius/dify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/db-migration-test.yml",
+      "source_repo": "langgenius/dify"
+    }
+  ]
+}

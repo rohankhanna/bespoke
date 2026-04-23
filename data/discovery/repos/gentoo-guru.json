@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicates.yml"
+    },
+    {
+      "component": "rectalogic/notify-irc@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicates.yml"
+    },
+    {
+      "component": "rectalogic/notify-irc@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicates.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emails.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emails.yml"
+    },
+    {
+      "component": "rectalogic/notify-irc@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emails.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgcheck.yml"
+    },
+    {
+      "component": "pkgcore/pkgcheck-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgcheck.yml"
+    },
+    {
+      "component": "rectalogic/notify-irc@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgcheck.yml"
+    },
+    {
+      "component": "rectalogic/notify-irc@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicates.yml",
+      "source_repo": "gentoo/guru",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duplicates.yml",
+      "source_repo": "gentoo/guru",
+      "target": "rectalogic/notify-irc@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicates.yml",
+      "source_repo": "gentoo/guru",
+      "target": "duplicates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emails.yml",
+      "source_repo": "gentoo/guru",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emails.yml",
+      "source_repo": "gentoo/guru",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emails.yml",
+      "source_repo": "gentoo/guru",
+      "target": "rectalogic/notify-irc@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emails.yml",
+      "source_repo": "gentoo/guru",
+      "target": "emails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgcheck.yml",
+      "source_repo": "gentoo/guru",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgcheck.yml",
+      "source_repo": "gentoo/guru",
+      "target": "pkgcore/pkgcheck-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgcheck.yml",
+      "source_repo": "gentoo/guru",
+      "target": "rectalogic/notify-irc@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkgcheck.yml",
+      "source_repo": "gentoo/guru",
+      "target": "pkgcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gentoo/guru",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:24:46.008868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2537
+    },
+    {
+      "path": ".github/workflows/duplicates.yml",
+      "size": 1884
+    },
+    {
+      "path": ".github/workflows/emails.yml",
+      "size": 1942
+    },
+    {
+      "path": ".github/workflows/pkgcheck.yml",
+      "size": 1809
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[MIRROR] GURU: repository of new packages maintained collaboratively by users",
+    "fork": false,
+    "full_name": "gentoo/guru",
+    "html_url": "https://github.com/gentoo/guru",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T21:33:15Z",
+    "stargazers_count": 276,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-22T04:33:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "duplicates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duplicates.yml",
+      "term": "duplicates"
+    },
+    {
+      "context_snippet": "emails",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emails.yml",
+      "term": "emails"
+    },
+    {
+      "context_snippet": "pkgcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkgcheck.yml",
+      "term": "pkgcheck"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

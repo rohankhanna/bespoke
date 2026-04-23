@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CTS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate-context",
+      "text": "A cross-platform, safe, pure-Rust graphics API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate-context",
+      "text": "CTS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate",
+      "text": "CTS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39225679,
+      "status": "candidate",
+      "text": "computed axial tomography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39219853,
+      "status": "candidate",
+      "text": "computed tomography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39103329,
+      "status": "candidate",
+      "text": "cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025457,
+      "status": "candidate",
+      "text": "computerized axial tomography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025456,
+      "status": "candidate",
+      "text": "ecs"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CTS",
+  "concept_id": "cts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/cts.yml",
+      "source_repo": "gfx-rs/wgpu"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CTS",
+      "sense_id": "cts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

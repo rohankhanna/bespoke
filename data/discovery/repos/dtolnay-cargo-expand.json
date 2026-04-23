@@ -1,0 +1,176 @@
+{
+  "components": [
+    {
+      "component": "dtolnay/.github/.github/workflows/pre_ci.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@clippy",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/install@cargo-outdated",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/.github/.github/workflows/check_install.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-expand",
+      "target": "dtolnay/.github/.github/workflows/pre_ci.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-expand",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-expand",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-expand",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-expand",
+      "target": "dtolnay/rust-toolchain@clippy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-expand",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-expand",
+      "target": "dtolnay/install@cargo-outdated",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "dtolnay/cargo-expand",
+      "target": "dtolnay/.github/.github/workflows/check_install.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "dtolnay/cargo-expand",
+      "target": "Install",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dtolnay/cargo-expand",
+      "target": "cargo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:24:04.719395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4650
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1594
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2613
+    },
+    {
+      "path": ".github/workflows/install.yml",
+      "size": 283
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Subcommand to show result of macro expansion",
+    "fork": false,
+    "full_name": "dtolnay/cargo-expand",
+    "html_url": "https://github.com/dtolnay/cargo-expand",
+    "language": "Rust",
+    "pushed_at": "2026-02-12T03:16:08Z",
+    "stargazers_count": 3071,
+    "topics": [
+      "cargo"
+    ],
+    "updated_at": "2026-04-22T08:00:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Install",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yml",
+      "term": "Install"
+    },
+    {
+      "context_snippet": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-dtolnay/cargo--expand-8da0cb?style=for-the-badge&labelColor=555555&logo=github\" height=\"20\">](https://github.com/dtolnay/cargo-expand)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo"
+    }
+  ]
+}

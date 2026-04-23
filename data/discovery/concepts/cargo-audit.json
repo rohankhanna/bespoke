@@ -45,6 +45,18 @@
       "source_repo": "hyperium/hyper",
       "status": "candidate-context",
       "text": "cargo-audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anderejd/cargo-geiger",
+      "status": "candidate-context",
+      "text": "Detects usage of unsafe Rust in a Rust crate and its dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anderejd/cargo-geiger",
+      "status": "candidate-context",
+      "text": "cargo audit"
     }
   ],
   "candidate_glosses": [
@@ -59,6 +71,12 @@
       "source_repo": "hyperium/hyper",
       "status": "candidate",
       "text": "cargo-audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anderejd/cargo-geiger",
+      "status": "candidate",
+      "text": "cargo audit"
     }
   ],
   "candidate_related_terms": [
@@ -120,11 +138,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/cargo-audit.yml",
       "source_repo": "hyperium/hyper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/rust-audit-check.yml",
+      "source_repo": "anderejd/cargo-geiger"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

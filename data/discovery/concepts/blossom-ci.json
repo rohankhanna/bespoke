@@ -19,12 +19,30 @@
       "source_repo": "NVIDIA/cutlass",
       "status": "candidate-context",
       "text": "Blossom-CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/MatX",
+      "status": "candidate-context",
+      "text": "An efficient C++20 GPU numerical computing library with Python-like syntax"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/MatX",
+      "status": "candidate-context",
+      "text": "Blossom-CI"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "NVIDIA/cutlass",
+      "status": "candidate",
+      "text": "Blossom-CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/MatX",
       "status": "candidate",
       "text": "Blossom-CI"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/blossom-ci.yml",
       "source_repo": "NVIDIA/cutlass"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "NVIDIA/MatX"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

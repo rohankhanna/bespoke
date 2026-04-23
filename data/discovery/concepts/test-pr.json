@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "test-pr"
+    "test-pr",
+    "Test PR"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "abapGit/abapGit",
       "status": "candidate-context",
       "text": "test-pr"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-library/official-images",
+      "status": "candidate-context",
+      "text": "Primary source of truth for the Docker \"Official Images\" program"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/official-images",
+      "status": "candidate-context",
+      "text": "Test PR"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "abapGit/abapGit",
       "status": "candidate",
       "text": "test-pr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/official-images",
+      "status": "candidate",
+      "text": "Test PR"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12991,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12991,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12991,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12750,
+      "status": "candidate",
+      "text": "spin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12750,
+      "status": "candidate",
+      "text": "trail"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "test-pr",
   "concept_id": "test-pr",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/test-pr.yml",
       "source_repo": "abapGit/abapGit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "docker-library/official-images"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

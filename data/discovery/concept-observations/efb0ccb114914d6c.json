@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a FindBugs/SpotBugs plugin for doing static code analysis for java code bases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "findbugs-plugin",
+      "sense_id": "findbugs-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "findbugs-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "findbugs-plugin",
+  "observation_id": "efb0ccb114914d6c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "findbugs-plugin",
+  "source_context_snippet": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />",
+  "source_file": null,
+  "source_repo": "mebigfatguy/fb-contrib",
+  "source_repo_description": "a FindBugs/SpotBugs plugin for doing static code analysis for java code bases"
+}

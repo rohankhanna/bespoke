@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Functional Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/minikube",
+      "status": "candidate-context",
+      "text": "Run Kubernetes locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/minikube",
+      "status": "candidate-context",
+      "text": "Functional Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/minikube",
+      "status": "candidate",
+      "text": "Functional Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36901,
+      "status": "candidate",
+      "text": "integration testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36900,
+      "status": "candidate",
+      "text": "functionalist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36899,
+      "status": "candidate",
+      "text": "field test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36898,
+      "status": "candidate",
+      "text": "functional unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36897,
+      "status": "candidate",
+      "text": "diagnostic test"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Functional Test",
+  "concept_id": "functional-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/functional_test.yml",
+      "source_repo": "kubernetes/minikube"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Functional Test",
+      "sense_id": "functional-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,557 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml"
+    },
+    {
+      "component": "github/codeql-action/init@df409f7d9260372bd5f19e5b04e83cb3c43714ae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@df409f7d9260372bd5f19e5b04e83cb3c43714ae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml"
+    },
+    {
+      "component": "github/codeql-action/analyze@df409f7d9260372bd5f19e5b04e83cb3c43714ae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boilerplate.yaml"
+    },
+    {
+      "component": "chainguard-dev/actions/boilerplate@e82b4e5ae10182af72972addcb3fedf7454621c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boilerplate.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "golang/govulncheck-action@b625fbe08f3bccbe446d94fbf87fcc875a4f50ee",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/donotsubmit.yaml"
+    },
+    {
+      "component": "chainguard-dev/actions/donotsubmit@84c993eaf02da1c325854fb272a4df9184bd80fc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/donotsubmit.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@dc72c7d5c4d10cd6bcb8cf6e3fd625a9e5e537da",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "chainguard-dev/actions/setup-kind@29fb6e979a0b3efc79748a17e8cec08d0594cbfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@dc72c7d5c4d10cd6bcb8cf6e3fd625a9e5e537da",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "chainguard-dev/actions/kind-diag@29fb6e979a0b3efc79748a17e8cec08d0594cbfd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modules-integration-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modules-integration-test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ko-build/ko",
+      "target": "bazelbuild/rules_docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ko-build/ko",
+      "target": "bazelbuild/rules_k8s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "github/codeql-action/init@df409f7d9260372bd5f19e5b04e83cb3c43714ae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "github/codeql-action/autobuild@df409f7d9260372bd5f19e5b04e83cb3c43714ae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/analyze.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "github/codeql-action/analyze@df409f7d9260372bd5f19e5b04e83cb3c43714ae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "Analyze",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boilerplate.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/boilerplate.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "chainguard-dev/actions/boilerplate@e82b4e5ae10182af72972addcb3fedf7454621c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/boilerplate.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "Boilerplate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "golang/govulncheck-action@b625fbe08f3bccbe446d94fbf87fcc875a4f50ee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/donotsubmit.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/donotsubmit.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "chainguard-dev/actions/donotsubmit@84c993eaf02da1c325854fb272a4df9184bd80fc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/donotsubmit.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "Do Not Submit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "Basic e2e test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "sigstore/cosign-installer@dc72c7d5c4d10cd6bcb8cf6e3fd625a9e5e537da",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "chainguard-dev/actions/setup-kind@29fb6e979a0b3efc79748a17e8cec08d0594cbfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "sigstore/cosign-installer@dc72c7d5c4d10cd6bcb8cf6e3fd625a9e5e537da",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "chainguard-dev/actions/kind-diag@29fb6e979a0b3efc79748a17e8cec08d0594cbfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "KinD e2e tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modules-integration-test.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modules-integration-test.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/modules-integration-test.yaml",
+      "source_repo": "ko-build/ko",
+      "target": "Integration Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ko-build/ko",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ko-build/ko",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ko-build/ko",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ko-build/ko",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ko-build/ko",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ko-build/ko",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:17:06.871336+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2192
+    },
+    {
+      "path": "go.mod",
+      "size": 8919
+    },
+    {
+      "path": ".github/workflows/analyze.yaml",
+      "size": 840
+    },
+    {
+      "path": ".github/workflows/boilerplate.yaml",
+      "size": 834
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 597
+    },
+    {
+      "path": ".github/workflows/donotsubmit.yaml",
+      "size": 427
+    },
+    {
+      "path": ".github/workflows/e2e.yaml",
+      "size": 3529
+    },
+    {
+      "path": ".github/workflows/image.yaml",
+      "size": 1286
+    },
+    {
+      "path": ".github/workflows/kind-e2e.yaml",
+      "size": 2306
+    },
+    {
+      "path": ".github/workflows/modules-integration-test.yaml",
+      "size": 577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Build and deploy Go applications",
+    "fork": false,
+    "full_name": "ko-build/ko",
+    "html_url": "https://github.com/ko-build/ko",
+    "language": "Go",
+    "pushed_at": "2026-04-23T01:03:38Z",
+    "stargazers_count": 8412,
+    "topics": [
+      "container",
+      "containers",
+      "deploy",
+      "docker",
+      "go",
+      "golang",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-22T19:27:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/rules_docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/rules_k8s",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Analyze",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/analyze.yaml",
+      "term": "Analyze"
+    },
+    {
+      "context_snippet": "Boilerplate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/boilerplate.yaml",
+      "term": "Boilerplate"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Do Not Submit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/donotsubmit.yaml",
+      "term": "Do Not Submit"
+    },
+    {
+      "context_snippet": "Basic e2e test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "term": "Basic e2e test"
+    },
+    {
+      "context_snippet": "image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/image.yaml",
+      "term": "image"
+    },
+    {
+      "context_snippet": "KinD e2e tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kind-e2e.yaml",
+      "term": "KinD e2e tests"
+    },
+    {
+      "context_snippet": "Integration Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/modules-integration-test.yaml",
+      "term": "Integration Test"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

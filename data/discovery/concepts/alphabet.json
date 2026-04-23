@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "alphabet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shavian-info/interalia",
+      "status": "candidate-context",
+      "text": "Inter Alia is an expanded version of the Inter font family"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shavian-info/interalia",
+      "status": "candidate-context",
+      "text": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shavian-info/interalia",
+      "status": "candidate",
+      "text": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047642,
+      "status": "candidate",
+      "text": "alphabetical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047472,
+      "status": "candidate",
+      "text": "orthography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047320,
+      "status": "candidate",
+      "text": "spelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047224,
+      "status": "candidate",
+      "text": "alphabetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20044572,
+      "status": "candidate",
+      "text": "language"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "alphabet",
+  "concept_id": "alphabet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "Shavian-info/interalia"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "alphabet",
+      "sense_id": "alphabet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

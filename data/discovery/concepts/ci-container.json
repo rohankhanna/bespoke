@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ci-container"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudnativelabs/kube-router",
+      "status": "candidate-context",
+      "text": "Kube-router, a turnkey solution for Kubernetes networking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativelabs/kube-router",
+      "status": "candidate-context",
+      "text": "ci-container"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativelabs/kube-router",
+      "status": "candidate",
+      "text": "ci-container"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ci-container",
+  "concept_id": "ci-container",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/ci-container.yml",
+      "source_repo": "cloudnativelabs/kube-router"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ci-container",
+      "sense_id": "ci-container#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

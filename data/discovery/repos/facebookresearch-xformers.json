@@ -1,0 +1,336 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test_gh.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test_gh.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters_reusable.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters_reusable.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm_ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm_ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm_docker.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm_docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm_docker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/xformers",
+      "target": "google-research/sputnik",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/xformers",
+      "target": "hgyhungry/ge-spmm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/xformers",
+      "target": "facebookresearch/fairscale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/xformers",
+      "target": "hazyresearch/flash-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "Build & deploy documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test_gh.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu_test_gh.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "mikepenz/action-junit-report@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters_reusable.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters_reusable.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linters_reusable.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rocm_build.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "rocm-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm_ci.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm_ci.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rocm_ci.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "rocm-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm_docker.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm_docker.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rocm_docker.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rocm_docker.yml",
+      "source_repo": "facebookresearch/xformers",
+      "target": "Build and Publish ROCm Docker Image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:14:15.601786+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6442
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 292
+    },
+    {
+      "path": "requirements.txt",
+      "size": 165
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 1267
+    },
+    {
+      "path": ".github/workflows/gpu_test_gh.yml",
+      "size": 3791
+    },
+    {
+      "path": ".github/workflows/linters.yml",
+      "size": 124
+    },
+    {
+      "path": ".github/workflows/linters_reusable.yml",
+      "size": 2238
+    },
+    {
+      "path": ".github/workflows/rocm_build.yml",
+      "size": 1235
+    },
+    {
+      "path": ".github/workflows/rocm_ci.yml",
+      "size": 3178
+    },
+    {
+      "path": ".github/workflows/rocm_docker.yml",
+      "size": 627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hackable and optimized Transformers building blocks, supporting a composable construction.",
+    "fork": false,
+    "full_name": "facebookresearch/xformers",
+    "html_url": "https://github.com/facebookresearch/xformers",
+    "language": "Python",
+    "pushed_at": "2026-04-21T15:57:47Z",
+    "stargazers_count": 10428,
+    "topics": [],
+    "updated_at": "2026-04-22T10:11:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/fairscale",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/sputnik",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/flash-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hgyhungry/ge-spmm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build & deploy documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "Build & deploy documentation"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linters_reusable.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "rocm-build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rocm_build.yml",
+      "term": "rocm-build"
+    },
+    {
+      "context_snippet": "rocm-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rocm_ci.yml",
+      "term": "rocm-ci"
+    },
+    {
+      "context_snippet": "Build and Publish ROCm Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rocm_docker.yml",
+      "term": "Build and Publish ROCm Docker Image"
+    }
+  ]
+}

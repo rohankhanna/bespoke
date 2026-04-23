@@ -110,6 +110,18 @@
       "source_repo": "antonbabenko/pre-commit-terraform",
       "status": "candidate-context",
       "text": "Dependency Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "status": "candidate-context",
+      "text": "Networking plugin repository for pod networking in Kubernetes using Elastic Network Interfaces on AWS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "status": "candidate-context",
+      "text": "\"Dependency Review\""
     }
   ],
   "candidate_glosses": [
@@ -160,6 +172,12 @@
       "source_repo": "antonbabenko/pre-commit-terraform",
       "status": "candidate",
       "text": "Dependency Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
     }
   ],
   "candidate_related_terms": [
@@ -275,11 +293,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/dependency-review.yml",
       "source_repo": "antonbabenko/pre-commit-terraform"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/deps.yml",
+      "source_repo": "aws/amazon-vpc-cni-k8s"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

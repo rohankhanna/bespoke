@@ -1,0 +1,12 @@
+{
+  "component": "aws-actions/closed-issue-message@3c30436c76e381c567524ba630f169f2fc0d175a",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-closed-message.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s"
+    }
+  ]
+}

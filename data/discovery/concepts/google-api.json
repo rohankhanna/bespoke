@@ -19,6 +19,18 @@
       "source_repo": "babaohuang/GeminiProChat",
       "status": "candidate-context",
       "text": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate-context",
+      "text": "Google Workspace CLI \u2014 one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">gws</h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "babaohuang/GeminiProChat",
       "status": "candidate",
       "text": "English | [\u4e2d\u6587](README_cn.md) | [Italiano](README_it.md) | [\u65e5\u672c\u8a9e](README_jp.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">gws</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "babaohuang/GeminiProChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "googleworkspace/cli"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Distribution"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "status": "candidate-context",
+      "text": "A Python wrapper for librtlsdr (a driver for Realtek RTL2832U based SDR's)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "status": "candidate-context",
+      "text": "Test Distribution"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyrtlsdr/pyrtlsdr",
+      "status": "candidate",
+      "text": "Test Distribution"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28035,
+      "status": "candidate",
+      "text": "chi-square distribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27970,
+      "status": "candidate",
+      "text": "chi-square test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11664,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11664,
+      "status": "candidate",
+      "text": "pattern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11664,
+      "status": "candidate",
+      "text": "patterning"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Distribution",
+  "concept_id": "test-distribution",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/dist-test.yml",
+      "source_repo": "pyrtlsdr/pyrtlsdr"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Distribution",
+      "sense_id": "test-distribution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

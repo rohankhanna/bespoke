@@ -79,6 +79,90 @@
       "source_repo": "mlfoundations/open_clip",
       "status": "candidate-context",
       "text": "[[Paper]](https://arxiv.org/abs/2212.07143) [[Citations]](#citing) [[Clip Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/blob/master/docs/Interacting_with_open_clip.ipynb) [[Coca Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/torchscale",
+      "status": "candidate-context",
+      "text": "Foundation Architecture for (M)LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/torchscale",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catalyst-team/catalyst",
+      "status": "candidate-context",
+      "text": "Accelerated deep learning R&D"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catalyst-team/catalyst",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/XPretrain",
+      "status": "candidate-context",
+      "text": "Multi-modality pre-training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/XPretrain",
+      "status": "candidate-context",
+      "text": "This repo includes some recent research works in **multi-modality learning**, especially with **pre-training** method from [MSM group](https://www.microsoft.com/en-us/research/group/multimedia-search-and-mining/) of Microsoft Research."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmdeploy",
+      "status": "candidate-context",
+      "text": "OpenMMLab Model Deployment Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdeploy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voxel51/fiftyone-examples",
+      "status": "candidate-context",
+      "text": "Examples of using FiftyOne"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/fiftyone-examples",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voxel51/voxelgpt",
+      "status": "candidate-context",
+      "text": "AI assistant that can query visual datasets, search the FiftyOne docs, and answer general computer vision questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/voxelgpt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "status": "candidate-context",
+      "text": "Image-to-Image Translation in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "status": "candidate-context",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +201,48 @@
       "source_repo": "mlfoundations/open_clip",
       "status": "candidate",
       "text": "[[Paper]](https://arxiv.org/abs/2212.07143) [[Citations]](#citing) [[Clip Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/blob/master/docs/Interacting_with_open_clip.ipynb) [[Coca Colab]](https://colab.research.google.com/github/mlfoundations/open_clip/b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/torchscale",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catalyst-team/catalyst",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/XPretrain",
+      "status": "candidate",
+      "text": "This repo includes some recent research works in **multi-modality learning**, especially with **pre-training** method from [MSM group](https://www.microsoft.com/en-us/research/group/multimedia-search-and-mining/) of Microsoft Research."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdeploy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/fiftyone-examples",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/voxelgpt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "status": "candidate",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +286,53 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "mlfoundations/open_clip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/torchscale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "catalyst-team/catalyst"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/XPretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "voxel51/fiftyone-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "voxel51/voxelgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

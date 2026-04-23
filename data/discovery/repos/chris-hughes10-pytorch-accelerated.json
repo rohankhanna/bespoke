@@ -1,0 +1,265 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "fastai/fastai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "pytorchlightning/pytorch-lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "huggingface-accelerate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "huggingface-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "pytorch-tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "timm-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "target": "training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:15:02.399302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11667
+    },
+    {
+      "path": "Dockerfile",
+      "size": 507
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1950
+    },
+    {
+      "path": "requirements.txt",
+      "size": 27
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 2090
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight library designed to accelerate the process of training PyTorch models by providing a minimal, but extensible training loop which is flexible enough to handle the majority of use cases, and capable of utilizing different hardware options with no code changes required. Docs: https://pytorch-accelerated.readthedocs.io/en/latest/ ",
+    "fork": false,
+    "full_name": "Chris-hughes10/pytorch-accelerated",
+    "html_url": "https://github.com/Chris-hughes10/pytorch-accelerated",
+    "language": "Python",
+    "pushed_at": "2026-02-27T08:22:10Z",
+    "stargazers_count": 192,
+    "topics": [
+      "deep-learning",
+      "huggingface-accelerate",
+      "huggingface-examples",
+      "pytorch",
+      "pytorch-tutorial",
+      "timm-examples",
+      "training"
+    ],
+    "updated_at": "2026-03-20T04:26:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fastai/fastai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorchlightning/pytorch-lightning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface-accelerate"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface-examples"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-tutorial"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "timm-examples"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "training"
+    }
+  ]
+}

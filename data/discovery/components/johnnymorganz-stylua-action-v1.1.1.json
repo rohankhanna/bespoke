@@ -1,0 +1,12 @@
+{
+  "component": "JohnnyMorganz/stylua-action@v1.1.1",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stylua.yml",
+      "source_repo": "mason-org/mason.nvim"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "mrdoob/three.js",
       "status": "candidate-context",
       "text": "[![NPM Package][npm]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "status": "candidate-context",
+      "text": "A Synthetic Immersive Large-Volume Plenoptic Dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "status": "candidate-context",
+      "text": "<div class=\"thumbnails in-body\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mrdoob/three.js",
       "status": "candidate",
       "text": "[![NPM Package][npm]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "status": "candidate",
+      "text": "<div class=\"thumbnails in-body\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "mrdoob/three.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

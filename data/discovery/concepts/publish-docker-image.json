@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Publish Docker image"
+    "Publish Docker image",
+    "Publish Docker Image"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -79,6 +80,54 @@
       "source_repo": "ekalinin/github-markdown-toc",
       "status": "candidate-context",
       "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "songquanpeng/blog",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8e Node.js \u7684\u4e2a\u4eba\u535a\u5ba2\u7cfb\u7edf. Node.js based blog system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songquanpeng/blog",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fuergaosi233/wechat-chatgpt",
+      "status": "candidate-context",
+      "text": "Use ChatGPT On Wechat via wechaty"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuergaosi233/wechat-chatgpt",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate-context",
+      "text": "A RWKV management and startup tool, full automation, only 8MB. And provides an interface compatible with the OpenAI API. RWKV is a large language model that is fully open source and available for commercial use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate-context",
+      "text": "Publish Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhayujie/bot-on-anything",
+      "status": "candidate-context",
+      "text": "A large model-based chatbot builder that can quickly integrate AI models (including ChatGPT, Claude, Gemini) into various software applications (such as Telegram, Gmail, Slack, and websites)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhayujie/bot-on-anything",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +164,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ekalinin/github-markdown-toc",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songquanpeng/blog",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fuergaosi233/wechat-chatgpt",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate",
+      "text": "Publish Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhayujie/bot-on-anything",
       "status": "candidate",
       "text": "Publish Docker image"
     }
@@ -220,11 +293,47 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "songquanpeng/blog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/publish-docker-hub.yml",
+      "source_repo": "fuergaosi233/wechat-chatgpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "josStorer/RWKV-Runner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "source_repo": "zhayujie/bot-on-anything"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

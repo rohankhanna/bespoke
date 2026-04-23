@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This is the public roadmap for AWS App Runner."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a public roadmap for AWS App Runner. We learnt from customers that knowing about our upcoming features and priorities helps them plan. This repository contains information about what we are working on and allows customers to give direct feedback."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a public roadmap for AWS App Runner. We learnt from customers that knowing about our upcoming features and priorities helps them plan. This repository contains information about what we are working on and allows customers to give direct feedback."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "apprunner",
+      "sense_id": "apprunner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "apprunner",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "apprunner",
+  "observation_id": "c05ffd98b87ae461",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "apprunner",
+  "source_context_snippet": "This is a public roadmap for AWS App Runner. We learnt from customers that knowing about our upcoming features and priorities helps them plan. This repository contains information about what we are working on and allows customers to give direct feedback.",
+  "source_file": null,
+  "source_repo": "aws/apprunner-roadmap",
+  "source_repo_description": "This is the public roadmap for AWS App Runner."
+}

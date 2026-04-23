@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udda9 \u4f18\u79c0\u7684\u4e2d\u6587\u533a\u4e2a\u4eba\u4e3b\u9875\u641c\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "profile-readme",
+      "sense_id": "profile-readme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "profile-readme",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "profile-readme",
+  "observation_id": "b8116ea034b34bb8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "profile-readme",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+  "source_repo_description": "\ud83e\udda9 \u4f18\u79c0\u7684\u4e2d\u6587\u533a\u4e2a\u4eba\u4e3b\u9875\u641c\u96c6"
+}

@@ -19,6 +19,30 @@
       "source_repo": "hashberg-io/multiformats",
       "status": "candidate-context",
       "text": "multiformats: Python implementation of `multiformat protocols <https://multiformats.io/>`_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashberg-io/bases",
+      "status": "candidate-context",
+      "text": "A Python library for general Base-N encodings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashberg-io/bases",
+      "status": "candidate-context",
+      "text": "bases: A Python library for Base-N encodings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashberg-io/multiformats-config",
+      "status": "candidate-context",
+      "text": "Table information and configuration options for the 'multiformats' package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashberg-io/multiformats-config",
+      "status": "candidate-context",
+      "text": "multiformats-config: Configuration for the 'multiformats' package."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "hashberg-io/multiformats",
       "status": "candidate",
       "text": "multiformats: Python implementation of `multiformat protocols <https://multiformats.io/>`_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashberg-io/bases",
+      "status": "candidate",
+      "text": "bases: A Python library for Base-N encodings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashberg-io/multiformats-config",
+      "status": "candidate",
+      "text": "multiformats-config: Configuration for the 'multiformats' package."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "hashberg-io/multiformats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "hashberg-io/bases"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "hashberg-io/multiformats-config"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

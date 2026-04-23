@@ -194,7 +194,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T04:51:59.336976+00:00",
+  "fetched_at": "2026-04-23T01:12:15.354645+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -222,15 +222,15 @@
     "full_name": "ggml-org/ggml",
     "html_url": "https://github.com/ggml-org/ggml",
     "language": "C++",
-    "pushed_at": "2026-04-21T08:03:53Z",
-    "stargazers_count": 14485,
+    "pushed_at": "2026-04-22T12:49:00Z",
+    "stargazers_count": 14492,
     "topics": [
       "automatic-differentiation",
       "large-language-models",
       "machine-learning",
       "tensor-algebra"
     ],
-    "updated_at": "2026-04-21T17:51:23Z"
+    "updated_at": "2026-04-22T19:31:12Z"
   },
   "repo_links": [
     {

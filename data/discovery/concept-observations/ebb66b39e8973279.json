@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a FindBugs/SpotBugs plugin for doing static code analysis for java code bases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "cppcheck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "javacc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "pylint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "checkstyle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "addresssanitizer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "findbugs",
+      "sense_id": "findbugs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "findbugs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "findbugs",
+  "observation_id": "ebb66b39e8973279",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "findbugs",
+  "source_context_snippet": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />",
+  "source_file": null,
+  "source_repo": "mebigfatguy/fb-contrib",
+  "source_repo_description": "a FindBugs/SpotBugs plugin for doing static code analysis for java code bases"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Coveralls"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": ":electron: \ud83d\ude80 The easiest way to get started with Electron"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": "Coveralls"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
+      "status": "candidate",
+      "text": "Coveralls"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29901265,
+      "status": "candidate",
+      "text": "overalls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29900805,
+      "status": "candidate",
+      "text": "combinations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29787503,
+      "status": "candidate",
+      "text": "mix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19901362,
+      "status": "candidate",
+      "text": "compounds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19901362,
+      "status": "candidate",
+      "text": "mixes"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Coveralls",
+  "concept_id": "coveralls",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/coveralls.yml",
+      "source_repo": "electron/fiddle"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Coveralls",
+      "sense_id": "coveralls#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

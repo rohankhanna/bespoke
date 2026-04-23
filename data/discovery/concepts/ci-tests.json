@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "CI Tests"
+    "CI Tests",
+    "CI tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "ethers-io/ethers.js",
       "status": "candidate-context",
       "text": "CI Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Frommi/miniz_oxide",
+      "status": "candidate-context",
+      "text": "Rust replacement for miniz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Frommi/miniz_oxide",
+      "status": "candidate-context",
+      "text": "CI tests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "ethers-io/ethers.js",
       "status": "candidate",
       "text": "CI Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Frommi/miniz_oxide",
+      "status": "candidate",
+      "text": "CI tests"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +101,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/test-ci.yml",
       "source_repo": "ethers-io/ethers.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Frommi/miniz_oxide"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

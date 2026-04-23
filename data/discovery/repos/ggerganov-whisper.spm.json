@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ggerganov/whisper.spm",
+      "target": "ggerganov/whisper.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm",
+      "target": "Swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:12:44.576981+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 991
+    },
+    {
+      "path": ".github/workflows/swift.yml",
+      "size": 320
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "whisper.cpp package for the Swift Package Manager",
+    "fork": false,
+    "full_name": "ggerganov/whisper.spm",
+    "html_url": "https://github.com/ggerganov/whisper.spm",
+    "language": "C",
+    "pushed_at": "2024-05-27T07:34:41Z",
+    "stargazers_count": 190,
+    "topics": [],
+    "updated_at": "2026-02-28T12:20:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/whisper.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Swift",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "term": "Swift"
+    }
+  ]
+}

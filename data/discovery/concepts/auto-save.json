@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "auto-save"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bbatsov/super-save",
+      "status": "candidate-context",
+      "text": "Save Emacs buffers when they lose focus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/super-save",
+      "status": "candidate-context",
+      "text": "[![License GPL 3][badge-license]][copying]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bbatsov/super-save",
+      "status": "candidate",
+      "text": "[![License GPL 3][badge-license]][copying]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017941,
+      "status": "candidate",
+      "text": "autosave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017940,
+      "status": "candidate",
+      "text": "save slot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017939,
+      "status": "candidate",
+      "text": "save state"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017938,
+      "status": "candidate",
+      "text": "save"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017937,
+      "status": "candidate",
+      "text": "savefile"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "auto-save",
+  "concept_id": "auto-save",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "bbatsov/super-save"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "auto-save",
+      "sense_id": "auto-save#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

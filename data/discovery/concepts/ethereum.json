@@ -355,6 +355,30 @@
       "source_repo": "ethereum/go-ethereum",
       "status": "candidate-context",
       "text": "Golang execution layer implementation of the Ethereum protocol."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashbots/mev-boost",
+      "status": "candidate-context",
+      "text": "MEV-Boost allows Ethereum validators to source high-MEV blocks from a competitive builder marketplace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/mev-boost",
+      "status": "candidate-context",
+      "text": "![mev-boost](https://user-images.githubusercontent.com/116939/224986867-3d1916c6-3219-4d61-b1ce-213fc663070c.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/hive",
+      "status": "candidate-context",
+      "text": "Ethereum end-to-end test harness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/hive",
+      "status": "candidate-context",
+      "text": "Hive is a system for running integration tests against Ethereum clients."
     }
   ],
   "candidate_glosses": [
@@ -531,6 +555,18 @@
       "source_repo": "ethereum/go-ethereum",
       "status": "candidate",
       "text": "Golang execution layer implementation of the Ethereum protocol."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/mev-boost",
+      "status": "candidate",
+      "text": "![mev-boost](https://user-images.githubusercontent.com/116939/224986867-3d1916c6-3219-4d61-b1ce-213fc663070c.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/hive",
+      "status": "candidate",
+      "text": "Hive is a system for running integration tests against Ethereum clients."
     }
   ],
   "candidate_related_terms": [
@@ -778,11 +814,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "flashbots/mev-boost"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/hive"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AppVeyor Status Report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libssh2/libssh2",
+      "status": "candidate-context",
+      "text": "the SSH library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libssh2/libssh2",
+      "status": "candidate-context",
+      "text": "'AppVeyor Status Report'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libssh2/libssh2",
+      "status": "candidate",
+      "text": "'AppVeyor Status Report'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48434,
+      "status": "candidate",
+      "text": "state"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48034,
+      "status": "candidate",
+      "text": "situation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47944,
+      "status": "candidate",
+      "text": "scorecard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27944,
+      "status": "candidate",
+      "text": "autocephaly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "acknowledge"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AppVeyor Status Report",
+  "concept_id": "appveyor-status-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/appveyor_status.yml",
+      "source_repo": "libssh2/libssh2"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AppVeyor Status Report",
+      "sense_id": "appveyor-status-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

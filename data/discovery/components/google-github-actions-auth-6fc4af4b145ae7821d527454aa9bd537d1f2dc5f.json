@@ -1,0 +1,12 @@
+{
+  "component": "google-github-actions/auth@6fc4af4b145ae7821d527454aa9bd537d1f2dc5f",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "GoogleCloudPlatform/berglas"
+    }
+  ]
+}

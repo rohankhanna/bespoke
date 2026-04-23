@@ -7,10 +7,110 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ycm-core/ycmd",
+      "status": "candidate-context",
+      "text": "A code-completion & code-comprehension server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ycm-core/ycmd",
+      "status": "candidate-context",
+      "text": "ycmd: a code-completion & comprehension server"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "\u2728\u2601\ufe0f\ud83d\udcc1\u2728 Cloud Commander file manager for the web with console and editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode",
+      "status": "candidate-context",
+      "text": "Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode",
+      "status": "candidate-context",
+      "text": "[![Feature Requests](https://img.shields.io/github/issues/microsoft/vscode/feature-request.svg)](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ycm-core/ycmd",
+      "status": "candidate",
+      "text": "ycmd: a code-completion & comprehension server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate",
+      "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode",
+      "status": "candidate",
+      "text": "[![Feature Requests](https://img.shields.io/github/issues/microsoft/vscode/feature-request.svg)](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050126,
+      "status": "candidate",
+      "text": "editor program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050125,
+      "status": "candidate",
+      "text": "publication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050086,
+      "status": "candidate",
+      "text": "editor-in-chief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050008,
+      "status": "candidate",
+      "text": "editorial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30050005,
+      "status": "candidate",
+      "text": "reviewer"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "editor program"
+    }
+  ],
   "canonical_name": "editor",
   "concept_id": "editor",
   "definition_status": "unresolved",
@@ -20,12 +120,32 @@
       "observed_at": "2026-04-18T11:41:43.530265+00:00",
       "source_file": null,
       "source_repo": "lobehub/lobe-editor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ycm-core/ycmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/cloudcmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

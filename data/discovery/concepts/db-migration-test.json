@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "DB Migration Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langgenius/dify",
+      "status": "candidate-context",
+      "text": "Production-ready platform for agentic workflow development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgenius/dify",
+      "status": "candidate-context",
+      "text": "DB Migration Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgenius/dify",
+      "status": "candidate",
+      "text": "DB Migration Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23464,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23464,
+      "status": "candidate",
+      "text": "love"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18813,
+      "status": "candidate",
+      "text": "measured"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18813,
+      "status": "candidate",
+      "text": "quiet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15453,
+      "status": "candidate",
+      "text": "tito"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "DB Migration Test",
+  "concept_id": "db-migration-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/db-migration-test.yml",
+      "source_repo": "langgenius/dify"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "DB Migration Test",
+      "sense_id": "db-migration-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -20,6 +20,18 @@
       "source_repo": "AmElmo/proofshot",
       "status": "candidate-context",
       "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaijs/chai-http",
+      "status": "candidate-context",
+      "text": "HTTP Response assertions for the Chai Assertion Library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chai-http",
+      "status": "candidate-context",
+      "text": "Publish to npm"
     }
   ],
   "candidate_glosses": [
@@ -28,6 +40,12 @@
       "source_repo": "AmElmo/proofshot",
       "status": "candidate",
       "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chai-http",
+      "status": "candidate",
+      "text": "Publish to npm"
     }
   ],
   "candidate_related_terms": [
@@ -89,11 +107,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "AmElmo/proofshot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "chaijs/chai-http"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

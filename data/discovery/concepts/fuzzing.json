@@ -64,6 +64,18 @@
       "source_repo": "HypothesisWorks/hypothesis",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-fuzz/cargo-fuzz",
+      "status": "candidate-context",
+      "text": "Command line helpers for fuzzing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-fuzz/cargo-fuzz",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -94,6 +106,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "HypothesisWorks/hypothesis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-fuzz/cargo-fuzz",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -169,11 +187,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "HypothesisWorks/hypothesis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "rust-fuzz/cargo-fuzz"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -48,7 +48,7 @@
   "normalized_form": "docker-build-ascend-a2",
   "observation_id": "4fb9f4b02be79d22",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
   "observed_text": "docker-build-ascend-a2",
   "source_context_snippet": "docker-build-ascend-a2",
   "source_file": ".github/workflows/docker-build-ascend-a2.yml",

@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "json-rpc"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate-context",
+      "text": "OpenRPC Markdown Generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate-context",
+      "text": "Generate API documentation from [OpenRPC](https://open-rpc.org) specifications."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate",
+      "text": "Generate API documentation from [OpenRPC](https://open-rpc.org) specifications."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "microsoft rpc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "rpyc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "gson"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "json-rpc",
+  "concept_id": "json-rpc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "open-rpc/markdown-gen"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "json-rpc",
+      "sense_id": "json-rpc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -103,6 +103,42 @@
       "source_repo": "foundry-rs/foundry-core",
       "status": "candidate-context",
       "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AssemblyScript/assemblyscript",
+      "status": "candidate-context",
+      "text": "A TypeScript-like language for WebAssembly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AssemblyScript/assemblyscript",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grain-lang/grain",
+      "status": "candidate-context",
+      "text": "The Grain compiler toolchain and CLI. Home of the modern web staple. \ud83c\udf3e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/grain",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/kotlin",
+      "status": "candidate-context",
+      "text": "The Kotlin Programming Language. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/kotlin",
+      "status": "candidate-context",
+      "text": "The Kotlin Programming Language."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +189,24 @@
       "source_repo": "foundry-rs/foundry-core",
       "status": "candidate",
       "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AssemblyScript/assemblyscript",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/grain",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/kotlin",
+      "status": "candidate",
+      "text": "The Kotlin Programming Language."
     }
   ],
   "candidate_related_terms": [
@@ -265,11 +319,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "foundry-rs/foundry-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "AssemblyScript/assemblyscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "grain-lang/grain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/kotlin"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

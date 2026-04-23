@@ -19,6 +19,30 @@
       "source_repo": "zlib-ng/zlib-ng",
       "status": "candidate-context",
       "text": "| CI | Stable | Develop |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zlib-ng/deflatebench",
+      "status": "candidate-context",
+      "text": "Tool to benchmark zlib-ng"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/deflatebench",
+      "status": "candidate-context",
+      "text": "This tool must be run from the folder where an executable `minigzip` or `minideflate` exist.\\"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zlib-ng/patches",
+      "status": "candidate-context",
+      "text": "Patches for 3rd party applications to enable compiling against zlib-ng in native mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/patches",
+      "status": "candidate-context",
+      "text": "This repository is here to allow sharing patches that allow compiling an application against zlib-ng."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "zlib-ng/zlib-ng",
       "status": "candidate",
       "text": "| CI | Stable | Develop |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/deflatebench",
+      "status": "candidate",
+      "text": "This tool must be run from the folder where an executable `minigzip` or `minideflate` exist.\\"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/patches",
+      "status": "candidate",
+      "text": "This repository is here to allow sharing patches that allow compiling an application against zlib-ng."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "zlib-ng/zlib-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "zlib-ng/deflatebench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "zlib-ng/patches"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

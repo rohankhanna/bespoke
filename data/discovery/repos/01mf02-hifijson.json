@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "01mf02/hifijson",
+      "target": "nst/jsontestsuite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "01mf02/hifijson",
+      "target": "rust-embedded-community/serde-json-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "01mf02/hifijson",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "01mf02/hifijson",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:13:41.641904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7044
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 546
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-fidelity JSON lexer and parser",
+    "fork": false,
+    "full_name": "01mf02/hifijson",
+    "html_url": "https://github.com/01mf02/hifijson",
+    "language": "Rust",
+    "pushed_at": "2025-12-15T15:09:14Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2026-04-10T23:35:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nst/jsontestsuite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-embedded-community/serde-json-core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

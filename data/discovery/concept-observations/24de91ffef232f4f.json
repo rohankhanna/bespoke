@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Git branch checkout menu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A git command-line tool to work with branches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A git command-line tool to work with branches"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049522,
+      "status": "candidate",
+      "text": "offshoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40049315,
+      "status": "candidate",
+      "text": "outgrowth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018277,
+      "status": "candidate",
+      "text": "fork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39980690,
+      "status": "candidate",
+      "text": "leg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967043,
+      "status": "candidate",
+      "text": "arm"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "branch",
+      "sense_id": "branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29075,
+      "status": "candidate",
+      "text": "offset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22044,
+      "status": "candidate",
+      "text": "separate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15031,
+      "status": "candidate",
+      "text": "outgrowth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9055,
+      "status": "candidate",
+      "text": "fork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7080,
+      "status": "candidate",
+      "text": "arm"
+    }
+  ],
+  "concept_id": "branch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "branch",
+  "observation_id": "24de91ffef232f4f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "branch",
+  "source_context_snippet": "A git command-line tool to work with branches",
+  "source_file": null,
+  "source_repo": "andys8/git-brunch",
+  "source_repo_description": "Git branch checkout menu"
+}

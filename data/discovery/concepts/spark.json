@@ -19,6 +19,18 @@
       "source_repo": "apache/spark",
       "status": "candidate-context",
       "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "status": "candidate-context",
+      "text": "GUI for ChatGPT API and many LLMs. Supports agents, file-based QA, GPT finetuning and query with web search. All with a neat UI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "status": "candidate-context",
+      "text": "<div align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "apache/spark",
       "status": "candidate",
       "text": "Spark is a unified analytics engine for large-scale data processing. It provides"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "status": "candidate",
+      "text": "<div align=\"right\">"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "apache/spark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/XPretrain",
+      "target": "researchmm/soho",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/XPretrain",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/XPretrain",
+      "target": "multimedia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/XPretrain",
+      "target": "multimodal-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/XPretrain",
+      "target": "pre-training",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:15:11.516355+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4074
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Multi-modality pre-training",
+    "fork": false,
+    "full_name": "microsoft/XPretrain",
+    "html_url": "https://github.com/microsoft/XPretrain",
+    "language": "Python",
+    "pushed_at": "2026-03-27T05:46:44Z",
+    "stargazers_count": 511,
+    "topics": [
+      "computer-vision",
+      "multimedia",
+      "multimodal-learning",
+      "nlp",
+      "pre-training"
+    ],
+    "updated_at": "2026-04-21T01:37:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "researchmm/soho",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo includes some recent research works in **multi-modality learning**, especially with **pre-training** method from [MSM group](https://www.microsoft.com/en-us/research/group/multimedia-search-and-mining/) of Microsoft Research.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repo includes some recent research works in **multi-modality learning**, especially with **pre-training** method from [MSM group](https://www.microsoft.com/en-us/research/group/multimedia-search-and-mining/) of Microsoft Research.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimedia"
+    },
+    {
+      "context_snippet": "This repo includes some recent research works in **multi-modality learning**, especially with **pre-training** method from [MSM group](https://www.microsoft.com/en-us/research/group/multimedia-search-and-mining/) of Microsoft Research.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-learning"
+    },
+    {
+      "context_snippet": "This repo includes some recent research works in **multi-modality learning**, especially with **pre-training** method from [MSM group](https://www.microsoft.com/en-us/research/group/multimedia-search-and-mining/) of Microsoft Research.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-training"
+    }
+  ]
+}

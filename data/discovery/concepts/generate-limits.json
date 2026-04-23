@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Limits"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "status": "candidate-context",
+      "text": "Networking plugin repository for pod networking in Kubernetes using Elastic Network Interfaces on AWS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "status": "candidate-context",
+      "text": "Generate Limits"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "status": "candidate",
+      "text": "Generate Limits"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11887,
+      "status": "candidate",
+      "text": "span"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10863,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10863,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10863,
+      "status": "candidate",
+      "text": "flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10863,
+      "status": "candidate",
+      "text": "gather"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Limits",
+  "concept_id": "generate-limits",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/generate-limits.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Limits",
+      "sense_id": "generate-limits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

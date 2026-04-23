@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:24:54.033942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Starter template for LazyVim",
+    "fork": false,
+    "full_name": "LazyVim/starter",
+    "html_url": "https://github.com/LazyVim/starter",
+    "language": "Lua",
+    "pushed_at": "2024-12-11T16:56:39Z",
+    "stargazers_count": 1860,
+    "topics": [],
+    "updated_at": "2026-04-22T09:51:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

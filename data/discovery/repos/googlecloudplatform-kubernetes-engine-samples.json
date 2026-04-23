@@ -1,0 +1,318 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-ad-vertex.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-adk-vllm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-gke-a100-jax-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-gke-finetuning-gemma.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-gke-ray-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-llm-training-jax-tpu-gemma3.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-maxdiffusion-tpu-server-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-t5-model-serving-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-design-center-ci.yml"
+    },
+    {
+      "component": "azure/setup-helm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-design-center-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-ad-vertex.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-ad-vertex.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "ai-ml-adk-vertex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-adk-vllm.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-adk-vllm.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "ai-ml-adk-vertex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-gke-a100-jax-ci.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-gke-a100-jax-ci.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "ai-ml-a100-jax-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-gke-finetuning-gemma.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-gke-finetuning-gemma.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "ai-ml-finetune-gemma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-gke-ray-ci.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-gke-ray-ci.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "ai-ml-gke-ray-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-llm-training-jax-tpu-gemma3.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-llm-training-jax-tpu-gemma3.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "ai-ml-llm-training-jax-tpu-gemma3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-maxdiffusion-tpu-server-ci.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-maxdiffusion-tpu-server-ci.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "ai-ml-maxdiffusion-tpu-server-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-ml-t5-model-serving-ci.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-t5-model-serving-ci.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "ai-ml-t5-model-serving-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-design-center-ci.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/app-design-center-ci.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "azure/setup-helm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-design-center-ci.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "app-design-center-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "target": "samples",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:21:20.619991+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1036
+    },
+    {
+      "path": ".github/workflows/ai-ml-ad-vertex.yml",
+      "size": 1379
+    },
+    {
+      "path": ".github/workflows/ai-ml-adk-vllm.yml",
+      "size": 1203
+    },
+    {
+      "path": ".github/workflows/ai-ml-gke-a100-jax-ci.yml",
+      "size": 522
+    },
+    {
+      "path": ".github/workflows/ai-ml-gke-finetuning-gemma.yml",
+      "size": 555
+    },
+    {
+      "path": ".github/workflows/ai-ml-gke-ray-ci.yml",
+      "size": 478
+    },
+    {
+      "path": ".github/workflows/ai-ml-llm-training-jax-tpu-gemma3.yml",
+      "size": 1337
+    },
+    {
+      "path": ".github/workflows/ai-ml-maxdiffusion-tpu-server-ci.yml",
+      "size": 1185
+    },
+    {
+      "path": ".github/workflows/ai-ml-t5-model-serving-ci.yml",
+      "size": 765
+    },
+    {
+      "path": ".github/workflows/app-design-center-ci.yml",
+      "size": 2160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sample applications for Google Kubernetes Engine (GKE)",
+    "fork": false,
+    "full_name": "GoogleCloudPlatform/kubernetes-engine-samples",
+    "html_url": "https://github.com/GoogleCloudPlatform/kubernetes-engine-samples",
+    "language": "HCL",
+    "pushed_at": "2026-04-21T12:08:43Z",
+    "stargazers_count": 1347,
+    "topics": [
+      "samples"
+    ],
+    "updated_at": "2026-04-21T12:08:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ai-ml-adk-vertex",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-ad-vertex.yml",
+      "term": "ai-ml-adk-vertex"
+    },
+    {
+      "context_snippet": "ai-ml-adk-vertex",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-adk-vllm.yml",
+      "term": "ai-ml-adk-vertex"
+    },
+    {
+      "context_snippet": "ai-ml-a100-jax-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-gke-a100-jax-ci.yml",
+      "term": "ai-ml-a100-jax-ci"
+    },
+    {
+      "context_snippet": "ai-ml-finetune-gemma",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-gke-finetuning-gemma.yml",
+      "term": "ai-ml-finetune-gemma"
+    },
+    {
+      "context_snippet": "ai-ml-gke-ray-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-gke-ray-ci.yml",
+      "term": "ai-ml-gke-ray-ci"
+    },
+    {
+      "context_snippet": "ai-ml-llm-training-jax-tpu-gemma3",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-llm-training-jax-tpu-gemma3.yml",
+      "term": "ai-ml-llm-training-jax-tpu-gemma3"
+    },
+    {
+      "context_snippet": "ai-ml-maxdiffusion-tpu-server-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-maxdiffusion-tpu-server-ci.yml",
+      "term": "ai-ml-maxdiffusion-tpu-server-ci"
+    },
+    {
+      "context_snippet": "ai-ml-t5-model-serving-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-t5-model-serving-ci.yml",
+      "term": "ai-ml-t5-model-serving-ci"
+    },
+    {
+      "context_snippet": "app-design-center-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/app-design-center-ci.yml",
+      "term": "app-design-center-ci"
+    },
+    {
+      "context_snippet": "This repository contains sample applications used in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "samples"
+    }
+  ]
+}

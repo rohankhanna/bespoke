@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:21:58.066862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2631
+    },
+    {
+      "path": "go.mod",
+      "size": 178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build Docker images from Go packages",
+    "fork": true,
+    "full_name": "sourcegraph/godockerize",
+    "html_url": "https://github.com/sourcegraph/godockerize",
+    "language": "Go",
+    "pushed_at": "2024-06-04T17:33:58Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2022-11-23T13:09:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

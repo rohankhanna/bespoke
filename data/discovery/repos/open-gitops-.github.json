@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-gitops/.github",
+      "target": "community-health",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:15:29.051740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\uddd1\u200d\u2695\ufe0f Default community health files for all CNCF OpenGitOps project repos",
+    "fork": false,
+    "full_name": "open-gitops/.github",
+    "html_url": "https://github.com/open-gitops/.github",
+    "language": null,
+    "pushed_at": "2025-08-20T19:39:44Z",
+    "stargazers_count": 13,
+    "topics": [
+      "community-health"
+    ],
+    "updated_at": "2025-08-30T23:01:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!-- markdownlint-disable MD033 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community-health"
+    }
+  ]
+}

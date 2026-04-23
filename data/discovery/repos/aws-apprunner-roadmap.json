@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/apprunner-roadmap",
+      "target": "apprunner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/apprunner-roadmap",
+      "target": "containers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:11:01.777319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the public roadmap for AWS App Runner.",
+    "fork": false,
+    "full_name": "aws/apprunner-roadmap",
+    "html_url": "https://github.com/aws/apprunner-roadmap",
+    "language": null,
+    "pushed_at": "2024-08-06T22:50:55Z",
+    "stargazers_count": 303,
+    "topics": [
+      "apprunner",
+      "aws",
+      "containers"
+    ],
+    "updated_at": "2026-02-10T00:39:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a public roadmap for AWS App Runner. We learnt from customers that knowing about our upcoming features and priorities helps them plan. This repository contains information about what we are working on and allows customers to give direct feedback.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apprunner"
+    },
+    {
+      "context_snippet": "This is a public roadmap for AWS App Runner. We learnt from customers that knowing about our upcoming features and priorities helps them plan. This repository contains information about what we are working on and allows customers to give direct feedback.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    }
+  ]
+}

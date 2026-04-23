@@ -67,6 +67,18 @@
       "source_repo": "prometheus-operator/prometheus-operator",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/prometheus-operator/prometheus-operator/actions/workflows/checks.yaml/badge.svg)](https://github.com/prometheus-operator/prometheus-operator/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/prometheus",
+      "status": "candidate-context",
+      "text": "The Prometheus monitoring system and time series database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/prometheus",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "prometheus-operator/prometheus-operator",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/prometheus-operator/prometheus-operator/actions/workflows/checks.yaml/badge.svg)](https://github.com/prometheus-operator/prometheus-operator/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/prometheus",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "prometheus-operator/prometheus-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "prometheus/prometheus"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

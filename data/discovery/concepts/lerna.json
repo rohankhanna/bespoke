@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "lerna"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerna/lerna",
+      "status": "candidate-context",
+      "text": "Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna/lerna",
+      "status": "candidate-context",
+      "text": "> **Important note: this project [changed stewardship to Nx](https://github.com/lerna/lerna/issues/3121)!**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerna-lite/lerna-lite",
+      "status": "candidate-context",
+      "text": "Subset of Lerna in a smaller & more modular project. Help manage and publish multiple packages in a monorepo/workspace structure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna-lite/lerna-lite",
+      "status": "candidate-context",
+      "text": "<p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna/lerna",
+      "status": "candidate",
+      "text": "> **Important note: this project [changed stewardship to Nx](https://github.com/lerna/lerna/issues/3121)!**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna-lite/lerna-lite",
+      "status": "candidate",
+      "text": "<p>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31363,
+      "status": "candidate",
+      "text": "loutraki"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31362,
+      "status": "candidate",
+      "text": "nymphaeum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31361,
+      "status": "candidate",
+      "text": "eleusis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31360,
+      "status": "candidate",
+      "text": "corinth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31359,
+      "status": "candidate",
+      "text": "hydria"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lerna",
+  "concept_id": "lerna",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "lerna/lerna"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "lerna-lite/lerna-lite"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lerna",
+      "sense_id": "lerna#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

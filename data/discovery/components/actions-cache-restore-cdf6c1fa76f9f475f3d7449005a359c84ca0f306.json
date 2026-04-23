@@ -1,0 +1,17 @@
+{
+  "component": "actions/cache/restore@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-packages.yml",
+      "source_repo": "microsoft/DefinitelyTyped-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-registry.yml",
+      "source_repo": "microsoft/DefinitelyTyped-tools"
+    }
+  ]
+}

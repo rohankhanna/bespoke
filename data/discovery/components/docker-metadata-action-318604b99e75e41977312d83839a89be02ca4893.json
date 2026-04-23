@@ -1,12 +1,17 @@
 {
   "component": "docker/metadata-action@318604b99e75e41977312d83839a89be02ca4893",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "jdx/mise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "gohugoio/hugo"
     }
   ]
 }

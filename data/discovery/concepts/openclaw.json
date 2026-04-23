@@ -127,6 +127,42 @@
       "source_repo": "shadmau/autocouncil",
       "status": "candidate-context",
       "text": "AutoCouncil is an LLM council for reviewing OpenClaw agent plans and outputs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgentR1/Claw-R1",
+      "status": "candidate-context",
+      "text": "Claw-R1: Empowering OpenClaw with Advanced Agentic RL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgentR1/Claw-R1",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> Claw-R1: The Data Foundation for <br> Agentic Reinforcement Learning </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "infiniflow/ragflow",
+      "status": "candidate-context",
+      "text": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infiniflow/ragflow",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhayujie/cow-skill-hub",
+      "status": "candidate-context",
+      "text": "Cow Skill Hub is an open platform to discover, share, and install AI Agent Skills \u2014  official, community, and third-party (GitHub, ClawHub, and more)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhayujie/cow-skill-hub",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "shadmau/autocouncil",
       "status": "candidate",
       "text": "AutoCouncil is an LLM council for reviewing OpenClaw agent plans and outputs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgentR1/Claw-R1",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> Claw-R1: The Data Foundation for <br> Agentic Reinforcement Learning </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infiniflow/ragflow",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhayujie/cow-skill-hub",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +334,35 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "shadmau/autocouncil"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "AgentR1/Claw-R1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "infiniflow/ragflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/cow-skill-hub"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -2,7 +2,8 @@
   "aliases": [
     "Integration Tests",
     "integration-tests",
-    "integration tests"
+    "integration tests",
+    "Integration tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -105,6 +106,42 @@
       "source_repo": "mozilla/sccache",
       "status": "candidate-context",
       "text": "integration-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "status": "candidate-context",
+      "text": "Networking plugin repository for pod networking in Kubernetes using Elastic Network Interfaces on AWS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "status": "candidate-context",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/model-runner",
+      "status": "candidate-context",
+      "text": "Docker Model Runner"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/model-runner",
+      "status": "candidate-context",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "netlify/cli",
+      "status": "candidate-context",
+      "text": "Netlify Command Line Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netlify/cli",
+      "status": "candidate-context",
+      "text": "Integration Tests"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +192,24 @@
       "source_repo": "mozilla/sccache",
       "status": "candidate",
       "text": "integration-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "status": "candidate",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/model-runner",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netlify/cli",
+      "status": "candidate",
+      "text": "Integration Tests"
     }
   ],
   "candidate_related_terms": [
@@ -258,11 +313,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "docker/model-runner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "netlify/cli"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

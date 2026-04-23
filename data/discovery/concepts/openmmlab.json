@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "openmmlab"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mim",
+      "status": "candidate-context",
+      "text": "MIM Installs OpenMMLab Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mim",
+      "status": "candidate-context",
+      "text": "MIM provides a unified interface for launching and installing OpenMMLab projects and their extensions, and managing the OpenMMLab model zoo."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmaction2",
+      "status": "candidate-context",
+      "text": "OpenMMLab's Next Generation Video Understanding Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmaction2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mim",
+      "status": "candidate",
+      "text": "MIM provides a unified interface for launching and installing OpenMMLab projects and their extensions, and managing the OpenMMLab model zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmaction2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "openmmlab",
+  "concept_id": "openmmlab",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmaction2"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openmmlab",
+      "sense_id": "openmmlab#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

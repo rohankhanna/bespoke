@@ -19,6 +19,18 @@
       "source_repo": "AgentR1/Agent-R1",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Agent-R1</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AgentR1/Claw-R1",
+      "status": "candidate-context",
+      "text": "Claw-R1: Empowering OpenClaw with Advanced Agentic RL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgentR1/Claw-R1",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"> Claw-R1: The Data Foundation for <br> Agentic Reinforcement Learning </h1>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "AgentR1/Agent-R1",
       "status": "candidate",
       "text": "<h1 align=\"center\">Agent-R1</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AgentR1/Claw-R1",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"> Claw-R1: The Data Foundation for <br> Agentic Reinforcement Learning </h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "AgentR1/Agent-R1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "AgentR1/Claw-R1"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

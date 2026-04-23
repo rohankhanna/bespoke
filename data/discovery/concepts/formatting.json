@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "formatting"
+    "formatting",
+    "Formatting"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "wbthomason/packer.nvim",
       "status": "candidate-context",
       "text": "formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EleutherAI/DeeperSpeed",
+      "status": "candidate-context",
+      "text": "DeepSpeed is a deep learning optimization library that makes distributed training easy, efficient, and effective."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/DeeperSpeed",
+      "status": "candidate-context",
+      "text": "Formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "status": "candidate-context",
+      "text": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "status": "candidate-context",
+      "text": "Formatting"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "wbthomason/packer.nvim",
       "status": "candidate",
       "text": "formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EleutherAI/DeeperSpeed",
+      "status": "candidate",
+      "text": "Formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "status": "candidate",
+      "text": "Formatting"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +135,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/formatting.yaml",
       "source_repo": "wbthomason/packer.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "EleutherAI/DeeperSpeed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeed"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

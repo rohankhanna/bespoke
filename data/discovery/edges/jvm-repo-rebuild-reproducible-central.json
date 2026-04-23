@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-buildspec-pr.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-buildspec-pr.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "docker/setup-buildx-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-buildspec-pr.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "actions/setup-go@v5.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-buildspec-pr.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "docker/login-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-buildspec-pr.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "mshick/add-pr-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-buildspec-pr.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-buildspec-pr.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-update-add.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-update-add.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "Manual Update Add page",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-rb-ubuntu.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-rb-ubuntu.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "docker/setup-buildx-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-rb-ubuntu.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "docker/login-action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-rb-ubuntu.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-rb-ubuntu.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "truemark/skopeo-copy-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-rb-ubuntu.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "Update rb-ubuntu base image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-reports.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-reports.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "jbangdev/setup-jbang@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-reports.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "target": "Update Reports and Artifact Badge Data",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "source_repo": "jvm-repo-rebuild/reproducible-central"
+}

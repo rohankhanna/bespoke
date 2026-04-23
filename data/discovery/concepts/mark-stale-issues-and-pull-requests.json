@@ -55,6 +55,30 @@
       "source_repo": "containers/buildah",
       "status": "candidate-context",
       "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerna-lite/lerna-lite",
+      "status": "candidate-context",
+      "text": "Subset of Lerna in a smaller & more modular project. Help manage and publish multiple packages in a monorepo/workspace structure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna-lite/lerna-lite",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agl/jbig2enc",
+      "status": "candidate-context",
+      "text": "JBIG2 Encoder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agl/jbig2enc",
+      "status": "candidate-context",
+      "text": "Mark stale issues and pull requests"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +103,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "containers/buildah",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna-lite/lerna-lite",
+      "status": "candidate",
+      "text": "Mark stale issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agl/jbig2enc",
       "status": "candidate",
       "text": "Mark stale issues and pull requests"
     }
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "containers/buildah"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "lerna-lite/lerna-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "agl/jbig2enc"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

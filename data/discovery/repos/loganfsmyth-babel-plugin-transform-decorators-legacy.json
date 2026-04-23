@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "babel-plugin-syntax-decorators",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-runtime",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-template",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-transform-class-properties",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-plugin-transform-runtime",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-es2015",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "loganfsmyth/babel-plugin-transform-decorators-legacy",
+      "target": "babel-plugin-syntax-decorators",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "loganfsmyth/babel-plugin-transform-decorators-legacy",
+      "target": "babel-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "loganfsmyth/babel-plugin-transform-decorators-legacy",
+      "target": "babel-template",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "loganfsmyth/babel-plugin-transform-decorators-legacy",
+      "target": "babel-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "loganfsmyth/babel-plugin-transform-decorators-legacy",
+      "target": "babel-plugin-transform-class-properties",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "loganfsmyth/babel-plugin-transform-decorators-legacy",
+      "target": "babel-plugin-transform-runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "loganfsmyth/babel-plugin-transform-decorators-legacy",
+      "target": "babel-preset-es2015",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "loganfsmyth/babel-plugin-transform-decorators-legacy",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "loganfsmyth/babel-plugin-transform-decorators-legacy",
+      "target": "mocha",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:24:17.161640+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4374
+    },
+    {
+      "path": "package.json",
+      "size": 1157
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A plugin for Babel 6 that (mostly) replicates the old decorator behavior from Babel 5",
+    "fork": false,
+    "full_name": "loganfsmyth/babel-plugin-transform-decorators-legacy",
+    "html_url": "https://github.com/loganfsmyth/babel-plugin-transform-decorators-legacy",
+    "language": "JavaScript",
+    "pushed_at": "2022-01-18T09:07:36Z",
+    "stargazers_count": 814,
+    "topics": [],
+    "updated_at": "2026-03-04T15:02:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

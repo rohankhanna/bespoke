@@ -241,6 +241,66 @@
       "source_repo": "adamlui/ai-web-extensions",
       "status": "candidate-context",
       "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VoltAgent/voltagent",
+      "status": "candidate-context",
+      "text": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VoltAgent/voltagent",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voxel51/voxelgpt",
+      "status": "candidate-context",
+      "text": "AI assistant that can query visual datasets, search the FiftyOne docs, and answer general computer vision questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/voxelgpt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "status": "candidate-context",
+      "text": "\ud83d\ude4b \u95ee\u5f97\u597d\uff0c\ud83d\udde3 \u7b54\u5f97\u5999\u3002\u90a3\u4e9b\u503c\u5f97\u8bb0\u5f55\u7684\u4e0eChatGPT\u7684\u95ee\u7b54\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate-context",
+      "text": "A RWKV management and startup tool, full automation, only 8MB. And provides an interface compatible with the OpenAI API. RWKV is a large language model that is fully open source and available for commercial use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhayujie/bot-on-anything",
+      "status": "candidate-context",
+      "text": "A large model-based chatbot builder that can quickly integrate AI models (including ChatGPT, Claude, Gemini) into various software applications (such as Telegram, Gmail, Slack, and websites)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhayujie/bot-on-anything",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/6e931057-e09f-4742-9fbd-2417cf6bc2f3\" alt=\"Bot-On-Anything\" width=\"600\" /></p>"
     }
   ],
   "candidate_glosses": [
@@ -357,6 +417,36 @@
       "source_repo": "adamlui/ai-web-extensions",
       "status": "candidate",
       "text": "ai-web-extensions \u2014 AI browser extensions & userscripts to augment your web experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VoltAgent/voltagent",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/voxelgpt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhayujie/bot-on-anything",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/6e931057-e09f-4742-9fbd-2417cf6bc2f3\" alt=\"Bot-On-Anything\" width=\"600\" /></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -616,11 +706,77 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "adamlui/ai-web-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "VoltAgent/voltagent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "voxel51/voxelgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-chatgpt-answer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "josStorer/RWKV-Runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/bot-on-anything"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "hashberg-io/multiformats-config",
+      "target": "pypa/setuptools_scm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml",
+      "source_repo": "hashberg-io/multiformats-config",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml",
+      "source_repo": "hashberg-io/multiformats-config",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashberg-io/multiformats-config",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashberg-io/multiformats-config",
+      "target": "smart-web",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:22:49.832605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1036
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 374
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2
+    },
+    {
+      "path": ".github/workflows/python-pytest.yml",
+      "size": 1155
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Table information and configuration options for the 'multiformats' package.",
+    "fork": false,
+    "full_name": "hashberg-io/multiformats-config",
+    "html_url": "https://github.com/hashberg-io/multiformats-config",
+    "language": "Python",
+    "pushed_at": "2023-12-18T21:34:33Z",
+    "stargazers_count": 0,
+    "topics": [
+      "library",
+      "smart-web"
+    ],
+    "updated_at": "2025-12-11T06:26:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/setuptools_scm",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "multiformats-config: Configuration for the 'multiformats' package.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "multiformats-config: Configuration for the 'multiformats' package.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smart-web"
+    }
+  ]
+}

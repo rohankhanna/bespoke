@@ -44,6 +44,18 @@
       "source_repo": "ChainSafe/lodestar",
       "status": "candidate-context",
       "text": "Build binaries"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdaCore/ada_language_server",
+      "status": "candidate-context",
+      "text": "Server implementing the Microsoft Language Protocol for Ada and SPARK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaCore/ada_language_server",
+      "status": "candidate-context",
+      "text": "Build binaries"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ChainSafe/lodestar",
+      "status": "candidate",
+      "text": "Build binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdaCore/ada_language_server",
       "status": "candidate",
       "text": "Build binaries"
     }
@@ -137,11 +155,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/binaries.yml",
       "source_repo": "ChainSafe/lodestar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "AdaCore/ada_language_server"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "moby/buildkit",
       "status": "candidate-context",
       "text": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiarch/crossbuild",
+      "status": "candidate-context",
+      "text": ":earth_africa: multiarch cross compiling environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiarch/crossbuild",
+      "status": "candidate-context",
+      "text": ":earth_africa: multiarch cross compiling environments"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "moby/buildkit",
       "status": "candidate",
       "text": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiarch/crossbuild",
+      "status": "candidate",
+      "text": ":earth_africa: multiarch cross compiling environments"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +116,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "multiarch/crossbuild"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

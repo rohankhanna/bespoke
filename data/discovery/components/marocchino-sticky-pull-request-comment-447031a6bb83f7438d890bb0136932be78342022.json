@@ -1,0 +1,12 @@
+{
+  "component": "marocchino/sticky-pull-request-comment@447031a6bb83f7438d890bb0136932be78342022",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-pr-preview.yml",
+      "source_repo": "hashicorp/web-unified-docs"
+    }
+  ]
+}

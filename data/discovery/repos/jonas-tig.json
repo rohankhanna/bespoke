@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "jonas/tig",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "jonas/tig",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "jonas/tig",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "jonas/tig",
+      "target": "macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonas/tig",
+      "target": "ncurses",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:24:44.438890+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 892
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 1779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Text-mode interface for git",
+    "fork": false,
+    "full_name": "jonas/tig",
+    "html_url": "https://github.com/jonas/tig",
+    "language": "C",
+    "pushed_at": "2026-04-20T18:00:55Z",
+    "stargazers_count": 13199,
+    "topics": [
+      "c",
+      "git",
+      "ncurses",
+      "tui"
+    ],
+    "updated_at": "2026-04-22T09:13:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS"
+    },
+    {
+      "context_snippet": "Linux",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncurses"
+    }
+  ]
+}

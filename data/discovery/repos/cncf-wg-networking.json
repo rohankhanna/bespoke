@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/wg-networking",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cncf/wg-networking",
+      "target": "networking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:15:31.544903+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4079
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udce1\ud83d\udcf6CNCF Networking WG",
+    "fork": false,
+    "full_name": "cncf/wg-networking",
+    "html_url": "https://github.com/cncf/wg-networking",
+    "language": null,
+    "pushed_at": "2026-03-09T18:26:13Z",
+    "stargazers_count": 26,
+    "topics": [
+      "cncf",
+      "networking"
+    ],
+    "updated_at": "2022-06-27T00:48:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CNCF Networking WG",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "CNCF Networking WG",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    }
+  ]
+}

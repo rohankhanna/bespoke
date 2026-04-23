@@ -67,6 +67,18 @@
       "source_repo": "unxsist/jet-pilot",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": ":electron: \ud83d\ude80 The easiest way to get started with Electron"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/electron/fiddle/actions/workflows/test.yml/badge.svg)](https://github.com/electron/fiddle/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "unxsist/jet-pilot",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/electron/fiddle/actions/workflows/test.yml/badge.svg)](https://github.com/electron/fiddle/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -199,11 +217,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "unxsist/jet-pilot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "electron/fiddle"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

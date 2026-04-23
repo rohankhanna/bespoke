@@ -741,6 +741,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "buffer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "chat",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -1802,11 +1807,6 @@
     },
     {
       "component": "vite",
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json"
-    },
-    {
-      "component": "vite-plugin-node-polyfills",
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json"
     },
@@ -2943,6 +2943,13 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "brotli-wasm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
+      "target": "buffer",
       "target_type": "component"
     },
     {
@@ -4440,13 +4447,6 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
-      "target": "vite-plugin-node-polyfills",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "lobehub/lobehub",
       "target": "vite-plugin-pwa",
       "target_type": "component"
     },
@@ -4661,7 +4661,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T05:14:33.435531+00:00",
+  "fetched_at": "2026-04-23T01:25:28.237652+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4673,7 +4673,7 @@
     },
     {
       "path": "package.json",
-      "size": 22294
+      "size": 22367
     },
     {
       "path": ".github/workflows/auto-i18n.yml",
@@ -4713,8 +4713,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-04-22T05:07:44Z",
-    "stargazers_count": 75458,
+    "pushed_at": "2026-04-23T00:59:06Z",
+    "stargazers_count": 75496,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4729,7 +4729,7 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-04-22T05:07:48Z"
+    "updated_at": "2026-04-23T00:49:39Z"
   },
   "repo_links": [
     {

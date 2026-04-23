@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Building man page, man.test, manonig.test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jqlang/jq",
+      "status": "candidate-context",
+      "text": "Command-line JSON processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jqlang/jq",
+      "status": "candidate-context",
+      "text": "Building man page, man.test, manonig.test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jqlang/jq",
+      "status": "candidate",
+      "text": "Building man page, man.test, manonig.test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34599,
+      "status": "candidate",
+      "text": "groom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34599,
+      "status": "candidate",
+      "text": "groomed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26358,
+      "status": "candidate",
+      "text": "foldout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26075,
+      "status": "candidate",
+      "text": "brick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19692,
+      "status": "candidate",
+      "text": "foot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Building man page, man.test, manonig.test",
+  "concept_id": "building-man-page-man.test-manonig.test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/manpage.yml",
+      "source_repo": "jqlang/jq"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Building man page, man.test, manonig.test",
+      "sense_id": "building-man-page-man.test-manonig.test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

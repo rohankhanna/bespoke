@@ -1,0 +1,12 @@
+{
+  "component": "deepset-ai/notify-slack-action@3cda73b77a148f16f703274198e7771340cf862b",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-website-test-docs-snippets.yml",
+      "source_repo": "deepset-ai/haystack"
+    }
+  ]
+}

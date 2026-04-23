@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A cross-platform, safe, pure-Rust graphics API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CTS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CTS"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39225679,
+      "status": "candidate",
+      "text": "computed axial tomography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39219853,
+      "status": "candidate",
+      "text": "computed tomography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39103329,
+      "status": "candidate",
+      "text": "cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025457,
+      "status": "candidate",
+      "text": "computerized axial tomography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025456,
+      "status": "candidate",
+      "text": "ecs"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CTS",
+      "sense_id": "cts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cts",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cts",
+  "observation_id": "2d82ee0bd2688197",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "CTS",
+  "source_context_snippet": "CTS",
+  "source_file": ".github/workflows/cts.yml",
+  "source_repo": "gfx-rs/wgpu",
+  "source_repo_description": "A cross-platform, safe, pure-Rust graphics API."
+}

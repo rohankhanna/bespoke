@@ -1,0 +1,150 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-nightly.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pins.yml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v13",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pins.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0xrsydn/nix-hermes-agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "0xrsydn/nix-hermes-agent",
+      "target": "DeterminateSystems/nix-installer-action@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-nightly.yml",
+      "source_repo": "0xrsydn/nix-hermes-agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-nightly.yml",
+      "source_repo": "0xrsydn/nix-hermes-agent",
+      "target": "DeterminateSystems/nix-installer-action@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-nightly.yml",
+      "source_repo": "0xrsydn/nix-hermes-agent",
+      "target": "Update Hermes Agent Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pins.yml",
+      "source_repo": "0xrsydn/nix-hermes-agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-pins.yml",
+      "source_repo": "0xrsydn/nix-hermes-agent",
+      "target": "DeterminateSystems/nix-installer-action@v13",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-pins.yml",
+      "source_repo": "0xrsydn/nix-hermes-agent",
+      "target": "Update Hermes Agent Pins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:09:22.759470+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9267
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 703
+    },
+    {
+      "path": ".github/workflows/update-nightly.yml",
+      "size": 658
+    },
+    {
+      "path": ".github/workflows/update-pins.yml",
+      "size": 696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nix package and NixOS module for Hermes Agent by Nous Research",
+    "fork": false,
+    "full_name": "0xrsydn/nix-hermes-agent",
+    "html_url": "https://github.com/0xrsydn/nix-hermes-agent",
+    "language": "Nix",
+    "pushed_at": "2026-03-30T04:58:57Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-04-22T13:47:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update Hermes Agent Nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-nightly.yml",
+      "term": "Update Hermes Agent Nightly"
+    },
+    {
+      "context_snippet": "Update Hermes Agent Pins",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-pins.yml",
+      "term": "Update Hermes Agent Pins"
+    }
+  ]
+}

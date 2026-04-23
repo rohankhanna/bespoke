@@ -19,6 +19,18 @@
       "source_repo": "ahmetb/cloud-run-faq",
       "status": "candidate-context",
       "text": "> \u26a0\ufe0f Beware: This is a **community-maintained** informal knowledge base."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "steren/awesome-cloud-run",
+      "status": "candidate-context",
+      "text": "\ud83d\udc53 \u23e9 A curated list of resources about all things Cloud Run"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "steren/awesome-cloud-run",
+      "status": "candidate-context",
+      "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ahmetb/cloud-run-faq",
       "status": "candidate",
       "text": "> \u26a0\ufe0f Beware: This is a **community-maintained** informal knowledge base."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "steren/awesome-cloud-run",
+      "status": "candidate",
+      "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "ahmetb/cloud-run-faq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "steren/awesome-cloud-run"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

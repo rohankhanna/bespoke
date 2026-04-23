@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "emacs-eldev/setup-eldev@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bbatsov/crux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bbatsov/crux",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bbatsov/crux",
+      "target": "emacs-eldev/setup-eldev@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/crux",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/crux",
+      "target": "emacs-lisp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:23:57.721535+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10393
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Collection of Ridiculously Useful eXtensions for Emacs",
+    "fork": false,
+    "full_name": "bbatsov/crux",
+    "html_url": "https://github.com/bbatsov/crux",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-15T06:22:05Z",
+    "stargazers_count": 1029,
+    "topics": [
+      "emacs",
+      "emacs-lisp"
+    ],
+    "updated_at": "2026-04-18T07:19:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![License GPL 3][badge-license]][copying]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![License GPL 3][badge-license]][copying]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lisp"
+    }
+  ]
+}

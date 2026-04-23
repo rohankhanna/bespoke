@@ -235,6 +235,18 @@
       "source_repo": "taylorwilsdon/google_workspace_mcp",
       "status": "candidate-context",
       "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaizhanov/mengram",
+      "status": "candidate-context",
+      "text": "Human-like memory for AI agents \u2014 semantic, episodic & procedural. Experience-driven procedures that learn from failures. Free API, Python & JS SDKs, LangChain, CrewAI & OpenClaw integrations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaizhanov/mengram",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +363,12 @@
       "source_repo": "taylorwilsdon/google_workspace_mcp",
       "status": "candidate",
       "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaizhanov/mengram",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -532,11 +550,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "taylorwilsdon/google_workspace_mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "alibaizhanov/mengram"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

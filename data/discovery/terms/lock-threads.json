@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -61,6 +61,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/lock.yml",
       "source_repo": "davatorium/rofi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "hashicorp/terraform-plugin-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lockthreads.yml",
+      "source_repo": "fish-shell/fish-shell"
     }
   ],
   "term": "Lock Threads"

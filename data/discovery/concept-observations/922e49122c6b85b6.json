@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Patches for 3rd party applications to enable compiling against zlib-ng in native mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository is here to allow sharing patches that allow compiling an application against zlib-ng."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository is here to allow sharing patches that allow compiling an application against zlib-ng."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973102,
+      "status": "candidate",
+      "text": "reconfiguration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973085,
+      "status": "candidate",
+      "text": "redesign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973035,
+      "status": "candidate",
+      "text": "remodelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29973028,
+      "status": "candidate",
+      "text": "rearrangement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29972765,
+      "status": "candidate",
+      "text": "remodel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "retrofit",
+      "sense_id": "retrofit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "retrofit",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "retrofit",
+  "observation_id": "922e49122c6b85b6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "retrofit",
+  "source_context_snippet": "This repository is here to allow sharing patches that allow compiling an application against zlib-ng.",
+  "source_file": null,
+  "source_repo": "zlib-ng/patches",
+  "source_repo_description": "Patches for 3rd party applications to enable compiling against zlib-ng in native mode."
+}

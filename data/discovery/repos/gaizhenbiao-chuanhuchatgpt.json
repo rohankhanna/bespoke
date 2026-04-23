@@ -1,0 +1,484 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "openlmlab/moss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "qwenlm/qwen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "milvlg/xmchat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "Build Docker when Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release_docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "Build and Push Docker when Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "chatglm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "chatgpt-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "dalle3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "ernie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "gemma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "inspurai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "midjourney",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "minimax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "moss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "spark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "stablelm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:26:29.812503+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7595
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1275
+    },
+    {
+      "path": "requirements.txt",
+      "size": 622
+    },
+    {
+      "path": ".github/workflows/Build_Docker.yml",
+      "size": 1450
+    },
+    {
+      "path": ".github/workflows/Release_docker.yml",
+      "size": 1645
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GUI for ChatGPT API and many LLMs. Supports agents, file-based QA, GPT finetuning and query with web search. All with a neat UI.",
+    "fork": false,
+    "full_name": "GaiZhenbiao/ChuanhuChatGPT",
+    "html_url": "https://github.com/GaiZhenbiao/ChuanhuChatGPT",
+    "language": "Python",
+    "pushed_at": "2026-04-19T04:12:04Z",
+    "stargazers_count": 15341,
+    "topics": [
+      "chatbot",
+      "chatglm",
+      "chatgpt-api",
+      "claude",
+      "dalle3",
+      "ernie",
+      "gemini",
+      "gemma",
+      "inspurai",
+      "llama",
+      "midjourney",
+      "minimax",
+      "moss",
+      "ollama",
+      "qwen",
+      "spark",
+      "stablelm"
+    ],
+    "updated_at": "2026-04-22T13:34:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvlg/xmchat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openlmlab/moss",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Docker when Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "term": "Build Docker when Push"
+    },
+    {
+      "context_snippet": "Build and Push Docker when Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release_docker.yml",
+      "term": "Build and Push Docker when Release"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt-api"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dalle3"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ernie"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemini"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gemma"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inspurai"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "midjourney"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimax"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "moss"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spark"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stablelm"
+    }
+  ]
+}

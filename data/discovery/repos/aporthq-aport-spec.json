@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aporthq/aport-spec",
+      "target": "aiagent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aporthq/aport-spec",
+      "target": "authorization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aporthq/aport-spec",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:09:45.823389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open Agent Passport (OAP) Spec for AI Agent Passport and pre-action authourization",
+    "fork": false,
+    "full_name": "aporthq/aport-spec",
+    "html_url": "https://github.com/aporthq/aport-spec",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-13T04:01:04Z",
+    "stargazers_count": 3,
+    "topics": [
+      "ai",
+      "aiagent",
+      "authorization",
+      "security"
+    ],
+    "updated_at": "2026-04-14T04:21:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> *The runtime trust rail for AI agents*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aiagent"
+    },
+    {
+      "context_snippet": "> *The runtime trust rail for AI agents*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "authorization"
+    },
+    {
+      "context_snippet": "> *The runtime trust rail for AI agents*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

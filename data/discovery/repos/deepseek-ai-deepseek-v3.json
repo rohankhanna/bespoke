@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-V3",
+      "target": "nvidia/tensorrt-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepseek-ai/DeepSeek-V3",
+      "target": "modeltc/lightllm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "deepseek-ai/DeepSeek-V3",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "deepseek-ai/DeepSeek-V3",
+      "target": "Mark and close stale issues",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:19:10.337327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20837
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1031
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "deepseek-ai/DeepSeek-V3",
+    "html_url": "https://github.com/deepseek-ai/DeepSeek-V3",
+    "language": "Python",
+    "pushed_at": "2025-08-28T03:24:37Z",
+    "stargazers_count": 102728,
+    "topics": [],
+    "updated_at": "2026-04-22T23:02:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modeltc/lightllm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/tensorrt-llm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Mark and close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark and close stale issues"
+    }
+  ]
+}

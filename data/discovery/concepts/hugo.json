@@ -13,11 +13,81 @@
       "source_repo": "jpanther/congo",
       "status": "candidate-context",
       "text": "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gohugoio/hugo",
+      "status": "candidate-context",
+      "text": "The world\u2019s fastest framework for building websites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gohugoio/hugo",
+      "status": "candidate-context",
+      "text": "[Clang]: https://clang.llvm.org/"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gohugoio/hugo",
+      "status": "candidate",
+      "text": "[Clang]: https://clang.llvm.org/"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19169560,
+      "status": "candidate",
+      "text": "victor hugo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19169560,
+      "status": "candidate",
+      "text": "victor marie hugo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19169559,
+      "status": "candidate",
+      "text": "oscar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19130724,
+      "status": "candidate",
+      "text": "byron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19096214,
+      "status": "candidate",
+      "text": "hogue"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "victor marie hugo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "victor hugo"
+    }
+  ],
   "canonical_name": "hugo",
   "concept_id": "hugo",
   "definition_status": "unresolved",
@@ -27,12 +97,20 @@
       "observed_at": "2026-04-18T13:15:13.756138+00:00",
       "source_file": null,
       "source_repo": "jpanther/congo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "gohugoio/hugo"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:15:13.756138+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

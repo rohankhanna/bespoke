@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "community-health"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-gitops/.github",
+      "status": "candidate-context",
+      "text": "\ud83e\uddd1\u200d\u2695\ufe0f Default community health files for all CNCF OpenGitOps project repos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-gitops/.github",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD033 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-gitops/.github",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD033 -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "community-health",
+  "concept_id": "community-health",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "open-gitops/.github"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "community-health",
+      "sense_id": "community-health#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

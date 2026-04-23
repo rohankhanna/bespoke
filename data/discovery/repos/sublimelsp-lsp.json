@@ -1,0 +1,283 @@
+{
+  "components": [
+    {
+      "component": "peter-evans/repository-dispatch@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch_on_push.yaml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch_on_release.yaml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "SublimeText/UnitTesting/actions/setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "SublimeText/UnitTesting/actions/run-tests@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch_on_push.yaml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "peter-evans/repository-dispatch@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch_on_push.yaml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "Dispatch Event On Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dispatch_on_release.yaml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "peter-evans/repository-dispatch@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch_on_release.yaml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "Dispatch Event On Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "SublimeText/UnitTesting/actions/setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "SublimeText/UnitTesting/actions/run-tests@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sublimelsp/LSP",
+      "target": "Test & Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sublimelsp/LSP",
+      "target": "language-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sublimelsp/LSP",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sublimelsp/LSP",
+      "target": "sublime-text",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:16:40.640970+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5317
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8051
+    },
+    {
+      "path": ".github/workflows/dispatch_on_push.yaml",
+      "size": 406
+    },
+    {
+      "path": ".github/workflows/dispatch_on_release.yaml",
+      "size": 415
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 745
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 952
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Client implementation of the Language Server Protocol for Sublime Text",
+    "fork": false,
+    "full_name": "sublimelsp/LSP",
+    "html_url": "https://github.com/sublimelsp/LSP",
+    "language": "Python",
+    "pushed_at": "2026-04-22T22:26:03Z",
+    "stargazers_count": 1774,
+    "topics": [
+      "language-client",
+      "language-server-protocol",
+      "lsp",
+      "sublime-text"
+    ],
+    "updated_at": "2026-04-22T22:26:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dispatch Event On Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch_on_push.yaml",
+      "term": "Dispatch Event On Push"
+    },
+    {
+      "context_snippet": "Dispatch Event On Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch_on_release.yaml",
+      "term": "Dispatch Event On Release"
+    },
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "Test & Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test & Lint"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-client"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublime-text"
+    }
+  ]
+}

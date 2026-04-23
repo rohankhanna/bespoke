@@ -34,6 +34,18 @@
       "source_repo": "google/go-containerregistry",
       "status": "candidate-context",
       "text": "Boilerplate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "Build and deploy Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "Boilerplate"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "google/go-containerregistry",
+      "status": "candidate",
+      "text": "Boilerplate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
       "status": "candidate",
       "text": "Boilerplate"
     }
@@ -103,11 +121,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/boilerplate.yaml",
       "source_repo": "google/go-containerregistry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/boilerplate.yaml",
+      "source_repo": "ko-build/ko"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

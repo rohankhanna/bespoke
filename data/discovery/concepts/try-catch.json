@@ -19,6 +19,30 @@
       "source_repo": "coderaiser/supertape",
       "status": "candidate-context",
       "text": "[NPMURL]: https://npmjs.org/package/supertape \"npm\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/try-catch",
+      "status": "candidate-context",
+      "text": "Try-catch wrapper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-catch",
+      "status": "candidate-context",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-catch.svg?style=flat"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/try-to-catch",
+      "status": "candidate-context",
+      "text": "functional try-catch wrapper for promises"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-to-catch",
+      "status": "candidate-context",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-to-catch.svg?style=flat&longCache=true"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "coderaiser/supertape",
       "status": "candidate",
       "text": "[NPMURL]: https://npmjs.org/package/supertape \"npm\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-catch",
+      "status": "candidate",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-catch.svg?style=flat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-to-catch",
+      "status": "candidate",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-to-catch.svg?style=flat&longCache=true"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "coderaiser/supertape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/try-catch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/try-to-catch"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

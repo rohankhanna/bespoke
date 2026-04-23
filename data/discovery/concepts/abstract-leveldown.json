@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "abstract-leveldown"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/leveldown",
+      "status": "candidate-context",
+      "text": "Superseded by classic-level. Pure C++ Node.js LevelDB binding. An abstract-leveldown compliant store."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/leveldown",
+      "status": "candidate-context",
+      "text": "**Superseded by [`classic-level`](https://github.com/Level/classic-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/leveldown",
+      "status": "candidate",
+      "text": "**Superseded by [`classic-level`](https://github.com/Level/classic-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "abstract-leveldown",
+  "concept_id": "abstract-leveldown",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "Level/leveldown"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "abstract-leveldown",
+      "sense_id": "abstract-leveldown#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

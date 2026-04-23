@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyenv/pyenv",
-      "target": "pyenv/pyenv-virtualenv",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyenv/pyenv",
-      "target": "pyenv/pyenv-installer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyenv/pyenv",
-      "target": "pyenv-win/pyenv-win",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyenv/pyenv",
-      "target": "pyenv/pyenv-update",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/add_version.yml",
       "source_repo": "pyenv/pyenv",
@@ -113,6 +85,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T18:48:44.679047+00:00",
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
   "source_repo": "pyenv/pyenv"
 }

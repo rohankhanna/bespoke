@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:13:05.545636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "brodybits/create-react-native-module",
+    "html_url": "https://github.com/brodybits/create-react-native-module",
+    "language": null,
+    "pushed_at": "2025-10-19T13:13:32Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-10-19T13:13:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

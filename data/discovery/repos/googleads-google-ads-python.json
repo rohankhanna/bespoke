@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:21:11.016401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1503
+    },
+    {
+      "path": "Dockerfile",
+      "size": 573
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Google Ads API Client Library for Python",
+    "fork": false,
+    "full_name": "googleads/google-ads-python",
+    "html_url": "https://github.com/googleads/google-ads-python",
+    "language": "Python",
+    "pushed_at": "2026-04-22T19:58:51Z",
+    "stargazers_count": 687,
+    "topics": [],
+    "updated_at": "2026-04-22T19:55:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

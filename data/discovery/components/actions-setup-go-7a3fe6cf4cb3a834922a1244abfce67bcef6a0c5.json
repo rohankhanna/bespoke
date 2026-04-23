@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "go-viper/mapstructure"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kubernetes/minikube"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "kubernetes/minikube"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/functional_test.yml",
+      "source_repo": "kubernetes/minikube"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/leaderboard.yml",
+      "source_repo": "kubernetes/minikube"
     }
   ]
 }

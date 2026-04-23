@@ -19,12 +19,66 @@
       "source_repo": "electron/rebuild",
       "status": "candidate-context",
       "text": "Add to Ecosystem WG Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": ":electron: A complete tool for building and publishing Electron applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": "Add to Ecosystem WG Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/packager",
+      "status": "candidate-context",
+      "text": "Customize and package your Electron app with OS-specific bundles (.app, .exe, etc.) via JS or CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/packager",
+      "status": "candidate-context",
+      "text": "Add to Ecosystem WG Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": ":electron: \ud83d\ude80 The easiest way to get started with Electron"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": "Add to Ecosystem WG Project"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "electron/rebuild",
+      "status": "candidate",
+      "text": "Add to Ecosystem WG Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
+      "status": "candidate",
+      "text": "Add to Ecosystem WG Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/packager",
+      "status": "candidate",
+      "text": "Add to Ecosystem WG Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
       "status": "candidate",
       "text": "Add to Ecosystem WG Project"
     }
@@ -76,11 +130,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/forge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "electron/fiddle"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

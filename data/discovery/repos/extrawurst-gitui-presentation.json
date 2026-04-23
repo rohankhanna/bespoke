@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "extrawurst/gitui-presentation",
+      "target": "extrawurst/gitui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "extrawurst/gitui-presentation",
+      "target": "extrawurst/presentui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:24:40.868774+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "retro terminal presentation of gitui at @RustBerlin meetup",
+    "fork": false,
+    "full_name": "extrawurst/gitui-presentation",
+    "html_url": "https://github.com/extrawurst/gitui-presentation",
+    "language": "Rust",
+    "pushed_at": "2021-05-28T08:02:16Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-03-24T04:31:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "extrawurst/gitui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "extrawurst/presentui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

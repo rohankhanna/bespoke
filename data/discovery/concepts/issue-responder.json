@@ -19,12 +19,30 @@
       "source_repo": "strands-agents/sdk-python",
       "status": "candidate-context",
       "text": "Issue Responder"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-controllers-k8s/community",
+      "status": "candidate-context",
+      "text": "AWS Controllers for Kubernetes (ACK) is a project enabling you to manage AWS services from Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-controllers-k8s/community",
+      "status": "candidate-context",
+      "text": "Issue Responder"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "strands-agents/sdk-python",
+      "status": "candidate",
+      "text": "Issue Responder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-controllers-k8s/community",
       "status": "candidate",
       "text": "Issue Responder"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/issue-responder.yml",
       "source_repo": "strands-agents/sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/issue-response.yml",
+      "source_repo": "aws-controllers-k8s/community"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

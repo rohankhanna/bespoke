@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "42Shawn/PTQ4DM",
+      "target": "wimh966/qdrop",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:28:28.397440+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of Post-training Quantization on Diffusion Models (CVPR 2023)",
+    "fork": false,
+    "full_name": "42Shawn/PTQ4DM",
+    "html_url": "https://github.com/42Shawn/PTQ4DM",
+    "language": "Python",
+    "pushed_at": "2023-04-01T00:05:09Z",
+    "stargazers_count": 143,
+    "topics": [],
+    "updated_at": "2026-04-14T17:58:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wimh966/qdrop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

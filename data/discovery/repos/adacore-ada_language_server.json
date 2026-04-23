@@ -1,0 +1,150 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdaCore/ada_language_server",
+      "target": "adacore/libadalang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdaCore/ada_language_server",
+      "target": "autozimu/languageclient-neovim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdaCore/ada_language_server",
+      "target": "neovim/nvim-lspconfig",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdaCore/ada_language_server",
+      "target": "emacs-lsp/lsp-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "AdaCore/ada_language_server",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "AdaCore/ada_language_server",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "AdaCore/ada_language_server",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "AdaCore/ada_language_server",
+      "target": "Build binaries",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:25:04.779028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14155
+    },
+    {
+      "path": ".github/workflows/build-binaries.yml",
+      "size": 4565
+    },
+    {
+      "path": ".github/workflows/pack-binaries.sh",
+      "size": 1295
+    },
+    {
+      "path": ".github/workflows/release.sh",
+      "size": 1910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Server implementing the Microsoft Language Protocol for Ada and SPARK",
+    "fork": false,
+    "full_name": "AdaCore/ada_language_server",
+    "html_url": "https://github.com/AdaCore/ada_language_server",
+    "language": "Ada",
+    "pushed_at": "2026-04-22T00:55:49Z",
+    "stargazers_count": 293,
+    "topics": [],
+    "updated_at": "2026-04-21T18:37:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adacore/libadalang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autozimu/languageclient-neovim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emacs-lsp/lsp-mode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neovim/nvim-lspconfig",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "term": "Build binaries"
+    }
+  ]
+}

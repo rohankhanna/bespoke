@@ -115,6 +115,18 @@
       "source_repo": "powerline/powerline",
       "status": "candidate-context",
       "text": "Powerline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fish-shell/fish-shell",
+      "status": "candidate-context",
+      "text": "The user-friendly command line shell."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fish-shell/fish-shell",
+      "status": "candidate-context",
+      "text": ".. |Cirrus CI| image:: https://api.cirrus-ci.com/github/fish-shell/fish-shell.svg?branch=master"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "powerline/powerline",
       "status": "candidate",
       "text": "Powerline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fish-shell/fish-shell",
+      "status": "candidate",
+      "text": ".. |Cirrus CI| image:: https://api.cirrus-ci.com/github/fish-shell/fish-shell.svg?branch=master"
     }
   ],
   "candidate_related_terms": [
@@ -304,11 +322,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "powerline/powerline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "fish-shell/fish-shell"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

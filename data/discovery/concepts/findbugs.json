@@ -31,6 +31,18 @@
       "source_repo": "spotbugs/sonar-findbugs",
       "status": "candidate-context",
       "text": "[![.github/workflows/build.yml](https://github.com/spotbugs/sonar-findbugs/actions/workflows/build.yml/badge.svg)](https://github.com/spotbugs/sonar-findbugs/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mebigfatguy/fb-contrib",
+      "status": "candidate-context",
+      "text": "a FindBugs/SpotBugs plugin for doing static code analysis for java code bases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mebigfatguy/fb-contrib",
+      "status": "candidate-context",
+      "text": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "spotbugs/sonar-findbugs",
       "status": "candidate",
       "text": "[![.github/workflows/build.yml](https://github.com/spotbugs/sonar-findbugs/actions/workflows/build.yml/badge.svg)](https://github.com/spotbugs/sonar-findbugs/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mebigfatguy/fb-contrib",
+      "status": "candidate",
+      "text": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "spotbugs/sonar-findbugs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "mebigfatguy/fb-contrib"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

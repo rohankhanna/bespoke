@@ -19,6 +19,18 @@
       "source_repo": "aaronjmars/MiroShark",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/hive",
+      "status": "candidate-context",
+      "text": "Ethereum end-to-end test harness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/hive",
+      "status": "candidate-context",
+      "text": "Hive is a system for running integration tests against Ethereum clients."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aaronjmars/MiroShark",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/hive",
+      "status": "candidate",
+      "text": "Hive is a system for running integration tests against Ethereum clients."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "aaronjmars/MiroShark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/hive"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python extension for MurmurHash (MurmurHash3), a set of fast and robust hash functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/mmh3/badge/?version=stable)](https://mmh3.readthedocs.io/en/stable/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/mmh3/badge/?version=stable)](https://mmh3.readthedocs.io/en/stable/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "murmurhash3",
+      "sense_id": "murmurhash3#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "murmurhash3",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "murmurhash3",
+  "observation_id": "e6da7dbfb3c94a55",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "murmurhash3",
+  "source_context_snippet": "[![Documentation Status](https://readthedocs.org/projects/mmh3/badge/?version=stable)](https://mmh3.readthedocs.io/en/stable/)",
+  "source_file": null,
+  "source_repo": "hajimes/mmh3",
+  "source_repo_description": "Python extension for MurmurHash (MurmurHash3), a set of fast and robust hash functions."
+}

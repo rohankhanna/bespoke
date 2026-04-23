@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:15:25.025386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Raveo is a warmer version of the Inter typeface.",
+    "fork": false,
+    "full_name": "jakubfoglar/raveo",
+    "html_url": "https://github.com/jakubfoglar/raveo",
+    "language": null,
+    "pushed_at": "2024-10-15T16:23:35Z",
+    "stargazers_count": 128,
+    "topics": [],
+    "updated_at": "2026-04-21T20:43:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hukkin/mdformat",
-      "target": "mkdocs/mkdocs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hukkin/mdformat",
-      "target": "prettier/prettier",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hukkin/mdformat",
-      "target": "remarkjs/remark",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hukkin/mdformat",
-      "target": "hukkin/mdformat-toc",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "hukkin/mdformat",
@@ -99,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-21T18:51:25.552552+00:00",
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
   "source_repo": "hukkin/mdformat"
 }

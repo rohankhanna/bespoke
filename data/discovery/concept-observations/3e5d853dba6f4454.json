@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AWS App Mesh is a service mesh that you can use with your microservices to manage service to service communication."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "*After careful consideration, we have made the decision to discontinue support for AWS App Mesh, effective September 30th, 2026. Until this date, existing AWS App Mesh customers will be able to use the service as normal, including creating new resources and onboarding new accoun\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "*After careful consideration, we have made the decision to discontinue support for AWS App Mesh, effective September 30th, 2026. Until this date, existing AWS App Mesh customers will be able to use the service as normal, including creating new resources and onboarding new accoun\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "app-mesh",
+      "sense_id": "app-mesh#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "app-mesh",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "app-mesh",
+  "observation_id": "3e5d853dba6f4454",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "app-mesh",
+  "source_context_snippet": "*After careful consideration, we have made the decision to discontinue support for AWS App Mesh, effective September 30th, 2026. Until this date, existing AWS App Mesh customers will be able to use the service as normal, including creating new resources and onboarding new accoun\u2026",
+  "source_file": null,
+  "source_repo": "aws/aws-app-mesh-examples",
+  "source_repo_description": "AWS App Mesh is a service mesh that you can use with your microservices to manage service to service communication."
+}

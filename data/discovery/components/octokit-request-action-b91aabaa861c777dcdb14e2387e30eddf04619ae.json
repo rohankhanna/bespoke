@@ -1,12 +1,17 @@
 {
   "component": "octokit/request-action@b91aabaa861c777dcdb14e2387e30eddf04619ae",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/no-engineering-system-changes.yml",
+      "source_repo": "microsoft/vscode"
     }
   ]
 }

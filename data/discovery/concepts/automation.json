@@ -244,6 +244,60 @@
       "source_repo": "antonbabenko/pre-commit-terraform",
       "status": "candidate-context",
       "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate-context",
+      "text": "Google Workspace CLI \u2014 one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate-context",
+      "text": "Automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">gws</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate-context",
+      "text": ":package::rocket: Fully automated version management and package publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none;\">\ud83d\udce6\ud83d\ude80 semantic-release</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "freebsd/kyua",
+      "status": "candidate-context",
+      "text": "Port/Package build and test system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freebsd/kyua",
+      "status": "candidate-context",
+      "text": "Kyua is a **testing framework** for infrastructure software, originally"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langgenius/dify",
+      "status": "candidate-context",
+      "text": "Production-ready platform for agentic workflow development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgenius/dify",
+      "status": "candidate-context",
+      "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +408,36 @@
       "source_repo": "antonbabenko/pre-commit-terraform",
       "status": "candidate",
       "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate",
+      "text": "Automation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">gws</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none;\">\ud83d\udce6\ud83d\ude80 semantic-release</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freebsd/kyua",
+      "status": "candidate",
+      "text": "Kyua is a **testing framework** for infrastructure software, originally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langgenius/dify",
+      "status": "candidate",
+      "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
     }
   ],
   "candidate_related_terms": [
@@ -570,11 +654,47 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "antonbabenko/pre-commit-terraform"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/automation.yml",
+      "source_repo": "googleworkspace/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "googleworkspace/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/semantic-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "freebsd/kyua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "langgenius/dify"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

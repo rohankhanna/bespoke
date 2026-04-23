@@ -92,6 +92,18 @@
       "source_repo": "Ileriayo/markdown-badges",
       "status": "candidate-context",
       "text": "PR Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": ":electron: A complete tool for building and publishing Electron applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": "PR Labeler"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +146,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Ileriayo/markdown-badges",
+      "status": "candidate",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
       "status": "candidate",
       "text": "PR Labeler"
     }
@@ -257,11 +275,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/pr-labeler.yml",
       "source_repo": "Ileriayo/markdown-badges"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "electron/forge"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

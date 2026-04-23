@@ -1,0 +1,17 @@
+{
+  "component": "dtolnay/rust-toolchain@1.80",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-gui-release-binaries-cb.yml.disabled",
+      "source_repo": "UnstoppableSwap/wallet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml",
+      "source_repo": "UnstoppableSwap/wallet"
+    }
+  ]
+}

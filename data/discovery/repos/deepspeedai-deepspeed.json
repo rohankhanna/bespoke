@@ -1,0 +1,585 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-mi200.yml"
+    },
+    {
+      "component": "JasonEtco/create-an-issue@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-mi200.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-accelerate.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-accelerate.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-accelerate.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-torch-latest-full.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-torch-latest.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-torch-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-torch-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-torch-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hpu-gaudi2-nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hpu-gaudi2.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modal-accelerate.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modal-accelerate.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modal-accelerate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modal-accelerate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "thudm/glm-130b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "yandex/yalm-100b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "ascend/ascend-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "rocm-developer-tools/hipcc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-mi200.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd-mi200.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "JasonEtco/create-an-issue@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-mi200.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "amd-mi200",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-accelerate.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-accelerate.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws-accelerate.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "aws-accelerate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-torch-latest-full.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws-torch-latest-full.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "aws-torch-latest-full",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-torch-latest.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws-torch-latest.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws-torch-latest.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "aws-torch-latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-torch-latest.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-torch-latest.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "cpu-torch-latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hpu-gaudi2-nightly.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hpu-gaudi2-nightly.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "hpu-gaudi2-nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hpu-gaudi2.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hpu-gaudi2.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "hpu-gaudi2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modal-accelerate.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modal-accelerate.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "dorny/paths-filter@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/modal-accelerate.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/modal-accelerate.yml",
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "modal-accelerate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "billion-parameters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "data-parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "mixture-of-experts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "model-parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "pipeline-parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "trillion-parameters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed",
+      "target": "zero",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:18:57.819959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31727
+    },
+    {
+      "path": ".github/workflows/amd-mi200.yml",
+      "size": 2973
+    },
+    {
+      "path": ".github/workflows/aws-accelerate.yml",
+      "size": 3711
+    },
+    {
+      "path": ".github/workflows/aws-torch-latest-full.yml",
+      "size": 11823
+    },
+    {
+      "path": ".github/workflows/aws-torch-latest.yml",
+      "size": 3526
+    },
+    {
+      "path": ".github/workflows/cpu-torch-latest.yml",
+      "size": 1777
+    },
+    {
+      "path": ".github/workflows/formatting.yml",
+      "size": 904
+    },
+    {
+      "path": ".github/workflows/hpu-gaudi2-nightly.yml",
+      "size": 2621
+    },
+    {
+      "path": ".github/workflows/hpu-gaudi2.yml",
+      "size": 4928
+    },
+    {
+      "path": ".github/workflows/modal-accelerate.yml",
+      "size": 3196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DeepSpeed is a deep learning optimization library that makes distributed training and inference easy, efficient, and effective.",
+    "fork": false,
+    "full_name": "deepspeedai/DeepSpeed",
+    "html_url": "https://github.com/deepspeedai/DeepSpeed",
+    "language": "Python",
+    "pushed_at": "2026-04-22T06:56:43Z",
+    "stargazers_count": 42178,
+    "topics": [
+      "billion-parameters",
+      "compression",
+      "data-parallelism",
+      "deep-learning",
+      "gpu",
+      "inference",
+      "machine-learning",
+      "mixture-of-experts",
+      "model-parallelism",
+      "pipeline-parallelism",
+      "pytorch",
+      "trillion-parameters",
+      "zero"
+    ],
+    "updated_at": "2026-04-23T01:17:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ascend/ascend-ci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocm-developer-tools/hipcc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/glm-130b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yandex/yalm-100b",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "amd-mi200",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd-mi200.yml",
+      "term": "amd-mi200"
+    },
+    {
+      "context_snippet": "aws-accelerate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws-accelerate.yml",
+      "term": "aws-accelerate"
+    },
+    {
+      "context_snippet": "aws-torch-latest-full",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws-torch-latest-full.yml",
+      "term": "aws-torch-latest-full"
+    },
+    {
+      "context_snippet": "aws-torch-latest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws-torch-latest.yml",
+      "term": "aws-torch-latest"
+    },
+    {
+      "context_snippet": "cpu-torch-latest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-torch-latest.yml",
+      "term": "cpu-torch-latest"
+    },
+    {
+      "context_snippet": "Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/formatting.yml",
+      "term": "Formatting"
+    },
+    {
+      "context_snippet": "hpu-gaudi2-nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hpu-gaudi2-nightly.yml",
+      "term": "hpu-gaudi2-nightly"
+    },
+    {
+      "context_snippet": "hpu-gaudi2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hpu-gaudi2.yml",
+      "term": "hpu-gaudi2"
+    },
+    {
+      "context_snippet": "modal-accelerate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/modal-accelerate.yml",
+      "term": "modal-accelerate"
+    },
+    {
+      "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "billion-parameters"
+    },
+    {
+      "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-parallelism"
+    },
+    {
+      "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixture-of-experts"
+    },
+    {
+      "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-parallelism"
+    },
+    {
+      "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipeline-parallelism"
+    },
+    {
+      "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trillion-parameters"
+    },
+    {
+      "context_snippet": "[![License Apache 2.0](https://badgen.net/badge/license/apache2.0/blue)](https://github.com/deepspeedai/DeepSpeed/blob/master/LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero"
+    }
+  ]
+}

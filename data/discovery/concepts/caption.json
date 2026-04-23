@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "caption"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/Grounded-Segment-Anything",
+      "status": "candidate-context",
+      "text": "Grounded SAM: Marrying Grounding DINO with Segment Anything & Stable Diffusion & Recognize Anything - Automatically Detect , Segment and Generate Anything"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Grounded-Segment-Anything",
+      "status": "candidate-context",
+      "text": "![](./assets/Grounded-SAM_logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/Grounded-Segment-Anything",
+      "status": "candidate",
+      "text": "![](./assets/Grounded-SAM_logo.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039706,
+      "status": "candidate",
+      "text": "subtitle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010286,
+      "status": "candidate",
+      "text": "legend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040550,
+      "status": "candidate",
+      "text": "subheading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040534,
+      "status": "candidate",
+      "text": "heading"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30040128,
+      "status": "candidate",
+      "text": "subtitling"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16050,
+      "status": "candidate",
+      "text": "legend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30,
+      "status": "candidate",
+      "text": "subtitle"
+    }
+  ],
+  "canonical_name": "caption",
+  "concept_id": "caption",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/Grounded-Segment-Anything"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "caption",
+      "sense_id": "caption#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

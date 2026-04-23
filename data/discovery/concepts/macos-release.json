@@ -31,6 +31,30 @@
       "source_repo": "songquanpeng/message-pusher",
       "status": "candidate-context",
       "text": "macOS Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "songquanpeng/gin-template",
+      "status": "candidate-context",
+      "text": "\u7528\u4e8e Gin & React \u9879\u76ee\u7684\u6a21\u677f. Template for Gin & React projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songquanpeng/gin-template",
+      "status": "candidate-context",
+      "text": "macOS Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "songquanpeng/personal-assistant",
+      "status": "candidate-context",
+      "text": "\u8ba9\u751f\u6d3b\u7b80\u5355\u4e00\u70b9\u7684\u4e2a\u4eba\u52a9\u7406\u5e94\u7528. A personal assistant app that makes your life easier."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songquanpeng/personal-assistant",
+      "status": "candidate-context",
+      "text": "macOS Release"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "songquanpeng/message-pusher",
+      "status": "candidate",
+      "text": "macOS Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songquanpeng/gin-template",
+      "status": "candidate",
+      "text": "macOS Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songquanpeng/personal-assistant",
       "status": "candidate",
       "text": "macOS Release"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/macos-release.yml",
       "source_repo": "songquanpeng/message-pusher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/gin-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/personal-assistant"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

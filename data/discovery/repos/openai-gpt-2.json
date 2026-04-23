@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/gpt-2",
+      "target": "openai/gpt-2-output-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/gpt-2",
+      "target": "paper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:23:15.374578+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2827
+    },
+    {
+      "path": "requirements.txt",
+      "size": 58
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Code for the paper \"Language Models are Unsupervised Multitask Learners\"",
+    "fork": false,
+    "full_name": "openai/gpt-2",
+    "html_url": "https://github.com/openai/gpt-2",
+    "language": "Python",
+    "pushed_at": "2024-08-14T10:50:53Z",
+    "stargazers_count": 24795,
+    "topics": [
+      "paper"
+    ],
+    "updated_at": "2026-04-22T17:27:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/gpt-2-output-dataset",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**Status:** Archive (code is provided as-is, no updates expected)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paper"
+    }
+  ]
+}

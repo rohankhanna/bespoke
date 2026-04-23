@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "msys2"
+    "msys2",
+    "Msys2"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "tesseract-ocr/tesseract",
       "status": "candidate-context",
       "text": "msys2"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agl/jbig2enc",
+      "status": "candidate-context",
+      "text": "JBIG2 Encoder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agl/jbig2enc",
+      "status": "candidate-context",
+      "text": "Msys2"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "tesseract-ocr/tesseract",
       "status": "candidate",
       "text": "msys2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agl/jbig2enc",
+      "status": "candidate",
+      "text": "Msys2"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +83,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/msys2.yml",
       "source_repo": "tesseract-ocr/tesseract"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/msys2.yaml",
+      "source_repo": "agl/jbig2enc"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

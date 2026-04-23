@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "meta-llama/llama-cookbook",
-      "target": "meta-llama/synthetic-data-kit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "meta-llama/llama-cookbook",
       "target": "meta-llama/llama-prompt-ops",
       "target_type": "repository"
     },
@@ -106,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T17:36:09.281008+00:00",
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
   "source_repo": "meta-llama/llama-cookbook"
 }

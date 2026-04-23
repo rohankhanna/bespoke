@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "oracle"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerocha/netflixdb",
+      "status": "candidate-context",
+      "text": "Sample database for MySQL, Oracle, PostgreSQL, SQLite, and SQL Server. Based on data from the Netflix Engagement Report and the Netflix Global Top 10 weekly list, it includes movies and TV shows for learning and practice purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerocha/netflixdb",
+      "status": "candidate-context",
+      "text": "Sample database based on the data from the [Netflix Engagement Report](https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2024) and the [Netflix Global Top 10](https://www.netflix.com/tudum/top10) weekly list, it includes movies and TV shows for learning and pra\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerocha/netflixdb",
+      "status": "candidate",
+      "text": "Sample database based on the data from the [Netflix Engagement Report](https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2024) and the [Netflix Global Top 10](https://www.netflix.com/tudum/top10) weekly list, it includes movies and TV shows for learning and pra\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010611,
+      "status": "candidate",
+      "text": "prophet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010589,
+      "status": "candidate",
+      "text": "prophecy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010329,
+      "status": "candidate",
+      "text": "seer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991879,
+      "status": "candidate",
+      "text": "then"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29923236,
+      "status": "candidate",
+      "text": "monger"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16047,
+      "status": "candidate",
+      "text": "prophet"
+    }
+  ],
+  "canonical_name": "oracle",
+  "concept_id": "oracle",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "lerocha/netflixdb"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "oracle",
+      "sense_id": "oracle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

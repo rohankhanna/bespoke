@@ -1,14 +1,35 @@
 {
   "aliases": [
-    "CI & Release"
+    "CI & Release",
+    "ci-release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
     "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudnativelabs/kube-router",
+      "status": "candidate-context",
+      "text": "Kube-router, a turnkey solution for Kubernetes networking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativelabs/kube-router",
+      "status": "candidate-context",
+      "text": "ci-release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativelabs/kube-router",
+      "status": "candidate",
+      "text": "ci-release"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "CI & Release",
@@ -20,12 +41,20 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": ".github/workflows/ci-release.yml",
       "source_repo": "prehisle/relay-pulse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/ci-release.yml",
+      "source_repo": "cloudnativelabs/kube-router"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

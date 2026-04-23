@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Daily Open PR Sync"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DefinitelyTyped-tools",
+      "status": "candidate-context",
+      "text": "Infrastructure for DefinitelyTyped"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DefinitelyTyped-tools",
+      "status": "candidate-context",
+      "text": "Daily Open PR Sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DefinitelyTyped-tools",
+      "status": "candidate",
+      "text": "Daily Open PR Sync"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23774,
+      "status": "candidate",
+      "text": "timed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22189,
+      "status": "candidate",
+      "text": "lance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22167,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22077,
+      "status": "candidate",
+      "text": "hour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22077,
+      "status": "candidate",
+      "text": "noon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Daily Open PR Sync",
+  "concept_id": "daily-open-pr-sync",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "microsoft/DefinitelyTyped-tools"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily Open PR Sync",
+      "sense_id": "daily-open-pr-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

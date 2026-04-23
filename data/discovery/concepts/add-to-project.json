@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Add to project"
+    "Add to project",
+    "Add to Project"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -103,6 +104,18 @@
       "source_repo": "agent-sh/ship",
       "status": "candidate-context",
       "text": "Add to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "Add to Project"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +166,12 @@
       "source_repo": "agent-sh/ship",
       "status": "candidate",
       "text": "Add to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate",
+      "text": "Add to Project"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +263,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "agent-sh/ship"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "zlib-ng/deflatebench",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "zlib-ng/deflatebench",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "zlib-ng/deflatebench",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "zlib-ng/deflatebench",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "zlib-ng/deflatebench",
+      "target": "Test deflatebench",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/deflatebench",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/deflatebench",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/deflatebench",
+      "target": "zlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/deflatebench",
+      "target": "zlib-license",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/deflatebench",
+      "target": "zlib-ng",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:23:47.722661+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3159
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 13282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Tool to benchmark zlib-ng",
+    "fork": false,
+    "full_name": "zlib-ng/deflatebench",
+    "html_url": "https://github.com/zlib-ng/deflatebench",
+    "language": "Python",
+    "pushed_at": "2026-02-07T23:40:18Z",
+    "stargazers_count": 12,
+    "topics": [
+      "benchmarking",
+      "testing",
+      "zlib",
+      "zlib-license",
+      "zlib-ng"
+    ],
+    "updated_at": "2026-04-06T15:35:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test deflatebench",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test deflatebench"
+    },
+    {
+      "context_snippet": "This tool must be run from the folder where an executable `minigzip` or `minideflate` exist.\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "This tool must be run from the folder where an executable `minigzip` or `minideflate` exist.\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "This tool must be run from the folder where an executable `minigzip` or `minideflate` exist.\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zlib"
+    },
+    {
+      "context_snippet": "This tool must be run from the folder where an executable `minigzip` or `minideflate` exist.\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zlib-license"
+    },
+    {
+      "context_snippet": "This tool must be run from the folder where an executable `minigzip` or `minideflate` exist.\\",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zlib-ng"
+    }
+  ]
+}

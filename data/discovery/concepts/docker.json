@@ -646,6 +646,90 @@
       "source_repo": "aquasecurity/trivy",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate-context",
+      "text": "A Pluggable Terraform Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudnativelabs/kube-router",
+      "status": "candidate-context",
+      "text": "Kube-router, a turnkey solution for Kubernetes networking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativelabs/kube-router",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-heading MD033 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "Build and deploy Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ralexstokes/mev-rs",
+      "status": "candidate-context",
+      "text": "a gateway to a network of block builders"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ralexstokes/mev-rs",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/hive",
+      "status": "candidate-context",
+      "text": "Ethereum end-to-end test harness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/hive",
+      "status": "candidate-context",
+      "text": "Hive is a system for running integration tests against Ethereum clients."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "\u2728\u2601\ufe0f\ud83d\udcc1\u2728 Cloud Commander file manager for the web with console and editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "labring/sealos",
+      "status": "candidate-context",
+      "text": "Sealos is an AI-native Cloud Operating System built on Kubernetes that unifies the entire application lifecycle, from development in cloud IDEs to production deployment and management. It is perfect for building and scaling modern AI applications, managed databases (MySQL, PostgreSQL, Redis, MongoDB) and complex microservice architectures."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labring/sealos",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -964,6 +1048,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aquasecurity/trivy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudnativelabs/kube-router",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-heading MD033 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
+      "status": "candidate",
+      "text": "[![GitHub Actions Build Status](https://github.com/ko-build/ko/workflows/Build/badge.svg)](https://github.com/ko-build/ko/actions?query=workflow%3ABuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ralexstokes/mev-rs",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/hive",
+      "status": "candidate",
+      "text": "Hive is a system for running integration tests against Ethereum clients."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate",
+      "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labring/sealos",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -1447,11 +1573,71 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "aquasecurity/trivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "terraform-linters/tflint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "cloudnativelabs/kube-router"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ralexstokes/mev-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/hive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/cloudcmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "labring/sealos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

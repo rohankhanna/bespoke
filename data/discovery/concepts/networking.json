@@ -55,6 +55,18 @@
       "source_repo": "containernetworking/cni",
       "status": "candidate-context",
       "text": "![CNI Logo](logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cncf/wg-networking",
+      "status": "candidate-context",
+      "text": "\ud83d\udce1\ud83d\udcf6CNCF Networking WG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/wg-networking",
+      "status": "candidate-context",
+      "text": "CNCF Networking WG"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "containernetworking/cni",
       "status": "candidate",
       "text": "![CNI Logo](logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cncf/wg-networking",
+      "status": "candidate",
+      "text": "CNCF Networking WG"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "containernetworking/cni"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "cncf/wg-networking"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

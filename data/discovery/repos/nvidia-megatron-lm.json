@@ -1,0 +1,497 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_publish_wheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_publish_wheel.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_publish_wheel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml"
+    },
+    {
+      "component": "mikepenz/release-changelog-builder-action@v6.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml"
+    },
+    {
+      "component": "nv-gha-runners/get-pr-info@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-milestone.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-reminder-bot.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-reminder-bot.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-swap-labels.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-swap-labels.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-swap-labels.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-copy-pr-bot.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cicd_preflight.yml@v0.73.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    },
+    {
+      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_docs.yml@v0.80.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "nvidia-nemo/megatron-bridge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "yanring/megatron-moe-modelzoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "deepseek-ai/flashmla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "nvidia-nemo/emerging-optimizers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_publish_wheel.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_publish_wheel.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_test_publish_wheel.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "mikepenz/release-changelog-builder-action@v6.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_release_library.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "~Update dependencies template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-milestone.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "nv-gha-runners/get-pr-info@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-milestone.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "Auto-assign Milestone to PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-reminder-bot.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-reminder-bot.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-reminder-bot.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "Auto Reminder Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-swap-labels.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-swap-labels.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-swap-labels.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-swap-labels.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "Auto Swap Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-copy-pr-bot.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-copy-pr-bot.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "Auto Update Copy PR Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_cicd_preflight.yml@v0.73.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_docs.yml@v0.80.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "Build docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "model-para",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/Megatron-LM",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:19:06.741111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9752
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8566
+    },
+    {
+      "path": ".github/workflows/_build_test_publish_wheel.yml",
+      "size": 6453
+    },
+    {
+      "path": ".github/workflows/_release_library.yml",
+      "size": 18354
+    },
+    {
+      "path": ".github/workflows/_update_dependencies.yml",
+      "size": 7901
+    },
+    {
+      "path": ".github/workflows/auto-assign-milestone.yml",
+      "size": 2781
+    },
+    {
+      "path": ".github/workflows/auto-reminder-bot.yml",
+      "size": 917
+    },
+    {
+      "path": ".github/workflows/auto-swap-labels.yml",
+      "size": 2252
+    },
+    {
+      "path": ".github/workflows/auto-update-copy-pr-bot.yml",
+      "size": 2240
+    },
+    {
+      "path": ".github/workflows/build-docs.yml",
+      "size": 2385
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ongoing research training transformer models at scale",
+    "fork": false,
+    "full_name": "NVIDIA/Megatron-LM",
+    "html_url": "https://github.com/NVIDIA/Megatron-LM",
+    "language": "Python",
+    "pushed_at": "2026-04-23T00:25:42Z",
+    "stargazers_count": 16136,
+    "topics": [
+      "large-language-models",
+      "model-para",
+      "transformers"
+    ],
+    "updated_at": "2026-04-23T00:14:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-nemo/megatron-bridge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yanring/megatron-moe-modelzoo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepseek-ai/flashmla",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-nemo/emerging-optimizers",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Release\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_release_library.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "~Update dependencies template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "term": "~Update dependencies template"
+    },
+    {
+      "context_snippet": "Auto-assign Milestone to PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-assign-milestone.yml",
+      "term": "Auto-assign Milestone to PR"
+    },
+    {
+      "context_snippet": "Auto Reminder Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-reminder-bot.yml",
+      "term": "Auto Reminder Bot"
+    },
+    {
+      "context_snippet": "Auto Swap Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-swap-labels.yml",
+      "term": "Auto Swap Labels"
+    },
+    {
+      "context_snippet": "Auto Update Copy PR Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-copy-pr-bot.yml",
+      "term": "Auto Update Copy PR Bot"
+    },
+    {
+      "context_snippet": "Build docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yml",
+      "term": "Build docs"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-para"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

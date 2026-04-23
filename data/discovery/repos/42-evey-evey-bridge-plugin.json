@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:09:24.523302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin for bridging with Evey (hermes-agent). Auto-checks messages, Mother Mode loop, quick status.",
+    "fork": false,
+    "full_name": "42-evey/evey-bridge-plugin",
+    "html_url": "https://github.com/42-evey/evey-bridge-plugin",
+    "language": "Python",
+    "pushed_at": "2026-03-22T15:07:23Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-19T08:15:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

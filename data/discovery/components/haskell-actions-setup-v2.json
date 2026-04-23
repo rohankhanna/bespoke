@@ -1,12 +1,27 @@
 {
   "component": "haskell/actions/setup@v2",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/languages.yaml",
       "source_repo": "pre-commit/pre-commit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "andys8/git-brunch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/matrix-build.yml",
+      "source_repo": "andys8/git-brunch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "andys8/git-brunch"
     }
   ]
 }

@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "jackson"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson",
+      "status": "candidate-context",
+      "text": "Main Portal page for the Jackson project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson",
+      "status": "candidate-context",
+      "text": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson",
+      "status": "candidate",
+      "text": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19067972,
+      "status": "candidate",
+      "text": "andrew jackson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19067972,
+      "status": "candidate",
+      "text": "capital of mississippi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19067972,
+      "status": "candidate",
+      "text": "old hickory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19067971,
+      "status": "candidate",
+      "text": "drummond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19066025,
+      "status": "candidate",
+      "text": "vaughan"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "capital of mississippi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "andrew jackson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "old hickory"
+    }
+  ],
+  "canonical_name": "jackson",
+  "concept_id": "jackson",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jackson",
+      "sense_id": "jackson#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

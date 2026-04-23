@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:28:34.243621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4426
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NerF computer vision dataset",
+    "fork": false,
+    "full_name": "nickponline/dd-nerf-dataset",
+    "html_url": "https://github.com/nickponline/dd-nerf-dataset",
+    "language": "Python",
+    "pushed_at": "2023-02-11T00:45:01Z",
+    "stargazers_count": 203,
+    "topics": [],
+    "updated_at": "2026-04-11T03:32:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

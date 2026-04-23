@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfnty/pkgbuilds",
+      "target": "arch-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfnty/pkgbuilds",
+      "target": "archlinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfnty/pkgbuilds",
+      "target": "pkgbuild",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:21:58.772618+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Personal PKGBUILDs",
+    "fork": false,
+    "full_name": "nfnty/pkgbuilds",
+    "html_url": "https://github.com/nfnty/pkgbuilds",
+    "language": "Shell",
+    "pushed_at": "2026-02-17T17:09:12Z",
+    "stargazers_count": 17,
+    "topics": [
+      "arch-linux",
+      "archlinux",
+      "pkgbuild"
+    ],
+    "updated_at": "2026-02-17T17:09:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Personal PKGBUILDs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arch-linux"
+    },
+    {
+      "context_snippet": "Personal PKGBUILDs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archlinux"
+    },
+    {
+      "context_snippet": "Personal PKGBUILDs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pkgbuild"
+    }
+  ]
+}

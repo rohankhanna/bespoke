@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yml"
+    },
+    {
+      "component": "calibreapp/image-actions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yml"
+    },
+    {
+      "component": "akhilmhdh/contributors-readme-action@v2.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reademe-contributors.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "eryajf/awesome-stars-eryajf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "coderjojo/creative-profile-readme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "abhisheknaiidu/awesome-github-profile-readme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "durgeshsamariya/awesome-github-profile-readme-templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yml",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yml",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "calibreapp/image-actions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yml",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reademe-contributors.yml",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "akhilmhdh/contributors-readme-action@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "eryajf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "profile-readme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:26:42.362686+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26724
+    },
+    {
+      "path": ".github/workflows/images.yml",
+      "size": 915
+    },
+    {
+      "path": ".github/workflows/reademe-contributors.yml",
+      "size": 507
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udda9 \u4f18\u79c0\u7684\u4e2d\u6587\u533a\u4e2a\u4eba\u4e3b\u9875\u641c\u96c6",
+    "fork": false,
+    "full_name": "eryajf/awesome-github-profile-readme-chinese",
+    "html_url": "https://github.com/eryajf/awesome-github-profile-readme-chinese",
+    "language": null,
+    "pushed_at": "2025-11-10T01:21:00Z",
+    "stargazers_count": 294,
+    "topics": [
+      "awesome",
+      "eryajf",
+      "profile-readme"
+    ],
+    "updated_at": "2026-04-21T09:31:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abhisheknaiidu/awesome-github-profile-readme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coderjojo/creative-profile-readme",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "durgeshsamariya/awesome-github-profile-readme-templates",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eryajf/awesome-stars-eryajf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eryajf"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile-readme"
+    }
+  ]
+}

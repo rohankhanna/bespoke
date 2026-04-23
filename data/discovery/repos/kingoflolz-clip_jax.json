@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:28:10.257207+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2346
+    },
+    {
+      "path": "requirements.txt",
+      "size": 67
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Contrastive Language-Image Pretraining",
+    "fork": true,
+    "full_name": "kingoflolz/CLIP_JAX",
+    "html_url": "https://github.com/kingoflolz/CLIP_JAX",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-09-06T14:39:53Z",
+    "stargazers_count": 146,
+    "topics": [],
+    "updated_at": "2026-04-09T01:13:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

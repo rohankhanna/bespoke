@@ -44,6 +44,18 @@
       "source_repo": "coder/code-server",
       "status": "candidate-context",
       "text": "Draft release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Commit-Boost/commit-boost-client",
+      "status": "candidate-context",
+      "text": "Commit-Boost allows Ethereum validators to safely run MEV-Boost and community-built commitment protocols"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Commit-Boost/commit-boost-client",
+      "status": "candidate-context",
+      "text": "Draft Release"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "coder/code-server",
       "status": "candidate",
       "text": "Draft release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Commit-Boost/commit-boost-client",
+      "status": "candidate",
+      "text": "Draft Release"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "coder/code-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Commit-Boost/commit-boost-client"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

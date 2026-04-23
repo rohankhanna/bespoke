@@ -43,6 +43,30 @@
       "source_repo": "lightning/bolts",
       "status": "candidate-context",
       "text": "The specifications are currently a work-in-progress and currently being"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/specs",
+      "status": "candidate-context",
+      "text": "Technical specifications for the IPFS protocol stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/specs",
+      "status": "candidate-context",
+      "text": "> This repository contains the specs for the IPFS Protocol and associated subsystems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiformats/multihash",
+      "status": "candidate-context",
+      "text": "Self describing hashes - for future proofing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/multihash",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "lightning/bolts",
       "status": "candidate",
       "text": "The specifications are currently a work-in-progress and currently being"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/specs",
+      "status": "candidate",
+      "text": "> This repository contains the specs for the IPFS Protocol and associated subsystems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiformats/multihash",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](https://protocol.ai/)"
     }
   ],
   "candidate_related_terms": [
@@ -144,11 +180,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/specs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "multiformats/multihash"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

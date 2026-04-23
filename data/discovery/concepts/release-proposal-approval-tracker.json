@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release Proposal Approval Tracker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate-context",
+      "text": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate-context",
+      "text": "Release Proposal Approval Tracker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate",
+      "text": "Release Proposal Approval Tracker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33095,
+      "status": "candidate",
+      "text": "vote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30185,
+      "status": "candidate",
+      "text": "epa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29356,
+      "status": "candidate",
+      "text": "trap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29334,
+      "status": "candidate",
+      "text": "transmission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29155,
+      "status": "candidate",
+      "text": "point"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Proposal Approval Tracker",
+  "concept_id": "release-proposal-approval-tracker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/auto-release-pr.yml",
+      "source_repo": "caddyserver/caddy"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Proposal Approval Tracker",
+      "sense_id": "release-proposal-approval-tracker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

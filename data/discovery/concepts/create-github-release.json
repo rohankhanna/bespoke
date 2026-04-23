@@ -20,12 +20,48 @@
       "source_repo": "rubocop/rubocop",
       "status": "candidate-context",
       "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckan/ckan",
+      "status": "candidate-context",
+      "text": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckan",
+      "status": "candidate-context",
+      "text": "Create GitHub release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flycheck/flycheck",
+      "status": "candidate-context",
+      "text": "On the fly syntax checking for GNU Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flycheck/flycheck",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "rubocop/rubocop",
+      "status": "candidate",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckan",
+      "status": "candidate",
+      "text": "Create GitHub release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flycheck/flycheck",
       "status": "candidate",
       "text": "Create GitHub Release"
     }
@@ -83,11 +119,23 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/github_release.yml",
       "source_repo": "rubocop/rubocop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "ckan/ckan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "flycheck/flycheck"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

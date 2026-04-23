@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ai-ml-maxdiffusion-tpu-server-ci"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "status": "candidate-context",
+      "text": "Sample applications for Google Kubernetes Engine (GKE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "status": "candidate-context",
+      "text": "ai-ml-maxdiffusion-tpu-server-ci"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+      "status": "candidate",
+      "text": "ai-ml-maxdiffusion-tpu-server-ci"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ai-ml-maxdiffusion-tpu-server-ci",
+  "concept_id": "ai-ml-maxdiffusion-tpu-server-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/ai-ml-maxdiffusion-tpu-server-ci.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ai-ml-maxdiffusion-tpu-server-ci",
+      "sense_id": "ai-ml-maxdiffusion-tpu-server-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v5",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -167,6 +167,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/java-publish-package.yml",
       "source_repo": "microsoft/semantic-kernel-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-packages.yml",
+      "source_repo": "patrickkabwe/create-nitro-module"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "circe/circe"
     }
   ]
 }

@@ -19,6 +19,18 @@
       "source_repo": "albumentations-team/AlbumentationsX",
       "status": "candidate-context",
       "text": "[![PyPI version](https://badge.fury.io/py/albumentationsx.svg)](https://badge.fury.io/py/albumentationsx)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isl-org/MiDaS",
+      "status": "candidate-context",
+      "text": "Code for robust monocular depth estimation described in \"Ranftl et. al., Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer, TPAMI 2022\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/MiDaS",
+      "status": "candidate-context",
+      "text": "This repository contains code to compute depth from a single image. It accompanies our [paper](https://arxiv.org/abs/1907.01341v3):"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "albumentations-team/AlbumentationsX",
       "status": "candidate",
       "text": "[![PyPI version](https://badge.fury.io/py/albumentationsx.svg)](https://badge.fury.io/py/albumentationsx)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isl-org/MiDaS",
+      "status": "candidate",
+      "text": "This repository contains code to compute depth from a single image. It accompanies our [paper](https://arxiv.org/abs/1907.01341v3):"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "albumentations-team/AlbumentationsX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "isl-org/MiDaS"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

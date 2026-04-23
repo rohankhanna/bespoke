@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaizhanov/mengram",
+      "target": "ai-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaizhanov/mengram",
+      "target": "cognitive-profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaizhanov/mengram",
+      "target": "crewai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaizhanov/mengram",
+      "target": "episodic-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaizhanov/mengram",
+      "target": "langchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaizhanov/mengram",
+      "target": "mcp-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaizhanov/mengram",
+      "target": "memory-layer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaizhanov/mengram",
+      "target": "procedural-memory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaizhanov/mengram",
+      "target": "semantic-memory",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:09:42.634318+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15288
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2539
+    },
+    {
+      "path": "requirements.txt",
+      "size": 218
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Human-like memory for AI agents \u2014 semantic, episodic & procedural. Experience-driven procedures that learn from failures. Free API, Python & JS SDKs, LangChain, CrewAI & OpenClaw integrations.",
+    "fork": false,
+    "full_name": "alibaizhanov/mengram",
+    "html_url": "https://github.com/alibaizhanov/mengram",
+    "language": "Python",
+    "pushed_at": "2026-04-22T21:28:40Z",
+    "stargazers_count": 157,
+    "topics": [
+      "ai-agents",
+      "ai-memory",
+      "cognitive-profile",
+      "crewai",
+      "episodic-memory",
+      "langchain",
+      "llm",
+      "mcp-server",
+      "memory-layer",
+      "procedural-memory",
+      "rag",
+      "semantic-memory"
+    ],
+    "updated_at": "2026-04-22T21:28:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-memory"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cognitive-profile"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crewai"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "episodic-memory"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "langchain"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcp-server"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memory-layer"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "procedural-memory"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-memory"
+    }
+  ]
+}

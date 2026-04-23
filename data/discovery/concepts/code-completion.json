@@ -19,6 +19,30 @@
       "source_repo": "fwcd/kotlin-language-server",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ycm-core/ycmd",
+      "status": "candidate-context",
+      "text": "A code-completion & code-comprehension server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ycm-core/ycmd",
+      "status": "candidate-context",
+      "text": "ycmd: a code-completion & comprehension server"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "status": "candidate-context",
+      "text": "A code-completion engine for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "status": "candidate-context",
+      "text": "YouCompleteMe: a code-completion engine for Vim"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "fwcd/kotlin-language-server",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ycm-core/ycmd",
+      "status": "candidate",
+      "text": "ycmd: a code-completion & comprehension server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "status": "candidate",
+      "text": "YouCompleteMe: a code-completion engine for Vim"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "fwcd/kotlin-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ycm-core/ycmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ycm-core/YouCompleteMe"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

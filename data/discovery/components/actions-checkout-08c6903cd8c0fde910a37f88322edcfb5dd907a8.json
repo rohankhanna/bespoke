@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -267,6 +267,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "darccio/mergo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lerna/lerna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/other-node-versions.yml",
+      "source_repo": "lerna/lerna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkg-pr-new.yml",
+      "source_repo": "lerna/lerna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "lerna/lerna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/algolia-prod.yml",
+      "source_repo": "hashicorp/web-unified-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/broken-link-check-full.yml",
+      "source_repo": "hashicorp/web-unified-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-pr-preview.yml",
+      "source_repo": "hashicorp/web-unified-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-prebuild-binaries.yml",
+      "source_repo": "hashicorp/web-unified-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copy-cloud-docs-for-tfe.yml",
+      "source_repo": "hashicorp/web-unified-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copyright-headers-check.yml",
+      "source_repo": "hashicorp/web-unified-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-ga-pr.yml",
+      "source_repo": "hashicorp/web-unified-docs"
     }
   ]
 }

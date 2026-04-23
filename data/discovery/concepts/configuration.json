@@ -19,6 +19,18 @@
       "source_repo": "rust-cli/confy",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/confy)](https://crates.io/crates/confy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dilanx/craco",
+      "status": "candidate-context",
+      "text": "Create React App Configuration Override, an easy and comprehensible configuration layer for Create React App."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dilanx/craco",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rust-cli/confy",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/confy)](https://crates.io/crates/confy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dilanx/craco",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "rust-cli/confy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "dilanx/craco"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

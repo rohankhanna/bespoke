@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "reactjs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "birdofpreyru/react-utils",
+      "status": "candidate-context",
+      "text": "ReactJS development kit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "birdofpreyru/react-utils",
+      "status": "candidate-context",
+      "text": "[![Latest NPM Release](https://img.shields.io/npm/v/@dr.pogodin/react-utils.svg)](https://www.npmjs.com/package/@dr.pogodin/react-utils)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "birdofpreyru/react-utils",
+      "status": "candidate",
+      "text": "[![Latest NPM Release](https://img.shields.io/npm/v/@dr.pogodin/react-utils.svg)](https://www.npmjs.com/package/@dr.pogodin/react-utils)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "reactjs",
+  "concept_id": "reactjs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "birdofpreyru/react-utils"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reactjs",
+      "sense_id": "reactjs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

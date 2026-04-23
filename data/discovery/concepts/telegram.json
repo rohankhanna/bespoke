@@ -43,6 +43,18 @@
       "source_repo": "songquanpeng/message-pusher",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhayujie/bot-on-anything",
+      "status": "candidate-context",
+      "text": "A large model-based chatbot builder that can quickly integrate AI models (including ChatGPT, Claude, Gemini) into various software applications (such as Telegram, Gmail, Slack, and websites)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhayujie/bot-on-anything",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/6e931057-e09f-4742-9fbd-2417cf6bc2f3\" alt=\"Bot-On-Anything\" width=\"600\" /></p>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "songquanpeng/message-pusher",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhayujie/bot-on-anything",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/6e931057-e09f-4742-9fbd-2417cf6bc2f3\" alt=\"Bot-On-Anything\" width=\"600\" /></p>"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +150,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "songquanpeng/message-pusher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/bot-on-anything"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

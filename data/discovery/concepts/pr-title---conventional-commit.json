@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PR Title - Conventional Commit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "netlify/cli",
+      "status": "candidate-context",
+      "text": "Netlify Command Line Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netlify/cli",
+      "status": "candidate-context",
+      "text": "PR Title - Conventional Commit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netlify/cli",
+      "status": "candidate",
+      "text": "PR Title - Conventional Commit"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33649,
+      "status": "candidate",
+      "text": "honorable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33351,
+      "status": "candidate",
+      "text": "mister"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31086,
+      "status": "candidate",
+      "text": "present"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30915,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26165,
+      "status": "candidate",
+      "text": "dear"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR Title - Conventional Commit",
+  "concept_id": "pr-title---conventional-commit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/conventional-commit.yml",
+      "source_repo": "netlify/cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Title - Conventional Commit",
+      "sense_id": "pr-title---conventional-commit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

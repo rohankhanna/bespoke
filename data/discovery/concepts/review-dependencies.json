@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Review dependencies"
+    "Review dependencies",
+    "Review Dependencies"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "awslabs/amazon-ecr-credential-helper",
       "status": "candidate-context",
       "text": "Review dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kops",
+      "status": "candidate-context",
+      "text": "Kubernetes Operations (kOps) - Production Grade k8s Installation, Upgrades and Management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kops",
+      "status": "candidate-context",
+      "text": "'Review Dependencies'"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "awslabs/amazon-ecr-credential-helper",
       "status": "candidate",
       "text": "Review dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kops",
+      "status": "candidate",
+      "text": "'Review Dependencies'"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/review-dependencies.yml",
       "source_repo": "awslabs/amazon-ecr-credential-helper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "kubernetes/kops"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

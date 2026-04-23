@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A wrapper executable that can run any executable as a Windows service, in a permissive license."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Milestone Management"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Milestone Management"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12960,
+      "status": "candidate",
+      "text": "framework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11940,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11940,
+      "status": "candidate",
+      "text": "advancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11940,
+      "status": "candidate",
+      "text": "breakthrough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11940,
+      "status": "candidate",
+      "text": "era"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Milestone Management",
+      "sense_id": "milestone-management#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "milestone-management",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "milestone-management",
+  "observation_id": "b5984af69b83657d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "Milestone Management",
+  "source_context_snippet": "Milestone Management",
+  "source_file": ".github/workflows/milestone-management.yml",
+  "source_repo": "winsw/winsw",
+  "source_repo_description": "A wrapper executable that can run any executable as a Windows service, in a permissive license."
+}

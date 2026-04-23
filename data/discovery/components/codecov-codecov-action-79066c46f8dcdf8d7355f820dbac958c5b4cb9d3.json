@@ -1,0 +1,12 @@
+{
+  "component": "codecov/codecov-action@79066c46f8dcdf8d7355f820dbac958c5b4cb9d3",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-automated-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u26a1FlashRAG: A Python Toolkit for Efficient RAG Research (WWW2025 Resource)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\\[ English | [\u4e2d\u6587](README_zh.md) \\]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\\[ English | [\u4e2d\u6587](README_zh.md) \\]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "retrieval-augmented-generation",
+      "sense_id": "retrieval-augmented-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "retrieval-augmented-generation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "retrieval-augmented-generation",
+  "observation_id": "869079c98e8ddbbf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "retrieval-augmented-generation",
+  "source_context_snippet": "\\[ English | [\u4e2d\u6587](README_zh.md) \\]",
+  "source_file": null,
+  "source_repo": "RUC-NLPIR/FlashRAG",
+  "source_repo_description": "\u26a1FlashRAG: A Python Toolkit for Efficient RAG Research (WWW2025 Resource)"
+}

@@ -115,6 +115,42 @@
       "source_repo": "lucidrains/memory-efficient-attention-pytorch",
       "status": "candidate-context",
       "text": "Implementation of a memory efficient multi-head attention as proposed in the paper, <a href=\"https://arxiv.org/abs/2112.05682\">Self-attention Does Not Need O(n\u00b2) Memory</a>. In addition, the module will take care of masking, causal masking, as well as cross attention."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate-context",
+      "text": "The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate-context",
+      "text": "> ### The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voxel51/fiftyone-examples",
+      "status": "candidate-context",
+      "text": "Examples of using FiftyOne"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/fiftyone-examples",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voxel51/voxelgpt",
+      "status": "candidate-context",
+      "text": "AI assistant that can query visual datasets, search the FiftyOne docs, and answer general computer vision questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/voxelgpt",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "lucidrains/memory-efficient-attention-pytorch",
       "status": "candidate",
       "text": "Implementation of a memory efficient multi-head attention as proposed in the paper, <a href=\"https://arxiv.org/abs/2112.05682\">Self-attention Does Not Need O(n\u00b2) Memory</a>. In addition, the module will take care of masking, causal masking, as well as cross attention."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate",
+      "text": "> ### The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/fiftyone-examples",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/voxelgpt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -244,11 +298,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "lucidrains/memory-efficient-attention-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "voxel51/fiftyone-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "voxel51/voxelgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzz.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nothings/stb",
+      "target": "nothings/single_file_libs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzz.yml",
+      "source_repo": "nothings/stb",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzz.yml",
+      "source_repo": "nothings/stb",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzz.yml",
+      "source_repo": "nothings/stb",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-fuzz.yml",
+      "source_repo": "nothings/stb",
+      "target": "CIFuzz",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:28:35.249075+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9332
+    },
+    {
+      "path": ".github/workflows/ci-fuzz.yml",
+      "size": 595
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "stb single-file public domain libraries for C/C++",
+    "fork": false,
+    "full_name": "nothings/stb",
+    "html_url": "https://github.com/nothings/stb",
+    "language": "C",
+    "pushed_at": "2026-04-15T20:53:29Z",
+    "stargazers_count": 33436,
+    "topics": [],
+    "updated_at": "2026-04-22T22:41:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nothings/single_file_libs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-fuzz.yml",
+      "term": "CIFuzz"
+    }
+  ]
+}

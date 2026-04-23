@@ -19,12 +19,30 @@
       "source_repo": "opencv/opencv",
       "status": "candidate-context",
       "text": "PR:4.x"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencv/opencv_contrib",
+      "status": "candidate-context",
+      "text": "Repository for OpenCV's extra modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencv/opencv_contrib",
+      "status": "candidate-context",
+      "text": "PR:4.x"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "opencv/opencv",
+      "status": "candidate",
+      "text": "PR:4.x"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencv/opencv_contrib",
       "status": "candidate",
       "text": "PR:4.x"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/PR-4.x.yaml",
       "source_repo": "opencv/opencv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv_contrib"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

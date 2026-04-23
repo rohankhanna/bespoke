@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cleanup Stale Branches"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/react-native-windows",
+      "status": "candidate-context",
+      "text": "A framework for building native Windows apps with React."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-windows",
+      "status": "candidate-context",
+      "text": "Cleanup Stale Branches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-windows",
+      "status": "candidate",
+      "text": "Cleanup Stale Branches"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19821,
+      "status": "candidate",
+      "text": "dishpan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19530,
+      "status": "candidate",
+      "text": "broom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19506,
+      "status": "candidate",
+      "text": "clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19506,
+      "status": "candidate",
+      "text": "dishrag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19458,
+      "status": "candidate",
+      "text": "act"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cleanup Stale Branches",
+  "concept_id": "cleanup-stale-branches",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/cleanup-stale-branches.yml",
+      "source_repo": "microsoft/react-native-windows"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup Stale Branches",
+      "sense_id": "cleanup-stale-branches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

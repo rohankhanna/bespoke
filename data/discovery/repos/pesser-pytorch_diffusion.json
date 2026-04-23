@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pesser/pytorch_diffusion",
+      "target": "toshas/torch-fidelity",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:28:21.709960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch reimplementation of Diffusion Models",
+    "fork": false,
+    "full_name": "pesser/pytorch_diffusion",
+    "html_url": "https://github.com/pesser/pytorch_diffusion",
+    "language": "Python",
+    "pushed_at": "2023-01-15T18:03:47Z",
+    "stargazers_count": 585,
+    "topics": [],
+    "updated_at": "2026-04-21T13:35:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "toshas/torch-fidelity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

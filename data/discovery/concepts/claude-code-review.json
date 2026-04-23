@@ -133,6 +133,30 @@
       "source_repo": "anthropics/claude-agent-sdk-python",
       "status": "candidate-context",
       "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rllm-org/rllm",
+      "status": "candidate-context",
+      "text": "Democratizing Reinforcement Learning for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rllm-org/rllm",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepset-ai/haystack",
+      "status": "candidate-context",
+      "text": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Design modular pipelines and agent workflows with explicit control over retrieval, routing, memory, and generation. Built for scalable agents, RAG, multimodal applications, semantic search, and conversational systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
     }
   ],
   "candidate_glosses": [
@@ -199,6 +223,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "anthropics/claude-agent-sdk-python",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rllm-org/rllm",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/haystack",
       "status": "candidate",
       "text": "Claude Code Review"
     }
@@ -328,11 +364,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "anthropics/claude-agent-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "rllm-org/rllm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "deepset-ai/haystack"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

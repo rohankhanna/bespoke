@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emsdk.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emsdk.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "emscripten-core/emscripten",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emsdk.yml",
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emsdk.yml",
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "mymindstorm/setup-emsdk@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emsdk.yml",
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "Emscripten nightly tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "mymindstorm/setup-emsdk@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "Create release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasi.yml",
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasi.yml",
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "WASI SDK nightly tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "emscripten",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "wasi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tiran/cpython-wasm-test",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:17:51.153743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3334
+    },
+    {
+      "path": "package.json",
+      "size": 3
+    },
+    {
+      "path": ".github/workflows/emsdk.yml",
+      "size": 2466
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 8067
+    },
+    {
+      "path": ".github/workflows/wasi.yml",
+      "size": 1957
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Test CPython WebAssembly builds with Emscripten SDK",
+    "fork": false,
+    "full_name": "tiran/cpython-wasm-test",
+    "html_url": "https://github.com/tiran/cpython-wasm-test",
+    "language": "Shell",
+    "pushed_at": "2022-11-09T01:07:20Z",
+    "stargazers_count": 52,
+    "topics": [
+      "emscripten",
+      "python",
+      "wasi",
+      "wasm",
+      "webassembly"
+    ],
+    "updated_at": "2026-02-13T23:01:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emscripten-core/emscripten",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Emscripten nightly tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emsdk.yml",
+      "term": "Emscripten nightly tests"
+    },
+    {
+      "context_snippet": "Create release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Create release"
+    },
+    {
+      "context_snippet": "WASI SDK nightly tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasi.yml",
+      "term": "WASI SDK nightly tests"
+    },
+    {
+      "context_snippet": "Test CPython WebAssembly builds with Emscripten SDK and WASI SDK. Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emscripten"
+    },
+    {
+      "context_snippet": "Test CPython WebAssembly builds with Emscripten SDK and WASI SDK. Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasi"
+    },
+    {
+      "context_snippet": "Test CPython WebAssembly builds with Emscripten SDK and WASI SDK. Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "Test CPython WebAssembly builds with Emscripten SDK and WASI SDK. Build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

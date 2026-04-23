@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Hackable and optimized Transformers building blocks, supporting a composable construction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "rocm-ci"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "rocm-ci"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rocm-ci",
+      "sense_id": "rocm-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rocm-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rocm-ci",
+  "observation_id": "e829d91b6992b32f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "rocm-ci",
+  "source_context_snippet": "rocm-ci",
+  "source_file": ".github/workflows/rocm_ci.yml",
+  "source_repo": "facebookresearch/xformers",
+  "source_repo_description": "Hackable and optimized Transformers building blocks, supporting a composable construction."
+}

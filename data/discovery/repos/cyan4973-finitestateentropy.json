@@ -1,0 +1,126 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@cc11e9188b693c2b100158c3322424c4cc1dadea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "Cyan4973/FiniteStateEntropy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "Cyan4973/FiniteStateEntropy",
+      "target": "msys2/setup-msys2@cc11e9188b693c2b100158c3322424c4cc1dadea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "Cyan4973/FiniteStateEntropy",
+      "target": "make",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cyan4973/FiniteStateEntropy",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cyan4973/FiniteStateEntropy",
+      "target": "entropy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cyan4973/FiniteStateEntropy",
+      "target": "huffman",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:14:03.062547+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3022
+    },
+    {
+      "path": ".github/workflows/make.yml",
+      "size": 2678
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "New generation entropy codecs : Finite State Entropy and Huff0",
+    "fork": false,
+    "full_name": "Cyan4973/FiniteStateEntropy",
+    "html_url": "https://github.com/Cyan4973/FiniteStateEntropy",
+    "language": "C",
+    "pushed_at": "2024-03-21T18:01:36Z",
+    "stargazers_count": 1478,
+    "topics": [
+      "c",
+      "compression",
+      "entropy",
+      "fse",
+      "huffman"
+    ],
+    "updated_at": "2026-04-22T12:16:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "make",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make.yml",
+      "term": "make"
+    },
+    {
+      "context_snippet": "New Generation Entropy coders",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "New Generation Entropy coders",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "entropy"
+    },
+    {
+      "context_snippet": "New Generation Entropy coders",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huffman"
+    }
+  ]
+}

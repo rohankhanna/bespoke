@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A cross-platform, safe, pure-Rust graphics API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Lazy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Lazy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016971,
+      "status": "candidate",
+      "text": "idle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016824,
+      "status": "candidate",
+      "text": "faineant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016672,
+      "status": "candidate",
+      "text": "indolent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016083,
+      "status": "candidate",
+      "text": "slothful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013547,
+      "status": "candidate",
+      "text": "work-shy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lazy",
+      "sense_id": "lazy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 107037,
+      "status": "candidate",
+      "text": "otiose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 72045,
+      "status": "candidate",
+      "text": "indolent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18031,
+      "status": "candidate",
+      "text": "slothful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17021,
+      "status": "candidate",
+      "text": "faineant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14045,
+      "status": "candidate",
+      "text": "slow"
+    }
+  ],
+  "concept_id": "lazy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lazy",
+  "observation_id": "20d3feaf48c7faa2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "Lazy",
+  "source_context_snippet": "Lazy",
+  "source_file": ".github/workflows/lazy.yml",
+  "source_repo": "gfx-rs/wgpu",
+  "source_repo_description": "A cross-platform, safe, pure-Rust graphics API."
+}

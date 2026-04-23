@@ -43,6 +43,18 @@
       "source_repo": "monero-rs/monero-rs",
       "status": "candidate-context",
       "text": "Draft new release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UnstoppableSwap/wallet",
+      "status": "candidate-context",
+      "text": "Moved to https://github.com/eigenwallet/core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UnstoppableSwap/wallet",
+      "status": "candidate-context",
+      "text": "\"Draft new release\""
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "monero-rs/monero-rs",
       "status": "candidate",
       "text": "Draft new release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UnstoppableSwap/wallet",
+      "status": "candidate",
+      "text": "\"Draft new release\""
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/draft-new-release.yml",
       "source_repo": "monero-rs/monero-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/draft-new-release.yml",
+      "source_repo": "UnstoppableSwap/wallet"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

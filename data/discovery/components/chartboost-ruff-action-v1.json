@@ -1,12 +1,17 @@
 {
   "component": "chartboost/ruff-action@v1",
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/run-tests.yml",
       "source_repo": "23andMe/Yamale"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yaml",
+      "source_repo": "artisan-roaster-scope/artisan"
     }
   ]
 }

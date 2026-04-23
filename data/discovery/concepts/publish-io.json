@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish IO"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/neural-compressor",
+      "status": "candidate-context",
+      "text": "SOTA low-bit LLM quantization (INT8/FP8/MXFP8/INT4/MXFP4/NVFP4) & sparsity; leading model compression techniques on PyTorch, TensorFlow, and ONNX Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-compressor",
+      "status": "candidate-context",
+      "text": "Publish IO"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-compressor",
+      "status": "candidate",
+      "text": "Publish IO"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10697,
+      "status": "candidate",
+      "text": "moon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10697,
+      "status": "candidate",
+      "text": "peacock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10697,
+      "status": "candidate",
+      "text": "pronunciation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10414,
+      "status": "candidate",
+      "text": "ident"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4636,
+      "status": "candidate",
+      "text": "argus"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish IO",
+  "concept_id": "publish-io",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "intel/neural-compressor"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish IO",
+      "sense_id": "publish-io#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

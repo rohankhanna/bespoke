@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "songquanpeng/daily-submit",
+      "target": "songquanpeng/daily-report",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songquanpeng/daily-submit",
+      "target": "scut",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:26:17.910126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1565
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u534e\u5357\u7406\u5de5\u5927\u5b66\u6bcf\u65e5\u81ea\u52a8\u62a5\u5e73\u5b89\uff0c\u81ea\u52a8\u5065\u5eb7\u586b\u62a5",
+    "fork": false,
+    "full_name": "songquanpeng/daily-submit",
+    "html_url": "https://github.com/songquanpeng/daily-submit",
+    "language": "Python",
+    "pushed_at": "2023-02-11T02:15:56Z",
+    "stargazers_count": 5,
+    "topics": [
+      "scut"
+    ],
+    "updated_at": "2025-03-05T03:48:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "songquanpeng/daily-report",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "1. \u9996\u5148\u4f60\u5fc5\u987b\u624b\u52a8\u586b\u62a5\u5e76\u63d0\u4ea4\u8fc7\u4e00\u6b21\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scut"
+    }
+  ]
+}

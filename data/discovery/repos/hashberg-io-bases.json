@@ -1,0 +1,95 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml",
+      "source_repo": "hashberg-io/bases",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml",
+      "source_repo": "hashberg-io/bases",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashberg-io/bases",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashberg-io/bases",
+      "target": "smart-web",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:22:48.203705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3537
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 236
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2
+    },
+    {
+      "path": ".github/workflows/python-pytest.yml",
+      "size": 1184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Python library for general Base-N encodings.",
+    "fork": false,
+    "full_name": "hashberg-io/bases",
+    "html_url": "https://github.com/hashberg-io/bases",
+    "language": "Python",
+    "pushed_at": "2023-12-18T17:54:18Z",
+    "stargazers_count": 2,
+    "topics": [
+      "library",
+      "smart-web"
+    ],
+    "updated_at": "2026-04-21T06:36:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "bases: A Python library for Base-N encodings",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "bases: A Python library for Base-N encodings",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smart-web"
+    }
+  ]
+}

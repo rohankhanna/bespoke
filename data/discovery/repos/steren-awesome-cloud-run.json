@@ -1,0 +1,168 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "steren/awesome-cloud-run",
+      "target": "ahmetb/cloud-run-travisci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "steren/awesome-cloud-run",
+      "target": "ahmetb/gcr-custom-domains",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "steren/awesome-cloud-run",
+      "target": "ahmetb/ytdl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "steren/awesome-cloud-run",
+      "target": "ahmetb/serverless-url-redirect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steren/awesome-cloud-run",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steren/awesome-cloud-run",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steren/awesome-cloud-run",
+      "target": "cloud-run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steren/awesome-cloud-run",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steren/awesome-cloud-run",
+      "target": "google-cloud-run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "steren/awesome-cloud-run",
+      "target": "resources",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:20:01.950676+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31439
+    },
+    {
+      "path": "Dockerfile",
+      "size": 115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udc53 \u23e9 A curated list of resources about all things Cloud Run",
+    "fork": false,
+    "full_name": "steren/awesome-cloud-run",
+    "html_url": "https://github.com/steren/awesome-cloud-run",
+    "language": "Dockerfile",
+    "pushed_at": "2025-04-14T20:13:30Z",
+    "stargazers_count": 874,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "cloud-run",
+      "containers",
+      "gcp",
+      "google-cloud-run",
+      "resources"
+    ],
+    "updated_at": "2026-04-13T16:35:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahmetb/cloud-run-travisci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahmetb/gcr-custom-domains",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahmetb/serverless-url-redirect",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahmetb/ytdl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-run"
+    },
+    {
+      "context_snippet": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-run"
+    },
+    {
+      "context_snippet": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resources"
+    }
+  ]
+}

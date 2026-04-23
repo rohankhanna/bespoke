@@ -1,0 +1,12 @@
+{
+  "component": "RubbaBoy/BYOB@v1.2.1",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend-pplnn.yml",
+      "source_repo": "open-mmlab/mmdeploy"
+    }
+  ]
+}

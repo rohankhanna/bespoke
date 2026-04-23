@@ -92,6 +92,18 @@
       "source_repo": "ElementsProject/cln-application",
       "status": "candidate-context",
       "text": "Unit tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/MS-AMP",
+      "status": "candidate-context",
+      "text": "Microsoft Automatic Mixed Precision Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/MS-AMP",
+      "status": "candidate-context",
+      "text": "Unit Tests"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +148,12 @@
       "source_repo": "ElementsProject/cln-application",
       "status": "candidate",
       "text": "Unit tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/MS-AMP",
+      "status": "candidate",
+      "text": "Unit Tests"
     }
   ],
   "candidate_related_terms": [
@@ -233,11 +251,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "ElementsProject/cln-application"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "Azure/MS-AMP"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

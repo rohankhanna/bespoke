@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prcheck.yml",
+      "source_repo": "CrossC2/CrossC2Kit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prcheck.yml",
+      "source_repo": "CrossC2/CrossC2Kit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prcheck.yml",
+      "source_repo": "CrossC2/CrossC2Kit",
+      "target": "Pull Requests Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrossC2/CrossC2Kit",
+      "target": "aggressor-scripts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrossC2/CrossC2Kit",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrossC2/CrossC2Kit",
+      "target": "beacon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrossC2/CrossC2Kit",
+      "target": "cobaltstrike",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrossC2/CrossC2Kit",
+      "target": "crossc2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrossC2/CrossC2Kit",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrossC2/CrossC2Kit",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CrossC2/CrossC2Kit",
+      "target": "redteam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:17:18.635502+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4108
+    },
+    {
+      "path": ".github/workflows/prcheck.yml",
+      "size": 1951
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CrossC2 developed based on the Cobalt Strike framework can be used for other cross-platform system control. CrossC2Kit provides some interfaces for users to call to manipulate the CrossC2 Beacon session, thereby extending the functionality of Cobalt Strike.",
+    "fork": false,
+    "full_name": "CrossC2/CrossC2Kit",
+    "html_url": "https://github.com/CrossC2/CrossC2Kit",
+    "language": "Shell",
+    "pushed_at": "2023-08-08T19:52:07Z",
+    "stargazers_count": 229,
+    "topics": [
+      "aggressor-scripts",
+      "android",
+      "beacon",
+      "cna",
+      "cobaltstrike",
+      "crossc2",
+      "ios",
+      "linux",
+      "macos",
+      "redteam"
+    ],
+    "updated_at": "2026-01-27T17:30:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pull Requests Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prcheck.yml",
+      "term": "Pull Requests Check"
+    },
+    {
+      "context_snippet": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aggressor-scripts"
+    },
+    {
+      "context_snippet": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "beacon"
+    },
+    {
+      "context_snippet": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cobaltstrike"
+    },
+    {
+      "context_snippet": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crossc2"
+    },
+    {
+      "context_snippet": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redteam"
+    }
+  ]
+}

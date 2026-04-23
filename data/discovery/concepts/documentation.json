@@ -244,6 +244,30 @@
       "source_repo": "babel/website",
       "status": "candidate-context",
       "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/docs",
+      "status": "candidate-context",
+      "text": "User documentation for Knative components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/docs",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RichardLitt/standard-readme",
+      "status": "candidate-context",
+      "text": "A standard style for README files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RichardLitt/standard-readme",
+      "status": "candidate-context",
+      "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
     }
   ],
   "candidate_glosses": [
@@ -366,6 +390,18 @@
       "source_repo": "babel/website",
       "status": "candidate",
       "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/docs",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RichardLitt/standard-readme",
+      "status": "candidate",
+      "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
     }
   ],
   "candidate_related_terms": [
@@ -570,11 +606,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "babel/website"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "knative/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "RichardLitt/standard-readme"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

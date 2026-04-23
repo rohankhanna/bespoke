@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HTTP Response assertions for the Chai Assertion Library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Chai HTTP"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Chai HTTP"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10765,
+      "status": "candidate",
+      "text": "teapot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10686,
+      "status": "candidate",
+      "text": "bennett"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10686,
+      "status": "candidate",
+      "text": "caerphilly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10686,
+      "status": "candidate",
+      "text": "delhi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10686,
+      "status": "candidate",
+      "text": "shed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Chai HTTP",
+      "sense_id": "chai-http#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chai-http",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chai-http",
+  "observation_id": "5ceca63b751cb836",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "Chai HTTP",
+  "source_context_snippet": "Chai HTTP",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "chaijs/chai-http",
+  "source_repo_description": "HTTP Response assertions for the Chai Assertion Library."
+}

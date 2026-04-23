@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yiyixuxu/denoising-diffusion-flax",
+      "target": "google/ml_collections",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yiyixuxu/denoising-diffusion-flax",
+      "target": "jychoi118/p2-weighting",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:27:57.729403+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10550
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementing the Denoising Diffusion Probabilistic Model in Flax",
+    "fork": false,
+    "full_name": "yiyixuxu/denoising-diffusion-flax",
+    "html_url": "https://github.com/yiyixuxu/denoising-diffusion-flax",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-11-01T16:01:16Z",
+    "stargazers_count": 160,
+    "topics": [],
+    "updated_at": "2026-03-12T06:40:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/ml_collections",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jychoi118/p2-weighting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

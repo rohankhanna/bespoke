@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "icecc/icecream",
+      "target": "icecc/icemon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "icecc/icecream",
+      "target": "jpewdev/icecream-sundae",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:18:05.569427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Distributed compiler with a central scheduler to share build load",
+    "fork": false,
+    "full_name": "icecc/icecream",
+    "html_url": "https://github.com/icecc/icecream",
+    "language": "C++",
+    "pushed_at": "2026-03-04T22:13:20Z",
+    "stargazers_count": 1790,
+    "topics": [],
+    "updated_at": "2026-04-22T16:31:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "icecc/icemon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jpewdev/icecream-sundae",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

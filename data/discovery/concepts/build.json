@@ -1367,6 +1367,264 @@
       "source_repo": "Softeria/ms-365-mcp-server",
       "status": "candidate-context",
       "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate-context",
+      "text": "A Pluggable Terraform Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/minikube",
+      "status": "candidate-context",
+      "text": "Run Kubernetes locally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/minikube",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": ":electron: A complete tool for building and publishing Electron applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/electron/forge/actions/workflows/ci.yml/badge.svg)](https://github.com/electron/forge/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocornut/imgui",
+      "status": "candidate-context",
+      "text": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocornut/imgui",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/gemma.cpp",
+      "status": "candidate-context",
+      "text": "lightweight, standalone C++ inference engine for Google's Gemma models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gemma.cpp",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerocha/netflixdb",
+      "status": "candidate-context",
+      "text": "Sample database for MySQL, Oracle, PostgreSQL, SQLite, and SQL Server. Based on data from the Netflix Engagement Report and the Netflix Global Top 10 weekly list, it includes movies and TV shows for learning and practice purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerocha/netflixdb",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "explosion/weasel",
+      "status": "candidate-context",
+      "text": "\ud83e\udda6 weasel: A small and easy workflow system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/weasel",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "Build and deploy Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oras-project/distribution",
+      "status": "candidate-context",
+      "text": "distribution with reference types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/distribution",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mim",
+      "status": "candidate-context",
+      "text": "MIM Installs OpenMMLab Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mim",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/docs",
+      "status": "candidate-context",
+      "text": "User documentation for Knative components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/docs",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "voxel51/fiftyone-brain",
+      "status": "candidate-context",
+      "text": "Open source AI/ML capabilities for the FiftyOne ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/fiftyone-brain",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "status": "candidate-context",
+      "text": "Reproducible Central: rebuild instructions for artifacts published to (Maven) Central Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-wasm/wasm_of_ocaml",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/specs",
+      "status": "candidate-context",
+      "text": "Technical specifications for the IPFS protocol stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/specs",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hajimes/mmh3",
+      "status": "candidate-context",
+      "text": "Python extension for MurmurHash (MurmurHash3), a set of fast and robust hash functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hajimes/mmh3",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zlib-ng/minizip-ng",
+      "status": "candidate-context",
+      "text": "Fork of the popular zip manipulation library found in the zlib distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/minizip-ng",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andys8/git-brunch",
+      "status": "candidate-context",
+      "text": "Git branch checkout menu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andys8/git-brunch",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rranelli/auto-package-update.el",
+      "status": "candidate-context",
+      "text": "Automatically update Emacs packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rranelli/auto-package-update.el",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fwcd/vscode-kotlin",
+      "status": "candidate-context",
+      "text": "Kotlin code completion, debugging, linting and more for VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/vscode-kotlin",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "whatwg/fetch",
+      "status": "candidate-context",
+      "text": "Fetch Standard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatwg/fetch",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": ":electron: \ud83d\ude80 The easiest way to get started with Electron"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": "Build"
     }
   ],
   "candidate_glosses": [
@@ -2051,6 +2309,138 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Softeria/ms-365-mcp-server",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/minikube",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/electron/forge/actions/workflows/ci.yml/badge.svg)](https://github.com/electron/forge/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocornut/imgui",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gemma.cpp",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerocha/netflixdb",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/weasel",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/distribution",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mim",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/docs",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "voxel51/fiftyone-brain",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-wasm/wasm_of_ocaml",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/specs",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hajimes/mmh3",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/minizip-ng",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andys8/git-brunch",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rranelli/auto-package-update.el",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fwcd/vscode-kotlin",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "whatwg/fetch",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
       "status": "candidate",
       "text": "Build"
     }
@@ -2917,11 +3307,149 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "Softeria/ms-365-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "terraform-linters/tflint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kubernetes/minikube"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "electron/forge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ocornut/imgui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/gemma.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "lerocha/netflixdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "explosion/weasel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "oras-project/distribution"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "open-mmlab/mim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/knative-go-build.yaml",
+      "source_repo": "knative/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "voxel51/fiftyone-brain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build-buildspec-pr.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ocaml-wasm/wasm_of_ocaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipfs/specs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "hajimes/mmh3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zlib-ng/minizip-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/matrix-build.yml",
+      "source_repo": "andys8/git-brunch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rranelli/auto-package-update.el"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "fwcd/vscode-kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "whatwg/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "electron/fiddle"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

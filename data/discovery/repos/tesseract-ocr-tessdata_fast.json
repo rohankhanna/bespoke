@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tesseract-ocr/tessdata_fast",
+      "target": "tesseract",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:13:35.605741+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast integer versions of trained LSTM models",
+    "fork": false,
+    "full_name": "tesseract-ocr/tessdata_fast",
+    "html_url": "https://github.com/tesseract-ocr/tessdata_fast",
+    "language": null,
+    "pushed_at": "2024-08-01T19:42:06Z",
+    "stargazers_count": 595,
+    "topics": [
+      "ocr",
+      "tesseract"
+    ],
+    "updated_at": "2026-04-22T01:19:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains fast integer versions of trained models for the [Tesseract Open Source OCR Engine](https://github.com/tesseract-ocr/tesseract).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tesseract"
+    }
+  ]
+}

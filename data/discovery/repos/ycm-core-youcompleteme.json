@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dessant/lock-threads@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock_old_issues.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_vim_docs.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_vim_docs.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "omnisharp/omnisharp-roslyn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "golang/tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "eclipse/eclipse.jdt.ls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "puremourning/vimspector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock_old_issues.yaml",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "dessant/lock-threads@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock_old_issues.yaml",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "Lock Old Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_vim_docs.yaml",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_vim_docs.yaml",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "peter-evans/create-pull-request@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_vim_docs.yaml",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "Update vim docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "code-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ycm-core/YouCompleteMe",
+      "target": "semantic-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:16:36.462999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 151327
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2512
+    },
+    {
+      "path": ".github/workflows/lock_old_issues.yaml",
+      "size": 721
+    },
+    {
+      "path": ".github/workflows/update_vim_docs.yaml",
+      "size": 1012
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A code-completion engine for Vim",
+    "fork": false,
+    "full_name": "ycm-core/YouCompleteMe",
+    "html_url": "https://github.com/ycm-core/YouCompleteMe",
+    "language": "Python",
+    "pushed_at": "2026-04-18T13:43:45Z",
+    "stargazers_count": 25974,
+    "topics": [
+      "code-analysis",
+      "code-completion",
+      "semantic-engine",
+      "vim"
+    ],
+    "updated_at": "2026-04-22T14:50:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse/eclipse.jdt.ls",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golang/tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "omnisharp/omnisharp-roslyn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "puremourning/vimspector",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Lock Old Issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock_old_issues.yaml",
+      "term": "Lock Old Issues"
+    },
+    {
+      "context_snippet": "\"Update vim docs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_vim_docs.yaml",
+      "term": "Update vim docs"
+    },
+    {
+      "context_snippet": "YouCompleteMe: a code-completion engine for Vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-analysis"
+    },
+    {
+      "context_snippet": "YouCompleteMe: a code-completion engine for Vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-completion"
+    },
+    {
+      "context_snippet": "YouCompleteMe: a code-completion engine for Vim",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-engine"
+    }
+  ]
+}

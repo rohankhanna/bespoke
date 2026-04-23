@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Reports and Artifact Badge Data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "status": "candidate-context",
+      "text": "Reproducible Central: rebuild instructions for artifacts published to (Maven) Central Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "status": "candidate-context",
+      "text": "Update Reports and Artifact Badge Data"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "status": "candidate",
+      "text": "Update Reports and Artifact Badge Data"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40233,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39719,
+      "status": "candidate",
+      "text": "input"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39687,
+      "status": "candidate",
+      "text": "aim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39687,
+      "status": "candidate",
+      "text": "focus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39687,
+      "status": "candidate",
+      "text": "orientation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Reports and Artifact Badge Data",
+  "concept_id": "update-reports-and-artifact-badge-data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/update-reports.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Reports and Artifact Badge Data",
+      "sense_id": "update-reports-and-artifact-badge-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

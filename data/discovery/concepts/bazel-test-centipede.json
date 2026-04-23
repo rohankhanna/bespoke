@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Bazel Test Centipede"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/fuzztest",
+      "status": "candidate-context",
+      "text": "Bazel Test Centipede"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/fuzztest",
+      "status": "candidate",
+      "text": "Bazel Test Centipede"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13143,
+      "status": "candidate",
+      "text": "earwig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13143,
+      "status": "candidate",
+      "text": "legs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13143,
+      "status": "candidate",
+      "text": "roach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13143,
+      "status": "candidate",
+      "text": "segment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13143,
+      "status": "candidate",
+      "text": "sting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bazel Test Centipede",
+  "concept_id": "bazel-test-centipede",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/bazel_test_centipede.yml",
+      "source_repo": "google/fuzztest"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bazel Test Centipede",
+      "sense_id": "bazel-test-centipede#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

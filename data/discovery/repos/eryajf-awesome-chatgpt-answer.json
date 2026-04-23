@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "target": "eryajf/awesome-stars-eryajf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "target": "answers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "target": "chatgpt-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "target": "eryajf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:26:40.205043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2770
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude4b \u95ee\u5f97\u597d\uff0c\ud83d\udde3 \u7b54\u5f97\u5999\u3002\u90a3\u4e9b\u503c\u5f97\u8bb0\u5f55\u7684\u4e0eChatGPT\u7684\u95ee\u7b54\u3002",
+    "fork": false,
+    "full_name": "eryajf/awesome-chatgpt-answer",
+    "html_url": "https://github.com/eryajf/awesome-chatgpt-answer",
+    "language": null,
+    "pushed_at": "2024-04-20T14:00:01Z",
+    "stargazers_count": 25,
+    "topics": [
+      "answers",
+      "awesome",
+      "chatgpt",
+      "chatgpt-bot",
+      "eryajf"
+    ],
+    "updated_at": "2025-04-28T10:57:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eryajf/awesome-stars-eryajf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "answers"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt-bot"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eryajf"
+    }
+  ]
+}

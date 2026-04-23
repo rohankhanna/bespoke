@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ml-explore/mlx-c",
+      "target": "ml-explore/mlx-swift",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "source_repo": "ml-explore/mlx-c"
+}

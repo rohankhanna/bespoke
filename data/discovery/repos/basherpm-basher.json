@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "basherpm/basher",
+      "target": "sstephenson/bats",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "basherpm/basher",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basherpm/basher",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basherpm/basher",
+      "target": "basher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basherpm/basher",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basherpm/basher",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "basherpm/basher",
+      "target": "shell-script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:20:05.119670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5601
+    },
+    {
+      "path": "Dockerfile",
+      "size": 239
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A package manager for shell scripts.",
+    "fork": false,
+    "full_name": "basherpm/basher",
+    "html_url": "https://github.com/basherpm/basher",
+    "language": "Shell",
+    "pushed_at": "2025-11-18T15:30:04Z",
+    "stargazers_count": 1279,
+    "topics": [
+      "bash",
+      "basher",
+      "package-manager",
+      "shell",
+      "shell-script",
+      "zsh"
+    ],
+    "updated_at": "2026-04-14T21:07:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sstephenson/bats",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A package manager for shell scripts and functions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "A package manager for shell scripts and functions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "basher"
+    },
+    {
+      "context_snippet": "A package manager for shell scripts and functions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "A package manager for shell scripts and functions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "A package manager for shell scripts and functions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-script"
+    }
+  ]
+}

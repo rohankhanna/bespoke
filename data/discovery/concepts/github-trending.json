@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "github-trending"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bonfy/github-trending",
+      "status": "candidate-context",
+      "text": "Tracking the most popular Github repos, update daily(Python version)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonfy/github-trending",
+      "status": "candidate-context",
+      "text": "Tracking the most popular Github repos, updated daily(Python version)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bonfy/github-trending",
+      "status": "candidate",
+      "text": "Tracking the most popular Github repos, updated daily(Python version)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "github-trending",
+  "concept_id": "github-trending",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "bonfy/github-trending"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "github-trending",
+      "sense_id": "github-trending#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

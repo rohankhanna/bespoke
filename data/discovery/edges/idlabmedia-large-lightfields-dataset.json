@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "idlabmedia/blender-lightfield-addon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "idlabmedia/image-lens-reproject",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "idlabmedia/large-lightfield-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "blender",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "immersive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "lightfield",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "open-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "plenoptic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset",
+      "target": "virtual-reality",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "source_repo": "IDLabMedia/large-lightfields-dataset"
+}

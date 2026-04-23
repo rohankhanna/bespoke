@@ -31,6 +31,18 @@
       "source_repo": "apache/casbin",
       "status": "candidate-context",
       "text": "Casbin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aporthq/aport-spec",
+      "status": "candidate-context",
+      "text": "Open Agent Passport (OAP) Spec for AI Agent Passport and pre-action authourization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aporthq/aport-spec",
+      "status": "candidate-context",
+      "text": "> *The runtime trust rail for AI agents*"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "apache/casbin",
       "status": "candidate",
       "text": "Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aporthq/aport-spec",
+      "status": "candidate",
+      "text": "> *The runtime trust rail for AI agents*"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +147,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "aporthq/aport-spec"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

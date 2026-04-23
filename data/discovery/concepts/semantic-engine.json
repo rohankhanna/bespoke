@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "semantic-engine"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ycm-core/ycmd",
+      "status": "candidate-context",
+      "text": "A code-completion & code-comprehension server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ycm-core/ycmd",
+      "status": "candidate-context",
+      "text": "ycmd: a code-completion & comprehension server"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "status": "candidate-context",
+      "text": "A code-completion engine for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "status": "candidate-context",
+      "text": "YouCompleteMe: a code-completion engine for Vim"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ycm-core/ycmd",
+      "status": "candidate",
+      "text": "ycmd: a code-completion & comprehension server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ycm-core/YouCompleteMe",
+      "status": "candidate",
+      "text": "YouCompleteMe: a code-completion engine for Vim"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "semantic-engine",
+  "concept_id": "semantic-engine",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ycm-core/ycmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ycm-core/YouCompleteMe"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "semantic-engine",
+      "sense_id": "semantic-engine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

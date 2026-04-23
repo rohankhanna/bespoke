@@ -43,6 +43,54 @@
       "source_repo": "wasm-bindgen/wasm-pack",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": ":electron: A complete tool for building and publishing Electron applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/electron/forge/actions/workflows/ci.yml/badge.svg)](https://github.com/electron/forge/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerna/lerna",
+      "status": "candidate-context",
+      "text": "Lerna is a fast, modern build system for managing and publishing multiple JavaScript/TypeScript packages from the same repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna/lerna",
+      "status": "candidate-context",
+      "text": "> **Important note: this project [changed stewardship to Nx](https://github.com/lerna/lerna/issues/3121)!**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate-context",
+      "text": ":package::rocket: Fully automated version management and package publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none;\">\ud83d\udce6\ud83d\ude80 semantic-release</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mason-org/mason.nvim",
+      "status": "candidate-context",
+      "text": "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason.nvim",
+      "status": "candidate-context",
+      "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +111,30 @@
       "source_repo": "wasm-bindgen/wasm-pack",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/electron/forge/actions/workflows/ci.yml/badge.svg)](https://github.com/electron/forge/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna/lerna",
+      "status": "candidate",
+      "text": "> **Important note: this project [changed stewardship to Nx](https://github.com/lerna/lerna/issues/3121)!**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/semantic-release",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none;\">\ud83d\udce6\ud83d\ude80 semantic-release</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason.nvim",
+      "status": "candidate",
+      "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
     }
   ],
   "candidate_related_terms": [
@@ -159,11 +231,35 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "electron/forge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "lerna/lerna"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/semantic-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "mason-org/mason.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

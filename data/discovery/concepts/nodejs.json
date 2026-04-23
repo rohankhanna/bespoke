@@ -313,6 +313,114 @@
       "source_repo": "senchalabs/connect",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VoltAgent/voltagent",
+      "status": "candidate-context",
+      "text": "AI Agent Engineering Platform built on an Open Source TypeScript AI Agent Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VoltAgent/voltagent",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/node-gyp",
+      "status": "candidate-context",
+      "text": "Node.js native addon build tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/node-gyp",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/nodejs/node-gyp/workflows/Tests/badge.svg?branch=main)](https://github.com/nodejs/node-gyp/actions?query=workflow%3ATests+branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmake-js/cmake-js",
+      "status": "candidate-context",
+      "text": "CMake.js - a Node.js native addon build tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmake-js/cmake-js",
+      "status": "candidate-context",
+      "text": "[![Node CI](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml/badge.svg)](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/leveldown",
+      "status": "candidate-context",
+      "text": "Superseded by classic-level. Pure C++ Node.js LevelDB binding. An abstract-leveldown compliant store."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/leveldown",
+      "status": "candidate-context",
+      "text": "**Superseded by [`classic-level`](https://github.com/Level/classic-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prebuild/node-gyp-build",
+      "status": "candidate-context",
+      "text": "Build tool and bindings loader for node-gyp that supports prebuilds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/node-gyp-build",
+      "status": "candidate-context",
+      "text": "> Build tool and bindings loader for [`node-gyp`][node-gyp] that supports prebuilds."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prebuild/prebuildify",
+      "status": "candidate-context",
+      "text": "Create and package prebuilds for native modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuildify",
+      "status": "candidate-context",
+      "text": "> Create and package prebuilds for native modules"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "\u2728\u2601\ufe0f\ud83d\udcc1\u2728 Cloud Commander file manager for the web with console and editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/try-catch",
+      "status": "candidate-context",
+      "text": "Try-catch wrapper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-catch",
+      "status": "candidate-context",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-catch.svg?style=flat"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/try-to-catch",
+      "status": "candidate-context",
+      "text": "functional try-catch wrapper for promises"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-to-catch",
+      "status": "candidate-context",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-to-catch.svg?style=flat&longCache=true"
     }
   ],
   "candidate_glosses": [
@@ -465,6 +573,60 @@
       "source_repo": "senchalabs/connect",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VoltAgent/voltagent",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/node-gyp",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/nodejs/node-gyp/workflows/Tests/badge.svg?branch=main)](https://github.com/nodejs/node-gyp/actions?query=workflow%3ATests+branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmake-js/cmake-js",
+      "status": "candidate",
+      "text": "[![Node CI](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml/badge.svg)](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/leveldown",
+      "status": "candidate",
+      "text": "**Superseded by [`classic-level`](https://github.com/Level/classic-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/node-gyp-build",
+      "status": "candidate",
+      "text": "> Build tool and bindings loader for [`node-gyp`][node-gyp] that supports prebuilds."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prebuild/prebuildify",
+      "status": "candidate",
+      "text": "> Create and package prebuilds for native modules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate",
+      "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-catch",
+      "status": "candidate",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-catch.svg?style=flat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-to-catch",
+      "status": "candidate",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-to-catch.svg?style=flat&longCache=true"
     }
   ],
   "candidate_related_terms": [],
@@ -688,11 +850,77 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "senchalabs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "VoltAgent/voltagent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/node-gyp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "cmake-js/cmake-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "Level/leveldown"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "prebuild/node-gyp-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "prebuild/prebuildify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/cloudcmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/try-catch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/try-to-catch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

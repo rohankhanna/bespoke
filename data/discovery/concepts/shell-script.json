@@ -43,6 +43,18 @@
       "source_repo": "hyperupcall/autoenv",
       "status": "candidate-context",
       "text": "Magic per-project shell environments."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "basherpm/basher",
+      "status": "candidate-context",
+      "text": "A package manager for shell scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basherpm/basher",
+      "status": "candidate-context",
+      "text": "A package manager for shell scripts and functions."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "hyperupcall/autoenv",
       "status": "candidate",
       "text": "Magic per-project shell environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basherpm/basher",
+      "status": "candidate",
+      "text": "A package manager for shell scripts and functions."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "hyperupcall/autoenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "basherpm/basher"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

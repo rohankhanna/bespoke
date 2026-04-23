@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ervandew/supertab",
+      "target": "gmarik/vundle.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ervandew/supertab",
+      "target": "msanders/snipmate.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "ervandew/supertab",
+      "target": "garbas/vim-snipmate",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:16:43.344043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7970
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Perform all your vim insert mode completions with Tab",
+    "fork": false,
+    "full_name": "ervandew/supertab",
+    "html_url": "https://github.com/ervandew/supertab",
+    "language": "Vim Script",
+    "pushed_at": "2025-04-26T14:33:15Z",
+    "stargazers_count": 3202,
+    "topics": [],
+    "updated_at": "2026-04-18T07:08:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "garbas/vim-snipmate",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarik/vundle.vim",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "msanders/snipmate.vim",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

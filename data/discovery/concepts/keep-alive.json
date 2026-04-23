@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Keep alive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DefinitelyTyped-tools",
+      "status": "candidate-context",
+      "text": "Infrastructure for DefinitelyTyped"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DefinitelyTyped-tools",
+      "status": "candidate-context",
+      "text": "Keep alive"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DefinitelyTyped-tools",
+      "status": "candidate",
+      "text": "Keep alive"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73835,
+      "status": "candidate",
+      "text": "keep in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73834,
+      "status": "candidate",
+      "text": "keep on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73833,
+      "status": "candidate",
+      "text": "keeping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73832,
+      "status": "candidate",
+      "text": "keep up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73831,
+      "status": "candidate",
+      "text": "keep at"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Keep alive",
+  "concept_id": "keep-alive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/keepalive.yml",
+      "source_repo": "microsoft/DefinitelyTyped-tools"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Keep alive",
+      "sense_id": "keep-alive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

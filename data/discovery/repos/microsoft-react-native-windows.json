@@ -1,0 +1,575 @@
+{
+  "components": [
+    {
+      "component": "@rnw-scripts/beachball-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rnw-scripts/format-files",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rnw-scripts/integrate-rn",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rnw-scripts/just-task",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rnw-scripts/prepare-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rnw-scripts/promote-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rnw-scripts/stamp-version",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rnw-scripts/take-screenshot",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@rnw-scripts/unbroken",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "beachball",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fast-glob",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lage",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-hermes-parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native-platform-override",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-stale-branches.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compliance-yarn-lock.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-comment.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-comment.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-issue-remaining-days.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "microsoft/react-native-gallery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "microsoft/react-native-windows-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "@rnw-scripts/beachball-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "@rnw-scripts/format-files",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "@rnw-scripts/integrate-rn",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "@rnw-scripts/just-task",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "@rnw-scripts/prepare-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "@rnw-scripts/promote-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "@rnw-scripts/stamp-version",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "@rnw-scripts/take-screenshot",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "@rnw-scripts/unbroken",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "beachball",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "fast-glob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "lage",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "prettier-plugin-hermes-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "react-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "react-native-platform-override",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick-commit.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "Cherry-pick Commit to Branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-stale-branches.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-stale-branches.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "Cleanup Stale Branches",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compliance-yarn-lock.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compliance-yarn-lock.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "Refresh yarn.lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-azp-trigger.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "Trigger AZP on Dependabot PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-comment.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-comment.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/perf-comment.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "Post Perf Results to PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-tests.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-tests.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/perf-tests.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/perf-tests.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "Perf Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-issue-remaining-days.yml",
+      "source_repo": "microsoft/react-native-windows",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/react-native-windows",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/react-native-windows",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/react-native-windows",
+      "target": "react-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/react-native-windows",
+      "target": "xbox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:13:02.997123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6199
+    },
+    {
+      "path": "package.json",
+      "size": 2454
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 1727
+    },
+    {
+      "path": ".github/workflows/cherry-pick-commit.yml",
+      "size": 2457
+    },
+    {
+      "path": ".github/workflows/cleanup-stale-branches.yml",
+      "size": 2478
+    },
+    {
+      "path": ".github/workflows/compliance-yarn-lock.yml",
+      "size": 3350
+    },
+    {
+      "path": ".github/workflows/dependabot-azp-trigger.yml",
+      "size": 496
+    },
+    {
+      "path": ".github/workflows/perf-comment.yml",
+      "size": 3305
+    },
+    {
+      "path": ".github/workflows/perf-tests.yml",
+      "size": 4122
+    },
+    {
+      "path": ".github/workflows/update-issue-remaining-days.yml",
+      "size": 2330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A framework for building native Windows apps with React.",
+    "fork": false,
+    "full_name": "microsoft/react-native-windows",
+    "html_url": "https://github.com/microsoft/react-native-windows",
+    "language": "C++",
+    "pushed_at": "2026-04-23T00:58:07Z",
+    "stargazers_count": 17241,
+    "topics": [
+      "dotnet",
+      "react",
+      "react-native",
+      "uwp",
+      "xbox"
+    ],
+    "updated_at": "2026-04-23T00:12:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/react-native-gallery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/react-native-windows-samples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cherry-pick Commit to Branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherry-pick-commit.yml",
+      "term": "Cherry-pick Commit to Branch"
+    },
+    {
+      "context_snippet": "Cleanup Stale Branches",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-stale-branches.yml",
+      "term": "Cleanup Stale Branches"
+    },
+    {
+      "context_snippet": "Refresh yarn.lock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compliance-yarn-lock.yml",
+      "term": "Refresh yarn.lock"
+    },
+    {
+      "context_snippet": "Trigger AZP on Dependabot PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-azp-trigger.yml",
+      "term": "Trigger AZP on Dependabot PRs"
+    },
+    {
+      "context_snippet": "Post Perf Results to PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/perf-comment.yml",
+      "term": "Post Perf Results to PR"
+    },
+    {
+      "context_snippet": "Perf Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/perf-tests.yml",
+      "term": "Perf Tests"
+    },
+    {
+      "context_snippet": "![Hero Image with Logo](https://github.com/microsoft/react-native-windows/raw/main/.github/hero3.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "![Hero Image with Logo](https://github.com/microsoft/react-native-windows/raw/main/.github/hero3.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "![Hero Image with Logo](https://github.com/microsoft/react-native-windows/raw/main/.github/hero3.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    },
+    {
+      "context_snippet": "![Hero Image with Logo](https://github.com/microsoft/react-native-windows/raw/main/.github/hero3.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xbox"
+    }
+  ]
+}

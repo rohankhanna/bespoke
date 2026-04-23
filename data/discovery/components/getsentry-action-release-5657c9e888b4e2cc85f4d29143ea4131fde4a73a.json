@@ -1,0 +1,12 @@
+{
+  "component": "getsentry/action-release@5657c9e888b4e2cc85f4d29143ea4131fde4a73a",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "electron/fiddle"
+    }
+  ]
+}

@@ -139,6 +139,18 @@
       "source_repo": "alibaba/nacos",
       "status": "candidate-context",
       "text": "<img src=\"doc/Nacos_Logo.png\" width=\"50%\" syt height=\"50%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zhayujie/cow-skill-hub",
+      "status": "candidate-context",
+      "text": "Cow Skill Hub is an open platform to discover, share, and install AI Agent Skills \u2014  official, community, and third-party (GitHub, ClawHub, and more)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhayujie/cow-skill-hub",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +219,12 @@
       "source_repo": "alibaba/nacos",
       "status": "candidate",
       "text": "<img src=\"doc/Nacos_Logo.png\" width=\"50%\" syt height=\"50%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zhayujie/cow-skill-hub",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -334,11 +352,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "alibaba/nacos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/cow-skill-hub"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

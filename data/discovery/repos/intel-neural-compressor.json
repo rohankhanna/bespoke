@@ -1,0 +1,434 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-stale-issue.yml"
+    },
+    {
+      "component": "actions/checkout@1e31de5234b9f8995739874a8ce0492dc87873e2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-io-build.yaml"
+    },
+    {
+      "component": "actions/checkout@1e31de5234b9f8995739874a8ce0492dc87873e2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-link-scan.yml"
+    },
+    {
+      "component": "actions/checkout@1e31de5234b9f8995739874a8ce0492dc87873e2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/neural-compressor",
+      "target": "intel/auto-round",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-stale-issue.yml",
+      "source_repo": "intel/neural-compressor",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-stale-issue.yml",
+      "source_repo": "intel/neural-compressor",
+      "target": "Close stale issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-code-sync.yml",
+      "source_repo": "intel/neural-compressor",
+      "target": "Repo Sync Triggered by PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-io-build.yaml",
+      "source_repo": "intel/neural-compressor",
+      "target": "actions/checkout@1e31de5234b9f8995739874a8ce0492dc87873e2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-io-build.yaml",
+      "source_repo": "intel/neural-compressor",
+      "target": "IO page build test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-link-scan.yml",
+      "source_repo": "intel/neural-compressor",
+      "target": "actions/checkout@1e31de5234b9f8995739874a8ce0492dc87873e2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-link-scan.yml",
+      "source_repo": "intel/neural-compressor",
+      "target": "Check hyperlinks and relative path validity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-pre-commit.yml",
+      "source_repo": "intel/neural-compressor",
+      "target": "actions/checkout@1e31de5234b9f8995739874a8ce0492dc87873e2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-pre-commit.yml",
+      "source_repo": "intel/neural-compressor",
+      "target": "Fix Code Style on PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "intel/neural-compressor",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "intel/neural-compressor",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "intel/neural-compressor",
+      "target": "Publish IO",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "auto-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "gptq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "int4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "int8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "knowledge-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "low-precision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "mxformat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "post-training-quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "pruning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "quantization-aware-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "smoothquant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "sparsegpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-compressor",
+      "target": "sparsity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:18:08.254840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10913
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2835
+    },
+    {
+      "path": ".github/workflows/check-stale-issue.yml",
+      "size": 669
+    },
+    {
+      "path": ".github/workflows/pr-code-sync.yml",
+      "size": 2600
+    },
+    {
+      "path": ".github/workflows/pr-io-build.yaml",
+      "size": 1041
+    },
+    {
+      "path": ".github/workflows/pr-link-scan.yml",
+      "size": 4343
+    },
+    {
+      "path": ".github/workflows/pr-pre-commit.yml",
+      "size": 2445
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SOTA low-bit LLM quantization (INT8/FP8/MXFP8/INT4/MXFP4/NVFP4) & sparsity; leading model compression techniques on PyTorch, TensorFlow, and ONNX Runtime",
+    "fork": false,
+    "full_name": "intel/neural-compressor",
+    "html_url": "https://github.com/intel/neural-compressor",
+    "language": "Python",
+    "pushed_at": "2026-04-22T14:13:02Z",
+    "stargazers_count": 2623,
+    "topics": [
+      "auto-tuning",
+      "awq",
+      "fp4",
+      "gptq",
+      "int4",
+      "int8",
+      "knowledge-distillation",
+      "large-language-models",
+      "low-precision",
+      "mxformat",
+      "post-training-quantization",
+      "pruning",
+      "quantization",
+      "quantization-aware-training",
+      "smoothquant",
+      "sparsegpt",
+      "sparsity"
+    ],
+    "updated_at": "2026-04-21T20:45:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/auto-round",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close stale issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-stale-issue.yml",
+      "term": "Close stale issue"
+    },
+    {
+      "context_snippet": "Repo Sync Triggered by PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-code-sync.yml",
+      "term": "Repo Sync Triggered by PR"
+    },
+    {
+      "context_snippet": "IO page build test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-io-build.yaml",
+      "term": "IO page build test"
+    },
+    {
+      "context_snippet": "Check hyperlinks and relative path validity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-link-scan.yml",
+      "term": "Check hyperlinks and relative path validity"
+    },
+    {
+      "context_snippet": "Fix Code Style on PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-pre-commit.yml",
+      "term": "Fix Code Style on PR"
+    },
+    {
+      "context_snippet": "Publish IO",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish IO"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-tuning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gptq"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int4"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int8"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-distillation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-precision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mxformat"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-training-quantization"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pruning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization-aware-training"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smoothquant"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparsegpt"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparsity"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/green-talks-scraper.yml",
+      "source_repo": "cncf-tags/tag-env-tooling",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/green-talks-scraper.yml",
+      "source_repo": "cncf-tags/tag-env-tooling",
+      "target": "Green Talks Scraper",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "source_repo": "cncf-tags/tag-env-tooling"
+}

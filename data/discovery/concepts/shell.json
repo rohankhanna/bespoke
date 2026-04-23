@@ -265,6 +265,30 @@
       "source_repo": "hyperupcall/autoenv",
       "status": "candidate-context",
       "text": "Magic per-project shell environments."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "basherpm/basher",
+      "status": "candidate-context",
+      "text": "A package manager for shell scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basherpm/basher",
+      "status": "candidate-context",
+      "text": "A package manager for shell scripts and functions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fish-shell/fish-shell",
+      "status": "candidate-context",
+      "text": "The user-friendly command line shell."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fish-shell/fish-shell",
+      "status": "candidate-context",
+      "text": ".. |Cirrus CI| image:: https://api.cirrus-ci.com/github/fish-shell/fish-shell.svg?branch=master"
     }
   ],
   "candidate_glosses": [
@@ -393,6 +417,18 @@
       "source_repo": "hyperupcall/autoenv",
       "status": "candidate",
       "text": "Magic per-project shell environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basherpm/basher",
+      "status": "candidate",
+      "text": "A package manager for shell scripts and functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fish-shell/fish-shell",
+      "status": "candidate",
+      "text": ".. |Cirrus CI| image:: https://api.cirrus-ci.com/github/fish-shell/fish-shell.svg?branch=master"
     }
   ],
   "candidate_related_terms": [
@@ -634,11 +670,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "basherpm/basher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "pyenv/pyenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "fish-shell/fish-shell"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

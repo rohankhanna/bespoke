@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Super-Linter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hajimes/mmh3",
+      "status": "candidate-context",
+      "text": "Python extension for MurmurHash (MurmurHash3), a set of fast and robust hash functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hajimes/mmh3",
+      "status": "candidate-context",
+      "text": "Super-Linter"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hajimes/mmh3",
+      "status": "candidate",
+      "text": "Super-Linter"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Super-Linter",
+  "concept_id": "super-linter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/superlinter.yml",
+      "source_repo": "hajimes/mmh3"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Super-Linter",
+      "sense_id": "super-linter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

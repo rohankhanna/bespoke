@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grain-lang/grain",
+      "status": "candidate-context",
+      "text": "The Grain compiler toolchain and CLI. Home of the modern web staple. \ud83c\udf3e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/grain",
+      "status": "candidate-context",
+      "text": "Build dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/grain",
+      "status": "candidate",
+      "text": "Build dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12686,
+      "status": "candidate",
+      "text": "franc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12686,
+      "status": "candidate",
+      "text": "imperialism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12686,
+      "status": "candidate",
+      "text": "pound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12686,
+      "status": "candidate",
+      "text": "pounded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12311,
+      "status": "candidate",
+      "text": "british antarctic territory"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build dependencies",
+  "concept_id": "build-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "grain-lang/grain"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build dependencies",
+      "sense_id": "build-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

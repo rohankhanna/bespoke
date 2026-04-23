@@ -1426,6 +1426,114 @@
       "source_repo": "johnthagen/min-sized-rust",
       "status": "candidate-context",
       "text": "[![GitHub Actions][github-actions-badge]](https://github.com/johnthagen/min-sized-rust/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate-context",
+      "text": "Google Workspace CLI \u2014 one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">gws</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "01mf02/hifijson",
+      "status": "candidate-context",
+      "text": "High-fidelity JSON lexer and parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "01mf02/hifijson",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "proptest-rs/proptest",
+      "status": "candidate-context",
+      "text": "Hypothesis-like property testing for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proptest-rs/proptest",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-fuzz/cargo-fuzz",
+      "status": "candidate-context",
+      "text": "Command line helpers for fuzzing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-fuzz/cargo-fuzz",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webassemblylabs/wasm-workers-server",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Develop and run serverless applications on WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webassemblylabs/wasm-workers-server",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustsec/advisory-db",
+      "status": "candidate-context",
+      "text": "Security advisory database for Rust crates published through crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustsec/advisory-db",
+      "status": "candidate-context",
+      "text": "[![Build Status][build-image]][build-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate-context",
+      "text": "A cross-platform, safe, pure-Rust graphics API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"20%\" src=\"logo.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serde-rs/serde",
+      "status": "candidate-context",
+      "text": "Serialization framework for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serde-rs/serde",
+      "status": "candidate-context",
+      "text": "[Build Status]: https://img.shields.io/github/actions/workflow/status/serde-rs/serde/ci.yml?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fish-shell/fish-shell",
+      "status": "candidate-context",
+      "text": "The user-friendly command line shell."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fish-shell/fish-shell",
+      "status": "candidate-context",
+      "text": ".. |Cirrus CI| image:: https://api.cirrus-ci.com/github/fish-shell/fish-shell.svg?branch=master"
     }
   ],
   "candidate_glosses": [
@@ -2154,6 +2262,60 @@
       "source_repo": "johnthagen/min-sized-rust",
       "status": "candidate",
       "text": "[![GitHub Actions][github-actions-badge]](https://github.com/johnthagen/min-sized-rust/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">gws</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "01mf02/hifijson",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "proptest-rs/proptest",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-fuzz/cargo-fuzz",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webassemblylabs/wasm-workers-server",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustsec/advisory-db",
+      "status": "candidate",
+      "text": "[![Build Status][build-image]][build-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"20%\" src=\"logo.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serde-rs/serde",
+      "status": "candidate",
+      "text": "[Build Status]: https://img.shields.io/github/actions/workflow/status/serde-rs/serde/ci.yml?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fish-shell/fish-shell",
+      "status": "candidate",
+      "text": ".. |Cirrus CI| image:: https://api.cirrus-ci.com/github/fish-shell/fish-shell.svg?branch=master"
     }
   ],
   "candidate_related_terms": [
@@ -3199,11 +3361,89 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "johnthagen/min-sized-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "googleworkspace/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "01mf02/hifijson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "proptest-rs/proptest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "rust-fuzz/cargo-fuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "webassemblylabs/wasm-workers-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "rustsec/advisory-db"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "gfx-rs/wgpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "serde-rs/serde"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "fish-shell/fish-shell"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

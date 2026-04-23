@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Chai HTTP"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaijs/chai-http",
+      "status": "candidate-context",
+      "text": "HTTP Response assertions for the Chai Assertion Library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chai-http",
+      "status": "candidate-context",
+      "text": "Chai HTTP"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaijs/chai-http",
+      "status": "candidate",
+      "text": "Chai HTTP"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10765,
+      "status": "candidate",
+      "text": "teapot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10686,
+      "status": "candidate",
+      "text": "bennett"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10686,
+      "status": "candidate",
+      "text": "caerphilly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10686,
+      "status": "candidate",
+      "text": "delhi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10686,
+      "status": "candidate",
+      "text": "shed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Chai HTTP",
+  "concept_id": "chai-http",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "chaijs/chai-http"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Chai HTTP",
+      "sense_id": "chai-http#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

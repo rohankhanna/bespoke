@@ -163,6 +163,54 @@
       "source_repo": "chromebrew/chromebrew",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conan-io/conan-center-index",
+      "status": "candidate-context",
+      "text": "Recipes for the ConanCenter repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conan-io/conan-center-index",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "basherpm/basher",
+      "status": "candidate-context",
+      "text": "A package manager for shell scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basherpm/basher",
+      "status": "candidate-context",
+      "text": "A package manager for shell scripts and functions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radian-software/straight.el",
+      "status": "candidate-context",
+      "text": "\ud83c\udf40 Next-generation, purely functional package manager for the Emacs hacker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radian-software/straight.el",
+      "status": "candidate-context",
+      "text": "**straight.el**: next-generation, purely functional package manager"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mason-org/mason.nvim",
+      "status": "candidate-context",
+      "text": "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason.nvim",
+      "status": "candidate-context",
+      "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +291,30 @@
       "source_repo": "chromebrew/chromebrew",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conan-io/conan-center-index",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basherpm/basher",
+      "status": "candidate",
+      "text": "A package manager for shell scripts and functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radian-software/straight.el",
+      "status": "candidate",
+      "text": "**straight.el**: next-generation, purely functional package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason.nvim",
+      "status": "candidate",
+      "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
     }
   ],
   "candidate_related_terms": [],
@@ -340,11 +412,35 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "chromebrew/chromebrew"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "conan-io/conan-center-index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "basherpm/basher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "radian-software/straight.el"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "mason-org/mason.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

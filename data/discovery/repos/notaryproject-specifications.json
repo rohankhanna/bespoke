@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "notaryproject/specifications",
+      "target": "notaryproject/notation-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "notaryproject/specifications",
+      "target": "notaryproject/notation-core-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "notaryproject/specifications",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "notaryproject/specifications",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "notaryproject/specifications",
+      "target": "sign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "notaryproject/specifications",
+      "target": "supply-chain",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:17:12.526146+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4262
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1492
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cross tooling and interoperability specifications",
+    "fork": false,
+    "full_name": "notaryproject/specifications",
+    "html_url": "https://github.com/notaryproject/specifications",
+    "language": null,
+    "pushed_at": "2025-05-20T04:02:03Z",
+    "stargazers_count": 175,
+    "topics": [
+      "sign",
+      "supply-chain"
+    ],
+    "updated_at": "2026-04-22T17:25:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "notaryproject/notation-core-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "notaryproject/notation-go",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Close stale issues and PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "This repository is in active maintenance and contains specifications shared across repositories under Notary Project as well as used by other open source projects and/or vendor tools that want to interoperate with Notary Project tooling.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sign"
+    },
+    {
+      "context_snippet": "This repository is in active maintenance and contains specifications shared across repositories under Notary Project as well as used by other open source projects and/or vendor tools that want to interoperate with Notary Project tooling.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "supply-chain"
+    }
+  ]
+}

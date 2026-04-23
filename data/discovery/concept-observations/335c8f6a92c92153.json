@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ongoing research training transformer models at scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto Swap Labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto Swap Labels"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18639,
+      "status": "candidate",
+      "text": "tags"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18606,
+      "status": "candidate",
+      "text": "shuffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18606,
+      "status": "candidate",
+      "text": "shuffled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18606,
+      "status": "candidate",
+      "text": "tornado"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18596,
+      "status": "candidate",
+      "text": "burn"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto Swap Labels",
+      "sense_id": "auto-swap-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-swap-labels",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-swap-labels",
+  "observation_id": "335c8f6a92c92153",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "Auto Swap Labels",
+  "source_context_snippet": "Auto Swap Labels",
+  "source_file": ".github/workflows/auto-swap-labels.yml",
+  "source_repo": "NVIDIA/Megatron-LM",
+  "source_repo_description": "Ongoing research training transformer models at scale"
+}

@@ -1,12 +1,17 @@
 {
   "component": "github/ai-moderator@81159c370785e295c97461ade67d7c33576e9319",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ai-moderator.yml",
       "source_repo": "getzep/graphiti"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ai.yml",
+      "source_repo": "caddyserver/caddy"
     }
   ]
 }

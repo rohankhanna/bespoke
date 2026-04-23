@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v8",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -212,6 +212,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pull_request_comment.yml",
       "source_repo": "openelections/openelections-data-sd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-gyp-next.yml",
+      "source_repo": "nodejs/node-gyp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backports.yml",
+      "source_repo": "ckan/ckan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "python/typing_extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/third_party.yml",
+      "source_repo": "python/typing_extensions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_release_library.yml",
+      "source_repo": "NVIDIA/Megatron-LM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/munge-pr.yml",
+      "source_repo": "docker-library/official-images"
     }
   ]
 }

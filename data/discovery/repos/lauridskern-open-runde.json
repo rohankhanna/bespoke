@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lauridskern/open-runde",
+      "target": "design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lauridskern/open-runde",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lauridskern/open-runde",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:15:25.471633+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A soft, rounded variant of Inter",
+    "fork": false,
+    "full_name": "lauridskern/open-runde",
+    "html_url": "https://github.com/lauridskern/open-runde",
+    "language": null,
+    "pushed_at": "2024-01-18T12:01:07Z",
+    "stargazers_count": 1336,
+    "topics": [
+      "design",
+      "font",
+      "typeface"
+    ],
+    "updated_at": "2026-04-22T19:44:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Open Runde is a rounded variant of the typeface [Inter](https://github.com/rsms/inter) by [Rasmus Andersson](https://github.com/rsms).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design"
+    },
+    {
+      "context_snippet": "Open Runde is a rounded variant of the typeface [Inter](https://github.com/rsms/inter) by [Rasmus Andersson](https://github.com/rsms).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "Open Runde is a rounded variant of the typeface [Inter](https://github.com/rsms/inter) by [Rasmus Andersson](https://github.com/rsms).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

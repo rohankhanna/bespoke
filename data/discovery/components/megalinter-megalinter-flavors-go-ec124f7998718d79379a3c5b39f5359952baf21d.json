@@ -1,0 +1,12 @@
+{
+  "component": "megalinter/megalinter/flavors/go@ec124f7998718d79379a3c5b39f5359952baf21d",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "nektos/act"
+    }
+  ]
+}

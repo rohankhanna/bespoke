@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0russwest0/Awesome-Agent-RL",
+      "target": "0russwest0/agent-r1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0russwest0/Awesome-Agent-RL",
+      "target": "corl-team/vl-dac",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0russwest0/Awesome-Agent-RL",
+      "target": "bytedtsinghua-sia/memagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0russwest0/Awesome-Agent-RL",
+      "target": "adam-bjtu/autocoa",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:18:31.989039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8177
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "0russwest0/Awesome-Agent-RL",
+    "html_url": "https://github.com/0russwest0/Awesome-Agent-RL",
+    "language": null,
+    "pushed_at": "2025-10-11T02:18:38Z",
+    "stargazers_count": 507,
+    "topics": [],
+    "updated_at": "2026-04-19T12:04:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0russwest0/agent-r1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adam-bjtu/autocoa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedtsinghua-sia/memagent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "corl-team/vl-dac",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

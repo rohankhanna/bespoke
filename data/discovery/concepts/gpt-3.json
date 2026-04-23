@@ -85,6 +85,18 @@
       "source_repo": "microsoft/LoRA",
       "status": "candidate-context",
       "text": "This repo contains the source code of the Python package `loralib` and several examples of how to integrate it with PyTorch models, such as those in Hugging Face."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate-context",
+      "text": "The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate-context",
+      "text": "> ### The TypeScript library for building AI applications."
     }
   ],
   "candidate_glosses": [
@@ -123,6 +135,12 @@
       "source_repo": "microsoft/LoRA",
       "status": "candidate",
       "text": "This repo contains the source code of the Python package `loralib` and several examples of how to integrate it with PyTorch models, such as those in Hugging Face."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel/modelfusion",
+      "status": "candidate",
+      "text": "> ### The TypeScript library for building AI applications."
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +238,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "microsoft/LoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

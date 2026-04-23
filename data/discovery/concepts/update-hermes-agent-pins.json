@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Hermes Agent Pins"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xrsydn/nix-hermes-agent",
+      "status": "candidate-context",
+      "text": "Nix package and NixOS module for Hermes Agent by Nous Research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xrsydn/nix-hermes-agent",
+      "status": "candidate-context",
+      "text": "Update Hermes Agent Pins"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xrsydn/nix-hermes-agent",
+      "status": "candidate",
+      "text": "Update Hermes Agent Pins"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26232,
+      "status": "candidate",
+      "text": "pinner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19103,
+      "status": "candidate",
+      "text": "mercury"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19055,
+      "status": "candidate",
+      "text": "herm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18237,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17967,
+      "status": "candidate",
+      "text": "center"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Hermes Agent Pins",
+  "concept_id": "update-hermes-agent-pins",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/update-pins.yml",
+      "source_repo": "0xrsydn/nix-hermes-agent"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Hermes Agent Pins",
+      "sense_id": "update-hermes-agent-pins#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

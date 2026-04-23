@@ -347,7 +347,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T04:44:31.437325+00:00",
+  "fetched_at": "2026-04-23T01:09:34.229488+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -399,8 +399,8 @@
     "full_name": "aden-hive/hive",
     "html_url": "https://github.com/aden-hive/hive",
     "language": "Python",
-    "pushed_at": "2026-04-22T02:23:38Z",
-    "stargazers_count": 10112,
+    "pushed_at": "2026-04-22T22:08:55Z",
+    "stargazers_count": 10120,
     "topics": [
       "agent",
       "agent-framework",
@@ -417,7 +417,7 @@
       "self-hosted",
       "self-improving"
     ],
-    "updated_at": "2026-04-22T04:27:38Z"
+    "updated_at": "2026-04-23T00:13:44Z"
   },
   "repo_links": [
     {

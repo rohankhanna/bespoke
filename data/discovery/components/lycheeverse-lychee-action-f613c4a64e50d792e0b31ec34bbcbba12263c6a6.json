@@ -1,0 +1,17 @@
+{
+  "component": "lycheeverse/lychee-action@f613c4a64e50d792e0b31ec34bbcbba12263c6a6",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/broken-link-check-full.yml",
+      "source_repo": "hashicorp/web-unified-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-pr-preview.yml",
+      "source_repo": "hashicorp/web-unified-docs"
+    }
+  ]
+}

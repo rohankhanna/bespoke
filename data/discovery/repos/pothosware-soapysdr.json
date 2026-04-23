@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pothosware/SoapySDR",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pothosware/SoapySDR",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pothosware/SoapySDR",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cross-ci.yml",
+      "source_repo": "pothosware/SoapySDR",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-ci.yml",
+      "source_repo": "pothosware/SoapySDR",
+      "target": "Cross-compile CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pothosware/SoapySDR",
+      "target": "gnuradio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pothosware/SoapySDR",
+      "target": "pothos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pothosware/SoapySDR",
+      "target": "rtlsdr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pothosware/SoapySDR",
+      "target": "soapysdr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:20:17.065482+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 442
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 16124
+    },
+    {
+      "path": ".github/workflows/cross-ci.yml",
+      "size": 1878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vendor and platform neutral SDR support library.",
+    "fork": false,
+    "full_name": "pothosware/SoapySDR",
+    "html_url": "https://github.com/pothosware/SoapySDR",
+    "language": "C++",
+    "pushed_at": "2026-01-02T21:28:01Z",
+    "stargazers_count": 1435,
+    "topics": [
+      "gnuradio",
+      "hal",
+      "pothos",
+      "python",
+      "rtlsdr",
+      "sdr",
+      "soapysdr"
+    ],
+    "updated_at": "2026-04-20T21:55:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Cross-compile CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cross-ci.yml",
+      "term": "Cross-compile CI"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/pothosware/SoapySDR/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnuradio"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/pothosware/SoapySDR/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pothos"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/pothosware/SoapySDR/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rtlsdr"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/pothosware/SoapySDR/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "soapysdr"
+    }
+  ]
+}

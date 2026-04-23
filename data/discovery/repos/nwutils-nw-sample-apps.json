@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "nw",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "nwutils/nw-sample-apps",
+      "target": "nw",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:12:13.433379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 189
+    },
+    {
+      "path": "package.json",
+      "size": 170
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sample Apps",
+    "fork": false,
+    "full_name": "nwutils/nw-sample-apps",
+    "html_url": "https://github.com/nwutils/nw-sample-apps",
+    "language": "JavaScript",
+    "pushed_at": "2023-08-28T05:18:19Z",
+    "stargazers_count": 1952,
+    "topics": [],
+    "updated_at": "2026-04-21T08:41:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

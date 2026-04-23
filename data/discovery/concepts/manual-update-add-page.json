@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manual Update Add page"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "status": "candidate-context",
+      "text": "Reproducible Central: rebuild instructions for artifacts published to (Maven) Central Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "status": "candidate-context",
+      "text": "Manual Update Add page"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jvm-repo-rebuild/reproducible-central",
+      "status": "candidate",
+      "text": "Manual Update Add page"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28417,
+      "status": "candidate",
+      "text": "revise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28292,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28292,
+      "status": "candidate",
+      "text": "revive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28252,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28216,
+      "status": "candidate",
+      "text": "document"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manual Update Add page",
+  "concept_id": "manual-update-add-page",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/manual-update-add.yml",
+      "source_repo": "jvm-repo-rebuild/reproducible-central"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual Update Add page",
+      "sense_id": "manual-update-add-page#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

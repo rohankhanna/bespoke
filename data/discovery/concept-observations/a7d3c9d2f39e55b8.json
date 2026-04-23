@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build tool and bindings loader for node-gyp that supports prebuilds"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Build tool and bindings loader for [`node-gyp`][node-gyp] that supports prebuilds."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Build tool and bindings loader for [`node-gyp`][node-gyp] that supports prebuilds."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prebuildify",
+      "sense_id": "prebuildify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prebuildify",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prebuildify",
+  "observation_id": "a7d3c9d2f39e55b8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "prebuildify",
+  "source_context_snippet": "> Build tool and bindings loader for [`node-gyp`][node-gyp] that supports prebuilds.",
+  "source_file": null,
+  "source_repo": "prebuild/node-gyp-build",
+  "source_repo_description": "Build tool and bindings loader for node-gyp that supports prebuilds"
+}

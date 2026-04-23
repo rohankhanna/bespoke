@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:23:16.155763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4055
+    },
+    {
+      "path": "requirements.txt",
+      "size": 58
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "openai/image-gpt",
+    "html_url": "https://github.com/openai/image-gpt",
+    "language": "Python",
+    "pushed_at": "2022-04-29T00:03:56Z",
+    "stargazers_count": 2089,
+    "topics": [],
+    "updated_at": "2026-04-22T09:26:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

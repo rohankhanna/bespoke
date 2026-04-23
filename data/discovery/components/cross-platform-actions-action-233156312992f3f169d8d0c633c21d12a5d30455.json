@@ -1,0 +1,12 @@
+{
+  "component": "cross-platform-actions/action@233156312992f3f169d8d0c633c21d12a5d30455",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libssh2/libssh2"
+    }
+  ]
+}

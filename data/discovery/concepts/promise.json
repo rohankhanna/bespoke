@@ -19,6 +19,18 @@
       "source_repo": "JakeChampion/fetch",
       "status": "candidate-context",
       "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/JakeChampion/fetch/badge)](https://securityscorecards.dev/viewer/?uri=github.com/JakeChampion/fetch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/try-to-catch",
+      "status": "candidate-context",
+      "text": "functional try-catch wrapper for promises"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-to-catch",
+      "status": "candidate-context",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-to-catch.svg?style=flat&longCache=true"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "JakeChampion/fetch",
       "status": "candidate",
       "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/JakeChampion/fetch/badge)](https://securityscorecards.dev/viewer/?uri=github.com/JakeChampion/fetch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/try-to-catch",
+      "status": "candidate",
+      "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-to-catch.svg?style=flat&longCache=true"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/try-to-catch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "JakeChampion/fetch"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

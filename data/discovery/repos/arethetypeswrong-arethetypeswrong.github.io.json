@@ -1,0 +1,252 @@
+{
+  "components": [
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-web.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-web.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-web.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-web.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-web.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-or-publish.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-or-publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-or-publish.yml"
+    },
+    {
+      "component": "changesets/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-or-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-web.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-web.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-web.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-web.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-web.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-web.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "Deploy Site",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-or-publish.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-or-publish.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-or-publish.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-or-publish.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "changesets/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version-or-publish.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "target": "Version or Publish Packages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:20:33.135352+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1520
+    },
+    {
+      "path": "package.json",
+      "size": 832
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 511
+    },
+    {
+      "path": ".github/workflows/deploy-web.yml",
+      "size": 775
+    },
+    {
+      "path": ".github/workflows/version-or-publish.yml",
+      "size": 1023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tool for analyzing TypeScript types of npm packages",
+    "fork": false,
+    "full_name": "arethetypeswrong/arethetypeswrong.github.io",
+    "html_url": "https://github.com/arethetypeswrong/arethetypeswrong.github.io",
+    "language": "TypeScript",
+    "pushed_at": "2025-06-10T16:29:18Z",
+    "stargazers_count": 1550,
+    "topics": [],
+    "updated_at": "2026-04-22T19:36:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy Site",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-web.yml",
+      "term": "Deploy Site"
+    },
+    {
+      "context_snippet": "Version or Publish Packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version-or-publish.yml",
+      "term": "Version or Publish Packages"
+    }
+  ]
+}

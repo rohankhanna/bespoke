@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bjl101501/CherryStudio-Claudestyle-dynamic",
+      "target": "lxgw/lxgwwenkai-screen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bjl101501/CherryStudio-Claudestyle-dynamic",
+      "target": "subframe7536/maple-font",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:25:52.711167+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4f7f\u7528CherryStudio\u77e5\u8bc6\u5e93\uff0c\u7531grok3 \u751f\u6210\u7684\u4effClaude\u6837\u5f0f\u4e3b\u9898\uff0c\u6dfb\u52a0\u52a8\u6001\u4ea4\u4e92\u6548\u679c\u3002",
+    "fork": false,
+    "full_name": "bjl101501/CherryStudio-Claudestyle-dynamic",
+    "html_url": "https://github.com/bjl101501/CherryStudio-Claudestyle-dynamic",
+    "language": null,
+    "pushed_at": "2025-06-07T08:00:01Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-13T22:16:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxgw/lxgwwenkai-screen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "subframe7536/maple-font",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

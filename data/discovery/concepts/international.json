@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "international"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shavian-info/interalia",
+      "status": "candidate-context",
+      "text": "Inter Alia is an expanded version of the Inter font family"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shavian-info/interalia",
+      "status": "candidate-context",
+      "text": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shavian-info/interalia",
+      "status": "candidate",
+      "text": "![Inter Alia title](https://user-images.githubusercontent.com/59408625/152300539-d3e2344f-7c6d-4f93-8a89-4636677537a2.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005425,
+      "status": "candidate",
+      "text": "multinational"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000076,
+      "status": "candidate",
+      "text": "supranational"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989397,
+      "status": "candidate",
+      "text": "worldwide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989165,
+      "status": "candidate",
+      "text": "global"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987975,
+      "status": "candidate",
+      "text": "internationalist"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28052,
+      "status": "candidate",
+      "text": "foreign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12038,
+      "status": "candidate",
+      "text": "outside"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6041,
+      "status": "candidate",
+      "text": "external"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4043,
+      "status": "candidate",
+      "text": "global"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3031,
+      "status": "candidate",
+      "text": "multinational"
+    }
+  ],
+  "canonical_name": "international",
+  "concept_id": "international",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "Shavian-info/interalia"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "international",
+      "sense_id": "international#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

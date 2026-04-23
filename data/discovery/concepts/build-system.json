@@ -31,6 +31,30 @@
       "source_repo": "Anaminus/rbxmk",
       "status": "candidate-context",
       "text": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmake-js/cmake-js",
+      "status": "candidate-context",
+      "text": "CMake.js - a Node.js native addon build tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmake-js/cmake-js",
+      "status": "candidate-context",
+      "text": "[![Node CI](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml/badge.svg)](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiarch/crossbuild",
+      "status": "candidate-context",
+      "text": ":earth_africa: multiarch cross compiling environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiarch/crossbuild",
+      "status": "candidate-context",
+      "text": ":earth_africa: multiarch cross compiling environments"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "Anaminus/rbxmk",
       "status": "candidate",
       "text": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmake-js/cmake-js",
+      "status": "candidate",
+      "text": "[![Node CI](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml/badge.svg)](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiarch/crossbuild",
+      "status": "candidate",
+      "text": ":earth_africa: multiarch cross compiling environments"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Anaminus/rbxmk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "cmake-js/cmake-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "multiarch/crossbuild"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

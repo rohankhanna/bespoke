@@ -61,13 +61,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "AI-Hypercomputer/maxdiffusion",
-      "target": "mlcommons/training",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AI-Hypercomputer/maxdiffusion",
       "target": "google/maxdiffusion",
       "target_type": "repository"
     },
@@ -191,7 +184,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T05:03:50.046699+00:00",
+  "fetched_at": "2026-04-23T01:18:26.138883+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -243,20 +236,15 @@
     "full_name": "AI-Hypercomputer/maxdiffusion",
     "html_url": "https://github.com/AI-Hypercomputer/maxdiffusion",
     "language": "Python",
-    "pushed_at": "2026-04-21T17:17:13Z",
-    "stargazers_count": 339,
+    "pushed_at": "2026-04-23T00:51:15Z",
+    "stargazers_count": 340,
     "topics": [],
-    "updated_at": "2026-04-22T02:44:40Z"
+    "updated_at": "2026-04-22T15:52:45Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "google/maxdiffusion",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mlcommons/training",
       "source_file": "README.md"
     }
   ],

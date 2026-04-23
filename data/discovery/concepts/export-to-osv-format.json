@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Export to OSV format"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustsec/advisory-db",
+      "status": "candidate-context",
+      "text": "Security advisory database for Rust crates published through crates.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustsec/advisory-db",
+      "status": "candidate-context",
+      "text": "Export to OSV format"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustsec/advisory-db",
+      "status": "candidate",
+      "text": "Export to OSV format"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9593,
+      "status": "candidate",
+      "text": "exporter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9593,
+      "status": "candidate",
+      "text": "glass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9593,
+      "status": "candidate",
+      "text": "grants"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9593,
+      "status": "candidate",
+      "text": "lace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9593,
+      "status": "candidate",
+      "text": "markets"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Export to OSV format",
+  "concept_id": "export-to-osv-format",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/export-osv.yml",
+      "source_repo": "rustsec/advisory-db"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Export to OSV format",
+      "sense_id": "export-to-osv-format#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

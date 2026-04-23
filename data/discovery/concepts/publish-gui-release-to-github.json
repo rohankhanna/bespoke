@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish GUI release to GitHub"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "UnstoppableSwap/wallet",
+      "status": "candidate-context",
+      "text": "Moved to https://github.com/eigenwallet/core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UnstoppableSwap/wallet",
+      "status": "candidate-context",
+      "text": "\"Publish GUI release to GitHub\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "UnstoppableSwap/wallet",
+      "status": "candidate",
+      "text": "\"Publish GUI release to GitHub\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26320,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24134,
+      "status": "candidate",
+      "text": "field"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24134,
+      "status": "candidate",
+      "text": "flied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23134,
+      "status": "candidate",
+      "text": "pane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22682,
+      "status": "candidate",
+      "text": "undo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish GUI release to GitHub",
+  "concept_id": "publish-gui-release-to-github",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build-gui-release-binaries.yml",
+      "source_repo": "UnstoppableSwap/wallet"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish GUI release to GitHub",
+      "sense_id": "publish-gui-release-to-github#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

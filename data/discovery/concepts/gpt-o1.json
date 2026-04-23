@@ -19,6 +19,18 @@
       "source_repo": "niieani/gpt-tokenizer",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DolbyUUU/DeepEnlighten",
+      "status": "candidate-context",
+      "text": "Pure RL to post-train base models for social reasoning capabilities. Lightweight replication of DeepSeek-R1-Zero with Social IQa dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DolbyUUU/DeepEnlighten",
+      "status": "candidate-context",
+      "text": "**DeepEnlighten** is a lightweight replication study of the [DeepSeek-R1-Zero](https://github.com/deepseek-ai/DeepSeek-R1) framework. This project investigates the use of **pure reinforcement learning (RL)** without supervised fine-tuning (SFT) to post-train base models for **so\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "niieani/gpt-tokenizer",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/gpt-tokenizer?style=flat-square)](https://www.npmjs.com/package/gpt-tokenizer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DolbyUUU/DeepEnlighten",
+      "status": "candidate",
+      "text": "**DeepEnlighten** is a lightweight replication study of the [DeepSeek-R1-Zero](https://github.com/deepseek-ai/DeepSeek-R1) framework. This project investigates the use of **pure reinforcement learning (RL)** without supervised fine-tuning (SFT) to post-train base models for **so\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "niieani/gpt-tokenizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "DolbyUUU/DeepEnlighten"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

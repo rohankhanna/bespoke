@@ -1,0 +1,17 @@
+{
+  "component": "Aandreba/setup-binaryen@v1.0.0",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wasm_of_ocaml.yml",
+      "source_repo": "ocaml-wasm/wasm_of_ocaml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ocaml-wasm/wasm_of_ocaml"
+    }
+  ]
+}

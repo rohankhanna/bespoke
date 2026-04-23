@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-response.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-response.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-controllers-k8s/community",
+      "target": "aws-controllers-k8s/runtime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-controllers-k8s/community",
+      "target": "aws-controllers-k8s/code-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-controllers-k8s/community",
+      "target": "aws-controllers-k8s/test-infra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-response.yml",
+      "source_repo": "aws-controllers-k8s/community",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-response.yml",
+      "source_repo": "aws-controllers-k8s/community",
+      "target": "Issue Responder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-controllers-k8s/community",
+      "target": "kubernetes-controller",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:11:00.713605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5672
+    },
+    {
+      "path": ".github/workflows/issue-response.yml",
+      "size": 1884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AWS Controllers for Kubernetes (ACK) is a project enabling you to manage AWS services from Kubernetes",
+    "fork": false,
+    "full_name": "aws-controllers-k8s/community",
+    "html_url": "https://github.com/aws-controllers-k8s/community",
+    "language": null,
+    "pushed_at": "2026-04-23T00:01:41Z",
+    "stargazers_count": 2625,
+    "topics": [
+      "aws",
+      "kubernetes-controller"
+    ],
+    "updated_at": "2026-04-22T23:23:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-controllers-k8s/code-generator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-controllers-k8s/runtime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-controllers-k8s/test-infra",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issue Responder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-response.yml",
+      "term": "Issue Responder"
+    },
+    {
+      "context_snippet": "[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/aws-controllers-k8s/community/issues)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-controller"
+    }
+  ]
+}

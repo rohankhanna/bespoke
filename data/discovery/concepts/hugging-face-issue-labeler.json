@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Hugging Face Issue Labeler"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/trl",
+      "status": "candidate-context",
+      "text": "Train transformer language models with reinforcement learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/trl",
+      "status": "candidate-context",
+      "text": "\"Hugging Face Issue Labeler\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/trl",
+      "status": "candidate",
+      "text": "\"Hugging Face Issue Labeler\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26065,
+      "status": "candidate",
+      "text": "token money"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23572,
+      "status": "candidate",
+      "text": "snuggle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23572,
+      "status": "candidate",
+      "text": "snuggled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23572,
+      "status": "candidate",
+      "text": "snuggling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23509,
+      "status": "candidate",
+      "text": "arms"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Hugging Face Issue Labeler",
+  "concept_id": "hugging-face-issue-labeler",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/issue_auto_labeller.yml",
+      "source_repo": "huggingface/trl"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Hugging Face Issue Labeler",
+      "sense_id": "hugging-face-issue-labeler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

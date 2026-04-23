@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "conan"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conan-io/conan-center-index",
+      "status": "candidate-context",
+      "text": "Recipes for the ConanCenter repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conan-io/conan-center-index",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conan-io/conan-center-index",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19099532,
+      "status": "candidate",
+      "text": "doyle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9123672,
+      "status": "candidate",
+      "text": "conor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9123671,
+      "status": "candidate",
+      "text": "conleth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9123670,
+      "status": "candidate",
+      "text": "connor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9123669,
+      "status": "candidate",
+      "text": "conley"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "conan",
+  "concept_id": "conan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "conan-io/conan-center-index"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conan",
+      "sense_id": "conan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

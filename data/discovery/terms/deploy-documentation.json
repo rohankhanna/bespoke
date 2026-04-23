@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -71,6 +71,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AgentR1/Claw-R1"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/doc-deploy.yml",
+      "source_repo": "labring/laf"
     }
   ],
   "term": "Deploy Documentation"

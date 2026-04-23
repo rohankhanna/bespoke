@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BAAI-DCAI/SpatialBot",
+      "target": "mint-sjtu/sti-bench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:12:47.406595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14067
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repo for \"SpatialBot: Precise Spatial Understanding with Vision Language Models.",
+    "fork": false,
+    "full_name": "BAAI-DCAI/SpatialBot",
+    "html_url": "https://github.com/BAAI-DCAI/SpatialBot",
+    "language": "Python",
+    "pushed_at": "2025-09-14T00:19:13Z",
+    "stargazers_count": 344,
+    "topics": [],
+    "updated_at": "2026-04-22T12:50:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mint-sjtu/sti-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

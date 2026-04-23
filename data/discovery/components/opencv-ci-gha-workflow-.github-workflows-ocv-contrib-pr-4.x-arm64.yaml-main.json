@@ -1,0 +1,12 @@
+{
+  "component": "opencv/ci-gha-workflow/.github/workflows/OCV-Contrib-PR-4.x-ARM64.yaml@main",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/PR-4.x.yaml",
+      "source_repo": "opencv/opencv_contrib"
+    }
+  ]
+}

@@ -25,6 +25,18 @@
       "source_repo": "ggml-org/whisper.cpp",
       "status": "candidate-context",
       "text": "![whisper.cpp](https://user-images.githubusercontent.com/1991296/235238348-05d0f6a4-da44-4900-a1de-d0707e75b763.jpeg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "exPHAT/SwiftWhisper",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa4 The easiest way to transcribe audio in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exPHAT/SwiftWhisper",
+      "status": "candidate-context",
+      "text": "> The easiest way to use Whisper in Swift"
     }
   ],
   "candidate_glosses": [
@@ -33,6 +45,12 @@
       "source_repo": "ggml-org/whisper.cpp",
       "status": "candidate",
       "text": "![whisper.cpp](https://user-images.githubusercontent.com/1991296/235238348-05d0f6a4-da44-4900-a1de-d0707e75b763.jpeg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exPHAT/SwiftWhisper",
+      "status": "candidate",
+      "text": "> The easiest way to use Whisper in Swift"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "exPHAT/SwiftWhisper"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

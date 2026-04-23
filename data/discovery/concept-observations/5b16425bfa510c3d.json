@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A code-completion engine for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Update vim docs\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Update vim docs\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18326,
+      "status": "candidate",
+      "text": "bergson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18326,
+      "status": "candidate",
+      "text": "henri bergson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18326,
+      "status": "candidate",
+      "text": "henri louis bergson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18212,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18086,
+      "status": "candidate",
+      "text": "maintained"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update vim docs",
+      "sense_id": "update-vim-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-vim-docs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-vim-docs",
+  "observation_id": "5b16425bfa510c3d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "Update vim docs",
+  "source_context_snippet": "\"Update vim docs\"",
+  "source_file": ".github/workflows/update_vim_docs.yaml",
+  "source_repo": "ycm-core/YouCompleteMe",
+  "source_repo_description": "A code-completion engine for Vim"
+}

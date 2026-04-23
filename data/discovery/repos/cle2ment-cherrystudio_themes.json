@@ -1,0 +1,139 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-theme-to-readme.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "boningtonchen/cherrystudio_themes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "subframe7536/maple-font",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "pal3love/dream-han-cjk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-theme-to-readme.yml",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-theme-to-readme.yml",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "Sync Theme to READMEs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "cherrystudio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "scss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "target": "themes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:25:53.971858+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8910
+    },
+    {
+      "path": ".github/workflows/sync-theme-to-readme.yml",
+      "size": 4488
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Custom Themes for Cherry Studio",
+    "fork": false,
+    "full_name": "Cle2ment/CherryStudio_themes",
+    "html_url": "https://github.com/Cle2ment/CherryStudio_themes",
+    "language": "CSS",
+    "pushed_at": "2025-12-15T08:54:57Z",
+    "stargazers_count": 34,
+    "topics": [
+      "cherrystudio",
+      "scss",
+      "themes"
+    ],
+    "updated_at": "2026-04-11T04:05:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boningtonchen/cherrystudio_themes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pal3love/dream-han-cjk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "subframe7536/maple-font",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sync Theme to READMEs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-theme-to-readme.yml",
+      "term": "Sync Theme to READMEs"
+    },
+    {
+      "context_snippet": "![Free Palestine](https://freepalestinemovement.org/wp-content/uploads/2013/06/banner.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cherrystudio"
+    },
+    {
+      "context_snippet": "![Free Palestine](https://freepalestinemovement.org/wp-content/uploads/2013/06/banner.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scss"
+    },
+    {
+      "context_snippet": "![Free Palestine](https://freepalestinemovement.org/wp-content/uploads/2013/06/banner.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "themes"
+    }
+  ]
+}

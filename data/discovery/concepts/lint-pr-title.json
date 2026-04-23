@@ -19,12 +19,30 @@
       "source_repo": "mrjones2014/codesettings.nvim",
       "status": "candidate-context",
       "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerna-lite/lerna-lite",
+      "status": "candidate-context",
+      "text": "Subset of Lerna in a smaller & more modular project. Help manage and publish multiple packages in a monorepo/workspace structure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna-lite/lerna-lite",
+      "status": "candidate-context",
+      "text": "Lint PR Title"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "mrjones2014/codesettings.nvim",
+      "status": "candidate",
+      "text": "Lint PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerna-lite/lerna-lite",
       "status": "candidate",
       "text": "Lint PR Title"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/lint-pr-title.yml",
       "source_repo": "mrjones2014/codesettings.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/lint-pr-title.yml",
+      "source_repo": "lerna-lite/lerna-lite"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

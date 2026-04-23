@@ -1,0 +1,151 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/kotlin",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/kotlin",
+      "target": "gradle-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/kotlin",
+      "target": "intellij-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/kotlin",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/kotlin",
+      "target": "kotlin-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/kotlin",
+      "target": "maven-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/kotlin",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/kotlin",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/kotlin",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:25:16.171783+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Kotlin Programming Language. ",
+    "fork": false,
+    "full_name": "JetBrains/kotlin",
+    "html_url": "https://github.com/JetBrains/kotlin",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-23T01:06:01Z",
+    "stargazers_count": 52614,
+    "topics": [
+      "compiler",
+      "gradle-plugin",
+      "intellij-plugin",
+      "kotlin",
+      "kotlin-library",
+      "maven-plugin",
+      "programming-language",
+      "wasm",
+      "webassembly"
+    ],
+    "updated_at": "2026-04-22T22:53:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The Kotlin Programming Language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "The Kotlin Programming Language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gradle-plugin"
+    },
+    {
+      "context_snippet": "The Kotlin Programming Language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-plugin"
+    },
+    {
+      "context_snippet": "The Kotlin Programming Language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "The Kotlin Programming Language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-library"
+    },
+    {
+      "context_snippet": "The Kotlin Programming Language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maven-plugin"
+    },
+    {
+      "context_snippet": "The Kotlin Programming Language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    },
+    {
+      "context_snippet": "The Kotlin Programming Language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "The Kotlin Programming Language.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

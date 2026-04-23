@@ -44,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T04:51:45.291246+00:00",
+  "fetched_at": "2026-04-23T01:11:44.004555+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -64,8 +64,8 @@
     "full_name": "nwjs/nw.js",
     "html_url": "https://github.com/nwjs/nw.js",
     "language": "JavaScript",
-    "pushed_at": "2026-04-21T19:40:37Z",
-    "stargazers_count": 41308,
+    "pushed_at": "2026-04-22T21:08:33Z",
+    "stargazers_count": 41239,
     "topics": [
       "desktop",
       "javascript",
@@ -74,7 +74,7 @@
       "nwjs",
       "web-application-framework"
     ],
-    "updated_at": "2026-04-22T01:01:37Z"
+    "updated_at": "2026-04-22T21:08:39Z"
   },
   "repo_links": [
     {

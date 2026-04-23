@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "lyft"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lyft/cni-ipvlan-vpc-k8s",
+      "status": "candidate-context",
+      "text": "AWS VPC Kubernetes CNI driver using IPvlan"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lyft/cni-ipvlan-vpc-k8s",
+      "status": "candidate-context",
+      "text": "`cni-ipvlan-vpc-k8s` contains a set of"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lyft/cni-ipvlan-vpc-k8s",
+      "status": "candidate",
+      "text": "`cni-ipvlan-vpc-k8s` contains a set of"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "delivery.com"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "lime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "instacart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "metromile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "mobike"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lyft",
+  "concept_id": "lyft",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "lyft/cni-ipvlan-vpc-k8s"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lyft",
+      "sense_id": "lyft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

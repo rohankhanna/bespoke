@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/munge-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/munge-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/munge-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/munge-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "docker-library/official-images",
+      "target": "docker-library/faq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "docker-library/official-images",
+      "target": "docker-library/bashbrew",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "docker-library/official-images",
+      "target": "docker-library/golang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "docker-library/official-images",
+      "target": "docker-library/hello-world",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/munge-pr.yml",
+      "source_repo": "docker-library/official-images",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/munge-pr.yml",
+      "source_repo": "docker-library/official-images",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/munge-pr.yml",
+      "source_repo": "docker-library/official-images",
+      "target": "Munge PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "docker-library/official-images",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "docker-library/official-images",
+      "target": "Test PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:21:53.348298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34799
+    },
+    {
+      "path": "Dockerfile",
+      "size": 928
+    },
+    {
+      "path": ".github/workflows/generate.sh",
+      "size": 2500
+    },
+    {
+      "path": ".github/workflows/munge-pr.yml",
+      "size": 10454
+    },
+    {
+      "path": ".github/workflows/naughty.sh",
+      "size": 1986
+    },
+    {
+      "path": ".github/workflows/test-pr.yml",
+      "size": 2666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Primary source of truth for the Docker \"Official Images\" program",
+    "fork": false,
+    "full_name": "docker-library/official-images",
+    "html_url": "https://github.com/docker-library/official-images",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T00:54:22Z",
+    "stargazers_count": 6943,
+    "topics": [],
+    "updated_at": "2026-04-23T00:54:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker-library/bashbrew",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker-library/faq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker-library/golang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker-library/hello-world",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Munge PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/munge-pr.yml",
+      "term": "Munge PR"
+    },
+    {
+      "context_snippet": "Test PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yml",
+      "term": "Test PR"
+    }
+  ]
+}

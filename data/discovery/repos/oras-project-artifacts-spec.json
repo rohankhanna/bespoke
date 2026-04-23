@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oras-project/artifacts-spec",
+      "target": "opencontainers/wg-reference-types",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oras-project/artifacts-spec",
+      "target": "opencontainers/artifacts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oras-project/artifacts-spec",
+      "target": "opencontainers/oci-conformance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "oras-project/artifacts-spec",
+      "target": "oras-project/distribution",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:17:14.812353+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8022
+    },
+    {
+      "path": "go.mod",
+      "size": 107
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "oras-project/artifacts-spec",
+    "html_url": "https://github.com/oras-project/artifacts-spec",
+    "language": "Go",
+    "pushed_at": "2024-05-15T00:32:33Z",
+    "stargazers_count": 64,
+    "topics": [],
+    "updated_at": "2025-06-17T10:10:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/artifacts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/oci-conformance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/wg-reference-types",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oras-project/distribution",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

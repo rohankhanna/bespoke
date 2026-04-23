@@ -141,6 +141,56 @@
       "source_file": ".github/workflows/docker-build-ascend-a2.yml"
     },
     {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-ascend-a2.yml"
+    },
+    {
       "component": "actions/download-artifact@v4",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-build-ascend-a2.yml"
@@ -211,14 +261,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "agentica-project/rllm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "verl-project/verl",
-      "target": "agentica-project/verl-pipeline",
+      "target": "bytedance-seed/seed-thinking-v1.5",
       "target_type": "repository"
     },
     {
@@ -232,7 +275,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "verl-project/verl",
-      "target": "alibaba-quark/ssp",
+      "target": "bytedance-seed/seed-coder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "verl-project/verl",
+      "target": "bigai-nlco/rulereasoner",
       "target_type": "repository"
     },
     {
@@ -481,7 +531,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-22T01:05:59.417201+00:00",
+  "fetched_at": "2026-04-23T01:18:46.586730+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -517,7 +567,7 @@
     },
     {
       "path": ".github/workflows/docker-build-ascend-a2.yml",
-      "size": 5332
+      "size": 9330
     },
     {
       "path": ".github/workflows/docker-build-ascend-a3-qwen3_5.yml",
@@ -533,10 +583,10 @@
     "full_name": "verl-project/verl",
     "html_url": "https://github.com/verl-project/verl",
     "language": "Python",
-    "pushed_at": "2026-04-21T14:47:09Z",
-    "stargazers_count": 20844,
+    "pushed_at": "2026-04-22T17:35:31Z",
+    "stargazers_count": 20871,
     "topics": [],
-    "updated_at": "2026-04-22T00:55:59Z"
+    "updated_at": "2026-04-22T20:34:40Z"
   },
   "repo_links": [
     {
@@ -546,17 +596,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "agentica-project/rllm",
+      "full_name": "bigai-nlco/rulereasoner",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "agentica-project/verl-pipeline",
+      "full_name": "bytedance-seed/seed-coder",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alibaba-quark/ssp",
+      "full_name": "bytedance-seed/seed-thinking-v1.5",
       "source_file": "README.md"
     }
   ],

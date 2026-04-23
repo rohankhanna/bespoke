@@ -1,0 +1,423 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-docs-image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-docs-image.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-docs-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-docs-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-docs-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-docs-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-docs-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-docs-image.yaml"
+    },
+    {
+      "component": "wei/curl@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-dot-release-build.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-go-build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-go-build.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-go-test.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-go-test.yaml"
+    },
+    {
+      "component": "wei/curl@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-nightly-site-build.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-security.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-security.yaml"
+    },
+    {
+      "component": "knative/actions/.github/workflows/reusable-stale.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-stale.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "knative/docs",
+      "target": "knative/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-docs-image.yaml",
+      "source_repo": "knative/docs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-docs-image.yaml",
+      "source_repo": "knative/docs",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-docs-image.yaml",
+      "source_repo": "knative/docs",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-docs-image.yaml",
+      "source_repo": "knative/docs",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-docs-image.yaml",
+      "source_repo": "knative/docs",
+      "target": "Build Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-dot-release-build.yaml",
+      "source_repo": "knative/docs",
+      "target": "wei/curl@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-dot-release-build.yaml",
+      "source_repo": "knative/docs",
+      "target": "Build site for dot releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-go-build.yaml",
+      "source_repo": "knative/docs",
+      "target": "knative/actions/.github/workflows/reusable-go-build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-go-build.yaml",
+      "source_repo": "knative/docs",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-go-test.yaml",
+      "source_repo": "knative/docs",
+      "target": "knative/actions/.github/workflows/reusable-go-test.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-go-test.yaml",
+      "source_repo": "knative/docs",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-nightly-site-build.yaml",
+      "source_repo": "knative/docs",
+      "target": "wei/curl@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-nightly-site-build.yaml",
+      "source_repo": "knative/docs",
+      "target": "Build site nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-security.yaml",
+      "source_repo": "knative/docs",
+      "target": "knative/actions/.github/workflows/reusable-security.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-security.yaml",
+      "source_repo": "knative/docs",
+      "target": "Security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/knative-stale.yaml",
+      "source_repo": "knative/docs",
+      "target": "knative/actions/.github/workflows/reusable-stale.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-stale.yaml",
+      "source_repo": "knative/docs",
+      "target": "Close stale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/docs",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/docs",
+      "target": "faas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/docs",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/docs",
+      "target": "istio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/docs",
+      "target": "knative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/docs",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/docs",
+      "target": "paas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/docs",
+      "target": "serverless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:19:45.476688+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4229
+    },
+    {
+      "path": "go.mod",
+      "size": 515
+    },
+    {
+      "path": "requirements.txt",
+      "size": 221
+    },
+    {
+      "path": ".github/workflows/knative-docs-image.yaml",
+      "size": 2473
+    },
+    {
+      "path": ".github/workflows/knative-dot-release-build.yaml",
+      "size": 938
+    },
+    {
+      "path": ".github/workflows/knative-go-build.yaml",
+      "size": 321
+    },
+    {
+      "path": ".github/workflows/knative-go-test.yaml",
+      "size": 428
+    },
+    {
+      "path": ".github/workflows/knative-nightly-site-build.yaml",
+      "size": 925
+    },
+    {
+      "path": ".github/workflows/knative-security.yaml",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/knative-stale.yaml",
+      "size": 306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "User documentation for Knative components.",
+    "fork": false,
+    "full_name": "knative/docs",
+    "html_url": "https://github.com/knative/docs",
+    "language": "HTML",
+    "pushed_at": "2026-04-22T23:41:21Z",
+    "stargazers_count": 5028,
+    "topics": [
+      "documentation",
+      "faas",
+      "hacktoberfest",
+      "istio",
+      "knative",
+      "kubernetes",
+      "paas",
+      "serverless"
+    ],
+    "updated_at": "2026-04-22T23:41:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "knative/community",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-docs-image.yaml",
+      "term": "Build Images"
+    },
+    {
+      "context_snippet": "Build site for dot releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-dot-release-build.yaml",
+      "term": "Build site for dot releases"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-go-build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-go-test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Build site nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-nightly-site-build.yaml",
+      "term": "Build site nightly"
+    },
+    {
+      "context_snippet": "'Security'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-security.yaml",
+      "term": "Security"
+    },
+    {
+      "context_snippet": "'Close stale'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/knative-stale.yaml",
+      "term": "Close stale"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faas"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "istio"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knative"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paas"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    }
+  ]
+}

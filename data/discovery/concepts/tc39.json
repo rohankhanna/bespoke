@@ -19,6 +19,18 @@
       "source_repo": "babel/proposals",
       "status": "candidate-context",
       "text": "For the official list, check the [TC39 repo](https://github.com/tc39/proposals). This list only contains all proposals higher than Stage 0 that are compilable by Babel. (If Stage 4, it will be in [preset-env](https://github.com/babel/babel/tree/master/packages/babel-preset-env))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/test262",
+      "status": "candidate-context",
+      "text": "Official ECMAScript Conformance Test Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/test262",
+      "status": "candidate-context",
+      "text": "Test262 is the implementation conformance test suite for the latest drafts (or most recent published edition) of the following Ecma specifications:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "babel/proposals",
       "status": "candidate",
       "text": "For the official list, check the [TC39 repo](https://github.com/tc39/proposals). This list only contains all proposals higher than Stage 0 that are compilable by Babel. (If Stage 4, it will be in [preset-env](https://github.com/babel/babel/tree/master/packages/babel-preset-env))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/test262",
+      "status": "candidate",
+      "text": "Test262 is the implementation conformance test suite for the latest drafts (or most recent published edition) of the following Ecma specifications:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "babel/proposals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "tc39/test262"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

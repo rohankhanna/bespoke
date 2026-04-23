@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Main Portal page for the Jackson project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19067972,
+      "status": "candidate",
+      "text": "andrew jackson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19067972,
+      "status": "candidate",
+      "text": "capital of mississippi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19067972,
+      "status": "candidate",
+      "text": "old hickory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19067971,
+      "status": "candidate",
+      "text": "drummond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19066025,
+      "status": "candidate",
+      "text": "vaughan"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jackson",
+      "sense_id": "jackson#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "capital of mississippi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "andrew jackson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "old hickory"
+    }
+  ],
+  "concept_id": "jackson",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jackson",
+  "observation_id": "509a772a8a74ce2a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "jackson",
+  "source_context_snippet": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>",
+  "source_file": null,
+  "source_repo": "FasterXML/jackson",
+  "source_repo_description": "Main Portal page for the Jackson project"
+}

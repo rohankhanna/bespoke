@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "ws",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gherghett/Antigravity-Shit-Chat",
+      "target": "ws",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "gherghett/Antigravity-Shit-Chat",
+      "target": "express",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:09:25.120164+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2844
+    },
+    {
+      "path": "package.json",
+      "size": 402
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A hacky real-time mobile interface to watch and interact with Antigravity chats while you\u2019re away from your desk.",
+    "fork": false,
+    "full_name": "gherghett/Antigravity-Shit-Chat",
+    "html_url": "https://github.com/gherghett/Antigravity-Shit-Chat",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-18T09:44:30Z",
+    "stargazers_count": 362,
+    "topics": [],
+    "updated_at": "2026-04-17T18:14:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

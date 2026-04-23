@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -81,6 +81,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "bevyengine/bevy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "VoltAgent/voltagent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
     }
   ],
   "term": "Open Source"

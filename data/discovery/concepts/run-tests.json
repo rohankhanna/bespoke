@@ -189,6 +189,18 @@
       "source_repo": "Anaminus/rbxmk",
       "status": "candidate-context",
       "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arviz-devs/arviz",
+      "status": "candidate-context",
+      "text": "Exploratory analysis of Bayesian models with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arviz-devs/arviz",
+      "status": "candidate-context",
+      "text": "Run tests"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +291,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Anaminus/rbxmk",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arviz-devs/arviz",
       "status": "candidate",
       "text": "Run tests"
     }
@@ -426,11 +444,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "Anaminus/rbxmk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "arviz-devs/arviz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

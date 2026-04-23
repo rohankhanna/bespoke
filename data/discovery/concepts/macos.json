@@ -346,6 +346,78 @@
       "source_repo": "gabime/spdlog",
       "status": "candidate-context",
       "text": "macos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": ":electron: A complete tool for building and publishing Electron applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/electron/forge/actions/workflows/ci.yml/badge.svg)](https://github.com/electron/forge/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "exPHAT/SwiftWhisper",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa4 The easiest way to transcribe audio in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exPHAT/SwiftWhisper",
+      "status": "candidate-context",
+      "text": "> The easiest way to use Whisper in Swift"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrossC2/CrossC2Kit",
+      "status": "candidate-context",
+      "text": "CrossC2 developed based on the Cobalt Strike framework can be used for other cross-platform system control. CrossC2Kit provides some interfaces for users to call to manipulate the CrossC2 Beacon session, thereby extending the functionality of Cobalt Strike."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrossC2/CrossC2Kit",
+      "status": "candidate-context",
+      "text": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zlib-ng/minizip-ng",
+      "status": "candidate-context",
+      "text": "Fork of the popular zip manipulation library found in the zlib distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/minizip-ng",
+      "status": "candidate-context",
+      "text": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "\u2728\u2601\ufe0f\ud83d\udcc1\u2728 Cloud Commander file manager for the web with console and editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonas/tig",
+      "status": "candidate-context",
+      "text": "Text-mode interface for git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonas/tig",
+      "status": "candidate-context",
+      "text": "macOS"
     }
   ],
   "candidate_glosses": [
@@ -516,6 +588,42 @@
       "source_repo": "gabime/spdlog",
       "status": "candidate",
       "text": "macos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/electron/forge/actions/workflows/ci.yml/badge.svg)](https://github.com/electron/forge/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exPHAT/SwiftWhisper",
+      "status": "candidate",
+      "text": "> The easiest way to use Whisper in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrossC2/CrossC2Kit",
+      "status": "candidate",
+      "text": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/minizip-ng",
+      "status": "candidate",
+      "text": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate",
+      "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonas/tig",
+      "status": "candidate",
+      "text": "macOS"
     }
   ],
   "candidate_related_terms": [
@@ -757,11 +865,53 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "gabime/spdlog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "electron/forge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "exPHAT/SwiftWhisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "CrossC2/CrossC2Kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/cloudcmd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "jonas/tig"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

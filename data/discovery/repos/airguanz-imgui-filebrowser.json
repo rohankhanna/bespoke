@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AirGuanZ/imgui-filebrowser",
+      "target": "ocornut/imgui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AirGuanZ/imgui-filebrowser",
+      "target": "dear-imgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AirGuanZ/imgui-filebrowser",
+      "target": "imgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AirGuanZ/imgui-filebrowser",
+      "target": "imgui-filebrowser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:12:48.805570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "File browser implementation for dear-imgui. C++17 is required.",
+    "fork": false,
+    "full_name": "AirGuanZ/imgui-filebrowser",
+    "html_url": "https://github.com/AirGuanZ/imgui-filebrowser",
+    "language": "C++",
+    "pushed_at": "2025-09-24T14:11:29Z",
+    "stargazers_count": 823,
+    "topics": [
+      "dear-imgui",
+      "imgui",
+      "imgui-filebrowser"
+    ],
+    "updated_at": "2026-04-22T10:05:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocornut/imgui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[imgui-filebrowser](https://github.com/AirGuanZ/imgui-filebrowser) is a header-only file browser implementation for [dear-imgui](https://github.com/ocornut/imgui). C++ 17 is required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dear-imgui"
+    },
+    {
+      "context_snippet": "[imgui-filebrowser](https://github.com/AirGuanZ/imgui-filebrowser) is a header-only file browser implementation for [dear-imgui](https://github.com/ocornut/imgui). C++ 17 is required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imgui"
+    },
+    {
+      "context_snippet": "[imgui-filebrowser](https://github.com/AirGuanZ/imgui-filebrowser) is a header-only file browser implementation for [dear-imgui](https://github.com/ocornut/imgui). C++ 17 is required.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imgui-filebrowser"
+    }
+  ]
+}

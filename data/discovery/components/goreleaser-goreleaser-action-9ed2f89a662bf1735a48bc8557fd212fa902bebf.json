@@ -1,0 +1,12 @@
+{
+  "component": "goreleaser/goreleaser-action@9ed2f89a662bf1735a48bc8557fd212fa902bebf",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "GoogleCloudPlatform/berglas"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "flannel-io/flannel",
       "status": "candidate-context",
       "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "httplib2/httplib2",
+      "status": "candidate-context",
+      "text": "Small, fast HTTP client library for Python. Features persistent connections, cache, and Google App Engine support. Originally written by Joe Gregorio, now supported by community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httplib2/httplib2",
+      "status": "candidate-context",
+      "text": "Introduction"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "flannel-io/flannel",
       "status": "candidate",
       "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "httplib2/httplib2",
+      "status": "candidate",
+      "text": "Introduction"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "httplib2/httplib2"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

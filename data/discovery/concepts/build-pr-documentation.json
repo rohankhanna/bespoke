@@ -103,6 +103,18 @@
       "source_repo": "huggingface/peft",
       "status": "candidate-context",
       "text": "Build PR Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/trl",
+      "status": "candidate-context",
+      "text": "Train transformer language models with reinforcement learning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/trl",
+      "status": "candidate-context",
+      "text": "Build PR Documentation"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +163,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "huggingface/peft",
+      "status": "candidate",
+      "text": "Build PR Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/trl",
       "status": "candidate",
       "text": "Build PR Documentation"
     }
@@ -250,11 +268,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/build_pr_documentation.yml",
       "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/trl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "safetensors/safetensors"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

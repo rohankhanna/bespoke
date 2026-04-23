@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "isl-org/MiDaS",
+      "target": "isl-org/next-vit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "isl-org/MiDaS",
+      "target": "cleinc/bts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "isl-org/MiDaS",
+      "target": "isl-org/dpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "isl-org/MiDaS",
+      "target": "bytedance/next-vit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isl-org/MiDaS",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isl-org/MiDaS",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isl-org/MiDaS",
+      "target": "single-image-depth-prediction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:28:00.029213+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23466
+    },
+    {
+      "path": "Dockerfile",
+      "size": 922
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Code for robust monocular depth estimation described in \"Ranftl et. al., Towards Robust Monocular Depth Estimation: Mixing Datasets for Zero-shot Cross-dataset Transfer, TPAMI 2022\"",
+    "fork": false,
+    "full_name": "isl-org/MiDaS",
+    "html_url": "https://github.com/isl-org/MiDaS",
+    "language": "Python",
+    "pushed_at": "2024-08-23T10:21:06Z",
+    "stargazers_count": 5372,
+    "topics": [
+      "deeplearning",
+      "monocular-depth-estimation",
+      "single-image-depth-prediction"
+    ],
+    "updated_at": "2026-04-21T06:47:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/next-vit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cleinc/bts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isl-org/dpt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isl-org/next-vit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains code to compute depth from a single image. It accompanies our [paper](https://arxiv.org/abs/1907.01341v3):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "This repository contains code to compute depth from a single image. It accompanies our [paper](https://arxiv.org/abs/1907.01341v3):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    },
+    {
+      "context_snippet": "This repository contains code to compute depth from a single image. It accompanies our [paper](https://arxiv.org/abs/1907.01341v3):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-image-depth-prediction"
+    }
+  ]
+}

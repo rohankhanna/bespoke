@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim-php/phpctags",
+      "target": "nikic/php-parser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim-php/phpctags",
+      "target": "techlivezheng/tagbar-phpctags",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags",
+      "target": "php-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags",
+      "target": "phpctags",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:24:13.286089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An enhanced ctags compatible index generator written in pure PHP. Released under GPLv2 license.",
+    "fork": false,
+    "full_name": "vim-php/phpctags",
+    "html_url": "https://github.com/vim-php/phpctags",
+    "language": "PHP",
+    "pushed_at": "2026-01-28T01:02:57Z",
+    "stargazers_count": 264,
+    "topics": [
+      "hacktoberfest",
+      "php",
+      "php-parser",
+      "phpctags"
+    ],
+    "updated_at": "2025-09-17T03:21:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nikic/php-parser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "techlivezheng/tagbar-phpctags",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "An enhanced php [ctags](http://ctags.sourceforge.net/) index file generator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "An enhanced php [ctags](http://ctags.sourceforge.net/) index file generator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "php-parser"
+    },
+    {
+      "context_snippet": "An enhanced php [ctags](http://ctags.sourceforge.net/) index file generator",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phpctags"
+    }
+  ]
+}

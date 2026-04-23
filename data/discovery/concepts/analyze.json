@@ -32,6 +32,18 @@
       "source_repo": "google/go-containerregistry",
       "status": "candidate-context",
       "text": "Analyze"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "Build and deploy Go applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
+      "status": "candidate-context",
+      "text": "Analyze"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "google/go-containerregistry",
+      "status": "candidate",
+      "text": "Analyze"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ko-build/ko",
       "status": "candidate",
       "text": "Analyze"
     }
@@ -137,11 +155,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/analyze.yaml",
       "source_repo": "google/go-containerregistry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/analyze.yaml",
+      "source_repo": "ko-build/ko"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

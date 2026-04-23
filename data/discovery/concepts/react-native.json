@@ -127,6 +127,18 @@
       "source_repo": "morrys/react-relay-offline",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/react-native-windows",
+      "status": "candidate-context",
+      "text": "A framework for building native Windows apps with React."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-windows",
+      "status": "candidate-context",
+      "text": "![Hero Image with Logo](https://github.com/microsoft/react-native-windows/raw/main/.github/hero3.png)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
       "source_repo": "morrys/react-relay-offline",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-windows",
+      "status": "candidate",
+      "text": "![Hero Image with Logo](https://github.com/microsoft/react-native-windows/raw/main/.github/hero3.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +274,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "morrys/react-relay-offline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/react-native-windows"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

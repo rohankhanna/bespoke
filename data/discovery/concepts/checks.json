@@ -140,6 +140,30 @@
       "source_repo": "prometheus-operator/prometheus-operator",
       "status": "candidate-context",
       "text": "checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nektos/act",
+      "status": "candidate-context",
+      "text": "Run your GitHub Actions locally \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nektos/act",
+      "status": "candidate-context",
+      "text": "checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/test262",
+      "status": "candidate-context",
+      "text": "Official ECMAScript Conformance Test Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/test262",
+      "status": "candidate-context",
+      "text": "Checks"
     }
   ],
   "candidate_glosses": [
@@ -208,6 +232,18 @@
       "source_repo": "prometheus-operator/prometheus-operator",
       "status": "candidate",
       "text": "checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nektos/act",
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/test262",
+      "status": "candidate",
+      "text": "Checks"
     }
   ],
   "candidate_related_terms": [
@@ -323,11 +359,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/checks.yaml",
       "source_repo": "prometheus-operator/prometheus-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "nektos/act"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "tc39/test262"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

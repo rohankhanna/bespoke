@@ -1,0 +1,12 @@
+{
+  "component": "medyagh/info-block@f5c042624acf8ce21bed4b0de77962e0a56ad88e",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/functional_test.yml",
+      "source_repo": "kubernetes/minikube"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "New generation entropy codecs : Finite State Entropy and Huff0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "New Generation Entropy coders"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "New Generation Entropy coders"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39941748,
+      "status": "candidate",
+      "text": "information"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049648,
+      "status": "candidate",
+      "text": "selective information"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050109,
+      "status": "candidate",
+      "text": "randomness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050108,
+      "status": "candidate",
+      "text": "disorganization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050107,
+      "status": "candidate",
+      "text": "degradation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "entropy",
+      "sense_id": "entropy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22061,
+      "status": "candidate",
+      "text": "information"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4009,
+      "status": "candidate",
+      "text": "selective information"
+    }
+  ],
+  "concept_id": "entropy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "entropy",
+  "observation_id": "9e9c26f4c42b41bb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "entropy",
+  "source_context_snippet": "New Generation Entropy coders",
+  "source_file": null,
+  "source_repo": "Cyan4973/FiniteStateEntropy",
+  "source_repo_description": "New generation entropy codecs : Finite State Entropy and Huff0"
+}

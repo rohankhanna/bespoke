@@ -55,6 +55,18 @@
       "source_repo": "Anaminus/rbxmk",
       "status": "candidate-context",
       "text": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocornut/imgui",
+      "status": "candidate-context",
+      "text": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocornut/imgui",
+      "status": "candidate-context",
+      "text": "build"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Anaminus/rbxmk",
       "status": "candidate",
       "text": "<a id=\"user-content-rbxmk\" href=\"#user-content-rbxmk\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocornut/imgui",
+      "status": "candidate",
+      "text": "build"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Anaminus/rbxmk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ocornut/imgui"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

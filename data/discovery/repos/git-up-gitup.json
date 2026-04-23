@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-up/GitUp",
+      "target": "libgit2/objective-git",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-up/GitUp",
+      "target": "git-up/libgit2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "git-up/GitUp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "git-up/GitUp",
+      "target": "GitUp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "git-up/GitUp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "git-up/GitUp",
+      "target": "GitUpKit Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:24:43.115072+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11312
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 858
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Git interface you've been missing all your life has finally arrived.",
+    "fork": false,
+    "full_name": "git-up/GitUp",
+    "html_url": "https://github.com/git-up/GitUp",
+    "language": "Objective-C",
+    "pushed_at": "2026-02-15T03:46:31Z",
+    "stargazers_count": 11979,
+    "topics": [],
+    "updated_at": "2026-04-22T07:06:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "git-up/libgit2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libgit2/objective-git",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GitUp",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "GitUp"
+    },
+    {
+      "context_snippet": "GitUpKit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "GitUpKit Tests"
+    }
+  ]
+}

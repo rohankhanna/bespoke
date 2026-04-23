@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpoechtrager/cctools-port",
+      "target": "tpoechtrager/apple-libdispatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpoechtrager/cctools-port",
+      "target": "tpoechtrager/apple-libtapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpoechtrager/cctools-port",
+      "target": "pullmoll/musl-fts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpoechtrager/cctools-port",
+      "target": "tpoechtrager/xar",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "source_repo": "tpoechtrager/cctools-port"
+}

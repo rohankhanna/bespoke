@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ludovicchabant/vim-gutentags",
+      "target": "skywind3000/gutentags_plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ludovicchabant/vim-gutentags",
+      "target": "kien/ctrlp.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ludovicchabant/vim-gutentags",
+      "target": "ctags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ludovicchabant/vim-gutentags",
+      "target": "vim-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:24:07.838975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3195
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Vim plugin that manages your tag files",
+    "fork": false,
+    "full_name": "ludovicchabant/vim-gutentags",
+    "html_url": "https://github.com/ludovicchabant/vim-gutentags",
+    "language": "Vim Script",
+    "pushed_at": "2024-06-09T01:12:19Z",
+    "stargazers_count": 2345,
+    "topics": [
+      "ctags",
+      "vim-plugins"
+    ],
+    "updated_at": "2026-04-12T19:06:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kien/ctrlp.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skywind3000/gutentags_plus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Gutentags is a plugin that takes care of the much needed management of tags",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctags"
+    },
+    {
+      "context_snippet": "Gutentags is a plugin that takes care of the much needed management of tags",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugins"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A construction kit for reinforcement learning environment management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Daily Repo Stats to gh-pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Daily Repo Stats to gh-pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22832,
+      "status": "candidate",
+      "text": "sleep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22832,
+      "status": "candidate",
+      "text": "slumber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22832,
+      "status": "candidate",
+      "text": "slumbering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22709,
+      "status": "candidate",
+      "text": "smooth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22709,
+      "status": "candidate",
+      "text": "smoothed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Daily Repo Stats to gh-pages",
+      "sense_id": "daily-repo-stats-to-gh-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "daily-repo-stats-to-gh-pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "daily-repo-stats-to-gh-pages",
+  "observation_id": "d6e451e1418d61ee",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "Daily Repo Stats to gh-pages",
+  "source_context_snippet": "Daily Repo Stats to gh-pages",
+  "source_file": ".github/workflows/daily-stats.yml",
+  "source_repo": "alibaba/ROCK",
+  "source_repo_description": "A construction kit for reinforcement learning environment management."
+}

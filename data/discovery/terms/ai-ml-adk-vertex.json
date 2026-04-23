@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-ad-vertex.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ai-ml-adk-vllm.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples"
+    }
+  ],
+  "term": "ai-ml-adk-vertex"
+}

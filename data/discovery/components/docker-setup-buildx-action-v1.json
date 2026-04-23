@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v1",
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/deploy-image-arm.yml",
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "mamba-org/quetz"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "mamba-org/quetz"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/verify-docker-build.yml",
+      "source_repo": "amazon-ion/ion-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yaml",
+      "source_repo": "Azure/MS-AMP"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "oras-project/distribution"
     }
   ]
 }

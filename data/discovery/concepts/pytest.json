@@ -70,6 +70,18 @@
       "source_repo": "pyodide/pytest-pyodide",
       "status": "candidate-context",
       "text": "[![PyPI Latest Release](https://img.shields.io/pypi/v/pytest-pyodide.svg)](https://pypi.org/project/pytest-pyodide/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "status": "candidate-context",
+      "text": "artisan: the world's most trusted roasting software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "status": "candidate-context",
+      "text": "Pytest"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +114,12 @@
       "source_repo": "pyodide/pytest-pyodide",
       "status": "candidate",
       "text": "[![PyPI Latest Release](https://img.shields.io/pypi/v/pytest-pyodide.svg)](https://pypi.org/project/pytest-pyodide/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "status": "candidate",
+      "text": "Pytest"
     }
   ],
   "candidate_related_terms": [
@@ -175,11 +193,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "pyodide/pytest-pyodide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "artisan-roaster-scope/artisan"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

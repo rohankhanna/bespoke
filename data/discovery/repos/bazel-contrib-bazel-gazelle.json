@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazel-contrib/bazel-gazelle",
+      "target": "bazel-contrib/rules_jvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazel-contrib/bazel-gazelle",
+      "target": "aspect-build/aspect-gazelle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazel-contrib/bazel-gazelle",
+      "target": "bazel-contrib/rules_python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazel-contrib/bazel-gazelle",
+      "target": "bazel-contrib/rules_go",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:21:34.785135+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16269
+    },
+    {
+      "path": "go.mod",
+      "size": 1083
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Gazelle is a Bazel build file generator for Bazel projects. It natively supports Go and protobuf, and it may be extended to support new languages and custom rule sets.",
+    "fork": false,
+    "full_name": "bazel-contrib/bazel-gazelle",
+    "html_url": "https://github.com/bazel-contrib/bazel-gazelle",
+    "language": "Go",
+    "pushed_at": "2026-04-22T22:03:01Z",
+    "stargazers_count": 1391,
+    "topics": [],
+    "updated_at": "2026-04-22T22:03:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aspect-build/aspect-gazelle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazel-contrib/rules_go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazel-contrib/rules_jvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazel-contrib/rules_python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

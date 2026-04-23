@@ -1,0 +1,17 @@
+{
+  "component": "anthropics/claude-code-action@5d5c10a4f389689f992ea10bb14dcb6fcc83146d",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "deepset-ai/haystack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "deepset-ai/haystack"
+    }
+  ]
+}

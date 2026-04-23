@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "esmeta test262"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/test262",
+      "status": "candidate-context",
+      "text": "Official ECMAScript Conformance Test Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/test262",
+      "status": "candidate-context",
+      "text": "'esmeta test262'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/test262",
+      "status": "candidate",
+      "text": "'esmeta test262'"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "esmeta test262",
+  "concept_id": "esmeta-test262",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/esmeta-test262.yml",
+      "source_repo": "tc39/test262"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "esmeta test262",
+      "sense_id": "esmeta-test262#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

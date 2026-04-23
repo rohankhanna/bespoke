@@ -56,6 +56,42 @@
       "source_repo": "getbettr/octotail",
       "status": "candidate-context",
       "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate-context",
+      "text": "A Pluggable Terraform Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate-context",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kops",
+      "status": "candidate-context",
+      "text": "Kubernetes Operations (kOps) - Production Grade k8s Installation, Upgrades and Management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kops",
+      "status": "candidate-context",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oras-project/distribution",
+      "status": "candidate-context",
+      "text": "distribution with reference types"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/distribution",
+      "status": "candidate-context",
+      "text": "e2e"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +116,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "getbettr/octotail",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kops",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oras-project/distribution",
       "status": "candidate",
       "text": "e2e"
     }
@@ -179,11 +233,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "terraform-linters/tflint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "kubernetes/kops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "oras-project/distribution"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

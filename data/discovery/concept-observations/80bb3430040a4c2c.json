@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fork of the popular zip manipulation library found in the zlib distribution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zlib",
+      "sense_id": "zlib#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "zlib",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "zlib",
+  "observation_id": "80bb3430040a4c2c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "zlib",
+  "source_context_snippet": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.",
+  "source_file": null,
+  "source_repo": "zlib-ng/minizip-ng",
+  "source_repo_description": "Fork of the popular zip manipulation library found in the zlib distribution."
+}

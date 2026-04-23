@@ -1,0 +1,436 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.11.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.11.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "svenstaro/upload-release-action@2.11.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "OSS-Fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ppmd-dependabot.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "PPMd Dependabot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "bzip2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "disk-splitting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "lzma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "minizip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "pkware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "winzip-aes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "zlib",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:23:50.032200+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8948
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 11434
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1001
+    },
+    {
+      "path": ".github/workflows/fuzz.yml",
+      "size": 750
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 947
+    },
+    {
+      "path": ".github/workflows/ppmd-dependabot.yml",
+      "size": 1185
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Fork of the popular zip manipulation library found in the zlib distribution.",
+    "fork": false,
+    "full_name": "zlib-ng/minizip-ng",
+    "html_url": "https://github.com/zlib-ng/minizip-ng",
+    "language": "C",
+    "pushed_at": "2026-04-21T00:26:22Z",
+    "stargazers_count": 1443,
+    "topics": [
+      "bzip2",
+      "c",
+      "compression",
+      "disk-splitting",
+      "encryption",
+      "linux",
+      "lzma",
+      "macos",
+      "minizip",
+      "pkware",
+      "windows",
+      "winzip-aes",
+      "xz",
+      "zip",
+      "zlib"
+    ],
+    "updated_at": "2026-04-21T06:24:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "OSS-Fuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzz.yml",
+      "term": "OSS-Fuzz"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "PPMd Dependabot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ppmd-dependabot.yml",
+      "term": "PPMd Dependabot"
+    },
+    {
+      "context_snippet": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bzip2"
+    },
+    {
+      "context_snippet": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disk-splitting"
+    },
+    {
+      "context_snippet": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encryption"
+    },
+    {
+      "context_snippet": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lzma"
+    },
+    {
+      "context_snippet": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minizip"
+    },
+    {
+      "context_snippet": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pkware"
+    },
+    {
+      "context_snippet": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winzip-aes"
+    },
+    {
+      "context_snippet": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zlib"
+    }
+  ]
+}

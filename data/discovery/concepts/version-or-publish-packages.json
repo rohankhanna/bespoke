@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Version or Publish Packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "status": "candidate-context",
+      "text": "Tool for analyzing TypeScript types of npm packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "status": "candidate-context",
+      "text": "Version or Publish Packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io",
+      "status": "candidate",
+      "text": "Version or Publish Packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18227,
+      "status": "candidate",
+      "text": "retrofit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18227,
+      "status": "candidate",
+      "text": "retrofitted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18227,
+      "status": "candidate",
+      "text": "transcribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18169,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18149,
+      "status": "candidate",
+      "text": "release"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Version or Publish Packages",
+  "concept_id": "version-or-publish-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/version-or-publish.yml",
+      "source_repo": "arethetypeswrong/arethetypeswrong.github.io"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Version or Publish Packages",
+      "sense_id": "version-or-publish-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

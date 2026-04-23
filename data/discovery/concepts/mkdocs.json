@@ -45,6 +45,18 @@
       "source_repo": "mkdocs/mkdocs",
       "status": "candidate-context",
       "text": "> *Project documentation with Markdown*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkdocs/catalog",
+      "status": "candidate-context",
+      "text": ":trophy: :books: A list of awesome MkDocs projects and plugins. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkdocs/catalog",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable -->"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "mkdocs/mkdocs",
       "status": "candidate",
       "text": "> *Project documentation with Markdown*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkdocs/catalog",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable -->"
     }
   ],
   "candidate_related_terms": [],
@@ -90,11 +108,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "mkdocs/mkdocs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "mkdocs/catalog"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

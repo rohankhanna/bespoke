@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "java-json-library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson",
+      "status": "candidate-context",
+      "text": "Main Portal page for the Jackson project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson",
+      "status": "candidate-context",
+      "text": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson",
+      "status": "candidate",
+      "text": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "java-json-library",
+  "concept_id": "java-json-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "java-json-library",
+      "sense_id": "java-json-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

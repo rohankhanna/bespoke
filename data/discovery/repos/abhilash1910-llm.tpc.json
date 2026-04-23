@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:23:18.056811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4859
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TPC Habana Gaudi2 port of llm.c",
+    "fork": false,
+    "full_name": "abhilash1910/llm.tpc",
+    "html_url": "https://github.com/abhilash1910/llm.tpc",
+    "language": "C++",
+    "pushed_at": "2024-07-16T07:41:23Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-05-06T16:21:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

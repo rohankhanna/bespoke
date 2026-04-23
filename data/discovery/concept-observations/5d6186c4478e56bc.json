@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CMake.js - a Node.js native addon build tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Node CI](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml/badge.svg)](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Node CI](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml/badge.svg)](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "build-system",
+      "sense_id": "build-system#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-system",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-system",
+  "observation_id": "5d6186c4478e56bc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "build-system",
+  "source_context_snippet": "[![Node CI](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml/badge.svg)](https://github.com/cmake-js/cmake-js/actions/workflows/node.yaml)",
+  "source_file": null,
+  "source_repo": "cmake-js/cmake-js",
+  "source_repo_description": "CMake.js - a Node.js native addon build tool"
+}

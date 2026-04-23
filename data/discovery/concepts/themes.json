@@ -31,6 +31,18 @@
       "source_repo": "ohmyzsh/ohmyzsh",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png\" alt=\"Oh My Zsh\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "status": "candidate-context",
+      "text": "Custom Themes for Cherry Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "status": "candidate-context",
+      "text": "![Free Palestine](https://freepalestinemovement.org/wp-content/uploads/2013/06/banner.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "ohmyzsh/ohmyzsh",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"https://ohmyzsh.s3.amazonaws.com/omz-ansi-github.png\" alt=\"Oh My Zsh\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "status": "candidate",
+      "text": "![Free Palestine](https://freepalestinemovement.org/wp-content/uploads/2013/06/banner.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "Cle2ment/CherryStudio_themes"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

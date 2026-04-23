@@ -1,0 +1,12 @@
+{
+  "component": "astral-sh/setup-uv@1e862dfacbd1d6d858c55d9b792c756523627244",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/third_party.yml",
+      "source_repo": "python/typing_extensions"
+    }
+  ]
+}

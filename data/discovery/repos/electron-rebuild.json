@@ -189,13 +189,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "electron/rebuild",
-      "target": "prebuild/prebuild",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "electron/rebuild",
@@ -462,7 +455,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T04:51:30.407331+00:00",
+  "fetched_at": "2026-04-23T01:11:41.824610+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -521,11 +514,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "nodejs/node-gyp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "prebuild/prebuild",
       "source_file": "README.md"
     }
   ],

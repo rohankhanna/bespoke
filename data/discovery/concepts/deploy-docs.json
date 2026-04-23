@@ -3,7 +3,8 @@
     "deploy-docs",
     "Deploy Docs",
     "Deploy docs",
-    "Deploy docs \ud83d\ude80"
+    "Deploy docs \ud83d\ude80",
+    "deploy docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -106,6 +107,30 @@
       "source_repo": "kulshekhar/ts-jest",
       "status": "candidate-context",
       "text": "Deploy docs \ud83d\ude80"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "FastAPI framework, high performance, easy to learn, fast to code, ready for production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate-context",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "labring/laf",
+      "status": "candidate-context",
+      "text": "Laf is a vibrant cloud development platform that provides essential tools like cloud functions, databases, and storage solutions. It enables developers to quickly unleash their creativity and bring innovative ideas to life with ease."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labring/laf",
+      "status": "candidate-context",
+      "text": "deploy docs"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +181,18 @@
       "source_repo": "kulshekhar/ts-jest",
       "status": "candidate",
       "text": "Deploy docs \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastapi/fastapi",
+      "status": "candidate",
+      "text": "Deploy Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "labring/laf",
+      "status": "candidate",
+      "text": "deploy docs"
     }
   ],
   "candidate_related_terms": [
@@ -247,11 +284,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/docs-deploy.yml",
       "source_repo": "kulshekhar/ts-jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/deploy-docs.yml",
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/deploy-doc.yml",
+      "source_repo": "labring/laf"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

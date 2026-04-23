@@ -1,0 +1,244 @@
+{
+  "components": [
+    {
+      "component": "fastai/workflows/quarto-rsync3@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "fastai/workflows/test-rsync@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rsync-tst.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fastai/fastai",
+      "target": "fastai/fastcore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fastai/fastai",
+      "target": "fastai/docker-containers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "fastai/fastai",
+      "target": "fastai/workflows/quarto-rsync3@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "fastai/fastai",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fastai/fastai",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fastai/fastai",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fastai/fastai",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rsync-tst.yml",
+      "source_repo": "fastai/fastai",
+      "target": "fastai/workflows/test-rsync@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rsync-tst.yml",
+      "source_repo": "fastai/fastai",
+      "target": "Test rsync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastai/fastai",
+      "target": "colab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastai/fastai",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastai/fastai",
+      "target": "fastai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastai/fastai",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastai/fastai",
+      "target": "notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastai/fastai",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:15:05.361978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6477
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1871
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 433
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1854
+    },
+    {
+      "path": ".github/workflows/rsync-tst.yml",
+      "size": 378
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The fastai deep learning library",
+    "fork": false,
+    "full_name": "fastai/fastai",
+    "html_url": "https://github.com/fastai/fastai",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-06T03:30:03Z",
+    "stargazers_count": 27985,
+    "topics": [
+      "colab",
+      "deep-learning",
+      "fastai",
+      "gpu",
+      "machine-learning",
+      "notebooks",
+      "python",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-22T20:51:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fastai/docker-containers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fastai/fastcore",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Deploy to GitHub Pages"
+    },
+    {
+      "context_snippet": "Test rsync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rsync-tst.yml",
+      "term": "Test rsync"
+    },
+    {
+      "context_snippet": "<!-- WARNING: THIS FILE WAS AUTOGENERATED! DO NOT EDIT! -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colab"
+    },
+    {
+      "context_snippet": "<!-- WARNING: THIS FILE WAS AUTOGENERATED! DO NOT EDIT! -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<!-- WARNING: THIS FILE WAS AUTOGENERATED! DO NOT EDIT! -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastai"
+    },
+    {
+      "context_snippet": "<!-- WARNING: THIS FILE WAS AUTOGENERATED! DO NOT EDIT! -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<!-- WARNING: THIS FILE WAS AUTOGENERATED! DO NOT EDIT! -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebooks"
+    },
+    {
+      "context_snippet": "<!-- WARNING: THIS FILE WAS AUTOGENERATED! DO NOT EDIT! -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

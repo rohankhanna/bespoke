@@ -116,6 +116,18 @@
       "source_repo": "rust-cli/confy",
       "status": "candidate-context",
       "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate-context",
+      "text": "Google Workspace CLI \u2014 one command-line tool for Drive, Gmail, Calendar, Sheets, Docs, Chat, Admin, and more. Dynamically built from Google Discovery Service. Includes AI agent skills."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleworkspace/cli",
+      "status": "candidate-context",
+      "text": "Audit"
     }
   ],
   "candidate_glosses": [
@@ -170,6 +182,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rust-cli/confy",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleworkspace/cli",
       "status": "candidate",
       "text": "Audit"
     }
@@ -321,11 +339,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "rust-cli/confy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "googleworkspace/cli"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

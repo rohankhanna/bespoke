@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:14:39.769940+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "at-aaims/forge",
+    "html_url": "https://github.com/at-aaims/forge",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-04-21T18:30:24Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2025-07-15T06:18:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

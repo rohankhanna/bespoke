@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/jackson",
+      "target": "bramp/jackson-datatype-commons-lang3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/jackson",
+      "target": "bedatadriven/jackson-datatype-jts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/jackson",
+      "target": "antibrumm/jackson-antpathfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterXML/jackson",
+      "target": "antidot/pyckson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson",
+      "target": "jackson",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson",
+      "target": "java-json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson",
+      "target": "java-json-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:15:57.841535+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Main Portal page for the Jackson project",
+    "fork": false,
+    "full_name": "FasterXML/jackson",
+    "html_url": "https://github.com/FasterXML/jackson",
+    "language": null,
+    "pushed_at": "2026-04-19T23:22:28Z",
+    "stargazers_count": 9705,
+    "topics": [
+      "hacktoberfest",
+      "jackson",
+      "java-json",
+      "java-json-library"
+    ],
+    "updated_at": "2026-04-22T12:36:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antibrumm/jackson-antpathfilter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antidot/pyckson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bedatadriven/jackson-datatype-jts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bramp/jackson-datatype-commons-lang3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jackson"
+    },
+    {
+      "context_snippet": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-json"
+    },
+    {
+      "context_snippet": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-json-library"
+    }
+  ]
+}

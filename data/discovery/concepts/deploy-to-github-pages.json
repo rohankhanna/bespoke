@@ -67,6 +67,30 @@
       "source_repo": "sbcgua/ajson",
       "status": "candidate-context",
       "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "patrickkabwe/create-nitro-module",
+      "status": "candidate-context",
+      "text": "A CLI tool that simplifies creating React Native modules powered by Nitro Modules."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrickkabwe/create-nitro-module",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastai/fastai",
+      "status": "candidate-context",
+      "text": "The fastai deep learning library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastai/fastai",
+      "status": "candidate-context",
+      "text": "Deploy to GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +121,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "sbcgua/ajson",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "patrickkabwe/create-nitro-module",
+      "status": "candidate",
+      "text": "Deploy to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastai/fastai",
       "status": "candidate",
       "text": "Deploy to GitHub Pages"
     }
@@ -184,11 +220,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "pyodide/pyodide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "patrickkabwe/create-nitro-module"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "fastai/fastai"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

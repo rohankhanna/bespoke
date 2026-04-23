@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hakadao/CherryStudio-Aero",
+      "target": "aero",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hakadao/CherryStudio-Aero",
+      "target": "cherry-studio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hakadao/CherryStudio-Aero",
+      "target": "glassmorphism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hakadao/CherryStudio-Aero",
+      "target": "theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:25:55.283257+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8727
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Give your Cherry Studio a modern, Aero theme | \u7d66\u4f60 Cherry Studio \u4e00\u500b\u73fe\u4ee3\u7684 Aero \u4e3b\u984c",
+    "fork": false,
+    "full_name": "hakadao/CherryStudio-Aero",
+    "html_url": "https://github.com/hakadao/CherryStudio-Aero",
+    "language": "CSS",
+    "pushed_at": "2025-09-22T09:06:18Z",
+    "stargazers_count": 219,
+    "topics": [
+      "aero",
+      "cherry-studio",
+      "glassmorphism",
+      "theme"
+    ],
+    "updated_at": "2026-04-17T21:16:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README-cmn_CN.md) | [\u7e41\u9ad4\u4e2d\u6587](README-cmn_TW.md) | [\u5ee3\u6771\u8a71](README-jyut.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aero"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README-cmn_CN.md) | [\u7e41\u9ad4\u4e2d\u6587](README-cmn_TW.md) | [\u5ee3\u6771\u8a71](README-jyut.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cherry-studio"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README-cmn_CN.md) | [\u7e41\u9ad4\u4e2d\u6587](README-cmn_TW.md) | [\u5ee3\u6771\u8a71](README-jyut.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glassmorphism"
+    },
+    {
+      "context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](README-cmn_CN.md) | [\u7e41\u9ad4\u4e2d\u6587](README-cmn_TW.md) | [\u5ee3\u6771\u8a71](README-jyut.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theme"
+    }
+  ]
+}

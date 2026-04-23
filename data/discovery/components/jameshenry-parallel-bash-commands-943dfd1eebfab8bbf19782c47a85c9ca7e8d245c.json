@@ -1,0 +1,17 @@
+{
+  "component": "jameshenry/parallel-bash-commands@943dfd1eebfab8bbf19782c47a85c9ca7e8d245c",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lerna/lerna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/other-node-versions.yml",
+      "source_repo": "lerna/lerna"
+    }
+  ]
+}

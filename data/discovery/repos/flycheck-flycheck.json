@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "flycheck/flycheck",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "flycheck/flycheck",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "flycheck/flycheck",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "flycheck/flycheck",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "flycheck/flycheck",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "flycheck/flycheck",
+      "target": "Create GitHub Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flycheck/flycheck",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flycheck/flycheck",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "flycheck/flycheck",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flycheck/flycheck",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flycheck/flycheck",
+      "target": "flycheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flycheck/flycheck",
+      "target": "syntax-checking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:16:29.348045+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13463
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 539
+    },
+    {
+      "path": ".github/workflows/github-release.yml",
+      "size": 817
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1314
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "On the fly syntax checking for GNU Emacs",
+    "fork": false,
+    "full_name": "flycheck/flycheck",
+    "html_url": "https://github.com/flycheck/flycheck",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-20T17:15:08Z",
+    "stargazers_count": 2515,
+    "topics": [
+      "emacs",
+      "flycheck",
+      "syntax-checking"
+    ],
+    "updated_at": "2026-04-21T03:50:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "Create GitHub Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-release.yml",
+      "term": "Create GitHub Release"
+    },
+    {
+      "context_snippet": "[![License GPL 3](https://img.shields.io/github/license/flycheck/flycheck.svg)][COPYING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![License GPL 3](https://img.shields.io/github/license/flycheck/flycheck.svg)][COPYING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flycheck"
+    },
+    {
+      "context_snippet": "[![License GPL 3](https://img.shields.io/github/license/flycheck/flycheck.svg)][COPYING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-checking"
+    }
+  ]
+}

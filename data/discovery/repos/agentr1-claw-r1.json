@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AgentR1/Claw-R1",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AgentR1/Claw-R1",
+      "target": "0russwest0/agent-r1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AgentR1/Claw-R1",
+      "target": "rllm-org/rllm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AgentR1/Claw-R1",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AgentR1/Claw-R1",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "AgentR1/Claw-R1",
+      "target": "Deploy Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgentR1/Claw-R1",
+      "target": "agentic-rl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AgentR1/Claw-R1",
+      "target": "openclaw",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:18:33.242558+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5645
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1229
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 648
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claw-R1: Empowering OpenClaw with Advanced Agentic RL.",
+    "fork": false,
+    "full_name": "AgentR1/Claw-R1",
+    "html_url": "https://github.com/AgentR1/Claw-R1",
+    "language": "Python",
+    "pushed_at": "2026-04-08T07:28:16Z",
+    "stargazers_count": 170,
+    "topics": [
+      "agent",
+      "agentic-rl",
+      "openclaw"
+    ],
+    "updated_at": "2026-04-22T14:25:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0russwest0/agent-r1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rllm-org/rllm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Deploy Documentation"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Claw-R1: The Data Foundation for <br> Agentic Reinforcement Learning </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-rl"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\"> Claw-R1: The Data Foundation for <br> Agentic Reinforcement Learning </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    }
+  ]
+}

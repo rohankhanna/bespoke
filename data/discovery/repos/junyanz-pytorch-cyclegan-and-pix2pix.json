@@ -1,0 +1,220 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "affinelayer/pix2pix-tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "architrathore/cyclegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "aixile/chainer-cyclegan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "awjuliani/pix2pix-film",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "computer-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "cyclegan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "gans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "image-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "pix2pix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:28:07.082973+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Image-to-Image Translation in PyTorch",
+    "fork": false,
+    "full_name": "junyanz/pytorch-CycleGAN-and-pix2pix",
+    "html_url": "https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix",
+    "language": "Python",
+    "pushed_at": "2025-08-06T17:58:38Z",
+    "stargazers_count": 25084,
+    "topics": [
+      "computer-graphics",
+      "computer-vision",
+      "cyclegan",
+      "deep-learning",
+      "gan",
+      "gans",
+      "generative-adversarial-network",
+      "image-generation",
+      "image-manipulation",
+      "pix2pix",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-22T23:58:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "affinelayer/pix2pix-tensorflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aixile/chainer-cyclegan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "architrathore/cyclegan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awjuliani/pix2pix-film",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-graphics"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cyclegan"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gans"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-manipulation"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pix2pix"
+    },
+    {
+      "context_snippet": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

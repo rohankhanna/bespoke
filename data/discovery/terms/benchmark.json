@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -121,6 +121,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "google/benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "inikep/lzbench"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci_benchmark.yml",
+      "source_repo": "astropy/astropy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmaction2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "RUC-NLPIR/FlashRAG"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "hajimes/mmh3"
     }
   ],
   "term": "Benchmark"

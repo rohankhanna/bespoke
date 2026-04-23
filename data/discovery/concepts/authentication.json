@@ -19,6 +19,18 @@
       "source_repo": "apache/casbin",
       "status": "candidate-context",
       "text": "Casbin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "firebase/firebase-admin-python",
+      "status": "candidate-context",
+      "text": "Firebase Admin Python SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-admin-python",
+      "status": "candidate-context",
+      "text": "[![Nightly Builds](https://github.com/firebase/firebase-admin-python/actions/workflows/nightly.yml/badge.svg)](https://github.com/firebase/firebase-admin-python/actions/workflows/nightly.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "apache/casbin",
       "status": "candidate",
       "text": "Casbin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "firebase/firebase-admin-python",
+      "status": "candidate",
+      "text": "[![Nightly Builds](https://github.com/firebase/firebase-admin-python/actions/workflows/nightly.yml/badge.svg)](https://github.com/firebase/firebase-admin-python/actions/workflows/nightly.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +116,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "firebase/firebase-admin-python"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

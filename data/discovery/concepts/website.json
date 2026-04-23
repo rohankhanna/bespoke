@@ -58,6 +58,18 @@
       "source_repo": "babel/website",
       "status": "candidate-context",
       "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flutter/website",
+      "status": "candidate-context",
+      "text": "Flutter documentation web site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/website",
+      "status": "candidate-context",
+      "text": "[![Flutter logo]](https://docs.flutter.dev)"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +96,12 @@
       "source_repo": "babel/website",
       "status": "candidate",
       "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flutter/website",
+      "status": "candidate",
+      "text": "[![Flutter logo]](https://docs.flutter.dev)"
     }
   ],
   "candidate_related_terms": [
@@ -175,11 +193,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "flutter/website"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

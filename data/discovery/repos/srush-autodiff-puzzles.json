@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "srush/Autodiff-Puzzles",
+      "target": "srush/tensor-puzzles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "srush/Autodiff-Puzzles",
+      "target": "srush/gpu-puzzles",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:18:01.549953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1049
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "srush/Autodiff-Puzzles",
+    "html_url": "https://github.com/srush/Autodiff-Puzzles",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-10-18T20:24:33Z",
+    "stargazers_count": 500,
+    "topics": [],
+    "updated_at": "2026-04-22T01:51:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srush/gpu-puzzles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srush/tensor-puzzles",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

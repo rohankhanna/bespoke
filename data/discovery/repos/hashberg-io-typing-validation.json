@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "hashberg-io/typing-validation",
+      "target": "pypa/setuptools_scm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml",
+      "source_repo": "hashberg-io/typing-validation",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-pytest.yml",
+      "source_repo": "hashberg-io/typing-validation",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashberg-io/typing-validation",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hashberg-io/typing-validation",
+      "target": "utility",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:22:51.040685+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4603
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 374
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2
+    },
+    {
+      "path": ".github/workflows/python-pytest.yml",
+      "size": 1052
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple library for runtime type-checking.",
+    "fork": false,
+    "full_name": "hashberg-io/typing-validation",
+    "html_url": "https://github.com/hashberg-io/typing-validation",
+    "language": "Python",
+    "pushed_at": "2025-12-21T10:23:59Z",
+    "stargazers_count": 8,
+    "topics": [
+      "library",
+      "utility"
+    ],
+    "updated_at": "2025-12-11T06:31:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pypa/setuptools_scm",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "typing-validation: Validation using Type Hints",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "typing-validation: Validation using Type Hints",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utility"
+    }
+  ]
+}

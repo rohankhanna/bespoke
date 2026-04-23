@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Publish to PyPI"
+    "Publish to PyPI",
+    "Publish to pypi"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -175,6 +176,60 @@
       "source_repo": "amiable-dev/llm-council",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckan/ckan",
+      "status": "candidate-context",
+      "text": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckan",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckan/ckanext-xloader",
+      "status": "candidate-context",
+      "text": "Express Loader - quickly load data into DataStore. A replacement for DataPusher."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckanext-xloader",
+      "status": "candidate-context",
+      "text": "Publish to pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "status": "candidate-context",
+      "text": "A lightweight library designed to accelerate the process of training PyTorch models by providing a minimal, but extensible training loop which is flexible enough to handle the majority of use cases, and capable of utilizing different hardware options with no code changes required. Docs: https://pytorch-accelerated.readthedocs.io/en/latest/ "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Learning-Profiling-Tools/triton-viz",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-hyper/uritemplate",
+      "status": "candidate-context",
+      "text": "URI template parsing per RFC6570"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-hyper/uritemplate",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -259,6 +314,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "amiable-dev/llm-council",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckan",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckanext-xloader",
+      "status": "candidate",
+      "text": "Publish to pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Chris-hughes10/pytorch-accelerated",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Learning-Profiling-Tools/triton-viz",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-hyper/uritemplate",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -412,11 +497,41 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "amiable-dev/llm-council"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "ckan/ckan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ckan/ckanext-xloader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "Chris-hughes10/pytorch-accelerated"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Deep-Learning-Profiling-Tools/triton-viz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "python-hyper/uritemplate"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

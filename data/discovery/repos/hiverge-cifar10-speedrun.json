@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:23:25.786401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5092
+    },
+    {
+      "path": "requirements.txt",
+      "size": 44
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CIFAR-10 speedrun: Trains to 94% accuracy in 1.98 seconds on a single NVIDIA A100 GPU.",
+    "fork": false,
+    "full_name": "hiverge/cifar10-speedrun",
+    "html_url": "https://github.com/hiverge/cifar10-speedrun",
+    "language": "Python",
+    "pushed_at": "2025-10-17T11:13:08Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-04-21T21:43:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

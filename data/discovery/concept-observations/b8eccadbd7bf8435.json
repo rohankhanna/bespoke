@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ReactJS development kit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Latest NPM Release](https://img.shields.io/npm/v/@dr.pogodin/react-utils.svg)](https://www.npmjs.com/package/@dr.pogodin/react-utils)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Latest NPM Release](https://img.shields.io/npm/v/@dr.pogodin/react-utils.svg)](https://www.npmjs.com/package/@dr.pogodin/react-utils)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39900454,
+      "status": "candidate",
+      "text": "dispatcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39827241,
+      "status": "candidate",
+      "text": "entrant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39676678,
+      "status": "candidate",
+      "text": "crank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39674038,
+      "status": "candidate",
+      "text": "newcomer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39667670,
+      "status": "candidate",
+      "text": "freshman"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "starter",
+      "sense_id": "starter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28042,
+      "status": "candidate",
+      "text": "neophyte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22052,
+      "status": "candidate",
+      "text": "crank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19031,
+      "status": "candidate",
+      "text": "fledgling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11030,
+      "status": "candidate",
+      "text": "entrant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2035,
+      "status": "candidate",
+      "text": "freshman"
+    }
+  ],
+  "concept_id": "starter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "starter",
+  "observation_id": "b8eccadbd7bf8435",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "starter",
+  "source_context_snippet": "[![Latest NPM Release](https://img.shields.io/npm/v/@dr.pogodin/react-utils.svg)](https://www.npmjs.com/package/@dr.pogodin/react-utils)",
+  "source_file": null,
+  "source_repo": "birdofpreyru/react-utils",
+  "source_repo_description": "ReactJS development kit."
+}

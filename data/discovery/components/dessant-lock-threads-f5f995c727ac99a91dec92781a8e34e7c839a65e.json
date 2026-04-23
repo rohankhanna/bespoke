@@ -1,0 +1,12 @@
+{
+  "component": "dessant/lock-threads@f5f995c727ac99a91dec92781a8e34e7c839a65e",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lockthreads.yml",
+      "source_repo": "fish-shell/fish-shell"
+    }
+  ]
+}

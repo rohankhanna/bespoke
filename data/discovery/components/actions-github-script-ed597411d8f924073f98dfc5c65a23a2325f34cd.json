@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -312,6 +312,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/auto-ready-for-review.yaml",
       "source_repo": "aquasecurity/trivy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkg-pr-new.yml",
+      "source_repo": "lerna/lerna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-electron-abi.yml",
+      "source_repo": "electron/node-abi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_style_bot.yml",
+      "source_repo": "huggingface/trl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_milestone.yml",
+      "source_repo": "astropy/astropy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml",
+      "source_repo": "astropy/astropy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-pr-preview.yml",
+      "source_repo": "hashicorp/web-unified-docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-release-pr.yml",
+      "source_repo": "caddyserver/caddy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-proposal.yml",
+      "source_repo": "caddyserver/caddy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "caddyserver/caddy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autolabel_prs.yml",
+      "source_repo": "fish-shell/fish-shell"
     }
   ]
 }

@@ -1,0 +1,541 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CFF-test.yml"
+    },
+    {
+      "component": "citation-file-format/cffconvert-github-action@4cf11baa70a673bfdf9dad0acc7ee33b3f4b6084",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CFF-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml"
+    },
+    {
+      "component": "scientific-python/action-towncrier-changelog@f9c7df9a9f8b55cb0c12d94d14b281e9bcd101c0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_milestone.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_benchmark.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_benchmark.yml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_benchmark.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_daily.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_daily.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_monthly.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@d94c13912ea685de38fccc1109385b83fd79427d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_monthly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_weekly.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_weekly.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_weekly.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@d94c13912ea685de38fccc1109385b83fd79427d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_weekly.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml"
+    },
+    {
+      "component": "OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@e97344095b099e1d729fe97429078c9975921d8a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml"
+    },
+    {
+      "component": "OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@e97344095b099e1d729fe97429078c9975921d8a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml"
+    },
+    {
+      "component": "OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@e97344095b099e1d729fe97429078c9975921d8a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml"
+    },
+    {
+      "component": "OpenAstronomy/github-actions-workflows/.github/workflows/publish.yml@e97344095b099e1d729fe97429078c9975921d8a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "astropy/astropy",
+      "target": "astropy/astropy-project",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "astropy/astropy",
+      "target": "astropy/repo_stats",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "astropy/astropy",
+      "target": "pyopensci/software-review",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "astropy/astropy",
+      "target": "alexmojaki/stack_data",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CFF-test.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CFF-test.yml",
+      "source_repo": "astropy/astropy",
+      "target": "citation-file-format/cffconvert-github-action@4cf11baa70a673bfdf9dad0acc7ee33b3f4b6084",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CFF-test.yml",
+      "source_repo": "astropy/astropy",
+      "target": "Checking CITATION.cff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "astropy/astropy",
+      "target": "scientific-python/action-towncrier-changelog@f9c7df9a9f8b55cb0c12d94d14b281e9bcd101c0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "astropy/astropy",
+      "target": "Check PR change log",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_milestone.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_milestone.yml",
+      "source_repo": "astropy/astropy",
+      "target": "Check PR milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_benchmark.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_benchmark.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_benchmark.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_benchmark.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_benchmark.yml",
+      "source_repo": "astropy/astropy",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_daily.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_daily.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cron_daily.yml",
+      "source_repo": "astropy/astropy",
+      "target": "Daily cron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_monthly.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_monthly.yml",
+      "source_repo": "astropy/astropy",
+      "target": "uraimo/run-on-arch-action@d94c13912ea685de38fccc1109385b83fd79427d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cron_monthly.yml",
+      "source_repo": "astropy/astropy",
+      "target": "Monthly cron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_weekly.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_weekly.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cron_weekly.yml",
+      "source_repo": "astropy/astropy",
+      "target": "uraimo/run-on-arch-action@d94c13912ea685de38fccc1109385b83fd79427d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cron_weekly.yml",
+      "source_repo": "astropy/astropy",
+      "target": "Weekly cron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml",
+      "source_repo": "astropy/astropy",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml",
+      "source_repo": "astropy/astropy",
+      "target": "OpenAstronomy/github-actions-workflows/.github/workflows/tox.yml@e97344095b099e1d729fe97429078c9975921d8a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_workflows.yml",
+      "source_repo": "astropy/astropy",
+      "target": "OpenAstronomy/github-actions-workflows/.github/workflows/publish.yml@e97344095b099e1d729fe97429078c9975921d8a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astropy/astropy",
+      "target": "astronomy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astropy/astropy",
+      "target": "astrophysics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astropy/astropy",
+      "target": "astropy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "astropy/astropy",
+      "target": "science",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:16:18.875650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 5856
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 27600
+    },
+    {
+      "path": ".github/workflows/CFF-test.yml",
+      "size": 590
+    },
+    {
+      "path": ".github/workflows/check_changelog.yml",
+      "size": 724
+    },
+    {
+      "path": ".github/workflows/check_milestone.yml",
+      "size": 1129
+    },
+    {
+      "path": ".github/workflows/ci_benchmark.yml",
+      "size": 3288
+    },
+    {
+      "path": ".github/workflows/ci_cron_daily.yml",
+      "size": 2291
+    },
+    {
+      "path": ".github/workflows/ci_cron_monthly.yml",
+      "size": 3283
+    },
+    {
+      "path": ".github/workflows/ci_cron_weekly.yml",
+      "size": 6815
+    },
+    {
+      "path": ".github/workflows/ci_workflows.yml",
+      "size": 7194
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Astronomy and astrophysics core library",
+    "fork": false,
+    "full_name": "astropy/astropy",
+    "html_url": "https://github.com/astropy/astropy",
+    "language": "Python",
+    "pushed_at": "2026-04-21T12:51:22Z",
+    "stargazers_count": 5128,
+    "topics": [
+      "astronomy",
+      "astrophysics",
+      "astropy",
+      "python",
+      "science"
+    ],
+    "updated_at": "2026-04-22T09:56:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astropy/astropy-project",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astropy/repo_stats",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyopensci/software-review",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexmojaki/stack_data",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Checking CITATION.cff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CFF-test.yml",
+      "term": "Checking CITATION.cff"
+    },
+    {
+      "context_snippet": "Check PR change log",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "term": "Check PR change log"
+    },
+    {
+      "context_snippet": "Check PR milestone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_milestone.yml",
+      "term": "Check PR milestone"
+    },
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_benchmark.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "Daily cron",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cron_daily.yml",
+      "term": "Daily cron"
+    },
+    {
+      "context_snippet": "Monthly cron",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cron_monthly.yml",
+      "term": "Monthly cron"
+    },
+    {
+      "context_snippet": "Weekly cron",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cron_weekly.yml",
+      "term": "Weekly cron"
+    },
+    {
+      "context_snippet": "|Astropy Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "astronomy"
+    },
+    {
+      "context_snippet": "|Astropy Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "astrophysics"
+    },
+    {
+      "context_snippet": "|Astropy Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "astropy"
+    },
+    {
+      "context_snippet": "|Astropy Logo|",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "science"
+    }
+  ]
+}

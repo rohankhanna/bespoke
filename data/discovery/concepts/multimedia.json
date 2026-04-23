@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "multimedia"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/XPretrain",
+      "status": "candidate-context",
+      "text": "Multi-modality pre-training"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/XPretrain",
+      "status": "candidate-context",
+      "text": "This repo includes some recent research works in **multi-modality learning**, especially with **pre-training** method from [MSM group](https://www.microsoft.com/en-us/research/group/multimedia-search-and-mining/) of Microsoft Research."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/XPretrain",
+      "status": "candidate",
+      "text": "This repo includes some recent research works in **multi-modality learning**, especially with **pre-training** method from [MSM group](https://www.microsoft.com/en-us/research/group/multimedia-search-and-mining/) of Microsoft Research."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027795,
+      "status": "candidate",
+      "text": "multimedia system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027794,
+      "status": "candidate",
+      "text": "audiovisual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20027607,
+      "status": "candidate",
+      "text": "audio-visual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025313,
+      "status": "candidate",
+      "text": "video"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20005959,
+      "status": "candidate",
+      "text": "mms"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "multimedia system"
+    }
+  ],
+  "canonical_name": "multimedia",
+  "concept_id": "multimedia",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/XPretrain"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multimedia",
+      "sense_id": "multimedia#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

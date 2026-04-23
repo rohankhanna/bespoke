@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babel/rfcs",
+      "target": "eslint/rfcs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:24:15.004027+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5241
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RFCs for changes to Babel",
+    "fork": false,
+    "full_name": "babel/rfcs",
+    "html_url": "https://github.com/babel/rfcs",
+    "language": null,
+    "pushed_at": "2024-06-30T18:41:54Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-03-22T20:48:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eslint/rfcs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

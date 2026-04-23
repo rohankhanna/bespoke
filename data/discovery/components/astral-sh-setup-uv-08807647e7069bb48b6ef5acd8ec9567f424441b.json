@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/integration.yml",
       "source_repo": "apache/arrow-adbc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/api-tests.yml",
+      "source_repo": "langgenius/dify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "langgenius/dify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/db-migration-test.yml",
+      "source_repo": "langgenius/dify"
     }
   ]
 }

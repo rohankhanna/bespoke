@@ -31,6 +31,30 @@
       "source_repo": "dathere/datapusher-plus",
       "status": "candidate-context",
       "text": "[CKAN Service Provider]: https://github.com/ckan/ckan-service-provider"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckan/ckan",
+      "status": "candidate-context",
+      "text": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckan",
+      "status": "candidate-context",
+      "text": "CKAN: The Open Source Data Portal Software"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckan/datapusher",
+      "status": "candidate-context",
+      "text": "[Deprecated] A standalone web service that pushes data files from a CKAN site resources into its DataStore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/datapusher",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/ckan/datapusher/actions/workflows/test.yml/badge.svg)](https://github.com/ckan/datapusher/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "dathere/datapusher-plus",
       "status": "candidate",
       "text": "[CKAN Service Provider]: https://github.com/ckan/ckan-service-provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckan",
+      "status": "candidate",
+      "text": "CKAN: The Open Source Data Portal Software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/datapusher",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/ckan/datapusher/actions/workflows/test.yml/badge.svg)](https://github.com/ckan/datapusher/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "dathere/datapusher-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ckan/ckan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ckan/datapusher"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

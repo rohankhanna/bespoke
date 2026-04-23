@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "release-drafter/release-drafter@v6.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-management.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-desktop.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-desktop.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-desktop.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-management.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "winsw/winsw",
+      "target": "dotnet/core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "winsw/winsw",
+      "target": "jenkinsci/winsw-maven-packaging",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "winsw/winsw",
+      "target": "birkett/srvany-ng",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "winsw/winsw",
+      "target": "mtkennerly/shawl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-management.yml",
+      "source_repo": "winsw/winsw",
+      "target": "release-drafter/release-drafter@v6.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-management.yml",
+      "source_repo": "winsw/winsw",
+      "target": "Changelog Management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-desktop.yml",
+      "source_repo": "winsw/winsw",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-desktop.yml",
+      "source_repo": "winsw/winsw",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-desktop.yml",
+      "source_repo": "winsw/winsw",
+      "target": "microsoft/setup-msbuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone-management.yml",
+      "source_repo": "winsw/winsw",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-management.yml",
+      "source_repo": "winsw/winsw",
+      "target": "Milestone Management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "winsw/winsw",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "winsw/winsw",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "winsw/winsw",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "winsw/winsw",
+      "target": "nuget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "winsw/winsw",
+      "target": "windows-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "winsw/winsw",
+      "target": "windows-service-wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:25:33.165623+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7275
+    },
+    {
+      "path": ".github/workflows/changelog-management.yml",
+      "size": 237
+    },
+    {
+      "path": ".github/workflows/dotnet-desktop.yml",
+      "size": 1124
+    },
+    {
+      "path": ".github/workflows/milestone-management.yml",
+      "size": 530
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v3",
+    "description": "A wrapper executable that can run any executable as a Windows service, in a permissive license.",
+    "fork": false,
+    "full_name": "winsw/winsw",
+    "html_url": "https://github.com/winsw/winsw",
+    "language": "C#",
+    "pushed_at": "2026-04-23T01:23:53Z",
+    "stargazers_count": 13889,
+    "topics": [
+      "csharp",
+      "dotnet",
+      "hacktoberfest",
+      "nuget",
+      "windows-service",
+      "windows-service-wrapper"
+    ],
+    "updated_at": "2026-04-22T17:32:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "birkett/srvany-ng",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jenkinsci/winsw-maven-packaging",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mtkennerly/shawl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Changelog Management",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-management.yml",
+      "term": "Changelog Management"
+    },
+    {
+      "context_snippet": "Milestone Management",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone-management.yml",
+      "term": "Milestone Management"
+    },
+    {
+      "context_snippet": "[![Github All Releases](https://img.shields.io/github/downloads/winsw/winsw/total?style=flat-square)](https://github.com/winsw/winsw/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[![Github All Releases](https://img.shields.io/github/downloads/winsw/winsw/total?style=flat-square)](https://github.com/winsw/winsw/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![Github All Releases](https://img.shields.io/github/downloads/winsw/winsw/total?style=flat-square)](https://github.com/winsw/winsw/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Github All Releases](https://img.shields.io/github/downloads/winsw/winsw/total?style=flat-square)](https://github.com/winsw/winsw/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuget"
+    },
+    {
+      "context_snippet": "[![Github All Releases](https://img.shields.io/github/downloads/winsw/winsw/total?style=flat-square)](https://github.com/winsw/winsw/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-service"
+    },
+    {
+      "context_snippet": "[![Github All Releases](https://img.shields.io/github/downloads/winsw/winsw/total?style=flat-square)](https://github.com/winsw/winsw/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-service-wrapper"
+    }
+  ]
+}

@@ -69,6 +69,18 @@
       "source_repo": "eryajf/chatgpt-dingtalk",
       "status": "candidate-context",
       "text": "build docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gohugoio/hugo",
+      "status": "candidate-context",
+      "text": "The world\u2019s fastest framework for building websites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gohugoio/hugo",
+      "status": "candidate-context",
+      "text": "Build Docker image"
     }
   ],
   "candidate_glosses": [
@@ -101,6 +113,12 @@
       "source_repo": "eryajf/chatgpt-dingtalk",
       "status": "candidate",
       "text": "build docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gohugoio/hugo",
+      "status": "candidate",
+      "text": "Build Docker image"
     }
   ],
   "candidate_related_terms": [
@@ -174,11 +192,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "eryajf/chatgpt-dingtalk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "gohugoio/hugo"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

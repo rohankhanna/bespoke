@@ -7,7 +7,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -723,6 +725,186 @@
       "source_repo": "dequelabs/axe-core",
       "status": "candidate-context",
       "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/node-gyp",
+      "status": "candidate-context",
+      "text": "Node.js native addon build tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/node-gyp",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dilanx/craco",
+      "status": "candidate-context",
+      "text": "Create React App Configuration Override, an easy and comprehensible configuration layer for Create React App."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dilanx/craco",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckan/ckan-service-provider",
+      "status": "candidate-context",
+      "text": "A library for making web services that make functions available as synchronous or asynchronous jobs "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckan-service-provider",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckan/ckanext-xloader",
+      "status": "candidate-context",
+      "text": "Express Loader - quickly load data into DataStore. A replacement for DataPusher."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckanext-xloader",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckan/datapusher",
+      "status": "candidate-context",
+      "text": "[Deprecated] A standalone web service that pushes data files from a CKAN site resources into its DataStore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/datapusher",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "explosion/weasel",
+      "status": "candidate-context",
+      "text": "\ud83e\udda6 weasel: A small and easy workflow system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/weasel",
+      "status": "candidate-context",
+      "text": "tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-provider-scaffolding",
+      "status": "candidate-context",
+      "text": "Quick start repository for creating a Terraform provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-scaffolding",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/tritonBLAS",
+      "status": "candidate-context",
+      "text": "A lightweight triton-based General Matrix Multiplication (GEMM) library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/tritonBLAS",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate-context",
+      "text": "Fast and extensible multi-platform HTTP/1-2-3 web server with automatic HTTPS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashbots/mev-boost",
+      "status": "candidate-context",
+      "text": "MEV-Boost allows Ethereum validators to source high-MEV blocks from a competitive builder marketplace"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/mev-boost",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/test262",
+      "status": "candidate-context",
+      "text": "Official ECMAScript Conformance Test Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/test262",
+      "status": "candidate-context",
+      "text": "Test262 is the implementation conformance test suite for the latest drafts (or most recent published edition) of the following Ecma specifications:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jquery/esprima",
+      "status": "candidate-context",
+      "text": "ECMAScript parsing infrastructure for multipurpose analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/esprima",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-treesitter/nvim-treesitter",
+      "status": "candidate-context",
+      "text": "Nvim Treesitter configurations and abstraction layer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-treesitter/nvim-treesitter",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mason-org/mason.nvim",
+      "status": "candidate-context",
+      "text": "Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason.nvim",
+      "status": "candidate-context",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "infiniflow/ragflow",
+      "status": "candidate-context",
+      "text": "RAGFlow is a leading open-source Retrieval-Augmented Generation (RAG) engine that fuses cutting-edge RAG with Agent capabilities to create a superior context layer for LLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infiniflow/ragflow",
+      "status": "candidate-context",
+      "text": "tests"
     }
   ],
   "candidate_glosses": [
@@ -1079,6 +1261,96 @@
       "source_repo": "dequelabs/axe-core",
       "status": "candidate",
       "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/node-gyp",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dilanx/craco",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckan-service-provider",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckanext-xloader",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/datapusher",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "explosion/weasel",
+      "status": "candidate",
+      "text": "tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-provider-scaffolding",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/tritonBLAS",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/caddy",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashbots/mev-boost",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/test262",
+      "status": "candidate",
+      "text": "Test262 is the implementation conformance test suite for the latest drafts (or most recent published edition) of the following Ecma specifications:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/esprima",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-treesitter/nvim-treesitter",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mason-org/mason.nvim",
+      "status": "candidate",
+      "text": "Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "infiniflow/ragflow",
+      "status": "candidate",
+      "text": "tests"
     }
   ],
   "candidate_related_terms": [
@@ -1565,11 +1837,119 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "dequelabs/axe-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "hukkin/mdformat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodejs/node-gyp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "dilanx/craco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ckan/ckan-service-provider"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ckan/ckanext-xloader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ckan/datapusher"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "explosion/weasel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hashicorp/terraform-provider-scaffolding"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ROCm/tritonBLAS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "caddyserver/caddy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "flashbots/mev-boost"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "tc39/test262"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "jquery/esprima"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "nvim-treesitter/nvim-treesitter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test-generate.yml",
+      "source_repo": "nvim-treesitter/nvim-treesitter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test-queries.yml",
+      "source_repo": "nvim-treesitter/nvim-treesitter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "infiniflow/ragflow"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

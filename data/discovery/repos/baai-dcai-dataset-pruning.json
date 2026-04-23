@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:12:45.892367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1284
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Dataset pruning for ImageNet and LAION-2B.",
+    "fork": false,
+    "full_name": "BAAI-DCAI/Dataset-Pruning",
+    "html_url": "https://github.com/BAAI-DCAI/Dataset-Pruning",
+    "language": "Python",
+    "pushed_at": "2024-07-05T03:01:49Z",
+    "stargazers_count": 80,
+    "topics": [],
+    "updated_at": "2026-04-22T12:50:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

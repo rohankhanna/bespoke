@@ -43,6 +43,18 @@
       "source_repo": "libgit2/libgit2",
       "status": "candidate-context",
       "text": "libgit2 - the Git linkable library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "radian-software/straight.el",
+      "status": "candidate-context",
+      "text": "\ud83c\udf40 Next-generation, purely functional package manager for the Emacs hacker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radian-software/straight.el",
+      "status": "candidate-context",
+      "text": "**straight.el**: next-generation, purely functional package manager"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "libgit2/libgit2",
       "status": "candidate",
       "text": "libgit2 - the Git linkable library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "radian-software/straight.el",
+      "status": "candidate",
+      "text": "**straight.el**: next-generation, purely functional package manager"
     }
   ],
   "candidate_related_terms": [],
@@ -106,11 +124,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "radian-software/straight.el"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

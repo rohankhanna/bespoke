@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "google-search"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iorate/ublacklist",
+      "status": "candidate-context",
+      "text": "Blocks specific sites from appearing in Google search results"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iorate/ublacklist",
+      "status": "candidate-context",
+      "text": "English | [Deutsch](README.de.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iorate/ublacklist",
+      "status": "candidate",
+      "text": "English | [Deutsch](README.de.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-CN.md)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "google-search",
+  "concept_id": "google-search",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "iorate/ublacklist"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "google-search",
+      "sense_id": "google-search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

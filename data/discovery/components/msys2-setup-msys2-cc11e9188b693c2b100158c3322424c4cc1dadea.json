@@ -1,0 +1,12 @@
+{
+  "component": "msys2/setup-msys2@cc11e9188b693c2b100158c3322424c4cc1dadea",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "Cyan4973/FiniteStateEntropy"
+    }
+  ]
+}

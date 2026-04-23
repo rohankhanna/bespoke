@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:18:51.301152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5572
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2652
+    },
+    {
+      "path": "requirements.txt",
+      "size": 314
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SSRL: Self-Search Reinforcement Learning",
+    "fork": false,
+    "full_name": "TsinghuaC3I/SSRL",
+    "html_url": "https://github.com/TsinghuaC3I/SSRL",
+    "language": "Python",
+    "pushed_at": "2025-08-20T10:25:29Z",
+    "stargazers_count": 207,
+    "topics": [],
+    "updated_at": "2026-04-17T05:32:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yiyixuxu/denoising-diffusion-flax",
+      "target": "google/ml_collections",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yiyixuxu/denoising-diffusion-flax",
+      "target": "jychoi118/p2-weighting",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "source_repo": "yiyixuxu/denoising-diffusion-flax"
+}

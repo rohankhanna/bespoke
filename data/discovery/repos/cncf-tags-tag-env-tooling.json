@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/green-talks-scraper.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/green-talks-scraper.yml",
+      "source_repo": "cncf-tags/tag-env-tooling",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/green-talks-scraper.yml",
+      "source_repo": "cncf-tags/tag-env-tooling",
+      "target": "Green Talks Scraper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:15:30.853601+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 994
+    },
+    {
+      "path": ".github/workflows/green-talks-scraper.yml",
+      "size": 1729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "cncf-tags/tag-env-tooling",
+    "html_url": "https://github.com/cncf-tags/tag-env-tooling",
+    "language": "Shell",
+    "pushed_at": "2024-09-16T12:53:26Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2024-10-03T08:13:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Green Talks Scraper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/green-talks-scraper.yml",
+      "term": "Green Talks Scraper"
+    }
+  ]
+}

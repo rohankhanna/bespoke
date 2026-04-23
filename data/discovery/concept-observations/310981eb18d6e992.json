@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sample applications for Google Kubernetes Engine (GKE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ai-ml-adk-vertex"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ai-ml-adk-vertex"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ai-ml-adk-vertex",
+      "sense_id": "ai-ml-adk-vertex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ai-ml-adk-vertex",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ai-ml-adk-vertex",
+  "observation_id": "310981eb18d6e992",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "ai-ml-adk-vertex",
+  "source_context_snippet": "ai-ml-adk-vertex",
+  "source_file": ".github/workflows/ai-ml-ad-vertex.yml",
+  "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples",
+  "source_repo_description": "Sample applications for Google Kubernetes Engine (GKE)"
+}

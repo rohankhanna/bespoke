@@ -238,6 +238,42 @@
       "source_repo": "kulshekhar/ts-jest",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">ts-jest</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "freebsd/kyua",
+      "status": "candidate-context",
+      "text": "Port/Package build and test system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freebsd/kyua",
+      "status": "candidate-context",
+      "text": "Kyua is a **testing framework** for infrastructure software, originally"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/hive",
+      "status": "candidate-context",
+      "text": "Ethereum end-to-end test harness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/hive",
+      "status": "candidate-context",
+      "text": "Hive is a system for running integration tests against Ethereum clients."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zlib-ng/deflatebench",
+      "status": "candidate-context",
+      "text": "Tool to benchmark zlib-ng"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/deflatebench",
+      "status": "candidate-context",
+      "text": "This tool must be run from the folder where an executable `minigzip` or `minideflate` exist.\\"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +390,24 @@
       "source_repo": "kulshekhar/ts-jest",
       "status": "candidate",
       "text": "<h1 align=\"center\">ts-jest</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freebsd/kyua",
+      "status": "candidate",
+      "text": "Kyua is a **testing framework** for infrastructure software, originally"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/hive",
+      "status": "candidate",
+      "text": "Hive is a system for running integration tests against Ethereum clients."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zlib-ng/deflatebench",
+      "status": "candidate",
+      "text": "This tool must be run from the folder where an executable `minigzip` or `minideflate` exist.\\"
     }
   ],
   "candidate_related_terms": [
@@ -525,11 +579,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "kulshekhar/ts-jest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "freebsd/kyua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "zlib-ng/deflatebench"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

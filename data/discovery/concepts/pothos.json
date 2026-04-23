@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "pothos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pothosware/SoapySDR",
+      "status": "candidate-context",
+      "text": "Vendor and platform neutral SDR support library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pothosware/SoapySDR",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/pothosware/SoapySDR/actions/workflows/ci.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pothosware/SoapySDR",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/pothosware/SoapySDR/actions/workflows/ci.yml/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19446866,
+      "status": "candidate",
+      "text": "epipremnum aureum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19446866,
+      "status": "candidate",
+      "text": "golden pothos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19446866,
+      "status": "candidate",
+      "text": "ivy arum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19446866,
+      "status": "candidate",
+      "text": "scindapsus aureus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19446864,
+      "status": "candidate",
+      "text": "devil's vine"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "golden pothos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "ivy arum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "epipremnum aureum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "scindapsus aureus"
+    }
+  ],
+  "canonical_name": "pothos",
+  "concept_id": "pothos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "pothosware/SoapySDR"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pothos",
+      "sense_id": "pothos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

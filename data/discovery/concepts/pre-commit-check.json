@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Pre-Commit Check"
+    "Pre-Commit Check",
+    "Pre-commit Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "triton-lang/triton",
       "status": "candidate-context",
       "text": "Pre-Commit Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/ROCK",
+      "status": "candidate-context",
+      "text": "A construction kit for reinforcement learning environment management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ROCK",
+      "status": "candidate-context",
+      "text": "Pre-commit Check"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "triton-lang/triton",
       "status": "candidate",
       "text": "Pre-Commit Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/ROCK",
+      "status": "candidate",
+      "text": "Pre-commit Check"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +101,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/pre-commit-check.yml",
+      "source_repo": "alibaba/ROCK"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

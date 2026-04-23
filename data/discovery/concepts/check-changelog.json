@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Check Changelog"
+    "Check Changelog",
+    "Check changelog"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,12 @@
       "source_repo": "Sovereign-Labs/sovereign-sdk",
       "status": "candidate-context",
       "text": "\"Check Changelog\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-wasm/wasm_of_ocaml",
+      "status": "candidate-context",
+      "text": "Check changelog"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +34,12 @@
       "source_repo": "Sovereign-Labs/sovereign-sdk",
       "status": "candidate",
       "text": "\"Check Changelog\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-wasm/wasm_of_ocaml",
+      "status": "candidate",
+      "text": "Check changelog"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +89,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/check_changelog.yml",
       "source_repo": "Sovereign-Labs/sovereign-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "ocaml-wasm/wasm_of_ocaml"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

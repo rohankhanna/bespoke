@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "swift"
+    "swift",
+    "Swift"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -55,6 +58,30 @@
       "source_repo": "bazelbuild/rules_swift",
       "status": "candidate-context",
       "text": "[![Build status](https://badge.buildkite.com/d562b11425e192a8f6ba9c43715bc8364985bccf54e4b9194a.svg?branch=main)](https://buildkite.com/bazel/rules-swift-swift)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "exPHAT/SwiftWhisper",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa4 The easiest way to transcribe audio in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exPHAT/SwiftWhisper",
+      "status": "candidate-context",
+      "text": "> The easiest way to use Whisper in Swift"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ggerganov/whisper.spm",
+      "status": "candidate-context",
+      "text": "whisper.cpp package for the Swift Package Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggerganov/whisper.spm",
+      "status": "candidate-context",
+      "text": "Swift"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +108,18 @@
       "source_repo": "bazelbuild/rules_swift",
       "status": "candidate",
       "text": "[![Build status](https://badge.buildkite.com/d562b11425e192a8f6ba9c43715bc8364985bccf54e4b9194a.svg?branch=main)](https://buildkite.com/bazel/rules-swift-swift)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exPHAT/SwiftWhisper",
+      "status": "candidate",
+      "text": "> The easiest way to use Whisper in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ggerganov/whisper.spm",
+      "status": "candidate",
+      "text": "Swift"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +229,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "bazelbuild/rules_swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "exPHAT/SwiftWhisper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

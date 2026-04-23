@@ -1,7 +1,7 @@
 {
   "component": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-and-test.yml",
       "source_repo": "google/benchmark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libssh2/libssh2"
     }
   ]
 }

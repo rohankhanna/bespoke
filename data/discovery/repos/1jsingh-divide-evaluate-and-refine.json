@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1jsingh/Divide-Evaluate-and-Refine",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1jsingh/Divide-Evaluate-and-Refine",
+      "target": "neurips-2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1jsingh/Divide-Evaluate-and-Refine",
+      "target": "text-to-image-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "1jsingh/Divide-Evaluate-and-Refine",
+      "target": "text-to-image-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:28:23.057922+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8716
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repo for our NeurIPS 2023 paper on: Divide, Evaluate, and Refine: Evaluating and Improving Text-to-Image Alignment with Iterative VQA Feedback",
+    "fork": false,
+    "full_name": "1jsingh/Divide-Evaluate-and-Refine",
+    "html_url": "https://github.com/1jsingh/Divide-Evaluate-and-Refine",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-11-11T05:02:17Z",
+    "stargazers_count": 27,
+    "topics": [
+      "image-generation",
+      "neurips-2023",
+      "text-to-image-evaluation",
+      "text-to-image-generation"
+    ],
+    "updated_at": "2026-01-15T03:34:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> The field of text-conditioned image generation has made unparalleled progress with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "> The field of text-conditioned image generation has made unparalleled progress with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neurips-2023"
+    },
+    {
+      "context_snippet": "> The field of text-conditioned image generation has made unparalleled progress with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image-evaluation"
+    },
+    {
+      "context_snippet": "> The field of text-conditioned image generation has made unparalleled progress with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image-generation"
+    }
+  ]
+}

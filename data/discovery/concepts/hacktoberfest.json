@@ -961,6 +961,210 @@
       "source_repo": "aquasecurity/trivy",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus-operator/kube-prometheus",
+      "status": "candidate-context",
+      "text": "Use Prometheus to monitor Kubernetes and applications running on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-operator/kube-prometheus",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/prometheus-operator/kube-prometheus/workflows/ci/badge.svg)](https://github.com/prometheus-operator/kube-prometheus/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/prometheus",
+      "status": "candidate-context",
+      "text": "The Prometheus monitoring system and time series database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/prometheus",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": ":electron: A complete tool for building and publishing Electron applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/electron/forge/actions/workflows/ci.yml/badge.svg)](https://github.com/electron/forge/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/packager",
+      "status": "candidate-context",
+      "text": "Customize and package your Electron app with OS-specific bundles (.app, .exe, etc.) via JS or CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/packager",
+      "status": "candidate-context",
+      "text": "Package your [Electron](https://electronjs.org) app into OS-specific bundles (`.app`, `.exe`, etc.) via JavaScript or the command line."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conan-io/conan-center-index",
+      "status": "candidate-context",
+      "text": "Recipes for the ConanCenter repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conan-io/conan-center-index",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterXML/jackson",
+      "status": "candidate-context",
+      "text": "Main Portal page for the Jackson project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson",
+      "status": "candidate-context",
+      "text": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/docs",
+      "status": "candidate-context",
+      "text": "User documentation for Knative components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/docs",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-library/docs",
+      "status": "candidate-context",
+      "text": "Documentation for Docker Official Images in docker-library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/docs",
+      "status": "candidate-context",
+      "text": "This repository contains the image documentation for each of the Docker Official Images. See [docker-library/official-images](https://github.com/docker-library/official-images) for more information about the program in general."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate-context",
+      "text": "A cross-platform, safe, pure-Rust graphics API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" width=\"20%\" src=\"logo.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "drahnr/cargo-spellcheck",
+      "status": "candidate-context",
+      "text": "Checks all your documentation for spelling and grammar mistakes with hunspell and a nlprule based checker for grammar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drahnr/cargo-spellcheck",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cargo_spellcheck.svg)](https://crates.io/crates/cargo-spellcheck)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-php/phpctags",
+      "status": "candidate-context",
+      "text": "An enhanced ctags compatible index generator written in pure PHP. Released under GPLv2 license."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-php/phpctags",
+      "status": "candidate-context",
+      "text": "An enhanced php [ctags](http://ctags.sourceforge.net/) index file generator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "\u2728\u2601\ufe0f\ud83d\udcc1\u2728 Cloud Commander file manager for the web with console and editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "andys8/git-brunch",
+      "status": "candidate-context",
+      "text": "Git branch checkout menu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andys8/git-brunch",
+      "status": "candidate-context",
+      "text": "A git command-line tool to work with branches"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gentoo/guru",
+      "status": "candidate-context",
+      "text": "[MIRROR] GURU: repository of new packages maintained collaboratively by users"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gentoo/guru",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "winsw/winsw",
+      "status": "candidate-context",
+      "text": "A wrapper executable that can run any executable as a Windows service, in a permissive license."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winsw/winsw",
+      "status": "candidate-context",
+      "text": "[![Github All Releases](https://img.shields.io/github/downloads/winsw/winsw/total?style=flat-square)](https://github.com/winsw/winsw/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avast/retry-go",
+      "status": "candidate-context",
+      "text": "Simple golang library for retry mechanism"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avast/retry-go",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/avast/retry-go.svg?style=flat-square)](https://github.com/avast/retry-go/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": ":electron: \ud83d\ude80 The easiest way to get started with Electron"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/electron/fiddle/actions/workflows/test.yml/badge.svg)](https://github.com/electron/fiddle/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -1437,6 +1641,108 @@
       "source_repo": "aquasecurity/trivy",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus-operator/kube-prometheus",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/prometheus-operator/kube-prometheus/workflows/ci/badge.svg)](https://github.com/prometheus-operator/kube-prometheus/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/prometheus",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/forge",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/electron/forge/actions/workflows/ci.yml/badge.svg)](https://github.com/electron/forge/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/packager",
+      "status": "candidate",
+      "text": "Package your [Electron](https://electronjs.org) app into OS-specific bundles (`.app`, `.exe`, etc.) via JavaScript or the command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conan-io/conan-center-index",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterXML/jackson",
+      "status": "candidate",
+      "text": "<a href=\"CONTRIBUTING.md\" alt=\"Hacktoberfest\"><img src=\"https://badgen.net/badge/hacktoberfest/friendly/pink\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/docs",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/docs",
+      "status": "candidate",
+      "text": "This repository contains the image documentation for each of the Docker Official Images. See [docker-library/official-images](https://github.com/docker-library/official-images) for more information about the program in general."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate",
+      "text": "<img align=\"right\" width=\"20%\" src=\"logo.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "drahnr/cargo-spellcheck",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/cargo_spellcheck.svg)](https://crates.io/crates/cargo-spellcheck)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-php/phpctags",
+      "status": "candidate",
+      "text": "An enhanced php [ctags](http://ctags.sourceforge.net/) index file generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate",
+      "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "andys8/git-brunch",
+      "status": "candidate",
+      "text": "A git command-line tool to work with branches"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gentoo/guru",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "winsw/winsw",
+      "status": "candidate",
+      "text": "[![Github All Releases](https://img.shields.io/github/downloads/winsw/winsw/total?style=flat-square)](https://github.com/winsw/winsw/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avast/retry-go",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/avast/retry-go.svg?style=flat-square)](https://github.com/avast/retry-go/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron/fiddle",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/electron/fiddle/actions/workflows/test.yml/badge.svg)](https://github.com/electron/fiddle/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -1984,11 +2290,119 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "aquasecurity/trivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "prometheus-operator/kube-prometheus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "prometheus/prometheus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "electron/forge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "conan-io/conan-center-index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "FasterXML/jackson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "knative/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "docker-library/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "gfx-rs/wgpu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "drahnr/cargo-spellcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/cloudcmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "andys8/git-brunch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "gentoo/guru"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "winsw/winsw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "avast/retry-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "electron/fiddle"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

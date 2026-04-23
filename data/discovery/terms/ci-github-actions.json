@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci-github-actions.yml",
+      "source_repo": "hashicorp/terraform-plugin-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci-github-actions.yml",
+      "source_repo": "hashicorp/terraform-plugin-sdk"
+    }
+  ],
+  "term": "ci-github-actions"
+}

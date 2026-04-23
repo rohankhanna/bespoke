@@ -1,12 +1,17 @@
 {
   "component": "docker/bake-action/subaction/matrix@a66e1c87e2eca0503c343edf1d208c716d54b8a8",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/buildkit.yml",
       "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-validate.yml",
+      "source_repo": "docker/model-runner"
     }
   ]
 }

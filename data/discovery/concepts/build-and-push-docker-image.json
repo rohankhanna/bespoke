@@ -32,6 +32,18 @@
       "source_repo": "aaronjmars/MiroShark",
       "status": "candidate-context",
       "text": "Build and push Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MinimalFuture/AgentMesh",
+      "status": "candidate-context",
+      "text": "A Multi-Agent framework that enables AI agents to collaborate effectively, helping you build powerful agent teams for solving complex tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MinimalFuture/AgentMesh",
+      "status": "candidate-context",
+      "text": "Build and Push Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "aaronjmars/MiroShark",
       "status": "candidate",
       "text": "Build and push Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MinimalFuture/AgentMesh",
+      "status": "candidate",
+      "text": "Build and Push Docker Image"
     }
   ],
   "candidate_related_terms": [
@@ -107,11 +125,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "aaronjmars/MiroShark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docker-build-push.yml",
+      "source_repo": "MinimalFuture/AgentMesh"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

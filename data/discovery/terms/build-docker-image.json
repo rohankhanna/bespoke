@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -26,6 +26,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/docker-image.yml",
       "source_repo": "eryajf/chatgpt-dingtalk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/image.yml",
+      "source_repo": "gohugoio/hugo"
     }
   ],
   "term": "Build Docker image"

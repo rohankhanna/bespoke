@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-node@v1",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -182,6 +182,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-examples.yml",
       "source_repo": "jaredpalmer/razzle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs-macos-latest.yml",
+      "source_repo": "brody2consult/react-native-module-init"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs-ubuntu-latest.yml",
+      "source_repo": "brody2consult/react-native-module-init"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nodejs-windows-latest.yml",
+      "source_repo": "brody2consult/react-native-module-init"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codestyle.yml",
+      "source_repo": "jquery/esprima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "jquery/esprima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ecma262suite.yml",
+      "source_repo": "jquery/esprima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "jquery/esprima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "jquery/esprima"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "taylorhakes/promise-polyfill"
     }
   ]
 }

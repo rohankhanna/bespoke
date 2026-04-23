@@ -1,0 +1,237 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "openlmlab/moss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "qwenlm/qwen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "milvlg/xmchat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build_Docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "Build Docker when Push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release_docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release_docker.yml",
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "Build and Push Docker when Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "chatglm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "chatgpt-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "dalle3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "ernie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "gemini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "gemma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "inspurai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "midjourney",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "minimax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "moss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "spark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
+      "target": "stablelm",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "source_repo": "GaiZhenbiao/ChuanhuChatGPT"
+}

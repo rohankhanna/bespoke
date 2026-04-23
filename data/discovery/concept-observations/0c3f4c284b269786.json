@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenMMLab Pre-training Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27181544,
+      "status": "candidate",
+      "text": "pete"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27120726,
+      "status": "candidate",
+      "text": "beth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25704920,
+      "status": "candidate",
+      "text": "piet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25681525,
+      "status": "candidate",
+      "text": "bayt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25544024,
+      "status": "candidate",
+      "text": "shin"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "beit",
+      "sense_id": "beit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "beit",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "beit",
+  "observation_id": "0c3f4c284b269786",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "beit",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "open-mmlab/mmpretrain",
+  "source_repo_description": "OpenMMLab Pre-training Toolbox and Benchmark"
+}

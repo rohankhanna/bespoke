@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "kops"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kops",
+      "status": "candidate-context",
+      "text": "Kubernetes Operations (kOps) - Production Grade k8s Installation, Upgrades and Management"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kops",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/kubernetes/kops/actions/workflows/main.yml/badge.svg)](https://github.com/kubernetes/kops/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kops",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/kubernetes/kops/actions/workflows/main.yml/badge.svg)](https://github.com/kubernetes/kops/actions/workflows/main.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9878205,
+      "status": "candidate",
+      "text": "mental attitude"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9878204,
+      "status": "candidate",
+      "text": "epona"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9878203,
+      "status": "candidate",
+      "text": "opposite sex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9878202,
+      "status": "candidate",
+      "text": "girl scouts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9878201,
+      "status": "candidate",
+      "text": "weight watcher"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "kops",
+  "concept_id": "kops",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/kops"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kops",
+      "sense_id": "kops#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

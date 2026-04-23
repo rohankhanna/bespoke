@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Customize and package your Electron app with OS-specific bundles (.app, .exe, etc.) via JS or CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Add to Ecosystem WG Project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Add to Ecosystem WG Project"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22486,
+      "status": "candidate",
+      "text": "succession"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21496,
+      "status": "candidate",
+      "text": "blowout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21496,
+      "status": "candidate",
+      "text": "swamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21052,
+      "status": "candidate",
+      "text": "input"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21007,
+      "status": "candidate",
+      "text": "frame"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add to Ecosystem WG Project",
+      "sense_id": "add-to-ecosystem-wg-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "add-to-ecosystem-wg-project",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "add-to-ecosystem-wg-project",
+  "observation_id": "a002a8e66836d7a0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "Add to Ecosystem WG Project",
+  "source_context_snippet": "Add to Ecosystem WG Project",
+  "source_file": ".github/workflows/add-to-project.yml",
+  "source_repo": "electron/packager",
+  "source_repo_description": "Customize and package your Electron app with OS-specific bundles (.app, .exe, etc.) via JS or CLI"
+}

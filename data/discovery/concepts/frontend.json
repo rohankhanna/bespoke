@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "frontend"
+    "frontend",
+    "Frontend"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -69,6 +70,12 @@
       "source_repo": "rails/webpacker",
       "status": "candidate-context",
       "text": "Webpacker has served the Rails community for over five years as a bridge to compiled and bundled JavaScript. This bridge is no longer needed for most people in most situations following [the release of Rails 7](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision). We \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Learning-Profiling-Tools/triton-viz",
+      "status": "candidate-context",
+      "text": "Frontend"
     }
   ],
   "candidate_glosses": [
@@ -101,6 +108,12 @@
       "source_repo": "rails/webpacker",
       "status": "candidate",
       "text": "Webpacker has served the Rails community for over five years as a bridge to compiled and bundled JavaScript. This bridge is no longer needed for most people in most situations following [the release of Rails 7](https://rubyonrails.org/2021/12/15/Rails-7-fulfilling-a-vision). We \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Deep-Learning-Profiling-Tools/triton-viz",
+      "status": "candidate",
+      "text": "Frontend"
     }
   ],
   "candidate_related_terms": [
@@ -174,11 +187,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "rails/webpacker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "Deep-Learning-Profiling-Tools/triton-viz"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

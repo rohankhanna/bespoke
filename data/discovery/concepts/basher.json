@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "basher"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "basherpm/basher",
+      "status": "candidate-context",
+      "text": "A package manager for shell scripts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basherpm/basher",
+      "status": "candidate-context",
+      "text": "A package manager for shell scripts and functions."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "basherpm/basher",
+      "status": "candidate",
+      "text": "A package manager for shell scripts and functions."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19982836,
+      "status": "candidate",
+      "text": "kitbasher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19982835,
+      "status": "candidate",
+      "text": "gay basher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19982834,
+      "status": "candidate",
+      "text": "queer basher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19982833,
+      "status": "candidate",
+      "text": "bible pounder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19982832,
+      "status": "candidate",
+      "text": "bawler"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "basher",
+  "concept_id": "basher",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "basherpm/basher"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "basher",
+      "sense_id": "basher#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "answers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "status": "candidate-context",
+      "text": "\ud83d\ude4b \u95ee\u5f97\u597d\uff0c\ud83d\udde3 \u7b54\u5f97\u5999\u3002\u90a3\u4e9b\u503c\u5f97\u8bb0\u5f55\u7684\u4e0eChatGPT\u7684\u95ee\u7b54\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/awesome-chatgpt-answer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051500,
+      "status": "candidate",
+      "text": "response"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051423,
+      "status": "candidate",
+      "text": "respond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051422,
+      "status": "candidate",
+      "text": "reply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049852,
+      "status": "candidate",
+      "text": "resolve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10045256,
+      "status": "candidate",
+      "text": "result"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "answers",
+  "concept_id": "answers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-chatgpt-answer"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "answers",
+      "sense_id": "answers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

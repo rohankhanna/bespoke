@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bjl101501/CherryStudio-Claudestyle-dynamic",
+      "target": "lxgw/lxgwwenkai-screen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bjl101501/CherryStudio-Claudestyle-dynamic",
+      "target": "subframe7536/maple-font",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "source_repo": "bjl101501/CherryStudio-Claudestyle-dynamic"
+}

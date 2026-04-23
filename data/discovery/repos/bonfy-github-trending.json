@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bonfy/github-trending",
+      "target": "bonfy/qiandao",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bonfy/github-trending",
+      "target": "bonfy/go-mega",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "bonfy/github-trending",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "bonfy/github-trending",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "bonfy/github-trending",
+      "target": "Daily Github-Trending",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bonfy/github-trending",
+      "target": "github-trending",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:26:39.285562+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1088
+    },
+    {
+      "path": "requirements.txt",
+      "size": 41
+    },
+    {
+      "path": ".github/workflows/schedule.yml",
+      "size": 1015
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tracking the most popular Github repos, update daily(Python version)",
+    "fork": false,
+    "full_name": "bonfy/github-trending",
+    "html_url": "https://github.com/bonfy/github-trending",
+    "language": "Python",
+    "pushed_at": "2026-04-22T04:47:03Z",
+    "stargazers_count": 892,
+    "topics": [
+      "github-trending",
+      "python"
+    ],
+    "updated_at": "2026-04-23T00:14:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bonfy/go-mega",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bonfy/qiandao",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Daily Github-Trending",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "term": "Daily Github-Trending"
+    },
+    {
+      "context_snippet": "Tracking the most popular Github repos, updated daily(Python version)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-trending"
+    }
+  ]
+}

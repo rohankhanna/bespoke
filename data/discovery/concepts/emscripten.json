@@ -45,6 +45,18 @@
       "source_repo": "WebAssembly/binaryen",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tiran/cpython-wasm-test",
+      "status": "candidate-context",
+      "text": "Test CPython WebAssembly builds with Emscripten SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tiran/cpython-wasm-test",
+      "status": "candidate-context",
+      "text": "Test CPython WebAssembly builds with Emscripten SDK and WASI SDK. Build"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "WebAssembly/binaryen",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tiran/cpython-wasm-test",
+      "status": "candidate",
+      "text": "Test CPython WebAssembly builds with Emscripten SDK and WASI SDK. Build"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +144,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "WebAssembly/binaryen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "tiran/cpython-wasm-test"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

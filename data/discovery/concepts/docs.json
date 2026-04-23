@@ -292,6 +292,114 @@
       "source_repo": "ApeWorX/ape",
       "status": "candidate-context",
       "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckan/ckan",
+      "status": "candidate-context",
+      "text": "CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers catalog.data.gov, open.canada.ca/data, data.humdata.org among many other sites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckan",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "catalyst-team/catalyst",
+      "status": "candidate-context",
+      "text": "Accelerated deep learning R&D"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catalyst-team/catalyst",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "salesforce/LAVIS",
+      "status": "candidate-context",
+      "text": "LAVIS - A One-stop Library for Language-Vision Intelligence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/LAVIS",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flycheck/flycheck",
+      "status": "candidate-context",
+      "text": "On the fly syntax checking for GNU Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flycheck/flycheck",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sublimelsp/LSP",
+      "status": "candidate-context",
+      "text": "Client implementation of the Language Server Protocol for Sublime Text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimelsp/LSP",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Commit-Boost/commit-boost-client",
+      "status": "candidate-context",
+      "text": "Commit-Boost allows Ethereum validators to safely run MEV-Boost and community-built commitment protocols"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Commit-Boost/commit-boost-client",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate-context",
+      "text": "OpenRPC Markdown Generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate-context",
+      "text": "Generate API documentation from [OpenRPC](https://open-rpc.org) specifications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RichardLitt/standard-readme",
+      "status": "candidate-context",
+      "text": "A standard style for README files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RichardLitt/standard-readme",
+      "status": "candidate-context",
+      "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate-context",
+      "text": "A cross-platform, safe, pure-Rust graphics API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu",
+      "status": "candidate-context",
+      "text": "Docs"
     }
   ],
   "candidate_glosses": [
@@ -430,6 +538,60 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ApeWorX/ape",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckan/ckan",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "catalyst-team/catalyst",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "salesforce/LAVIS",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flycheck/flycheck",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimelsp/LSP",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Commit-Boost/commit-boost-client",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate",
+      "text": "Generate API documentation from [OpenRPC](https://open-rpc.org) specifications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RichardLitt/standard-readme",
+      "status": "candidate",
+      "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/wgpu",
       "status": "candidate",
       "text": "Docs"
     }
@@ -642,11 +804,71 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ckan/ckan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/deploy_push.yml",
+      "source_repo": "catalyst-team/catalyst"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "salesforce/LAVIS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "flycheck/flycheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "sublimelsp/LSP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Commit-Boost/commit-boost-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "open-rpc/markdown-gen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "RichardLitt/standard-readme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "gfx-rs/wgpu"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

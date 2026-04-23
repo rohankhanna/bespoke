@@ -19,6 +19,18 @@
       "source_repo": "OpenAPITools/openapi-generator",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">OpenAPI Generator</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate-context",
+      "text": "A RWKV management and startup tool, full automation, only 8MB. And provides an interface compatible with the OpenAI API. RWKV is a large language model that is fully open source and available for commercial use."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "OpenAPITools/openapi-generator",
       "status": "candidate",
       "text": "<h1 align=\"center\">OpenAPI Generator</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "josStorer/RWKV-Runner",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "OpenAPITools/openapi-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "josStorer/RWKV-Runner"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

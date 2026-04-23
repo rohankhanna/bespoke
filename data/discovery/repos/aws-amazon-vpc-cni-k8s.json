@@ -1,0 +1,606 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deps.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deps.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deps.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-limits.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-limits.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@5579c002bb4778aa43395ef1df492868a9a1c83f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-limits.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-limits.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@5579c002bb4778aa43395ef1df492868a9a1c83f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "aws-actions/closed-issue-message@3c30436c76e381c567524ba630f169f2fc0d175a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-closed-message.yaml"
+    },
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-stale-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kops-test.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kops-test.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kops-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kops-test.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@5579c002bb4778aa43395ef1df492868a9a1c83f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kops-test.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cron-tests.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cron-tests.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cron-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cron-tests.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@5579c002bb4778aa43395ef1df492868a9a1c83f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cron-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-automated-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-automated-tests.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@79066c46f8dcdf8d7355f820dbac958c5b4cb9d3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-automated-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-automated-tests.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-automated-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-automated-tests.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-automated-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "aws/amazon-network-policy-controller-k8s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "aws/aws-network-policy-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "aws/aws-ebpf-sdk-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "aws/amazon-vpc-resource-controller-k8s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deps.yml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deps.yml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deps.yml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-limits.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-limits.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-limits.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "aws-actions/configure-aws-credentials@5579c002bb4778aa43395ef1df492868a9a1c83f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-limits.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-limits.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "Generate Limits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "aws-actions/configure-aws-credentials@5579c002bb4778aa43395ef1df492868a9a1c83f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "Integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-closed-message.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "aws-actions/closed-issue-message@3c30436c76e381c567524ba630f169f2fc0d175a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-closed-message.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "Closed Issue Message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-stale-pr.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-stale-pr.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "Stale issue & PR handler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kops-test.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kops-test.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kops-test.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kops-test.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kops-test.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "aws-actions/configure-aws-credentials@5579c002bb4778aa43395ef1df492868a9a1c83f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kops-test.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "Kops tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cron-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cron-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cron-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cron-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-cron-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "aws-actions/configure-aws-credentials@5579c002bb4778aa43395ef1df492868a9a1c83f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-cron-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "Nightly Cron tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-automated-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-automated-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-automated-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "codecov/codecov-action@79066c46f8dcdf8d7355f820dbac958c5b4cb9d3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-automated-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-automated-tests.yaml",
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "Automatic Pull Request test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "cni-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-vpc-cni-k8s",
+      "target": "pod-networking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:11:05.650827+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 50798
+    },
+    {
+      "path": "go.mod",
+      "size": 8698
+    },
+    {
+      "path": ".github/workflows/deps.yml",
+      "size": 1304
+    },
+    {
+      "path": ".github/workflows/generate-limits.yaml",
+      "size": 2364
+    },
+    {
+      "path": ".github/workflows/integration-tests.yaml",
+      "size": 1702
+    },
+    {
+      "path": ".github/workflows/issue-closed-message.yaml",
+      "size": 599
+    },
+    {
+      "path": ".github/workflows/issue-stale-pr.yaml",
+      "size": 983
+    },
+    {
+      "path": ".github/workflows/kops-test.yaml",
+      "size": 1920
+    },
+    {
+      "path": ".github/workflows/nightly-cron-tests.yaml",
+      "size": 1759
+    },
+    {
+      "path": ".github/workflows/pr-automated-tests.yaml",
+      "size": 2931
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Networking plugin repository for pod networking in Kubernetes using Elastic Network Interfaces on AWS",
+    "fork": false,
+    "full_name": "aws/amazon-vpc-cni-k8s",
+    "html_url": "https://github.com/aws/amazon-vpc-cni-k8s",
+    "language": "Go",
+    "pushed_at": "2026-04-17T18:21:46Z",
+    "stargazers_count": 2437,
+    "topics": [
+      "cni-plugin",
+      "kubernetes",
+      "pod-networking"
+    ],
+    "updated_at": "2026-04-20T21:56:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/amazon-network-policy-controller-k8s",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/amazon-vpc-resource-controller-k8s",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-ebpf-sdk-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-network-policy-agent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Dependency Review\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deps.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Generate Limits",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-limits.yaml",
+      "term": "Generate Limits"
+    },
+    {
+      "context_snippet": "Integration tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "term": "Integration tests"
+    },
+    {
+      "context_snippet": "Closed Issue Message",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-closed-message.yaml",
+      "term": "Closed Issue Message"
+    },
+    {
+      "context_snippet": "\"Stale issue & PR handler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-stale-pr.yaml",
+      "term": "Stale issue & PR handler"
+    },
+    {
+      "context_snippet": "Kops tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kops-test.yaml",
+      "term": "Kops tests"
+    },
+    {
+      "context_snippet": "Nightly Cron tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-cron-tests.yaml",
+      "term": "Nightly Cron tests"
+    },
+    {
+      "context_snippet": "Automatic Pull Request test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-automated-tests.yaml",
+      "term": "Automatic Pull Request test"
+    },
+    {
+      "context_snippet": "Networking plugin for pod networking in [Kubernetes](https://kubernetes.io/) using [Elastic Network Interfaces](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html) on AWS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cni-plugin"
+    },
+    {
+      "context_snippet": "Networking plugin for pod networking in [Kubernetes](https://kubernetes.io/) using [Elastic Network Interfaces](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html) on AWS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "Networking plugin for pod networking in [Kubernetes](https://kubernetes.io/) using [Elastic Network Interfaces](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/using-eni.html) on AWS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pod-networking"
+    }
+  ]
+}

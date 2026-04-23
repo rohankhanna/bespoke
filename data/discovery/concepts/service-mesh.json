@@ -19,6 +19,18 @@
       "source_repo": "apache/dubbo",
       "status": "candidate-context",
       "text": "[![Build and Test For PR](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml/badge.svg)](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-app-mesh-examples",
+      "status": "candidate-context",
+      "text": "AWS App Mesh is a service mesh that you can use with your microservices to manage service to service communication."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-examples",
+      "status": "candidate-context",
+      "text": "*After careful consideration, we have made the decision to discontinue support for AWS App Mesh, effective September 30th, 2026. Until this date, existing AWS App Mesh customers will be able to use the service as normal, including creating new resources and onboarding new accoun\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "apache/dubbo",
       "status": "candidate",
       "text": "[![Build and Test For PR](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml/badge.svg)](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-examples",
+      "status": "candidate",
+      "text": "*After careful consideration, we have made the decision to discontinue support for AWS App Mesh, effective September 30th, 2026. Until this date, existing AWS App Mesh customers will be able to use the service as normal, including creating new resources and onboarding new accoun\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-app-mesh-examples"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

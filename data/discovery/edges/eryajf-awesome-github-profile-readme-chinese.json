@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "eryajf/awesome-stars-eryajf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "coderjojo/creative-profile-readme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "abhisheknaiidu/awesome-github-profile-readme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "durgeshsamariya/awesome-github-profile-readme-templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yml",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yml",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "calibreapp/image-actions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/images.yml",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reademe-contributors.yml",
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "akhilmhdh/contributors-readme-action@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "eryajf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-github-profile-readme-chinese",
+      "target": "profile-readme",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "source_repo": "eryajf/awesome-github-profile-readme-chinese"
+}

@@ -1,41 +1,21 @@
 {
-  "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "ohmyzsh/ohmyzsh"
+      "source_repo": "basherpm/basher"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "spaceship-prompt/spaceship-prompt"
+      "source_repo": "pyenv/pyenv"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "oh-my-fish/oh-my-fish"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "rbenv/rbenv"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "justchokingaround/lobster"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "hyperupcall/autoenv"
-    },
-    {
-      "discovered_via": "repo-topic",
-      "source_file": null,
-      "source_repo": "nvm-sh/nvm"
+      "source_repo": "fish-shell/fish-shell"
     }
   ],
   "term": "shell"

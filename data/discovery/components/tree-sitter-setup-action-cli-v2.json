@@ -1,0 +1,17 @@
+{
+  "component": "tree-sitter/setup-action/cli@v2",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "nvim-treesitter/nvim-treesitter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-core.yml",
+      "source_repo": "nvim-treesitter/nvim-treesitter"
+    }
+  ]
+}

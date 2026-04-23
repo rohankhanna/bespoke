@@ -19,6 +19,18 @@
       "source_repo": "thomaseizinger/rust-jsonrpc-client",
       "status": "candidate-context",
       "text": "- No boilerplate: Driven by proc-macros"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dtolnay/syn",
+      "status": "candidate-context",
+      "text": "Parser for Rust source code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dtolnay/syn",
+      "status": "candidate-context",
+      "text": "Parser for Rust source code"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "thomaseizinger/rust-jsonrpc-client",
       "status": "candidate",
       "text": "- No boilerplate: Driven by proc-macros"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dtolnay/syn",
+      "status": "candidate",
+      "text": "Parser for Rust source code"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "thomaseizinger/rust-jsonrpc-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "dtolnay/syn"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

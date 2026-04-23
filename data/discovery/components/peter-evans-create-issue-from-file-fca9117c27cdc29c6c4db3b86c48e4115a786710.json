@@ -1,12 +1,17 @@
 {
   "component": "peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/link-check.yml",
       "source_repo": "PaddlePaddle/PaddleOCR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/broken-link-check-full.yml",
+      "source_repo": "hashicorp/web-unified-docs"
     }
   ]
 }

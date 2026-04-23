@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "New generation entropy codecs : Finite State Entropy and Huff0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "make"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "make"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019860,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018006,
+      "status": "candidate",
+      "text": "bring in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017577,
+      "status": "candidate",
+      "text": "take in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017058,
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016892,
+      "status": "candidate",
+      "text": "prepare"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "make",
+      "sense_id": "make#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 55042,
+      "status": "candidate",
+      "text": "induce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43072,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43046,
+      "status": "candidate",
+      "text": "shuffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42036,
+      "status": "candidate",
+      "text": "constitute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40038,
+      "status": "candidate",
+      "text": "attain"
+    }
+  ],
+  "concept_id": "make",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "make",
+  "observation_id": "4687d7888cdbc25d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "make",
+  "source_context_snippet": "make",
+  "source_file": ".github/workflows/make.yml",
+  "source_repo": "Cyan4973/FiniteStateEntropy",
+  "source_repo_description": "New generation entropy codecs : Finite State Entropy and Huff0"
+}

@@ -648,13 +648,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "f/prompts.chat",
-      "target": "sindresorhus/awesome",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "f/prompts.chat",
@@ -1418,7 +1411,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T05:17:44.480392+00:00",
+  "fetched_at": "2026-04-23T01:26:54.843146+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1462,8 +1455,8 @@
     "full_name": "f/prompts.chat",
     "html_url": "https://github.com/f/prompts.chat",
     "language": "HTML",
-    "pushed_at": "2026-04-22T04:05:12Z",
-    "stargazers_count": 160343,
+    "pushed_at": "2026-04-22T21:24:16Z",
+    "stargazers_count": 160426,
     "topics": [
       "ai",
       "artificial-intelligence",
@@ -1484,15 +1477,9 @@
       "prompts-chat",
       "typescript"
     ],
-    "updated_at": "2026-04-22T05:02:01Z"
+    "updated_at": "2026-04-23T01:12:08Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sindresorhus/awesome",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Build and Publish Docker Image",

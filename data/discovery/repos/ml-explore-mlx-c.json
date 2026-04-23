@@ -1,0 +1,43 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ml-explore/mlx-c",
+      "target": "ml-explore/mlx-swift",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:23:11.685559+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C API for MLX",
+    "fork": false,
+    "full_name": "ml-explore/mlx-c",
+    "html_url": "https://github.com/ml-explore/mlx-c",
+    "language": "C++",
+    "pushed_at": "2026-04-08T16:45:29Z",
+    "stargazers_count": 195,
+    "topics": [
+      "mlx"
+    ],
+    "updated_at": "2026-04-21T09:43:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ml-explore/mlx-swift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,160 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tysam-code/hlb-CIFAR10",
+      "target": "cifar10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tysam-code/hlb-CIFAR10",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tysam-code/hlb-CIFAR10",
+      "target": "experimentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tysam-code/hlb-CIFAR10",
+      "target": "language-models-are-next",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tysam-code/hlb-CIFAR10",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tysam-code/hlb-CIFAR10",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tysam-code/hlb-CIFAR10",
+      "target": "responsive-to-issue-tickets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tysam-code/hlb-CIFAR10",
+      "target": "speedyconvnet7-1-0",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tysam-code/hlb-CIFAR10",
+      "target": "world-record",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:23:26.428214+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4737
+    },
+    {
+      "path": "requirements.txt",
+      "size": 18
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Train to 94% on CIFAR-10 in <6.3 seconds on a single A100. Or ~95.79% in ~110 seconds (or less!)",
+    "fork": false,
+    "full_name": "tysam-code/hlb-CIFAR10",
+    "html_url": "https://github.com/tysam-code/hlb-CIFAR10",
+    "language": "Python",
+    "pushed_at": "2024-12-18T03:12:35Z",
+    "stargazers_count": 1300,
+    "topics": [
+      "cifar10",
+      "deep-learning",
+      "experimentation",
+      "language-models-are-next",
+      "machine-learning",
+      "neural-network",
+      "responsive-to-issue-tickets",
+      "speedyconvnet7-1-0",
+      "world-record"
+    ],
+    "updated_at": "2026-04-17T11:05:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/hi_tysam.svg?style=social&label=Follow%20%40TySam_And)](https://twitter.com/hi_tysam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cifar10"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/hi_tysam.svg?style=social&label=Follow%20%40TySam_And)](https://twitter.com/hi_tysam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/hi_tysam.svg?style=social&label=Follow%20%40TySam_And)](https://twitter.com/hi_tysam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "experimentation"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/hi_tysam.svg?style=social&label=Follow%20%40TySam_And)](https://twitter.com/hi_tysam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-models-are-next"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/hi_tysam.svg?style=social&label=Follow%20%40TySam_And)](https://twitter.com/hi_tysam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/hi_tysam.svg?style=social&label=Follow%20%40TySam_And)](https://twitter.com/hi_tysam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/hi_tysam.svg?style=social&label=Follow%20%40TySam_And)](https://twitter.com/hi_tysam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "responsive-to-issue-tickets"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/hi_tysam.svg?style=social&label=Follow%20%40TySam_And)](https://twitter.com/hi_tysam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speedyconvnet7-1-0"
+    },
+    {
+      "context_snippet": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/hi_tysam.svg?style=social&label=Follow%20%40TySam_And)](https://twitter.com/hi_tysam)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "world-record"
+    }
+  ]
+}

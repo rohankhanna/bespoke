@@ -19,6 +19,18 @@
       "source_repo": "birdofpreyru/js-utils",
       "status": "candidate-context",
       "text": "[React Utils]: https://github.com/birdofpreyru/react-utils"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "birdofpreyru/react-utils",
+      "status": "candidate-context",
+      "text": "ReactJS development kit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "birdofpreyru/react-utils",
+      "status": "candidate-context",
+      "text": "[![Latest NPM Release](https://img.shields.io/npm/v/@dr.pogodin/react-utils.svg)](https://www.npmjs.com/package/@dr.pogodin/react-utils)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "birdofpreyru/js-utils",
       "status": "candidate",
       "text": "[React Utils]: https://github.com/birdofpreyru/react-utils"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "birdofpreyru/react-utils",
+      "status": "candidate",
+      "text": "[![Latest NPM Release](https://img.shields.io/npm/v/@dr.pogodin/react-utils.svg)](https://www.npmjs.com/package/@dr.pogodin/react-utils)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "birdofpreyru/js-utils"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "birdofpreyru/react-utils"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

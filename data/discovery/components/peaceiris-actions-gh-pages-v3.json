@@ -1,7 +1,7 @@
 {
   "component": "peaceiris/actions-gh-pages@v3",
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/syntax.yml",
       "source_repo": "abaplint/abaplint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/website-deploy.yml",
+      "source_repo": "dilanx/craco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "proptest-rs/proptest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "facebookresearch/xformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "salesforce/LAVIS"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "intel/neural-compressor"
     }
   ]
 }

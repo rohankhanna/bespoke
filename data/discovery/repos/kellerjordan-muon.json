@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:23:16.552294+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3979
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Muon is an optimizer for hidden layers in neural networks",
+    "fork": false,
+    "full_name": "KellerJordan/Muon",
+    "html_url": "https://github.com/KellerJordan/Muon",
+    "language": "Python",
+    "pushed_at": "2026-01-19T10:39:18Z",
+    "stargazers_count": 2496,
+    "topics": [],
+    "updated_at": "2026-04-22T12:26:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -19,6 +19,18 @@
       "source_repo": "dolthub/dolt",
       "status": "candidate-context",
       "text": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lerocha/netflixdb",
+      "status": "candidate-context",
+      "text": "Sample database for MySQL, Oracle, PostgreSQL, SQLite, and SQL Server. Based on data from the Netflix Engagement Report and the Netflix Global Top 10 weekly list, it includes movies and TV shows for learning and practice purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerocha/netflixdb",
+      "status": "candidate-context",
+      "text": "Sample database based on the data from the [Netflix Engagement Report](https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2024) and the [Netflix Global Top 10](https://www.netflix.com/tudum/top10) weekly list, it includes movies and TV shows for learning and pra\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dolthub/dolt",
       "status": "candidate",
       "text": "<img height=\"100\" src=\"./images/Dolt-Logo@3x.svg\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lerocha/netflixdb",
+      "status": "candidate",
+      "text": "Sample database based on the data from the [Netflix Engagement Report](https://about.netflix.com/en/news/what-we-watched-the-first-half-of-2024) and the [Netflix Global Top 10](https://www.netflix.com/tudum/top10) weekly list, it includes movies and TV shows for learning and pra\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "dolthub/dolt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "lerocha/netflixdb"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

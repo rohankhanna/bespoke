@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Command-line JSON processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Building man page, man.test, manonig.test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Building man page, man.test, manonig.test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34599,
+      "status": "candidate",
+      "text": "groom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34599,
+      "status": "candidate",
+      "text": "groomed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26358,
+      "status": "candidate",
+      "text": "foldout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26075,
+      "status": "candidate",
+      "text": "brick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19692,
+      "status": "candidate",
+      "text": "foot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Building man page, man.test, manonig.test",
+      "sense_id": "building-man-page-man.test-manonig.test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "building-man-page-man.test-manonig.test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "building-man-page-man.test-manonig.test",
+  "observation_id": "947f786d8360541f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "Building man page, man.test, manonig.test",
+  "source_context_snippet": "Building man page, man.test, manonig.test",
+  "source_file": ".github/workflows/manpage.yml",
+  "source_repo": "jqlang/jq",
+  "source_repo_description": "Command-line JSON processor"
+}

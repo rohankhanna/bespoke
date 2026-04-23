@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easy TOC creation for GitHub README.md (in go)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "github-markdown-toc"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "github-markdown-toc"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "table-of-contents",
+      "sense_id": "table-of-contents#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "table-of-contents",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "table-of-contents",
+  "observation_id": "3644984e66c78ddb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "table-of-contents",
+  "source_context_snippet": "github-markdown-toc",
+  "source_file": null,
+  "source_repo": "ekalinin/github-markdown-toc.go",
+  "source_repo_description": "Easy TOC creation for GitHub README.md (in go)"
+}

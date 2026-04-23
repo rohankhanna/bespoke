@@ -32,6 +32,18 @@
       "source_repo": "wolfpld/tracy",
       "status": "candidate-context",
       "text": "Manual"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocornut/imgui",
+      "status": "candidate-context",
+      "text": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocornut/imgui",
+      "status": "candidate-context",
+      "text": "manual"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "wolfpld/tracy",
       "status": "candidate",
       "text": "Manual"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocornut/imgui",
+      "status": "candidate",
+      "text": "manual"
     }
   ],
   "candidate_related_terms": [
@@ -123,11 +141,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/latex.yml",
       "source_repo": "wolfpld/tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "ocornut/imgui"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

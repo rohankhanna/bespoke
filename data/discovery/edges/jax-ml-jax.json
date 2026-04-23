@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jax-ml/jax",
-      "target": "intel/intel-extension-for-openxla",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/README.md",
       "source_repo": "jax-ml/jax",
@@ -120,6 +113,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "generated_at": "2026-04-23T01:09:11.871080+00:00",
   "source_repo": "jax-ml/jax"
 }

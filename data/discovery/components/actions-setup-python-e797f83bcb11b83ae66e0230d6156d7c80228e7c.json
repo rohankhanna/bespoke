@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@e797f83bcb11b83ae66e0230d6156d7c80228e7c",
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/create-releases.yml",
       "source_repo": "bentoml/OpenLLM"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gohugoio/hugo"
     }
   ]
 }

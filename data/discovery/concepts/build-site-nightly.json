@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build site nightly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/docs",
+      "status": "candidate-context",
+      "text": "User documentation for Knative components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/docs",
+      "status": "candidate-context",
+      "text": "Build site nightly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/docs",
+      "status": "candidate",
+      "text": "Build site nightly"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26305,
+      "status": "candidate",
+      "text": "hydrocele"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23132,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22659,
+      "status": "candidate",
+      "text": "son et lumiere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22648,
+      "status": "candidate",
+      "text": "night watchman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22624,
+      "status": "candidate",
+      "text": "stand"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build site nightly",
+  "concept_id": "build-site-nightly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/knative-nightly-site-build.yaml",
+      "source_repo": "knative/docs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build site nightly",
+      "sense_id": "build-site-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

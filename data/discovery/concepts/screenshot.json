@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "screenshot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiroi-sora/Umi-OCR",
+      "status": "candidate-context",
+      "text": "OCR software, free and offline. \u5f00\u6e90\u3001\u514d\u8d39\u7684\u79bb\u7ebfOCR\u8f6f\u4ef6\u3002\u652f\u6301\u622a\u5c4f/\u6279\u91cf\u5bfc\u5165\u56fe\u7247\uff0cPDF\u6587\u6863\u8bc6\u522b\uff0c\u6392\u9664\u6c34\u5370/\u9875\u7709\u9875\u811a\uff0c\u626b\u63cf/\u751f\u6210\u4e8c\u7ef4\u7801\u3002\u5185\u7f6e\u591a\u56fd\u8bed\u8a00\u5e93\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiroi-sora/Umi-OCR",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiroi-sora/Umi-OCR",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043440,
+      "status": "candidate",
+      "text": "pickup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027175,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024097,
+      "status": "candidate",
+      "text": "picture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29988020,
+      "status": "candidate",
+      "text": "display"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29961008,
+      "status": "candidate",
+      "text": "screen"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "screenshot",
+  "concept_id": "screenshot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "hiroi-sora/Umi-OCR"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "screenshot",
+      "sense_id": "screenshot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

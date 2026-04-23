@@ -176,28 +176,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "baai-dcai/bunny",
+      "target": "bofenghuang/vigogne",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "alexpinel/dot",
+      "target": "blinkdl/rwkv-lm",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "blackhole89/autopen",
+      "target": "containers/ramalama",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "akx/ollama-dl",
+      "target": "crashr/gppm",
       "target_type": "repository"
     },
     {
@@ -404,7 +404,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T04:52:33.603395+00:00",
+  "fetched_at": "2026-04-23T01:12:32.059967+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -456,32 +456,32 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-04-22T04:18:11Z",
-    "stargazers_count": 105606,
+    "pushed_at": "2026-04-23T00:34:31Z",
+    "stargazers_count": 105784,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-04-22T04:51:36Z"
+    "updated_at": "2026-04-23T01:11:45Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "akx/ollama-dl",
+      "full_name": "blinkdl/rwkv-lm",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alexpinel/dot",
+      "full_name": "bofenghuang/vigogne",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "baai-dcai/bunny",
+      "full_name": "containers/ramalama",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "blackhole89/autopen",
+      "full_name": "crashr/gppm",
       "source_file": "README.md"
     }
   ],

@@ -31,6 +31,42 @@
       "source_repo": "huggingface/diffusers",
       "status": "candidate-context",
       "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mudler/LocalAI",
+      "status": "candidate-context",
+      "text": "LocalAI is the open-source AI engine. Run any model - LLMs, vision, voice, image, video - on any hardware. No GPU required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/LocalAI",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "status": "candidate-context",
+      "text": "Image-to-Image Translation in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "status": "candidate-context",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1jsingh/Divide-Evaluate-and-Refine",
+      "status": "candidate-context",
+      "text": "Repo for our NeurIPS 2023 paper on: Divide, Evaluate, and Refine: Evaluating and Improving Text-to-Image Alignment with Iterative VQA Feedback"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1jsingh/Divide-Evaluate-and-Refine",
+      "status": "candidate-context",
+      "text": "> The field of text-conditioned image generation has made unparalleled progress with"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "huggingface/diffusers",
       "status": "candidate",
       "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mudler/LocalAI",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
+      "status": "candidate",
+      "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1jsingh/Divide-Evaluate-and-Refine",
+      "status": "candidate",
+      "text": "> The field of text-conditioned image generation has made unparalleled progress with"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +124,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "huggingface/diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "1jsingh/Divide-Evaluate-and-Refine"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

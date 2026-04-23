@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:23:59.529557+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ANSI & xterm-256 color text property translator for Emacs",
+    "fork": false,
+    "full_name": "atomontage/xterm-color",
+    "html_url": "https://github.com/atomontage/xterm-color",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-12-12T21:48:13Z",
+    "stargazers_count": 239,
+    "topics": [],
+    "updated_at": "2026-04-01T23:29:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

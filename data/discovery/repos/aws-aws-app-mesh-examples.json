@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/aws-app-mesh-examples",
+      "target": "aws/aws-app-mesh-controller-for-k8s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-app-mesh-examples",
+      "target": "app-mesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-app-mesh-examples",
+      "target": "service-mesh",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:10:59.056630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6919
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AWS App Mesh is a service mesh that you can use with your microservices to manage service to service communication.",
+    "fork": false,
+    "full_name": "aws/aws-app-mesh-examples",
+    "html_url": "https://github.com/aws/aws-app-mesh-examples",
+    "language": "Shell",
+    "pushed_at": "2026-03-25T18:30:07Z",
+    "stargazers_count": 867,
+    "topics": [
+      "app-mesh",
+      "aws",
+      "service-mesh"
+    ],
+    "updated_at": "2026-04-04T23:34:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-app-mesh-controller-for-k8s",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*After careful consideration, we have made the decision to discontinue support for AWS App Mesh, effective September 30th, 2026. Until this date, existing AWS App Mesh customers will be able to use the service as normal, including creating new resources and onboarding new accoun\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "app-mesh"
+    },
+    {
+      "context_snippet": "*After careful consideration, we have made the decision to discontinue support for AWS App Mesh, effective September 30th, 2026. Until this date, existing AWS App Mesh customers will be able to use the service as normal, including creating new resources and onboarding new accoun\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service-mesh"
+    }
+  ]
+}

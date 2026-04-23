@@ -79,6 +79,18 @@
       "source_repo": "waditu/tushare",
       "status": "candidate-context",
       "text": "TuShare"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VirtusLab/pandas-stubs",
+      "status": "candidate-context",
+      "text": "Pandas type stubs. Helps you type-check your code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VirtusLab/pandas-stubs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "waditu/tushare",
       "status": "candidate",
       "text": "TuShare"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VirtusLab/pandas-stubs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "waditu/tushare"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "VirtusLab/pandas-stubs"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,22 @@
+{
+  "component": "appleboy/ssh-action@0ff4204d59e8e51228ff73bce53f80d53301dee2",
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-agent-dev.yml",
+      "source_repo": "langgenius/dify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-dev.yml",
+      "source_repo": "langgenius/dify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-hitl.yml",
+      "source_repo": "langgenius/dify"
+    }
+  ]
+}

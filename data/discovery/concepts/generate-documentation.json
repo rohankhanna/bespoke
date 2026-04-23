@@ -44,6 +44,18 @@
       "source_repo": "ethers-io/ethers.js",
       "status": "candidate-context",
       "text": "Generate Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grain-lang/grain",
+      "status": "candidate-context",
+      "text": "The Grain compiler toolchain and CLI. Home of the modern web staple. \ud83c\udf3e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/grain",
+      "status": "candidate-context",
+      "text": "Generate documentation"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +76,12 @@
       "source_repo": "ethers-io/ethers.js",
       "status": "candidate",
       "text": "Generate Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grain-lang/grain",
+      "status": "candidate",
+      "text": "Generate documentation"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/generate-docs.yml",
       "source_repo": "ethers-io/ethers.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/generate-docs.yml",
+      "source_repo": "grain-lang/grain"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

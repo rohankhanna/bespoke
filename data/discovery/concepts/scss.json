@@ -31,6 +31,18 @@
       "source_repo": "brunch/sass-brunch",
       "status": "candidate-context",
       "text": "Adds Sass support to [Brunch](https://brunch.io)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "status": "candidate-context",
+      "text": "Custom Themes for Cherry Studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "status": "candidate-context",
+      "text": "![Free Palestine](https://freepalestinemovement.org/wp-content/uploads/2013/06/banner.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "brunch/sass-brunch",
       "status": "candidate",
       "text": "Adds Sass support to [Brunch](https://brunch.io)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cle2ment/CherryStudio_themes",
+      "status": "candidate",
+      "text": "![Free Palestine](https://freepalestinemovement.org/wp-content/uploads/2013/06/banner.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "brunch/sass-brunch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "Cle2ment/CherryStudio_themes"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

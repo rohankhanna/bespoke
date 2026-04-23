@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T01:11:02.675268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the public roadmap for AWS Proton",
+    "fork": false,
+    "full_name": "aws/aws-proton-public-roadmap",
+    "html_url": "https://github.com/aws/aws-proton-public-roadmap",
+    "language": null,
+    "pushed_at": "2021-06-21T19:49:51Z",
+    "stargazers_count": 196,
+    "topics": [],
+    "updated_at": "2025-12-24T17:31:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

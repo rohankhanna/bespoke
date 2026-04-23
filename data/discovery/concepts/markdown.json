@@ -163,6 +163,30 @@
       "source_repo": "Ileriayo/markdown-badges",
       "status": "candidate-context",
       "text": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ekalinin/github-markdown-toc.go",
+      "status": "candidate-context",
+      "text": "Easy TOC creation for GitHub README.md (in go)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekalinin/github-markdown-toc.go",
+      "status": "candidate-context",
+      "text": "github-markdown-toc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate-context",
+      "text": "OpenRPC Markdown Generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate-context",
+      "text": "Generate API documentation from [OpenRPC](https://open-rpc.org) specifications."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "Ileriayo/markdown-badges",
       "status": "candidate",
       "text": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekalinin/github-markdown-toc.go",
+      "status": "candidate",
+      "text": "github-markdown-toc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-rpc/markdown-gen",
+      "status": "candidate",
+      "text": "Generate API documentation from [OpenRPC](https://open-rpc.org) specifications."
     }
   ],
   "candidate_related_terms": [
@@ -376,11 +412,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Ileriayo/markdown-badges"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "hukkin/mdformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ekalinin/github-markdown-toc.go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "open-rpc/markdown-gen"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

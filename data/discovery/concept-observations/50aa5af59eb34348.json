@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An open-source C++ library developed and used at Facebook."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Shared Libs Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Shared Libs Linux"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12911,
+      "status": "candidate",
+      "text": "noun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12911,
+      "status": "candidate",
+      "text": "verb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12512,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12512,
+      "status": "candidate",
+      "text": "airs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12512,
+      "status": "candidate",
+      "text": "peseta"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Shared Libs Linux",
+      "sense_id": "shared-libs-linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "shared-libs-linux",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "shared-libs-linux",
+  "observation_id": "50aa5af59eb34348",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "Shared Libs Linux",
+  "source_context_snippet": "Shared Libs Linux",
+  "source_file": ".github/workflows/getdeps_shared-libs_linux.yml",
+  "source_repo": "facebook/folly",
+  "source_repo_description": "An open-source C++ library developed and used at Facebook."
+}

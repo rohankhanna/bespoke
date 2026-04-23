@@ -34,6 +34,18 @@
       "source_repo": "taylorwilsdon/google_workspace_mcp",
       "status": "candidate-context",
       "text": "Ruff"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "status": "candidate-context",
+      "text": "artisan: the world's most trusted roasting software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "status": "candidate-context",
+      "text": "Ruff"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "taylorwilsdon/google_workspace_mcp",
+      "status": "candidate",
+      "text": "Ruff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artisan-roaster-scope/artisan",
       "status": "candidate",
       "text": "Ruff"
     }
@@ -145,11 +163,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/ruff.yml",
       "source_repo": "taylorwilsdon/google_workspace_mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/ruff.yaml",
+      "source_repo": "artisan-roaster-scope/artisan"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

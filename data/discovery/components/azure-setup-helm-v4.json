@@ -1,12 +1,17 @@
 {
   "component": "azure/setup-helm@v4",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/helm.yaml",
       "source_repo": "coder/code-marketplace"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/app-design-center-ci.yml",
+      "source_repo": "GoogleCloudPlatform/kubernetes-engine-samples"
     }
   ]
 }

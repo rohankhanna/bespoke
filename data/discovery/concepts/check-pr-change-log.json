@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check PR change log"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astropy/astropy",
+      "status": "candidate-context",
+      "text": "Astronomy and astrophysics core library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astropy/astropy",
+      "status": "candidate-context",
+      "text": "Check PR change log"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astropy/astropy",
+      "status": "candidate",
+      "text": "Check PR change log"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32652,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32652,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32652,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26134,
+      "status": "candidate",
+      "text": "setback"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26120,
+      "status": "candidate",
+      "text": "watch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check PR change log",
+  "concept_id": "check-pr-change-log",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/check_changelog.yml",
+      "source_repo": "astropy/astropy"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check PR change log",
+      "sense_id": "check-pr-change-log#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

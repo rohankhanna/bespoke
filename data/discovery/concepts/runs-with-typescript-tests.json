@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Runs with TypeScript Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/TypeScript-DOM-lib-generator",
+      "status": "candidate-context",
+      "text": "Tool for generating dom related TypeScript and JavaScript library files "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/TypeScript-DOM-lib-generator",
+      "status": "candidate-context",
+      "text": "Runs with TypeScript Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/TypeScript-DOM-lib-generator",
+      "status": "candidate",
+      "text": "Runs with TypeScript Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22489,
+      "status": "candidate",
+      "text": "operator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22489,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22480,
+      "status": "candidate",
+      "text": "airman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22480,
+      "status": "candidate",
+      "text": "document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22480,
+      "status": "candidate",
+      "text": "governor"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Runs with TypeScript Tests",
+  "concept_id": "runs-with-typescript-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/test_typescript.yml",
+      "source_repo": "microsoft/TypeScript-DOM-lib-generator"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Runs with TypeScript Tests",
+      "sense_id": "runs-with-typescript-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

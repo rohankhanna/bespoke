@@ -1,0 +1,589 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ascend.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ascend.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-coreml.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ncnn.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ncnn.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ncnn.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ncnn.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ncnn.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ort.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ort.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-pplnn.yml"
+    },
+    {
+      "component": "RubbaBoy/BYOB@v1.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-pplnn.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-pplnn.yml"
+    },
+    {
+      "component": "RubbaBoy/BYOB@v1.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-pplnn.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-rknn.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-rknn.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-snpe.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-torchscript.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-torchscript.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "open-mmlab/mmengine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "open-mmlab/mmagic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "open-mmlab/mmdetection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "open-mmlab/mmdetection3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ascend.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ascend.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ascend.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "backend-ascend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-coreml.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-coreml.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "backend-coreml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ncnn.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ncnn.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ncnn.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "backend-ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ort.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-ort.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ort.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "backend-ort",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-pplnn.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-pplnn.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "RubbaBoy/BYOB@v1.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-pplnn.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "backend-pplnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-rknn.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-rknn.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "backend-rknn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-snpe.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-snpe.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "backend-snpe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-torchscript.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-torchscript.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-torchscript.yml",
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "backend-torchscript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "mmdetection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "mmsegmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "model-converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "ncnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "onnxruntime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "openvino",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "pplnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdeploy",
+      "target": "tensorrt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:17:43.331730+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16879
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    },
+    {
+      "path": ".github/workflows/backend-ascend.yml",
+      "size": 1757
+    },
+    {
+      "path": ".github/workflows/backend-coreml.yml",
+      "size": 2541
+    },
+    {
+      "path": ".github/workflows/backend-ncnn.yml",
+      "size": 5026
+    },
+    {
+      "path": ".github/workflows/backend-ort.yml",
+      "size": 1500
+    },
+    {
+      "path": ".github/workflows/backend-pplnn.yml",
+      "size": 2835
+    },
+    {
+      "path": ".github/workflows/backend-rknn.yml",
+      "size": 961
+    },
+    {
+      "path": ".github/workflows/backend-snpe.yml",
+      "size": 1680
+    },
+    {
+      "path": ".github/workflows/backend-torchscript.yml",
+      "size": 1060
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenMMLab Model Deployment Framework",
+    "fork": false,
+    "full_name": "open-mmlab/mmdeploy",
+    "html_url": "https://github.com/open-mmlab/mmdeploy",
+    "language": "Python",
+    "pushed_at": "2024-09-30T02:34:18Z",
+    "stargazers_count": 3121,
+    "topics": [
+      "computer-vision",
+      "deep-learning",
+      "deployment",
+      "mmdetection",
+      "mmsegmentation",
+      "model-converter",
+      "ncnn",
+      "onnx",
+      "onnxruntime",
+      "openvino",
+      "pplnn",
+      "pytorch",
+      "sdk",
+      "tensorrt"
+    ],
+    "updated_at": "2026-04-20T06:57:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmagic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmdetection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmdetection3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmengine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "backend-ascend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ascend.yml",
+      "term": "backend-ascend"
+    },
+    {
+      "context_snippet": "backend-coreml",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-coreml.yml",
+      "term": "backend-coreml"
+    },
+    {
+      "context_snippet": "backend-ncnn",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ncnn.yml",
+      "term": "backend-ncnn"
+    },
+    {
+      "context_snippet": "backend-ort",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-ort.yml",
+      "term": "backend-ort"
+    },
+    {
+      "context_snippet": "backend-pplnn",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-pplnn.yml",
+      "term": "backend-pplnn"
+    },
+    {
+      "context_snippet": "backend-rknn",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-rknn.yml",
+      "term": "backend-rknn"
+    },
+    {
+      "context_snippet": "backend-snpe",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-snpe.yml",
+      "term": "backend-snpe"
+    },
+    {
+      "context_snippet": "backend-torchscript",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-torchscript.yml",
+      "term": "backend-torchscript"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployment"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmdetection"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmsegmentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-converter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ncnn"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnxruntime"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openvino"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pplnn"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    }
+  ]
+}

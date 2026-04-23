@@ -57,6 +57,18 @@
       "source_repo": "mislav/hub",
       "status": "candidate-context",
       "text": "hub is a command line tool that wraps `git` in order to extend it with extra"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate-context",
+      "text": "A Pluggable Terraform Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate-context",
+      "text": "homebrew"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +95,12 @@
       "source_repo": "mislav/hub",
       "status": "candidate",
       "text": "hub is a command line tool that wraps `git` in order to extend it with extra"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint",
+      "status": "candidate",
+      "text": "homebrew"
     }
   ],
   "candidate_related_terms": [
@@ -168,11 +186,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/homebrew.yml",
       "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "terraform-linters/tflint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "mislav/hub"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

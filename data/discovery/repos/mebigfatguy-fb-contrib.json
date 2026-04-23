@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mebigfatguy/fb-contrib",
+      "target": "spotbugs/spotbugs-maven-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "mebigfatguy/fb-contrib",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "mebigfatguy/fb-contrib",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "mebigfatguy/fb-contrib",
+      "target": "Java CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mebigfatguy/fb-contrib",
+      "target": "findbugs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mebigfatguy/fb-contrib",
+      "target": "findbugs-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mebigfatguy/fb-contrib",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mebigfatguy/fb-contrib",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:23:07.022089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7820
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 787
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "spotbugs",
+    "description": "a FindBugs/SpotBugs plugin for doing static code analysis for java code bases",
+    "fork": false,
+    "full_name": "mebigfatguy/fb-contrib",
+    "html_url": "https://github.com/mebigfatguy/fb-contrib",
+    "language": "Java",
+    "pushed_at": "2026-03-12T04:21:13Z",
+    "stargazers_count": 171,
+    "topics": [
+      "findbugs",
+      "findbugs-plugin",
+      "java",
+      "static-code-analysis"
+    ],
+    "updated_at": "2026-03-26T07:50:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spotbugs/spotbugs-maven-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Java CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "Java CI"
+    },
+    {
+      "context_snippet": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "findbugs"
+    },
+    {
+      "context_snippet": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "findbugs-plugin"
+    },
+    {
+      "context_snippet": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-code-analysis"
+    }
+  ]
+}

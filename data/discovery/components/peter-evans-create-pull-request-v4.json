@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v4",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "explosion/projects"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update_vim_docs.yaml",
+      "source_repo": "ycm-core/YouCompleteMe"
     }
   ]
 }

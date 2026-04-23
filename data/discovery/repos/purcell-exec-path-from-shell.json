@@ -1,0 +1,67 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "purcell/exec-path-from-shell",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "purcell/exec-path-from-shell",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:24:47.797657+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5903
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 745
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Make Emacs use the $PATH set up by the user's shell",
+    "fork": false,
+    "full_name": "purcell/exec-path-from-shell",
+    "html_url": "https://github.com/purcell/exec-path-from-shell",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-22T11:03:46Z",
+    "stargazers_count": 1559,
+    "topics": [],
+    "updated_at": "2026-04-22T21:43:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

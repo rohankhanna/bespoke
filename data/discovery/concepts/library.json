@@ -163,6 +163,66 @@
       "source_repo": "foundry-rs/foundry-core",
       "status": "candidate-context",
       "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocornut/imgui",
+      "status": "candidate-context",
+      "text": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocornut/imgui",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashberg-io/bases",
+      "status": "candidate-context",
+      "text": "A Python library for general Base-N encodings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashberg-io/bases",
+      "status": "candidate-context",
+      "text": "bases: A Python library for Base-N encodings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashberg-io/multiformats-config",
+      "status": "candidate-context",
+      "text": "Table information and configuration options for the 'multiformats' package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashberg-io/multiformats-config",
+      "status": "candidate-context",
+      "text": "multiformats-config: Configuration for the 'multiformats' package."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashberg-io/typing-validation",
+      "status": "candidate-context",
+      "text": "A simple library for runtime type-checking."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashberg-io/typing-validation",
+      "status": "candidate-context",
+      "text": "typing-validation: Validation using Type Hints"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libssh2/libssh2",
+      "status": "candidate-context",
+      "text": "the SSH library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libssh2/libssh2",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +303,36 @@
       "source_repo": "foundry-rs/foundry-core",
       "status": "candidate",
       "text": "Core libraries extracted from [Foundry](https://github.com/foundry-rs/foundry), published as standalone crates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocornut/imgui",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashberg-io/bases",
+      "status": "candidate",
+      "text": "bases: A Python library for Base-N encodings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashberg-io/multiformats-config",
+      "status": "candidate",
+      "text": "multiformats-config: Configuration for the 'multiformats' package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashberg-io/typing-validation",
+      "status": "candidate",
+      "text": "typing-validation: Validation using Type Hints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libssh2/libssh2",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -379,11 +469,41 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "foundry-rs/foundry-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "ocornut/imgui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "hashberg-io/bases"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "hashberg-io/multiformats-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "hashberg-io/typing-validation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "libssh2/libssh2"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

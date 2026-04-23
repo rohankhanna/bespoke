@@ -148,6 +148,30 @@
       "source_repo": "termux/termux-packages",
       "status": "candidate-context",
       "text": "![GitHub repo size](https://img.shields.io/github/repo-size/termux/termux-packages)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CrossC2/CrossC2Kit",
+      "status": "candidate-context",
+      "text": "CrossC2 developed based on the Cobalt Strike framework can be used for other cross-platform system control. CrossC2Kit provides some interfaces for users to call to manipulate the CrossC2 Beacon session, thereby extending the functionality of Cobalt Strike."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrossC2/CrossC2Kit",
+      "status": "candidate-context",
+      "text": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "\u2728\u2601\ufe0f\ud83d\udcc1\u2728 Cloud Commander file manager for the web with console and editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate-context",
+      "text": "[MainURL]: https://cloudcmd.io \"Main\""
     }
   ],
   "candidate_glosses": [
@@ -222,6 +246,18 @@
       "source_repo": "termux/termux-packages",
       "status": "candidate",
       "text": "![GitHub repo size](https://img.shields.io/github/repo-size/termux/termux-packages)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CrossC2/CrossC2Kit",
+      "status": "candidate",
+      "text": "[README](README.md) | [\u4e2d\u6587\u6587\u6863](README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderaiser/cloudcmd",
+      "status": "candidate",
+      "text": "[MainURL]: https://cloudcmd.io \"Main\""
     }
   ],
   "candidate_related_terms": [
@@ -358,11 +394,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "termux/termux-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "CrossC2/CrossC2Kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "coderaiser/cloudcmd"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

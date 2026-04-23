@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy mergebot to Azure"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DefinitelyTyped-tools",
+      "status": "candidate-context",
+      "text": "Infrastructure for DefinitelyTyped"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DefinitelyTyped-tools",
+      "status": "candidate-context",
+      "text": "Deploy mergebot to Azure"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DefinitelyTyped-tools",
+      "status": "candidate",
+      "text": "Deploy mergebot to Azure"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10495,
+      "status": "candidate",
+      "text": "color"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "cyanine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "dye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "gayle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10461,
+      "status": "candidate",
+      "text": "murder"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy mergebot to Azure",
+  "concept_id": "deploy-mergebot-to-azure",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "microsoft/DefinitelyTyped-tools"
+    }
+  ],
+  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy mergebot to Azure",
+      "sense_id": "deploy-mergebot-to-azure#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

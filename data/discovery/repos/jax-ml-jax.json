@@ -68,13 +68,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jax-ml/jax",
-      "target": "intel/intel-extension-for-openxla",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/README.md",
       "source_repo": "jax-ml/jax",
@@ -187,7 +180,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T05:04:45.716250+00:00",
+  "fetched_at": "2026-04-23T01:23:09.795949+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -219,7 +212,7 @@
     },
     {
       "path": ".github/workflows/bazel_cuda_b200_mosaic_presubmit.yml",
-      "size": 5953
+      "size": 6211
     },
     {
       "path": ".github/workflows/bazel_cuda_h100_b200.yml",
@@ -239,20 +232,14 @@
     "full_name": "jax-ml/jax",
     "html_url": "https://github.com/jax-ml/jax",
     "language": "Python",
-    "pushed_at": "2026-04-22T04:55:30Z",
-    "stargazers_count": 35461,
+    "pushed_at": "2026-04-23T01:10:42Z",
+    "stargazers_count": 35465,
     "topics": [
       "jax"
     ],
-    "updated_at": "2026-04-22T04:59:14Z"
+    "updated_at": "2026-04-22T23:28:20Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "intel/intel-extension-for-openxla",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "CI - Address Sanitizer (nightly)",

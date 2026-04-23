@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bbatsov/super-save",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bbatsov/super-save",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/super-save",
+      "target": "auto-save",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/super-save",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bbatsov/super-save",
+      "target": "emacs-packages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:23:58.676235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9577
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Save Emacs buffers when they lose focus",
+    "fork": false,
+    "full_name": "bbatsov/super-save",
+    "html_url": "https://github.com/bbatsov/super-save",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-18T12:14:19Z",
+    "stargazers_count": 355,
+    "topics": [
+      "auto-save",
+      "emacs",
+      "emacs-packages"
+    ],
+    "updated_at": "2026-04-18T07:19:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![License GPL 3][badge-license]][copying]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-save"
+    },
+    {
+      "context_snippet": "[![License GPL 3][badge-license]][copying]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![License GPL 3][badge-license]][copying]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-packages"
+    }
+  ]
+}

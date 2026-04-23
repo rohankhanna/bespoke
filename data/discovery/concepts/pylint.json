@@ -19,12 +19,30 @@
       "source_repo": "crytic/evm_cfg_builder",
       "status": "candidate-context",
       "text": "Pylint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "status": "candidate-context",
+      "text": "artisan: the world's most trusted roasting software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artisan-roaster-scope/artisan",
+      "status": "candidate-context",
+      "text": "Pylint"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "crytic/evm_cfg_builder",
+      "status": "candidate",
+      "text": "Pylint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artisan-roaster-scope/artisan",
       "status": "candidate",
       "text": "Pylint"
     }
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/pylint.yml",
       "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/pylint.yaml",
+      "source_repo": "artisan-roaster-scope/artisan"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

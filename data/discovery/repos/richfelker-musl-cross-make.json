@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richfelker/musl-cross-make",
+      "target": "binutils",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richfelker/musl-cross-make",
+      "target": "cross-compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richfelker/musl-cross-make",
+      "target": "musl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richfelker/musl-cross-make",
+      "target": "musl-cross",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richfelker/musl-cross-make",
+      "target": "target-musl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "richfelker/musl-cross-make",
+      "target": "toolchain",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T01:21:39.654097+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5924
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple makefile-based build for musl cross compiler",
+    "fork": false,
+    "full_name": "richfelker/musl-cross-make",
+    "html_url": "https://github.com/richfelker/musl-cross-make",
+    "language": "Makefile",
+    "pushed_at": "2025-12-03T02:11:11Z",
+    "stargazers_count": 1544,
+    "topics": [
+      "binutils",
+      "cross-compiler",
+      "gcc",
+      "musl",
+      "musl-cross",
+      "target-musl",
+      "toolchain"
+    ],
+    "updated_at": "2026-04-22T12:01:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "musl-cross-make",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binutils"
+    },
+    {
+      "context_snippet": "musl-cross-make",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-compiler"
+    },
+    {
+      "context_snippet": "musl-cross-make",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "musl"
+    },
+    {
+      "context_snippet": "musl-cross-make",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "musl-cross"
+    },
+    {
+      "context_snippet": "musl-cross-make",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "target-musl"
+    },
+    {
+      "context_snippet": "musl-cross-make",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolchain"
+    }
+  ]
+}

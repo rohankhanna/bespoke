@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross tooling and interoperability specifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository is in active maintenance and contains specifications shared across repositories under Notary Project as well as used by other open source projects and/or vendor tools that want to interoperate with Notary Project tooling."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository is in active maintenance and contains specifications shared across repositories under Notary Project as well as used by other open source projects and/or vendor tools that want to interoperate with Notary Project tooling."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "supply-chain",
+      "sense_id": "supply-chain#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "supply-chain",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "supply-chain",
+  "observation_id": "1fe345f3ffb6372a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_text": "supply-chain",
+  "source_context_snippet": "This repository is in active maintenance and contains specifications shared across repositories under Notary Project as well as used by other open source projects and/or vendor tools that want to interoperate with Notary Project tooling.",
+  "source_file": null,
+  "source_repo": "notaryproject/specifications",
+  "source_repo_description": "Cross tooling and interoperability specifications"
+}

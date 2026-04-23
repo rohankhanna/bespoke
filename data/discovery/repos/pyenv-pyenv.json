@@ -68,34 +68,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyenv/pyenv",
-      "target": "pyenv/pyenv-virtualenv",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyenv/pyenv",
-      "target": "pyenv/pyenv-installer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyenv/pyenv",
-      "target": "pyenv-win/pyenv-win",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyenv/pyenv",
-      "target": "pyenv/pyenv-update",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/add_version.yml",
       "source_repo": "pyenv/pyenv",
@@ -180,7 +152,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T18:49:22.508895+00:00",
+  "fetched_at": "2026-04-23T01:20:56.387011+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -211,7 +183,6 @@
       "size": 1330
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:56.986073+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -222,35 +193,14 @@
     "html_url": "https://github.com/pyenv/pyenv",
     "language": "Shell",
     "pushed_at": "2026-04-17T19:53:56Z",
-    "stargazers_count": 44629,
+    "stargazers_count": 44652,
     "topics": [
       "python",
       "shell"
     ],
-    "updated_at": "2026-04-19T13:27:47Z"
+    "updated_at": "2026-04-22T17:09:36Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pyenv-win/pyenv-win",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pyenv/pyenv-installer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pyenv/pyenv-update",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pyenv/pyenv-virtualenv",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Add versions",

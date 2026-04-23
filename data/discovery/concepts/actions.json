@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -67,6 +69,18 @@
       "source_repo": "helm/kind-action",
       "status": "candidate-context",
       "text": "[![](https://github.com/helm/kind-action/workflows/Test/badge.svg?branch=main)](https://github.com/helm/kind-action/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiarch/crossbuild",
+      "status": "candidate-context",
+      "text": ":earth_africa: multiarch cross compiling environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiarch/crossbuild",
+      "status": "candidate-context",
+      "text": "actions"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +113,12 @@
       "source_repo": "helm/kind-action",
       "status": "candidate",
       "text": "[![](https://github.com/helm/kind-action/workflows/Test/badge.svg?branch=main)](https://github.com/helm/kind-action/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiarch/crossbuild",
+      "status": "candidate",
+      "text": "actions"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +192,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "helm/kind-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "multiarch/crossbuild"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -36,21 +36,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mislav/hub",
-      "target": "rtomayko/tilt",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mislav/hub",
       "target": "github/hub",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mislav/hub",
-      "target": "void-linux/xbps",
       "target_type": "repository"
     },
     {
@@ -124,7 +110,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T05:00:07.273004+00:00",
+  "fetched_at": "2026-04-23T01:17:02.051236+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -171,16 +157,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "github/hub",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rtomayko/tilt",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "void-linux/xbps",
       "source_file": "README.md"
     }
   ],

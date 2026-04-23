@@ -67,6 +67,18 @@
       "source_repo": "jayli/vim-easycomplete",
       "status": "candidate-context",
       "text": "> [\u4e2d\u6587](README-cn.md) | [English](README.md) | [Wiki](https://github.com/jayli/vim-easycomplete/wiki)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sublimelsp/LSP",
+      "status": "candidate-context",
+      "text": "Client implementation of the Language Server Protocol for Sublime Text"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimelsp/LSP",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "jayli/vim-easycomplete",
       "status": "candidate",
       "text": "> [\u4e2d\u6587](README-cn.md) | [English](README.md) | [Wiki](https://github.com/jayli/vim-easycomplete/wiki)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimelsp/LSP",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T01:09:11.871080+00:00",
+      "source_file": null,
+      "source_repo": "sublimelsp/LSP"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "lexical_providers": [
     "datamuse"
   ],
