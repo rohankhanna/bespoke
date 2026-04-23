@@ -1,0 +1,125 @@
+{
+  "aliases": [
+    "Check Broken Links",
+    "Check Broken links"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DataDog/opa",
+      "status": "candidate-context",
+      "text": "Open Policy Agent (OPA) is an open source, general-purpose policy engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/opa",
+      "status": "candidate-context",
+      "text": "\"Check Broken Links\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/ultralytics",
+      "status": "candidate-context",
+      "text": "Ultralytics YOLO \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/ultralytics",
+      "status": "candidate-context",
+      "text": "Check Broken links"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/opa",
+      "status": "candidate",
+      "text": "\"Check Broken Links\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/ultralytics",
+      "status": "candidate",
+      "text": "Check Broken links"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18033,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18033,
+      "status": "candidate",
+      "text": "guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18002,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18002,
+      "status": "candidate",
+      "text": "pin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17975,
+      "status": "candidate",
+      "text": "iron"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Broken Links",
+  "concept_id": "check-broken-links",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/link-checker.yaml",
+      "source_repo": "DataDog/opa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "ultralytics/ultralytics"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Broken Links",
+      "sense_id": "check-broken-links#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

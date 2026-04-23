@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:35:38.563544+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust for C++ programmers",
+    "fork": false,
+    "full_name": "nrc/r4cppp",
+    "html_url": "https://github.com/nrc/r4cppp",
+    "language": "Rust",
+    "pushed_at": "2024-05-16T20:56:44Z",
+    "stargazers_count": 3825,
+    "topics": [],
+    "updated_at": "2026-04-22T15:24:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

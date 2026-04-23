@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "machine-translation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenNMT/OpenNMT-py",
+      "status": "candidate-context",
+      "text": "Open Source Neural Machine Translation and (Large) Language Models in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenNMT/OpenNMT-py",
+      "status": "candidate-context",
+      "text": "We started a new project [Eole](https://eole-nlp.github.io/eole/) available on [Github](https://github.com/eole-nlp/eole)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rsennrich/subword-nmt",
+      "status": "candidate-context",
+      "text": "Unsupervised Word Segmentation for Neural Machine Translation and Text Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rsennrich/subword-nmt",
+      "status": "candidate-context",
+      "text": "Subword Neural Machine Translation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenNMT/OpenNMT-py",
+      "status": "candidate",
+      "text": "We started a new project [Eole](https://eole-nlp.github.io/eole/) available on [Github](https://github.com/eole-nlp/eole)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rsennrich/subword-nmt",
+      "status": "candidate",
+      "text": "Subword Neural Machine Translation"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "machine-translation",
+  "concept_id": "machine-translation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "OpenNMT/OpenNMT-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rsennrich/subword-nmt"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "machine-translation",
+      "sense_id": "machine-translation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

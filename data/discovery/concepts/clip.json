@@ -19,12 +19,66 @@
       "source_repo": "open-mmlab/mmpretrain",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rom1504/clip-retrieval",
+      "status": "candidate-context",
+      "text": "Easily compute clip embeddings and build a clip retrieval system with them"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/clip-retrieval",
+      "status": "candidate-context",
+      "text": "[![pypi](https://img.shields.io/pypi/v/clip-retrieval.svg)](https://pypi.python.org/pypi/clip-retrieval)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EdVince/Stable-Diffusion-NCNN",
+      "status": "candidate-context",
+      "text": "Stable Diffusion in NCNN with c++, supported txt2img and img2img"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdVince/Stable-Diffusion-NCNN",
+      "status": "candidate-context",
+      "text": "Stable-Diffusion implemented by [ncnn](https://github.com/Tencent/ncnn) framework based on C++, supported txt2img and img2img!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autodistill/autodistill-clip",
+      "status": "candidate-context",
+      "text": "CLIP module for use with Autodistill."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodistill/autodistill-clip",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "open-mmlab/mmpretrain",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/clip-retrieval",
+      "status": "candidate",
+      "text": "[![pypi](https://img.shields.io/pypi/v/clip-retrieval.svg)](https://pypi.python.org/pypi/clip-retrieval)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdVince/Stable-Diffusion-NCNN",
+      "status": "candidate",
+      "text": "Stable-Diffusion implemented by [ncnn](https://github.com/Tencent/ncnn) framework based on C++, supported txt2img and img2img!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodistill/autodistill-clip",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -112,11 +166,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rom1504/clip-retrieval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EdVince/Stable-Diffusion-NCNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "autodistill/autodistill-clip"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

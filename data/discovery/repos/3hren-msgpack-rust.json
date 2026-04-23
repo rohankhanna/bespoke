@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "3Hren/msgpack-rust",
+      "target": "rust-lang-nursery/rustc-serialize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "3Hren/msgpack-rust",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "3Hren/msgpack-rust",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "3Hren/msgpack-rust",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3Hren/msgpack-rust",
+      "target": "crates-rmp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3Hren/msgpack-rust",
+      "target": "decoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3Hren/msgpack-rust",
+      "target": "messagepack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3Hren/msgpack-rust",
+      "target": "msgpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3Hren/msgpack-rust",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3Hren/msgpack-rust",
+      "target": "serde",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3Hren/msgpack-rust",
+      "target": "serialization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:48:16.161509+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2790
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 98
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 634
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MessagePack implementation for Rust / msgpack.org[Rust]",
+    "fork": false,
+    "full_name": "3Hren/msgpack-rust",
+    "html_url": "https://github.com/3Hren/msgpack-rust",
+    "language": "Rust",
+    "pushed_at": "2025-12-23T23:53:16Z",
+    "stargazers_count": 1396,
+    "topics": [
+      "crates-rmp",
+      "decoding",
+      "messagepack",
+      "msgpack",
+      "rmp",
+      "rust",
+      "serde",
+      "serialization"
+    ],
+    "updated_at": "2026-04-22T03:32:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang-nursery/rustc-serialize",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "RMP is a complete pure-Rust [MessagePack](http://msgpack.org) implementation. MessagePack a compact self-describing binary serialization format.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crates-rmp"
+    },
+    {
+      "context_snippet": "RMP is a complete pure-Rust [MessagePack](http://msgpack.org) implementation. MessagePack a compact self-describing binary serialization format.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decoding"
+    },
+    {
+      "context_snippet": "RMP is a complete pure-Rust [MessagePack](http://msgpack.org) implementation. MessagePack a compact self-describing binary serialization format.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "messagepack"
+    },
+    {
+      "context_snippet": "RMP is a complete pure-Rust [MessagePack](http://msgpack.org) implementation. MessagePack a compact self-describing binary serialization format.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "msgpack"
+    },
+    {
+      "context_snippet": "RMP is a complete pure-Rust [MessagePack](http://msgpack.org) implementation. MessagePack a compact self-describing binary serialization format.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "RMP is a complete pure-Rust [MessagePack](http://msgpack.org) implementation. MessagePack a compact self-describing binary serialization format.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serde"
+    },
+    {
+      "context_snippet": "RMP is a complete pure-Rust [MessagePack](http://msgpack.org) implementation. MessagePack a compact self-describing binary serialization format.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    }
+  ]
+}

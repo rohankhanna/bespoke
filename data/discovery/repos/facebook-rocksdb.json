@@ -1,0 +1,709 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-comment.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-comment.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-comment.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review-comment.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review-comment.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review-comment.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review-comment.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review-comment.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review-comment.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review-comment.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-base-action@beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-candidate.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs-candidate.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs-candidate.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-linux.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/checkout@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-comment.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-comment.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/download-artifact@v4.1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-comment.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-comment.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "Post clang-tidy PR comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/checkout@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/upload-artifact@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "clang-tidy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review-comment.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review-comment.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review-comment.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review-comment.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "Post Claude Review Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "anthropics/claude-code-base-action@beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-candidate.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/checkout@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/checkout@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs-candidate.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/checkout@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/checkout@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "maxim-lobanov/setup-xcode@v1.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-jobs.yml",
+      "source_repo": "facebook/rocksdb",
+      "target": "actions/upload-artifact@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebook/rocksdb",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebook/rocksdb",
+      "target": "storage-engine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:36:24.631068+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1689
+    },
+    {
+      "path": ".github/workflows/benchmark-linux.yml",
+      "size": 538
+    },
+    {
+      "path": ".github/workflows/clang-tidy-comment.yml",
+      "size": 1484
+    },
+    {
+      "path": ".github/workflows/clang-tidy.yml",
+      "size": 2486
+    },
+    {
+      "path": ".github/workflows/claude-review-comment.yml",
+      "size": 5091
+    },
+    {
+      "path": ".github/workflows/claude-review.yml",
+      "size": 23273
+    },
+    {
+      "path": ".github/workflows/nightly-candidate.yml",
+      "size": 581
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 7310
+    },
+    {
+      "path": ".github/workflows/pr-jobs-candidate.yml",
+      "size": 1754
+    },
+    {
+      "path": ".github/workflows/pr-jobs.yml",
+      "size": 30098
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A library that provides an embeddable, persistent key-value store for fast storage.",
+    "fork": false,
+    "full_name": "facebook/rocksdb",
+    "html_url": "https://github.com/facebook/rocksdb",
+    "language": "C++",
+    "pushed_at": "2026-04-23T03:41:46Z",
+    "stargazers_count": 31629,
+    "topics": [
+      "database",
+      "storage-engine"
+    ],
+    "updated_at": "2026-04-23T05:17:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Post clang-tidy PR comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-comment.yml",
+      "term": "Post clang-tidy PR comment"
+    },
+    {
+      "context_snippet": "clang-tidy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "term": "clang-tidy"
+    },
+    {
+      "context_snippet": "Post Claude Review Comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review-comment.yml",
+      "term": "Post Claude Review Comment"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "[![CircleCI Status](https://circleci.com/gh/facebook/rocksdb.svg?style=svg)](https://circleci.com/gh/facebook/rocksdb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![CircleCI Status](https://circleci.com/gh/facebook/rocksdb.svg?style=svg)](https://circleci.com/gh/facebook/rocksdb)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage-engine"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RustSec API & Tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "admin"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "admin"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048447,
+      "status": "candidate",
+      "text": "administration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048375,
+      "status": "candidate",
+      "text": "administrator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048356,
+      "status": "candidate",
+      "text": "administrative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047742,
+      "status": "candidate",
+      "text": "management"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047717,
+      "status": "candidate",
+      "text": "administering"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "admin",
+      "sense_id": "admin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "admin",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "admin",
+  "observation_id": "bfe54cd0af8d5fd7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "admin",
+  "source_context_snippet": "admin",
+  "source_file": ".github/workflows/admin.yml",
+  "source_repo": "rustsec/rustsec",
+  "source_repo_description": "RustSec API & Tooling"
+}

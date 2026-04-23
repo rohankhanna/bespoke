@@ -301,6 +301,18 @@
       "source_repo": "zhayujie/bot-on-anything",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/6e931057-e09f-4742-9fbd-2417cf6bc2f3\" alt=\"Bot-On-Anything\" width=\"600\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/generative-ai",
+      "status": "candidate-context",
+      "text": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/generative-ai",
+      "status": "candidate-context",
+      "text": "> **[Gemini Enterprise Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform)**, the latest evolution of Vertex AI, has been released!"
     }
   ],
   "candidate_glosses": [
@@ -447,6 +459,12 @@
       "source_repo": "zhayujie/bot-on-anything",
       "status": "candidate",
       "text": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/6e931057-e09f-4742-9fbd-2417cf6bc2f3\" alt=\"Bot-On-Anything\" width=\"600\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/generative-ai",
+      "status": "candidate",
+      "text": "> **[Gemini Enterprise Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform)**, the latest evolution of Vertex AI, has been released!"
     }
   ],
   "candidate_related_terms": [
@@ -780,11 +798,53 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "zhayujie/bot-on-anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/generative-ai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

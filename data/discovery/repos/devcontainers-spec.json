@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devcontainers/spec",
+      "target": "devcontainers/ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devcontainers/spec",
+      "target": "microsoft/fluentui-system-icons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devcontainers/spec",
+      "target": "devcontainers/templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devcontainers/spec",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devcontainers/spec",
+      "target": "devcontainers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:29:19.970266+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3835
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Development Containers: Use a container as a full-featured development environment.",
+    "fork": false,
+    "full_name": "devcontainers/spec",
+    "html_url": "https://github.com/devcontainers/spec",
+    "language": null,
+    "pushed_at": "2026-03-20T11:13:13Z",
+    "stargazers_count": 5368,
+    "topics": [
+      "containers",
+      "devcontainers"
+    ],
+    "updated_at": "2026-04-23T04:24:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devcontainers/ci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devcontainers/templates",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/fluentui-system-icons",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository is for the Development Container Specification. You can check out the spec on our website https://containers.dev/ too.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "This repository is for the Development Container Specification. You can check out the spec on our website https://containers.dev/ too.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devcontainers"
+    }
+  ]
+}

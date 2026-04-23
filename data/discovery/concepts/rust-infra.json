@@ -19,6 +19,18 @@
       "source_repo": "rust-lang/crates-build-env",
       "status": "candidate-context",
       "text": "This repository contains the source code and the tooling to produce the Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/homu",
+      "status": "candidate-context",
+      "text": "A bot that integrates with GitHub and your favorite continuous integration service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/homu",
+      "status": "candidate-context",
+      "text": "[![Hommando]][Akemi Homura]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rust-lang/crates-build-env",
       "status": "candidate",
       "text": "This repository contains the source code and the tooling to produce the Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/homu",
+      "status": "candidate",
+      "text": "[![Hommando]][Akemi Homura]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "rust-lang/crates-build-env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/homu"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

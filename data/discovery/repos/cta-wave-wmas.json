@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cta-wave/WMAS",
+      "target": "w3c/webmediaapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cta-wave/WMAS",
+      "target": "web-platform-tests/wpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cta-wave/WMAS",
+      "target": "cta-wave/wmas-deploy",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:41:06.240955+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Test suite for the Web Media API Snapshot Specification",
+    "fork": false,
+    "full_name": "cta-wave/WMAS",
+    "html_url": "https://github.com/cta-wave/WMAS",
+    "language": null,
+    "pushed_at": "2026-03-18T13:07:02Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-04-13T14:58:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cta-wave/wmas-deploy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "w3c/webmediaapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "web-platform-tests/wpt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

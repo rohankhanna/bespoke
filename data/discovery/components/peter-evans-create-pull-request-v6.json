@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v6",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
       "source_repo": "queryverse/VegaLite.jl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag-release.yml",
+      "source_repo": "emscripten-core/emscripten"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/interfaces.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/regen_certs.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs_release_auto_sync_pr.yml",
+      "source_repo": "camel-ai/camel"
     }
   ]
 }

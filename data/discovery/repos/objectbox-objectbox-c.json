@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "objectbox/objectbox-c",
+      "target": "objectbox/objectbox-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "objectbox/objectbox-c",
+      "target": "objectbox/objectbox-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "objectbox/objectbox-c",
+      "target": "objectbox/objectbox-dart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "objectbox/objectbox-c",
+      "target": "objectbox/objectbox-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "objectbox/objectbox-c",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-c",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-c",
+      "target": "edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-c",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-c",
+      "target": "flatbuffers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-c",
+      "target": "offline-first",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-c",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-c",
+      "target": "persistence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-c",
+      "target": "storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-c",
+      "target": "sustainable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-c",
+      "target": "sync",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:41:25.889457+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8386
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3057
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "C and C++ database for objects and structs",
+    "fork": false,
+    "full_name": "objectbox/objectbox-c",
+    "html_url": "https://github.com/objectbox/objectbox-c",
+    "language": "C",
+    "pushed_at": "2026-03-26T12:57:52Z",
+    "stargazers_count": 266,
+    "topics": [
+      "c",
+      "cpp",
+      "database",
+      "edge",
+      "embedded",
+      "flatbuffers",
+      "offline-first",
+      "performance",
+      "persistence",
+      "storage",
+      "sustainable",
+      "sync"
+    ],
+    "updated_at": "2026-04-20T21:27:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "objectbox/objectbox-dart",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "objectbox/objectbox-generator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "objectbox/objectbox-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "objectbox/objectbox-python",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ObjectBox Embedded Database for C and C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "ObjectBox Embedded Database for C and C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge"
+    },
+    {
+      "context_snippet": "ObjectBox Embedded Database for C and C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "ObjectBox Embedded Database for C and C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flatbuffers"
+    },
+    {
+      "context_snippet": "ObjectBox Embedded Database for C and C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "offline-first"
+    },
+    {
+      "context_snippet": "ObjectBox Embedded Database for C and C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "ObjectBox Embedded Database for C and C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "persistence"
+    },
+    {
+      "context_snippet": "ObjectBox Embedded Database for C and C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage"
+    },
+    {
+      "context_snippet": "ObjectBox Embedded Database for C and C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sustainable"
+    },
+    {
+      "context_snippet": "ObjectBox Embedded Database for C and C++",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sync"
+    }
+  ]
+}

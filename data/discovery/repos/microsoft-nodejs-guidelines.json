@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/nodejs-guidelines",
+      "target": "azure/azure-sdk-for-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/nodejs-guidelines",
+      "target": "microsoft/node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/nodejs-guidelines",
+      "target": "microsoft/dockertoolsdocs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/nodejs-guidelines",
+      "target": "lukehoban/es6features",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:44:52.191128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5714
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Tips, tricks, and resources for working with Node.js, and the start of an ongoing conversation on how we can improve the Node.js experience on Microsoft platforms.",
+    "fork": false,
+    "full_name": "microsoft/nodejs-guidelines",
+    "html_url": "https://github.com/microsoft/nodejs-guidelines",
+    "language": null,
+    "pushed_at": "2023-02-12T09:16:18Z",
+    "stargazers_count": 2502,
+    "topics": [],
+    "updated_at": "2026-04-10T22:46:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/azure-sdk-for-node",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukehoban/es6features",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/dockertoolsdocs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/node",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

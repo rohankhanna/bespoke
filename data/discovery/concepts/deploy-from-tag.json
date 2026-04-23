@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy from tag"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matter-labs/zksync",
+      "status": "candidate-context",
+      "text": "zkSync: trustless scaling and privacy engine for Ethereum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync",
+      "status": "candidate-context",
+      "text": "Deploy from tag"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync",
+      "status": "candidate",
+      "text": "Deploy from tag"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22899,
+      "status": "candidate",
+      "text": "anamnesis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22899,
+      "status": "candidate",
+      "text": "bones"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22899,
+      "status": "candidate",
+      "text": "celebrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22899,
+      "status": "candidate",
+      "text": "cigar cutter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22899,
+      "status": "candidate",
+      "text": "describe"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy from tag",
+  "concept_id": "deploy-from-tag",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.tag.yml",
+      "source_repo": "matter-labs/zksync"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy from tag",
+      "sense_id": "deploy-from-tag#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

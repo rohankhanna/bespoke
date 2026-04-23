@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust library for regular expressions using \"fancy\" features like look-around and backreferences. Has a mode which aims to be compatible with Oniguruma syntax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Deploy Playground to GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Deploy Playground to GitHub Pages"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18562,
+      "status": "candidate",
+      "text": "appear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18562,
+      "status": "candidate",
+      "text": "appearing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18562,
+      "status": "candidate",
+      "text": "jibe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18534,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18534,
+      "status": "candidate",
+      "text": "turn"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Playground to GitHub Pages",
+      "sense_id": "deploy-playground-to-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deploy-playground-to-github-pages",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deploy-playground-to-github-pages",
+  "observation_id": "67b7d77b7c278d34",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Deploy Playground to GitHub Pages",
+  "source_context_snippet": "Deploy Playground to GitHub Pages",
+  "source_file": ".github/workflows/gh-pages.yml",
+  "source_repo": "fancy-regex/fancy-regex",
+  "source_repo_description": "Rust library for regular expressions using \"fancy\" features like look-around and backreferences. Has a mode which aims to be compatible with Oniguruma syntax."
+}

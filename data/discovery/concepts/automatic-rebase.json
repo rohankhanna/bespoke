@@ -43,6 +43,66 @@
       "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
       "status": "candidate-context",
       "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate-context",
+      "text": "OWASP Juice Shop: Probably the most modern and sophisticated insecure web application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate-context",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airbnb/javascript",
+      "status": "candidate-context",
+      "text": "JavaScript Style Guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/javascript",
+      "status": "candidate-context",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/react-native",
+      "status": "candidate-context",
+      "text": "A framework for building native applications using React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native",
+      "status": "candidate-context",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ReactiveX/rxjs",
+      "status": "candidate-context",
+      "text": "A reactive programming library for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ReactiveX/rxjs",
+      "status": "candidate-context",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/react-native-macos",
+      "status": "candidate-context",
+      "text": "A framework for building native macOS apps with React."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-macos",
+      "status": "candidate-context",
+      "text": "Automatic Rebase"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +121,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y",
+      "status": "candidate",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/javascript",
+      "status": "candidate",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native",
+      "status": "candidate",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ReactiveX/rxjs",
+      "status": "candidate",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-macos",
       "status": "candidate",
       "text": "Automatic Rebase"
     }
@@ -130,11 +220,53 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/rebase.yml",
       "source_repo": "jsx-eslint/eslint-plugin-jsx-a11y"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "juice-shop/juice-shop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "airbnb/javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/autorebase.yml",
+      "source_repo": "facebook/react-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "ReactiveX/rxjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/autorebase.yml",
+      "source_repo": "microsoft/react-native-macos"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

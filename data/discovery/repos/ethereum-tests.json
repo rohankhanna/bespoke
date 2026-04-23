@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/tests",
+      "target": "ethereum/retesteth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/tests",
+      "target": "ethereumjs/ethereumjs-vm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/tests",
+      "target": "ethereum/py-evm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/tests",
+      "target": "hyperledger/besu",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:31:54.964790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5108
+    },
+    {
+      "path": "requirements.txt",
+      "size": 54
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Common tests for all Ethereum implementations",
+    "fork": false,
+    "full_name": "ethereum/tests",
+    "html_url": "https://github.com/ethereum/tests",
+    "language": "JavaScript",
+    "pushed_at": "2025-06-04T11:34:59Z",
+    "stargazers_count": 627,
+    "topics": [],
+    "updated_at": "2026-04-09T08:53:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/py-evm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/retesteth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereumjs/ethereumjs-vm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hyperledger/besu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

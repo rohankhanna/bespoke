@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast In-Memory Data Compression Algorithm (header-only C/C++) 480+MB/s compress, 2800+MB/s decompress, ratio% better than LZ4, Snappy, and Zstd@-1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "LZAV is a fast general-purpose in-memory data compression algorithm based on"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "LZAV is a fast general-purpose in-memory data compression algorithm based on"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040073,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038412,
+      "status": "candidate",
+      "text": "constrict"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036636,
+      "status": "candidate",
+      "text": "squeeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39978655,
+      "status": "candidate",
+      "text": "compact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962850,
+      "status": "candidate",
+      "text": "contract"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "compress",
+      "sense_id": "compress#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27048,
+      "status": "candidate",
+      "text": "compact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22074,
+      "status": "candidate",
+      "text": "contract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21054,
+      "status": "candidate",
+      "text": "squeeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19055,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12035,
+      "status": "candidate",
+      "text": "constrict"
+    }
+  ],
+  "concept_id": "compress",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "compress",
+  "observation_id": "bcdea3d1ab27693a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "compress",
+  "source_context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+  "source_file": null,
+  "source_repo": "avaneev/lzav",
+  "source_repo_description": "Fast In-Memory Data Compression Algorithm (header-only C/C++) 480+MB/s compress, 2800+MB/s decompress, ratio% better than LZ4, Snappy, and Zstd@-1"
+}

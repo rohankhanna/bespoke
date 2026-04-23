@@ -31,6 +31,30 @@
       "source_repo": "PaddlePaddle/PaddleSlim",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/auto-round",
+      "status": "candidate-context",
+      "text": "A SOTA quantization algorithm for high-accuracy low-bit LLM inference, seamlessly optimized for CPU/XPU/CUDA, with multi-datatype support and full compatibility with vLLM, SGLang, and Transformers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/auto-round",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate-context",
+      "text": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate-context",
+      "text": "![# LLaMA Factory](assets/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "PaddlePaddle/PaddleSlim",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/auto-round",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate",
+      "text": "![# LLaMA Factory](assets/logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +144,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleSlim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "intel/auto-round"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

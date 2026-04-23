@@ -1,0 +1,589 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fastlane.yml"
+    },
+    {
+      "component": "ashutoshgngwr/validate-fastlane-supply-metadata@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fastlane.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/internal_pymnn_release.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/internal_pymnn_release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/internal_pymnn_release.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.16.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/internal_pymnn_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/internal_pymnn_release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llm-pr-review.yml"
+    },
+    {
+      "component": "wangzhaode/MNNCodeReviewer@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llm-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml"
+    },
+    {
+      "component": "xresloader/upload-to-github-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/MNN",
+      "target": "bvlc/caffe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/MNN",
+      "target": "google/gemmlowp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/MNN",
+      "target": "halide/halide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/MNN",
+      "target": "huawei-noah/bolt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-format.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "Code Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fastlane.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fastlane.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "ashutoshgngwr/validate-fastlane-supply-metadata@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fastlane.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "Validate Fastlane metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/internal_pymnn_release.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/internal_pymnn_release.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/internal_pymnn_release.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/internal_pymnn_release.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "pypa/cibuildwheel@v2.16.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/internal_pymnn_release.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "ios",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llm-pr-review.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llm-pr-review.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "wangzhaode/MNNCodeReviewer@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llm-pr-review.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "LLM Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml",
+      "source_repo": "alibaba/MNN",
+      "target": "xresloader/upload-to-github-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/MNN",
+      "target": "convolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/MNN",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/MNN",
+      "target": "embedded-devices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/MNN",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/MNN",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/MNN",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/MNN",
+      "target": "winograd-algorithm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:34:31.903469+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13066
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 1391
+    },
+    {
+      "path": ".github/workflows/code-format.yml",
+      "size": 2180
+    },
+    {
+      "path": ".github/workflows/fastlane.yml",
+      "size": 560
+    },
+    {
+      "path": ".github/workflows/internal_pymnn_release.yml",
+      "size": 2626
+    },
+    {
+      "path": ".github/workflows/ios.yml",
+      "size": 840
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 1429
+    },
+    {
+      "path": ".github/workflows/llm-pr-review.yml",
+      "size": 570
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 985
+    },
+    {
+      "path": ".github/workflows/mnn_release.yml",
+      "size": 5005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI.",
+    "fork": false,
+    "full_name": "alibaba/MNN",
+    "html_url": "https://github.com/alibaba/MNN",
+    "language": "C++",
+    "pushed_at": "2026-04-21T11:31:53Z",
+    "stargazers_count": 14999,
+    "topics": [
+      "arm",
+      "convolution",
+      "deep-learning",
+      "embedded-devices",
+      "llm",
+      "machine-learning",
+      "ml",
+      "mnn",
+      "transformer",
+      "vulkan",
+      "winograd-algorithm"
+    ],
+    "updated_at": "2026-04-23T05:04:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bvlc/caffe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/gemmlowp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "halide/halide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huawei-noah/bolt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "android"
+    },
+    {
+      "context_snippet": "Code Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-format.yml",
+      "term": "Code Format"
+    },
+    {
+      "context_snippet": "Validate Fastlane metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fastlane.yml",
+      "term": "Validate Fastlane metadata"
+    },
+    {
+      "context_snippet": "ios",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios.yml",
+      "term": "ios"
+    },
+    {
+      "context_snippet": "linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "linux"
+    },
+    {
+      "context_snippet": "LLM Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llm-pr-review.yml",
+      "term": "LLM Code Review"
+    },
+    {
+      "context_snippet": "macos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macos"
+    },
+    {
+      "context_snippet": "![MNN](doc/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolution"
+    },
+    {
+      "context_snippet": "![MNN](doc/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![MNN](doc/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-devices"
+    },
+    {
+      "context_snippet": "![MNN](doc/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![MNN](doc/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "![MNN](doc/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "![MNN](doc/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "winograd-algorithm"
+    }
+  ]
+}

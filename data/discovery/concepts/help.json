@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "help"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/community",
+      "status": "candidate-context",
+      "text": "Discussion, support and common information for projects in the community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/community",
+      "status": "candidate-context",
+      "text": "**Discussion, support and common information for projects in the community.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/community",
+      "status": "candidate",
+      "text": "**Discussion, support and common information for projects in the community.**"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004044,
+      "status": "candidate",
+      "text": "aid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003997,
+      "status": "candidate",
+      "text": "service"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003946,
+      "status": "candidate",
+      "text": "assistance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003872,
+      "status": "candidate",
+      "text": "assist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40003181,
+      "status": "candidate",
+      "text": "helper"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 79039,
+      "status": "candidate",
+      "text": "facilitate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42043,
+      "status": "candidate",
+      "text": "avail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29043,
+      "status": "candidate",
+      "text": "assist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18037,
+      "status": "candidate",
+      "text": "assistance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15056,
+      "status": "candidate",
+      "text": "serve"
+    }
+  ],
+  "canonical_name": "help",
+  "concept_id": "help",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/community"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "help",
+      "sense_id": "help#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

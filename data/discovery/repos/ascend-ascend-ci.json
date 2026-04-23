@@ -1,0 +1,330 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_build_torch.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_build_torch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_build_torch_npu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_build_torch_npu.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_build_torch_npu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_build_torch_npu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_torchtitan.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_torchtitan.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_torchtitan.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_torchtitan.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_torchtune.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_torchtune.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_torchtune.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_torchtune.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_ut.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_ut.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_ut.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_ut.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deepspeed.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deepspeed.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llamacpp.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llamacpp.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "ascend/onnxruntime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "microsoft/onnxruntime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_build_torch.yml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_build_torch.yml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_build_torch_npu.yml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_build_torch_npu.yml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_build_torch_npu.yml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_torchtitan.yml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_torchtitan.yml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_torchtune.yml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_torchtune.yml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_ut.yml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_ascend_npu_ut.yml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ascend_npu-test.yml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "Ascend NPU Test Suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_image.yml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deepspeed.yaml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llamacpp.yaml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llamacpp.yaml",
+      "source_repo": "Ascend/Ascend-CI",
+      "target": "Build llama.cpp in CANN container",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:53.979779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3935
+    },
+    {
+      "path": ".github/workflows/_ascend_npu_build_torch.yml",
+      "size": 4112
+    },
+    {
+      "path": ".github/workflows/_ascend_npu_build_torch_npu.yml",
+      "size": 4934
+    },
+    {
+      "path": ".github/workflows/_ascend_npu_torchtitan.yml",
+      "size": 4399
+    },
+    {
+      "path": ".github/workflows/_ascend_npu_torchtune.yml",
+      "size": 3457
+    },
+    {
+      "path": ".github/workflows/_ascend_npu_ut.yml",
+      "size": 3589
+    },
+    {
+      "path": ".github/workflows/ascend_npu-test.yml",
+      "size": 6102
+    },
+    {
+      "path": ".github/workflows/create_image.yml",
+      "size": 1606
+    },
+    {
+      "path": ".github/workflows/deepspeed.yaml",
+      "size": 3784
+    },
+    {
+      "path": ".github/workflows/llamacpp.yaml",
+      "size": 1878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CI system for Ascend",
+    "fork": false,
+    "full_name": "Ascend/Ascend-CI",
+    "html_url": "https://github.com/Ascend/Ascend-CI",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-16T11:25:06Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-03T09:04:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ascend/onnxruntime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/onnxruntime",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Ascend NPU Test Suite\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ascend_npu-test.yml",
+      "term": "Ascend NPU Test Suite"
+    },
+    {
+      "context_snippet": "Build llama.cpp in CANN container",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llamacpp.yaml",
+      "term": "Build llama.cpp in CANN container"
+    }
+  ]
+}

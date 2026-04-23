@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chronosphereio/calyptia-cli",
+      "target": "chronosphereio/calyptia-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chronosphereio/calyptia-cli",
+      "target": "cloud",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:15.544182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Calyptia Cloud CLI",
+    "fork": false,
+    "full_name": "chronosphereio/calyptia-cli",
+    "html_url": "https://github.com/chronosphereio/calyptia-cli",
+    "language": "Shell",
+    "pushed_at": "2026-04-15T17:14:57Z",
+    "stargazers_count": 9,
+    "topics": [
+      "cli",
+      "cloud"
+    ],
+    "updated_at": "2026-03-17T13:14:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chronosphereio/calyptia-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This CLI interacts with the [Calyptia Cloud](https://core.calyptia.com) service",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    }
+  ]
+}

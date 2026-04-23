@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "asdf-vm/actions/plugin-test@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "luizm/action-sh-checker@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "luizm/asdf-shfmt",
+      "target": "asdf-vm/actions/plugin-test@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "luizm/asdf-shfmt",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "luizm/asdf-shfmt",
+      "target": "luizm/action-sh-checker@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "luizm/asdf-shfmt",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luizm/asdf-shfmt",
+      "target": "asdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luizm/asdf-shfmt",
+      "target": "asdf-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luizm/asdf-shfmt",
+      "target": "shell-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luizm/asdf-shfmt",
+      "target": "shfmt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:55.476019+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 447
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 799
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "shfmt plugin for asdf version manager https://github.com/asdf-vm/asdf",
+    "fork": false,
+    "full_name": "luizm/asdf-shfmt",
+    "html_url": "https://github.com/luizm/asdf-shfmt",
+    "language": "Shell",
+    "pushed_at": "2022-10-18T17:11:24Z",
+    "stargazers_count": 13,
+    "topics": [
+      "asdf",
+      "asdf-plugin",
+      "shell-script",
+      "shfmt"
+    ],
+    "updated_at": "2026-01-01T11:07:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml/badge.svg)](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml/badge.svg)](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf-plugin"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml/badge.svg)](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-script"
+    },
+    {
+      "context_snippet": "[![Build](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml/badge.svg)](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shfmt"
+    }
+  ]
+}

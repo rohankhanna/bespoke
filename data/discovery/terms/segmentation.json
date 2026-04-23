@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -11,6 +11,26 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleSlim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/grounded-segment-anything-colab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/detrex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "albumentations-team/albumentations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rsennrich/subword-nmt"
     }
   ],
   "term": "segmentation"

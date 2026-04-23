@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:47:09.587723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2351
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 569
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Use regular expressions to generate text.",
+    "fork": false,
+    "full_name": "CryptArchy/regex_generate",
+    "html_url": "https://github.com/CryptArchy/regex_generate",
+    "language": "Rust",
+    "pushed_at": "2023-03-07T20:51:02Z",
+    "stargazers_count": 68,
+    "topics": [],
+    "updated_at": "2025-09-24T07:00:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

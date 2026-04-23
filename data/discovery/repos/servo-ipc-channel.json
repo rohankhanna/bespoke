@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.86",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "servo/actions/cargo-annotation@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "servo/ipc-channel",
+      "target": "crossbeam-rs/crossbeam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/ipc-channel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/ipc-channel",
+      "target": "dtolnay/rust-toolchain@1.86",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/ipc-channel",
+      "target": "servo/actions/cargo-annotation@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/ipc-channel",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:38:17.810382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6038
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1958
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2757
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A multiprocess drop-in replacement for Rust channels",
+    "fork": false,
+    "full_name": "servo/ipc-channel",
+    "html_url": "https://github.com/servo/ipc-channel",
+    "language": "Rust",
+    "pushed_at": "2026-04-02T22:16:09Z",
+    "stargazers_count": 1110,
+    "topics": [],
+    "updated_at": "2026-04-21T00:39:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crossbeam-rs/crossbeam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -19,12 +19,48 @@
       "source_repo": "GeorgOfenbeck/features",
       "status": "candidate-context",
       "text": "\"CI - Test Features\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/feature-starter",
+      "status": "candidate-context",
+      "text": "A  bootstrap repo for self-authoring Dev Container Features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/feature-starter",
+      "status": "candidate-context",
+      "text": "\"CI - Test Features\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/features",
+      "status": "candidate-context",
+      "text": "A collection of Dev Container Features managed by Dev Container spec maintainers. See https://github.com/devcontainers/feature-starter to publish your own"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/features",
+      "status": "candidate-context",
+      "text": "\"CI - Test Features\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "GeorgOfenbeck/features",
+      "status": "candidate",
+      "text": "\"CI - Test Features\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/feature-starter",
+      "status": "candidate",
+      "text": "\"CI - Test Features\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/features",
       "status": "candidate",
       "text": "\"CI - Test Features\""
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "GeorgOfenbeck/features"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "devcontainers/feature-starter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/test-all.yaml",
+      "source_repo": "devcontainers/features"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

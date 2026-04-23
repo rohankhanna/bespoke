@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The toolkit to pack, ship, store, and deliver container content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996790,
+      "status": "candidate",
+      "text": "dispersion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038267,
+      "status": "candidate",
+      "text": "apportionment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038234,
+      "status": "candidate",
+      "text": "apportioned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038207,
+      "status": "candidate",
+      "text": "dist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038183,
+      "status": "candidate",
+      "text": "apportioning"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "distribution",
+      "sense_id": "distribution#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13063,
+      "status": "candidate",
+      "text": "dispersion"
+    }
+  ],
+  "concept_id": "distribution",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "distribution",
+  "observation_id": "143cad90f8c7b3ef",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "distribution",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "distribution/distribution",
+  "source_repo_description": "The toolkit to pack, ship, store, and deliver container content"
+}

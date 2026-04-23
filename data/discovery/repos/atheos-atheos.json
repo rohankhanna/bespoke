@@ -1,0 +1,332 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "actions/checkout@v2.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/increment.yml"
+    },
+    {
+      "component": "yoichiro/gh-action-increment-value@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/increment.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossar-analysis.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossar-analysis.yml"
+    },
+    {
+      "component": "github/ossar-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossar-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossar-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "actions/checkout@v2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "Build Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/increment.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/increment.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "yoichiro/gh-action-increment-value@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/increment.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "Increment Version Number",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossar-analysis.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossar-analysis.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "actions/setup-dotnet@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossar-analysis.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "github/ossar-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ossar-analysis.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "github/codeql-action/upload-sarif@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ossar-analysis.yml",
+      "source_repo": "Atheos/Atheos",
+      "target": "OSSAR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atheos/Atheos",
+      "target": "cloud-ide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atheos/Atheos",
+      "target": "editor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atheos/Atheos",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Atheos/Atheos",
+      "target": "self-hosted",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:36:29.378407+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1790
+    },
+    {
+      "path": ".github/workflows/docker-build.yml",
+      "size": 1000
+    },
+    {
+      "path": ".github/workflows/increment.yml",
+      "size": 647
+    },
+    {
+      "path": ".github/workflows/ossar-analysis.yml",
+      "size": 1347
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A self-hosted browser-based cloud IDE, updated from Codiad IDE",
+    "fork": false,
+    "full_name": "Atheos/Atheos",
+    "html_url": "https://github.com/Atheos/Atheos",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-07T15:25:03Z",
+    "stargazers_count": 665,
+    "topics": [
+      "cloud-ide",
+      "editor",
+      "hacktoberfest",
+      "ide",
+      "self-hosted"
+    ],
+    "updated_at": "2026-04-23T03:54:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Build Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "term": "Build Docker Image"
+    },
+    {
+      "context_snippet": "Increment Version Number",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/increment.yml",
+      "term": "Increment Version Number"
+    },
+    {
+      "context_snippet": "OSSAR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ossar-analysis.yml",
+      "term": "OSSAR"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-ide"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editor"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-hosted"
+    }
+  ]
+}

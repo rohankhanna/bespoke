@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Additional packages (components, document stores and the likes) to extend the capabilities of Haystack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains integrations to extend the capabilities of [Haystack](https://github.com/deepset-ai/haystack). The code in this repo is maintained by [deepset](https://www.deepset.ai), see each integration's `README` file for details around installation, usage and suppo\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains integrations to extend the capabilities of [Haystack](https://github.com/deepset-ai/haystack). The code in this repo is maintained by [deepset](https://www.deepset.ai), see each integration's `README` file for details around installation, usage and suppo\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047577,
+      "status": "candidate",
+      "text": "rick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047553,
+      "status": "candidate",
+      "text": "hayrick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047324,
+      "status": "candidate",
+      "text": "hay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20013380,
+      "status": "candidate",
+      "text": "grind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19993550,
+      "status": "candidate",
+      "text": "wheel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "haystack",
+      "sense_id": "haystack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1039,
+      "status": "candidate",
+      "text": "rick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1028,
+      "status": "candidate",
+      "text": "hayrick"
+    }
+  ],
+  "concept_id": "haystack",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "haystack",
+  "observation_id": "6770b72f886da3bf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "haystack",
+  "source_context_snippet": "This repository contains integrations to extend the capabilities of [Haystack](https://github.com/deepset-ai/haystack). The code in this repo is maintained by [deepset](https://www.deepset.ai), see each integration's `README` file for details around installation, usage and suppo\u2026",
+  "source_file": null,
+  "source_repo": "deepset-ai/haystack-core-integrations",
+  "source_repo_description": "Additional packages (components, document stores and the likes) to extend the capabilities of Haystack"
+}

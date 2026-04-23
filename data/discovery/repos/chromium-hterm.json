@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha-headless-chrome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chromium/hterm",
+      "target": "libapps/hterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chromium/hterm",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chromium/hterm",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chromium/hterm",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chromium/hterm",
+      "target": "mocha-headless-chrome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "chromium/hterm",
+      "target": "terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromium/hterm",
+      "target": "hterm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chromium/hterm",
+      "target": "terminal-emulator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:45:05.305399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2319
+    },
+    {
+      "path": "package.json",
+      "size": 1071
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "MOVED: Please use the new libapps repo on chromium.googlesource.com instead",
+    "fork": false,
+    "full_name": "chromium/hterm",
+    "html_url": "https://github.com/chromium/hterm",
+    "language": "JavaScript",
+    "pushed_at": "2022-06-29T10:30:05Z",
+    "stargazers_count": 350,
+    "topics": [
+      "hterm",
+      "javascript",
+      "terminal-emulator"
+    ],
+    "updated_at": "2026-04-21T09:38:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libapps/hterm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "hterm is a JS library that provides a terminal emulator. It is reasonably fast,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hterm"
+    },
+    {
+      "context_snippet": "hterm is a JS library that provides a terminal emulator. It is reasonably fast,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulator"
+    }
+  ]
+}

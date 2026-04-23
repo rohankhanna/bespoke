@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Typecheck"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate-context",
+      "text": "A Ruby language server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate-context",
+      "text": "Typecheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iftheshoefritz/solargraph-rails",
+      "status": "candidate-context",
+      "text": "Solargraph plugin to add awareness of Rails-specific code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iftheshoefritz/solargraph-rails",
+      "status": "candidate-context",
+      "text": "Typecheck"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate",
+      "text": "Typecheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iftheshoefritz/solargraph-rails",
+      "status": "candidate",
+      "text": "Typecheck"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "type-check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "typecast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "checksum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "sanity check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "lint"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Typecheck",
+  "concept_id": "typecheck",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "castwide/solargraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "iftheshoefritz/solargraph-rails"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Typecheck",
+      "sense_id": "typecheck#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

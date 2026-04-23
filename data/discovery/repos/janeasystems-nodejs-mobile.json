@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-start-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v2-beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-start-ci.yml"
+    },
+    {
+      "component": "octokit/graphql-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-start-ci.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stalled.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-queue.yml"
+    },
+    {
+      "component": "actions/setup-node@v2-beta",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-queue.yml"
+    },
+    {
+      "component": "octokit/graphql-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-queue.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "janeasystems/nodejs-mobile-react-native",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "janeasystems/nodejs-mobile-cordova",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "janeasystems/nodejs-mobile-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-start-ci.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-start-ci.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "actions/setup-node@v2-beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-start-ci.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "octokit/graphql-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-start-ci.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "Auto Start CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stalled.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stalled.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "Close stalled issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-queue.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-queue.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "actions/setup-node@v2-beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-queue.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "octokit/graphql-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-queue.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "Commit Queue",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:45:05.110027+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7259
+    },
+    {
+      "path": ".github/workflows/auto-start-ci.yml",
+      "size": 2103
+    },
+    {
+      "path": ".github/workflows/close-stalled.yml",
+      "size": 1287
+    },
+    {
+      "path": ".github/workflows/comment-stalled.yml",
+      "size": 759
+    },
+    {
+      "path": ".github/workflows/commit-queue.yml",
+      "size": 3153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "mobile-master",
+    "description": "Full-fledged Node.js on Android and iOS",
+    "fork": true,
+    "full_name": "JaneaSystems/nodejs-mobile",
+    "html_url": "https://github.com/JaneaSystems/nodejs-mobile",
+    "language": "JavaScript",
+    "pushed_at": "2021-10-27T09:42:35Z",
+    "stargazers_count": 2604,
+    "topics": [],
+    "updated_at": "2026-04-19T10:57:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janeasystems/nodejs-mobile-cordova",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janeasystems/nodejs-mobile-react-native",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janeasystems/nodejs-mobile-samples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto Start CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-start-ci.yml",
+      "term": "Auto Start CI"
+    },
+    {
+      "context_snippet": "Close stalled issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stalled.yml",
+      "term": "Close stalled issues and PRs"
+    },
+    {
+      "context_snippet": "Commit Queue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-queue.yml",
+      "term": "Commit Queue"
+    }
+  ]
+}

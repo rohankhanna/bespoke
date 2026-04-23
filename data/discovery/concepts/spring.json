@@ -1,0 +1,184 @@
+{
+  "aliases": [
+    "spring"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nacos-group/nacos-spring-project",
+      "status": "candidate-context",
+      "text": "Nacos ECO Project for Spring Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nacos-group/nacos-spring-project",
+      "status": "candidate-context",
+      "text": "Nacos Spring Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate-context",
+      "text": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-context-support",
+      "status": "candidate-context",
+      "text": "An internal support project for spring-context in Alibaba "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-context-support",
+      "status": "candidate-context",
+      "text": "====================="
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nacos-group/nacos-spring-project",
+      "status": "candidate",
+      "text": "Nacos Spring Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-context-support",
+      "status": "candidate",
+      "text": "====================="
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40021068,
+      "status": "candidate",
+      "text": "outpouring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019317,
+      "status": "candidate",
+      "text": "outflow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40016977,
+      "status": "candidate",
+      "text": "springiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007639,
+      "status": "candidate",
+      "text": "springtime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005224,
+      "status": "candidate",
+      "text": "vernal"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45037,
+      "status": "candidate",
+      "text": "recoil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33045,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29082,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22053,
+      "status": "candidate",
+      "text": "rebound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18053,
+      "status": "candidate",
+      "text": "bounce"
+    }
+  ],
+  "canonical_name": "spring",
+  "concept_id": "spring",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nacos-group/nacos-spring-project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/spring-context-support"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spring",
+      "sense_id": "spring#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -31,6 +31,24 @@
       "source_repo": "fatih/color",
       "status": "candidate-context",
       "text": "Color lets you use colorized outputs in terms of [ANSI Escape"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-colorable",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/mattn/go-colorable/workflows/test/badge.svg)](https://github.com/mattn/go-colorable/actions?query=workflow%3Atest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lsd-rs/lsd",
+      "status": "candidate-context",
+      "text": "The next gen ls command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lsd-rs/lsd",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +63,18 @@
       "source_repo": "fatih/color",
       "status": "candidate",
       "text": "Color lets you use colorized outputs in terms of [ANSI Escape"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-colorable",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/mattn/go-colorable/workflows/test/badge.svg)](https://github.com/mattn/go-colorable/actions?query=workflow%3Atest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lsd-rs/lsd",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -142,11 +172,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "fatih/color"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mattn/go-colorable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lsd-rs/lsd"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

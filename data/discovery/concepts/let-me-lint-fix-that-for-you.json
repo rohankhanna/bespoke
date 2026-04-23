@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Let me lint:fix that for you"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate-context",
+      "text": "OWASP Juice Shop: Probably the most modern and sophisticated insecure web application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate-context",
+      "text": "\"Let me lint:fix that for you\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate",
+      "text": "\"Let me lint:fix that for you\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50870,
+      "status": "candidate",
+      "text": "wait"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 50455,
+      "status": "candidate",
+      "text": "listen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 49655,
+      "status": "candidate",
+      "text": "look"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 49655,
+      "status": "candidate",
+      "text": "move"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 49270,
+      "status": "candidate",
+      "text": "see"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Let me lint:fix that for you",
+  "concept_id": "let-me-lint-fix-that-for-you",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint-fixer.yml",
+      "source_repo": "juice-shop/juice-shop"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Let me lint:fix that for you",
+      "sense_id": "let-me-lint-fix-that-for-you#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

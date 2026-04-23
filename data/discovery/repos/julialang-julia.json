@@ -1,0 +1,417 @@
+{
+  "components": [
+    {
+      "component": "yogevbd/enforce-label-action@a3c219da6b8fa73f6ba62b68ff09c469b3a1c024",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/LabelCheck.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PrAssignee.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Typos.yml"
+    },
+    {
+      "component": "crate-ci/typos@c7af4712eda24dd1ef54bd8212973888489eb0ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Typos.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Whitespace.yml"
+    },
+    {
+      "component": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Whitespace.yml"
+    },
+    {
+      "component": "JuliaLang/backporter-github-actions-workflows/.github/workflows/audit.yml@f0cf777a492c5ff31196822a7d643a17ee0efbd1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-label-audit.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cffconvert.yml"
+    },
+    {
+      "component": "citation-file-format/cffconvert-github-action@4cf11baa70a673bfdf9dad0acc7ee33b3f4b6084",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cffconvert.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaLang/julia",
+      "target": "juliaeditorsupport/julia-emacs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaLang/julia",
+      "target": "juliaeditorsupport/julia-vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaLang/julia",
+      "target": "juliaeditorsupport/julia-sublime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JuliaLang/julia",
+      "target": "fonsp/pluto.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/LabelCheck.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "yogevbd/enforce-label-action@a3c219da6b8fa73f6ba62b68ff09c469b3a1c024",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/LabelCheck.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PrAssignee.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PrAssignee.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "PR Assignee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Typos.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Typos.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "crate-ci/typos@c7af4712eda24dd1ef54bd8212973888489eb0ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Typos.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "Typos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Whitespace.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Whitespace.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "julia-actions/setup-julia@4c0cb0fce8556fdb04a90347310e5db8b1f98fb9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Whitespace.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "Whitespace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport-label-audit.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "JuliaLang/backporter-github-actions-workflows/.github/workflows/audit.yml@f0cf777a492c5ff31196822a7d643a17ee0efbd1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-label-audit.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "Backport Label Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "citation-file-format/cffconvert-github-action@4cf11baa70a673bfdf9dad0acc7ee33b3f4b6084",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "source_repo": "JuliaLang/julia",
+      "target": "cffconvert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLang/julia",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLang/julia",
+      "target": "julia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLang/julia",
+      "target": "julia-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLang/julia",
+      "target": "julialang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLang/julia",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLang/julia",
+      "target": "numerical",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLang/julia",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLang/julia",
+      "target": "science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JuliaLang/julia",
+      "target": "scientific",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:32:39.975866+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8314
+    },
+    {
+      "path": ".github/workflows/LabelCheck.yml",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/PrAssignee.yml",
+      "size": 10202
+    },
+    {
+      "path": ".github/workflows/Typos.yml",
+      "size": 3046
+    },
+    {
+      "path": ".github/workflows/Whitespace.yml",
+      "size": 603
+    },
+    {
+      "path": ".github/workflows/backport-label-audit.yml",
+      "size": 955
+    },
+    {
+      "path": ".github/workflows/cffconvert.yml",
+      "size": 732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Julia Programming Language",
+    "fork": false,
+    "full_name": "JuliaLang/julia",
+    "html_url": "https://github.com/JuliaLang/julia",
+    "language": "Julia",
+    "pushed_at": "2026-04-22T22:45:56Z",
+    "stargazers_count": 48617,
+    "topics": [
+      "hacktoberfest",
+      "hpc",
+      "julia",
+      "julia-language",
+      "julialang",
+      "machine-learning",
+      "numerical",
+      "programming-language",
+      "science",
+      "scientific"
+    ],
+    "updated_at": "2026-04-23T07:20:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fonsp/pluto.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaeditorsupport/julia-emacs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaeditorsupport/julia-sublime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juliaeditorsupport/julia-vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/LabelCheck.yml",
+      "term": "Labels"
+    },
+    {
+      "context_snippet": "PR Assignee",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PrAssignee.yml",
+      "term": "PR Assignee"
+    },
+    {
+      "context_snippet": "Typos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Typos.yml",
+      "term": "Typos"
+    },
+    {
+      "context_snippet": "Whitespace",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Whitespace.yml",
+      "term": "Whitespace"
+    },
+    {
+      "context_snippet": "Backport Label Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport-label-audit.yml",
+      "term": "Backport Label Audit"
+    },
+    {
+      "context_snippet": "cffconvert",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cffconvert.yml",
+      "term": "cffconvert"
+    },
+    {
+      "context_snippet": "<a name=\"logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<a name=\"logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia"
+    },
+    {
+      "context_snippet": "<a name=\"logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julia-language"
+    },
+    {
+      "context_snippet": "<a name=\"logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "julialang"
+    },
+    {
+      "context_snippet": "<a name=\"logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<a name=\"logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numerical"
+    },
+    {
+      "context_snippet": "<a name=\"logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    },
+    {
+      "context_snippet": "<a name=\"logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "science"
+    },
+    {
+      "context_snippet": "<a name=\"logo\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scientific"
+    }
+  ]
+}

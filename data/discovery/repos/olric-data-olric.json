@@ -1,0 +1,413 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "olric-data/olric",
+      "target": "go-redis/redis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "olric-data/olric",
+      "target": "olric-data/olric-consul-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "olric-data/olric",
+      "target": "olric-data/olric-cloud-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "olric-data/olric",
+      "target": "tidwall/redcon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "olric-data/olric",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "olric-data/olric",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "olric-data/olric",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "olric-data/olric",
+      "target": "Unit & Integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "olric-data/olric",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "olric-data/olric",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "olric-data/olric",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "olric-data/olric",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "olric-data/olric",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "olric-data/olric",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "olric-data/olric",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "olric-data/olric",
+      "target": "golangci/golangci-lint-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "olric-data/olric",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric",
+      "target": "distributed-cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric",
+      "target": "distributed-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric",
+      "target": "distributed-hash-table",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric",
+      "target": "in-memory-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric",
+      "target": "key-value",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric",
+      "target": "key-value-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric",
+      "target": "nosql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "olric-data/olric",
+      "target": "redis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:39:14.972995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 65060
+    },
+    {
+      "path": "Dockerfile",
+      "size": 424
+    },
+    {
+      "path": "go.mod",
+      "size": 1636
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1398
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2323
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 511
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Distributed, in-memory key/value store and cache. It can be used as an embedded Go library and a language-independent service.",
+    "fork": false,
+    "full_name": "olric-data/olric",
+    "html_url": "https://github.com/olric-data/olric",
+    "language": "Go",
+    "pushed_at": "2026-04-03T22:02:03Z",
+    "stargazers_count": 3441,
+    "topics": [
+      "cache",
+      "database",
+      "distributed-cache",
+      "distributed-database",
+      "distributed-hash-table",
+      "distributed-systems",
+      "in-memory-database",
+      "key-value",
+      "key-value-store",
+      "nosql",
+      "redis"
+    ],
+    "updated_at": "2026-04-22T22:35:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-redis/redis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "olric-data/olric-cloud-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "olric-data/olric-consul-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tidwall/redcon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unit & Integration tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Unit & Integration tests"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/olric-data/olric/.svg)](https://pkg.go.dev/github.com/olric-data/olric/) [![Go Report Card](https://goreportcard.com/badge/olric-data/olric)](https://goreportcard.com/report/github.com/olric-data/olric/) [![Discord](https://im\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/olric-data/olric/.svg)](https://pkg.go.dev/github.com/olric-data/olric/) [![Go Report Card](https://goreportcard.com/badge/olric-data/olric)](https://goreportcard.com/report/github.com/olric-data/olric/) [![Discord](https://im\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/olric-data/olric/.svg)](https://pkg.go.dev/github.com/olric-data/olric/) [![Go Report Card](https://goreportcard.com/badge/olric-data/olric)](https://goreportcard.com/report/github.com/olric-data/olric/) [![Discord](https://im\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-cache"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/olric-data/olric/.svg)](https://pkg.go.dev/github.com/olric-data/olric/) [![Go Report Card](https://goreportcard.com/badge/olric-data/olric)](https://goreportcard.com/report/github.com/olric-data/olric/) [![Discord](https://im\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-database"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/olric-data/olric/.svg)](https://pkg.go.dev/github.com/olric-data/olric/) [![Go Report Card](https://goreportcard.com/badge/olric-data/olric)](https://goreportcard.com/report/github.com/olric-data/olric/) [![Discord](https://im\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-hash-table"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/olric-data/olric/.svg)](https://pkg.go.dev/github.com/olric-data/olric/) [![Go Report Card](https://goreportcard.com/badge/olric-data/olric)](https://goreportcard.com/report/github.com/olric-data/olric/) [![Discord](https://im\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-systems"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/olric-data/olric/.svg)](https://pkg.go.dev/github.com/olric-data/olric/) [![Go Report Card](https://goreportcard.com/badge/olric-data/olric)](https://goreportcard.com/report/github.com/olric-data/olric/) [![Discord](https://im\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-memory-database"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/olric-data/olric/.svg)](https://pkg.go.dev/github.com/olric-data/olric/) [![Go Report Card](https://goreportcard.com/badge/olric-data/olric)](https://goreportcard.com/report/github.com/olric-data/olric/) [![Discord](https://im\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-value"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/olric-data/olric/.svg)](https://pkg.go.dev/github.com/olric-data/olric/) [![Go Report Card](https://goreportcard.com/badge/olric-data/olric)](https://goreportcard.com/report/github.com/olric-data/olric/) [![Discord](https://im\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-value-store"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/olric-data/olric/.svg)](https://pkg.go.dev/github.com/olric-data/olric/) [![Go Report Card](https://goreportcard.com/badge/olric-data/olric)](https://goreportcard.com/report/github.com/olric-data/olric/) [![Discord](https://im\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nosql"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/olric-data/olric/.svg)](https://pkg.go.dev/github.com/olric-data/olric/) [![Go Report Card](https://goreportcard.com/badge/olric-data/olric)](https://goreportcard.com/report/github.com/olric-data/olric/) [![Discord](https://im\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sentinel-group/sentinel-awesome",
+      "target": "mse-group/slides",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sentinel-group/sentinel-awesome",
+      "target": "cdfive/sentinel-support",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sentinel-group/sentinel-awesome",
+      "target": "finefuture/sentinel-dashboard-x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sentinel-group/sentinel-awesome",
+      "target": "code1986/sentinel-lib",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:39:29.169238+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9598
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A curated list of awesome things (resource, sample, extensions) for Sentinel",
+    "fork": false,
+    "full_name": "sentinel-group/sentinel-awesome",
+    "html_url": "https://github.com/sentinel-group/sentinel-awesome",
+    "language": null,
+    "pushed_at": "2022-11-03T08:55:16Z",
+    "stargazers_count": 361,
+    "topics": [],
+    "updated_at": "2026-03-26T08:28:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cdfive/sentinel-support",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "code1986/sentinel-lib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "finefuture/sentinel-dashboard-x",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mse-group/slides",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

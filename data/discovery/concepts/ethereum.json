@@ -379,6 +379,210 @@
       "source_repo": "ethereum/hive",
       "status": "candidate-context",
       "text": "Hive is a system for running integration tests against Ethereum clients."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wighawag/hardhat-deploy",
+      "status": "candidate-context",
+      "text": "hardhat deployment plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wighawag/hardhat-deploy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akula-bft/akula",
+      "status": "candidate-context",
+      "text": "Fastest Ethereum archive node ever built"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akula-bft/akula",
+      "status": "candidate-context",
+      "text": "Next-generation implementation of Ethereum protocol (\"client\") written in Rust, based on [Erigon architecture](https://github.com/ledgerwatch/interfaces)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erigontech/erigon",
+      "status": "candidate-context",
+      "text": "Ethereum implementation on the efficiency frontier "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erigontech/erigon",
+      "status": "candidate-context",
+      "text": "[![Docs](https://img.shields.io/badge/docs-up-green)](https://docs.erigon.tech/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigp/lighthouse",
+      "status": "candidate-context",
+      "text": "Ethereum consensus client in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigp/lighthouse",
+      "status": "candidate-context",
+      "text": "An open-source Ethereum consensus client, written in Rust and maintained by Sigma Prime."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alloy-rs/core",
+      "status": "candidate-context",
+      "text": "High-performance, well-tested & documented core libraries for Ethereum, in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/core",
+      "status": "candidate-context",
+      "text": "Core libraries at the root of the Rust Ethereum ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dethcrypto/eth-sdk",
+      "status": "candidate-context",
+      "text": "Type-safe, lightweight SDKs for Ethereum smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dethcrypto/eth-sdk",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web3/web3.js",
+      "status": "candidate-context",
+      "text": "Collection of comprehensive TypeScript libraries for Interaction with the Ethereum JSON RPC API and utility functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web3/web3.js",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "besu-eth/besu",
+      "status": "candidate-context",
+      "text": "An enterprise-grade Java-based, Apache 2.0 licensed Ethereum client https://wiki.hyperledger.org/display/besu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "besu-eth/besu",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/besu-eth/besu/tree/main.svg?style=svg)](https://circleci.com/gh/besu-eth/besu/tree/main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NethermindEth/nethermind",
+      "status": "candidate-context",
+      "text": "A robust, high-performance execution client for Ethereum node operators."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NethermindEth/nethermind",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/nethermindeth/nethermind/actions/workflows/nethermind-tests.yml/badge.svg)](https://github.com/nethermindeth/nethermind/actions/workflows/nethermind-tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "status": "candidate-context",
+      "text": "Step-by-step guide to running an Erigon archive node (Ethereum) on an 8GB Raspberry Pi 4. Recommended minimum 4 TB SSD (SATA III) with Ubuntu Server 21."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "op-rs/kona",
+      "status": "candidate-context",
+      "text": "Monorepo for OP Stack Types, Components, and Services built in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/kona",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "succinctlabs/sp1",
+      "status": "candidate-context",
+      "text": "SP1 is a zero\u2011knowledge virtual machine that proves the correct execution of programs compiled for the RISC-V architecture."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/sp1",
+      "status": "candidate-context",
+      "text": "![SP1](./assets/sp1.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-ethereum/ethabi",
+      "status": "candidate-context",
+      "text": "Encode and decode smart contract invocations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-ethereum/ethabi",
+      "status": "candidate-context",
+      "text": "This project is not actively maintained. Consider these alternatives:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ConsenSys-archive/ganache",
+      "status": "candidate-context",
+      "text": ":warning: The Truffle Suite is being sunset. For information on ongoing support, migration options and FAQs, visit the Consensys blog. Thank you for all the support over the years."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConsenSys-archive/ganache",
+      "status": "candidate-context",
+      "text": "<!-- Using h2 instead of h1 because npm doesn't support align=center on h1 tags -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/py-evm",
+      "status": "candidate-context",
+      "text": "A Python implementation of the Ethereum Virtual Machine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/py-evm",
+      "status": "candidate-context",
+      "text": "> [!caution]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereum/retesteth",
+      "status": "candidate-context",
+      "text": "testeth via RPC. Test run, generation by t8ntool protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/retesteth",
+      "status": "candidate-context",
+      "text": "Refer to https://github.com/ethereum/execution-spec-tests for the recent testing effords."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate-context",
+      "text": "Ethereum L1 Protocol Stack and EVM in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +771,108 @@
       "source_repo": "ethereum/hive",
       "status": "candidate",
       "text": "Hive is a system for running integration tests against Ethereum clients."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wighawag/hardhat-deploy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akula-bft/akula",
+      "status": "candidate",
+      "text": "Next-generation implementation of Ethereum protocol (\"client\") written in Rust, based on [Erigon architecture](https://github.com/ledgerwatch/interfaces)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erigontech/erigon",
+      "status": "candidate",
+      "text": "[![Docs](https://img.shields.io/badge/docs-up-green)](https://docs.erigon.tech/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigp/lighthouse",
+      "status": "candidate",
+      "text": "An open-source Ethereum consensus client, written in Rust and maintained by Sigma Prime."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/core",
+      "status": "candidate",
+      "text": "Core libraries at the root of the Rust Ethereum ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dethcrypto/eth-sdk",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web3/web3.js",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "besu-eth/besu",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/besu-eth/besu/tree/main.svg?style=svg)](https://circleci.com/gh/besu-eth/besu/tree/main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NethermindEth/nethermind",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/nethermindeth/nethermind/actions/workflows/nethermind-tests.yml/badge.svg)](https://github.com/nethermindeth/nethermind/actions/workflows/nethermind-tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/kona",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/sp1",
+      "status": "candidate",
+      "text": "![SP1](./assets/sp1.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-ethereum/ethabi",
+      "status": "candidate",
+      "text": "This project is not actively maintained. Consider these alternatives:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConsenSys-archive/ganache",
+      "status": "candidate",
+      "text": "<!-- Using h2 instead of h1 because npm doesn't support align=center on h1 tags -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/py-evm",
+      "status": "candidate",
+      "text": "> [!caution]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereum/retesteth",
+      "status": "candidate",
+      "text": "Refer to https://github.com/ethereum/execution-spec-tests for the recent testing effords."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -826,11 +1132,149 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "ethereum/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "wighawag/hardhat-deploy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "akula-bft/akula"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "erigontech/erigon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sigp/lighthouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alloy-rs/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "crytic/pyevmasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "besu-eth/besu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NethermindEth/nethermind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "op-rs/kona"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "succinctlabs/sp1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-ethereum/ethabi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/py-evm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ethereum/retesteth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ethereumjs/ethereumjs-monorepo"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

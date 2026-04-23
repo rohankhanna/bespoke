@@ -1,7 +1,7 @@
 {
   "component": "dtolnay/rust-toolchain@stable",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -947,6 +947,486 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "dtolnay/cargo-expand"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aws-lc-rs.yml",
+      "source_repo": "aws/aws-lc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-test-vectors.yml",
+      "source_repo": "aws/aws-lc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "trishume/syntect"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bindings-c.yml",
+      "source_repo": "cyphar/libpathrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bindings-go.yml",
+      "source_repo": "cyphar/libpathrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bindings-python.yml",
+      "source_repo": "cyphar/libpathrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "cyphar/libpathrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cyphar/libpathrs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mitsuhiko/similar"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mitsuhiko/similar-asserts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/web.yml",
+      "source_repo": "axodotdev/cargo-dist"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "rust-lang/rust-bindgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-postgres/rust-postgres"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "starship/starship"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "starship/starship"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cloud-integration.yml",
+      "source_repo": "ClickHouse/clickhousectl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ClickHouse/clickhousectl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-install.yml",
+      "source_repo": "ClickHouse/clickhousectl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "EmbarkStudios/ash-molten"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "EmbarkStudios/buildkite-jobify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust-ci.yml",
+      "source_repo": "EmbarkStudios/cargo-about"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "EmbarkStudios/cargo-deny"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rustsec-compat.yaml",
+      "source_repo": "EmbarkStudios/cargo-deny"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sparsemat/sprs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lycheeverse/lychee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/debug-build.yml",
+      "source_repo": "lycheeverse/lychee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-binary.yml",
+      "source_repo": "lycheeverse/lychee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/book.yml",
+      "source_repo": "succinctlabs/op-succinct"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alloy-rs/core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Stebalien/tempfile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "vercel-labs/agent-browser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vercel-labs/agent-browser"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "asciinema/agg"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "asciinema/asciinema"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "ajeetdsouza/zoxide"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/ipc-channel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chrisguida/smaug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rkyv/rkyv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-embedded-community/serde-json-core"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "serde-rs/json-benchmark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "blacknon/hwatch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "blacknon/hwatch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-llvm-lines"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "wasm-bindgen/wasm-bindgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "wasm-bindgen/wasm-bindgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/trybuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron-update-rust.yml",
+      "source_repo": "bitcoindevkit/bdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cron-update-rust.yml",
+      "source_repo": "eigenwallet/bdk-old"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "geiger-rs/cargo-geiger"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cbindgen.yml",
+      "source_repo": "mozilla/cbindgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "mozilla/cbindgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "brendanzab/codespan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "mtkennerly/shawl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-tools.yml",
+      "source_repo": "CodeBoarding/CodeBoarding"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "CodeBoarding/CodeBoarding"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fancy-regex/fancy-regex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "fancy-regex/fancy-regex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ratatui/mousefood"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ratatui/mousefood"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pdm-project/pdm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-riscv64.yml",
+      "source_repo": "nextest-rs/nextest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nextest-rs/nextest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "nextest-rs/nextest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hakari.yml",
+      "source_repo": "nextest-rs/nextest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-test.yml",
+      "source_repo": "nextest-rs/nextest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nextest-rs/nextest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/web.yml",
+      "source_repo": "axodotdev/axolotlsay"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gdesmott/system-deps"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "gdesmott/system-deps"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KyleMayes/clang-sys"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ssh.yml",
+      "source_repo": "KyleMayes/clang-sys"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/hyperfine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9.yml",
+      "source_repo": "wezterm/wezterm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml",
+      "source_repo": "wezterm/wezterm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml",
+      "source_repo": "wezterm/wezterm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11.yml",
+      "source_repo": "wezterm/wezterm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml",
+      "source_repo": "wezterm/wezterm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml",
+      "source_repo": "wezterm/wezterm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian12.yml",
+      "source_repo": "wezterm/wezterm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-binaries.yml",
+      "source_repo": "agentclientprotocol/symposium-acp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cache-factory.yml",
+      "source_repo": "sigp/rust-libp2p"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sigp/rust-libp2p"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hickory-dns/hickory-dns"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hickory-dns/hickory-dns"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "analysis-tools-dev/static-analysis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "analysis-tools-dev/static-analysis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/render.yml",
+      "source_repo": "analysis-tools-dev/static-analysis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alloy-rs/svm-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "recmo/uint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "recmo/uint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rkyv/bytecheck"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rkyv/ptr_meta"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rkyv/rancor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sachaos/viddy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "GuillaumeGomez/sysinfo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/proc-macro2"
     }
   ]
 }

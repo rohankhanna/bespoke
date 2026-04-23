@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "nix-community/nixops-gce",
+      "target": "nix-community/nixos-modules-contrib",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:45:01.308260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 870
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NixOps Google Cloud Backend",
+    "fork": false,
+    "full_name": "nix-community/nixops-gce",
+    "html_url": "https://github.com/nix-community/nixops-gce",
+    "language": "Python",
+    "pushed_at": "2023-08-02T01:45:45Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-01-08T16:36:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nix-community/nixos-modules-contrib",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

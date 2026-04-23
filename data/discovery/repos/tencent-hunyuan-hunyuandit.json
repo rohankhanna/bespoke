@@ -5,7 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/HunyuanDiT",
-      "target": "ttplanetpig/comfyui_ttp_cn_preprocessor",
+      "target": "ttplanetpig/comfyui_ttp_toolset",
       "target_type": "repository"
     },
     {
@@ -19,18 +19,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Tencent-Hunyuan/HunyuanDiT",
-      "target": "tencent/tencent.github.io",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Tencent-Hunyuan/HunyuanDiT",
       "target": "tencent/hunyuandit",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-22T05:24:50.019003+00:00",
+  "fetched_at": "2026-04-23T07:34:30.552996+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,9 +44,9 @@
     "html_url": "https://github.com/Tencent-Hunyuan/HunyuanDiT",
     "language": "Jupyter Notebook",
     "pushed_at": "2025-11-27T06:37:00Z",
-    "stargazers_count": 4294,
+    "stargazers_count": 4295,
     "topics": [],
-    "updated_at": "2026-04-21T08:59:04Z"
+    "updated_at": "2026-04-22T07:10:39Z"
   },
   "repo_links": [
     {
@@ -68,12 +61,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "tencent/tencent.github.io",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ttplanetpig/comfyui_ttp_cn_preprocessor",
+      "full_name": "ttplanetpig/comfyui_ttp_toolset",
       "source_file": "README.md"
     }
   ],

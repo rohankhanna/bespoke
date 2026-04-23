@@ -396,21 +396,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "Dockerfile",
       "source_repo": "moby/moby",
-      "target": "go-delve/delve",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
-      "source_repo": "moby/moby",
-      "target": "golangci/golangci-lint",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
-      "source_repo": "moby/moby",
-      "target": "gotestyourself/gotestsum",
+      "target": "rootless-containers/rootlesskit",
       "target_type": "repository"
     },
     {
@@ -715,7 +701,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T18:54:35.702399+00:00",
+  "fetched_at": "2026-04-23T08:44:02.802689+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -767,15 +753,15 @@
     "full_name": "moby/moby",
     "html_url": "https://github.com/moby/moby",
     "language": "Go",
-    "pushed_at": "2026-04-21T11:56:03Z",
-    "stargazers_count": 71504,
+    "pushed_at": "2026-04-22T11:26:04Z",
+    "stargazers_count": 71484,
     "topics": [
       "containers",
       "docker",
       "go",
       "golang"
     ],
-    "updated_at": "2026-04-21T13:51:06Z"
+    "updated_at": "2026-04-23T05:03:33Z"
   },
   "repo_links": [
     {
@@ -785,17 +771,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "go-delve/delve",
-      "source_file": "Dockerfile"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "golangci/golangci-lint",
-      "source_file": "Dockerfile"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gotestyourself/gotestsum",
+      "full_name": "rootless-containers/rootlesskit",
       "source_file": "Dockerfile"
     }
   ],

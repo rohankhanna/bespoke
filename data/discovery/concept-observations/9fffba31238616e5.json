@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TFLint ruleset for terraform-provider-azurerm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/terraform-linters/tflint-ruleset-azurerm/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/terraform-linters/tflint-ruleset-azurerm/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/terraform-linters/tflint-ruleset-azurerm/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/terraform-linters/tflint-ruleset-azurerm/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31365,
+      "status": "candidate",
+      "text": "stearin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31364,
+      "status": "candidate",
+      "text": "butylene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31363,
+      "status": "candidate",
+      "text": "expeller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31362,
+      "status": "candidate",
+      "text": "olein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31361,
+      "status": "candidate",
+      "text": "saltpetre"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "linters",
+      "sense_id": "linters#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "linters",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "linters",
+  "observation_id": "9fffba31238616e5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "linters",
+  "source_context_snippet": "[![Build Status](https://github.com/terraform-linters/tflint-ruleset-azurerm/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/terraform-linters/tflint-ruleset-azurerm/actions)",
+  "source_file": null,
+  "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+  "source_repo_description": "TFLint ruleset for terraform-provider-azurerm"
+}

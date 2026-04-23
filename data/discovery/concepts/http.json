@@ -175,6 +175,90 @@
       "source_repo": "caddyserver/caddy",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-js",
+      "status": "candidate-context",
+      "text": "The Typescript implementation of Apache Dubbo. An RPC and microservice framework for Node.js and Web development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-js",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/github/license/alibaba/dubbo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curl/curl",
+      "status": "candidate-context",
+      "text": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curl/curl",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate-context",
+      "text": "Web server middleware for Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/dart-lang/shelf/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/shelf/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agourlay/cornichon",
+      "status": "candidate-context",
+      "text": "Testing tool in Scala for HTTP JSON API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agourlay/cornichon",
+      "status": "candidate-context",
+      "text": "![Cornichon banner](https://github.com/agourlay/cornichon/blob/master/docs/img/poster.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hugapi/hug",
+      "status": "candidate-context",
+      "text": "Embrace the APIs of the future. Hug aims to make developing APIs as simple as possible, but no simpler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hugapi/hug",
+      "status": "candidate-context",
+      "text": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hapijs/hapi",
+      "status": "candidate-context",
+      "text": "The Simple, Secure Framework Developers Trust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hapijs/hapi",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/hapijs/assets/master/images/hapi.png\" width=\"400px\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julienschmidt/httprouter",
+      "status": "candidate-context",
+      "text": "A high performance HTTP request router that scales well"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julienschmidt/httprouter",
+      "status": "candidate-context",
+      "text": "HttpRouter is a lightweight high performance HTTP request router (also called *multiplexer* or just *mux* for short) for [Go](https://golang.org/)."
     }
   ],
   "candidate_glosses": [
@@ -261,6 +345,48 @@
       "source_repo": "caddyserver/caddy",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-js",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/github/license/alibaba/dubbo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curl/curl",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/dart-lang/shelf/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/shelf/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agourlay/cornichon",
+      "status": "candidate",
+      "text": "![Cornichon banner](https://github.com/agourlay/cornichon/blob/master/docs/img/poster.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hugapi/hug",
+      "status": "candidate",
+      "text": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hapijs/hapi",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/hapijs/assets/master/images/hapi.png\" width=\"400px\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julienschmidt/httprouter",
+      "status": "candidate",
+      "text": "HttpRouter is a lightweight high performance HTTP request router (also called *multiplexer* or just *mux* for short) for [Go](https://golang.org/)."
     }
   ],
   "candidate_related_terms": [
@@ -420,11 +546,59 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "curl/curl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dart-lang/shelf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "agourlay/cornichon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hugapi/hug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hapijs/hapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "julienschmidt/httprouter"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

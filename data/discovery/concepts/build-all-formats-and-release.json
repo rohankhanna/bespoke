@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build All Formats and Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "subframe7536/maple-font",
+      "status": "candidate-context",
+      "text": "Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. \u5e26\u8fde\u5b57\u548c\u63a7\u5236\u53f0\u56fe\u6807\u7684\u5706\u89d2\u7b49\u5bbd\u5b57\u4f53\uff0c\u4e2d\u82f1\u6587\u5bbd\u5ea6\u5b8c\u7f8e2:1\uff0c\u7ec6\u7c92\u5ea6\u7684\u81ea\u5b9a\u4e49\u9009\u9879"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subframe7536/maple-font",
+      "status": "candidate-context",
+      "text": "Build All Formats and Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subframe7536/maple-font",
+      "status": "candidate",
+      "text": "Build All Formats and Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35245,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33467,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33425,
+      "status": "candidate",
+      "text": "nirvana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33245,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33245,
+      "status": "candidate",
+      "text": "make"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build All Formats and Release",
+  "concept_id": "build-all-formats-and-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "subframe7536/maple-font"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build All Formats and Release",
+      "sense_id": "build-all-formats-and-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

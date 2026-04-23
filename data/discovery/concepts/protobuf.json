@@ -88,6 +88,54 @@
       "source_repo": "go-woo/protoc-gen-echo",
       "status": "candidate-context",
       "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "FlatBuffers: Memory Efficient Serialization Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "![logo](https://flatbuffers.dev/assets/flatbuffers_logo.svg) FlatBuffers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-woo/protoc-gen-ent",
+      "status": "candidate-context",
+      "text": "Protocol buffer generate ent. No handwritten schema required, they will be generated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-woo/protoc-gen-ent",
+      "status": "candidate-context",
+      "text": "The `protoc-gen-ent` can generate [ent](https://github.com/ent/ent)'s schemas."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-es",
+      "status": "candidate-context",
+      "text": "The TypeScript implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-es",
+      "status": "candidate-context",
+      "text": "<img src=\".github/connect-logo.png\" width=\"15%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation - Go, Java, Python, C++ and JS/TS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate",
+      "status": "candidate-context",
+      "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +168,30 @@
       "source_repo": "go-woo/protoc-gen-echo",
       "status": "candidate",
       "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate",
+      "text": "![logo](https://flatbuffers.dev/assets/flatbuffers_logo.svg) FlatBuffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-woo/protoc-gen-ent",
+      "status": "candidate",
+      "text": "The `protoc-gen-ent` can generate [ent](https://github.com/ent/ent)'s schemas."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-es",
+      "status": "candidate",
+      "text": "<img src=\".github/connect-logo.png\" width=\"15%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate",
+      "status": "candidate",
+      "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -199,11 +271,47 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/protobuf.yaml",
       "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/flatbuffers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-ent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/protobuf.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

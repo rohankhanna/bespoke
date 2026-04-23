@@ -216,7 +216,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "safe-fndn/safe-smart-account",
-      "target": "safe-global/safe-deployments",
+      "target": "safe-global/safe-smart-account",
       "target_type": "repository"
     },
     {
@@ -230,14 +230,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "safe-fndn/safe-smart-account",
-      "target": "arachnid/deterministic-deployment-proxy",
+      "target": "safe-global/safe-singleton-factory",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "package.json",
       "source_repo": "safe-fndn/safe-smart-account",
-      "target": "safe-global/safe-singleton-factory",
+      "target": "safe-global/safe-smart-account",
       "target_type": "repository"
     },
     {
@@ -528,7 +528,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:19:12.482211+00:00",
+  "fetched_at": "2026-04-23T07:47:34.095873+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -556,21 +556,16 @@
     "full_name": "safe-fndn/safe-smart-account",
     "html_url": "https://github.com/safe-fndn/safe-smart-account",
     "language": "TypeScript",
-    "pushed_at": "2026-04-15T18:56:57Z",
-    "stargazers_count": 2129,
+    "pushed_at": "2026-04-23T02:22:26Z",
+    "stargazers_count": 2130,
     "topics": [
       "ethereum",
       "solidity",
       "wallet"
     ],
-    "updated_at": "2026-04-21T22:01:27Z"
+    "updated_at": "2026-04-22T10:29:50Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "arachnid/deterministic-deployment-proxy",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ethereum/solidity",
@@ -578,13 +573,18 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "safe-global/safe-deployments",
+      "full_name": "safe-global/safe-singleton-factory",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "safe-global/safe-singleton-factory",
+      "full_name": "safe-global/safe-smart-account",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "safe-global/safe-smart-account",
+      "source_file": "package.json"
     }
   ],
   "terms": [

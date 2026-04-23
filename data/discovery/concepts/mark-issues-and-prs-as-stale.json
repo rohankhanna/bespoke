@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Mark issues and PRs as stale"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "The React Native Community CLI - command line tools to help you build RN apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "Mark issues and PRs as stale"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate",
+      "text": "Mark issues and PRs as stale"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34858,
+      "status": "candidate",
+      "text": "stall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27795,
+      "status": "candidate",
+      "text": "stalls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21691,
+      "status": "candidate",
+      "text": "electrograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21629,
+      "status": "candidate",
+      "text": "hispanic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21629,
+      "status": "candidate",
+      "text": "spanish"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mark issues and PRs as stale",
+  "concept_id": "mark-issues-and-prs-as-stale",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "react-native-community/cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mark issues and PRs as stale",
+      "sense_id": "mark-issues-and-prs-as-stale#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,233 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "michidk/winget-updater@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-winget.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "watfaq/powersession",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "microsoft/windows-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "softprops/action-gh-release@v2.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-winget.yml",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "michidk/winget-updater@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-winget.yml",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "Update WinGet Packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "asciinema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "conpty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "powersession",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "powershell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession-rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:35:03.861753+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2027
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1555
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1276
+    },
+    {
+      "path": ".github/workflows/publish-winget.yml",
+      "size": 443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust implementation of PowerSession, with new features and enhancements",
+    "fork": false,
+    "full_name": "Watfaq/PowerSession-rs",
+    "html_url": "https://github.com/Watfaq/PowerSession-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T01:21:43Z",
+    "stargazers_count": 278,
+    "topics": [
+      "asciinema",
+      "conpty",
+      "powersession",
+      "powershell",
+      "rust"
+    ],
+    "updated_at": "2026-04-22T14:20:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/windows-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "watfaq/powersession",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update WinGet Packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-winget.yml",
+      "term": "Update WinGet Packages"
+    },
+    {
+      "context_snippet": "> Asciinema-compatible terminal session recorder for Windows",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asciinema"
+    },
+    {
+      "context_snippet": "> Asciinema-compatible terminal session recorder for Windows",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conpty"
+    },
+    {
+      "context_snippet": "> Asciinema-compatible terminal session recorder for Windows",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powersession"
+    },
+    {
+      "context_snippet": "> Asciinema-compatible terminal session recorder for Windows",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powershell"
+    },
+    {
+      "context_snippet": "> Asciinema-compatible terminal session recorder for Windows",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

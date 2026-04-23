@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "3rd/syslang",
+      "target": "3rd/config",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:29:15.191371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 942
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Syslang is an opinionated document syntax inspired by Org, Markdown, and HyperLists.",
+    "fork": false,
+    "full_name": "3rd/syslang",
+    "html_url": "https://github.com/3rd/syslang",
+    "language": "Go",
+    "pushed_at": "2025-08-17T23:08:22Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-04-15T01:20:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3rd/config",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

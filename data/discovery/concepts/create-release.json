@@ -212,6 +212,126 @@
       "source_repo": "UnstoppableSwap/wallet",
       "status": "candidate-context",
       "text": "\"Create release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badges/shields",
+      "status": "candidate-context",
+      "text": "Concise, consistent, and legible badges in SVG and raster format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badges/shields",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate-context",
+      "text": "Collection of utilities and Bazel rules to aid in the development and maintenance of Swift repositories using Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "status": "candidate-context",
+      "text": "Code generator for AWS Controllers for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-controllers-k8s/runtime",
+      "status": "candidate-context",
+      "text": "Common ACK runtime and type system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-controllers-k8s/runtime",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/setuptools-scm",
+      "status": "candidate-context",
+      "text": "the blessed package to manage your versions by scm tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/setuptools-scm",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "richgel999/miniz",
+      "status": "candidate-context",
+      "text": "miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "richgel999/miniz",
+      "status": "candidate-context",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langflow-ai/langflow",
+      "status": "candidate-context",
+      "text": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langflow-ai/langflow",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate-context",
+      "text": "Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/bazel-starlib",
+      "status": "candidate-context",
+      "text": "Rules, macros, and APIs that are useful for the implementation of Bazel repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-starlib",
+      "status": "candidate-context",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coin-or/CHiPPS-ALPS",
+      "status": "candidate-context",
+      "text": "This is the Abstract Library for Parallel Search (ALPS), the abstract base layer of the COIN-OR High Performance Parallel Search framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/CHiPPS-ALPS",
+      "status": "candidate-context",
+      "text": "Create Release"
     }
   ],
   "candidate_glosses": [
@@ -316,6 +436,66 @@
       "source_repo": "UnstoppableSwap/wallet",
       "status": "candidate",
       "text": "\"Create release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badges/shields",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-controllers-k8s/runtime",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/setuptools-scm",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "richgel999/miniz",
+      "status": "candidate",
+      "text": "Create release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langflow-ai/langflow",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-starlib",
+      "status": "candidate",
+      "text": "Create Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coin-or/CHiPPS-ALPS",
+      "status": "candidate",
+      "text": "Create Release"
     }
   ],
   "candidate_related_terms": [
@@ -479,11 +659,83 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/create-release.yml",
       "source_repo": "UnstoppableSwap/wallet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "badges/shields"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "cgrindel/rules_swift_package_manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "aws-controllers-k8s/code-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "aws-controllers-k8s/runtime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "eigenwallet/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "richgel999/miniz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "butlerx/wetty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "cgrindel/bazel-starlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coin-or/CHiPPS-ALPS"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

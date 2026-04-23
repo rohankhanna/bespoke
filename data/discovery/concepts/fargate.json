@@ -31,6 +31,18 @@
       "source_repo": "aws/containers-roadmap",
       "status": "candidate-context",
       "text": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate-context",
+      "text": "Sandboxed code execution for AI agents, locally or on the cloud. Massively parallel, easy to extend. Powering SWE-agent and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "aws/containers-roadmap",
       "status": "candidate",
       "text": "This is the public roadmap for AWS container services (ECS, ECR, Fargate, and EKS)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +88,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "SWE-agent/SWE-ReX"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

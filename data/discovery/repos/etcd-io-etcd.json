@@ -1,0 +1,453 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/antithesis-test.yml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/antithesis-test.yml"
+    },
+    {
+      "component": "antithesishq/antithesis-trigger-action@f6221e2ba819fe0ac3e36bd67a281fa439a03fba",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/antithesis-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/antithesis-verify.yml"
+    },
+    {
+      "component": "antithesishq/antithesis-trigger-action@f6221e2ba819fe0ac3e36bd67a281fa439a03fba",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/antithesis.debugger.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick-bot-ok-to-test.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etcd-io/etcd",
+      "target": "youtube/doorman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etcd-io/etcd",
+      "target": "coreos/locksmith",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etcd-io/etcd",
+      "target": "vulcand/vulcand",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "etcd-io/etcd",
+      "target": "mattn/goreman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/antithesis-test.yml",
+      "source_repo": "etcd-io/etcd",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/antithesis-test.yml",
+      "source_repo": "etcd-io/etcd",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/antithesis-test.yml",
+      "source_repo": "etcd-io/etcd",
+      "target": "antithesishq/antithesis-trigger-action@f6221e2ba819fe0ac3e36bd67a281fa439a03fba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/antithesis-test.yml",
+      "source_repo": "etcd-io/etcd",
+      "target": "Build and trigger Antithesis exploration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/antithesis-verify.yml",
+      "source_repo": "etcd-io/etcd",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/antithesis-verify.yml",
+      "source_repo": "etcd-io/etcd",
+      "target": "Verify Antithesis Docker Compose Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/antithesis.debugger.yml",
+      "source_repo": "etcd-io/etcd",
+      "target": "antithesishq/antithesis-trigger-action@f6221e2ba819fe0ac3e36bd67a281fa439a03fba",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/antithesis.debugger.yml",
+      "source_repo": "etcd-io/etcd",
+      "target": "Trigger Antithesis debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cherrypick-bot-ok-to-test.yaml",
+      "source_repo": "etcd-io/etcd",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherrypick-bot-ok-to-test.yaml",
+      "source_repo": "etcd-io/etcd",
+      "target": "Auto-label ok-to-test (cherrypick bot)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "etcd-io/etcd",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "etcd-io/etcd",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "etcd-io/etcd",
+      "target": "github/codeql-action/autobuild@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "etcd-io/etcd",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "etcd-io/etcd",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml",
+      "source_repo": "etcd-io/etcd",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml",
+      "source_repo": "etcd-io/etcd",
+      "target": "Approve GitHub Workflows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etcd-io/etcd",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etcd-io/etcd",
+      "target": "consensus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etcd-io/etcd",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etcd-io/etcd",
+      "target": "distributed-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etcd-io/etcd",
+      "target": "distributed-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etcd-io/etcd",
+      "target": "etcd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etcd-io/etcd",
+      "target": "key-value",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etcd-io/etcd",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "etcd-io/etcd",
+      "target": "raft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:39:51.122242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10290
+    },
+    {
+      "path": "Dockerfile",
+      "size": 349
+    },
+    {
+      "path": "go.mod",
+      "size": 4731
+    },
+    {
+      "path": ".github/workflows/OWNERS",
+      "size": 78
+    },
+    {
+      "path": ".github/workflows/antithesis-test.yml",
+      "size": 4018
+    },
+    {
+      "path": ".github/workflows/antithesis-verify.yml",
+      "size": 2382
+    },
+    {
+      "path": ".github/workflows/antithesis.debugger.yml",
+      "size": 1440
+    },
+    {
+      "path": ".github/workflows/cherrypick-bot-ok-to-test.yaml",
+      "size": 1337
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2361
+    },
+    {
+      "path": ".github/workflows/gh-workflow-approve.yaml",
+      "size": 1315
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Distributed reliable key-value store for the most critical data of a distributed system",
+    "fork": false,
+    "full_name": "etcd-io/etcd",
+    "html_url": "https://github.com/etcd-io/etcd",
+    "language": "Go",
+    "pushed_at": "2026-04-22T19:49:26Z",
+    "stargazers_count": 51616,
+    "topics": [
+      "cncf",
+      "consensus",
+      "database",
+      "distributed-database",
+      "distributed-systems",
+      "etcd",
+      "go",
+      "key-value",
+      "kubernetes",
+      "raft"
+    ],
+    "updated_at": "2026-04-23T04:14:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreos/locksmith",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattn/goreman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vulcand/vulcand",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "youtube/doorman",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and trigger Antithesis exploration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/antithesis-test.yml",
+      "term": "Build and trigger Antithesis exploration"
+    },
+    {
+      "context_snippet": "Verify Antithesis Docker Compose Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/antithesis-verify.yml",
+      "term": "Verify Antithesis Docker Compose Pipeline"
+    },
+    {
+      "context_snippet": "Trigger Antithesis debugger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/antithesis.debugger.yml",
+      "term": "Trigger Antithesis debugger"
+    },
+    {
+      "context_snippet": "Auto-label ok-to-test (cherrypick bot)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cherrypick-bot-ok-to-test.yaml",
+      "term": "Auto-label ok-to-test (cherrypick bot)"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Approve GitHub Workflows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml",
+      "term": "Approve GitHub Workflows"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/etcd-io/etcd?style=flat-square)](https://goreportcard.com/report/github.com/etcd-io/etcd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/etcd-io/etcd?style=flat-square)](https://goreportcard.com/report/github.com/etcd-io/etcd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consensus"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/etcd-io/etcd?style=flat-square)](https://goreportcard.com/report/github.com/etcd-io/etcd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/etcd-io/etcd?style=flat-square)](https://goreportcard.com/report/github.com/etcd-io/etcd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-database"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/etcd-io/etcd?style=flat-square)](https://goreportcard.com/report/github.com/etcd-io/etcd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-systems"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/etcd-io/etcd?style=flat-square)](https://goreportcard.com/report/github.com/etcd-io/etcd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "etcd"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/etcd-io/etcd?style=flat-square)](https://goreportcard.com/report/github.com/etcd-io/etcd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-value"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/etcd-io/etcd?style=flat-square)](https://goreportcard.com/report/github.com/etcd-io/etcd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Go Report Card](https://goreportcard.com/badge/github.com/etcd-io/etcd?style=flat-square)](https://goreportcard.com/report/github.com/etcd-io/etcd)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raft"
+    }
+  ]
+}

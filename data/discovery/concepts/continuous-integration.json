@@ -287,6 +287,264 @@
       "source_repo": "firebase/firebase-admin-python",
       "status": "candidate-context",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LAION-AI/CLIP_benchmark",
+      "status": "candidate-context",
+      "text": "CLIP-like model evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LAION-AI/CLIP_benchmark",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rom1504/clip-retrieval",
+      "status": "candidate-context",
+      "text": "Easily compute clip embeddings and build a clip retrieval system with them"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/clip-retrieval",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/container-toolkit-action",
+      "status": "candidate-context",
+      "text": "Template repo for creating container actions using https://github.com/actions/toolkit/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/container-toolkit-action",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/typescript-action",
+      "status": "candidate-context",
+      "text": "Create a TypeScript Action with tests, linting, workflow, publishing, and versioning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/typescript-action",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate-context",
+      "text": "Collection of utilities and Bazel rules to aid in the development and maintenance of Swift repositories using Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uuid-rs/uuid",
+      "status": "candidate-context",
+      "text": "Generate and parse UUIDs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uuid-rs/uuid",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ent/ent",
+      "status": "candidate-context",
+      "text": "An entity framework for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ent/ent",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "status": "candidate-context",
+      "text": "`serde-json` for `no_std` programs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "Add-on agent to generate and expose cluster-level metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "continuous-integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agourlay/cornichon",
+      "status": "candidate-context",
+      "text": "Testing tool in Scala for HTTP JSON API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agourlay/cornichon",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/rspirv",
+      "status": "candidate-context",
+      "text": "Rust implementation of SPIR-V module processing functionalities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/rspirv",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate-context",
+      "text": "\ud83d\ude0e A curated list of awesome GitHub Profile which updates in real time "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/sphinx-copybutton",
+      "status": "candidate-context",
+      "text": "Add a \"copy\" button to code blocks in Sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/sphinx-copybutton",
+      "status": "candidate-context",
+      "text": "continuous-integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "criteo/autofaiss",
+      "status": "candidate-context",
+      "text": "Automatically create Faiss knn indices with the most optimal similarity search parameters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criteo/autofaiss",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/bazel-starlib",
+      "status": "candidate-context",
+      "text": "Rules, macros, and APIs that are useful for the implementation of Bazel repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-starlib",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typst/typst",
+      "status": "candidate-context",
+      "text": "A markup-based typesetting system that is powerful and easy to learn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/typst",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectbot/connectbot",
+      "status": "candidate-context",
+      "text": "ConnectBot is the first SSH client for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/connectbot",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigp/rust-libp2p",
+      "status": "candidate-context",
+      "text": "The Rust Implementation of libp2p networking stack. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigp/rust-libp2p",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-ethereum/ethabi",
+      "status": "candidate-context",
+      "text": "Encode and decode smart contract invocations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-ethereum/ethabi",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrsmkl/keep-awake-rs",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate-context",
+      "text": "Cross-platform async library for system information fetching \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex/rust-asn1",
+      "status": "candidate-context",
+      "text": "A Rust ASN.1 (DER) serializer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex/rust-asn1",
+      "status": "candidate-context",
+      "text": "Continuous integration"
     }
   ],
   "candidate_glosses": [
@@ -421,6 +679,138 @@
       "source_repo": "firebase/firebase-admin-python",
       "status": "candidate",
       "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LAION-AI/CLIP_benchmark",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/clip-retrieval",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/container-toolkit-action",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/typescript-action",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uuid-rs/uuid",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ent/ent",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate",
+      "text": "continuous-integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agourlay/cornichon",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/rspirv",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/sphinx-copybutton",
+      "status": "candidate",
+      "text": "continuous-integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criteo/autofaiss",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-starlib",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/typst",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/connectbot",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigp/rust-libp2p",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-ethereum/ethabi",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrsmkl/keep-awake-rs",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex/rust-asn1",
+      "status": "candidate",
+      "text": "Continuous integration"
     }
   ],
   "candidate_related_terms": [
@@ -632,11 +1022,161 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "firebase/firebase-admin-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "LAION-AI/CLIP_benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rom1504/clip-retrieval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/typescript-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cgrindel/rules_swift_package_manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "uuid-rs/uuid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ent/ent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-embedded-community/serde-json-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kubernetes/kube-state-metrics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "agourlay/cornichon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "gfx-rs/rspirv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "executablebooks/sphinx-copybutton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "criteo/autofaiss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cgrindel/bazel-starlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typst/typst"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "connectbot/connectbot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sigp/rust-libp2p"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rust-ethereum/ethabi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mrsmkl/keep-awake-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heim-rs/heim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alex/rust-asn1"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

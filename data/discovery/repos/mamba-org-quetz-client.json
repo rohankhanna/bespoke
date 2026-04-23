@@ -1,0 +1,219 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pavelzw/pytest-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@2b72821d5ad7f6da3c003a3684ce341bf187b46f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyter-server/jupyter_releaser/.github/actions/check-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jupyterlab/maintainer-tools/.github/actions/enforce-label@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-label.yml"
+    },
+    {
+      "component": "actions/checkout@v3.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quetz-version-autoupdate.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@38e0b6e68b4c852a5500a94740f0e535e0d7ba54",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quetz-version-autoupdate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mamba-org/quetz-client",
+      "target": "actions/checkout@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mamba-org/quetz-client",
+      "target": "mamba-org/setup-micromamba@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mamba-org/quetz-client",
+      "target": "pavelzw/pytest-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mamba-org/quetz-client",
+      "target": "actions/checkout@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mamba-org/quetz-client",
+      "target": "mamba-org/setup-micromamba@2b72821d5ad7f6da3c003a3684ce341bf187b46f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mamba-org/quetz-client",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mamba-org/quetz-client",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mamba-org/quetz-client",
+      "target": "jupyter-server/jupyter_releaser/.github/actions/check-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "source_repo": "mamba-org/quetz-client",
+      "target": "jupyterlab/maintainer-tools/.github/actions/enforce-label@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "source_repo": "mamba-org/quetz-client",
+      "target": "Enforce PR label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quetz-version-autoupdate.yml",
+      "source_repo": "mamba-org/quetz-client",
+      "target": "actions/checkout@v3.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quetz-version-autoupdate.yml",
+      "source_repo": "mamba-org/quetz-client",
+      "target": "peter-evans/create-pull-request@38e0b6e68b4c852a5500a94740f0e535e0d7ba54",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quetz-version-autoupdate.yml",
+      "source_repo": "mamba-org/quetz-client",
+      "target": "Quetz version autoupdate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:47:03.263816+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1021
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1123
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2532
+    },
+    {
+      "path": ".github/workflows/enforce-label.yml",
+      "size": 277
+    },
+    {
+      "path": ".github/workflows/quetz-version-autoupdate.yml",
+      "size": 1328
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Python client for Quetz.",
+    "fork": false,
+    "full_name": "mamba-org/quetz-client",
+    "html_url": "https://github.com/mamba-org/quetz-client",
+    "language": "Python",
+    "pushed_at": "2024-01-30T14:30:09Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-02-24T13:29:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Enforce PR label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "term": "Enforce PR label"
+    },
+    {
+      "context_snippet": "Quetz version autoupdate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quetz-version-autoupdate.yml",
+      "term": "Quetz version autoupdate"
+    }
+  ]
+}

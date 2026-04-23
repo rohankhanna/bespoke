@@ -55,6 +55,30 @@
       "source_repo": "circe/circe",
       "status": "candidate-context",
       "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/circe/circe/ci.yml)](https://github.com/circe/circe/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "47degrees/github4s",
+      "status": "candidate-context",
+      "text": "A GitHub API wrapper written in Scala"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "47degrees/github4s",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/47degrees/github4s](https://badges.gitter.im/47degrees/github4s.svg)](https://gitter.im/47degrees/github4s?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![codecov.io](http://codecov.io/gh/47degrees/github4s/bran\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "Emacs client/library for the Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "circe/circe",
       "status": "candidate",
       "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/circe/circe/ci.yml)](https://github.com/circe/circe/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "47degrees/github4s",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/47degrees/github4s](https://badges.gitter.im/47degrees/github4s.svg)](https://gitter.im/47degrees/github4s?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![codecov.io](http://codecov.io/gh/47degrees/github4s/bran\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "circe/circe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "47degrees/github4s"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-mode"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

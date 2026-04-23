@@ -82,6 +82,54 @@
       "source_repo": "hashicorp/terraform-plugin-sdk",
       "status": "candidate-context",
       "text": "compliance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "status": "candidate-context",
+      "text": "Info about many of my Terraform, AWS, and DevOps projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "status": "candidate-context",
+      "text": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "Tfsec is now part of Trivy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-plugin-go",
+      "status": "candidate-context",
+      "text": "A low-level Go binding for the Terraform protocol for integrations to be built on top of."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-go",
+      "status": "candidate-context",
+      "text": "compliance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/awesome-terraform-compliance",
+      "status": "candidate-context",
+      "text": "Awesome Terraform Compliance - tools, frameworks, and resources for implementing compliance, security, and governance controls in Terraform and OpenTofu infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/awesome-terraform-compliance",
+      "status": "candidate-context",
+      "text": "CI"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +168,30 @@
       "source_repo": "hashicorp/terraform-plugin-sdk",
       "status": "candidate",
       "text": "compliance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "status": "candidate",
+      "text": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-go",
+      "status": "candidate",
+      "text": "compliance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/awesome-terraform-compliance",
+      "status": "candidate",
+      "text": "CI"
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +307,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/compliance.yml",
       "source_repo": "hashicorp/terraform-plugin-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/terraform-aws-devops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/compliance.yml",
+      "source_repo": "hashicorp/terraform-plugin-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/awesome-terraform-compliance"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

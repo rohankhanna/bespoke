@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AFF Review Process Reminder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SAP/abap-file-formats",
+      "status": "candidate-context",
+      "text": "File formats that define and specify the file representation for ABAP development objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/abap-file-formats",
+      "status": "candidate-context",
+      "text": "AFF Review Process Reminder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/abap-file-formats",
+      "status": "candidate",
+      "text": "AFF Review Process Reminder"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47096,
+      "status": "candidate",
+      "text": "consideration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44696,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44696,
+      "status": "candidate",
+      "text": "reviewing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34934,
+      "status": "candidate",
+      "text": "reviews"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34501,
+      "status": "candidate",
+      "text": "precognition"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AFF Review Process Reminder",
+  "concept_id": "aff-review-process-reminder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/aff-review-reminder.yml",
+      "source_repo": "SAP/abap-file-formats"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AFF Review Process Reminder",
+      "sense_id": "aff-review-process-reminder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

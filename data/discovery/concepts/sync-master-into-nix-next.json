@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync master into nix-next"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/hydra",
+      "status": "candidate-context",
+      "text": "Hydra, the Nix-based continuous build system [maintainers=@dasj,@Ericson2314]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/hydra",
+      "status": "candidate-context",
+      "text": "Sync master into nix-next"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/hydra",
+      "status": "candidate",
+      "text": "Sync master into nix-next"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23951,
+      "status": "candidate",
+      "text": "captain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23930,
+      "status": "candidate",
+      "text": "skip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23920,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23920,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23920,
+      "status": "candidate",
+      "text": "host"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync master into nix-next",
+  "concept_id": "sync-master-into-nix-next",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/sync-master-to-nix-next.yml",
+      "source_repo": "NixOS/hydra"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync master into nix-next",
+      "sense_id": "sync-master-into-nix-next#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

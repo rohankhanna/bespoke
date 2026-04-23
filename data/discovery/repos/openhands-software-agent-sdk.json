@@ -1,0 +1,364 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-server-rest-api-breakage.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-server-rest-api-breakage.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-server-rest-api-breakage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-breakage.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-breakage.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-breakage.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compliance-runner.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compliance-runner.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compliance-runner.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compliance-runner.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviews.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviews.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviews.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviews.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docstrings.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docstrings.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "textualize/rich",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-server-rest-api-breakage.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-server-rest-api-breakage.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent-server-rest-api-breakage.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent-server-rest-api-breakage.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "REST API breakage checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-breakage.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-breakage.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-breakage.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compliance-runner.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compliance-runner.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compliance-runner.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compliance-runner.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-compliance-runner.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "API Compliance Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviews.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviews.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviews.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign-reviews.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign-reviews.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "Assign Reviews",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-label-issues.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-issues.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "Auto-label New Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel-eval.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "Cancel Eval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docstrings.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-docstrings.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-docstrings.yml",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "target": "Check Docstrings",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:43:03.409454+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9629
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3422
+    },
+    {
+      "path": ".github/workflows/README-RELEASE.md",
+      "size": 4723
+    },
+    {
+      "path": ".github/workflows/agent-server-rest-api-breakage.yml",
+      "size": 6502
+    },
+    {
+      "path": ".github/workflows/api-breakage.yml",
+      "size": 6493
+    },
+    {
+      "path": ".github/workflows/api-compliance-runner.yml",
+      "size": 4856
+    },
+    {
+      "path": ".github/workflows/assign-reviews.yml",
+      "size": 12770
+    },
+    {
+      "path": ".github/workflows/auto-label-issues.yml",
+      "size": 1257
+    },
+    {
+      "path": ".github/workflows/cancel-eval.yml",
+      "size": 2057
+    },
+    {
+      "path": ".github/workflows/check-docstrings.yml",
+      "size": 550
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A clean, modular SDK for building AI agents with OpenHands V1.",
+    "fork": false,
+    "full_name": "OpenHands/software-agent-sdk",
+    "html_url": "https://github.com/OpenHands/software-agent-sdk",
+    "language": "Python",
+    "pushed_at": "2026-04-23T07:38:34Z",
+    "stargazers_count": 668,
+    "topics": [
+      "agent",
+      "sdk"
+    ],
+    "updated_at": "2026-04-23T07:28:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "textualize/rich",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "REST API breakage checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent-server-rest-api-breakage.yml",
+      "term": "REST API breakage checks"
+    },
+    {
+      "context_snippet": "API Compliance Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-compliance-runner.yml",
+      "term": "API Compliance Tests"
+    },
+    {
+      "context_snippet": "Assign Reviews",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign-reviews.yml",
+      "term": "Assign Reviews"
+    },
+    {
+      "context_snippet": "Auto-label New Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-label-issues.yml",
+      "term": "Auto-label New Issues"
+    },
+    {
+      "context_snippet": "Cancel Eval",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel-eval.yml",
+      "term": "Cancel Eval"
+    },
+    {
+      "context_snippet": "Check Docstrings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-docstrings.yml",
+      "term": "Check Docstrings"
+    }
+  ]
+}

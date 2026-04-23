@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:31:10.298458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5195
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "1zb/VecSetX",
+    "html_url": "https://github.com/1zb/VecSetX",
+    "language": "Python",
+    "pushed_at": "2025-10-03T13:27:06Z",
+    "stargazers_count": 116,
+    "topics": [],
+    "updated_at": "2026-04-19T10:50:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

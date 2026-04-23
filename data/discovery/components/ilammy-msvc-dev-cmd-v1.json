@@ -1,7 +1,7 @@
 {
   "component": "ilammy/msvc-dev-cmd@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,61 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "pothosware/SoapySDR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "saitoha/libsixel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_vs2019.yml",
+      "source_repo": "ariya/FastLZ"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/internal_pymnn_release.yml",
+      "source_repo": "alibaba/MNN"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mnn_release.yml",
+      "source_repo": "alibaba/MNN"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "gfx-rs/wgpu-native"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "mitsuba-renderer/mitsuba3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheels.yml",
+      "source_repo": "mitsuba-renderer/nanogui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-auto.yml",
+      "source_repo": "aseprite/aseprite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aseprite/aseprite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "contour-terminal/contour"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-ci.yml",
+      "source_repo": "coin-or/CHiPPS-ALPS"
     }
   ]
 }

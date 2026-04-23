@@ -1,0 +1,12 @@
+{
+  "component": "alessbell/pull-request-comment-branch@aad01d65d6982b8eacabed5e9a684cd8ceb98da6",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-compare.yml",
+      "source_repo": "angular/angular"
+    }
+  ]
+}

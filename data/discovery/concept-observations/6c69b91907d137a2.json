@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The toolkit to pack, ship, store, and deliver container content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "e2e"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "e2e"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9991118,
+      "status": "candidate",
+      "text": "wireless network"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9989418,
+      "status": "candidate",
+      "text": "sign on"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9988132,
+      "status": "candidate",
+      "text": "sign off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9987870,
+      "status": "candidate",
+      "text": "read out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9987484,
+      "status": "candidate",
+      "text": "back up"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "e2e",
+      "sense_id": "e2e#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "e2e",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "e2e",
+  "observation_id": "6c69b91907d137a2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "e2e",
+  "source_context_snippet": "e2e",
+  "source_file": ".github/workflows/e2e.yml",
+  "source_repo": "distribution/distribution",
+  "source_repo_description": "The toolkit to pack, ship, store, and deliver container content"
+}

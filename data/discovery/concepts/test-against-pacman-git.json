@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test against pacman-git"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jguer/yay",
+      "status": "candidate-context",
+      "text": "Yet another Yogurt - An AUR Helper written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jguer/yay",
+      "status": "candidate-context",
+      "text": "Test against pacman-git"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jguer/yay",
+      "status": "candidate",
+      "text": "Test against pacman-git"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28121,
+      "status": "candidate",
+      "text": "experiment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11721,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11721,
+      "status": "candidate",
+      "text": "attempt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11721,
+      "status": "candidate",
+      "text": "attempted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11721,
+      "status": "candidate",
+      "text": "background"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test against pacman-git",
+  "concept_id": "test-against-pacman-git",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/testing-git.yml",
+      "source_repo": "Jguer/yay"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test against pacman-git",
+      "sense_id": "test-against-pacman-git#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

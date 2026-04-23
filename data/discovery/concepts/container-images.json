@@ -1,12 +1,15 @@
 {
   "aliases": [
     "Container images",
-    "Container Images"
+    "Container Images",
+    "container-images"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -32,6 +35,18 @@
       "source_repo": "ApeWorX/ape",
       "status": "candidate-context",
       "text": "Container Images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate-context",
+      "text": "Command line tool to create and query container image manifest list/indexes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate-context",
+      "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +61,12 @@
       "source_repo": "ApeWorX/ape",
       "status": "candidate",
       "text": "Container Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate",
+      "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +122,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "ApeWorX/ape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "estesp/manifest-tool"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

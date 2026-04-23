@@ -1,7 +1,7 @@
 {
   "component": "hashicorp/setup-terraform@5e8dbf3c6d9deaf4193ca7a8fb23f2ac83bb6c85",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-go.yml",
       "source_repo": "hashicorp/terraform-plugin-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maintenance.yaml",
+      "source_repo": "terraform-linters/tflint-ruleset-aws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/maintenance.yaml",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-go.yml",
+      "source_repo": "hashicorp/terraform-plugin-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/legacy-release.yaml",
+      "source_repo": "chainguard-images/images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-images/images"
     }
   ]
 }

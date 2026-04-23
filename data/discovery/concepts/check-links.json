@@ -1,6 +1,8 @@
 {
   "aliases": [
-    "Check Links"
+    "Check Links",
+    "Check links",
+    "check links"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +21,30 @@
       "source_repo": "awslabs/amazon-ecr-credential-helper",
       "status": "candidate-context",
       "text": "Check Links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbb macOS / Ubuntu dotfiles"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate-context",
+      "text": "Check links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyOpenSci/software-submission",
+      "status": "candidate-context",
+      "text": "pyOpenSci runs  open peer review for research software and software that directly supports scientific inquiry. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyOpenSci/software-submission",
+      "status": "candidate-context",
+      "text": "check links"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +53,18 @@
       "source_repo": "awslabs/amazon-ecr-credential-helper",
       "status": "candidate",
       "text": "Check Links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate",
+      "text": "Check links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyOpenSci/software-submission",
+      "status": "candidate",
+      "text": "check links"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +114,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/check-links.yml",
       "source_repo": "awslabs/amazon-ecr-credential-helper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check_links.yml",
+      "source_repo": "alrra/dotfiles"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "pyOpenSci/software-submission"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

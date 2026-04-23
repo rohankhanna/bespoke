@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Bump Podfile.lock"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/react-native",
+      "status": "candidate-context",
+      "text": "A framework for building native applications using React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native",
+      "status": "candidate-context",
+      "text": "Bump Podfile.lock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/react-native-macos",
+      "status": "candidate-context",
+      "text": "A framework for building native macOS apps with React."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-macos",
+      "status": "candidate-context",
+      "text": "Bump Podfile.lock"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native",
+      "status": "candidate",
+      "text": "Bump Podfile.lock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-macos",
+      "status": "candidate",
+      "text": "Bump Podfile.lock"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "bumped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "bumping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "displace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "jar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "jostle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump Podfile.lock",
+  "concept_id": "bump-podfile.lock",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/bump-podfile-lock.yml",
+      "source_repo": "facebook/react-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/bump-podfile-lock.yml",
+      "source_repo": "microsoft/react-native-macos"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump Podfile.lock",
+      "sense_id": "bump-podfile.lock#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ethereum-node"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "status": "candidate-context",
+      "text": "Step-by-step guide to running an Erigon archive node (Ethereum) on an 8GB Raspberry Pi 4. Recommended minimum 4 TB SSD (SATA III) with Ubuntu Server 21."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "status": "candidate-context",
+      "text": "<br />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "status": "candidate",
+      "text": "<br />"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ethereum-node",
+  "concept_id": "ethereum-node",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ethereum-node",
+      "sense_id": "ethereum-node#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

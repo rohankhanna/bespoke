@@ -1,0 +1,660 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Android.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BundleStaticLibs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BundleStaticLibs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BundleStaticLibs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BundleStaticLibs.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BundleStaticLibs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BundleStaticLibs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BundleStaticLibs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BundleStaticLibs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CheckIssueForCodeFormatting.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CheckIssueForCodeFormatting.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "endersonmenezes/free-disk-space@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DockerTests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DraftMe.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DraftPR.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExtendedTests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExtendedTests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExtendedTests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExtendedTests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExtendedTests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExtendedTests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExtendedTests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExtendedTests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExtendedTests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExtendedTests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Android.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Android.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Android.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BundleStaticLibs.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BundleStaticLibs.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BundleStaticLibs.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/BundleStaticLibs.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "Bundle Static Libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CheckIssueForCodeFormatting.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CheckIssueForCodeFormatting.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CheckIssueForCodeFormatting.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "Check Issue for Code Formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CrossVersion.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "endersonmenezes/free-disk-space@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CrossVersion.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "Cross Version DB test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DockerTests.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DockerTests.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "Docker tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DraftMe.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DraftMe.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "Draft on Synchronize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DraftMeNot.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "Placeholder to cancel auto draft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DraftPR.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DraftPR.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "Move PR to Draft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExtendedTests.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ExtendedTests.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ExtendedTests.yml",
+      "source_repo": "duckdb/duckdb",
+      "target": "ExtendedTests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "duckdb/duckdb",
+      "target": "analytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "duckdb/duckdb",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "duckdb/duckdb",
+      "target": "embedded-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "duckdb/duckdb",
+      "target": "olap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:45:30.325277+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3482
+    },
+    {
+      "path": ".github/workflows/Android.yml",
+      "size": 3066
+    },
+    {
+      "path": ".github/workflows/BundleStaticLibs.yml",
+      "size": 7931
+    },
+    {
+      "path": ".github/workflows/CheckIssueForCodeFormatting.yml",
+      "size": 766
+    },
+    {
+      "path": ".github/workflows/CrossVersion.yml",
+      "size": 11471
+    },
+    {
+      "path": ".github/workflows/DockerTests.yml",
+      "size": 1409
+    },
+    {
+      "path": ".github/workflows/DraftMe.yml",
+      "size": 870
+    },
+    {
+      "path": ".github/workflows/DraftMeNot.yml",
+      "size": 498
+    },
+    {
+      "path": ".github/workflows/DraftPR.yml",
+      "size": 2048
+    },
+    {
+      "path": ".github/workflows/ExtendedTests.yml",
+      "size": 14124
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DuckDB is an analytical in-process SQL database management system",
+    "fork": false,
+    "full_name": "duckdb/duckdb",
+    "html_url": "https://github.com/duckdb/duckdb",
+    "language": "C++",
+    "pushed_at": "2026-04-22T20:32:14Z",
+    "stargazers_count": 37650,
+    "topics": [
+      "analytics",
+      "database",
+      "embedded-database",
+      "olap",
+      "sql"
+    ],
+    "updated_at": "2026-04-23T04:12:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Android.yml",
+      "term": "Android"
+    },
+    {
+      "context_snippet": "Bundle Static Libraries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/BundleStaticLibs.yml",
+      "term": "Bundle Static Libraries"
+    },
+    {
+      "context_snippet": "Check Issue for Code Formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CheckIssueForCodeFormatting.yml",
+      "term": "Check Issue for Code Formatting"
+    },
+    {
+      "context_snippet": "Cross Version DB test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CrossVersion.yml",
+      "term": "Cross Version DB test"
+    },
+    {
+      "context_snippet": "Docker tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DockerTests.yml",
+      "term": "Docker tests"
+    },
+    {
+      "context_snippet": "Draft on Synchronize",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DraftMe.yml",
+      "term": "Draft on Synchronize"
+    },
+    {
+      "context_snippet": "Placeholder to cancel auto draft",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DraftMeNot.yml",
+      "term": "Placeholder to cancel auto draft"
+    },
+    {
+      "context_snippet": "Move PR to Draft",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DraftPR.yml",
+      "term": "Move PR to Draft"
+    },
+    {
+      "context_snippet": "ExtendedTests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ExtendedTests.yml",
+      "term": "ExtendedTests"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analytics"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-database"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "olap"
+    }
+  ]
+}

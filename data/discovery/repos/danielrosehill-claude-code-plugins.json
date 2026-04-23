@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Plugins",
+      "target": "danielrosehill/ai-tools-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Plugins",
+      "target": "danielrosehill/ai-attribution-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Plugins",
+      "target": "danielrosehill/audio-editing-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Plugins",
+      "target": "danielrosehill/brainstorm-solutions-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Claude-Code-Plugins",
+      "target": "claude-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:33:55.314999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Daniel Rosehill's Claude Code plugin marketplace",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Code-Plugins",
+    "html_url": "https://github.com/danielrosehill/Claude-Code-Plugins",
+    "language": null,
+    "pushed_at": "2026-04-21T21:44:33Z",
+    "stargazers_count": 9,
+    "topics": [
+      "claude-code"
+    ],
+    "updated_at": "2026-04-21T21:44:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-attribution-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/ai-tools-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/audio-editing-plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/brainstorm-solutions-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Claude Code](https://img.shields.io/badge/Claude_Code-Project-8A2BE2?style=for-the-badge&logo=anthropic)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    }
+  ]
+}

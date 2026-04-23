@@ -187,6 +187,30 @@
       "source_repo": "open-telemetry/opentelemetry-java",
       "status": "candidate-context",
       "text": "[![Release](https://img.shields.io/github/v/release/open-telemetry/opentelemetry-java?include_prereleases&style=)](https://github.com/open-telemetry/opentelemetry-java/releases/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry",
+      "status": "candidate-context",
+      "text": "Instrumentation for https://opentelemetry.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry",
+      "status": "candidate-context",
+      "text": "This project provides an API for instrumenting server software"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/alloy",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Collector distribution with programmable pipelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/alloy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +303,18 @@
       "source_repo": "open-telemetry/opentelemetry-java",
       "status": "candidate",
       "text": "[![Release](https://img.shields.io/github/v/release/open-telemetry/opentelemetry-java?include_prereleases&style=)](https://github.com/open-telemetry/opentelemetry-java/releases/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry",
+      "status": "candidate",
+      "text": "This project provides an API for instrumenting server software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/alloy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -376,11 +412,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "open-telemetry/opentelemetry-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "grafana/alloy"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flathub/com.vscodium.codium",
+      "target": "1player/host-spawn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:34:53.846228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5383
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "flathub/com.vscodium.codium",
+    "html_url": "https://github.com/flathub/com.vscodium.codium",
+    "language": null,
+    "pushed_at": "2026-03-30T04:55:13Z",
+    "stargazers_count": 142,
+    "topics": [],
+    "updated_at": "2026-04-21T14:35:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1player/host-spawn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

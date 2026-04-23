@@ -1,0 +1,139 @@
+{
+  "aliases": [
+    "syntax"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JoshData/python-email-validator",
+      "status": "candidate-context",
+      "text": "A robust email syntax and deliverability validation library for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JoshData/python-email-validator",
+      "status": "candidate-context",
+      "text": "email-validator: Validate Email Addresses"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate-context",
+      "text": "A general purpose syntax highlighter in pure Go "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate-context",
+      "text": "![Chroma](chroma.jpg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JoshData/python-email-validator",
+      "status": "candidate",
+      "text": "email-validator: Validate Email Addresses"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate",
+      "text": "![Chroma](chroma.jpg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048224,
+      "status": "candidate",
+      "text": "phrase structure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048224,
+      "status": "candidate",
+      "text": "sentence structure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048223,
+      "status": "candidate",
+      "text": "syntactical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047489,
+      "status": "candidate",
+      "text": "syntactic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032794,
+      "status": "candidate",
+      "text": "directed"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "phrase structure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "sentence structure"
+    }
+  ],
+  "canonical_name": "syntax",
+  "concept_id": "syntax",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "JoshData/python-email-validator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alecthomas/chroma"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "syntax",
+      "sense_id": "syntax#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

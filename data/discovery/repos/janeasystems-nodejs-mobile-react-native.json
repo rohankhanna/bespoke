@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ncp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodejs-mobile-gyp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xcode",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-native",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JaneaSystems/nodejs-mobile-react-native",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JaneaSystems/nodejs-mobile-react-native",
+      "target": "ncp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JaneaSystems/nodejs-mobile-react-native",
+      "target": "nodejs-mobile-gyp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JaneaSystems/nodejs-mobile-react-native",
+      "target": "xcode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "JaneaSystems/nodejs-mobile-react-native",
+      "target": "react-native",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:45:04.334726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15481
+    },
+    {
+      "path": "package.json",
+      "size": 827
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "unstable",
+    "description": "Node.js for Mobile Apps React Native plugin",
+    "fork": false,
+    "full_name": "JaneaSystems/nodejs-mobile-react-native",
+    "html_url": "https://github.com/JaneaSystems/nodejs-mobile-react-native",
+    "language": "C",
+    "pushed_at": "2022-10-07T04:27:25Z",
+    "stargazers_count": 333,
+    "topics": [],
+    "updated_at": "2025-08-01T05:40:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

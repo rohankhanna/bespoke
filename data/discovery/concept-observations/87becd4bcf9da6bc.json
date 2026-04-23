@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An efficient video loader for deep learning with smart shuffling that's super easy to digest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![CI Build](https://github.com/dmlc/decord/workflows/C/C++%20CI/badge.svg?branch=master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![CI Build](https://github.com/dmlc/decord/workflows/C/C++%20CI/badge.svg?branch=master)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-loader",
+      "sense_id": "video-loader#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "video-loader",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "video-loader",
+  "observation_id": "87becd4bcf9da6bc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "video-loader",
+  "source_context_snippet": "![CI Build](https://github.com/dmlc/decord/workflows/C/C++%20CI/badge.svg?branch=master)",
+  "source_file": null,
+  "source_repo": "dmlc/decord",
+  "source_repo_description": "An efficient video loader for deep learning with smart shuffling that's super easy to digest"
+}

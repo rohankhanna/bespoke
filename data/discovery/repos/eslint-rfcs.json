@@ -1,0 +1,64 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-rfc-update.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-rfc-update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/social-rfc-update.yml",
+      "source_repo": "eslint/rfcs",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/social-rfc-update.yml",
+      "source_repo": "eslint/rfcs",
+      "target": "Post RFC Social Update",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:40:46.347429+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6160
+    },
+    {
+      "path": ".github/workflows/social-rfc-update.yml",
+      "size": 2326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repo for managing Requests For Comments (RFCs) for the ESLint project",
+    "fork": false,
+    "full_name": "eslint/rfcs",
+    "html_url": "https://github.com/eslint/rfcs",
+    "language": null,
+    "pushed_at": "2026-04-20T06:46:38Z",
+    "stargazers_count": 151,
+    "topics": [],
+    "updated_at": "2026-04-21T09:40:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Post RFC Social Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/social-rfc-update.yml",
+      "term": "Post RFC Social Update"
+    }
+  ]
+}

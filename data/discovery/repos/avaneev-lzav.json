@@ -1,0 +1,282 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "avaneev/lzav",
+      "target": "powturbo/turbobench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "avaneev/lzav",
+      "target": "miloszkrajewski/silesiacorpus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "compress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "compression-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "compression-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "compressor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "data-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "data-compression-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "lossless-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "lossless-compression-algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "lossless-data-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "lz77",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "quicklz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "snappy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "zlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "zstandard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/lzav",
+      "target": "zstd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:47:53.780073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast In-Memory Data Compression Algorithm (header-only C/C++) 480+MB/s compress, 2800+MB/s decompress, ratio% better than LZ4, Snappy, and Zstd@-1",
+    "fork": false,
+    "full_name": "avaneev/lzav",
+    "html_url": "https://github.com/avaneev/lzav",
+    "language": "C++",
+    "pushed_at": "2026-01-27T03:04:06Z",
+    "stargazers_count": 526,
+    "topics": [
+      "compress",
+      "compression",
+      "compression-algorithm",
+      "compression-library",
+      "compressor",
+      "data-compression",
+      "data-compression-algorithms",
+      "lossless-compression",
+      "lossless-compression-algorithm",
+      "lossless-data-compression",
+      "lz4",
+      "lz77",
+      "lzf",
+      "lzo",
+      "quicklz",
+      "snappy",
+      "zlib",
+      "zstandard",
+      "zstd"
+    ],
+    "updated_at": "2026-04-21T14:47:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miloszkrajewski/silesiacorpus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "powturbo/turbobench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compress"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression-algorithm"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression-library"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compressor"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-compression"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-compression-algorithms"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lossless-compression"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lossless-compression-algorithm"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lossless-data-compression"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lz77"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quicklz"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snappy"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zlib"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zstandard"
+    },
+    {
+      "context_snippet": "LZAV is a fast general-purpose in-memory data compression algorithm based on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zstd"
+    }
+  ]
+}

@@ -68,6 +68,54 @@
       "source_repo": "hairyhenderson/gomplate",
       "status": "candidate-context",
       "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate-context",
+      "text": "oneAPI Deep Neural Network Library (oneDNN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate-context",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "FlatBuffers: Memory Efficient Serialization Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pybind/pybind11",
+      "status": "candidate-context",
+      "text": "Seamless operability between C++11 and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/pybind11",
+      "status": "candidate-context",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/buildx",
+      "status": "candidate-context",
+      "text": "Docker CLI plugin for extended build capabilities with BuildKit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/buildx",
+      "status": "candidate-context",
+      "text": "labeler"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +148,30 @@
       "source_repo": "hairyhenderson/gomplate",
       "status": "candidate",
       "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/pybind11",
+      "status": "candidate",
+      "text": "Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/buildx",
+      "status": "candidate",
+      "text": "labeler"
     }
   ],
   "candidate_related_terms": [
@@ -173,11 +245,35 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/label.yml",
       "source_repo": "hairyhenderson/gomplate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/label.yml",
+      "source_repo": "google/flatbuffers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "pybind/pybind11"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker/buildx"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

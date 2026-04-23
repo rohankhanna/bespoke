@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Scorecard analysis workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "status": "candidate-context",
+      "text": "An open-source registry for VS Code extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "status": "candidate-context",
+      "text": "Scorecard analysis workflow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EclipseFdn/open-vsx.org",
+      "status": "candidate-context",
+      "text": "Source of open-vsx.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EclipseFdn/open-vsx.org",
+      "status": "candidate-context",
+      "text": "Scorecard analysis workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "status": "candidate",
+      "text": "Scorecard analysis workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EclipseFdn/open-vsx.org",
+      "status": "candidate",
+      "text": "Scorecard analysis workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23709,
+      "status": "candidate",
+      "text": "group"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23709,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23688,
+      "status": "candidate",
+      "text": "bank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23688,
+      "status": "candidate",
+      "text": "degree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23688,
+      "status": "candidate",
+      "text": "digestion"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Scorecard analysis workflow",
+  "concept_id": "scorecard-analysis-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scorecard-analysis.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scorecard-analysis.yml",
+      "source_repo": "EclipseFdn/open-vsx.org"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Scorecard analysis workflow",
+      "sense_id": "scorecard-analysis-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

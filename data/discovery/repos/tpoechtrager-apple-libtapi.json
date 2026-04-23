@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpoechtrager/apple-libtapi",
+      "target": "apple-oss-distributions/tapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tpoechtrager/apple-libtapi",
+      "target": "swiftlang/llvm-project",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:40:33.962346+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "1600.0.11.8",
+    "description": "Apple TAPI Library",
+    "fork": false,
+    "full_name": "tpoechtrager/apple-libtapi",
+    "html_url": "https://github.com/tpoechtrager/apple-libtapi",
+    "language": "C++",
+    "pushed_at": "2026-04-05T08:33:49Z",
+    "stargazers_count": 102,
+    "topics": [],
+    "updated_at": "2026-04-05T08:34:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple-oss-distributions/tapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swiftlang/llvm-project",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

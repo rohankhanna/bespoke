@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/01-default.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/01-default.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/01-default.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jsonnet-bundler/jsonnet-bundler",
+      "target": "anguslees/kustomize-libsonnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/01-default.yml",
+      "source_repo": "jsonnet-bundler/jsonnet-bundler",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/01-default.yml",
+      "source_repo": "jsonnet-bundler/jsonnet-bundler",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/01-default.yml",
+      "source_repo": "jsonnet-bundler/jsonnet-bundler",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/01-default.yml",
+      "source_repo": "jsonnet-bundler/jsonnet-bundler",
+      "target": "Default Workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:44:20.831178+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3330
+    },
+    {
+      "path": "Dockerfile",
+      "size": 71
+    },
+    {
+      "path": "go.mod",
+      "size": 880
+    },
+    {
+      "path": ".github/workflows/01-default.yml",
+      "size": 1112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A jsonnet package manager.",
+    "fork": false,
+    "full_name": "jsonnet-bundler/jsonnet-bundler",
+    "html_url": "https://github.com/jsonnet-bundler/jsonnet-bundler",
+    "language": "Go",
+    "pushed_at": "2025-10-02T14:08:58Z",
+    "stargazers_count": 580,
+    "topics": [],
+    "updated_at": "2026-04-12T10:11:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anguslees/kustomize-libsonnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Default Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/01-default.yml",
+      "term": "Default Workflow"
+    }
+  ]
+}

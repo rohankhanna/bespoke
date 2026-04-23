@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abaplint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abaplint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sbcgua/abap-string-map",
+      "target": "larshp/abapgit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abaplint.yml",
+      "source_repo": "sbcgua/abap-string-map",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abaplint.yml",
+      "source_repo": "sbcgua/abap-string-map",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abaplint.yml",
+      "source_repo": "sbcgua/abap-string-map",
+      "target": "abaplint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbcgua/abap-string-map",
+      "target": "abap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sbcgua/abap-string-map",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:00.624377+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5006
+    },
+    {
+      "path": ".github/workflows/abaplint.yml",
+      "size": 360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "String map primitive implementation on abap",
+    "fork": false,
+    "full_name": "sbcgua/abap-string-map",
+    "html_url": "https://github.com/sbcgua/abap-string-map",
+    "language": "ABAP",
+    "pushed_at": "2025-12-11T08:40:13Z",
+    "stargazers_count": 17,
+    "topics": [
+      "abap",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-01-03T12:49:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "larshp/abapgit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "abaplint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abaplint.yml",
+      "term": "abaplint"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD041 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

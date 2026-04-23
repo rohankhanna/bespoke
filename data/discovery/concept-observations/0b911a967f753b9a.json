@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rust library for regular expressions using \"fancy\" features like look-around and backreferences. Has a mode which aims to be compatible with Oniguruma syntax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Rust library for compiling and matching regular expressions. It uses a hybrid"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Rust library for compiling and matching regular expressions. It uses a hybrid"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023458,
+      "status": "candidate",
+      "text": "regexp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023457,
+      "status": "candidate",
+      "text": "grep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023456,
+      "status": "candidate",
+      "text": "subexpression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023455,
+      "status": "candidate",
+      "text": "syntax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023454,
+      "status": "candidate",
+      "text": "subexpressions"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "regex",
+      "sense_id": "regex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "regex",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "regex",
+  "observation_id": "0b911a967f753b9a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "regex",
+  "source_context_snippet": "A Rust library for compiling and matching regular expressions. It uses a hybrid",
+  "source_file": null,
+  "source_repo": "fancy-regex/fancy-regex",
+  "source_repo_description": "Rust library for regular expressions using \"fancy\" features like look-around and backreferences. Has a mode which aims to be compatible with Oniguruma syntax."
+}

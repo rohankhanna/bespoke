@@ -19,6 +19,18 @@
       "source_repo": "containers/aardvark-dns",
       "status": "candidate-context",
       "text": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "CoreDNS is a DNS server that chains plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "[![CoreDNS](https://coredns.io/images/CoreDNS_Colour_Horizontal.png)](https://coredns.io)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "containers/aardvark-dns",
       "status": "candidate",
       "text": "Aardvark-dns is an authoritative dns server for `A/AAAA` container records. It can forward other requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate",
+      "text": "[![CoreDNS](https://coredns.io/images/CoreDNS_Colour_Horizontal.png)](https://coredns.io)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "containers/aardvark-dns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "coredns/coredns"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

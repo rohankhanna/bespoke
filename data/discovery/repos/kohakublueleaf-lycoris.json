@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KohakuBlueleaf/LyCORIS",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KohakuBlueleaf/LyCORIS",
+      "target": "derrian-distro/lora_easy_training_scripts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KohakuBlueleaf/LyCORIS",
+      "target": "akegarasu/lora-scripts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KohakuBlueleaf/LyCORIS",
+      "target": "hollowstrawberry/kohya-colab",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KohakuBlueleaf/LyCORIS",
+      "target": "finetune",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KohakuBlueleaf/LyCORIS",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:28:50.450362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12776
+    },
+    {
+      "path": "requirements.txt",
+      "size": 101
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lora beYond Conventional methods, Other Rank adaptation Implementations for Stable diffusion.",
+    "fork": false,
+    "full_name": "KohakuBlueleaf/LyCORIS",
+    "html_url": "https://github.com/KohakuBlueleaf/LyCORIS",
+    "language": "Python",
+    "pushed_at": "2026-04-11T08:12:47Z",
+    "stargazers_count": 2492,
+    "topics": [
+      "finetune",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-22T02:29:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akegarasu/lora-scripts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "derrian-distro/lora_easy_training_scripts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hollowstrawberry/kohya-colab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![pypi](https://img.shields.io/pypi/v/lycoris-lora.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finetune"
+    },
+    {
+      "context_snippet": "![pypi](https://img.shields.io/pypi/v/lycoris-lora.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

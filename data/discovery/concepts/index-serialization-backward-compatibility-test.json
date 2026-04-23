@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Index serialization backward compatibility test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate-context",
+      "text": "A library for efficient similarity search and clustering of dense vectors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate-context",
+      "text": "Index serialization backward compatibility test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate",
+      "text": "Index serialization backward compatibility test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27931,
+      "status": "candidate",
+      "text": "cumulative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27931,
+      "status": "candidate",
+      "text": "safety"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27918,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27918,
+      "status": "candidate",
+      "text": "bak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27918,
+      "status": "candidate",
+      "text": "nack"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Index serialization backward compatibility test",
+  "concept_id": "index-serialization-backward-compatibility-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/index-io-backward-compatibility.yml",
+      "source_repo": "facebookresearch/faiss"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Index serialization backward compatibility test",
+      "sense_id": "index-serialization-backward-compatibility-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

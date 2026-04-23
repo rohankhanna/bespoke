@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CodeLunatic/halo-theme-simple-bootstrap",
+      "target": "bootstrap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CodeLunatic/halo-theme-simple-bootstrap",
+      "target": "halo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CodeLunatic/halo-theme-simple-bootstrap",
+      "target": "halo-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:43:00.752332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Halo\u4e3b\u9898Bootstrap\u6837\u5f0f\u00b7\u7b80\u6d01",
+    "fork": false,
+    "full_name": "CodeLunatic/halo-theme-simple-bootstrap",
+    "html_url": "https://github.com/CodeLunatic/halo-theme-simple-bootstrap",
+    "language": "FreeMarker",
+    "pushed_at": "2023-12-09T06:36:25Z",
+    "stargazers_count": 81,
+    "topics": [
+      "bootstrap",
+      "halo",
+      "halo-theme"
+    ],
+    "updated_at": "2025-10-22T05:52:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> \u611f\u8c22\u4f7f\u7528Halo Simple Bootstrap\u4e3b\u9898",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap"
+    },
+    {
+      "context_snippet": "> \u611f\u8c22\u4f7f\u7528Halo Simple Bootstrap\u4e3b\u9898",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "halo"
+    },
+    {
+      "context_snippet": "> \u611f\u8c22\u4f7f\u7528Halo Simple Bootstrap\u4e3b\u9898",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "halo-theme"
+    }
+  ]
+}

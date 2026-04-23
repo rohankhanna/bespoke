@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checklinks.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@1.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checklinks.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/superlinter.yml"
+    },
+    {
+      "component": "github/super-linter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/superlinter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unixorn/autoupdate-zgenom",
+      "target": "robbyrussell/oh-my-zsh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checklinks.yml",
+      "source_repo": "unixorn/autoupdate-zgenom",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checklinks.yml",
+      "source_repo": "unixorn/autoupdate-zgenom",
+      "target": "gaurav-nelson/github-action-markdown-link-check@1.0.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/superlinter.yml",
+      "source_repo": "unixorn/autoupdate-zgenom",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/superlinter.yml",
+      "source_repo": "unixorn/autoupdate-zgenom",
+      "target": "github/super-linter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/superlinter.yml",
+      "source_repo": "unixorn/autoupdate-zgenom",
+      "target": "Super-Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/autoupdate-zgenom",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:40:20.547176+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1166
+    },
+    {
+      "path": ".github/workflows/checklinks.yml",
+      "size": 293
+    },
+    {
+      "path": ".github/workflows/superlinter.yml",
+      "size": 674
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ZSH Plugin for updating zgenom and its plugins",
+    "fork": false,
+    "full_name": "unixorn/autoupdate-zgenom",
+    "html_url": "https://github.com/unixorn/autoupdate-zgenom",
+    "language": "Shell",
+    "pushed_at": "2021-05-13T13:48:05Z",
+    "stargazers_count": 1,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2021-09-30T20:42:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robbyrussell/oh-my-zsh",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Super-Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/superlinter.yml",
+      "term": "Super-Linter"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/github/license/unixorn/autoupdate-zgenom.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

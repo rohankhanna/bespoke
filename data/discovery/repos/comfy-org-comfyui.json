@@ -51,28 +51,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Comfy-Org/ComfyUI",
-      "target": "badges/shields",
+      "target": "comfyanonymous/comfyui",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Comfy-Org/ComfyUI",
-      "target": "comfy-org/comfyui_frontend",
+      "target": "comfy-org/desktop",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Comfy-Org/ComfyUI",
-      "target": "comfy-org/comfyui-manager",
+      "target": "madebyollin/taesd",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Comfy-Org/ComfyUI",
-      "target": "alexisrolland/docker-openssl",
+      "target": "comfy-org/comfyui_legacy_frontend",
       "target_type": "repository"
     },
     {
@@ -202,7 +202,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T05:24:41.875069+00:00",
+  "fetched_at": "2026-04-23T07:34:08.454512+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -254,8 +254,8 @@
     "full_name": "Comfy-Org/ComfyUI",
     "html_url": "https://github.com/Comfy-Org/ComfyUI",
     "language": "Python",
-    "pushed_at": "2026-04-22T05:08:25Z",
-    "stargazers_count": 109561,
+    "pushed_at": "2026-04-23T05:52:16Z",
+    "stargazers_count": 109721,
     "topics": [
       "ai",
       "comfy",
@@ -264,27 +264,27 @@
       "pytorch",
       "stable-diffusion"
     ],
-    "updated_at": "2026-04-22T04:45:05Z"
+    "updated_at": "2026-04-23T07:30:09Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alexisrolland/docker-openssl",
+      "full_name": "comfy-org/comfyui_legacy_frontend",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "badges/shields",
+      "full_name": "comfy-org/desktop",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "comfy-org/comfyui-manager",
+      "full_name": "comfyanonymous/comfyui",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "comfy-org/comfyui_frontend",
+      "full_name": "madebyollin/taesd",
       "source_file": "README.md"
     }
   ],

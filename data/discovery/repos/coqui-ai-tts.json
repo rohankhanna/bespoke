@@ -1,0 +1,647 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aux_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aux_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/data_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/data_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inference_tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inference_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style_check.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style_check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coqui-ai/TTS",
+      "target": "facebookresearch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coqui-ai/TTS",
+      "target": "erogol/tts-papers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coqui-ai/TTS",
+      "target": "neonbjb/tortoise-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coqui-ai/TTS",
+      "target": "fatchord/wavernn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aux_tests.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aux_tests.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aux_tests.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "aux-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/data_tests.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/data_tests.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/data_tests.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "data-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "docker/login-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "docker/build-push-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "Docker build and push",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inference_tests.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inference_tests.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style_check.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style_check.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style_check.yml",
+      "source_repo": "coqui-ai/TTS",
+      "target": "style-check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "glow-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "hifigan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "melgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "multi-speaker-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "speaker-encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "speaker-encodings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "tacotron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "tts-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "voice-cloning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "voice-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS",
+      "target": "voice-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:28:22.839667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17278
+    },
+    {
+      "path": "Dockerfile",
+      "size": 578
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 282
+    },
+    {
+      "path": "requirements.txt",
+      "size": 986
+    },
+    {
+      "path": ".github/workflows/aux_tests.yml",
+      "size": 1510
+    },
+    {
+      "path": ".github/workflows/data_tests.yml",
+      "size": 1537
+    },
+    {
+      "path": ".github/workflows/docker.yaml",
+      "size": 2169
+    },
+    {
+      "path": ".github/workflows/inference_tests.yml",
+      "size": 1600
+    },
+    {
+      "path": ".github/workflows/pypi-release.yml",
+      "size": 2570
+    },
+    {
+      "path": ".github/workflows/style_check.yml",
+      "size": 1251
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "dev",
+    "description": "\ud83d\udc38\ud83d\udcac - a deep learning toolkit for Text-to-Speech, battle-tested in research and production",
+    "fork": false,
+    "full_name": "coqui-ai/TTS",
+    "html_url": "https://github.com/coqui-ai/TTS",
+    "language": "Python",
+    "pushed_at": "2024-08-16T12:07:14Z",
+    "stargazers_count": 45148,
+    "topics": [
+      "deep-learning",
+      "glow-tts",
+      "hifigan",
+      "melgan",
+      "multi-speaker-tts",
+      "python",
+      "pytorch",
+      "speaker-encoder",
+      "speaker-encodings",
+      "speech",
+      "speech-synthesis",
+      "tacotron",
+      "text-to-speech",
+      "tts",
+      "tts-model",
+      "vocoder",
+      "voice-cloning",
+      "voice-conversion",
+      "voice-synthesis"
+    ],
+    "updated_at": "2026-04-23T02:20:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erogol/tts-papers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/fairseq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fatchord/wavernn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neonbjb/tortoise-tts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "aux-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aux_tests.yml",
+      "term": "aux-tests"
+    },
+    {
+      "context_snippet": "data-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/data_tests.yml",
+      "term": "data-tests"
+    },
+    {
+      "context_snippet": "\"Docker build and push\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "term": "Docker build and push"
+    },
+    {
+      "context_snippet": "style-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style_check.yml",
+      "term": "style-check"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glow-tts"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hifigan"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "melgan"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-speaker-tts"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-encoder"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-encodings"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tacotron"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tts-model"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocoder"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-cloning"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-conversion"
+    },
+    {
+      "context_snippet": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-synthesis"
+    }
+  ]
+}

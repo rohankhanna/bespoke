@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:30:51.914951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6640
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "From Big to Small: Multi-Scale Local Planar Guidance for Monocular Depth Estimation",
+    "fork": false,
+    "full_name": "cleinc/bts",
+    "html_url": "https://github.com/cleinc/bts",
+    "language": "Python",
+    "pushed_at": "2026-02-24T04:45:31Z",
+    "stargazers_count": 669,
+    "topics": [],
+    "updated_at": "2026-04-08T12:02:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "dart"
+    "dart",
+    "Dart"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -67,6 +70,66 @@
       "source_repo": "flutter/website",
       "status": "candidate-context",
       "text": "[![Flutter logo]](https://docs.flutter.dev)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate-context",
+      "text": "Web server middleware for Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/dart-lang/shelf/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/shelf/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "Emacs client/library for the Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/site-shared",
+      "status": "candidate-context",
+      "text": "Content shared across Dart websites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/site-shared",
+      "status": "candidate-context",
+      "text": "Dart"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-dart",
+      "status": "candidate-context",
+      "text": "Flutter database for super-fast Dart object persistence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sass/dart-sass",
+      "status": "candidate-context",
+      "text": "The reference implementation of Sass, written in Dart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/dart-sass",
+      "status": "candidate-context",
+      "text": "A [Dart][dart] implementation of [Sass][sass]. **Sass makes CSS fun**."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +162,36 @@
       "source_repo": "flutter/website",
       "status": "candidate",
       "text": "[![Flutter logo]](https://docs.flutter.dev)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/dart-lang/shelf/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/shelf/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/site-shared",
+      "status": "candidate",
+      "text": "Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/dart-sass",
+      "status": "candidate",
+      "text": "A [Dart][dart] implementation of [Sass][sass]. **Sass makes CSS fun**."
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +301,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "flutter/website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dart-lang/shelf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-mode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/site-shared"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sass/dart-sass"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

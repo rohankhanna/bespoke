@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "toc-generator"
+    "toc-generator",
+    "TOC Generator"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,30 @@
       "source_repo": "hukkin/mdformat-toc",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/hukkin/mdformat-toc/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/hukkin/mdformat-toc/actions?query=workflow%3ATests+branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate-context",
+      "text": "API and CLI for generating a markdown TOC (table of contents) for a README or any markdown files. Uses Remarkable to parse markdown. Used by NASA/openmct, Prisma, Joi, Mocha, Sass, Prettier, Orbit DB, FormatJS, Raneto, hapijs/code, webpack-flow, docusaurus, release-it, ts-loader, json-server, reactfire, bunyan, husky, react-easy-state, react-snap, chakra-ui, carbon, alfresco, repolinter, Assemble, Verb, and thousands of other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate-context",
+      "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/awesome-vue",
+      "status": "candidate-context",
+      "text": "\ud83c\udf89 A curated list of awesome things related to Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/awesome-vue",
+      "status": "candidate-context",
+      "text": "TOC Generator"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +54,57 @@
       "source_repo": "hukkin/mdformat-toc",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/hukkin/mdformat-toc/actions/workflows/tests.yaml/badge.svg?branch=master)](https://github.com/hukkin/mdformat-toc/actions?query=workflow%3ATests+branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate",
+      "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/awesome-vue",
+      "status": "candidate",
+      "text": "TOC Generator"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13286,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13286,
+      "status": "candidate",
+      "text": "table"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12392,
+      "status": "candidate",
+      "text": "altar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12392,
+      "status": "candidate",
+      "text": "amos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12392,
+      "status": "candidate",
+      "text": "arlen"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "toc-generator",
   "concept_id": "toc-generator",
@@ -40,11 +115,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "hukkin/mdformat-toc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/markdown-toc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "vuejs/awesome-vue"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

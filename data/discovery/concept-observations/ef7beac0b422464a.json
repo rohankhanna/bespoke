@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OpenTitan: Open source silicon root of trust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Check for and block unauthorized changes'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Check for and block unauthorized changes'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45556,
+      "status": "candidate",
+      "text": "tamper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45556,
+      "status": "candidate",
+      "text": "tampering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33586,
+      "status": "candidate",
+      "text": "balk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29086,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28919,
+      "status": "candidate",
+      "text": "crack"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check for and block unauthorized changes",
+      "sense_id": "check-for-and-block-unauthorized-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-for-and-block-unauthorized-changes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-for-and-block-unauthorized-changes",
+  "observation_id": "ef7beac0b422464a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Check for and block unauthorized changes",
+  "source_context_snippet": "'Check for and block unauthorized changes'",
+  "source_file": ".github/workflows/pr_change_check.yml",
+  "source_repo": "lowRISC/opentitan",
+  "source_repo_description": "OpenTitan: Open source silicon root of trust"
+}

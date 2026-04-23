@@ -19,12 +19,24 @@
       "source_repo": "Layr-Labs/optimism",
       "status": "candidate-context",
       "text": "Kurtosis Devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/hokulea",
+      "status": "candidate-context",
+      "text": "Kurtosis Devnet"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Layr-Labs/optimism",
+      "status": "candidate",
+      "text": "Kurtosis Devnet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/hokulea",
       "status": "candidate",
       "text": "Kurtosis Devnet"
     }
@@ -76,11 +88,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/kurtosis-devnet.yml",
       "source_repo": "Layr-Labs/optimism"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/kurtosis_devnet.yaml",
+      "source_repo": "Layr-Labs/hokulea"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

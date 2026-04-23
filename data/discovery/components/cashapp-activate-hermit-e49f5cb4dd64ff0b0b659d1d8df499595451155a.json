@@ -1,0 +1,12 @@
+{
+  "component": "cashapp/activate-hermit@e49f5cb4dd64ff0b0b659d1d8df499595451155a",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alecthomas/chroma"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/sanitizers",
+      "target": "android/ndk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/sanitizers",
+      "target": "google/kmsan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/sanitizers",
+      "target": "google/kernel-sanitizers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:43:30.816867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2759
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AddressSanitizer, ThreadSanitizer, MemorySanitizer",
+    "fork": false,
+    "full_name": "google/sanitizers",
+    "html_url": "https://github.com/google/sanitizers",
+    "language": "C",
+    "pushed_at": "2026-04-08T16:22:46Z",
+    "stargazers_count": 12361,
+    "topics": [],
+    "updated_at": "2026-04-23T03:21:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "android/ndk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/kernel-sanitizers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/kmsan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

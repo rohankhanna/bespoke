@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AGI-Arena/MARS",
+      "target": "stanford-crfm/levanter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AGI-Arena/MARS",
+      "target": "liuhong99/sophia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AGI-Arena/MARS",
+      "target": "fine-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AGI-Arena/MARS",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AGI-Arena/MARS",
+      "target": "optimization-algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AGI-Arena/MARS",
+      "target": "optimizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AGI-Arena/MARS",
+      "target": "pretraining",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:34:19.152262+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18856
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official implementation of MARS: Unleashing the Power of Variance Reduction for Training Large Models",
+    "fork": false,
+    "full_name": "AGI-Arena/MARS",
+    "html_url": "https://github.com/AGI-Arena/MARS",
+    "language": "Python",
+    "pushed_at": "2026-03-26T05:08:16Z",
+    "stargazers_count": 718,
+    "topics": [
+      "fine-tuning",
+      "large-language-models",
+      "optimization-algorithms",
+      "optimizer",
+      "pretraining"
+    ],
+    "updated_at": "2026-04-18T20:01:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuhong99/sophia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stanford-crfm/levanter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the official code for the paper [MARS: Unleashing the Power of Variance Reduction for Training Large Models](https://arxiv.org/abs/2411.10438).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fine-tuning"
+    },
+    {
+      "context_snippet": "This repository contains the official code for the paper [MARS: Unleashing the Power of Variance Reduction for Training Large Models](https://arxiv.org/abs/2411.10438).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "This repository contains the official code for the paper [MARS: Unleashing the Power of Variance Reduction for Training Large Models](https://arxiv.org/abs/2411.10438).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization-algorithms"
+    },
+    {
+      "context_snippet": "This repository contains the official code for the paper [MARS: Unleashing the Power of Variance Reduction for Training Large Models](https://arxiv.org/abs/2411.10438).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimizer"
+    },
+    {
+      "context_snippet": "This repository contains the official code for the paper [MARS: Unleashing the Power of Variance Reduction for Training Large Models](https://arxiv.org/abs/2411.10438).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretraining"
+    }
+  ]
+}

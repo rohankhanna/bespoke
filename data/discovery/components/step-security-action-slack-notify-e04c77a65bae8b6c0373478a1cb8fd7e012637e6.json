@@ -1,0 +1,17 @@
+{
+  "component": "step-security/action-slack-notify@e04c77a65bae8b6c0373478a1cb8fd7e012637e6",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/legacy-release.yaml",
+      "source_repo": "chainguard-images/images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-images/images"
+    }
+  ]
+}

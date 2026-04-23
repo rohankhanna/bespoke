@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,41 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "oras-project/distribution"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-google"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "distribution/distribution"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "boundless-xyz/steel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "docker/buildx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "docker/build-push-action"
     }
   ],
   "term": "E2E"

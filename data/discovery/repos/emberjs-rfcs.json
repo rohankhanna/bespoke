@@ -1,0 +1,329 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/advance-rfc.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-rfc-frontmatter-json.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-rfc-frontmatter-json.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-opened-new-rfc-prs.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-opened-new-rfc-prs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/newly-added-rfcs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/newly-added-rfcs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/newly-added-rfcs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/newly-added-rfcs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/open-advancement-pr.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/open-advancement-pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/open-advancement-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-opening-advancement-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emberjs/rfcs",
+      "target": "emberjs/core-notes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/advance-rfc.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-rfc-frontmatter-json.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-rfc-frontmatter-json.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-opened-new-rfc-prs.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-opened-new-rfc-prs.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "actions-ecosystem/action-add-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-opened-new-rfc-prs.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "Label newly opened RFC PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/newly-added-rfcs.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/newly-added-rfcs.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "Newly Added RFC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/open-advancement-pr.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/open-advancement-pr.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "peter-evans/create-pull-request@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/open-advancement-pr.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/open-advancement-pr.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "Reusable workflow to open advancement PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trigger-opening-advancement-pr.yml",
+      "source_repo": "emberjs/rfcs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emberjs/rfcs",
+      "target": "ember",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emberjs/rfcs",
+      "target": "ember-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emberjs/rfcs",
+      "target": "emberjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emberjs/rfcs",
+      "target": "rfc-process",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emberjs/rfcs",
+      "target": "rfcs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:38:27.165206+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25374
+    },
+    {
+      "path": ".github/workflows/advance-rfc.yml",
+      "size": 3172
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 378
+    },
+    {
+      "path": ".github/workflows/generate-rfc-frontmatter-json.yml",
+      "size": 690
+    },
+    {
+      "path": ".github/workflows/label-opened-new-rfc-prs.yml",
+      "size": 771
+    },
+    {
+      "path": ".github/workflows/newly-added-rfcs.yml",
+      "size": 5155
+    },
+    {
+      "path": ".github/workflows/open-advancement-pr.yml",
+      "size": 4532
+    },
+    {
+      "path": ".github/workflows/trigger-opening-advancement-pr.yml",
+      "size": 1477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RFCs for changes to Ember",
+    "fork": false,
+    "full_name": "emberjs/rfcs",
+    "html_url": "https://github.com/emberjs/rfcs",
+    "language": null,
+    "pushed_at": "2026-04-20T15:19:48Z",
+    "stargazers_count": 802,
+    "topics": [
+      "ember",
+      "ember-cli",
+      "emberjs",
+      "rfc",
+      "rfc-process",
+      "rfcs"
+    ],
+    "updated_at": "2026-04-13T15:10:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emberjs/core-notes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Label newly opened RFC PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-opened-new-rfc-prs.yml",
+      "term": "Label newly opened RFC PRs"
+    },
+    {
+      "context_snippet": "Newly Added RFC",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/newly-added-rfcs.yml",
+      "term": "Newly Added RFC"
+    },
+    {
+      "context_snippet": "Reusable workflow to open advancement PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/open-advancement-pr.yml",
+      "term": "Reusable workflow to open advancement PRs"
+    },
+    {
+      "context_snippet": "The RFC (\"request for comments\") process is how Ember designs and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ember"
+    },
+    {
+      "context_snippet": "The RFC (\"request for comments\") process is how Ember designs and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ember-cli"
+    },
+    {
+      "context_snippet": "The RFC (\"request for comments\") process is how Ember designs and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emberjs"
+    },
+    {
+      "context_snippet": "The RFC (\"request for comments\") process is how Ember designs and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfc-process"
+    },
+    {
+      "context_snippet": "The RFC (\"request for comments\") process is how Ember designs and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfcs"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:38:29.676884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "RFCs for changes to Yarn",
+    "fork": false,
+    "full_name": "yarnpkg/rfcs",
+    "html_url": "https://github.com/yarnpkg/rfcs",
+    "language": null,
+    "pushed_at": "2024-01-06T17:52:20Z",
+    "stargazers_count": 431,
+    "topics": [],
+    "updated_at": "2026-03-14T00:05:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

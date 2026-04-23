@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:30:33.387571+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 945
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Documents and policies regarding the Astropy Project as a whole.",
+    "fork": false,
+    "full_name": "astropy/astropy-project",
+    "html_url": "https://github.com/astropy/astropy-project",
+    "language": "TeX",
+    "pushed_at": "2026-03-31T14:11:00Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-04-20T17:42:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

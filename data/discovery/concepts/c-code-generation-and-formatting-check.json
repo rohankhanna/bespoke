@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "C Code Generation and Formatting Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/rbs",
+      "status": "candidate-context",
+      "text": "The type signature language for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate-context",
+      "text": "C Code Generation and Formatting Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate",
+      "text": "C Code Generation and Formatting Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31882,
+      "status": "candidate",
+      "text": "bushido"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31874,
+      "status": "candidate",
+      "text": "redaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31837,
+      "status": "candidate",
+      "text": "chain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31837,
+      "status": "candidate",
+      "text": "chaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31777,
+      "status": "candidate",
+      "text": "monitoring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "C Code Generation and Formatting Check",
+  "concept_id": "c-code-generation-and-formatting-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/c-check.yml",
+      "source_repo": "ruby/rbs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "C Code Generation and Formatting Check",
+      "sense_id": "c-code-generation-and-formatting-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

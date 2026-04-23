@@ -1,7 +1,7 @@
 {
   "component": "foundry-rs/foundry-toolchain@v1",
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,81 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "argotorg/hevm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wilsoncusack/safe-singleton-deployer-sol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "boundless-xyz/kailua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "boundless-xyz/kailua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-tests.yml",
+      "source_repo": "succinctlabs/op-succinct"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cycle-count-diff-celestia.yml",
+      "source_repo": "succinctlabs/op-succinct"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cycle-count-diff-eigenda.yml",
+      "source_repo": "succinctlabs/op-succinct"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cycle-count-diff.yml",
+      "source_repo": "succinctlabs/op-succinct"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-surge.yml",
+      "source_repo": "NethermindEth/nethermind"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-taiko.yml",
+      "source_repo": "NethermindEth/nethermind"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/risc0-ethereum.yml",
+      "source_repo": "risc0/risc0"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "boundless-xyz/steel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "boundless-xyz/steel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "boundless-xyz/steel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "cowprotocol/ethcontract-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades"
     }
   ]
 }

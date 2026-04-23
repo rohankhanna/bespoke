@@ -34,6 +34,18 @@
       "source_repo": "kata-containers/kata-containers",
       "status": "candidate-context",
       "text": "<img src=\"https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/kata/SVG/kata-1.svg\" width=\"900\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cri-o/packaging",
+      "status": "candidate-context",
+      "text": "CRI-O deb and rpm packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/packaging",
+      "status": "candidate-context",
+      "text": "[![Publish package](https://img.shields.io/badge/publish-package-blue?logo=task&logoColor=white)](https://github.com/cri-o/packaging/actions/workflows/obs.yml)"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "kata-containers/kata-containers",
       "status": "candidate",
       "text": "<img src=\"https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/kata/SVG/kata-1.svg\" width=\"900\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/packaging",
+      "status": "candidate",
+      "text": "[![Publish package](https://img.shields.io/badge/publish-package-blue?logo=task&logoColor=white)](https://github.com/cri-o/packaging/actions/workflows/obs.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -67,11 +85,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cri-o/packaging"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

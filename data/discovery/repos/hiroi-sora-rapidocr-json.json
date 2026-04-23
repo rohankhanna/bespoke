@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/RapidOCR-json",
+      "target": "rapidai/rapidocronnx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:29:54.590372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6832
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OCR\u79bb\u7ebf\u56fe\u7247\u6587\u5b57\u8bc6\u522b\u547d\u4ee4\u884cwindows\u7a0b\u5e8f\uff0c\u4ee5JSON\u5b57\u7b26\u4e32\u5f62\u5f0f\u8f93\u51fa\u7ed3\u679c\uff0c\u65b9\u4fbf\u522b\u7684\u7a0b\u5e8f\u8c03\u7528\u3002\u57fa\u4e8e RapidOcrOnnx \u3002",
+    "fork": false,
+    "full_name": "hiroi-sora/RapidOCR-json",
+    "html_url": "https://github.com/hiroi-sora/RapidOCR-json",
+    "language": "C++",
+    "pushed_at": "2023-12-29T02:55:00Z",
+    "stargazers_count": 335,
+    "topics": [],
+    "updated_at": "2026-04-22T00:48:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rapidai/rapidocronnx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

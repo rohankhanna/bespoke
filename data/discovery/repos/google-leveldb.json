@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/leveldb",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:45:03.312482+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10483
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3203
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LevelDB is a fast key-value storage library written at Google that provides an ordered mapping from string keys to string values.",
+    "fork": false,
+    "full_name": "google/leveldb",
+    "html_url": "https://github.com/google/leveldb",
+    "language": "C++",
+    "pushed_at": "2026-03-11T04:06:29Z",
+    "stargazers_count": 38976,
+    "topics": [],
+    "updated_at": "2026-04-22T17:10:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

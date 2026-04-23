@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/upload-sarif@181d5eefc20863364f96762470ba6f862bdef56b",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "emscripten-core/emscripten"
+    }
+  ]
+}

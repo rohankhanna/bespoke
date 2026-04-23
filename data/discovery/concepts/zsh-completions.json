@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "zsh-completions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate-context",
+      "text": "A collection of ZSH frameworks, plugins, themes and tutorials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "status": "candidate-context",
+      "text": "A simple ZSH quickstart for using ZSH, zgenom, oh-my-zsh and a curated list of extra plugins. It is designed to be easy to customize without requiring you to maintain your own fork."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "status": "candidate-context",
+      "text": "Check links in README.md"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "status": "candidate",
+      "text": "Check links in README.md"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "zsh-completions",
+  "concept_id": "zsh-completions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zsh-completions",
+      "sense_id": "zsh-completions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

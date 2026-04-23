@@ -340,6 +340,258 @@
       "source_repo": "rustsec/advisory-db",
       "status": "candidate-context",
       "text": "[![Build Status][build-image]][build-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sentinel-group/sentinel-rust",
+      "status": "candidate-context",
+      "text": "Sentinel Rust version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sentinel-group/sentinel-rust",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate-context",
+      "text": "The fuzzer afl++ is afl with community patches, qemu 5.1 upgrade, collision-free coverage, enhanced laf-intel & redqueen, AFLfast++ power schedules, MOpt mutators, unicorn_mode, and a lot more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" src=\"https://raw.githubusercontent.com/AFLplusplus/Website/main/static/aflpp_bg.svg\" alt=\"AFL++ logo\" width=\"250\" height=\"250\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/clusterfuzz",
+      "status": "candidate-context",
+      "text": "Scalable fuzzing infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/clusterfuzz",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/honggfuzz",
+      "status": "candidate-context",
+      "text": "Security oriented software fuzzer. Supports evolutionary, feedback-driven fuzzing based on code coverage (SW and HW based)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/honggfuzz",
+      "status": "candidate-context",
+      "text": "**A security-oriented, feedback-driven, evolutionary fuzzer.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boundless-xyz/kailua",
+      "status": "candidate-context",
+      "text": "The Ultimate ZK Proving Software Suite for Securing OP Rollups"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/kailua",
+      "status": "candidate-context",
+      "text": "<img width=\"100%\" src=\"https://github.com/user-attachments/assets/c71a1018-d970-49c0-af37-ba8a66d00bea\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate-context",
+      "text": "High-performance In-browser LLM Inference Engine "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate-context",
+      "text": "OWASP Juice Shop: Probably the most modern and sophisticated insecure web application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate-context",
+      "text": "[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/#sec-flagships)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "slimtoolkit/slim",
+      "status": "candidate-context",
+      "text": "Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slimtoolkit/slim",
+      "status": "candidate-context",
+      "text": "![SK](assets/images/dslim/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "Tfsec is now part of Trivy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy-action",
+      "status": "candidate-context",
+      "text": "Runs Trivy as GitHub action to scan your Docker container image for vulnerabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-action",
+      "status": "candidate-context",
+      "text": "> [GitHub Action](https://github.com/features/actions) for [Trivy](https://github.com/aquasecurity/trivy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes-native security toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-operator",
+      "status": "candidate-context",
+      "text": "![Trivy-operator logo](docs/images/trivy-operator-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate-context",
+      "text": "\u26a1 The fastest and most configurable plugin for MkDocs, allowing seamless export of individual pages and/or entire documentation as PDF documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "A curated list of awesome self-hosted GitHub Action runners in a large comparison matrix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustsec/rustsec",
+      "status": "candidate-context",
+      "text": "RustSec API & Tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustsec/rustsec",
+      "status": "candidate-context",
+      "text": "The RustSec Advisory Database is a repository of security advisories filed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/aws-lc-verification",
+      "status": "candidate-context",
+      "text": "This repository contains specifications, proof scripts, and other artifacts required to formally verify portions of AWS libcrypto. Formal verification is used to locate bugs and increase assurance of the correctness and security of the library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/aws-lc-verification",
+      "status": "candidate-context",
+      "text": "[![.github/workflows/main.yml](https://github.com/awslabs/aws-lc-verification/actions/workflows/main.yml/badge.svg)](https://github.com/awslabs/aws-lc-verification/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libressl/portable",
+      "status": "candidate-context",
+      "text": "LibreSSL Portable itself. This includes the build scaffold and compatibility layer that builds portable LibreSSL from the OpenBSD source code. Pull requests or patches sent to tech@openbsd.org are welcome."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libressl/portable",
+      "status": "candidate-context",
+      "text": "![LibreSSL image](https://www.libressl.org/images/libressl.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codetyio/codety-scanner",
+      "status": "candidate-context",
+      "text": "Codety Scanner is a comprehensive code scanner designed to detect code issues for 30+ programming languages and IaC frameworks. It embeds more than 6,000 code analysis rules and can detect code smells, vulnerable code, secrets in the code, performance issues, style violations, and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codetyio/codety-scanner",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/fuzzbench",
+      "status": "candidate-context",
+      "text": "FuzzBench - Fuzzer benchmarking as a service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/fuzzbench",
+      "status": "candidate-context",
+      "text": "FuzzBench is a free service that evaluates fuzzers on a wide variety of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/awesome-terraform-compliance",
+      "status": "candidate-context",
+      "text": "Awesome Terraform Compliance - tools, frameworks, and resources for implementing compliance, security, and governance controls in Terraform and OpenTofu infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/awesome-terraform-compliance",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "status": "candidate-context",
+      "text": "An Azure DevOps Task for tfsec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "status": "candidate-context",
+      "text": "An Azure DevOps Pipelines Task for [tfsec](https://github.com/aquasecurity/tfsec), with a bonus integrated UI."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "status": "candidate-context",
+      "text": "Language-agnostic SLSA provenance generation for Github Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "status": "candidate-context",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator/badge)](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator)"
     }
   ],
   "candidate_glosses": [
@@ -498,6 +750,132 @@
       "source_repo": "rustsec/advisory-db",
       "status": "candidate",
       "text": "[![Build Status][build-image]][build-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sentinel-group/sentinel-rust",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate",
+      "text": "<img align=\"right\" src=\"https://raw.githubusercontent.com/AFLplusplus/Website/main/static/aflpp_bg.svg\" alt=\"AFL++ logo\" width=\"250\" height=\"250\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/clusterfuzz",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/honggfuzz",
+      "status": "candidate",
+      "text": "**A security-oriented, feedback-driven, evolutionary fuzzer.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/kailua",
+      "status": "candidate",
+      "text": "<img width=\"100%\" src=\"https://github.com/user-attachments/assets/c71a1018-d970-49c0-af37-ba8a66d00bea\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate",
+      "text": "[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/#sec-flagships)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slimtoolkit/slim",
+      "status": "candidate",
+      "text": "![SK](assets/images/dslim/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-action",
+      "status": "candidate",
+      "text": "> [GitHub Action](https://github.com/features/actions) for [Trivy](https://github.com/aquasecurity/trivy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-operator",
+      "status": "candidate",
+      "text": "![Trivy-operator logo](docs/images/trivy-operator-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustsec/rustsec",
+      "status": "candidate",
+      "text": "The RustSec Advisory Database is a repository of security advisories filed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/aws-lc-verification",
+      "status": "candidate",
+      "text": "[![.github/workflows/main.yml](https://github.com/awslabs/aws-lc-verification/actions/workflows/main.yml/badge.svg)](https://github.com/awslabs/aws-lc-verification/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libressl/portable",
+      "status": "candidate",
+      "text": "![LibreSSL image](https://www.libressl.org/images/libressl.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codetyio/codety-scanner",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/fuzzbench",
+      "status": "candidate",
+      "text": "FuzzBench is a free service that evaluates fuzzers on a wide variety of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/awesome-terraform-compliance",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "status": "candidate",
+      "text": "An Azure DevOps Pipelines Task for [tfsec](https://github.com/aquasecurity/tfsec), with a bonus integrated UI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "status": "candidate",
+      "text": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator/badge)](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator)"
     }
   ],
   "candidate_related_terms": [
@@ -763,11 +1141,143 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "rustsec/advisory-db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "sentinel-group/sentinel-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AFLplusplus/AFLplusplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/clusterfuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/honggfuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "boundless-xyz/kailua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AliyunContainerService/pouch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "mlc-ai/web-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "juice-shop/juice-shop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "adrienbrignon/mkdocs-exporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonico/awesome-runners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rustsec/rustsec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "awslabs/aws-lc-verification"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "libressl/portable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "codetyio/codety-scanner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/fuzzbench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/awesome-terraform-compliance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "slsa-framework/slsa-github-generator"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

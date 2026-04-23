@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:46:10.547701+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Active fork of kien/ctrlp.vim\u2014Fuzzy file, buffer, mru, tag, etc finder.",
+    "fork": true,
+    "full_name": "ctrlpvim/ctrlp.vim",
+    "html_url": "https://github.com/ctrlpvim/ctrlp.vim",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-05T11:37:26Z",
+    "stargazers_count": 5651,
+    "topics": [],
+    "updated_at": "2026-04-22T11:58:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

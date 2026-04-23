@@ -85,6 +85,42 @@
       "source_repo": "microsoft/TypeScript-DOM-lib-generator",
       "status": "candidate-context",
       "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "status": "candidate-context",
+      "text": "An open-source registry for VS Code extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/auto-round",
+      "status": "candidate-context",
+      "text": "A SOTA quantization algorithm for high-accuracy low-bit LLM inference, seamlessly optimized for CPU/XPU/CUDA, with multi-datatype support and full compatibility with vLLM, SGLang, and Transformers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/auto-round",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "\ud83d\udc2b CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "\"CodeQL Advanced\""
     }
   ],
   "candidate_glosses": [
@@ -121,6 +157,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/TypeScript-DOM-lib-generator",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/auto-round",
+      "status": "candidate",
+      "text": "\"CodeQL Advanced\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
       "status": "candidate",
       "text": "\"CodeQL Advanced\""
     }
@@ -220,11 +274,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "microsoft/TypeScript-DOM-lib-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "intel/auto-round"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "camel-ai/camel"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

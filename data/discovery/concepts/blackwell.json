@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TensorRT-LLM",
+      "status": "candidate-context",
+      "text": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT-LLM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT-LLM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18661169,
+      "status": "candidate",
+      "text": "zalewski"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17192211,
+      "status": "candidate",
+      "text": "basil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17123113,
+      "status": "candidate",
+      "text": "pine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17002102,
+      "status": "candidate",
+      "text": "freedman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8689673,
+      "status": "candidate",
+      "text": "elsevier"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "blackwell",
   "concept_id": "blackwell",
@@ -26,12 +82,20 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": null,
       "source_repo": "vllm-project/vllm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/TensorRT-LLM"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

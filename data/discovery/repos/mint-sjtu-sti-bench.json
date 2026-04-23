@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MINT-SJTU/STI-Bench",
+      "target": "evolvinglmms-lab/easi",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:46:10.290685+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "STI-Bench : Are MLLMs Ready for Precise Spatial-Temporal World Understanding?",
+    "fork": false,
+    "full_name": "MINT-SJTU/STI-Bench",
+    "html_url": "https://github.com/MINT-SJTU/STI-Bench",
+    "language": "Python",
+    "pushed_at": "2026-01-12T14:23:56Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2026-03-03T03:22:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "evolvinglmms-lab/easi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

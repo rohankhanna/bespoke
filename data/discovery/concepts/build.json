@@ -1625,6 +1625,966 @@
       "source_repo": "electron/fiddle",
       "status": "candidate-context",
       "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luizm/asdf-shellcheck",
+      "status": "candidate-context",
+      "text": "shellcheck plugin for asdf version manager https://github.com/asdf-vm/asdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizm/asdf-shellcheck",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luizm/asdf-shfmt",
+      "status": "candidate-context",
+      "text": "shfmt plugin for asdf version manager https://github.com/asdf-vm/asdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizm/asdf-shfmt",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0ghny/asdf-gitconfig",
+      "status": "candidate-context",
+      "text": "asdf-vm plugin to manage gitconfigs cli versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/asdf-gitconfig",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0ghny/asdf-gobackup",
+      "status": "candidate-context",
+      "text": "huacnlee/gobackup plugin for asdf version manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/asdf-gobackup",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0ghny/asdf-tlsgcli",
+      "status": "candidate-context",
+      "text": "ASDF Plugin for tlsg-cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/asdf-tlsgcli",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-community/asdf-pdm",
+      "status": "candidate-context",
+      "text": "PDM plugin for the asdf version manager [maintainer=@1oglop1]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-community/asdf-pdm",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate-context",
+      "text": "Make underlay and overlay network can coexist, communicate, even be transformed purposefully."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AliyunContainerService/terway",
+      "status": "candidate-context",
+      "text": "CNI plugin for Alibaba Cloud VPC/ENI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliyunContainerService/terway",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop-view",
+      "status": "candidate-context",
+      "text": "Budgie Desktop View is the official Budgie desktop icons application / implementation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop-view",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/prophet",
+      "status": "candidate-context",
+      "text": "Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/prophet",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/fairseq",
+      "status": "candidate-context",
+      "text": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/fairseq",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "termux/termux-app",
+      "status": "candidate-context",
+      "text": "Termux - a terminal emulator application for Android OS extendible by variety of packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-app",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpv-android/mpv-android",
+      "status": "candidate-context",
+      "text": "video player for Android based on libmpv \u21a6 #mpv-android @ irc.libera.chat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpv-android/mpv-android",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpv-player/mpv",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa5 Command line media player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpv-player/mpv",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aave/protocol-v2",
+      "status": "candidate-context",
+      "text": "Aave Protocol V2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aave/protocol-v2",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web3/web3.js",
+      "status": "candidate-context",
+      "text": "Collection of comprehensive TypeScript libraries for Interaction with the Ethereum JSON RPC API and utility functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web3/web3.js",
+      "status": "candidate-context",
+      "text": "'Build'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/docker-credential-helpers",
+      "status": "candidate-context",
+      "text": "Programs to keep Docker login credentials safe by storing in platform keystores"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/docker-credential-helpers",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/backpack",
+      "status": "candidate-context",
+      "text": "\ud83c\udf92 Backpack is a minimalistic build system for Node.js projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/backpack",
+      "status": "candidate-context",
+      "text": "![backpack](https://cloud.githubusercontent.com/assets/4060187/21872211/318795e8-d835-11e6-8376-bea370605361.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate-context",
+      "text": "High-performance In-browser LLM Inference Engine "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VSCodeVim/Vim",
+      "status": "candidate-context",
+      "text": ":star: Vim for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodeVim/Vim",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/LinuxTracepoints-Net",
+      "status": "candidate-context",
+      "text": ".NET libraries for Linux Tracepoints and user_events"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/LinuxTracepoints-Net",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cimgui/cimgui",
+      "status": "candidate-context",
+      "text": "c-api for imgui (https://github.com/ocornut/imgui)    Look at: https://github.com/cimgui for other widgets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cimgui/cimgui",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imandra-ai/catapult",
+      "status": "candidate-context",
+      "text": "Tracing library for OCaml with catapult/TEF export."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imandra-ai/catapult",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry",
+      "status": "candidate-context",
+      "text": "Instrumentation for https://opentelemetry.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-Casbin.NET",
+      "status": "candidate-context",
+      "text": "An authorization library that supports access control models like ACL, RBAC, ABAC in .NET (C#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-Casbin.NET",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clux/muslrust",
+      "status": "candidate-context",
+      "text": "Docker environment for building musl based static rust binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clux/muslrust",
+      "status": "candidate-context",
+      "text": "[![nightly](https://github.com/clux/muslrust/actions/workflows/nightly.yml/badge.svg)](https://github.com/clux/muslrust/actions/workflows/nightly.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes-native security toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-operator",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint-ruleset-aws",
+      "status": "candidate-context",
+      "text": "TFLint ruleset for terraform-provider-aws"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-aws",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate-context",
+      "text": "TFLint ruleset for terraform-provider-azurerm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint-ruleset-google",
+      "status": "candidate-context",
+      "text": "TFLint ruleset for terraform-provider-google"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-google",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate-context",
+      "text": "A controller to help manage App Mesh resources for a Kubernetes cluster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wellecks/lm-evaluation-harness",
+      "status": "candidate-context",
+      "text": "A framework for few-shot evaluation of autoregressive language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wellecks/lm-evaluation-harness",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate-context",
+      "text": "A library for accelerating Transformer models on NVIDIA GPUs, including using 8-bit and 4-bit floating point (FP8 and FP4) precision on Hopper, Ada and Blackwell GPUs, to provide better performance with lower memory utilization in both training and inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate-context",
+      "text": "'Build'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OmniSharp/omnisharp-roslyn",
+      "status": "candidate-context",
+      "text": "OmniSharp server (HTTP, STDIO) based on Roslyn workspaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OmniSharp/omnisharp-roslyn",
+      "status": "candidate-context",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate-context",
+      "text": "vimspector - A multi-language debugging system for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "freebsd/atf",
+      "status": "candidate-context",
+      "text": "Libraries to write tests in C, C++ and shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freebsd/atf",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notation-core-go",
+      "status": "candidate-context",
+      "text": "Contains support for Notary Project signature envelope, and format specific implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-core-go",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notation-go",
+      "status": "candidate-context",
+      "text": "A collection of libraries for supporting sign and verify OCI artifacts. Based on Notary Project specifications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-go",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "distribution/distribution",
+      "status": "candidate-context",
+      "text": "The toolkit to pack, ship, store, and deliver container content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distribution/distribution",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate-context",
+      "text": "A library for efficient similarity search and clustering of dense vectors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cudf",
+      "status": "candidate-context",
+      "text": "cuDF - GPU DataFrame Library "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cudf",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cugraph",
+      "status": "candidate-context",
+      "text": "cuGraph - RAPIDS Graph Analytics Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cugraph",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/rmm",
+      "status": "candidate-context",
+      "text": "RAPIDS Memory Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/rmm",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/dart_cid",
+      "status": "candidate-context",
+      "text": "\u2744\ufe0f dart-lang implementation of cid (\"content id\") = human-friendly (readable/typeable) unique ID for distributed/decentralised systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/dart_cid",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/ipld",
+      "status": "candidate-context",
+      "text": "This repo holds Website and Specs at https://ipld.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/ipld",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/dart_multihash",
+      "status": "candidate-context",
+      "text": "A dart-lang implementation of the Multihash protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/dart_multihash",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "escherba/python-cityhash",
+      "status": "candidate-context",
+      "text": "Python bindings for FarmHash and CityHash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "escherba/python-cityhash",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "escherba/python-metrohash",
+      "status": "candidate-context",
+      "text": "Python bindings for MetroHash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "escherba/python-metrohash",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ifduyue/python-xxhash",
+      "status": "candidate-context",
+      "text": "Python Binding for xxHash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ifduyue/python-xxhash",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lahma/test262-harness-dotnet",
+      "status": "candidate-context",
+      "text": "A .NET version of test262 ECMAScript test harness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lahma/test262-harness-dotnet",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/dify-self-hosted-on-aws",
+      "status": "candidate-context",
+      "text": "Self-host Dify on AWS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/dify-self-hosted-on-aws",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "status": "candidate-context",
+      "text": "A tool to convert images from one lens type to another."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitsuba-renderer/nanogui",
+      "status": "candidate-context",
+      "text": "Minimalistic C++/Python GUI library for OpenGL, GLES2/3, Metal, and WebAssembly/WebGL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuba-renderer/nanogui",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/pytorch.github.io",
+      "status": "candidate-context",
+      "text": "The website for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/pytorch.github.io",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morrys/wora",
+      "status": "candidate-context",
+      "text": "Write Once, Render Anywhere. typescript libraries: cache-persist, apollo-offline, relay-offline, offline-first, apollo-cache, relay-store, netinfo, detect-network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/wora",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/abaplint-sci-server",
+      "status": "candidate-context",
+      "text": "Node backend application for running abaplint on ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint-sci-server",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate-context",
+      "text": ":fire: Seata is an easy-to-use, high-performance, open source distributed transaction solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate-context",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinmayer/virtualfish",
+      "status": "candidate-context",
+      "text": "Fish shell tool for managing Python virtual environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmayer/virtualfish",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "netblue30/firejail",
+      "status": "candidate-context",
+      "text": "Linux namespaces and seccomp-bpf sandbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netblue30/firejail",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuaLS/lua-language-server",
+      "status": "candidate-context",
+      "text": "A language server that offers Lua language support - programmed in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/lua-language-server",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strukturag/libheif",
+      "status": "candidate-context",
+      "text": "libheif is an HEIF and AVIF file format decoder and encoder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strukturag/libheif",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate-context",
+      "text": "Simple and productive Web Development Tools in the Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate-context",
+      "text": "Ethereum L1 Protocol Stack and EVM in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/buildx",
+      "status": "candidate-context",
+      "text": "Docker CLI plugin for extended build capabilities with BuildKit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/buildx",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WICG/import-maps",
+      "status": "candidate-context",
+      "text": "Former home of import maps (now merged into HTML)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WICG/import-maps",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EclipseFdn/open-vsx.org",
+      "status": "candidate-context",
+      "text": "Source of open-vsx.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EclipseFdn/open-vsx.org",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dsxmachina/rfm",
+      "status": "candidate-context",
+      "text": "rust-file-manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dsxmachina/rfm",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aseprite/aseprite",
+      "status": "candidate-context",
+      "text": "Animated sprite editor & pixel art tool (Windows, macOS, Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/aseprite",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "Modern C++ Terminal Emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "status": "candidate-context",
+      "text": "Kotlin bindings for Dear ImGui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidkarlsen/flyway-operator",
+      "status": "candidate-context",
+      "text": "k8s operator for Flyway migrations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidkarlsen/flyway-operator",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/alloy",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Collector distribution with programmable pipelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/alloy",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djkoloski/rust_serialization_benchmark",
+      "status": "candidate-context",
+      "text": "Benchmarks for rust serialization frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djkoloski/rust_serialization_benchmark",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajv-validator/ajv",
+      "status": "candidate-context",
+      "text": "The fastest JSON schema Validator. Supports JSON Schema draft-04/06/07/2019-09/2020-12 and JSON Type Definition (RFC8927)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tfsec/tfsec-example-project",
+      "status": "candidate-context",
+      "text": "A test project with known bad terraform to run tfsec against"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tfsec/tfsec-example-project",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "status": "candidate-context",
+      "text": "VPC CNI plugins for Amazon ECS and EKS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "status": "candidate-context",
+      "text": "apiserver-builder-alpha implements libraries and tools to quickly and easily build Kubernetes apiservers/controllers to support custom resource types based on APIServer Aggregation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "status": "candidate-context",
+      "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3Hren/msgpack-rust",
+      "status": "candidate-context",
+      "text": "MessagePack implementation for Rust / msgpack.org[Rust]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3Hren/msgpack-rust",
+      "status": "candidate-context",
+      "text": "Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "powturbo/TurboBench",
+      "status": "candidate-context",
+      "text": "Compression Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/TurboBench",
+      "status": "candidate-context",
+      "text": "build"
     }
   ],
   "candidate_glosses": [
@@ -2443,6 +3403,486 @@
       "source_repo": "electron/fiddle",
       "status": "candidate",
       "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizm/asdf-shellcheck",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizm/asdf-shfmt",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/asdf-gitconfig",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/asdf-gobackup",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/asdf-tlsgcli",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-community/asdf-pdm",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliyunContainerService/terway",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop-view",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/prophet",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/fairseq",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-app",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpv-android/mpv-android",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpv-player/mpv",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aave/protocol-v2",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web3/web3.js",
+      "status": "candidate",
+      "text": "'Build'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/docker-credential-helpers",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/backpack",
+      "status": "candidate",
+      "text": "![backpack](https://cloud.githubusercontent.com/assets/4060187/21872211/318795e8-d835-11e6-8376-bea370605361.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodeVim/Vim",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/LinuxTracepoints-Net",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cimgui/cimgui",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imandra-ai/catapult",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-Casbin.NET",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clux/muslrust",
+      "status": "candidate",
+      "text": "[![nightly](https://github.com/clux/muslrust/actions/workflows/nightly.yml/badge.svg)](https://github.com/clux/muslrust/actions/workflows/nightly.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-operator",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-aws",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-google",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wellecks/lm-evaluation-harness",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate",
+      "text": "'Build'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OmniSharp/omnisharp-roslyn",
+      "status": "candidate",
+      "text": "\"Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "freebsd/atf",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-core-go",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-go",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distribution/distribution",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cudf",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cugraph",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/rmm",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/dart_cid",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/ipld",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/dart_multihash",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "escherba/python-cityhash",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "escherba/python-metrohash",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ifduyue/python-xxhash",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lahma/test262-harness-dotnet",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/dify-self-hosted-on-aws",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuba-renderer/nanogui",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/pytorch.github.io",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/wora",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint-sci-server",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate",
+      "text": "\"build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmayer/virtualfish",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netblue30/firejail",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/lua-language-server",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strukturag/libheif",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/buildx",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WICG/import-maps",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EclipseFdn/open-vsx.org",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dsxmachina/rfm",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/aseprite",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidkarlsen/flyway-operator",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/alloy",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djkoloski/rust_serialization_benchmark",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajv-validator/ajv",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tfsec/tfsec-example-project",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3Hren/msgpack-rust",
+      "status": "candidate",
+      "text": "Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/TurboBench",
+      "status": "candidate",
+      "text": "build"
     }
   ],
   "candidate_related_terms": [
@@ -3445,11 +4885,527 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "electron/fiddle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "luizm/asdf-shellcheck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "luizm/asdf-shfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0ghny/asdf-gitconfig"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0ghny/asdf-gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0ghny/asdf-tlsgcli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "asdf-community/asdf-pdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "alibaba/hybridnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "AliyunContainerService/terway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop-view"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/prophet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/debug_build.yml",
+      "source_repo": "termux/termux-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mpv-android/mpv-android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mpv-player/mpv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "aave/protocol-v2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "docker/docker-credential-helpers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "mlc-ai/web-llm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "VSCodeVim/Vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/LinuxTracepoints-Net"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cimgui/cimgui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "imandra-ai/catapult"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/default.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "clux/muslrust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aquasecurity/trivy-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-google"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "wellecks/lm-evaluation-harness"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "NVIDIA/TransformerEngine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "OmniSharp/omnisharp-roslyn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "puremourning/vimspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "freebsd/atf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "notaryproject/notation-core-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "notaryproject/notation-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "distribution/distribution"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "facebookresearch/faiss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/cudf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/cugraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "rapidsai/rmm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "renovatebot/renovate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/dart_cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ipld/ipld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/dart_multihash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "escherba/python-cityhash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "escherba/python-metrohash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ifduyue/python-xxhash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "lahma/test262-harness-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws-samples/dify-self-hosted-on-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "IDLabMedia/image-lens-reproject"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mitsuba-renderer/nanogui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "pytorch/pytorch.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "morrys/wora"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "abaplint/abaplint-sci-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "apache/incubator-seata"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "justinmayer/virtualfish"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "netblue30/firejail"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "LuaLS/lua-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "strukturag/libheif"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "docker/buildx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "WICG/import-maps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "EclipseFdn/open-vsx.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dsxmachina/rfm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aseprite/aseprite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "contour-terminal/contour"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dominaezzz/kotlin-imgui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "davidkarlsen/flyway-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grafana/alloy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "djkoloski/rust_serialization_benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/aqua_build_security.yml",
+      "source_repo": "tfsec/tfsec-example-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aws/amazon-vpc-cni-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "3Hren/msgpack-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "powturbo/TurboBench"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

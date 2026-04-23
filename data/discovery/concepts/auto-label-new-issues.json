@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Auto-label New Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "status": "candidate-context",
+      "text": "A clean, modular SDK for building AI agents with OpenHands V1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "status": "candidate-context",
+      "text": "Auto-label New Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "status": "candidate",
+      "text": "Auto-label New Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48565,
+      "status": "candidate",
+      "text": "challenges"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48565,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48565,
+      "status": "candidate",
+      "text": "problems"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48565,
+      "status": "candidate",
+      "text": "questions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28965,
+      "status": "candidate",
+      "text": "retrial"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Auto-label New Issues",
+  "concept_id": "auto-label-new-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/auto-label-issues.yml",
+      "source_repo": "OpenHands/software-agent-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-label New Issues",
+      "sense_id": "auto-label-new-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

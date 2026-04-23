@@ -1,0 +1,78 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-ent",
+      "target": "entgo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-ent",
+      "target": "generate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-ent",
+      "target": "protobuf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:40:01.775911+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1173
+    },
+    {
+      "path": "go.mod",
+      "size": 1190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Protocol buffer generate ent. No handwritten schema required, they will be generated.",
+    "fork": false,
+    "full_name": "go-woo/protoc-gen-ent",
+    "html_url": "https://github.com/go-woo/protoc-gen-ent",
+    "language": "Go",
+    "pushed_at": "2022-08-19T11:42:57Z",
+    "stargazers_count": 5,
+    "topics": [
+      "ent",
+      "entgo",
+      "generate",
+      "orm",
+      "protobuf"
+    ],
+    "updated_at": "2024-08-27T17:37:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The `protoc-gen-ent` can generate [ent](https://github.com/ent/ent)'s schemas.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "entgo"
+    },
+    {
+      "context_snippet": "The `protoc-gen-ent` can generate [ent](https://github.com/ent/ent)'s schemas.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generate"
+    },
+    {
+      "context_snippet": "The `protoc-gen-ent` can generate [ent](https://github.com/ent/ent)'s schemas.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    }
+  ]
+}

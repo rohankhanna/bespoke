@@ -31,6 +31,42 @@
       "source_repo": "alibaba/Sentinel",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate-context",
+      "text": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "status": "candidate-context",
+      "text": "Tongyi Deep Research, the Leading Open-source Deep Research Agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-context-support",
+      "status": "candidate-context",
+      "text": "An internal support project for spring-context in Alibaba "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-context-support",
+      "status": "candidate-context",
+      "text": "====================="
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "alibaba/Sentinel",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-context-support",
+      "status": "candidate",
+      "text": "====================="
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +154,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "alibaba/Sentinel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/spring-context-support"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

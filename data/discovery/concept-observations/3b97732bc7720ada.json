@@ -84,7 +84,7 @@
   "normalized_form": "issue-responder",
   "observation_id": "3b97732bc7720ada",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "Issue Responder",
   "source_context_snippet": "Issue Responder",
   "source_file": ".github/workflows/issue-response.yml",

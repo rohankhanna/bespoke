@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "28mm/blast-radius",
+      "target": "virtuald/pyhcl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "28mm/blast-radius",
+      "target": "diagram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "28mm/blast-radius",
+      "target": "graphviz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "28mm/blast-radius",
+      "target": "interactive-visualizations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "28mm/blast-radius",
+      "target": "terraform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:43:05.955590+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5706
+    },
+    {
+      "path": "Dockerfile",
+      "size": 495
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Interactive visualizations of Terraform dependency graphs using d3.js",
+    "fork": false,
+    "full_name": "28mm/blast-radius",
+    "html_url": "https://github.com/28mm/blast-radius",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-14T12:38:03Z",
+    "stargazers_count": 2187,
+    "topics": [
+      "diagram",
+      "graphviz",
+      "interactive-visualizations",
+      "terraform"
+    ],
+    "updated_at": "2026-04-23T05:20:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "virtuald/pyhcl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/28mm/blast-radius/tree/master.svg?style=svg)](https://circleci.com/gh/28mm/blast-radius/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diagram"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/28mm/blast-radius/tree/master.svg?style=svg)](https://circleci.com/gh/28mm/blast-radius/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphviz"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/28mm/blast-radius/tree/master.svg?style=svg)](https://circleci.com/gh/28mm/blast-radius/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive-visualizations"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/28mm/blast-radius/tree/master.svg?style=svg)](https://circleci.com/gh/28mm/blast-radius/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    }
+  ]
+}

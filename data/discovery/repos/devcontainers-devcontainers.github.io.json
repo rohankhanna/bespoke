@@ -1,0 +1,189 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "karancode/yamllint-github-action@v2.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/configure-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/jekyll-build-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "target": "devcontainers/containers.dev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "target": "devcontainers/templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "target": "karancode/yamllint-github-action@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "target": "actions/configure-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "target": "actions/jekyll-build-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "target": "Publish to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "target": "devcontainers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:29:22.490862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2322
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 641
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": "Web content for the development containers specification.",
+    "fork": false,
+    "full_name": "devcontainers/devcontainers.github.io",
+    "html_url": "https://github.com/devcontainers/devcontainers.github.io",
+    "language": "HTML",
+    "pushed_at": "2026-04-14T11:55:23Z",
+    "stargazers_count": 191,
+    "topics": [
+      "containers",
+      "devcontainers"
+    ],
+    "updated_at": "2026-04-16T16:26:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devcontainers/containers.dev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devcontainers/templates",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to GitHub Pages"
+    },
+    {
+      "context_snippet": "This repo holds the website for the [Development Containers Specification](https://github.com/devcontainers/spec).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "This repo holds the website for the [Development Containers Specification](https://github.com/devcontainers/spec).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devcontainers"
+    }
+  ]
+}

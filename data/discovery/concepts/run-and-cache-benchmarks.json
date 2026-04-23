@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run and Cache Benchmarks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diesel-rs/diesel",
+      "status": "candidate-context",
+      "text": "A safe, extensible ORM and Query Builder for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diesel-rs/diesel",
+      "status": "candidate-context",
+      "text": "Run and Cache Benchmarks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diesel-rs/diesel",
+      "status": "candidate",
+      "text": "Run and Cache Benchmarks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24607,
+      "status": "candidate",
+      "text": "tenement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24546,
+      "status": "candidate",
+      "text": "shabby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24486,
+      "status": "candidate",
+      "text": "clandestine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24486,
+      "status": "candidate",
+      "text": "cloak-and-dagger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24486,
+      "status": "candidate",
+      "text": "hugger-mugger"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run and Cache Benchmarks",
+  "concept_id": "run-and-cache-benchmarks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/run_benches.yml",
+      "source_repo": "diesel-rs/diesel"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run and Cache Benchmarks",
+      "sense_id": "run-and-cache-benchmarks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

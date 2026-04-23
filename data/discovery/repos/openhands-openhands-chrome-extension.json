@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:42:56.600044+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "OpenHands/openhands-chrome-extension",
+    "html_url": "https://github.com/OpenHands/openhands-chrome-extension",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-07T07:02:50Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-04-17T23:04:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

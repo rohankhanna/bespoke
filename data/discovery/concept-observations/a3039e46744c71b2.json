@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Temporary file library for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Redox CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Redox CI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4540,
+      "status": "candidate",
+      "text": "oxidation-reduction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4464,
+      "status": "candidate",
+      "text": "disproportionation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4464,
+      "status": "candidate",
+      "text": "polarography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4387,
+      "status": "candidate",
+      "text": "activating"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Redox CI",
+      "sense_id": "redox-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "redox-ci",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "redox-ci",
+  "observation_id": "a3039e46744c71b2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Redox CI",
+  "source_context_snippet": "Redox CI",
+  "source_file": ".github/workflows/redox.yml",
+  "source_repo": "Stebalien/tempfile",
+  "source_repo_description": "Temporary file library for rust"
+}

@@ -139,6 +139,102 @@
       "source_repo": "steren/awesome-cloud-run",
       "status": "candidate-context",
       "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate-context",
+      "text": "A collection of ZSH frameworks, plugins, themes and tutorials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "Documenting the explosion of packages in the standard ecosystem!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "A curated list of awesome self-hosted GitHub Action runners in a large comparison matrix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate-context",
+      "text": "\ud83d\ude0e A curated list of awesome GitHub Profile which updates in real time "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Awesome GitHub Profile README"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badges/awesome-badges",
+      "status": "candidate-context",
+      "text": "A curated collection of awesome things related to status badges"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badges/awesome-badges",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome#readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate-context",
+      "text": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/awesome-terraform-compliance",
+      "status": "candidate-context",
+      "text": "Awesome Terraform Compliance - tools, frameworks, and resources for implementing compliance, security, and governance controls in Terraform and OpenTofu infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/awesome-terraform-compliance",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/awesome",
+      "status": "candidate-context",
+      "text": "An open list of awesome Level modules and resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/awesome",
+      "status": "candidate-context",
+      "text": "**An open list of awesome [Level][level-org] modules and resources. [Add yours!](#contributing)**"
     }
   ],
   "candidate_glosses": [
@@ -201,6 +297,54 @@
       "source_repo": "steren/awesome-cloud-run",
       "status": "candidate",
       "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Awesome GitHub Profile README"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badges/awesome-badges",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome#readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate",
+      "text": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/awesome-terraform-compliance",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/awesome",
+      "status": "candidate",
+      "text": "**An open list of awesome [Level][level-org] modules and resources. [Add yours!](#contributing)**"
     }
   ],
   "candidate_related_terms": [],
@@ -298,11 +442,65 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/awesome-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonico/awesome-runners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "badges/awesome-badges"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "analysis-tools-dev/static-analysis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/awesome-terraform-compliance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/awesome"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

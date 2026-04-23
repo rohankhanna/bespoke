@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgSPARSE/dgSPARSE-Lib",
+      "target": "sparse-matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dgSPARSE/dgSPARSE-Lib",
+      "target": "spconv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:48:57.218349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch-Based Fast and Efficient Processing for Various Machine Learning Applications with Diverse Sparsity",
+    "fork": false,
+    "full_name": "dgSPARSE/dgSPARSE-Lib",
+    "html_url": "https://github.com/dgSPARSE/dgSPARSE-Lib",
+    "language": "Cuda",
+    "pushed_at": "2026-04-13T18:10:10Z",
+    "stargazers_count": 121,
+    "topics": [
+      "gnn",
+      "sparse-matrix",
+      "spconv"
+    ],
+    "updated_at": "2026-03-03T17:43:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparse-matrix"
+    },
+    {
+      "context_snippet": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spconv"
+    }
+  ]
+}

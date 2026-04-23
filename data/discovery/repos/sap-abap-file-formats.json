@@ -1,0 +1,336 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abap-doc-casing.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abap-doc-casing.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editorconfig.yml"
+    },
+    {
+      "component": "editorconfig-checker/action-editorconfig-checker@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editorconfig.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-not-delted.yml"
+    },
+    {
+      "component": "step-security/changed-files@v45.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-not-delted.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/json-compatibility.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/json-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml"
+    },
+    {
+      "component": "umbrelladocs/action-linkspector@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-validation.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-validation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abap-doc-casing.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abap-doc-casing.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abap-doc-casing.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "ABAP Doc Casing Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aff-review-reminder.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "AFF Review Process Reminder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "editorconfig-checker/action-editorconfig-checker@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "EditorConfig",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-not-delted.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/example-not-delted.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "step-security/changed-files@v45.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example-not-delted.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "Don't delete examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/json-compatibility.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/json-compatibility.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/json-compatibility.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "Compatibility Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "umbrelladocs/action-linkspector@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-validation.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/py-validation.yml",
+      "source_repo": "SAP/abap-file-formats",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SAP/abap-file-formats",
+      "target": "abap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SAP/abap-file-formats",
+      "target": "abap-file-formats",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:32:57.581302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3703
+    },
+    {
+      "path": ".github/workflows/abap-doc-casing.yml",
+      "size": 7826
+    },
+    {
+      "path": ".github/workflows/aff-review-reminder.yml",
+      "size": 1350
+    },
+    {
+      "path": ".github/workflows/editorconfig.yml",
+      "size": 767
+    },
+    {
+      "path": ".github/workflows/example-not-delted.yml",
+      "size": 660
+    },
+    {
+      "path": ".github/workflows/generate.yml",
+      "size": 596
+    },
+    {
+      "path": ".github/workflows/json-compatibility.yml",
+      "size": 366
+    },
+    {
+      "path": ".github/workflows/markdown-link-check.yml",
+      "size": 401
+    },
+    {
+      "path": ".github/workflows/py-validation.yml",
+      "size": 601
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "File formats that define and specify the file representation for ABAP development objects",
+    "fork": false,
+    "full_name": "SAP/abap-file-formats",
+    "html_url": "https://github.com/SAP/abap-file-formats",
+    "language": "ABAP",
+    "pushed_at": "2026-04-23T02:35:38Z",
+    "stargazers_count": 91,
+    "topics": [
+      "abap",
+      "abap-file-formats"
+    ],
+    "updated_at": "2026-04-21T12:17:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ABAP Doc Casing Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abap-doc-casing.yml",
+      "term": "ABAP Doc Casing Check"
+    },
+    {
+      "context_snippet": "AFF Review Process Reminder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aff-review-reminder.yml",
+      "term": "AFF Review Process Reminder"
+    },
+    {
+      "context_snippet": "EditorConfig",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "term": "EditorConfig"
+    },
+    {
+      "context_snippet": "Don't delete examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/example-not-delted.yml",
+      "term": "Don't delete examples"
+    },
+    {
+      "context_snippet": "Compatibility Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/json-compatibility.yml",
+      "term": "Compatibility Check"
+    },
+    {
+      "context_snippet": "<!-- markdown-link-check-disable-next-line -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap"
+    },
+    {
+      "context_snippet": "<!-- markdown-link-check-disable-next-line -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap-file-formats"
+    }
+  ]
+}

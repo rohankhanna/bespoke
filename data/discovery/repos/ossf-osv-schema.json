@@ -1,0 +1,273 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "dsanders11/json-schema-validate-action@79b2d95a446a0d786f7f244ae7764f8370ff3657",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospsSecurityAssesssment.yml"
+    },
+    {
+      "component": "revanite-io/osps-baseline-action@99e372da63a5587fad5ef9a1a3c6e465f7e9fc03",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospsSecurityAssesssment.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospsSecurityAssesssment.yml"
+    },
+    {
+      "component": "google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osv-scanner-unified-action.yml"
+    },
+    {
+      "component": "google/osv-scanner-action/.github/workflows/osv-scanner-reusable-pr.yml@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osv-scanner-unified-action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ossf/osv-schema",
+      "target": "almalinux/osv-database",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ossf/osv-schema",
+      "target": "bell-sw/osv-database",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ossf/osv-schema",
+      "target": "bitnami/vulndb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ossf/osv-schema",
+      "target": "canonical/ubuntu-security-notices",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ossf/osv-schema",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ossf/osv-schema",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ossf/osv-schema",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ossf/osv-schema",
+      "target": "dsanders11/json-schema-validate-action@79b2d95a446a0d786f7f244ae7764f8370ff3657",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ossf/osv-schema",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospsSecurityAssesssment.yml",
+      "source_repo": "ossf/osv-schema",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospsSecurityAssesssment.yml",
+      "source_repo": "ossf/osv-schema",
+      "target": "revanite-io/osps-baseline-action@99e372da63a5587fad5ef9a1a3c6e465f7e9fc03",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ospsSecurityAssesssment.yml",
+      "source_repo": "ossf/osv-schema",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ospsSecurityAssesssment.yml",
+      "source_repo": "ossf/osv-schema",
+      "target": "OSPS Security Assessment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osv-scanner-unified-action.yml",
+      "source_repo": "ossf/osv-schema",
+      "target": "google/osv-scanner-action/.github/workflows/osv-scanner-reusable.yml@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/osv-scanner-unified-action.yml",
+      "source_repo": "ossf/osv-schema",
+      "target": "google/osv-scanner-action/.github/workflows/osv-scanner-reusable-pr.yml@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/osv-scanner-unified-action.yml",
+      "source_repo": "ossf/osv-schema",
+      "target": "OSV-Scanner Scheduled Scan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:39:46.680541+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5490
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 4107
+    },
+    {
+      "path": ".github/workflows/ospsSecurityAssesssment.yml",
+      "size": 1114
+    },
+    {
+      "path": ".github/workflows/osv-scanner-unified-action.yml",
+      "size": 2086
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open Source Vulnerability schema. ",
+    "fork": false,
+    "full_name": "ossf/osv-schema",
+    "html_url": "https://github.com/ossf/osv-schema",
+    "language": "Go",
+    "pushed_at": "2026-04-23T05:54:51Z",
+    "stargazers_count": 245,
+    "topics": [],
+    "updated_at": "2026-04-23T05:54:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "almalinux/osv-database",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bell-sw/osv-database",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitnami/vulndb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "canonical/ubuntu-security-notices",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Checks"
+    },
+    {
+      "context_snippet": "OSPS Security Assessment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ospsSecurityAssesssment.yml",
+      "term": "OSPS Security Assessment"
+    },
+    {
+      "context_snippet": "OSV-Scanner Scheduled Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/osv-scanner-unified-action.yml",
+      "term": "OSV-Scanner Scheduled Scan"
+    }
+  ]
+}

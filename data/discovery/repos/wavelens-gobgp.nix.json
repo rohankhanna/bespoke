@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "component": "DeterminateSystems/nix-installer-action@c5a866b6ab867e88becbed4467b93592bce69f8a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "DeterminateSystems/magic-nix-cache-action@565684385bcd71bad329742eefe8d12f2e765b39",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@c5a866b6ab867e88becbed4467b93592bce69f8a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "DeterminateSystems/magic-nix-cache-action@565684385bcd71bad329742eefe8d12f2e765b39",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@c5a866b6ab867e88becbed4467b93592bce69f8a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "DeterminateSystems/magic-nix-cache-action@565684385bcd71bad329742eefe8d12f2e765b39",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml"
+    },
+    {
+      "component": "cachix/install-nix-action@v30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml"
+    },
+    {
+      "component": "DeterminateSystems/magic-nix-cache-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml"
+    },
+    {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yaml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@c5a866b6ab867e88becbed4467b93592bce69f8a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "wavelens/gobgp.nix",
+      "target": "DeterminateSystems/nix-installer-action@c5a866b6ab867e88becbed4467b93592bce69f8a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "wavelens/gobgp.nix",
+      "target": "DeterminateSystems/magic-nix-cache-action@565684385bcd71bad329742eefe8d12f2e765b39",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "wavelens/gobgp.nix",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "wavelens/gobgp.nix",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "wavelens/gobgp.nix",
+      "target": "cachix/install-nix-action@v30",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "wavelens/gobgp.nix",
+      "target": "DeterminateSystems/magic-nix-cache-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "wavelens/gobgp.nix",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "wavelens/gobgp.nix",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "wavelens/gobgp.nix",
+      "target": "github pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yaml",
+      "source_repo": "wavelens/gobgp.nix",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yaml",
+      "source_repo": "wavelens/gobgp.nix",
+      "target": "DeterminateSystems/nix-installer-action@c5a866b6ab867e88becbed4467b93592bce69f8a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yaml",
+      "source_repo": "wavelens/gobgp.nix",
+      "target": "Update Flake",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:44:05.048017+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 878
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 2394
+    },
+    {
+      "path": ".github/workflows/gh-pages.yaml",
+      "size": 1036
+    },
+    {
+      "path": ".github/workflows/update.yaml",
+      "size": 1284
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GoBGP Nix Module",
+    "fork": false,
+    "full_name": "wavelens/gobgp.nix",
+    "html_url": "https://github.com/wavelens/gobgp.nix",
+    "language": "Nix",
+    "pushed_at": "2026-04-21T05:52:59Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-03-19T12:06:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"github pages\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "term": "github pages"
+    },
+    {
+      "context_snippet": "Update Flake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yaml",
+      "term": "Update Flake"
+    }
+  ]
+}

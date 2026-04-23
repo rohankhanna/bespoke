@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:30:14.138648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6506
+    },
+    {
+      "path": "go.mod",
+      "size": 260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "CRFS: Container Registry Filesystem",
+    "fork": false,
+    "full_name": "google/crfs",
+    "html_url": "https://github.com/google/crfs",
+    "language": "Go",
+    "pushed_at": "2024-10-09T18:52:42Z",
+    "stargazers_count": 1404,
+    "topics": [],
+    "updated_at": "2026-03-23T23:42:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

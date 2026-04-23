@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Blender addon to configure and render light fields"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat\" /> <img src=\"https://img.shields.io/badge/compatible-3.0+-orange?logo=blender&style=flat\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat\" /> <img src=\"https://img.shields.io/badge/compatible-3.0+-orange?logo=blender&style=flat\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050359,
+      "status": "candidate",
+      "text": "liquidizer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29934588,
+      "status": "candidate",
+      "text": "switcher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29898666,
+      "status": "candidate",
+      "text": "divider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29892728,
+      "status": "candidate",
+      "text": "mix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29891906,
+      "status": "candidate",
+      "text": "mixture"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blender",
+      "sense_id": "blender#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18,
+      "status": "candidate",
+      "text": "liquidizer"
+    }
+  ],
+  "concept_id": "blender",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blender",
+  "observation_id": "cca38b79cd9504b6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "blender",
+  "source_context_snippet": "<img src=\"https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat\" /> <img src=\"https://img.shields.io/badge/compatible-3.0+-orange?logo=blender&style=flat\" />",
+  "source_file": null,
+  "source_repo": "IDLabMedia/blender-lightfield-addon",
+  "source_repo_description": "Blender addon to configure and render light fields"
+}

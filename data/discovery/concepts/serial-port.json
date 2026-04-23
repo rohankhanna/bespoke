@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "serial-port"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wezterm/wezterm",
+      "status": "candidate-context",
+      "text": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wezterm/wezterm",
+      "status": "candidate-context",
+      "text": "<img height=\"128\" alt=\"WezTerm Icon\" src=\"https://raw.githubusercontent.com/wezterm/wezterm/main/assets/icon/wezterm-icon.svg\" align=\"left\"> *A GPU-accelerated cross-platform terminal emulator and multiplexer written by <a href=\"https://github.com/wez\">@wez</a> and implemented i\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wezterm/wezterm",
+      "status": "candidate",
+      "text": "<img height=\"128\" alt=\"WezTerm Icon\" src=\"https://raw.githubusercontent.com/wezterm/wezterm/main/assets/icon/wezterm-icon.svg\" align=\"left\"> *A GPU-accelerated cross-platform terminal emulator and multiplexer written by <a href=\"https://github.com/wez\">@wez</a> and implemented i\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "serial-port",
+  "concept_id": "serial-port",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "wezterm/wezterm"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serial-port",
+      "sense_id": "serial-port#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

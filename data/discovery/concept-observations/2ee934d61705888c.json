@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Maven Mojo Plug-In to generate reports based on the SpotBugs Analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Coveralls"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Coveralls"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29901265,
+      "status": "candidate",
+      "text": "overalls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29900805,
+      "status": "candidate",
+      "text": "combinations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29787503,
+      "status": "candidate",
+      "text": "mix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19901362,
+      "status": "candidate",
+      "text": "compounds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19901362,
+      "status": "candidate",
+      "text": "mixes"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Coveralls",
+      "sense_id": "coveralls#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "coveralls",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "coveralls",
+  "observation_id": "2ee934d61705888c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Coveralls",
+  "source_context_snippet": "Coveralls",
+  "source_file": ".github/workflows/coveralls.yaml",
+  "source_repo": "spotbugs/spotbugs-maven-plugin",
+  "source_repo_description": "Maven Mojo Plug-In to generate reports based on the SpotBugs Analyzer"
+}

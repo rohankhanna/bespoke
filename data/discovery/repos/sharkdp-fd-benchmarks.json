@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sharkdp/fd-benchmarks",
+      "target": "sharkdp/hyperfine",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:40.206661+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Benchmarks for 'fd'",
+    "fork": false,
+    "full_name": "sharkdp/fd-benchmarks",
+    "html_url": "https://github.com/sharkdp/fd-benchmarks",
+    "language": "Shell",
+    "pushed_at": "2022-11-01T14:08:09Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-07-25T15:26:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sharkdp/hyperfine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

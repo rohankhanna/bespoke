@@ -565,7 +565,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T19:15:04.180032+00:00",
+  "fetched_at": "2026-04-23T08:32:50.646346+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -577,7 +577,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 10429
+      "size": 10430
     },
     {
       "path": ".github/workflows/cross-version-smoke.yml",
@@ -617,14 +617,14 @@
     "full_name": "gastownhall/beads",
     "html_url": "https://github.com/gastownhall/beads",
     "language": "Go",
-    "pushed_at": "2026-04-22T05:12:15Z",
-    "stargazers_count": 21040,
+    "pushed_at": "2026-04-22T19:47:16Z",
+    "stargazers_count": 21072,
     "topics": [
       "agents",
       "claude-code",
       "coding"
     ],
-    "updated_at": "2026-04-22T19:12:04Z"
+    "updated_at": "2026-04-23T08:20:43Z"
   },
   "repo_links": [
     {

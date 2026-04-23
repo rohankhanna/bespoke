@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close answered issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyterlab/jupyterlab",
+      "status": "candidate-context",
+      "text": "JupyterLab computational environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/jupyterlab",
+      "status": "candidate-context",
+      "text": "'Close answered issues'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyterlab/jupyterlab",
+      "status": "candidate",
+      "text": "'Close answered issues'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20433,
+      "status": "candidate",
+      "text": "socrates"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20298,
+      "status": "candidate",
+      "text": "problem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20202,
+      "status": "candidate",
+      "text": "reply"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20202,
+      "status": "candidate",
+      "text": "rights"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20183,
+      "status": "candidate",
+      "text": "answer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close answered issues",
+  "concept_id": "close-answered-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/answered.yml",
+      "source_repo": "jupyterlab/jupyterlab"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close answered issues",
+      "sense_id": "close-answered-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

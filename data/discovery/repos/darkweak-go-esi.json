@@ -1,0 +1,209 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/middlewares.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/middlewares.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/middlewares.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/middlewares.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/middlewares.yml",
+      "source_repo": "darkweak/go-esi",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/middlewares.yml",
+      "source_repo": "darkweak/go-esi",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/middlewares.yml",
+      "source_repo": "darkweak/go-esi",
+      "target": "Build and validate go-esi as middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml",
+      "source_repo": "darkweak/go-esi",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml",
+      "source_repo": "darkweak/go-esi",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml",
+      "source_repo": "darkweak/go-esi",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/go-esi",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/go-esi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/go-esi",
+      "target": "goreleaser/goreleaser-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/go-esi",
+      "target": "caddy-module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/go-esi",
+      "target": "esi-tags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "darkweak/go-esi",
+      "target": "traefik-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:39:44.557959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3803
+    },
+    {
+      "path": "go.mod",
+      "size": 43
+    },
+    {
+      "path": ".github/workflows/middlewares.yml",
+      "size": 1404
+    },
+    {
+      "path": ".github/workflows/non-regression.yml",
+      "size": 955
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 650
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pure implementation of the non-standard ESI (Edge-Side-Include) specification in Go",
+    "fork": false,
+    "full_name": "darkweak/go-esi",
+    "html_url": "https://github.com/darkweak/go-esi",
+    "language": "Go",
+    "pushed_at": "2023-03-23T09:12:23Z",
+    "stargazers_count": 26,
+    "topics": [
+      "caddy-module",
+      "esi",
+      "esi-tags",
+      "traefik-plugin"
+    ],
+    "updated_at": "2025-09-08T15:47:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and validate go-esi as middleware",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/middlewares.yml",
+      "term": "Build and validate go-esi as middleware"
+    },
+    {
+      "context_snippet": "go-esi",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caddy-module"
+    },
+    {
+      "context_snippet": "go-esi",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esi-tags"
+    },
+    {
+      "context_snippet": "go-esi",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "traefik-plugin"
+    }
+  ]
+}

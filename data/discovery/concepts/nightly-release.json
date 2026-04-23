@@ -32,6 +32,24 @@
       "source_repo": "rust-lang/rustc-perf",
       "status": "candidate-context",
       "text": "Nightly release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "The React Native Community CLI - command line tools to help you build RN apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "Nightly Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-checks",
+      "status": "candidate-context",
+      "text": "Nightly Release"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +64,18 @@
       "source_repo": "rust-lang/rustc-perf",
       "status": "candidate",
       "text": "Nightly release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate",
+      "text": "Nightly Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-checks",
+      "status": "candidate",
+      "text": "Nightly Release"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +131,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "rust-lang/rustc-perf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/nigthly-release.yml",
+      "source_repo": "react-native-community/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/nightly-release.yaml",
+      "source_repo": "aquasecurity/trivy-checks"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

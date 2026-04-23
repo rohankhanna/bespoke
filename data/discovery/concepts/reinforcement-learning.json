@@ -79,6 +79,42 @@
       "source_repo": "DolbyUUU/DeepEnlighten",
       "status": "candidate-context",
       "text": "**DeepEnlighten** is a lightweight replication study of the [DeepSeek-R1-Zero](https://github.com/deepseek-ai/DeepSeek-R1) framework. This project investigates the use of **pure reinforcement learning (RL)** without supervised fine-tuning (SFT) to post-train base models for **so\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unslothai/unsloth",
+      "status": "candidate-context",
+      "text": "Web UI for training and running open models like Gemma 4, Qwen3.5, DeepSeek, gpt-oss locally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unslothai/unsloth",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"margin:0;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AMAP-ML/Tree-GRPO",
+      "status": "candidate-context",
+      "text": "[ICLR 2026] Tree Search for LLM Agent Reinforcement Learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AMAP-ML/Tree-GRPO",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DolbyUUU/Logic-RL-Lite",
+      "status": "candidate-context",
+      "text": "Lightweight replication study of DeepSeek-R1-Zero. Interesting findings include \"No Aha Moment\", \"Longer CoT \u2260 Accuracy\", and \"Language Mixing in Instruct Models\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DolbyUUU/Logic-RL-Lite",
+      "status": "candidate-context",
+      "text": "**Logic-RL-Lite** is a lightweight replication study of the [DeepSeek-R1-Zero](https://github.com/deepseek-ai/DeepSeek-R1) framework. This project investigates the use of **pure reinforcement learning (RL)** without supervised fine-tuning (SFT) to post-train base models for reas\u2026"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "DolbyUUU/DeepEnlighten",
       "status": "candidate",
       "text": "**DeepEnlighten** is a lightweight replication study of the [DeepSeek-R1-Zero](https://github.com/deepseek-ai/DeepSeek-R1) framework. This project investigates the use of **pure reinforcement learning (RL)** without supervised fine-tuning (SFT) to post-train base models for **so\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unslothai/unsloth",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"margin:0;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AMAP-ML/Tree-GRPO",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DolbyUUU/Logic-RL-Lite",
+      "status": "candidate",
+      "text": "**Logic-RL-Lite** is a lightweight replication study of the [DeepSeek-R1-Zero](https://github.com/deepseek-ai/DeepSeek-R1) framework. This project investigates the use of **pure reinforcement learning (RL)** without supervised fine-tuning (SFT) to post-train base models for reas\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +226,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "DolbyUUU/DeepEnlighten"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unslothai/unsloth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AMAP-ML/Tree-GRPO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "DolbyUUU/Logic-RL-Lite"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

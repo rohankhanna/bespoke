@@ -76,20 +76,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "pyrtlsdr/pyrtlsdr",
-      "target": "librtlsdr/librtlsdr",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyrtlsdr/pyrtlsdr",
-      "target": "pyrtlsdr/pyrtlsdrlib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyrtlsdr/pyrtlsdr",
       "target": "roger-/pyrtlsdr",
       "target_type": "repository"
     },
@@ -164,7 +150,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T01:20:21.455029+00:00",
+  "fetched_at": "2026-04-23T06:36:21.252232+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -201,16 +187,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "dbasden/python-librtlsdr",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "librtlsdr/librtlsdr",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pyrtlsdr/pyrtlsdrlib",
       "source_file": "README.md"
     },
     {

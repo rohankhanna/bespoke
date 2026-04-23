@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "distributed-transaction",
+      "sense_id": "distributed-transaction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "distributed-transaction",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "distributed-transaction",
+  "observation_id": "c2b41989bd32fb5f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "distributed-transaction",
+  "source_context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+  "source_file": null,
+  "source_repo": "alibaba/spring-cloud-alibaba",
+  "source_repo_description": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware."
+}

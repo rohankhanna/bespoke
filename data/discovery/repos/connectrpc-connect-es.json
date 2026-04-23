@@ -1,0 +1,677 @@
+{
+  "components": [
+    {
+      "component": "@arethetypeswrong/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@bufbuild/license-header",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "turbo",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "connectrpc/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browserstack.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browserstack.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browserstack.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-cloudflare.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-cloudflare.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-express.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-express.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-express.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-fastify.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-fastify.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-fastify.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-node.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-node.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-node.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-web.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-web.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-web.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "connectrpc/connect-es",
+      "target": "bufbuild/protobuf-es",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "connectrpc/connect-es",
+      "target": "connectrpc/connect-playwright-es",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "connectrpc/connect-es",
+      "target": "connectrpc/connect-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "connectrpc/connect-es",
+      "target": "connectrpc/conformance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "connectrpc/connect-es",
+      "target": "@arethetypeswrong/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "connectrpc/connect-es",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "connectrpc/connect-es",
+      "target": "@bufbuild/license-header",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "connectrpc/connect-es",
+      "target": "turbo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "connectrpc/connect-es",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "connectrpc/base-workflows/.github/workflows/add-to-project.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "Add issues and PRs to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browserstack.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browserstack.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/browserstack.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/browserstack.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "Browserstack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-cloudflare.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-cloudflare.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-cloudflare.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "Cloudflare Conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-express.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-express.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-express.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-express.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "Express Conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-fastify.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-fastify.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-fastify.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-fastify.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "Fastify Conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-node.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-node.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-node.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-node.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "Node.js Conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-web.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-web.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conformance-web.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-web.yaml",
+      "source_repo": "connectrpc/connect-es",
+      "target": "Web Conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es",
+      "target": "connectrpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es",
+      "target": "express",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es",
+      "target": "fastify-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es",
+      "target": "grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es",
+      "target": "grpc-web",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es",
+      "target": "nextjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es",
+      "target": "protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es",
+      "target": "protoc-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es",
+      "target": "schema",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:39:46.167747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7830
+    },
+    {
+      "path": "package.json",
+      "size": 1332
+    },
+    {
+      "path": ".github/workflows/add-to-project.yaml",
+      "size": 411
+    },
+    {
+      "path": ".github/workflows/browserstack.yaml",
+      "size": 1617
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1771
+    },
+    {
+      "path": ".github/workflows/conformance-cloudflare.yaml",
+      "size": 2178
+    },
+    {
+      "path": ".github/workflows/conformance-express.yaml",
+      "size": 951
+    },
+    {
+      "path": ".github/workflows/conformance-fastify.yaml",
+      "size": 999
+    },
+    {
+      "path": ".github/workflows/conformance-node.yaml",
+      "size": 1009
+    },
+    {
+      "path": ".github/workflows/conformance-web.yaml",
+      "size": 1077
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The TypeScript implementation of Connect: Protobuf RPC that works.",
+    "fork": false,
+    "full_name": "connectrpc/connect-es",
+    "html_url": "https://github.com/connectrpc/connect-es",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-22T18:36:15Z",
+    "stargazers_count": 1731,
+    "topics": [
+      "connectrpc",
+      "express",
+      "fastify-plugin",
+      "grpc",
+      "grpc-web",
+      "javascript",
+      "nextjs",
+      "nodejs",
+      "protobuf",
+      "protoc-plugin",
+      "rpc",
+      "schema",
+      "typescript"
+    ],
+    "updated_at": "2026-04-22T18:33:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bufbuild/protobuf-es",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "connectrpc/conformance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "connectrpc/connect-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "connectrpc/connect-playwright-es",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add issues and PRs to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yaml",
+      "term": "Add issues and PRs to project"
+    },
+    {
+      "context_snippet": "\"Browserstack\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/browserstack.yaml",
+      "term": "Browserstack"
+    },
+    {
+      "context_snippet": "\"Cloudflare Conformance\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-cloudflare.yaml",
+      "term": "Cloudflare Conformance"
+    },
+    {
+      "context_snippet": "\"Express Conformance\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-express.yaml",
+      "term": "Express Conformance"
+    },
+    {
+      "context_snippet": "\"Fastify Conformance\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-fastify.yaml",
+      "term": "Fastify Conformance"
+    },
+    {
+      "context_snippet": "\"Node.js Conformance\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-node.yaml",
+      "term": "Node.js Conformance"
+    },
+    {
+      "context_snippet": "\"Web Conformance\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conformance-web.yaml",
+      "term": "Web Conformance"
+    },
+    {
+      "context_snippet": "<img src=\".github/connect-logo.png\" width=\"15%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connectrpc"
+    },
+    {
+      "context_snippet": "<img src=\".github/connect-logo.png\" width=\"15%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "express"
+    },
+    {
+      "context_snippet": "<img src=\".github/connect-logo.png\" width=\"15%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastify-plugin"
+    },
+    {
+      "context_snippet": "<img src=\".github/connect-logo.png\" width=\"15%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    },
+    {
+      "context_snippet": "<img src=\".github/connect-logo.png\" width=\"15%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc-web"
+    },
+    {
+      "context_snippet": "<img src=\".github/connect-logo.png\" width=\"15%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nextjs"
+    },
+    {
+      "context_snippet": "<img src=\".github/connect-logo.png\" width=\"15%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<img src=\".github/connect-logo.png\" width=\"15%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    },
+    {
+      "context_snippet": "<img src=\".github/connect-logo.png\" width=\"15%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protoc-plugin"
+    },
+    {
+      "context_snippet": "<img src=\".github/connect-logo.png\" width=\"15%\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "schema"
+    }
+  ]
+}

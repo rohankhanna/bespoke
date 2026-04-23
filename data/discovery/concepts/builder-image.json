@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Builder Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jguer/yay",
+      "status": "candidate-context",
+      "text": "Yet another Yogurt - An AUR Helper written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jguer/yay",
+      "status": "candidate-context",
+      "text": "Builder Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jguer/yay",
+      "status": "candidate",
+      "text": "Builder Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11839,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11839,
+      "status": "candidate",
+      "text": "toner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11827,
+      "status": "candidate",
+      "text": "erector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11724,
+      "status": "candidate",
+      "text": "blueprint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11724,
+      "status": "candidate",
+      "text": "eagle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Builder Image",
+  "concept_id": "builder-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/builder-image.yml",
+      "source_repo": "Jguer/yay"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Builder Image",
+      "sense_id": "builder-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -400,6 +400,198 @@
       "source_repo": "gfx-rs/wgpu",
       "status": "candidate-context",
       "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fishaudio/fish-speech",
+      "status": "candidate-context",
+      "text": "SOTA Open Source TTS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fishaudio/fish-speech",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "FlatBuffers: Memory Efficient Serialization Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curl/curl",
+      "status": "candidate-context",
+      "text": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curl/curl",
+      "status": "candidate-context",
+      "text": "'Docs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpv-player/mpv",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa5 Command line media player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpv-player/mpv",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/external-dns",
+      "status": "candidate-context",
+      "text": "Configure external DNS servers dynamically from Kubernetes resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/external-dns",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astropy/repo_stats",
+      "status": "candidate-context",
+      "text": "Git and citation stats for your repo and papers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astropy/repo_stats",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "distribution/distribution",
+      "status": "candidate-context",
+      "text": "The toolkit to pack, ship, store, and deliver container content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distribution/distribution",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "Emacs client/library for the Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liran-funaro/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": "A Sphinx extension to add markdown generation support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liran-funaro/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": "[![Coverage Status](https://coveralls.io/repos/github/liran-funaro/sphinx-markdown-builder/badge.svg?branch=main&cache-bust=1)](https://coveralls.io/github/liran-funaro/sphinx-markdown-builder?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petuum/adaptdl",
+      "status": "candidate-context",
+      "text": "Resource-adaptive cluster scheduler for deep learning training."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petuum/adaptdl",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nextest-rs/nextest",
+      "status": "candidate-context",
+      "text": "A next-generation test runner for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextest-rs/nextest",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate-context",
+      "text": "Python humanize functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonmclean/triptych.nvim",
+      "status": "candidate-context",
+      "text": "Directory browser plugin for Neovim, inspired by Ranger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonmclean/triptych.nvim",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "Modern C++ Terminal Emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-casbin.io",
+      "status": "candidate-context",
+      "text": "The GitHub pages (static site) for: https://github.com/casbin/casbin-website-v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-casbin.io",
+      "status": "candidate-context",
+      "text": "The GitHub pages (static site) for: https://github.com/casbin/casbin-website-v2"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate-context",
+      "text": "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate-context",
+      "text": "docs"
     }
   ],
   "candidate_glosses": [
@@ -594,6 +786,102 @@
       "source_repo": "gfx-rs/wgpu",
       "status": "candidate",
       "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fishaudio/fish-speech",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curl/curl",
+      "status": "candidate",
+      "text": "'Docs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpv-player/mpv",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/external-dns",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astropy/repo_stats",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distribution/distribution",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liran-funaro/sphinx-markdown-builder",
+      "status": "candidate",
+      "text": "[![Coverage Status](https://coveralls.io/repos/github/liran-funaro/sphinx-markdown-builder/badge.svg?branch=main&cache-bust=1)](https://coveralls.io/github/liran-funaro/sphinx-markdown-builder?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petuum/adaptdl",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextest-rs/nextest",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonmclean/triptych.nvim",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-casbin.io",
+      "status": "candidate",
+      "text": "The GitHub pages (static site) for: https://github.com/casbin/casbin-website-v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate",
+      "text": "docs"
     }
   ],
   "candidate_related_terms": [
@@ -864,11 +1152,113 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "gfx-rs/wgpu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "fishaudio/fish-speech"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "google/flatbuffers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/checkdocs.yml",
+      "source_repo": "curl/curl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mpv-player/mpv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "kubernetes-sigs/external-dns"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "astropy/repo_stats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "distribution/distribution"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/lsp-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "liran-funaro/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/test_docs.yaml",
+      "source_repo": "petuum/adaptdl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "nextest-rs/nextest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "python-humanize/humanize"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "simonmclean/triptych.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "contour-terminal/contour"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "thanos-io/thanos"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "asciinema"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asciinema/agg",
+      "status": "candidate-context",
+      "text": "asciinema gif generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/agg",
+      "status": "candidate-context",
+      "text": "__agg__ is a command-line tool for generating animated GIF files from terminal"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asciinema/asciinema",
+      "status": "candidate-context",
+      "text": "Terminal session recorder, streamer and player \ud83d\udcf9"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/asciinema",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/asciinema/asciinema/actions/workflows/ci.yml/badge.svg)](https://github.com/asciinema/asciinema/actions/workflows/asciinema.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "status": "candidate-context",
+      "text": "Rust implementation of PowerSession, with new features and enhancements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "status": "candidate-context",
+      "text": "> Asciinema-compatible terminal session recorder for Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/agg",
+      "status": "candidate",
+      "text": "__agg__ is a command-line tool for generating animated GIF files from terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/asciinema",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/asciinema/asciinema/actions/workflows/ci.yml/badge.svg)](https://github.com/asciinema/asciinema/actions/workflows/asciinema.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "status": "candidate",
+      "text": "> Asciinema-compatible terminal session recorder for Windows"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "asciinema",
+  "concept_id": "asciinema",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "asciinema/agg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "asciinema/asciinema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "asciinema",
+      "sense_id": "asciinema#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_links.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_links.yml",
+      "source_repo": "alrra/dotfiles",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_links.yml",
+      "source_repo": "alrra/dotfiles",
+      "target": "Check links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "alrra/dotfiles",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "alrra/dotfiles",
+      "target": "macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "alrra/dotfiles",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "alrra/dotfiles",
+      "target": "Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/dotfiles",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/dotfiles",
+      "target": "dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/dotfiles",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/dotfiles",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/dotfiles",
+      "target": "snippets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/dotfiles",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alrra/dotfiles",
+      "target": "ubuntu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:47.985745+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6383
+    },
+    {
+      "path": ".github/workflows/check_links.yml",
+      "size": 502
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 678
+    },
+    {
+      "path": ".github/workflows/ubuntu.yml",
+      "size": 608
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcbb macOS / Ubuntu dotfiles",
+    "fork": false,
+    "full_name": "alrra/dotfiles",
+    "html_url": "https://github.com/alrra/dotfiles",
+    "language": "Shell",
+    "pushed_at": "2026-04-20T04:01:41Z",
+    "stargazers_count": 1526,
+    "topics": [
+      "bash",
+      "dotfiles",
+      "git",
+      "macos",
+      "shell",
+      "snippets",
+      "tmux",
+      "ubuntu",
+      "vim"
+    ],
+    "updated_at": "2026-04-20T04:01:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_links.yml",
+      "term": "Check links"
+    },
+    {
+      "context_snippet": "macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS"
+    },
+    {
+      "context_snippet": "Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "term": "Ubuntu"
+    },
+    {
+      "context_snippet": "[![CI status for macOS][ci badge macos]][ci link macos]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "[![CI status for macOS][ci badge macos]][ci link macos]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    },
+    {
+      "context_snippet": "[![CI status for macOS][ci badge macos]][ci link macos]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![CI status for macOS][ci badge macos]][ci link macos]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "[![CI status for macOS][ci badge macos]][ci link macos]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snippets"
+    },
+    {
+      "context_snippet": "[![CI status for macOS][ci badge macos]][ci link macos]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    },
+    {
+      "context_snippet": "[![CI status for macOS][ci badge macos]][ci link macos]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubuntu"
+    }
+  ]
+}

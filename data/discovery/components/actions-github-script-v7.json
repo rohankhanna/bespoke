@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v7",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -667,6 +667,146 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/dockerize-server.yml",
       "source_repo": "labring/laf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "apache/dubbo-admin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/label-jetbrains-issues.yml",
+      "source_repo": "cline/cline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pack-cli.yml",
+      "source_repo": "cline/cline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/DraftPR.yml",
+      "source_repo": "duckdb/duckdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "boundless-xyz/kailua"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate_release.sh",
+      "source_repo": "darkweak/storages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/storages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-unanswered-to-project.yml",
+      "source_repo": "pytorch/executorch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag-release.yml",
+      "source_repo": "emscripten-core/emscripten"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-release-scheduled.yml",
+      "source_repo": "rapidsai/cudf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sync-rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rerun.yml",
+      "source_repo": "lowRISC/opentitan"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-comment.yml",
+      "source_repo": "facebook/rocksdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-review-comment.yml",
+      "source_repo": "facebook/rocksdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebook/rocksdb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "apache/dubbo-kubernetes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml",
+      "source_repo": "OpenHands/benchmarks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automation_request_review.yml",
+      "source_repo": "stevearc/resession.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "bnprks/BPCells"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint_commit.yml",
+      "source_repo": "aseprite/aseprite"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-pr.yml",
+      "source_repo": "community/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android-build.yml",
+      "source_repo": "meta-pytorch/executorch-examples"
     }
   ]
 }

@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "JSONStream",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "event-stream",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "github-url-to-object",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nano",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pad-left",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "run-series",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "simple-get",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-packages",
+      "target": "JSONStream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-packages",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-packages",
+      "target": "event-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-packages",
+      "target": "github-url-to-object",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-packages",
+      "target": "nano",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-packages",
+      "target": "pad-left",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-packages",
+      "target": "run-series",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-packages",
+      "target": "simple-get",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/standard-packages",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-packages",
+      "target": "development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-packages",
+      "target": "ecmascript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-packages",
+      "target": "ecosystem",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-packages",
+      "target": "eslint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-packages",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-packages",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-packages",
+      "target": "standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-packages",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-packages",
+      "target": "style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/standard-packages",
+      "target": "style-guide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:33:03.899984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1934
+    },
+    {
+      "path": "package.json",
+      "size": 1708
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "List of packages that use `standard`",
+    "fork": false,
+    "full_name": "standard/standard-packages",
+    "html_url": "https://github.com/standard/standard-packages",
+    "language": "JavaScript",
+    "pushed_at": "2023-09-16T07:25:28Z",
+    "stargazers_count": 33,
+    "topics": [
+      "development",
+      "ecmascript",
+      "ecosystem",
+      "es6",
+      "eslint",
+      "javascript",
+      "linter",
+      "nodejs",
+      "standard",
+      "static-code-analysis",
+      "style",
+      "style-guide"
+    ],
+    "updated_at": "2025-01-27T09:49:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecmascript"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecosystem"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-code-analysis"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-guide"
+    }
+  ]
+}

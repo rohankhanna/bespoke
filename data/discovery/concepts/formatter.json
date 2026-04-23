@@ -130,6 +130,18 @@
       "source_repo": "dequelabs/axe-core",
       "status": "candidate-context",
       "text": "Formatter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fourmolu/fourmolu",
+      "status": "candidate-context",
+      "text": "A fourk of ormolu that uses four space indentation and allows arbitrary configuration. Don't like it? PRs welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fourmolu/fourmolu",
+      "status": "candidate-context",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
     }
   ],
   "candidate_glosses": [
@@ -192,6 +204,12 @@
       "source_repo": "dequelabs/axe-core",
       "status": "candidate",
       "text": "Formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fourmolu/fourmolu",
+      "status": "candidate",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +343,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "hukkin/mdformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fourmolu/fourmolu"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

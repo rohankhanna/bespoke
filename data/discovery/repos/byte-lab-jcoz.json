@@ -7,16 +7,9 @@
       "source_repo": "Byte-Lab/JCoz",
       "target": "decave/jcoz",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Byte-Lab/JCoz",
-      "target": "gabime/spdlog",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-22T19:21:02.668342+00:00",
+  "fetched_at": "2026-04-23T08:37:49.906611+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -45,11 +38,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "decave/jcoz",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gabime/spdlog",
       "source_file": "README.md"
     }
   ],

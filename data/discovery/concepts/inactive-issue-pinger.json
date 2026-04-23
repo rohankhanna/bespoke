@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Inactive Issue Pinger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unslothai/unsloth",
+      "status": "candidate-context",
+      "text": "Web UI for training and running open models like Gemma 4, Qwen3.5, DeepSeek, gpt-oss locally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unslothai/unsloth",
+      "status": "candidate-context",
+      "text": "'Inactive Issue Pinger'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unslothai/unsloth",
+      "status": "candidate",
+      "text": "'Inactive Issue Pinger'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15110,
+      "status": "candidate",
+      "text": "wren"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10537,
+      "status": "candidate",
+      "text": "conservative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10537,
+      "status": "candidate",
+      "text": "damping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10537,
+      "status": "candidate",
+      "text": "radiation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10064,
+      "status": "candidate",
+      "text": "backing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Inactive Issue Pinger",
+  "concept_id": "inactive-issue-pinger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "unslothai/unsloth"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Inactive Issue Pinger",
+      "sense_id": "inactive-issue-pinger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

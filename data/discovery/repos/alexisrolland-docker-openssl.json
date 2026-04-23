@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:29:17.559917+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1466
+    },
+    {
+      "path": "Dockerfile",
+      "size": 216
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd11OpenSSL container to create certificates and keys",
+    "fork": false,
+    "full_name": "alexisrolland/docker-openssl",
+    "html_url": "https://github.com/alexisrolland/docker-openssl",
+    "language": "Dockerfile",
+    "pushed_at": "2023-03-14T15:14:12Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-01-28T05:26:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,501 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_new_integration_prs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-typecheck.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-typecheck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_check.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_classifier.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_classifier.yml"
+    },
+    {
+      "component": "run-llama/issue-classifier@v0.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_classifier.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama_dev_tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama_dev_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "run-llama/llama_index",
+      "target": "jerryjliu/llama_index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "Build Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close_new_integration_prs.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_new_integration_prs.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "Close new integration PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "github/codeql-action/autobuild@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-typecheck.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/core-typecheck.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/core-typecheck.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "Core Typecheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_check.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage_check.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage_check.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "Unit Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_classifier.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_classifier.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_classifier.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "run-llama/issue-classifier@v0.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_classifier.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "Label Issues as 'good first issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama_dev_tests.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llama_dev_tests.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llama_dev_tests.yml",
+      "source_repo": "run-llama/llama_index",
+      "target": "llama-dev tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index",
+      "target": "application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index",
+      "target": "data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index",
+      "target": "fine-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index",
+      "target": "llamaindex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index",
+      "target": "multi-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index",
+      "target": "vector-database",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:33:55.493658+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13325
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4854
+    },
+    {
+      "path": ".github/workflows/build_package.yml",
+      "size": 837
+    },
+    {
+      "path": ".github/workflows/close_new_integration_prs.yml",
+      "size": 2237
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 3476
+    },
+    {
+      "path": ".github/workflows/core-typecheck.yml",
+      "size": 448
+    },
+    {
+      "path": ".github/workflows/coverage_check.yml",
+      "size": 1281
+    },
+    {
+      "path": ".github/workflows/issue_classifier.yml",
+      "size": 813
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 371
+    },
+    {
+      "path": ".github/workflows/llama_dev_tests.yml",
+      "size": 535
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LlamaIndex is the leading document agent and OCR platform",
+    "fork": false,
+    "full_name": "run-llama/llama_index",
+    "html_url": "https://github.com/run-llama/llama_index",
+    "language": "Python",
+    "pushed_at": "2026-04-22T20:14:10Z",
+    "stargazers_count": 48832,
+    "topics": [
+      "agents",
+      "application",
+      "data",
+      "fine-tuning",
+      "framework",
+      "llamaindex",
+      "llm",
+      "multi-agents",
+      "rag",
+      "vector-database"
+    ],
+    "updated_at": "2026-04-23T07:09:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jerryjliu/llama_index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_package.yml",
+      "term": "Build Package"
+    },
+    {
+      "context_snippet": "\"Close new integration PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close_new_integration_prs.yml",
+      "term": "Close new integration PRs"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Core Typecheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/core-typecheck.yml",
+      "term": "Core Typecheck"
+    },
+    {
+      "context_snippet": "Unit Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage_check.yml",
+      "term": "Unit Testing"
+    },
+    {
+      "context_snippet": "\"Label Issues as 'good first issue'\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_classifier.yml",
+      "term": "Label Issues as 'good first issue"
+    },
+    {
+      "context_snippet": "Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "llama-dev tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llama_dev_tests.yml",
+      "term": "llama-dev tests"
+    },
+    {
+      "context_snippet": "[![PyPI - Downloads](https://img.shields.io/pypi/dm/llama-index)](https://pypi.org/project/llama-index/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "application"
+    },
+    {
+      "context_snippet": "[![PyPI - Downloads](https://img.shields.io/pypi/dm/llama-index)](https://pypi.org/project/llama-index/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data"
+    },
+    {
+      "context_snippet": "[![PyPI - Downloads](https://img.shields.io/pypi/dm/llama-index)](https://pypi.org/project/llama-index/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fine-tuning"
+    },
+    {
+      "context_snippet": "[![PyPI - Downloads](https://img.shields.io/pypi/dm/llama-index)](https://pypi.org/project/llama-index/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "[![PyPI - Downloads](https://img.shields.io/pypi/dm/llama-index)](https://pypi.org/project/llama-index/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llamaindex"
+    },
+    {
+      "context_snippet": "[![PyPI - Downloads](https://img.shields.io/pypi/dm/llama-index)](https://pypi.org/project/llama-index/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agents"
+    },
+    {
+      "context_snippet": "[![PyPI - Downloads](https://img.shields.io/pypi/dm/llama-index)](https://pypi.org/project/llama-index/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-database"
+    }
+  ]
+}

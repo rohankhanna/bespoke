@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test bundled HTML export"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "status": "candidate-context",
+      "text": "\ud83c\udf88 Simple reactive notebooks for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "status": "candidate-context",
+      "text": "Test bundled HTML export"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "status": "candidate",
+      "text": "Test bundled HTML export"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21642,
+      "status": "candidate",
+      "text": "packer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21370,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21370,
+      "status": "candidate",
+      "text": "corner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21370,
+      "status": "candidate",
+      "text": "fair"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21370,
+      "status": "candidate",
+      "text": "trust"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test bundled HTML export",
+  "concept_id": "test-bundled-html-export",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/TestBundledExport.yml",
+      "source_repo": "JuliaPluto/Pluto.jl"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test bundled HTML export",
+      "sense_id": "test-bundled-html-export#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

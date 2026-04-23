@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Succinct's Production-Grade Proving Engine for the OP Stack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build OP Succinct Lite Docker Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build OP Succinct Lite Docker Images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30705,
+      "status": "candidate",
+      "text": "camera"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23661,
+      "status": "candidate",
+      "text": "brief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23661,
+      "status": "candidate",
+      "text": "concise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23661,
+      "status": "candidate",
+      "text": "riff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23197,
+      "status": "candidate",
+      "text": "apical placentation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build OP Succinct Lite Docker Images",
+      "sense_id": "build-op-succinct-lite-docker-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-op-succinct-lite-docker-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-op-succinct-lite-docker-images",
+  "observation_id": "59be0dcca64ffd23",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Build OP Succinct Lite Docker Images",
+  "source_context_snippet": "Build OP Succinct Lite Docker Images",
+  "source_file": ".github/workflows/docker-build-lite.yml",
+  "source_repo": "succinctlabs/op-succinct",
+  "source_repo_description": "Succinct's Production-Grade Proving Engine for the OP Stack."
+}

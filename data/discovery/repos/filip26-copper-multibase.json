@@ -1,0 +1,416 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/copper-multibase",
+      "target": "filip26/ld-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/copper-multibase",
+      "target": "filip26/copper-multicodec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/copper-multibase",
+      "target": "w3c-ccg/multibase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/copper-multibase",
+      "target": "multiformats/java-multibase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/copper-multibase",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/copper-multibase",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/copper-multibase",
+      "target": "Java 8 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/copper-multibase",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/copper-multibase",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/copper-multibase",
+      "target": "Publish JRE8 to the Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "filip26/copper-multibase",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "filip26/copper-multibase",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "filip26/copper-multibase",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "filip26/copper-multibase",
+      "target": "Java CI with Maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "base-decoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "base-encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "base16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "base2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "base32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "base32hex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "base58btc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "base64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "base64url",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "multibase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "multiformat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "multiformats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "self-describing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase",
+      "target": "self-descriptive",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:38:59.980536+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4837
+    },
+    {
+      "path": ".github/workflows/java8-build.yml",
+      "size": 517
+    },
+    {
+      "path": ".github/workflows/java8-publish.yml",
+      "size": 964
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 1246
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Self-describing base encodings \u2014 Multibase encoder/decoder",
+    "fork": false,
+    "full_name": "filip26/copper-multibase",
+    "html_url": "https://github.com/filip26/copper-multibase",
+    "language": "Java",
+    "pushed_at": "2026-03-18T22:41:49Z",
+    "stargazers_count": 2,
+    "topics": [
+      "base-decoder",
+      "base-encoder",
+      "base16",
+      "base2",
+      "base32",
+      "base32hex",
+      "base58btc",
+      "base64",
+      "base64url",
+      "multibase",
+      "multiformat",
+      "multiformats",
+      "self-describing",
+      "self-descriptive"
+    ],
+    "updated_at": "2026-03-18T22:41:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filip26/copper-multicodec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filip26/ld-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multiformats/java-multibase",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "w3c-ccg/multibase",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Java 8 CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-build.yml",
+      "term": "Java 8 CI"
+    },
+    {
+      "context_snippet": "Publish JRE8 to the Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "term": "Publish JRE8 to the Maven Central"
+    },
+    {
+      "context_snippet": "Java CI with Maven",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Java CI with Maven"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base-decoder"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base-encoder"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base2"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base32"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base32hex"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base58btc"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base64"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base64url"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multibase"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiformat"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiformats"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-describing"
+    },
+    {
+      "context_snippet": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-descriptive"
+    }
+  ]
+}

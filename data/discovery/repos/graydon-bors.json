@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graydon/bors",
+      "target": "barosl/homu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graydon/bors",
+      "target": "bors-ng/bors-ng",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:43:13.558859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3774
+    },
+    {
+      "path": "Dockerfile",
+      "size": 94
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Integration robot for buildbot and github",
+    "fork": false,
+    "full_name": "graydon/bors",
+    "html_url": "https://github.com/graydon/bors",
+    "language": "Python",
+    "pushed_at": "2021-12-09T04:39:16Z",
+    "stargazers_count": 450,
+    "topics": [],
+    "updated_at": "2026-04-07T13:49:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "barosl/homu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bors-ng/bors-ng",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

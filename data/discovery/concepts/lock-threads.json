@@ -176,6 +176,102 @@
       "source_repo": "fish-shell/fish-shell",
       "status": "candidate-context",
       "text": "'Lock threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate-context",
+      "text": "OWASP Juice Shop: Probably the most modern and sophisticated insecure web application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-plugin-go",
+      "status": "candidate-context",
+      "text": "A low-level Go binding for the Terraform protocol for integrations to be built on top of."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-go",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jquery/jquery",
+      "status": "candidate-context",
+      "text": "jQuery JavaScript Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/jquery",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/create-fastify",
+      "status": "candidate-context",
+      "text": "Rapidly generate a Fastify project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/create-fastify",
+      "status": "candidate-context",
+      "text": "Lock Threads"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/demo",
+      "status": "candidate-context",
+      "text": "A concrete example of a Fastify application using what are considered best practices by the Fastify community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/demo",
+      "status": "candidate-context",
+      "text": "Lock Threads"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/example",
+      "status": "candidate-context",
+      "text": "Runnable examples of Fastify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/example",
+      "status": "candidate-context",
+      "text": "Lock Threads"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/fastify-cli",
+      "status": "candidate-context",
+      "text": "Run a Fastify application with one command!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify-cli",
+      "status": "candidate-context",
+      "text": "Lock Threads"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "videojs/video.js",
+      "status": "candidate-context",
+      "text": "Video.js - open source HTML5 video player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "videojs/video.js",
+      "status": "candidate-context",
+      "text": "'Lock Threads'"
     }
   ],
   "candidate_glosses": [
@@ -262,6 +358,54 @@
       "source_repo": "fish-shell/fish-shell",
       "status": "candidate",
       "text": "'Lock threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-go",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/jquery",
+      "status": "candidate",
+      "text": "'Lock Threads'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/create-fastify",
+      "status": "candidate",
+      "text": "Lock Threads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/demo",
+      "status": "candidate",
+      "text": "Lock Threads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/example",
+      "status": "candidate",
+      "text": "Lock Threads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify-cli",
+      "status": "candidate",
+      "text": "Lock Threads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "videojs/video.js",
+      "status": "candidate",
+      "text": "'Lock Threads'"
     }
   ],
   "candidate_related_terms": [
@@ -401,11 +545,71 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/lock.yml",
       "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "juice-shop/juice-shop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "hashicorp/terraform-plugin-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "jquery/jquery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "fastify/create-fastify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "fastify/demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "fastify/example"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "fastify/fastify-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lock.yml",
+      "source_repo": "videojs/video.js"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

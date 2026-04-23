@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:36:33.956174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Basic Mousefood programs using the Simulator and actual hardware",
+    "fork": false,
+    "full_name": "Vaishnav-Sabari-Girish/Mousefood-Programs",
+    "html_url": "https://github.com/Vaishnav-Sabari-Girish/Mousefood-Programs",
+    "language": "Rust",
+    "pushed_at": "2025-12-19T15:19:50Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-12-20T06:08:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

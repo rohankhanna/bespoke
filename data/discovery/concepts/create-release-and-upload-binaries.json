@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create release and upload binaries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "slackhq/nebula",
+      "status": "candidate-context",
+      "text": "A scalable overlay networking tool with a focus on performance, simplicity and security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slackhq/nebula",
+      "status": "candidate-context",
+      "text": "Create release and upload binaries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slackhq/nebula",
+      "status": "candidate",
+      "text": "Create release and upload binaries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32545,
+      "status": "candidate",
+      "text": "port"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32545,
+      "status": "candidate",
+      "text": "ports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22245,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21578,
+      "status": "candidate",
+      "text": "explode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21578,
+      "status": "candidate",
+      "text": "produce"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create release and upload binaries",
+  "concept_id": "create-release-and-upload-binaries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "slackhq/nebula"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create release and upload binaries",
+      "sense_id": "create-release-and-upload-binaries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

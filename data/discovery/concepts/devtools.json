@@ -139,6 +139,18 @@
       "source_repo": "agent-sh/ship",
       "status": "candidate-context",
       "text": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "Chrome DevTools for coding agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)"
     }
   ],
   "candidate_glosses": [
@@ -195,6 +207,12 @@
       "source_repo": "agent-sh/ship",
       "status": "candidate",
       "text": "End-to-end PR workflow - commit, push, create PR, monitor CI, address every review comment, merge, deploy, validate - plus discovery-first release automation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate",
+      "text": "[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)"
     }
   ],
   "candidate_related_terms": [],
@@ -268,11 +286,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "agent-sh/ship"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

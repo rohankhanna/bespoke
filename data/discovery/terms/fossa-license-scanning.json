@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/fossa.yml",
       "source_repo": "oras-project/distribution"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "distribution/distribution"
     }
   ],
   "term": "FOSSA License Scanning"

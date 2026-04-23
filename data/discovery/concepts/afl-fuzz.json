@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "afl-fuzz"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate-context",
+      "text": "The fuzzer afl++ is afl with community patches, qemu 5.1 upgrade, collision-free coverage, enhanced laf-intel & redqueen, AFLfast++ power schedules, MOpt mutators, unicorn_mode, and a lot more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" src=\"https://raw.githubusercontent.com/AFLplusplus/Website/main/static/aflpp_bg.svg\" alt=\"AFL++ logo\" width=\"250\" height=\"250\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrash/afl-cov",
+      "status": "candidate-context",
+      "text": "Produce code coverage results with gcov from afl-fuzz test cases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrash/afl-cov",
+      "status": "candidate-context",
+      "text": "- [Introduction](#introduction)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate",
+      "text": "<img align=\"right\" src=\"https://raw.githubusercontent.com/AFLplusplus/Website/main/static/aflpp_bg.svg\" alt=\"AFL++ logo\" width=\"250\" height=\"250\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrash/afl-cov",
+      "status": "candidate",
+      "text": "- [Introduction](#introduction)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "afl-fuzz",
+  "concept_id": "afl-fuzz",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AFLplusplus/AFLplusplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mrash/afl-cov"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "afl-fuzz",
+      "sense_id": "afl-fuzz#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

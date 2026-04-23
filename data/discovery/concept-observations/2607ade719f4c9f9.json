@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Provides easy-to-use async IO interface with io_uring"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[io_uring](http://kernel.dk/io_uring.pdf)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[io_uring](http://kernel.dk/io_uring.pdf)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "io-uring",
+      "sense_id": "io-uring#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "io-uring",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "io-uring",
+  "observation_id": "2607ade719f4c9f9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "io-uring",
+  "source_context_snippet": "[io_uring](http://kernel.dk/io_uring.pdf)",
+  "source_file": null,
+  "source_repo": "Iceber/iouring-go",
+  "source_repo_description": "Provides easy-to-use async IO interface with io_uring"
+}

@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "vits2 backbone with multilingual-bert"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9755005,
+      "status": "candidate",
+      "text": "lives"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9755004,
+      "status": "candidate",
+      "text": "wickedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9747449,
+      "status": "candidate",
+      "text": "immorality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9744344,
+      "status": "candidate",
+      "text": "vice"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vits",
+      "sense_id": "vits#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vits",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vits",
+  "observation_id": "2a5cfd26828c2bac",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "vits",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "fishaudio/Bert-VITS2",
+  "source_repo_description": "vits2 backbone with multilingual-bert"
+}

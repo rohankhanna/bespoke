@@ -1,0 +1,425 @@
+{
+  "components": [
+    {
+      "component": "copyfiles",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "handlebars",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsonc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mkdirp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-linter.yml"
+    },
+    {
+      "component": "super-linter/super-linter/slim@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-linter.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-again.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-again.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-dev.yml"
+    },
+    {
+      "component": "devcontainers/images/.github/workflows/version-history.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-manual-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-manual-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "devcontainers/images/.github/workflows/version-history.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-anaconda.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-base-alpine.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devcontainers/images",
+      "target": "devcontainers/spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devcontainers/images",
+      "target": "microsoft/containerregistry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devcontainers/images",
+      "target": "copyfiles",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devcontainers/images",
+      "target": "handlebars",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devcontainers/images",
+      "target": "jsonc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devcontainers/images",
+      "target": "mkdirp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devcontainers/images",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-linter.yml",
+      "source_repo": "devcontainers/images",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-linter.yml",
+      "source_repo": "devcontainers/images",
+      "target": "super-linter/super-linter/slim@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-again.yml",
+      "source_repo": "devcontainers/images",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-again.yml",
+      "source_repo": "devcontainers/images",
+      "target": "Re-push image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-dev.yml",
+      "source_repo": "devcontainers/images",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-dev.yml",
+      "source_repo": "devcontainers/images",
+      "target": "devcontainers/images/.github/workflows/version-history.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-dev.yml",
+      "source_repo": "devcontainers/images",
+      "target": "Build and push \"dev\" images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-manual-dev.yml",
+      "source_repo": "devcontainers/images",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-manual-dev.yml",
+      "source_repo": "devcontainers/images",
+      "target": "Manually build and push dev images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "devcontainers/images",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "devcontainers/images",
+      "target": "devcontainers/images/.github/workflows/version-history.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "devcontainers/images",
+      "target": "Build and push images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "devcontainers/images",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "devcontainers/images",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pr.yml",
+      "source_repo": "devcontainers/images",
+      "target": "Create release pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-anaconda.yaml",
+      "source_repo": "devcontainers/images",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke-anaconda.yaml",
+      "source_repo": "devcontainers/images",
+      "target": "Smoke test \"anaconda\" build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke-base-alpine.yaml",
+      "source_repo": "devcontainers/images",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke-base-alpine.yaml",
+      "source_repo": "devcontainers/images",
+      "target": "Smoke test \"base-alpine\" build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devcontainers/images",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devcontainers/images",
+      "target": "devcontainers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:32:26.759297+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4191
+    },
+    {
+      "path": "package.json",
+      "size": 217
+    },
+    {
+      "path": ".github/workflows/code-linter.yml",
+      "size": 834
+    },
+    {
+      "path": ".github/workflows/push-again.yml",
+      "size": 2784
+    },
+    {
+      "path": ".github/workflows/push-dev.yml",
+      "size": 3133
+    },
+    {
+      "path": ".github/workflows/push-manual-dev.yml",
+      "size": 2682
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 2988
+    },
+    {
+      "path": ".github/workflows/release-pr.yml",
+      "size": 1513
+    },
+    {
+      "path": ".github/workflows/smoke-anaconda.yaml",
+      "size": 592
+    },
+    {
+      "path": ".github/workflows/smoke-base-alpine.yaml",
+      "size": 521
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for pre-built dev container images published under mcr.microsoft.com/devcontainers",
+    "fork": false,
+    "full_name": "devcontainers/images",
+    "html_url": "https://github.com/devcontainers/images",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T05:52:08Z",
+    "stargazers_count": 2004,
+    "topics": [
+      "containers",
+      "devcontainers"
+    ],
+    "updated_at": "2026-04-22T20:58:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devcontainers/spec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/containerregistry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Re-push image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-again.yml",
+      "term": "Re-push image"
+    },
+    {
+      "context_snippet": "Build and push \"dev\" images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-dev.yml",
+      "term": "Build and push \"dev\" images"
+    },
+    {
+      "context_snippet": "Manually build and push dev images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push-manual-dev.yml",
+      "term": "Manually build and push dev images"
+    },
+    {
+      "context_snippet": "Build and push images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "term": "Build and push images"
+    },
+    {
+      "context_snippet": "Create release pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-pr.yml",
+      "term": "Create release pull request"
+    },
+    {
+      "context_snippet": "Smoke test \"anaconda\" build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke-anaconda.yaml",
+      "term": "Smoke test \"anaconda\" build"
+    },
+    {
+      "context_snippet": "Smoke test \"base-alpine\" build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke-base-alpine.yaml",
+      "term": "Smoke test \"base-alpine\" build"
+    },
+    {
+      "context_snippet": "<table style=\"width: 100%; border-style: none;\"><tr>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "<table style=\"width: 100%; border-style: none;\"><tr>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devcontainers"
+    }
+  ]
+}

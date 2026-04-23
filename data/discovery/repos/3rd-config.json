@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3rd/config",
+      "target": "dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3rd/config",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "3rd/config",
+      "target": "nixos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:46:37.202883+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 633
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My personal configuration - NixOS, Neovim, and all the good stuff.",
+    "fork": false,
+    "full_name": "3rd/config",
+    "html_url": "https://github.com/3rd/config",
+    "language": "Lua",
+    "pushed_at": "2026-04-23T00:26:11Z",
+    "stargazers_count": 12,
+    "topics": [
+      "dotfiles",
+      "neovim",
+      "nixos"
+    ],
+    "updated_at": "2026-04-23T00:26:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains most of the plumbing that powers my workflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    },
+    {
+      "context_snippet": "This repository contains most of the plumbing that powers my workflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "This repository contains most of the plumbing that powers my workflow.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nixos"
+    }
+  ]
+}

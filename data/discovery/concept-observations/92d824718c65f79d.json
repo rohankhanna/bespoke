@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Protocol Buffer Validation - replaced by https://github.com/bufbuild/protovalidate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Maven Deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Maven Deploy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10635,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10508,
+      "status": "candidate",
+      "text": "adroit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10508,
+      "status": "candidate",
+      "text": "apprentice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10508,
+      "status": "candidate",
+      "text": "apprenticed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10508,
+      "status": "candidate",
+      "text": "archer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Maven Deploy",
+      "sense_id": "maven-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "maven-deploy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "maven-deploy",
+  "observation_id": "92d824718c65f79d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Maven Deploy",
+  "source_context_snippet": "Maven Deploy",
+  "source_file": ".github/workflows/maven-deploy.yaml",
+  "source_repo": "bufbuild/protoc-gen-validate",
+  "source_repo_description": "Protocol Buffer Validation - replaced by https://github.com/bufbuild/protovalidate"
+}

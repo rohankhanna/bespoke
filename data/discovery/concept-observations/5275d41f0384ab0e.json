@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " Vision-Augmented Retrieval and Generation (VARAG) - Vision first RAG Engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Vision Augmented Retrieval and Generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Vision Augmented Retrieval and Generation"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multimodal-retrieval",
+      "sense_id": "multimodal-retrieval#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "multimodal-retrieval",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multimodal-retrieval",
+  "observation_id": "5275d41f0384ab0e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "multimodal-retrieval",
+  "source_context_snippet": "Vision Augmented Retrieval and Generation",
+  "source_file": null,
+  "source_repo": "adithya-s-k/VARAG",
+  "source_repo_description": " Vision-Augmented Retrieval and Generation (VARAG) - Vision first RAG Engine"
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Chromatic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/mux",
+      "status": "candidate-context",
+      "text": "A desktop app for isolated, parallel agentic development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/mux",
+      "status": "candidate-context",
+      "text": "Chromatic"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/mux",
+      "status": "candidate",
+      "text": "Chromatic"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029760,
+      "status": "candidate",
+      "text": "colored"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996555,
+      "status": "candidate",
+      "text": "earthlike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996378,
+      "status": "candidate",
+      "text": "rust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994573,
+      "status": "candidate",
+      "text": "rusty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990545,
+      "status": "candidate",
+      "text": "blood-red"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 74025,
+      "status": "candidate",
+      "text": "aureate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48027,
+      "status": "candidate",
+      "text": "gilded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45039,
+      "status": "candidate",
+      "text": "carmine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42063,
+      "status": "candidate",
+      "text": "blue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36046,
+      "status": "candidate",
+      "text": "azure"
+    }
+  ],
+  "canonical_name": "Chromatic",
+  "concept_id": "chromatic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/chromatic.yml",
+      "source_repo": "coder/mux"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Chromatic",
+      "sense_id": "chromatic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

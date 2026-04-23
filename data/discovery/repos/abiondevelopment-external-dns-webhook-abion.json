@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:29:59.725061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5639
+    },
+    {
+      "path": "Dockerfile",
+      "size": 457
+    },
+    {
+      "path": "go.mod",
+      "size": 10585
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "abiondevelopment/external-dns-webhook-abion",
+    "html_url": "https://github.com/abiondevelopment/external-dns-webhook-abion",
+    "language": "Go",
+    "pushed_at": "2025-03-31T11:40:01Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-31T11:40:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

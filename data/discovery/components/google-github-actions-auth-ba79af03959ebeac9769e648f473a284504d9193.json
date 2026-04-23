@@ -1,0 +1,17 @@
+{
+  "component": "google-github-actions/auth@ba79af03959ebeac9769e648f473a284504d9193",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/images.yaml",
+      "source_repo": "GoogleContainerTools/kaniko"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator"
+    }
+  ]
+}

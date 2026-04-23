@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WebAssembly/proposals",
+      "target": "webassembly/component-model",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WebAssembly/proposals",
+      "target": "webassembly/content-security-policy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WebAssembly/proposals",
+      "target": "webassembly/compilation-hints",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WebAssembly/proposals",
+      "target": "webassembly/custom-descriptors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "WebAssembly/proposals",
+      "target": "meta",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:42:34.587770+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7870
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tracking WebAssembly proposals",
+    "fork": false,
+    "full_name": "WebAssembly/proposals",
+    "html_url": "https://github.com/WebAssembly/proposals",
+    "language": null,
+    "pushed_at": "2026-03-24T18:25:27Z",
+    "stargazers_count": 1124,
+    "topics": [
+      "meta"
+    ],
+    "updated_at": "2026-04-21T17:24:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/compilation-hints",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/component-model",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/content-security-policy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/custom-descriptors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- [Finished Proposals](finished-proposals.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meta"
+    }
+  ]
+}

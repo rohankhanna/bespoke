@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "sass-files"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sass/node-sass",
+      "status": "candidate-context",
+      "text": ":rainbow: Node.js bindings to libsass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/node-sass",
+      "status": "candidate-context",
+      "text": "**Warning:** [Node Sass has reached end of life]. It will receive no more"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/node-sass",
+      "status": "candidate",
+      "text": "**Warning:** [Node Sass has reached end of life]. It will receive no more"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sass-files",
+  "concept_id": "sass-files",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sass/node-sass"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sass-files",
+      "sense_id": "sass-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

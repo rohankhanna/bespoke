@@ -31,6 +31,66 @@
       "source_repo": "derekstavis/plugin-nvm",
       "status": "candidate-context",
       "text": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oh-my-fish/packages-main",
+      "status": "candidate-context",
+      "text": "Primary Oh My Fish package repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/packages-main",
+      "status": "candidate-context",
+      "text": "Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "A smarter cd command. Supports all major shells."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinmayer/virtualfish",
+      "status": "candidate-context",
+      "text": "Fish shell tool for managing Python virtual environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmayer/virtualfish",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/justinmayer/virtualfish/main.yml?branch=main)](https://github.com/justinmayer/virtualfish/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate-context",
+      "text": "base16 for fish shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate-context",
+      "text": "There are multiple projects out there that provide better functionality and are under active development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/tokyonight.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd9  A clean, dark Neovim theme written in Lua, with support for lsp, treesitter and lots of plugins. Includes additional themes for Kitty, Alacritty, iTerm and Fish."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/tokyonight.nvim",
+      "status": "candidate-context",
+      "text": "A dark and light [Neovim](https://github.com/neovim/neovim) theme written in"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +105,36 @@
       "source_repo": "derekstavis/plugin-nvm",
       "status": "candidate",
       "text": "<img src=\"https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg\" align=\"left\" width=\"144px\" height=\"144px\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/packages-main",
+      "status": "candidate",
+      "text": "Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmayer/virtualfish",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/justinmayer/virtualfish/main.yml?branch=main)](https://github.com/justinmayer/virtualfish/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate",
+      "text": "There are multiple projects out there that provide better functionality and are under active development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/tokyonight.nvim",
+      "status": "candidate",
+      "text": "A dark and light [Neovim](https://github.com/neovim/neovim) theme written in"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +154,41 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "derekstavis/plugin-nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "oh-my-fish/packages-main"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ajeetdsouza/zoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "justinmayer/virtualfish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "FabioAntunes/base16-fish-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "folke/tokyonight.nvim"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build on Fedora Rawhide"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop",
+      "status": "candidate-context",
+      "text": "Budgie Desktop is a familiar, modern desktop environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop",
+      "status": "candidate-context",
+      "text": "Build on Fedora Rawhide"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop",
+      "status": "candidate",
+      "text": "Build on Fedora Rawhide"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11224,
+      "status": "candidate",
+      "text": "hatband"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10981,
+      "status": "candidate",
+      "text": "hat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10707,
+      "status": "candidate",
+      "text": "aria"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10707,
+      "status": "candidate",
+      "text": "cap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10707,
+      "status": "candidate",
+      "text": "crease"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build on Fedora Rawhide",
+  "concept_id": "build-on-fedora-rawhide",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build on Fedora Rawhide",
+      "sense_id": "build-on-fedora-rawhide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

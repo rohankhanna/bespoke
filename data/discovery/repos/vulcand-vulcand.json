@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vulcand/vulcand",
+      "target": "netflix/hystrix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vulcand/vulcand",
+      "target": "jaegertracing/jaeger-client-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "vulcand/vulcand",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "vulcand/vulcand",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "vulcand/vulcand",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "vulcand/vulcand",
+      "target": "On Pull Request",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:39:33.046951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2472
+    },
+    {
+      "path": "Dockerfile",
+      "size": 89
+    },
+    {
+      "path": "go.mod",
+      "size": 3338
+    },
+    {
+      "path": ".github/workflows/on_pull_request.yaml",
+      "size": 1323
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " Programmatic load balancer backed by Etcd",
+    "fork": false,
+    "full_name": "vulcand/vulcand",
+    "html_url": "https://github.com/vulcand/vulcand",
+    "language": "Go",
+    "pushed_at": "2024-07-27T08:36:18Z",
+    "stargazers_count": 3100,
+    "topics": [],
+    "updated_at": "2026-04-16T04:01:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaegertracing/jaeger-client-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "netflix/hystrix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "On Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "term": "On Pull Request"
+    }
+  ]
+}

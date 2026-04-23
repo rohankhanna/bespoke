@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Remove Question Label on Issue Comment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/resession.nvim",
+      "status": "candidate-context",
+      "text": "A replacement for mksession with a better API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/resession.nvim",
+      "status": "candidate-context",
+      "text": "Remove Question Label on Issue Comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/resession.nvim",
+      "status": "candidate",
+      "text": "Remove Question Label on Issue Comment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 54546,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42391,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39973,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39670,
+      "status": "candidate",
+      "text": "stet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39614,
+      "status": "candidate",
+      "text": "name"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Remove Question Label on Issue Comment",
+  "concept_id": "remove-question-label-on-issue-comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/automation_remove_question_label_on_comment.yml",
+      "source_repo": "stevearc/resession.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove Question Label on Issue Comment",
+      "sense_id": "remove-question-label-on-issue-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

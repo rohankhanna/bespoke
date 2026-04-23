@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "ubuntu"
+    "ubuntu",
+    "Ubuntu"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,24 @@
       "source_repo": "denysdovhan/dotfiles",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbb macOS / Ubuntu dotfiles"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate-context",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate-context",
+      "text": "[![CI status for macOS][ci badge macos]][ci link macos]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +48,18 @@
       "source_repo": "denysdovhan/dotfiles",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate",
+      "text": "Ubuntu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate",
+      "text": "[![CI status for macOS][ci badge macos]][ci link macos]"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +109,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "denysdovhan/dotfiles"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "alrra/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alrra/dotfiles"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

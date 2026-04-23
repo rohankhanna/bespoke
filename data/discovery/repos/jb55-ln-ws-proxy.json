@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "ws",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jb55/ln-ws-proxy",
+      "target": "jb55/lnsocket",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jb55/ln-ws-proxy",
+      "target": "ws",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:41:04.742153+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 619
+    },
+    {
+      "path": "package.json",
+      "size": 295
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A websockets to lightning proxy",
+    "fork": false,
+    "full_name": "jb55/ln-ws-proxy",
+    "html_url": "https://github.com/jb55/ln-ws-proxy",
+    "language": "Nix",
+    "pushed_at": "2024-07-22T15:20:21Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2024-07-22T15:20:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jb55/lnsocket",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

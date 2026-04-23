@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "quality-check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Combination of multiple linters to run as a GitHub Action or standalone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Super-linter is a ready-to-run collection of linters and code analyzers, to help"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate",
+      "text": "Super-linter is a ready-to-run collection of linters and code analyzers, to help"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "quality-check",
+  "concept_id": "quality-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "super-linter/super-linter"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "quality-check",
+      "sense_id": "quality-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

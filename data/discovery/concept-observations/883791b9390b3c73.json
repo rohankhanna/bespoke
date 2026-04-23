@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Backups a Hashnode blog including the images from the CDN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Hashnode](https://www.hashnode.com) is a great blogging service and has a nice Github action for syncing your posts to a repository as a backup mechanism. However, at the time of writing, the backup mechanism does not extract the images from the CDN."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Hashnode](https://www.hashnode.com) is a great blogging service and has a nice Github action for syncing your posts to a repository as a backup mechanism. However, at the time of writing, the backup mechanism does not extract the images from the CDN."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10028691,
+      "status": "candidate",
+      "text": "fill-in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027285,
+      "status": "candidate",
+      "text": "substitute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10012604,
+      "status": "candidate",
+      "text": "stand-in"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10008307,
+      "status": "candidate",
+      "text": "relief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "backup man"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "backups",
+      "sense_id": "backups#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "backups",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "backups",
+  "observation_id": "883791b9390b3c73",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "backups",
+  "source_context_snippet": "[Hashnode](https://www.hashnode.com) is a great blogging service and has a nice Github action for syncing your posts to a repository as a backup mechanism. However, at the time of writing, the backup mechanism does not extract the images from the CDN.",
+  "source_file": null,
+  "source_repo": "danielrosehill/Better-Hashnode-Backups",
+  "source_repo_description": "Backups a Hashnode blog including the images from the CDN"
+}

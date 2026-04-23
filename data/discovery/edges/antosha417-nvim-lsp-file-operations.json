@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antosha417/nvim-lsp-file-operations",
+      "target": "simonmclean/triptych.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antosha417/nvim-lsp-file-operations",
+      "target": "typescript-language-server/typescript-language-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antosha417/nvim-lsp-file-operations",
+      "target": "luals/lua-language-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antosha417/nvim-lsp-file-operations",
+      "target": "neovim/nvim-lspconfig",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "antosha417/nvim-lsp-file-operations"
+}

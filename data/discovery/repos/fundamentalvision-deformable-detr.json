@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:49:38.876461+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10472
+    },
+    {
+      "path": "requirements.txt",
+      "size": 30
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deformable DETR: Deformable Transformers for End-to-End Object Detection.",
+    "fork": false,
+    "full_name": "fundamentalvision/Deformable-DETR",
+    "html_url": "https://github.com/fundamentalvision/Deformable-DETR",
+    "language": "Python",
+    "pushed_at": "2024-05-16T03:54:39Z",
+    "stargazers_count": 3949,
+    "topics": [],
+    "updated_at": "2026-04-22T17:34:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

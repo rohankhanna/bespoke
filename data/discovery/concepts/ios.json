@@ -1,14 +1,83 @@
 {
   "aliases": [
-    "iOS"
+    "iOS",
+    "ios"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/MNN",
+      "status": "candidate-context",
+      "text": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/MNN",
+      "status": "candidate-context",
+      "text": "ios"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-webview/react-native-webview",
+      "status": "candidate-context",
+      "text": "React Native Cross-Platform WebView"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-webview/react-native-webview",
+      "status": "candidate-context",
+      "text": "iOS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/MNN",
+      "status": "candidate",
+      "text": "ios"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-webview/react-native-webview",
+      "status": "candidate",
+      "text": "iOS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29594155,
+      "status": "candidate",
+      "text": "sda"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29506613,
+      "status": "candidate",
+      "text": "ism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29432380,
+      "status": "candidate",
+      "text": "soi"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29412126,
+      "status": "candidate",
+      "text": "iso"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "iOS",
   "concept_id": "ios",
@@ -19,12 +88,26 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/ios_build.yml",
       "source_repo": "1runeberg/confichat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ios.yml",
+      "source_repo": "alibaba/MNN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ios-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

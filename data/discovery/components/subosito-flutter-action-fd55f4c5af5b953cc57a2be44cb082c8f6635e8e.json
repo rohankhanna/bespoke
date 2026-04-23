@@ -1,0 +1,22 @@
+{
+  "component": "subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fluttercheck.yml",
+      "source_repo": "DefinedNet/mobile_nebula"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DefinedNet/mobile_nebula"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "DefinedNet/mobile_nebula"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ruby on Windows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/rbs",
+      "status": "candidate-context",
+      "text": "The type signature language for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate-context",
+      "text": "Ruby on Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate",
+      "text": "Ruby on Windows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11593,
+      "status": "candidate",
+      "text": "jewel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10578,
+      "status": "candidate",
+      "text": "spinel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10498,
+      "status": "candidate",
+      "text": "thebes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10478,
+      "status": "candidate",
+      "text": "cash and carry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10478,
+      "status": "candidate",
+      "text": "cent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ruby on Windows",
+  "concept_id": "ruby-on-windows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ruby/rbs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ruby on Windows",
+      "sense_id": "ruby-on-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,141 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julienschmidt/httprouter",
+      "target": "corneldamian/httpway",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julienschmidt/httprouter",
+      "target": "dbubel/intake",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julienschmidt/httprouter",
+      "target": "chai2010/pbgo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "julienschmidt/httprouter",
+      "target": "abiosoft/river",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julienschmidt/httprouter",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julienschmidt/httprouter",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julienschmidt/httprouter",
+      "target": "httprouter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "julienschmidt/httprouter",
+      "target": "router",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:40:40.850856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16760
+    },
+    {
+      "path": "go.mod",
+      "size": 51
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A high performance HTTP request router that scales well",
+    "fork": false,
+    "full_name": "julienschmidt/httprouter",
+    "html_url": "https://github.com/julienschmidt/httprouter",
+    "language": "Go",
+    "pushed_at": "2024-07-22T10:31:53Z",
+    "stargazers_count": 17113,
+    "topics": [
+      "go",
+      "golang",
+      "http",
+      "httprouter",
+      "mux",
+      "router"
+    ],
+    "updated_at": "2026-04-23T07:05:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abiosoft/river",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chai2010/pbgo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "corneldamian/httpway",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dbubel/intake",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "HttpRouter is a lightweight high performance HTTP request router (also called *multiplexer* or just *mux* for short) for [Go](https://golang.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "HttpRouter is a lightweight high performance HTTP request router (also called *multiplexer* or just *mux* for short) for [Go](https://golang.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "HttpRouter is a lightweight high performance HTTP request router (also called *multiplexer* or just *mux* for short) for [Go](https://golang.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "httprouter"
+    },
+    {
+      "context_snippet": "HttpRouter is a lightweight high performance HTTP request router (also called *multiplexer* or just *mux* for short) for [Go](https://golang.org/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "router"
+    }
+  ]
+}

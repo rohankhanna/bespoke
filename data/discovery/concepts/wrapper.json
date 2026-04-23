@@ -43,6 +43,18 @@
       "source_repo": "rusqlite/rusqlite",
       "status": "candidate-context",
       "text": "[![Latest Version](https://img.shields.io/crates/v/rusqlite.svg)](https://crates.io/crates/rusqlite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoaringBitmap/croaring-rs",
+      "status": "candidate-context",
+      "text": "Rust FFI wrapper for CRoaring"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/croaring-rs",
+      "status": "candidate-context",
+      "text": "A [Rust](https://www.rust-lang.org) wrapper for CRoaring (a C/C++ implementation at https://github.com/RoaringBitmap/CRoaring)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "rusqlite/rusqlite",
       "status": "candidate",
       "text": "[![Latest Version](https://img.shields.io/crates/v/rusqlite.svg)](https://crates.io/crates/rusqlite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/croaring-rs",
+      "status": "candidate",
+      "text": "A [Rust](https://www.rust-lang.org) wrapper for CRoaring (a C/C++ implementation at https://github.com/RoaringBitmap/CRoaring)"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "rusqlite/rusqlite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "RoaringBitmap/croaring-rs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:37:46.524390+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A sample project for getting started with devcontainer.json in envbuilder",
+    "fork": false,
+    "full_name": "coder/envbuilder-starter-devcontainer",
+    "html_url": "https://github.com/coder/envbuilder-starter-devcontainer",
+    "language": "Dockerfile",
+    "pushed_at": "2025-05-13T14:44:05Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2026-03-13T21:00:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

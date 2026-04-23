@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "blip"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autodistill/autodistill-blip",
+      "status": "candidate-context",
+      "text": "BLIP module for use with Autodistill."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodistill/autodistill-blip",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodistill/autodistill-blip",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29904441,
+      "status": "candidate",
+      "text": "radar target"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29853386,
+      "status": "candidate",
+      "text": "piece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29796700,
+      "status": "candidate",
+      "text": "end"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29742373,
+      "status": "candidate",
+      "text": "accident"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29726134,
+      "status": "candidate",
+      "text": "bout"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "radar target"
+    }
+  ],
+  "canonical_name": "blip",
+  "concept_id": "blip",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "autodistill/autodistill-blip"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blip",
+      "sense_id": "blip#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

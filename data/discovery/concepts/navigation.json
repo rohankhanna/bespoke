@@ -1,0 +1,177 @@
+{
+  "aliases": [
+    "navigation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate-context",
+      "text": "API and CLI for generating a markdown TOC (table of contents) for a README or any markdown files. Uses Remarkable to parse markdown. Used by NASA/openmct, Prisma, Joi, Mocha, Sass, Prettier, Orbit DB, FormatJS, Raneto, hapijs/code, webpack-flow, docusaurus, release-it, ts-loader, json-server, reactfire, bunyan, husky, react-easy-state, react-snap, chakra-ui, carbon, alfresco, repolinter, Assemble, Verb, and thousands of other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate-context",
+      "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate-context",
+      "text": "The missing motion for Vim :athletic_shoe:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate-context",
+      "text": "sneak.vim \ud83d\udc5f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate-context",
+      "text": "Routing and navigation for React Native and Web apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate-context",
+      "text": "[![Build Status][build-badge]][build]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate",
+      "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate",
+      "text": "sneak.vim \ud83d\udc5f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate",
+      "text": "[![Build Status][build-badge]][build]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39680799,
+      "status": "candidate",
+      "text": "piloting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39680637,
+      "status": "candidate",
+      "text": "pilotage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39680501,
+      "status": "candidate",
+      "text": "seafaring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39680475,
+      "status": "candidate",
+      "text": "sailing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29681012,
+      "status": "candidate",
+      "text": "navigate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5036,
+      "status": "candidate",
+      "text": "sailing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "pilotage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2030,
+      "status": "candidate",
+      "text": "seafaring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29,
+      "status": "candidate",
+      "text": "piloting"
+    }
+  ],
+  "canonical_name": "navigation",
+  "concept_id": "navigation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/markdown-toc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "justinmk/vim-sneak"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "react-navigation/react-navigation"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "navigation",
+      "sense_id": "navigation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

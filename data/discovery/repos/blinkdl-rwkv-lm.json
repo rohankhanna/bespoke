@@ -1,0 +1,249 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "ai00-x/ai00_server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "blinkdl/ai-writer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "abel2076/json2binidx_tool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "blealtan/rwkv-lm-lora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "attention-mechanism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "gpt-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "gpt-3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "linear-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "lstm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "rwkv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:45:52.691543+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 59301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer (parallelizable). We are at RWKV-7 \"Goose\". So it's combining the best of RNN and transformer - great performance, linear time, constant space (no kv-cache), fast training, infinite ctx_len, and free sentence embedding.",
+    "fork": false,
+    "full_name": "BlinkDL/RWKV-LM",
+    "html_url": "https://github.com/BlinkDL/RWKV-LM",
+    "language": "Python",
+    "pushed_at": "2026-04-21T04:15:03Z",
+    "stargazers_count": 14482,
+    "topics": [
+      "attention-mechanism",
+      "chatgpt",
+      "deep-learning",
+      "gpt",
+      "gpt-2",
+      "gpt-3",
+      "language-model",
+      "linear-attention",
+      "lstm",
+      "pytorch",
+      "rnn",
+      "rwkv",
+      "transformer",
+      "transformers"
+    ],
+    "updated_at": "2026-04-23T04:28:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abel2076/json2binidx_tool",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai00-x/ai00_server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blealtan/rwkv-lm-lora",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blinkdl/ai-writer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-mechanism"
+    },
+    {
+      "context_snippet": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-2"
+    },
+    {
+      "context_snippet": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-3"
+    },
+    {
+      "context_snippet": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linear-attention"
+    },
+    {
+      "context_snippet": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lstm"
+    },
+    {
+      "context_snippet": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rwkv"
+    },
+    {
+      "context_snippet": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

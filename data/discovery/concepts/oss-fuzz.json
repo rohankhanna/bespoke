@@ -58,6 +58,18 @@
       "source_repo": "zlib-ng/minizip-ng",
       "status": "candidate-context",
       "text": "OSS-Fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "FlatBuffers: Memory Efficient Serialization Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "OSS-Fuzz"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "zlib-ng/minizip-ng",
+      "status": "candidate",
+      "text": "OSS-Fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
       "status": "candidate",
       "text": "OSS-Fuzz"
     }
@@ -115,11 +133,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/fuzz.yml",
       "source_repo": "zlib-ng/minizip-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "google/flatbuffers"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

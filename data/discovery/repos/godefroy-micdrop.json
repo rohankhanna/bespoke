@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "concurrently",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Godefroy/micdrop",
+      "target": "concurrently",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Godefroy/micdrop",
+      "target": "prettier",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:47:19.330230+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4042
+    },
+    {
+      "path": "package.json",
+      "size": 1330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Micdrop is a set packages for node and browser that simplify voice conversations with AI systems.",
+    "fork": false,
+    "full_name": "Godefroy/micdrop",
+    "html_url": "https://github.com/Godefroy/micdrop",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-15T13:33:38Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2026-04-15T13:33:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

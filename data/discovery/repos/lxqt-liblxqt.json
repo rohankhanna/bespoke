@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lxqt/liblxqt",
+      "target": "lxqt/libqtxdg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:29:58.922944+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1295
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Core utility library for all LXQt components",
+    "fork": false,
+    "full_name": "lxqt/liblxqt",
+    "html_url": "https://github.com/lxqt/liblxqt",
+    "language": "C++",
+    "pushed_at": "2026-04-20T07:16:03Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2026-04-20T07:14:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lxqt/libqtxdg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

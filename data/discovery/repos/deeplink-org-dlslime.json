@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:32:50.080139+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24758
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1345
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DLSlime: Flexible & Efficient Heterogeneous Transfer Toolkit",
+    "fork": false,
+    "full_name": "DeepLink-org/DLSlime",
+    "html_url": "https://github.com/DeepLink-org/DLSlime",
+    "language": "C++",
+    "pushed_at": "2026-04-23T05:49:53Z",
+    "stargazers_count": 97,
+    "topics": [],
+    "updated_at": "2026-04-23T05:56:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

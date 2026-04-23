@@ -151,6 +151,102 @@
       "source_repo": "voxel51/voxelgpt",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of CoCa, Contrastive Captioners are Image-Text Foundation Models, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./coca.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/audiolm-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of AudioLM, a SOTA Language Modeling Approach to Audio Generation out of Google Research, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/audiolm-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./audiolm.png\" width=\"600px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate-context",
+      "text": "\ud83d\ude4c OpenHands: AI-Driven Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/fairseq",
+      "status": "candidate-context",
+      "text": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/fairseq",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "status": "candidate-context",
+      "text": "Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "status": "candidate-context",
+      "text": "Tongyi Deep Research, the Leading Open-source Deep Research Agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/musiclm-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of MusicLM, Google's new SOTA model for music generation using attention networks, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/musiclm-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./musiclm.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "\ud83d\udc2b CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -223,6 +319,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "voxel51/voxelgpt",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./coca.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/audiolm-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./audiolm.png\" width=\"600px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/fairseq",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/musiclm-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./musiclm.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -322,11 +466,71 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/CoCa-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/audiolm-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/musiclm-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "camel-ai/camel"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

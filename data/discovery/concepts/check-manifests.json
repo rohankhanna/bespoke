@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Manifests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/azurelinux",
+      "status": "candidate-context",
+      "text": "Linux OS for Azure 1P services and edge appliances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/azurelinux",
+      "status": "candidate-context",
+      "text": "Check Manifests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/azurelinux",
+      "status": "candidate",
+      "text": "Check Manifests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14246,
+      "status": "candidate",
+      "text": "sex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13635,
+      "status": "candidate",
+      "text": "index"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13635,
+      "status": "candidate",
+      "text": "indexed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13635,
+      "status": "candidate",
+      "text": "indexing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13635,
+      "status": "candidate",
+      "text": "manifest"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Manifests",
+  "concept_id": "check-manifests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check-manifests.yml",
+      "source_repo": "microsoft/azurelinux"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Manifests",
+      "sense_id": "check-manifests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

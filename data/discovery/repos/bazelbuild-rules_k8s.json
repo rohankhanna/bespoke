@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazelbuild/rules_k8s",
+      "target": "kubernetes/test-infra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_k8s",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_k8s",
+      "target": "bazel-rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_k8s",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_k8s",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_k8s",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_k8s",
+      "target": "kubernetes-deployment",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:31:27.611127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23986
+    },
+    {
+      "path": "requirements.txt",
+      "size": 12
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "This repository contains rules for interacting with Kubernetes configurations / clusters.",
+    "fork": false,
+    "full_name": "bazelbuild/rules_k8s",
+    "html_url": "https://github.com/bazelbuild/rules_k8s",
+    "language": "Starlark",
+    "pushed_at": "2023-05-12T13:44:37Z",
+    "stargazers_count": 292,
+    "topics": [
+      "bazel",
+      "bazel-rules",
+      "docker",
+      "docker-image",
+      "k8s",
+      "kubernetes",
+      "kubernetes-deployment"
+    ],
+    "updated_at": "2026-04-07T03:33:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/test-infra",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**This repository is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "**This repository is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel-rules"
+    },
+    {
+      "context_snippet": "**This repository is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "**This repository is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "**This repository is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "**This repository is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-deployment"
+    }
+  ]
+}

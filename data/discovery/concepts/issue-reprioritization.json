@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "issue-reprioritization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajaxorg/ace",
+      "status": "candidate-context",
+      "text": "Ace (Ajax.org Cloud9 Editor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajaxorg/ace",
+      "status": "candidate-context",
+      "text": "issue-reprioritization"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajaxorg/ace",
+      "status": "candidate",
+      "text": "issue-reprioritization"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "issue-reprioritization",
+  "concept_id": "issue-reprioritization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/issue-reprioritization.yml",
+      "source_repo": "ajaxorg/ace"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "issue-reprioritization",
+      "sense_id": "issue-reprioritization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

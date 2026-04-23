@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The type signature language for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Merge dependabot PRs automatically"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Merge dependabot PRs automatically"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22159,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22105,
+      "status": "candidate",
+      "text": "bib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22105,
+      "status": "candidate",
+      "text": "cap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22105,
+      "status": "candidate",
+      "text": "dependence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22105,
+      "status": "candidate",
+      "text": "dependency"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Merge dependabot PRs automatically",
+      "sense_id": "merge-dependabot-prs-automatically#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "merge-dependabot-prs-automatically",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "merge-dependabot-prs-automatically",
+  "observation_id": "3d13b1e669e7ecc5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Merge dependabot PRs automatically",
+  "source_context_snippet": "Merge dependabot PRs automatically",
+  "source_file": ".github/workflows/dependabot.yml",
+  "source_repo": "ruby/rbs",
+  "source_repo_description": "The type signature language for Ruby"
+}

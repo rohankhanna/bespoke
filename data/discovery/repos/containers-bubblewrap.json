@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/bubblewrap",
+      "target": "projectatomic/bwrap-oci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/bubblewrap",
+      "target": "flatpak/xdg-dbus-proxy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/bubblewrap",
+      "target": "netblue30/firejail",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/bubblewrap",
+      "target": "jfrazelle/binctr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "containers/bubblewrap",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "containers/bubblewrap",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "containers/bubblewrap",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "containers/bubblewrap",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "containers/bubblewrap",
+      "target": "CI checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/bubblewrap",
+      "target": "linux-containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/bubblewrap",
+      "target": "user-namespaces",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:28:18.626855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11153
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 3214
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Low-level unprivileged sandboxing tool used by Flatpak and similar projects",
+    "fork": false,
+    "full_name": "containers/bubblewrap",
+    "html_url": "https://github.com/containers/bubblewrap",
+    "language": "C",
+    "pushed_at": "2026-03-21T18:07:08Z",
+    "stargazers_count": 6847,
+    "topics": [
+      "linux-containers",
+      "user-namespaces"
+    ],
+    "updated_at": "2026-04-23T04:53:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flatpak/xdg-dbus-proxy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jfrazelle/binctr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "netblue30/firejail",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "projectatomic/bwrap-oci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "CI checks"
+    },
+    {
+      "context_snippet": "Bubblewrap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux-containers"
+    },
+    {
+      "context_snippet": "Bubblewrap",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "user-namespaces"
+    }
+  ]
+}

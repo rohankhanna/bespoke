@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "conda-packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamba-org/boa",
+      "status": "candidate-context",
+      "text": "The fast conda package builder, based on mamba"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/boa",
+      "status": "candidate-context",
+      "text": "![boa header image](docs/assets/boa_header.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/boa",
+      "status": "candidate",
+      "text": "![boa header image](docs/assets/boa_header.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "conda-packages",
+  "concept_id": "conda-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mamba-org/boa"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conda-packages",
+      "sense_id": "conda-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

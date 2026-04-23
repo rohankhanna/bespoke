@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Discussion, support and common information for projects in the community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Discussion, support and common information for projects in the community.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Discussion, support and common information for projects in the community.**"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031239,
+      "status": "candidate",
+      "text": "gregarious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028219,
+      "status": "candidate",
+      "text": "sociable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026723,
+      "status": "candidate",
+      "text": "friendly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007093,
+      "status": "candidate",
+      "text": "cultural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005618,
+      "status": "candidate",
+      "text": "societal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "social",
+      "sense_id": "social#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40041,
+      "status": "candidate",
+      "text": "friendly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29042,
+      "status": "candidate",
+      "text": "gregarious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18034,
+      "status": "candidate",
+      "text": "sociable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16030,
+      "status": "candidate",
+      "text": "interpersonal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7026,
+      "status": "candidate",
+      "text": "societal"
+    }
+  ],
+  "concept_id": "social",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "social",
+  "observation_id": "de2ba59cb2701009",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "social",
+  "source_context_snippet": "**Discussion, support and common information for projects in the community.**",
+  "source_file": null,
+  "source_repo": "Level/community",
+  "source_repo_description": "Discussion, support and common information for projects in the community."
+}

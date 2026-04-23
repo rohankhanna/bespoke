@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Java language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "License vetting status check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "License vetting status check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32365,
+      "status": "candidate",
+      "text": "leave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32365,
+      "status": "candidate",
+      "text": "rent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32336,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32327,
+      "status": "candidate",
+      "text": "imprimatur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32275,
+      "status": "candidate",
+      "text": "take"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "License vetting status check",
+      "sense_id": "license-vetting-status-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "license-vetting-status-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "license-vetting-status-check",
+  "observation_id": "6d50028b81adc18b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "License vetting status check",
+  "source_context_snippet": "License vetting status check",
+  "source_file": ".github/workflows/licensecheck.yml",
+  "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+  "source_repo_description": "Java language server"
+}

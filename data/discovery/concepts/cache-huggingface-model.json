@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cache HuggingFace Model"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/Megatron-Bridge",
+      "status": "candidate-context",
+      "text": "Training library for Megatron-based models with bidirectional Hugging Face conversion capability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Megatron-Bridge",
+      "status": "candidate-context",
+      "text": "\"Cache HuggingFace Model\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Megatron-Bridge",
+      "status": "candidate",
+      "text": "\"Cache HuggingFace Model\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11719,
+      "status": "candidate",
+      "text": "armory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11719,
+      "status": "candidate",
+      "text": "arsenal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11719,
+      "status": "candidate",
+      "text": "cached"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11719,
+      "status": "candidate",
+      "text": "hiding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11719,
+      "status": "candidate",
+      "text": "lode"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cache HuggingFace Model",
+  "concept_id": "cache-huggingface-model",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cache-hf-model.yml",
+      "source_repo": "NVIDIA-NeMo/Megatron-Bridge"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cache HuggingFace Model",
+      "sense_id": "cache-huggingface-model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

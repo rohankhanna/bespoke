@@ -4,14 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "albumentations-team/albumentationsx",
+      "target": "apache/airflow",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "anthropics/anthropic-sdk-python",
+      "target": "apache/superset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astral-sh/ruff",
+      "target": "asottile/pyupgrade",
       "target_type": "repository"
     },
     {
@@ -19,13 +26,6 @@
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
       "target": "altair-viz/altair",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "astral-sh/ruff",
-      "target": "alteryx/featuretools",
       "target_type": "repository"
     },
     {
@@ -46,14 +46,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
+      "target": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -102,14 +102,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -151,7 +151,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-wasm.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -186,14 +186,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "taiki-e/install-action@7a562dfa955aa2e4d5b0fd6ebd57ff9715c07b0b",
+      "target": "taiki-e/install-action@0abfcd587b70a713fdaa7fb502c885e2112acb15",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -221,14 +221,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "cargo-bins/cargo-binstall@0b24824336e2b3800b0f89d9e08b2c08bfa3dcdd",
+      "target": "cargo-bins/cargo-binstall@f8ce4d55b131f4a1e373b8747ca6b6a54133ae5a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -242,7 +242,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
+      "target": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
       "target_type": "component"
     },
     {
@@ -270,7 +270,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "CodSpeedHQ/action@d872884a306dd4853acf0f584f4b706cf0cc72a2",
+      "target": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
       "target_type": "component"
     },
     {
@@ -291,7 +291,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily_fuzz.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -312,7 +312,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily_fuzz.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -347,7 +347,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/memory_report.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -428,6 +428,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T12:46:59.510459+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "astral-sh/ruff"
 }

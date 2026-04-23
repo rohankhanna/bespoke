@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "superbrothers/close-pull-request@9c18513d320d7b2c7185fb93396d0c664d5d8448",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-prs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-prs.yml",
+      "source_repo": "containers/storage",
+      "target": "superbrothers/close-pull-request@9c18513d320d7b2c7185fb93396d0c664d5d8448",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-prs.yml",
+      "source_repo": "containers/storage",
+      "target": "Close Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/storage",
+      "target": "buildah",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/storage",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/storage",
+      "target": "podman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "containers/storage",
+      "target": "skopeo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:37:20.524022+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2811
+    },
+    {
+      "path": "go.mod",
+      "size": 1585
+    },
+    {
+      "path": ".github/workflows/auto-close-issues.yml",
+      "size": 479
+    },
+    {
+      "path": ".github/workflows/auto-close-prs.yml",
+      "size": 379
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Container Storage Library",
+    "fork": false,
+    "full_name": "containers/storage",
+    "html_url": "https://github.com/containers/storage",
+    "language": "Go",
+    "pushed_at": "2025-11-13T16:41:37Z",
+    "stargazers_count": 628,
+    "topics": [
+      "buildah",
+      "containers",
+      "podman",
+      "skopeo"
+    ],
+    "updated_at": "2026-04-14T17:33:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Close Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-prs.yml",
+      "term": "Close Pull Request"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "buildah"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "podman"
+    },
+    {
+      "context_snippet": "> [!WARNING]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skopeo"
+    }
+  ]
+}

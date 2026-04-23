@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -47,6 +47,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/crowdin.yml",
       "source_repo": "iorate/ublacklist"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-searxng-instances.yml",
+      "source_repo": "ublacklist/builtin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "agentclientprotocol/symposium-acp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml",
+      "source_repo": "grafana/alloy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula-pr.yml",
+      "source_repo": "grafana/alloy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-dist.yml",
+      "source_repo": "docker/login-action"
     }
   ]
 }

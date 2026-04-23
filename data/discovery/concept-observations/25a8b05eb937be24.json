@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Command line tool to create and query container image manifest list/indexes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multiarch",
+      "sense_id": "multiarch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "multiarch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multiarch",
+  "observation_id": "25a8b05eb937be24",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "multiarch",
+  "source_context_snippet": "`manifest-tool` is a command line utility used to view or push multi-platform container image",
+  "source_file": null,
+  "source_repo": "estesp/manifest-tool",
+  "source_repo_description": "Command line tool to create and query container image manifest list/indexes"
+}

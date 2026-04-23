@@ -1,0 +1,106 @@
+{
+  "aliases": [
+    "Run k8s test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/optimism-package",
+      "status": "candidate-context",
+      "text": "A kurtosis package for deploying an optimistic rollup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/optimism-package",
+      "status": "candidate-context",
+      "text": "Run k8s test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/optimism-package",
+      "status": "candidate",
+      "text": "Run k8s test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48062,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48033,
+      "status": "candidate",
+      "text": "flyer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 47968,
+      "status": "candidate",
+      "text": "feeler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28062,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27968,
+      "status": "candidate",
+      "text": "flagpole"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run k8s test",
+  "concept_id": "run-k8s-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/reusable-run-k8s.yml",
+      "source_repo": "ethpandaops/optimism-package"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scheduled-k8s.yml",
+      "source_repo": "ethpandaops/optimism-package"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run k8s test",
+      "sense_id": "run-k8s-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

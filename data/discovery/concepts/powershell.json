@@ -43,6 +43,66 @@
       "source_repo": "hpjansson/chafa",
       "status": "candidate-context",
       "text": "<!-- This file is mostly readable as plain text, but it will look better"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "starship/starship",
+      "status": "candidate-context",
+      "text": "\u2604\ud83c\udf0c\ufe0f  The minimal, blazing-fast, and infinitely customizable prompt for any shell!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starship/starship",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "A smarter cd command. Supports all major shells."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vssetup.powershell",
+      "status": "candidate-context",
+      "text": "PowerShell module to interact with Visual Studio Setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vssetup.powershell",
+      "status": "candidate-context",
+      "text": "Visual Studio Setup PowerShell Module"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Record your terminal and generate animated gif images or share a web player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "status": "candidate-context",
+      "text": "Rust implementation of PowerSession, with new features and enhancements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "status": "candidate-context",
+      "text": "> Asciinema-compatible terminal session recorder for Windows"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +123,36 @@
       "source_repo": "hpjansson/chafa",
       "status": "candidate",
       "text": "<!-- This file is mostly readable as plain text, but it will look better"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starship/starship",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vssetup.powershell",
+      "status": "candidate",
+      "text": "Visual Studio Setup PowerShell Module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Watfaq/PowerSession-rs",
+      "status": "candidate",
+      "text": "> Asciinema-compatible terminal session recorder for Windows"
     }
   ],
   "candidate_related_terms": [
@@ -110,11 +200,41 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "hpjansson/chafa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "starship/starship"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ajeetdsouza/zoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vssetup.powershell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "faressoft/terminalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession-rs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

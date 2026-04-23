@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AUR helper with minimal dependencies. Review PKGBUILDs all in once, next build them all without user interaction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Spam issues handler"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Spam issues handler"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19295,
+      "status": "candidate",
+      "text": "user"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19190,
+      "status": "candidate",
+      "text": "dumper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19139,
+      "status": "candidate",
+      "text": "matter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19116,
+      "status": "candidate",
+      "text": "fear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19116,
+      "status": "candidate",
+      "text": "seizure-alert dog"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Spam issues handler",
+      "sense_id": "spam-issues-handler#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "spam-issues-handler",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "spam-issues-handler",
+  "observation_id": "cf7c6269ba1b6c12",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Spam issues handler",
+  "source_context_snippet": "Spam issues handler",
+  "source_file": ".github/workflows/spam-remover.yml",
+  "source_repo": "actionless/pikaur",
+  "source_repo_description": "AUR helper with minimal dependencies. Review PKGBUILDs all in once, next build them all without user interaction."
+}

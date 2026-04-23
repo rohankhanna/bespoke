@@ -5,32 +5,32 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "bazel-contrib/rules_jvm",
+      "target": "bazelbuild/rules_go",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "aspect-build/aspect-gazelle",
+      "target": "benchsci/rules_nodejs_gazelle",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "bazel-contrib/rules_python",
+      "target": "bazelbuild/rules_rust",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "bazel-contrib/rules_go",
+      "target": "bazelbuild/bazel-gazelle",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T01:21:34.785135+00:00",
+  "fetched_at": "2026-04-23T07:42:47.372237+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -58,22 +58,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aspect-build/aspect-gazelle",
+      "full_name": "bazelbuild/bazel-gazelle",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bazel-contrib/rules_go",
+      "full_name": "bazelbuild/rules_go",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bazel-contrib/rules_jvm",
+      "full_name": "bazelbuild/rules_rust",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bazel-contrib/rules_python",
+      "full_name": "benchsci/rules_nodejs_gazelle",
       "source_file": "README.md"
     }
   ],

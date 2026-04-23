@@ -1,0 +1,428 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "risc0/risc0/.github/actions/rustup@352dea62857ba57331053cd0986a12c1a4708732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linear.yml"
+    },
+    {
+      "component": "ctriolo/action-find-or-create-linear-issue@v0.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linear.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "risc0/risc0/.github/actions/rustup@352dea62857ba57331053cd0986a12c1a4708732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "risc0/cargo-install@b9307573043522ab0d3e3be64a51763b765b52a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "risc0/risc0/.github/actions/cuda@352dea62857ba57331053cd0986a12c1a4708732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "risc0/risc0/.github/actions/rustup@352dea62857ba57331053cd0986a12c1a4708732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "risc0/risc0/.github/actions/cuda@352dea62857ba57331053cd0986a12c1a4708732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "risc0/risc0/.github/actions/rustup@352dea62857ba57331053cd0986a12c1a4708732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "risc0/risc0/.github/actions/rustup@352dea62857ba57331053cd0986a12c1a4708732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "risc0/risc0/.github/actions/cuda@352dea62857ba57331053cd0986a12c1a4708732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "risc0/risc0/.github/actions/rustup@352dea62857ba57331053cd0986a12c1a4708732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "risc0/risc0/.github/actions/rustup@352dea62857ba57331053cd0986a12c1a4708732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "risc0/risc0/.github/actions/rustup@352dea62857ba57331053cd0986a12c1a4708732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    },
+    {
+      "component": "risc0/risc0/.github/actions/rustup@352dea62857ba57331053cd0986a12c1a4708732",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    },
+    {
+      "component": "foundry-rs/foundry-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/steel-documentation.yml"
+    },
+    {
+      "component": "actions/configure-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/steel-documentation.yml"
+    },
+    {
+      "component": "risc0/risc0/.github/actions/rustup@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/steel-documentation.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/steel-documentation.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/steel-documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "risc0/risc0/.github/actions/rustup@352dea62857ba57331053cd0986a12c1a4708732",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "E2E",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linear.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linear.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "ctriolo/action-find-or-create-linear-issue@v0.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "risc0/risc0/.github/actions/rustup@352dea62857ba57331053cd0986a12c1a4708732",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "risc0/cargo-install@b9307573043522ab0d3e3be64a51763b765b52a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "risc0/risc0/.github/actions/cuda@352dea62857ba57331053cd0986a12c1a4708732",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "risc0/risc0/.github/actions/rustup@352dea62857ba57331053cd0986a12c1a4708732",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "foundry-rs/foundry-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "Scheduled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/steel-documentation.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/steel-documentation.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "actions/configure-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/steel-documentation.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "risc0/risc0/.github/actions/rustup@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/steel-documentation.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/steel-documentation.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/steel-documentation.yml",
+      "source_repo": "boundless-xyz/steel",
+      "target": "Deploy Steel Documentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:28:21.481871+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2427
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1877
+    },
+    {
+      "path": ".github/workflows/e2e.yml",
+      "size": 1917
+    },
+    {
+      "path": ".github/workflows/linear.yml",
+      "size": 972
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 10971
+    },
+    {
+      "path": ".github/workflows/schedule.yml",
+      "size": 2002
+    },
+    {
+      "path": ".github/workflows/steel-documentation.yml",
+      "size": 2506
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Steel: The ZK Coprocessor for EVM Apps",
+    "fork": false,
+    "full_name": "boundless-xyz/steel",
+    "html_url": "https://github.com/boundless-xyz/steel",
+    "language": "Rust",
+    "pushed_at": "2026-04-21T04:36:46Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-20T11:14:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "E2E",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yml",
+      "term": "E2E"
+    },
+    {
+      "context_snippet": "Scheduled",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "term": "Scheduled"
+    },
+    {
+      "context_snippet": "Deploy Steel Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/steel-documentation.yml",
+      "term": "Deploy Steel Documentation"
+    }
+  ]
+}

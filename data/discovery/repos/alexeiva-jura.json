@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexeiva/jura",
+      "target": "raphaelbastide/unified-font-repository",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "alexeiva/jura",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "alexeiva/jura",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "alexeiva/jura",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "alexeiva/jura",
+      "target": "Build font and specimen",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:44:43.555130+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2367
+    },
+    {
+      "path": "requirements.txt",
+      "size": 97
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 954
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Jura open-source font by Daniel Johnson",
+    "fork": true,
+    "full_name": "alexeiva/jura",
+    "html_url": "https://github.com/alexeiva/jura",
+    "language": "HTML",
+    "pushed_at": "2025-05-09T11:14:36Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-01-13T09:59:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raphaelbastide/unified-font-repository",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build font and specimen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build font and specimen"
+    }
+  ]
+}

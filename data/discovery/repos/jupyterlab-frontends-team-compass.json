@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyterlab/frontends-team-compass",
+      "target": "jupyter/notebook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyterlab/frontends-team-compass",
+      "target": "jupyter/governance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyterlab/frontends-team-compass",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jupyterlab/frontends-team-compass",
+      "target": "jupyterlab",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:32:43.945877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4117
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repository for team interaction, syncing, and handling meeting notes across the JupyterLab ecosystem.",
+    "fork": false,
+    "full_name": "jupyterlab/frontends-team-compass",
+    "html_url": "https://github.com/jupyterlab/frontends-team-compass",
+    "language": null,
+    "pushed_at": "2025-11-21T13:27:35Z",
+    "stargazers_count": 74,
+    "topics": [
+      "jupyter",
+      "jupyterlab"
+    ],
+    "updated_at": "2026-04-12T09:42:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jupyter/governance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jupyter/notebook",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A repository for team interaction, syncing, and handling meeting notes across the JupyterLab ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "A repository for team interaction, syncing, and handling meeting notes across the JupyterLab ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterlab"
+    }
+  ]
+}

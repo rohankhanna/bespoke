@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigai-nlco/RuleReasoner",
+      "target": "curriculum-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigai-nlco/RuleReasoner",
+      "target": "reasoning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:29.238797+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6269
+    },
+    {
+      "path": "requirements.txt",
+      "size": 776
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2026] RuleReasoner: Reinforced Rule-based Reasoning via Domain-aware Dynamic Sampling",
+    "fork": false,
+    "full_name": "bigai-nlco/RuleReasoner",
+    "html_url": "https://github.com/bigai-nlco/RuleReasoner",
+    "language": "Python",
+    "pushed_at": "2026-02-25T14:32:07Z",
+    "stargazers_count": 37,
+    "topics": [
+      "curriculum-learning",
+      "reasoning",
+      "rl"
+    ],
+    "updated_at": "2026-03-28T03:44:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div id=\"top\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curriculum-learning"
+    },
+    {
+      "context_snippet": "<div id=\"top\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reasoning"
+    }
+  ]
+}

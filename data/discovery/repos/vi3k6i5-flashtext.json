@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi3k6i5/flashtext",
+      "target": "data-extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi3k6i5/flashtext",
+      "target": "keyword-extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi3k6i5/flashtext",
+      "target": "search-in-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vi3k6i5/flashtext",
+      "target": "word2vec",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:35:21.750323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 9183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extract Keywords from sentence or Replace keywords in sentences.",
+    "fork": false,
+    "full_name": "vi3k6i5/flashtext",
+    "html_url": "https://github.com/vi3k6i5/flashtext",
+    "language": "Python",
+    "pushed_at": "2025-04-13T22:35:59Z",
+    "stargazers_count": 5709,
+    "topics": [
+      "data-extraction",
+      "keyword-extraction",
+      "nlp",
+      "search-in-text",
+      "word2vec"
+    ],
+    "updated_at": "2026-04-22T03:56:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "=========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-extraction"
+    },
+    {
+      "context_snippet": "=========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyword-extraction"
+    },
+    {
+      "context_snippet": "=========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search-in-text"
+    },
+    {
+      "context_snippet": "=========",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "word2vec"
+    }
+  ]
+}

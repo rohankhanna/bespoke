@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "thedoctor0/zip-release@0.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "target": "thedoctor0/zip-release@0.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "target": "actions/upload-artifact@v3.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "target": "lens",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:31:16.134447+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10188
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A tool to convert images from one lens type to another.",
+    "fork": false,
+    "full_name": "IDLabMedia/image-lens-reproject",
+    "html_url": "https://github.com/IDLabMedia/image-lens-reproject",
+    "language": "C++",
+    "pushed_at": "2024-02-08T08:48:08Z",
+    "stargazers_count": 14,
+    "topics": [
+      "image-processing",
+      "lens"
+    ],
+    "updated_at": "2025-10-16T03:52:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/IDLabMedia/image-lens-reproject/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/IDLabMedia/image-lens-reproject/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lens"
+    }
+  ]
+}

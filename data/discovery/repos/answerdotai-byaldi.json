@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    },
+    {
+      "component": "chartboost/ruff-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AnswerDotAI/byaldi",
+      "target": "answerdotai/ragatouille",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AnswerDotAI/byaldi",
+      "target": "openbmb/visrag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "AnswerDotAI/byaldi",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "AnswerDotAI/byaldi",
+      "target": "chartboost/ruff-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "AnswerDotAI/byaldi",
+      "target": "Ruff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnswerDotAI/byaldi",
+      "target": "colbert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnswerDotAI/byaldi",
+      "target": "colpali",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnswerDotAI/byaldi",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnswerDotAI/byaldi",
+      "target": "reranking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AnswerDotAI/byaldi",
+      "target": "retrieval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:28:36.674318+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7035
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1955
+    },
+    {
+      "path": ".github/workflows/ruff.yml",
+      "size": 188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Use late-interaction multi-modal models such as ColPali in just a few lines of code.",
+    "fork": false,
+    "full_name": "AnswerDotAI/byaldi",
+    "html_url": "https://github.com/AnswerDotAI/byaldi",
+    "language": "Python",
+    "pushed_at": "2025-01-28T20:47:40Z",
+    "stargazers_count": 846,
+    "topics": [
+      "colbert",
+      "colpali",
+      "multi-modal",
+      "nlp",
+      "rag",
+      "reranking",
+      "retrieval"
+    ],
+    "updated_at": "2026-04-13T18:12:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "answerdotai/ragatouille",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/visrag",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ruff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "term": "Ruff"
+    },
+    {
+      "context_snippet": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colbert"
+    },
+    {
+      "context_snippet": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colpali"
+    },
+    {
+      "context_snippet": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reranking"
+    },
+    {
+      "context_snippet": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval"
+    }
+  ]
+}

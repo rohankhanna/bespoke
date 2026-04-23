@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:33:31.283845+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "OCI Working Group: Reference Types",
+    "fork": false,
+    "full_name": "opencontainers/wg-reference-types",
+    "html_url": "https://github.com/opencontainers/wg-reference-types",
+    "language": null,
+    "pushed_at": "2022-08-25T22:35:37Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2025-12-06T10:43:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

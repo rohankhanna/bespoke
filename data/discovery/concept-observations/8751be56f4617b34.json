@@ -84,7 +84,7 @@
   "normalized_form": "file-processors-tests",
   "observation_id": "8751be56f4617b34",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "File Processors Tests",
   "source_context_snippet": "File Processors Tests",
   "source_file": ".github/workflows/file-processors-tests.yml",

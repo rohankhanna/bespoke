@@ -1,0 +1,210 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/gnostic",
+      "target": "oai/openapi-specification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/gnostic",
+      "target": "google/gnostic-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/gnostic",
+      "target": "google/gnostic-grpc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/gnostic",
+      "target": "google/gnostic-go-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "google/gnostic",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "google/gnostic",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/gnostic",
+      "target": "apis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/gnostic",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/gnostic",
+      "target": "gnostic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/gnostic",
+      "target": "linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/gnostic",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/gnostic",
+      "target": "openapi3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/gnostic",
+      "target": "protocol-buffers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:40:03.985963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6731
+    },
+    {
+      "path": "go.mod",
+      "size": 773
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 779
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A compiler for APIs described by the OpenAPI Specification with plugins for code generation and other API support tasks.",
+    "fork": false,
+    "full_name": "google/gnostic",
+    "html_url": "https://github.com/google/gnostic",
+    "language": "Go",
+    "pushed_at": "2026-04-17T04:05:30Z",
+    "stargazers_count": 2276,
+    "topics": [
+      "apis",
+      "code-generation",
+      "gnostic",
+      "linters",
+      "openapi",
+      "openapi3",
+      "protocol-buffers"
+    ],
+    "updated_at": "2026-04-15T10:21:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/gnostic-go-generator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/gnostic-grpc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/gnostic-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oai/openapi-specification",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Go Actions Status](https://github.com/google/gnostic/workflows/Go/badge.svg)](https://github.com/google/gnostic/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apis"
+    },
+    {
+      "context_snippet": "[![Go Actions Status](https://github.com/google/gnostic/workflows/Go/badge.svg)](https://github.com/google/gnostic/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "[![Go Actions Status](https://github.com/google/gnostic/workflows/Go/badge.svg)](https://github.com/google/gnostic/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnostic"
+    },
+    {
+      "context_snippet": "[![Go Actions Status](https://github.com/google/gnostic/workflows/Go/badge.svg)](https://github.com/google/gnostic/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linters"
+    },
+    {
+      "context_snippet": "[![Go Actions Status](https://github.com/google/gnostic/workflows/Go/badge.svg)](https://github.com/google/gnostic/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "[![Go Actions Status](https://github.com/google/gnostic/workflows/Go/badge.svg)](https://github.com/google/gnostic/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi3"
+    },
+    {
+      "context_snippet": "[![Go Actions Status](https://github.com/google/gnostic/workflows/Go/badge.svg)](https://github.com/google/gnostic/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol-buffers"
+    }
+  ]
+}

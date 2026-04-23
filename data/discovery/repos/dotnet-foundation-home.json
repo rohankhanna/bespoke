@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet-foundation/Home",
+      "target": "dotnet-foundation/projects",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet-foundation/Home",
+      "target": "dotnet-foundation/wg-maintainers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet-foundation/Home",
+      "target": "dotnet-foundation/wg-corporate-relations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet-foundation/Home",
+      "target": "dotnet-foundation/content",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:43:15.762916+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5025
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the landing repository for the .NET foundation efforts. Start here! ",
+    "fork": false,
+    "full_name": "dotnet-foundation/Home",
+    "html_url": "https://github.com/dotnet-foundation/Home",
+    "language": null,
+    "pushed_at": "2023-02-15T21:18:00Z",
+    "stargazers_count": 85,
+    "topics": [],
+    "updated_at": "2026-04-21T09:41:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet-foundation/content",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet-foundation/projects",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet-foundation/wg-corporate-relations",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet-foundation/wg-maintainers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

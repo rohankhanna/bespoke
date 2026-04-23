@@ -1,12 +1,27 @@
 {
   "component": "actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7",
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/clear_caches.yml",
       "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-intel.yml",
+      "source_repo": "aaif-goose/goose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml",
+      "source_repo": "aaif-goose/goose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml",
+      "source_repo": "aaif-goose/goose"
     }
   ]
 }

@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abaplint/abaplint-sci-client",
+      "target": "abaplint/abaplint-sci-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abaplint/abaplint-sci-client",
+      "target": "abap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abaplint/abaplint-sci-client",
+      "target": "abap-test-cockpit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abaplint/abaplint-sci-client",
+      "target": "abaplint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abaplint/abaplint-sci-client",
+      "target": "code-inspector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abaplint/abaplint-sci-client",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:02.728373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2230
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ABAP part for running abaplint on ABAP backend",
+    "fork": false,
+    "full_name": "abaplint/abaplint-sci-client",
+    "html_url": "https://github.com/abaplint/abaplint-sci-client",
+    "language": "ABAP",
+    "pushed_at": "2025-06-30T07:24:08Z",
+    "stargazers_count": 40,
+    "topics": [
+      "abap",
+      "abap-test-cockpit",
+      "abaplint",
+      "code-inspector",
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-01-06T15:43:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abaplint/abaplint-sci-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap"
+    },
+    {
+      "context_snippet": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap-test-cockpit"
+    },
+    {
+      "context_snippet": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abaplint"
+    },
+    {
+      "context_snippet": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-inspector"
+    },
+    {
+      "context_snippet": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

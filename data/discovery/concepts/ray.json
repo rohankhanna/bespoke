@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "ray"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "status": "candidate-context",
+      "text": "Minimal reproduction of DeepSeek R1-Zero"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "status": "candidate-context",
+      "text": "ray"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "status": "candidate",
+      "text": "ray"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40004603,
+      "status": "candidate",
+      "text": "radiate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000629,
+      "status": "candidate",
+      "text": "irradiate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39999549,
+      "status": "candidate",
+      "text": "ray of light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39963877,
+      "status": "candidate",
+      "text": "beam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955295,
+      "status": "candidate",
+      "text": "shaft"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35074,
+      "status": "candidate",
+      "text": "beam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17042,
+      "status": "candidate",
+      "text": "radiate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12012,
+      "status": "candidate",
+      "text": "ray of light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6035,
+      "status": "candidate",
+      "text": "irradiate"
+    }
+  ],
+  "canonical_name": "ray",
+  "concept_id": "ray",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ray_test.yml",
+      "source_repo": "Jiayi-Pan/TinyZero"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ray",
+      "sense_id": "ray#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

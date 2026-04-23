@@ -43,6 +43,30 @@
       "source_repo": "zhayujie/CowAgent",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wechaty/wechaty",
+      "status": "candidate-context",
+      "text": "Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wechaty/wechaty",
+      "status": "candidate-context",
+      "text": "[![Wechaty](https://wechaty.js.org/img/wechaty-logo.svg)](https://wechaty.js.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "offu/WeRoBot",
+      "status": "candidate-context",
+      "text": "WeRoBot \u662f\u4e00\u4e2a\u5fae\u4fe1\u516c\u4f17\u53f7\u5f00\u53d1\u6846\u67b6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "offu/WeRoBot",
+      "status": "candidate-context",
+      "text": "===================================="
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "zhayujie/CowAgent",
       "status": "candidate",
       "text": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/eca9a9ec-8534-4615-9e0f-96c5ac1d10a3\" alt=\"CowAgent\" width=\"550\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wechaty/wechaty",
+      "status": "candidate",
+      "text": "[![Wechaty](https://wechaty.js.org/img/wechaty-logo.svg)](https://wechaty.js.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "offu/WeRoBot",
+      "status": "candidate",
+      "text": "===================================="
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +172,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "wechaty/wechaty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "offu/WeRoBot"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

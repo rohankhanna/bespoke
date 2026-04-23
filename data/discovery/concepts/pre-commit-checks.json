@@ -19,12 +19,48 @@
       "source_repo": "stanfordnlp/dspy",
       "status": "candidate-context",
       "text": "Pre-commit checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelTC/LightLLM",
+      "status": "candidate-context",
+      "text": "LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight design, easy scalability, and high-speed performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/LightLLM",
+      "status": "candidate-context",
+      "text": "Pre-commit checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "status": "candidate-context",
+      "text": "Lightweight OpenHands CLI in a binary executable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "status": "candidate-context",
+      "text": "Pre-commit checks"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "stanfordnlp/dspy",
+      "status": "candidate",
+      "text": "Pre-commit checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/LightLLM",
+      "status": "candidate",
+      "text": "Pre-commit checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands-CLI",
       "status": "candidate",
       "text": "Pre-commit checks"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/precommits_check.yml",
       "source_repo": "stanfordnlp/dspy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ModelTC/LightLLM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "OpenHands/OpenHands-CLI"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

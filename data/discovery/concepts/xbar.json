@@ -19,6 +19,30 @@
       "source_repo": "unixorn/lima-xbar-plugin",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matryer/xbar",
+      "status": "candidate-context",
+      "text": "Put the output from any script or program into your macOS Menu Bar (the BitBar reboot)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matryer/xbar",
+      "status": "candidate-context",
+      "text": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matryer/xbar-plugins",
+      "status": "candidate-context",
+      "text": "Plugin repository for xbar (the BitBar reboot)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matryer/xbar-plugins",
+      "status": "candidate-context",
+      "text": "This repo contains scripts, programs and command-line tools that add functionality to [xbar](https://github.com/matryer/xbar#get-started)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "unixorn/lima-xbar-plugin",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matryer/xbar",
+      "status": "candidate",
+      "text": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matryer/xbar-plugins",
+      "status": "candidate",
+      "text": "This repo contains scripts, programs and command-line tools that add functionality to [xbar](https://github.com/matryer/xbar#get-started)."
     }
   ],
   "candidate_related_terms": [
@@ -62,11 +98,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "unixorn/lima-xbar-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "matryer/xbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "matryer/xbar-plugins"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

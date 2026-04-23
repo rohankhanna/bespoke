@@ -1,0 +1,144 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fatchord/WaveRNN",
+      "target": "keithito/tacotron",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fatchord/WaveRNN",
+      "target": "r9y9/wavenet_vocoder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fatchord/WaveRNN",
+      "target": "neural-vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fatchord/WaveRNN",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fatchord/WaveRNN",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fatchord/WaveRNN",
+      "target": "tacotron",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fatchord/WaveRNN",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fatchord/WaveRNN",
+      "target": "wavernn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:33:32.028125+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3032
+    },
+    {
+      "path": "requirements.txt",
+      "size": 62
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WaveRNN Vocoder + TTS",
+    "fork": false,
+    "full_name": "fatchord/WaveRNN",
+    "html_url": "https://github.com/fatchord/WaveRNN",
+    "language": "Python",
+    "pushed_at": "2022-07-02T14:21:35Z",
+    "stargazers_count": 2181,
+    "topics": [
+      "neural-vocoder",
+      "pytorch",
+      "speech-synthesis",
+      "tacotron",
+      "text-to-speech",
+      "tts",
+      "wavernn"
+    ],
+    "updated_at": "2026-04-21T00:23:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "keithito/tacotron",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r9y9/wavenet_vocoder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Tacotron with WaveRNN diagrams](assets/tacotron_wavernn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-vocoder"
+    },
+    {
+      "context_snippet": "![Tacotron with WaveRNN diagrams](assets/tacotron_wavernn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![Tacotron with WaveRNN diagrams](assets/tacotron_wavernn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "![Tacotron with WaveRNN diagrams](assets/tacotron_wavernn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tacotron"
+    },
+    {
+      "context_snippet": "![Tacotron with WaveRNN diagrams](assets/tacotron_wavernn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "![Tacotron with WaveRNN diagrams](assets/tacotron_wavernn.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wavernn"
+    }
+  ]
+}

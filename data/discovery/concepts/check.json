@@ -130,6 +130,126 @@
       "source_repo": "iorate/ublacklist",
       "status": "candidate-context",
       "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/portability",
+      "status": "candidate-context",
+      "text": "Vulkan Portability Implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/portability",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate-context",
+      "text": "Make underlay and overlay network can coexist, communicate, even be transformed purposefully."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate-context",
+      "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AliyunContainerService/terway",
+      "status": "candidate-context",
+      "text": "CNI plugin for Alibaba Cloud VPC/ENI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliyunContainerService/terway",
+      "status": "candidate-context",
+      "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/branding",
+      "status": "candidate-context",
+      "text": "The home of the NixOS branding guide and media kit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/branding",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate-context",
+      "text": "\u26a1 Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/checkpoint-sync-health-checks",
+      "status": "candidate-context",
+      "text": "A community maintained list of public Beacon Chain checkpoint sync endpoints with health checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/checkpoint-sync-health-checks",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy-vscode-extension",
+      "status": "candidate-context",
+      "text": "A VS Code Extension for Trivy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-vscode-extension",
+      "status": "candidate-context",
+      "text": "check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HoneyLuka/uBlacklist",
+      "status": "candidate-context",
+      "text": "Blocks specific sites from appearing in Google search results"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HoneyLuka/uBlacklist",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ublacklist/builtin",
+      "status": "candidate-context",
+      "text": "uBlacklist Built-in SERPINFO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ublacklist/builtin",
+      "status": "candidate-context",
+      "text": "Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ublacklist/ublacklist.github.io",
+      "status": "candidate-context",
+      "text": "uBlacklist Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ublacklist/ublacklist.github.io",
+      "status": "candidate-context",
+      "text": "Check"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +310,66 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "iorate/ublacklist",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/portability",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliyunContainerService/terway",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/branding",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/checkpoint-sync-health-checks",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-vscode-extension",
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HoneyLuka/uBlacklist",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ublacklist/builtin",
+      "status": "candidate",
+      "text": "Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ublacklist/ublacklist.github.io",
       "status": "candidate",
       "text": "Check"
     }
@@ -337,11 +517,77 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "iorate/ublacklist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "gfx-rs/portability"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "alibaba/hybridnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "AliyunContainerService/terway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "NixOS/branding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lycheeverse/lychee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "ethpandaops/checkpoint-sync-health-checks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "aquasecurity/trivy-vscode-extension"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "HoneyLuka/uBlacklist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "ublacklist/builtin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "ublacklist/ublacklist.github.io"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

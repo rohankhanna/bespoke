@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of examples that show how to use CrewAI framework to automate workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Welcome to the official collection of **complete CrewAI applications**. This repository contains end-to-end implementations that showcase how to build real-world applications using CrewAI's framework for orchestrating AI agents."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Welcome to the official collection of **complete CrewAI applications**. This repository contains end-to-end implementations that showcase how to build real-world applications using CrewAI's framework for orchestrating AI agents."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "crewai",
+      "sense_id": "crewai#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "crewai",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "crewai",
+  "observation_id": "43acba449b5c84c6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "crewai",
+  "source_context_snippet": "Welcome to the official collection of **complete CrewAI applications**. This repository contains end-to-end implementations that showcase how to build real-world applications using CrewAI's framework for orchestrating AI agents.",
+  "source_file": null,
+  "source_repo": "crewAIInc/crewAI-examples",
+  "source_repo_description": "A collection of examples that show how to use CrewAI framework to automate workflows."
+}

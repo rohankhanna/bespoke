@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:45:53.009562+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2009
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Object-orientation for Lua",
+    "fork": false,
+    "full_name": "kikito/middleclass",
+    "html_url": "https://github.com/kikito/middleclass",
+    "language": "Lua",
+    "pushed_at": "2025-11-03T12:54:01Z",
+    "stargazers_count": 1906,
+    "topics": [],
+    "updated_at": "2026-04-20T08:11:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

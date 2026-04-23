@@ -128,6 +128,42 @@
       "source_repo": "rustsec/advisory-db",
       "status": "candidate-context",
       "text": "Validate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate-context",
+      "text": "ESLint Shareable Config for JSX support in JavaScript Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate-context",
+      "text": "validate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-lsp4j/lsp4j",
+      "status": "candidate-context",
+      "text": "A Java implementation of the language server protocol intended to be consumed by tools and language servers implemented in Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-lsp4j/lsp4j",
+      "status": "candidate-context",
+      "text": "Validate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/login-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to login against a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/login-action",
+      "status": "candidate-context",
+      "text": "validate"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +226,24 @@
       "source_repo": "rustsec/advisory-db",
       "status": "candidate",
       "text": "Validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate",
+      "text": "validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-lsp4j/lsp4j",
+      "status": "candidate",
+      "text": "Validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/login-action",
+      "status": "candidate",
+      "text": "validate"
     }
   ],
   "candidate_related_terms": [
@@ -314,11 +368,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/validate.yml",
       "source_repo": "rustsec/advisory-db"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "standard/eslint-config-standard-jsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "docker/login-action"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

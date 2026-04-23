@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cake-build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "status": "candidate-context",
+      "text": "Cake Addin for calling Markdownlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "status": "candidate-context",
+      "text": "This addin for the Cake Build Automation System allows you to run [markdownlint] using [markdownlint-cli]."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "status": "candidate",
+      "text": "This addin for the Cake Build Automation System allows you to run [markdownlint] using [markdownlint-cli]."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cake-build",
+  "concept_id": "cake-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cake-contrib/Cake.Markdownlint"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cake-build",
+      "sense_id": "cake-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -31,6 +31,18 @@
       "source_repo": "ipshipyard/p2p-forge",
       "status": "candidate-context",
       "text": "Go Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/go-cid",
+      "status": "candidate-context",
+      "text": "Content ID v1 implemented in go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-cid",
+      "status": "candidate-context",
+      "text": "Go Checks"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipshipyard/p2p-forge",
+      "status": "candidate",
+      "text": "Go Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-cid",
       "status": "candidate",
       "text": "Go Checks"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/go-check.yml",
       "source_repo": "ipshipyard/p2p-forge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/go-cid"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

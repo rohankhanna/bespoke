@@ -176,28 +176,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "bofenghuang/vigogne",
+      "target": "ddh0/easy-llama",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "blinkdl/rwkv-lm",
+      "target": "deins/llama.cpp.zig",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "containers/ramalama",
+      "target": "cztomsik/ava",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "crashr/gppm",
+      "target": "defilantech/llmkube",
       "target_type": "repository"
     },
     {
@@ -404,7 +404,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:12:32.059967+00:00",
+  "fetched_at": "2026-04-23T08:46:40.661471+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -456,32 +456,32 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-04-23T00:34:31Z",
-    "stargazers_count": 105784,
+    "pushed_at": "2026-04-23T07:34:55Z",
+    "stargazers_count": 105892,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-04-23T01:11:45Z"
+    "updated_at": "2026-04-23T08:43:59Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "blinkdl/rwkv-lm",
+      "full_name": "cztomsik/ava",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bofenghuang/vigogne",
+      "full_name": "ddh0/easy-llama",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "containers/ramalama",
+      "full_name": "defilantech/llmkube",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "crashr/gppm",
+      "full_name": "deins/llama.cpp.zig",
       "source_file": "README.md"
     }
   ],

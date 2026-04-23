@@ -19,6 +19,18 @@
       "source_repo": "cncf/artwork",
       "status": "candidate-context",
       "text": "In this repo, we have artwork in standard formats for the CNCF [projects](https://www.cncf.io/projects/) and programs. We prepare artwork in 2 formats (PNG & SVG), 3 layouts -- horizontal (also known as landscape format), stacked (which is closer to square), and icon (which does\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devicons/devicon",
+      "status": "candidate-context",
+      "text": "Set of icons representing programming languages, designing & development tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devicons/devicon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cncf/artwork",
       "status": "candidate",
       "text": "In this repo, we have artwork in standard formats for the CNCF [projects](https://www.cncf.io/projects/) and programs. We prepare artwork in 2 formats (PNG & SVG), 3 layouts -- horizontal (also known as landscape format), stacked (which is closer to square), and icon (which does\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devicons/devicon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "cncf/artwork"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "devicons/devicon"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

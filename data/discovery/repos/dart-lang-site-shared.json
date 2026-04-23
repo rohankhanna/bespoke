@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dart-lang/site-shared",
+      "target": "dart-lang/site-www",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/site-shared",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/site-shared",
+      "target": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/site-shared",
+      "target": "Dart",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:42:01.817064+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 187
+    },
+    {
+      "path": ".github/workflows/dart.yml",
+      "size": 933
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Content shared across Dart websites",
+    "fork": false,
+    "full_name": "dart-lang/site-shared",
+    "html_url": "https://github.com/dart-lang/site-shared",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-02T01:19:11Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-04-02T01:19:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dart-lang/site-www",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dart",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dart.yml",
+      "term": "Dart"
+    }
+  ]
+}

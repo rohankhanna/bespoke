@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_bentos.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_bentos.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_bentos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_bentos.yml",
+      "source_repo": "bentoml/openllm-models",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_bentos.yml",
+      "source_repo": "bentoml/openllm-models",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make_bentos.yml",
+      "source_repo": "bentoml/openllm-models",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make_bentos.yml",
+      "source_repo": "bentoml/openllm-models",
+      "target": "Make bentos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:28:42.283906+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/make_bentos.yml",
+      "size": 1732
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "bentoml/openllm-models",
+    "html_url": "https://github.com/bentoml/openllm-models",
+    "language": "Python",
+    "pushed_at": "2026-03-26T11:28:58Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-04-13T07:28:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Make bentos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make_bentos.yml",
+      "term": "Make bentos"
+    }
+  ]
+}

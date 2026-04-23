@@ -1,0 +1,12 @@
+{
+  "component": "SwiftyLab/setup-swift@4bbb093f8c68d1dee1caa8b67c681a3f8fe70a91",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml",
+      "source_repo": "jpsim/Yams"
+    }
+  ]
+}

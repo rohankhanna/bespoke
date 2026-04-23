@@ -1,0 +1,213 @@
+{
+  "components": [
+    {
+      "component": "node-addon-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-gyp-build",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prebuildify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tree-sitter-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tree-sitter",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/setup-action/cli@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tree-sitter/parser-test-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "charmbracelet/meta/.github/workflows/dependabot-sync.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-sync.yml"
+    },
+    {
+      "component": "tree-sitter/workflows/.github/workflows/regenerate.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "charmbracelet/tree-sitter-vhs",
+      "target": "emacs-tree-sitter/tree-sitter-langs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "charmbracelet/tree-sitter-vhs",
+      "target": "node-addon-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "charmbracelet/tree-sitter-vhs",
+      "target": "node-gyp-build",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "charmbracelet/tree-sitter-vhs",
+      "target": "prebuildify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "charmbracelet/tree-sitter-vhs",
+      "target": "tree-sitter-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "charmbracelet/tree-sitter-vhs",
+      "target": "tree-sitter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "charmbracelet/tree-sitter-vhs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "charmbracelet/tree-sitter-vhs",
+      "target": "tree-sitter/setup-action/cli@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "charmbracelet/tree-sitter-vhs",
+      "target": "tree-sitter/parser-test-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/tree-sitter-vhs",
+      "target": "charmbracelet/meta/.github/workflows/dependabot-sync.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "source_repo": "charmbracelet/tree-sitter-vhs",
+      "target": "dependabot-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regenerate.yml",
+      "source_repo": "charmbracelet/tree-sitter-vhs",
+      "target": "tree-sitter/workflows/.github/workflows/regenerate.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regenerate.yml",
+      "source_repo": "charmbracelet/tree-sitter-vhs",
+      "target": "Regenerate parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:17.406878+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1659
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 549
+    },
+    {
+      "path": "package.json",
+      "size": 1124
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 732
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 883
+    },
+    {
+      "path": ".github/workflows/dependabot-sync.yml",
+      "size": 419
+    },
+    {
+      "path": ".github/workflows/regenerate.yml",
+      "size": 375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Syntax highlighting for VHS with tree-sitter \ud83c\udf33",
+    "fork": false,
+    "full_name": "charmbracelet/tree-sitter-vhs",
+    "html_url": "https://github.com/charmbracelet/tree-sitter-vhs",
+    "language": "JavaScript",
+    "pushed_at": "2025-11-24T11:43:55Z",
+    "stargazers_count": 116,
+    "topics": [],
+    "updated_at": "2026-04-10T18:39:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emacs-tree-sitter/tree-sitter-langs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dependabot-sync",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependabot-sync.yml",
+      "term": "dependabot-sync"
+    },
+    {
+      "context_snippet": "Regenerate parser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regenerate.yml",
+      "term": "Regenerate parser"
+    }
+  ]
+}

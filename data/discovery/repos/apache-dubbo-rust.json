@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/licence-checker.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@501a28d2fb4a9b962661987e50cf0219631b32ff",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/licence-checker.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/dependency@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/licence-checker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/dubbo-rust",
+      "target": "tokio-rs/tokio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/dubbo-rust",
+      "target": "tokio-rs/prost",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-rust",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-rust",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions.yml",
+      "source_repo": "apache/dubbo-rust",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/licence-checker.yml",
+      "source_repo": "apache/dubbo-rust",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/licence-checker.yml",
+      "source_repo": "apache/dubbo-rust",
+      "target": "apache/skywalking-eyes/header@501a28d2fb4a9b962661987e50cf0219631b32ff",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/licence-checker.yml",
+      "source_repo": "apache/dubbo-rust",
+      "target": "apache/skywalking-eyes/dependency@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/licence-checker.yml",
+      "source_repo": "apache/dubbo-rust",
+      "target": "License checker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:39:42.107074+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2932
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 818
+    },
+    {
+      "path": ".github/workflows/github-actions.yml",
+      "size": 3035
+    },
+    {
+      "path": ".github/workflows/licence-checker.yml",
+      "size": 1357
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache Dubbo Rust implementation",
+    "fork": false,
+    "full_name": "apache/dubbo-rust",
+    "html_url": "https://github.com/apache/dubbo-rust",
+    "language": "Rust",
+    "pushed_at": "2024-07-15T10:20:21Z",
+    "stargazers_count": 290,
+    "topics": [],
+    "updated_at": "2026-04-07T14:51:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tokio-rs/prost",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tokio-rs/tokio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "License checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/licence-checker.yml",
+      "term": "License checker"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:45:12.634395+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -126,6 +126,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "alibaizhanov/mengram"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepset-ai/hayhooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp"
     }
   ],
   "term": "mcp-server"

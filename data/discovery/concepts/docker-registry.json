@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "docker-registry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate-context",
+      "text": "Command line tool to create and query container image manifest list/indexes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate-context",
+      "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/login-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to login against a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/login-action",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/login-action.svg?style=flat-square)](https://github.com/docker/login-action/releases/latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate",
+      "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/login-action",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/login-action.svg?style=flat-square)](https://github.com/docker/login-action/releases/latest)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "docker-registry",
+  "concept_id": "docker-registry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "estesp/manifest-tool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "docker/login-action"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "docker-registry",
+      "sense_id": "docker-registry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

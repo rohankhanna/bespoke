@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "InternLM/OpenAOE",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "InternLM/OpenAOE",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "InternLM/OpenAOE",
+      "target": "Pylint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternLM/OpenAOE",
+      "target": "chat-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "InternLM/OpenAOE",
+      "target": "llms",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:32:50.836395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5613
+    },
+    {
+      "path": ".github/workflows/pylint.yml",
+      "size": 553
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LLM Group Chat Framework: chat with multiple LLMs at the same time.      \u5927\u6a21\u578b\u7fa4\u804a\u6846\u67b6\uff1a\u540c\u65f6\u4e0e\u591a\u4e2a\u5927\u8bed\u8a00\u6a21\u578b\u804a\u5929\u3002",
+    "fork": false,
+    "full_name": "InternLM/OpenAOE",
+    "html_url": "https://github.com/InternLM/OpenAOE",
+    "language": "TypeScript",
+    "pushed_at": "2025-06-19T13:58:16Z",
+    "stargazers_count": 323,
+    "topics": [
+      "chat-application",
+      "llms"
+    ],
+    "updated_at": "2026-04-15T03:01:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Pylint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "term": "Pylint"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chat-application"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    }
+  ]
+}

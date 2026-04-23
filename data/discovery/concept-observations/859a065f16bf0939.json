@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "On-device AI across mobile, embedded and edge for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Run all unittests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Run all unittests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48181,
+      "status": "candidate",
+      "text": "elope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48181,
+      "status": "candidate",
+      "text": "escape"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48169,
+      "status": "candidate",
+      "text": "flee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48169,
+      "status": "candidate",
+      "text": "fleeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28181,
+      "status": "candidate",
+      "text": "dash"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run all unittests",
+      "sense_id": "run-all-unittests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "run-all-unittests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "run-all-unittests",
+  "observation_id": "859a065f16bf0939",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Run all unittests",
+  "source_context_snippet": "Run all unittests",
+  "source_file": ".github/workflows/_unittest.yml",
+  "source_repo": "pytorch/executorch",
+  "source_repo_description": "On-device AI across mobile, embedded and edge for PyTorch"
+}

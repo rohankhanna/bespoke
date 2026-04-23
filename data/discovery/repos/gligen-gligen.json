@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gligen/GLIGEN",
+      "target": "llava-vl/llava-interactive-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gligen/GLIGEN",
+      "target": "llava-vl/llava-interactive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gligen/GLIGEN",
+      "target": "gligen/diffusers",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:48:30.149202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11524
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open-Set Grounded Text-to-Image Generation",
+    "fork": false,
+    "full_name": "gligen/GLIGEN",
+    "html_url": "https://github.com/gligen/GLIGEN",
+    "language": "Python",
+    "pushed_at": "2024-03-06T06:15:54Z",
+    "stargazers_count": 2219,
+    "topics": [],
+    "updated_at": "2026-04-21T06:57:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gligen/diffusers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llava-vl/llava-interactive",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llava-vl/llava-interactive-demo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

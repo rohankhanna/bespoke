@@ -45,6 +45,30 @@
       "source_repo": "terraform-linters/tflint",
       "status": "candidate-context",
       "text": "generate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-woo/protoc-gen-ent",
+      "status": "candidate-context",
+      "text": "Protocol buffer generate ent. No handwritten schema required, they will be generated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-woo/protoc-gen-ent",
+      "status": "candidate-context",
+      "text": "The `protoc-gen-ent` can generate [ent](https://github.com/ent/ent)'s schemas."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Record your terminal and generate animated gif images or share a web player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +89,18 @@
       "source_repo": "terraform-linters/tflint",
       "status": "candidate",
       "text": "generate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-woo/protoc-gen-ent",
+      "status": "candidate",
+      "text": "The `protoc-gen-ent` can generate [ent](https://github.com/ent/ent)'s schemas."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -162,11 +198,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/generate.yml",
       "source_repo": "terraform-linters/tflint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "go-woo/protoc-gen-ent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "faressoft/terminalizer"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pngquant"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImageOptim/gifski",
+      "status": "candidate-context",
+      "text": "GIF encoder based on libimagequant (pngquant). Squeezes maximum possible quality from the awful GIF format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageOptim/gifski",
+      "status": "candidate-context",
+      "text": "Highest-quality GIF encoder based on [pngquant](https://pngquant.org)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageOptim/gifski",
+      "status": "candidate",
+      "text": "Highest-quality GIF encoder based on [pngquant](https://pngquant.org)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pngquant",
+  "concept_id": "pngquant",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ImageOptim/gifski"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pngquant",
+      "sense_id": "pngquant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

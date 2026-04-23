@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test 32-bit arch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maypok86/otter",
+      "status": "candidate-context",
+      "text": "A high performance caching library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maypok86/otter",
+      "status": "candidate-context",
+      "text": "Test 32-bit arch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maypok86/otter",
+      "status": "candidate",
+      "text": "Test 32-bit arch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9615,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9615,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9615,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9615,
+      "status": "candidate",
+      "text": "diagnosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9615,
+      "status": "candidate",
+      "text": "lead"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test 32-bit arch",
+  "concept_id": "test-32-bit-arch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/test-32-bit.yml",
+      "source_repo": "maypok86/otter"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test 32-bit arch",
+      "sense_id": "test-32-bit-arch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

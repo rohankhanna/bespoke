@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "NVlabs/VILA",
-      "target": "junjie99/mlvu",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NVlabs/VILA",
       "target": "efficient-large-model/vila",
       "target_type": "repository"
     },
@@ -25,10 +18,17 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "NVlabs/VILA",
-      "target": "internlm/internlm-xcomposer",
+      "target": "mbzuai-oryx/video-chatgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
+      "target": "kakaobrain/coyo-dataset",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "NVlabs/VILA"
 }

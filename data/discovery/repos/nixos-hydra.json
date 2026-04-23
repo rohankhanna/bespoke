@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-master-to-nix-next.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v17",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NixOS/hydra",
+      "target": "nix-community/nix-direnv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NixOS/hydra",
+      "target": "nlewo/hydra-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "NixOS/hydra",
+      "target": "nix-community/harmonia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-master-to-nix-next.yml",
+      "source_repo": "NixOS/hydra",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-master-to-nix-next.yml",
+      "source_repo": "NixOS/hydra",
+      "target": "Sync master into nix-next",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "NixOS/hydra",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "NixOS/hydra",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "NixOS/hydra",
+      "target": "cachix/cachix-action@v17",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "NixOS/hydra",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:27:59.807392+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6019
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2908
+    },
+    {
+      "path": ".github/workflows/sync-master-to-nix-next.yml",
+      "size": 1150
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 834
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hydra, the Nix-based continuous build system [maintainers=@dasj,@Ericson2314]",
+    "fork": false,
+    "full_name": "NixOS/hydra",
+    "html_url": "https://github.com/NixOS/hydra",
+    "language": "Perl",
+    "pushed_at": "2026-04-21T20:22:55Z",
+    "stargazers_count": 1463,
+    "topics": [],
+    "updated_at": "2026-04-22T10:13:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nix-community/nix-direnv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nlewo/hydra-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nix-community/harmonia",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Sync master into nix-next",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-master-to-nix-next.yml",
+      "term": "Sync master into nix-next"
+    },
+    {
+      "context_snippet": "\"Test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CodeBoarding/GeneratedOnBoardings",
+      "target": "codeboarding/codeboarding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CodeBoarding/GeneratedOnBoardings",
+      "target": "codeboarding/atlassian-python-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CodeBoarding/GeneratedOnBoardings",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CodeBoarding/GeneratedOnBoardings",
+      "target": "static-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:28:20.070264+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39576
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of onboarding diagrams of different project online",
+    "fork": false,
+    "full_name": "CodeBoarding/GeneratedOnBoardings",
+    "html_url": "https://github.com/CodeBoarding/GeneratedOnBoardings",
+    "language": null,
+    "pushed_at": "2025-12-01T00:58:46Z",
+    "stargazers_count": 102,
+    "topics": [
+      "agents",
+      "ai",
+      "python",
+      "python3",
+      "static-analysis",
+      "typescript"
+    ],
+    "updated_at": "2026-04-20T12:41:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codeboarding/atlassian-python-api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codeboarding/codeboarding",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    }
+  ]
+}

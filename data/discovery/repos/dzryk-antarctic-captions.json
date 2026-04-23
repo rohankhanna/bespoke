@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dzryk/antarctic-captions",
+      "target": "dzryk/clip-grams",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dzryk/antarctic-captions",
+      "target": "kelvinxu/arctic-captions",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:33:17.038647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6042
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "dzryk/antarctic-captions",
+    "html_url": "https://github.com/dzryk/antarctic-captions",
+    "language": "Python",
+    "pushed_at": "2021-08-05T15:31:08Z",
+    "stargazers_count": 110,
+    "topics": [],
+    "updated_at": "2026-04-09T07:52:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dzryk/clip-grams",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kelvinxu/arctic-captions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

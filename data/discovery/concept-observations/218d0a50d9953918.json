@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Infrastructure as code generator - from visual diagrams created with Cloudcraft.co to Terraform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "terragrunt",
+      "sense_id": "terragrunt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "terragrunt",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "terragrunt",
+  "observation_id": "218d0a50d9953918",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "terragrunt",
+  "source_context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026",
+  "source_file": null,
+  "source_repo": "antonbabenko/modules.tf-lambda",
+  "source_repo_description": "Infrastructure as code generator - from visual diagrams created with Cloudcraft.co to Terraform"
+}

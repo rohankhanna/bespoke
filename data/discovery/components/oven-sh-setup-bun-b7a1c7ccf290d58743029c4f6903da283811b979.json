@@ -1,12 +1,22 @@
 {
   "component": "oven-sh/setup-bun@b7a1c7ccf290d58743029c4f6903da283811b979",
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test-claudecode.yml",
       "source_repo": "anthropics/claude-code-security-review"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-cleanup-fixup.yml",
+      "source_repo": "coder/mux"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-cleanup.yml",
+      "source_repo": "coder/mux"
     }
   ]
 }

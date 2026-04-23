@@ -1,0 +1,178 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "target": "antonbabenko/awsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "target": "antonbabenko/awesome-terraform-compliance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "target": "antonbabenko/serverless.tf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "target": "antonbabenko/modules.tf-lambda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "target": "antonbabenko",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "target": "aws-community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "target": "compliance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "target": "terraform-aws-modules",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:42:40.949824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Info about many of my Terraform, AWS, and DevOps projects.",
+    "fork": false,
+    "full_name": "antonbabenko/terraform-aws-devops",
+    "html_url": "https://github.com/antonbabenko/terraform-aws-devops",
+    "language": null,
+    "pushed_at": "2026-04-13T09:45:44Z",
+    "stargazers_count": 495,
+    "topics": [
+      "antonbabenko",
+      "aws",
+      "aws-community",
+      "compliance",
+      "infrastructure-as-code",
+      "serverless",
+      "terraform",
+      "terraform-aws-modules"
+    ],
+    "updated_at": "2026-04-23T01:02:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonbabenko/awesome-terraform-compliance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonbabenko/awsp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonbabenko/modules.tf-lambda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonbabenko/serverless.tf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "antonbabenko"
+    },
+    {
+      "context_snippet": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-community"
+    },
+    {
+      "context_snippet": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compliance"
+    },
+    {
+      "context_snippet": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure-as-code"
+    },
+    {
+      "context_snippet": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    },
+    {
+      "context_snippet": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform-aws-modules"
+    }
+  ]
+}

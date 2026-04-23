@@ -19,6 +19,90 @@
       "source_repo": "ClickHouse/ClickHouse",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-java",
+      "status": "candidate-context",
+      "text": "Database for Android and JVM - first and fast, lightweight on-device vector database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-java",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "status": "candidate-context",
+      "text": "`serde-json` for `no_std` programs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "status": "candidate-context",
+      "text": "> [`serde-json`] for `no_std` programs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/executorch",
+      "status": "candidate-context",
+      "text": "On-device AI across mobile, embedded and edge for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/executorch",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrianPugh/tamp",
+      "status": "candidate-context",
+      "text": "Tamp is a low-memory, DEFLATE-inspired lossless compression library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrianPugh/tamp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-c",
+      "status": "candidate-context",
+      "text": "C and C++ database for objects and structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-c",
+      "status": "candidate-context",
+      "text": "ObjectBox Embedded Database for C and C++"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-dart",
+      "status": "candidate-context",
+      "text": "Flutter database for super-fast Dart object persistence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-go",
+      "status": "candidate-context",
+      "text": "Embedded Go Database, the fast alternative to SQLite, gorm, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-go",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"466\" src=https://user-images.githubusercontent.com/91467067/190631181-ac090b78-f917-49f2-9293-0f1efa82db18.png></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +111,48 @@
       "source_repo": "ClickHouse/ClickHouse",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-java",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "status": "candidate",
+      "text": "> [`serde-json`] for `no_std` programs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/executorch",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrianPugh/tamp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-c",
+      "status": "candidate",
+      "text": "ObjectBox Embedded Database for C and C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-go",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"466\" src=https://user-images.githubusercontent.com/91467067/190631181-ac090b78-f917-49f2-9293-0f1efa82db18.png></p>"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +217,53 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "ClickHouse/ClickHouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-embedded-community/serde-json-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/executorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BrianPugh/tamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-c"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-go"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

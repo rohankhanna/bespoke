@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "modelfusion",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsx",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lgrammel/modelfusion-terminal-app-starter",
+      "target": "modelfusion",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lgrammel/modelfusion-terminal-app-starter",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lgrammel/modelfusion-terminal-app-starter",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lgrammel/modelfusion-terminal-app-starter",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lgrammel/modelfusion-terminal-app-starter",
+      "target": "tsx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lgrammel/modelfusion-terminal-app-starter",
+      "target": "modelfusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:43:41.970368+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1061
+    },
+    {
+      "path": "package.json",
+      "size": 453
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Starter template for building ModelFusion terminal apps with TypeScript.",
+    "fork": false,
+    "full_name": "lgrammel/modelfusion-terminal-app-starter",
+    "html_url": "https://github.com/lgrammel/modelfusion-terminal-app-starter",
+    "language": "TypeScript",
+    "pushed_at": "2024-02-13T23:37:59Z",
+    "stargazers_count": 13,
+    "topics": [
+      "ai",
+      "llm",
+      "modelfusion",
+      "openai"
+    ],
+    "updated_at": "2024-10-30T18:26:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The ModelFusion Terminal App Starter is a template for creating your own AI terminal app. It is based on the [ModelFusion](https://modelfusion.dev) library and uses OpenAI's `gpt-3.5-turbo-instruct` model to generate text. Follow the steps below to set up your environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modelfusion"
+    }
+  ]
+}

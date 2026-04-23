@@ -1,0 +1,247 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "cam-barts/linkchecker-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "adrienverge/photocollage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "abilian/abilian-sbe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "3b1b/manim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "2ndquadrant-it/barman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "cam-barts/linkchecker-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "Link Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "education",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mahmoud/awesome-python-applications",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:30:30.900709+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 130787
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 510
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcbf Free software that works great, and also happens to be open-source Python. ",
+    "fork": false,
+    "full_name": "mahmoud/awesome-python-applications",
+    "html_url": "https://github.com/mahmoud/awesome-python-applications",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-04-25T17:36:26Z",
+    "stargazers_count": 17831,
+    "topics": [
+      "application",
+      "audio",
+      "education",
+      "game",
+      "graphics",
+      "gui",
+      "productivity",
+      "python",
+      "science",
+      "video"
+    ],
+    "updated_at": "2026-04-23T01:50:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "2ndquadrant-it/barman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3b1b/manim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abilian/abilian-sbe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adrienverge/photocollage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Link Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/workflow.yml",
+      "term": "Link Checker"
+    },
+    {
+      "context_snippet": "<!-- NOTE: This file is automatically generated, see projects.yaml -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "application"
+    },
+    {
+      "context_snippet": "<!-- NOTE: This file is automatically generated, see projects.yaml -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "<!-- NOTE: This file is automatically generated, see projects.yaml -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "education"
+    },
+    {
+      "context_snippet": "<!-- NOTE: This file is automatically generated, see projects.yaml -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "<!-- NOTE: This file is automatically generated, see projects.yaml -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "<!-- NOTE: This file is automatically generated, see projects.yaml -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "context_snippet": "<!-- NOTE: This file is automatically generated, see projects.yaml -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "science"
+    },
+    {
+      "context_snippet": "<!-- NOTE: This file is automatically generated, see projects.yaml -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

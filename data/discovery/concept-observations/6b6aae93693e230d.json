@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Info about many of my Terraform, AWS, and DevOps projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024681,
+      "status": "candidate",
+      "text": "cloud-first"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024680,
+      "status": "candidate",
+      "text": "cloudy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024679,
+      "status": "candidate",
+      "text": "server-side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024678,
+      "status": "candidate",
+      "text": "role-based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024677,
+      "status": "candidate",
+      "text": "hyperconverged"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serverless",
+      "sense_id": "serverless#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "serverless",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "serverless",
+  "observation_id": "6b6aae93693e230d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "serverless",
+  "source_context_snippet": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)",
+  "source_file": null,
+  "source_repo": "antonbabenko/terraform-aws-devops",
+  "source_repo_description": "Info about many of my Terraform, AWS, and DevOps projects."
+}

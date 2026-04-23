@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/adversarial-review.yml",
       "source_repo": "Kastalien-Research/thoughtbox"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-latest-spec-version.yml",
+      "source_repo": "theupdateframework/specification"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/live-protection.yml",
+      "source_repo": "dotnet/dotnet-api-docs"
     }
   ]
 }

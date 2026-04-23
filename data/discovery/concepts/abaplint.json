@@ -33,6 +33,54 @@
       "source_repo": "sbcgua/ajson",
       "status": "candidate-context",
       "text": "abaplint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbcgua/abap-string-map",
+      "status": "candidate-context",
+      "text": "String map primitive implementation on abap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbcgua/abap-string-map",
+      "status": "candidate-context",
+      "text": "abaplint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/abaplint-sci-client",
+      "status": "candidate-context",
+      "text": "ABAP part for running abaplint on ABAP backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint-sci-client",
+      "status": "candidate-context",
+      "text": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/transpiler",
+      "status": "candidate-context",
+      "text": "ABAP to JS transpiler & runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/transpiler",
+      "status": "candidate-context",
+      "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/runtime?label=%40abaplint%2Fruntime)](https://www.npmjs.com/package/@abaplint/runtime)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/abaplint-sci-server",
+      "status": "candidate-context",
+      "text": "Node backend application for running abaplint on ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint-sci-server",
+      "status": "candidate-context",
+      "text": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026"
     }
   ],
   "candidate_glosses": [
@@ -47,6 +95,30 @@
       "source_repo": "sbcgua/ajson",
       "status": "candidate",
       "text": "abaplint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbcgua/abap-string-map",
+      "status": "candidate",
+      "text": "abaplint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint-sci-client",
+      "status": "candidate",
+      "text": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/transpiler",
+      "status": "candidate",
+      "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/runtime?label=%40abaplint%2Fruntime)](https://www.npmjs.com/package/@abaplint/runtime)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint-sci-server",
+      "status": "candidate",
+      "text": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -66,11 +138,35 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/abaplint.yml",
       "source_repo": "sbcgua/ajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/abaplint.yml",
+      "source_repo": "sbcgua/abap-string-map"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/abaplint-sci-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/transpiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/abaplint-sci-server"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

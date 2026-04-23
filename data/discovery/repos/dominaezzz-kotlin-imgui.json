@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "eskatos/gradle-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "eskatos/gradle-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "eskatos/gradle-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "target": "dominaezzz/kgl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "target": "eskatos/gradle-command-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "target": "dear-imgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "target": "kotlin-bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "target": "kotlin-multiplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "target": "kotlin-native",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:38:20.737081+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3898
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Kotlin bindings for Dear ImGui",
+    "fork": false,
+    "full_name": "Dominaezzz/kotlin-imgui",
+    "html_url": "https://github.com/Dominaezzz/kotlin-imgui",
+    "language": "Kotlin",
+    "pushed_at": "2021-05-18T19:58:27Z",
+    "stargazers_count": 90,
+    "topics": [
+      "dear-imgui",
+      "kotlin",
+      "kotlin-bindings",
+      "kotlin-multiplatform",
+      "kotlin-native"
+    ],
+    "updated_at": "2026-02-11T13:17:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dominaezzz/kgl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/badge/license-MIT%20License%202.0-blue.svg?style=flat)](https://en.wikipedia.org/wiki/MIT_License)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dear-imgui"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/badge/license-MIT%20License%202.0-blue.svg?style=flat)](https://en.wikipedia.org/wiki/MIT_License)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/badge/license-MIT%20License%202.0-blue.svg?style=flat)](https://en.wikipedia.org/wiki/MIT_License)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-bindings"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/badge/license-MIT%20License%202.0-blue.svg?style=flat)](https://en.wikipedia.org/wiki/MIT_License)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-multiplatform"
+    },
+    {
+      "context_snippet": "[![GitHub license](https://img.shields.io/badge/license-MIT%20License%202.0-blue.svg?style=flat)](https://en.wikipedia.org/wiki/MIT_License)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin-native"
+    }
+  ]
+}

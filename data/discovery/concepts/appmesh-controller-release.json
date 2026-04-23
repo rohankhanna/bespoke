@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AppMesh controller Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate-context",
+      "text": "A controller to help manage App Mesh resources for a Kubernetes cluster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate-context",
+      "text": "AppMesh controller Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate",
+      "text": "AppMesh controller Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12291,
+      "status": "candidate",
+      "text": "spigot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11324,
+      "status": "candidate",
+      "text": "comptroler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11324,
+      "status": "candidate",
+      "text": "cone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11324,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11324,
+      "status": "candidate",
+      "text": "controllership"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AppMesh controller Release",
+  "concept_id": "appmesh-controller-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AppMesh controller Release",
+      "sense_id": "appmesh-controller-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

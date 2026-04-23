@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "mopy is a docker buildkit frontend to package and build your python app into a minimal best practice docker image. You don't have to be a docker pro anymore! \ud83d\udc0b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "docker-image",
+      "sense_id": "docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "docker-image",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "docker-image",
+  "observation_id": "c0f4380f7c8d06b1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "docker-image",
+  "source_context_snippet": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)",
+  "source_file": null,
+  "source_repo": "cmdjulian/mopy",
+  "source_repo_description": "mopy is a docker buildkit frontend to package and build your python app into a minimal best practice docker image. You don't have to be a docker pro anymore! \ud83d\udc0b"
+}

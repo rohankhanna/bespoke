@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rapidsai/asvdb",
+      "target": "airspeed-velocity/asv",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:36:01.922060+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17115
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "rapidsai/asvdb",
+    "html_url": "https://github.com/rapidsai/asvdb",
+    "language": "Python",
+    "pushed_at": "2022-05-18T00:49:51Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-07-21T21:16:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airspeed-velocity/asv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

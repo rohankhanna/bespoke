@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "LukasKalbertodt/check-basic-style@v0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cwfitzgerald/libtest-mimic",
+      "target": "lukaskalbertodt/libtest-mimic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "cwfitzgerald/libtest-mimic",
+      "target": "lukaskalbertodt/libtest-mimic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cwfitzgerald/libtest-mimic",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cwfitzgerald/libtest-mimic",
+      "target": "LukasKalbertodt/check-basic-style@v0.1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:40:20.274382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1743
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 802
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 478
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A small test framework to write your own test harness that looks and behaves like the built-in test harness used by `rustc --test`",
+    "fork": true,
+    "full_name": "cwfitzgerald/libtest-mimic",
+    "html_url": "https://github.com/cwfitzgerald/libtest-mimic",
+    "language": null,
+    "pushed_at": "2026-03-16T16:27:11Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-16T15:37:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukaskalbertodt/libtest-mimic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukaskalbertodt/libtest-mimic",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

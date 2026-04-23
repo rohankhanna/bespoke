@@ -25,6 +25,30 @@
       "source_repo": "tremorlabs/tremor",
       "status": "candidate-context",
       "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serafimcloud/21st",
+      "status": "candidate-context",
+      "text": "npm for design engineers: largest marketplace of shadcn/ui-based React Tailwind components, blocks and hooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serafimcloud/21st",
+      "status": "candidate-context",
+      "text": "**[21st.dev](https://21st.dev)** is your go-to open-source community registry for **React UI components**! Whether you're a developer, designer, or just someone who loves building beautiful interfaces, 21st.dev is the place to **publish, discover, and install** minimal, modern, \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jnsahaj/tweakcn",
+      "status": "candidate-context",
+      "text": "A visual no-code theme editor for shadcn/ui components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jnsahaj/tweakcn",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -33,6 +57,18 @@
       "source_repo": "tremorlabs/tremor",
       "status": "candidate",
       "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serafimcloud/21st",
+      "status": "candidate",
+      "text": "**[21st.dev](https://21st.dev)** is your go-to open-source community registry for **React UI components**! Whether you're a developer, designer, or just someone who loves building beautiful interfaces, 21st.dev is the place to **publish, discover, and install** minimal, modern, \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jnsahaj/tweakcn",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -52,11 +88,23 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": null,
       "source_repo": "tremorlabs/tremor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "serafimcloud/21st"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jnsahaj/tweakcn"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

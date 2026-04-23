@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_nix.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_nix.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "taiki-e/install-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asciinema/agg",
+      "target": "asciinema/asciinema",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asciinema/agg",
+      "target": "imageoptim/gifski",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asciinema/agg",
+      "target": "asciinema/asciicast2gif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_nix.yml",
+      "source_repo": "asciinema/agg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_nix.yml",
+      "source_repo": "asciinema/agg",
+      "target": "cachix/install-nix-action@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_nix.yml",
+      "source_repo": "asciinema/agg",
+      "target": "Build legacy Nix package on Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "asciinema/agg",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "asciinema/agg",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "asciinema/agg",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "asciinema/agg",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "asciinema/agg",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "asciinema/agg",
+      "target": "taiki-e/install-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "asciinema/agg",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asciinema/agg",
+      "target": "asciinema",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asciinema/agg",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asciinema/agg",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:37:42.086500+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2411
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 839
+    },
+    {
+      "path": "Dockerfile",
+      "size": 296
+    },
+    {
+      "path": ".github/workflows/build_nix.yml",
+      "size": 337
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 442
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1242
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "asciinema gif generator",
+    "fork": false,
+    "full_name": "asciinema/agg",
+    "html_url": "https://github.com/asciinema/agg",
+    "language": "Rust",
+    "pushed_at": "2025-10-22T16:10:59Z",
+    "stargazers_count": 1604,
+    "topics": [
+      "asciinema",
+      "gif",
+      "rust",
+      "terminal"
+    ],
+    "updated_at": "2026-04-18T02:29:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asciinema/asciicast2gif",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asciinema/asciinema",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imageoptim/gifski",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Build legacy Nix package on Ubuntu\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_nix.yml",
+      "term": "Build legacy Nix package on Ubuntu"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "__agg__ is a command-line tool for generating animated GIF files from terminal",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asciinema"
+    },
+    {
+      "context_snippet": "__agg__ is a command-line tool for generating animated GIF files from terminal",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "__agg__ is a command-line tool for generating animated GIF files from terminal",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

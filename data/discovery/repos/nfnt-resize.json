@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfnt/resize",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfnt/resize",
+      "target": "resize",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:37:52.541737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4891
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Pure golang image resizing ",
+    "fork": false,
+    "full_name": "nfnt/resize",
+    "html_url": "https://github.com/nfnt/resize",
+    "language": "Go",
+    "pushed_at": "2022-04-02T06:46:33Z",
+    "stargazers_count": 3050,
+    "topics": [
+      "go",
+      "image-processing",
+      "resize"
+    ],
+    "updated_at": "2026-04-23T03:13:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Resize",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "Resize",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resize"
+    }
+  ]
+}

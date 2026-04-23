@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/grounded-segment-anything-colab",
+      "target": "colab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/grounded-segment-anything-colab",
+      "target": "colab-notebook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/grounded-segment-anything-colab",
+      "target": "colaboratory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/grounded-segment-anything-colab",
+      "target": "inpaint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/grounded-segment-anything-colab",
+      "target": "inpainting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/grounded-segment-anything-colab",
+      "target": "segment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/grounded-segment-anything-colab",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "camenduru/grounded-segment-anything-colab",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:48:23.006689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1731
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Grounding DINO with Segment Anything & Stable Diffusion colab",
+    "fork": false,
+    "full_name": "camenduru/grounded-segment-anything-colab",
+    "html_url": "https://github.com/camenduru/grounded-segment-anything-colab",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-12-25T20:28:21Z",
+    "stargazers_count": 194,
+    "topics": [
+      "colab",
+      "colab-notebook",
+      "colaboratory",
+      "inpaint",
+      "inpainting",
+      "segment",
+      "segmentation",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-16T07:20:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colab"
+    },
+    {
+      "context_snippet": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colab-notebook"
+    },
+    {
+      "context_snippet": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colaboratory"
+    },
+    {
+      "context_snippet": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inpaint"
+    },
+    {
+      "context_snippet": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inpainting"
+    },
+    {
+      "context_snippet": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segment"
+    },
+    {
+      "context_snippet": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

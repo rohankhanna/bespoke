@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build docs",
-    "Build Docs"
+    "Build Docs",
+    "build-docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -92,6 +93,48 @@
       "source_repo": "fastapi/fastapi",
       "status": "candidate-context",
       "text": "Build Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate-context",
+      "text": "Sandboxed code execution for AI agents, locally or on the cloud. Massively parallel, easy to extend. Powering SWE-agent and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate-context",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/Megatron-Bridge",
+      "status": "candidate-context",
+      "text": "Training library for Megatron-based models with bidirectional Hugging Face conversion capability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Megatron-Bridge",
+      "status": "candidate-context",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Emerging-Optimizers",
+      "status": "candidate-context",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlc-ai/mlc-llm",
+      "status": "candidate-context",
+      "text": "Universal LLM Deployment Engine with ML Compilation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/mlc-llm",
+      "status": "candidate-context",
+      "text": "Build Docs"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +177,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fastapi/fastapi",
+      "status": "candidate",
+      "text": "Build Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate",
+      "text": "build-docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Megatron-Bridge",
+      "status": "candidate",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Emerging-Optimizers",
+      "status": "candidate",
+      "text": "Build docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/mlc-llm",
       "status": "candidate",
       "text": "Build Docs"
     }
@@ -227,11 +294,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "SWE-agent/SWE-ReX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/Megatron-Bridge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-docs.yml",
+      "source_repo": "NVIDIA-NeMo/Emerging-Optimizers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "mlc-ai/mlc-llm"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

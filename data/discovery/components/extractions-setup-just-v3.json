@@ -1,12 +1,27 @@
 {
   "component": "extractions/setup-just@v3",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "Commit-Boost/commit-boost-client"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-tests.yml",
+      "source_repo": "succinctlabs/op-succinct"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "clux/muslrust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stable.yml",
+      "source_repo": "clux/muslrust"
     }
   ]
 }

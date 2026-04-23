@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@b75a909f75acd358c2196fb9a5f1299a9a8868a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-relax.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "astral-sh/setup-uv@b75a909f75acd358c2196fb9a5f1299a9a8868a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-relax.yaml",
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-relax.yaml",
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "Relax Submodule Sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yaml",
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-build.yaml",
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-build.yaml",
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "Windows CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mlc-ai/mlc-llm",
+      "target": "machine-learning-compilation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:34:09.087649+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5179
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4120
+    },
+    {
+      "path": ".github/workflows/documentation.yaml",
+      "size": 962
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 678
+    },
+    {
+      "path": ".github/workflows/update-relax.yaml",
+      "size": 777
+    },
+    {
+      "path": ".github/workflows/windows-build.yaml",
+      "size": 852
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Universal LLM Deployment Engine with ML Compilation",
+    "fork": false,
+    "full_name": "mlc-ai/mlc-llm",
+    "html_url": "https://github.com/mlc-ai/mlc-llm",
+    "language": "Python",
+    "pushed_at": "2026-04-22T01:01:22Z",
+    "stargazers_count": 22510,
+    "topics": [
+      "language-model",
+      "llm",
+      "machine-learning-compilation",
+      "tvm"
+    ],
+    "updated_at": "2026-04-23T08:24:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yaml",
+      "term": "Build Docs"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "'Relax Submodule Sync'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-relax.yaml",
+      "term": "Relax Submodule Sync"
+    },
+    {
+      "context_snippet": "Windows CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-build.yaml",
+      "term": "Windows CI"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning-compilation"
+    }
+  ]
+}

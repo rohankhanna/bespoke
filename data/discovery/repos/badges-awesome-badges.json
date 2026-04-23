@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken-links.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken-links.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken-links.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "badges/awesome-badges",
+      "target": "aikrice/homebrew-badgetizr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "badges/awesome-badges",
+      "target": "alexandresanlim/badges4-readme.md-profile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "badges/awesome-badges",
+      "target": "badgen/badgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "badges/awesome-badges",
+      "target": "badgen/badgen.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken-links.yml",
+      "source_repo": "badges/awesome-badges",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken-links.yml",
+      "source_repo": "badges/awesome-badges",
+      "target": "lycheeverse/lychee-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/broken-links.yml",
+      "source_repo": "badges/awesome-badges",
+      "target": "peter-evans/create-issue-from-file@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/broken-links.yml",
+      "source_repo": "badges/awesome-badges",
+      "target": "Broken-Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "badges/awesome-badges",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "badges/awesome-badges",
+      "target": "badges",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:34:35.832439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7896
+    },
+    {
+      "path": ".github/workflows/broken-links.yml",
+      "size": 749
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curated collection of awesome things related to status badges",
+    "fork": false,
+    "full_name": "badges/awesome-badges",
+    "html_url": "https://github.com/badges/awesome-badges",
+    "language": "Markdown",
+    "pushed_at": "2026-03-11T07:35:08Z",
+    "stargazers_count": 926,
+    "topics": [
+      "awesome-list",
+      "badges"
+    ],
+    "updated_at": "2026-04-23T06:49:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aikrice/homebrew-badgetizr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexandresanlim/badges4-readme.md-profile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "badgen/badgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "badgen/badgen.net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Broken-Links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/broken-links.yml",
+      "term": "Broken-Links"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome#readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://github.com/sindresorhus/awesome#readme)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badges"
+    }
+  ]
+}

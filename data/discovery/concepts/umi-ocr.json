@@ -19,6 +19,30 @@
       "source_repo": "hiroi-sora/Umi-OCR",
       "status": "candidate-context",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiroi-sora/Umi-OCR_plugins",
+      "status": "candidate-context",
+      "text": "Umi-OCR \u63d2\u4ef6\u5e93"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiroi-sora/Umi-OCR_plugins",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiroi-sora/Umi-OCR_runtime_linux",
+      "status": "candidate-context",
+      "text": "Umi-OCR Linux \u8fd0\u884c\u73af\u5883"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiroi-sora/Umi-OCR_runtime_linux",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "hiroi-sora/Umi-OCR",
       "status": "candidate",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiroi-sora/Umi-OCR_plugins",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiroi-sora/Umi-OCR_runtime_linux",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "hiroi-sora/Umi-OCR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hiroi-sora/Umi-OCR_plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hiroi-sora/Umi-OCR_runtime_linux"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

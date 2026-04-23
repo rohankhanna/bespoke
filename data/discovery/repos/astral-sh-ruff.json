@@ -11,37 +11,12 @@
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
@@ -56,42 +31,17 @@
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
@@ -106,17 +56,17 @@
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
@@ -131,7 +81,57 @@
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
@@ -141,37 +141,12 @@
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build-binaries.yml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
@@ -186,7 +161,32 @@
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-binaries.yml"
+    },
+    {
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
@@ -196,12 +196,12 @@
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml"
     },
@@ -226,12 +226,12 @@
       "source_file": ".github/workflows/build-docker.yml"
     },
     {
-      "component": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml"
     },
@@ -276,7 +276,7 @@
       "source_file": ".github/workflows/build-docker.yml"
     },
     {
-      "component": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml"
     },
@@ -326,7 +326,7 @@
       "source_file": ".github/workflows/build-wasm.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-wasm.yml"
     },
@@ -366,17 +366,17 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@7a562dfa955aa2e4d5b0fd6ebd57ff9715c07b0b",
+      "component": "taiki-e/install-action@0abfcd587b70a713fdaa7fb502c885e2112acb15",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@7a562dfa955aa2e4d5b0fd6ebd57ff9715c07b0b",
+      "component": "taiki-e/install-action@0abfcd587b70a713fdaa7fb502c885e2112acb15",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -396,12 +396,12 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@7a562dfa955aa2e4d5b0fd6ebd57ff9715c07b0b",
+      "component": "taiki-e/install-action@0abfcd587b70a713fdaa7fb502c885e2112acb15",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -416,12 +416,12 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@7a562dfa955aa2e4d5b0fd6ebd57ff9715c07b0b",
+      "component": "taiki-e/install-action@0abfcd587b70a713fdaa7fb502c885e2112acb15",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -481,7 +481,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "cargo-bins/cargo-binstall@0b24824336e2b3800b0f89d9e08b2c08bfa3dcdd",
+      "component": "cargo-bins/cargo-binstall@f8ce4d55b131f4a1e373b8747ca6b6a54133ae5a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -491,7 +491,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -511,7 +511,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -521,7 +521,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -541,7 +541,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -551,7 +551,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -571,7 +571,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "cargo-bins/cargo-binstall@0b24824336e2b3800b0f89d9e08b2c08bfa3dcdd",
+      "component": "cargo-bins/cargo-binstall@f8ce4d55b131f4a1e373b8747ca6b6a54133ae5a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -581,7 +581,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -611,7 +611,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
+      "component": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -621,7 +621,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -646,7 +646,7 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -716,62 +716,17 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@7a562dfa955aa2e4d5b0fd6ebd57ff9715c07b0b",
+      "component": "taiki-e/install-action@0abfcd587b70a713fdaa7fb502c885e2112acb15",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "CodSpeedHQ/action@d872884a306dd4853acf0f584f4b706cf0cc72a2",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yaml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yaml"
-    },
-    {
-      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yaml"
-    },
-    {
-      "component": "taiki-e/install-action@7a562dfa955aa2e4d5b0fd6ebd57ff9715c07b0b",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yaml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yaml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yaml"
-    },
-    {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yaml"
-    },
-    {
-      "component": "taiki-e/install-action@7a562dfa955aa2e4d5b0fd6ebd57ff9715c07b0b",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yaml"
-    },
-    {
-      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yaml"
-    },
-    {
-      "component": "CodSpeedHQ/action@d872884a306dd4853acf0f584f4b706cf0cc72a2",
+      "component": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -786,17 +741,12 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "taiki-e/install-action@0abfcd587b70a713fdaa7fb502c885e2112acb15",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@7a562dfa955aa2e4d5b0fd6ebd57ff9715c07b0b",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yaml"
-    },
-    {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -806,12 +756,12 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "taiki-e/install-action@7a562dfa955aa2e4d5b0fd6ebd57ff9715c07b0b",
+      "component": "taiki-e/install-action@0abfcd587b70a713fdaa7fb502c885e2112acb15",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -821,7 +771,57 @@
       "source_file": ".github/workflows/ci.yaml"
     },
     {
-      "component": "CodSpeedHQ/action@d872884a306dd4853acf0f584f4b706cf0cc72a2",
+      "component": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@0abfcd587b70a713fdaa7fb502c885e2112acb15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@0abfcd587b70a713fdaa7fb502c885e2112acb15",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml"
     },
@@ -831,7 +831,7 @@
       "source_file": ".github/workflows/daily_fuzz.yaml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily_fuzz.yaml"
     },
@@ -846,7 +846,7 @@
       "source_file": ".github/workflows/daily_fuzz.yaml"
     },
     {
-      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily_fuzz.yaml"
     },
@@ -866,7 +866,7 @@
       "source_file": ".github/workflows/memory_report.yaml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/memory_report.yaml"
     }
@@ -876,14 +876,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "albumentations-team/albumentationsx",
+      "target": "apache/airflow",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
-      "target": "anthropics/anthropic-sdk-python",
+      "target": "apache/superset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "astral-sh/ruff",
+      "target": "asottile/pyupgrade",
       "target_type": "repository"
     },
     {
@@ -891,13 +898,6 @@
       "source_file": "README.md",
       "source_repo": "astral-sh/ruff",
       "target": "altair-viz/altair",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "astral-sh/ruff",
-      "target": "alteryx/featuretools",
       "target_type": "repository"
     },
     {
@@ -918,14 +918,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
+      "target": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-binaries.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -974,14 +974,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docker.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -1023,7 +1023,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-wasm.yml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -1058,14 +1058,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "taiki-e/install-action@7a562dfa955aa2e4d5b0fd6ebd57ff9715c07b0b",
+      "target": "taiki-e/install-action@0abfcd587b70a713fdaa7fb502c885e2112acb15",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -1093,14 +1093,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "cargo-bins/cargo-binstall@0b24824336e2b3800b0f89d9e08b2c08bfa3dcdd",
+      "target": "cargo-bins/cargo-binstall@f8ce4d55b131f4a1e373b8747ca6b6a54133ae5a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -1114,7 +1114,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "PyO3/maturin-action@04ac600d27cdf7a9a280dadf7147097c42b757ad",
+      "target": "PyO3/maturin-action@e83996d129638aa358a18fbd1dfb82f0b0fb5d3b",
       "target_type": "component"
     },
     {
@@ -1142,7 +1142,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "CodSpeedHQ/action@d872884a306dd4853acf0f584f4b706cf0cc72a2",
+      "target": "CodSpeedHQ/action@db35df748deb45fdef0960669f57d627c1956c30",
       "target_type": "component"
     },
     {
@@ -1163,7 +1163,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily_fuzz.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -1184,7 +1184,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/daily_fuzz.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
       "target_type": "component"
     },
     {
@@ -1219,7 +1219,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/memory_report.yaml",
       "source_repo": "astral-sh/ruff",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -1300,7 +1300,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T12:47:54.888901+00:00",
+  "fetched_at": "2026-04-23T07:44:12.363960+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1308,7 +1308,7 @@
     },
     {
       "path": "Cargo.toml",
-      "size": 12653
+      "size": 12574
     },
     {
       "path": "Dockerfile",
@@ -1332,7 +1332,7 @@
     },
     {
       "path": ".github/workflows/ci.yaml",
-      "size": 47700
+      "size": 47762
     },
     {
       "path": ".github/workflows/daily_fuzz.yaml",
@@ -1343,7 +1343,6 @@
       "size": 3431
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:48.365694+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -1353,8 +1352,8 @@
     "full_name": "astral-sh/ruff",
     "html_url": "https://github.com/astral-sh/ruff",
     "language": "Rust",
-    "pushed_at": "2026-04-19T13:43:28Z",
-    "stargazers_count": 47152,
+    "pushed_at": "2026-04-23T03:45:26Z",
+    "stargazers_count": 47213,
     "topics": [
       "linter",
       "pep8",
@@ -1368,14 +1367,9 @@
       "style-guide",
       "styleguide"
     ],
-    "updated_at": "2026-04-19T12:52:49Z"
+    "updated_at": "2026-04-23T07:43:40Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "albumentations-team/albumentationsx",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "altair-viz/altair",
@@ -1383,82 +1377,101 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "alteryx/featuretools",
+      "full_name": "apache/airflow",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "anthropics/anthropic-sdk-python",
+      "full_name": "apache/superset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asottile/pyupgrade",
       "source_file": "README.md"
     }
   ],
   "terms": [
     {
+      "context_snippet": "\"Build binaries\"",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build-binaries.yml",
       "term": "Build binaries"
     },
     {
+      "context_snippet": "\"Build wasm\"",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build-wasm.yml",
       "term": "Build wasm"
     },
     {
+      "context_snippet": "Daily parser fuzz",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/daily_fuzz.yaml",
       "term": "Daily parser fuzz"
     },
     {
+      "context_snippet": "Run memory report",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/memory_report.yaml",
       "term": "Run memory report"
     },
     {
+      "context_snippet": "<!-- Begin section: Overview -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "linter"
     },
     {
+      "context_snippet": "<!-- Begin section: Overview -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "pep8"
     },
     {
+      "context_snippet": "<!-- Begin section: Overview -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "python3"
     },
     {
+      "context_snippet": "<!-- Begin section: Overview -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "ruff"
     },
     {
+      "context_snippet": "<!-- Begin section: Overview -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "rust"
     },
     {
+      "context_snippet": "<!-- Begin section: Overview -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "rustpython"
     },
     {
+      "context_snippet": "<!-- Begin section: Overview -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "static-analysis"
     },
     {
+      "context_snippet": "<!-- Begin section: Overview -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "static-code-analysis"
     },
     {
+      "context_snippet": "<!-- Begin section: Overview -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "style-guide"
     },
     {
+      "context_snippet": "<!-- Begin section: Overview -->",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "styleguide"

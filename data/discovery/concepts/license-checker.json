@@ -44,6 +44,54 @@
       "source_repo": "higress-group/higress-console",
       "status": "candidate-context",
       "text": "License checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notation-core-go",
+      "status": "candidate-context",
+      "text": "Contains support for Notary Project signature envelope, and format specific implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-core-go",
+      "status": "candidate-context",
+      "text": "License Checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notation-go",
+      "status": "candidate-context",
+      "text": "A collection of libraries for supporting sign and verify OCI artifacts. Based on Notary Project specifications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-go",
+      "status": "candidate-context",
+      "text": "License Checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate-context",
+      "text": ":fire: Seata is an easy-to-use, high-performance, open source distributed transaction solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate-context",
+      "text": "License checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-rust",
+      "status": "candidate-context",
+      "text": "Apache Dubbo Rust implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-rust",
+      "status": "candidate-context",
+      "text": "License checker"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +110,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "higress-group/higress-console",
+      "status": "candidate",
+      "text": "License checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-core-go",
+      "status": "candidate",
+      "text": "License Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-go",
+      "status": "candidate",
+      "text": "License Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate",
+      "text": "License checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-rust",
       "status": "candidate",
       "text": "License checker"
     }
@@ -125,11 +197,35 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/license-checker.yaml",
       "source_repo": "higress-group/higress-console"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "notaryproject/notation-core-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "notaryproject/notation-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/licence-checker.yml",
+      "source_repo": "apache/dubbo-rust"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

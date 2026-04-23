@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "uuid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uuid-rs/uuid",
+      "status": "candidate-context",
+      "text": "Generate and parse UUIDs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uuid-rs/uuid",
+      "status": "candidate-context",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/uuid.svg)](https://crates.io/crates/uuid)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uuid-rs/uuid",
+      "status": "candidate",
+      "text": "[![Latest Version](https://img.shields.io/crates/v/uuid.svg)](https://crates.io/crates/uuid)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021774,
+      "status": "candidate",
+      "text": "uiid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021773,
+      "status": "candidate",
+      "text": "guid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021772,
+      "status": "candidate",
+      "text": "gtid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021771,
+      "status": "candidate",
+      "text": "wkid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021770,
+      "status": "candidate",
+      "text": "univac"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "uuid",
+  "concept_id": "uuid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "uuid-rs/uuid"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "uuid",
+      "sense_id": "uuid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

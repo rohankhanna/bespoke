@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "component": "inherits",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "readable-stream",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tap-spec",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "calvinmetcalf/chacha20poly1305",
+      "target": "inherits",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "calvinmetcalf/chacha20poly1305",
+      "target": "readable-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "calvinmetcalf/chacha20poly1305",
+      "target": "tap-spec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "calvinmetcalf/chacha20poly1305",
+      "target": "tape",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:41:02.788573+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 859
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "chacha20/poly1305 with the node api",
+    "fork": false,
+    "full_name": "calvinmetcalf/chacha20poly1305",
+    "html_url": "https://github.com/calvinmetcalf/chacha20poly1305",
+    "language": "JavaScript",
+    "pushed_at": "2021-10-11T21:09:36Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-04-08T01:47:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,291 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesomebot.yml"
+    },
+    {
+      "component": "docker://dkhamsing/awesome_bot:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesomebot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mega-linter.yml"
+    },
+    {
+      "component": "megalinter/megalinter@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mega-linter.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mega-linter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesomebot.yml",
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesomebot.yml",
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "docker://dkhamsing/awesome_bot:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mega-linter.yml",
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mega-linter.yml",
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "megalinter/megalinter@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mega-linter.yml",
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mega-linter.yml",
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "oh-my-zsh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "zgenom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "zsh-completions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "zsh-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "zsh-options",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "zsh-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "zsh-quickstart-kit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "zsh-setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "zsh-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "zshrc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "target": "zshrc-enhancements",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:42:39.386703+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/awesomebot.yml",
+      "size": 459
+    },
+    {
+      "path": ".github/workflows/mega-linter.yml",
+      "size": 2055
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple ZSH quickstart for using ZSH, zgenom, oh-my-zsh and a curated list of extra plugins. It is designed to be easy to customize without requiring you to maintain your own fork.",
+    "fork": false,
+    "full_name": "unixorn/zsh-quickstart-kit",
+    "html_url": "https://github.com/unixorn/zsh-quickstart-kit",
+    "language": "Shell",
+    "pushed_at": "2026-04-20T17:04:01Z",
+    "stargazers_count": 890,
+    "topics": [
+      "dotfiles",
+      "hacktoberfest",
+      "oh-my-zsh",
+      "zgenom",
+      "zsh",
+      "zsh-completions",
+      "zsh-framework",
+      "zsh-options",
+      "zsh-plugins",
+      "zsh-quickstart-kit",
+      "zsh-setup",
+      "zsh-theme",
+      "zshrc",
+      "zshrc-enhancements"
+    ],
+    "updated_at": "2026-04-20T15:03:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint Code Base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mega-linter.yml",
+      "term": "Lint Code Base"
+    },
+    {
+      "context_snippet": "Check links in README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    },
+    {
+      "context_snippet": "Check links in README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Check links in README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oh-my-zsh"
+    },
+    {
+      "context_snippet": "Check links in README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zgenom"
+    },
+    {
+      "context_snippet": "Check links in README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-completions"
+    },
+    {
+      "context_snippet": "Check links in README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-framework"
+    },
+    {
+      "context_snippet": "Check links in README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-options"
+    },
+    {
+      "context_snippet": "Check links in README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-plugins"
+    },
+    {
+      "context_snippet": "Check links in README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-quickstart-kit"
+    },
+    {
+      "context_snippet": "Check links in README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-setup"
+    },
+    {
+      "context_snippet": "Check links in README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-theme"
+    },
+    {
+      "context_snippet": "Check links in README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zshrc"
+    },
+    {
+      "context_snippet": "Check links in README.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zshrc-enhancements"
+    }
+  ]
+}

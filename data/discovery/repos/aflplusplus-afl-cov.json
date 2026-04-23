@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFLplusplus/afl-cov",
+      "target": "mrash/fwknop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFLplusplus/afl-cov",
+      "target": "mrash/afl-cov",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:41:12.371948+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20613
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Produce code coverage results with gcov from afl-fuzz test cases",
+    "fork": true,
+    "full_name": "AFLplusplus/afl-cov",
+    "html_url": "https://github.com/AFLplusplus/afl-cov",
+    "language": "Python",
+    "pushed_at": "2026-04-15T12:19:32Z",
+    "stargazers_count": 92,
+    "topics": [],
+    "updated_at": "2026-04-15T12:19:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrash/afl-cov",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrash/fwknop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

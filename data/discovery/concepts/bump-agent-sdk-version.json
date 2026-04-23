@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump Agent SDK Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "status": "candidate-context",
+      "text": "Lightweight OpenHands CLI in a binary executable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "status": "candidate-context",
+      "text": "Bump Agent SDK Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "status": "candidate",
+      "text": "Bump Agent SDK Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18122,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17689,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17689,
+      "status": "candidate",
+      "text": "bumping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17689,
+      "status": "candidate",
+      "text": "bumps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17689,
+      "status": "candidate",
+      "text": "hit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump Agent SDK Version",
+  "concept_id": "bump-agent-sdk-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/bump-agent-sdk-version.yml",
+      "source_repo": "OpenHands/OpenHands-CLI"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump Agent SDK Version",
+      "sense_id": "bump-agent-sdk-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

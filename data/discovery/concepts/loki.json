@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "loki"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/loki",
+      "status": "candidate-context",
+      "text": "Like Prometheus, but for logs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/loki",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/sources/logo_and_name.png\" alt=\"Loki Logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/alloy",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Collector distribution with programmable pipelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/alloy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/loki",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/sources/logo_and_name.png\" alt=\"Loki Logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/alloy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038411,
+      "status": "candidate",
+      "text": "utgard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29237892,
+      "status": "candidate",
+      "text": "luke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038506,
+      "status": "candidate",
+      "text": "lokean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038505,
+      "status": "candidate",
+      "text": "ragnarok"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20038504,
+      "status": "candidate",
+      "text": "h\u00f6\u00f0r"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "loki",
+  "concept_id": "loki",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "grafana/loki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "grafana/alloy"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "loki",
+      "sense_id": "loki#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

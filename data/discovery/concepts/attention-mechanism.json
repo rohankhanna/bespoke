@@ -19,6 +19,30 @@
       "source_repo": "lucidrains/memory-efficient-attention-pytorch",
       "status": "candidate-context",
       "text": "Implementation of a memory efficient multi-head attention as proposed in the paper, <a href=\"https://arxiv.org/abs/2112.05682\">Self-attention Does Not Need O(n\u00b2) Memory</a>. In addition, the module will take care of masking, causal masking, as well as cross attention."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of CoCa, Contrastive Captioners are Image-Text Foundation Models, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./coca.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer (parallelizable). We are at RWKV-7 \"Goose\". So it's combining the best of RNN and transformer - great performance, linear time, constant space (no kv-cache), fast training, infinite ctx_len, and free sentence embedding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "lucidrains/memory-efficient-attention-pytorch",
       "status": "candidate",
       "text": "Implementation of a memory efficient multi-head attention as proposed in the paper, <a href=\"https://arxiv.org/abs/2112.05682\">Self-attention Does Not Need O(n\u00b2) Memory</a>. In addition, the module will take care of masking, causal masking, as well as cross attention."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./coca.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +82,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "lucidrains/memory-efficient-attention-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/CoCa-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

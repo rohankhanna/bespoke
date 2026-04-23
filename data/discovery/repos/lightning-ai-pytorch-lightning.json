@@ -1,0 +1,400 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@v0.15.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-clear-cache.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@v0.15.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-clear-cache.yml"
+    },
+    {
+      "component": "Lightning-AI/utilities/.github/workflows/check-md-links.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-check-md-links.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pkg-install.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pkg-install.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pkg-install.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "lightning-ai/litserve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "lightning-ai/lightning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-packages.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build-packages.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "Call building packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "Create Legacy Ckpts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/call-clear-cache.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "Lightning-AI/utilities/.github/workflows/cleanup-caches.yml@v0.15.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/call-clear-cache.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "Clear cache weekly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-check-md-links.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "Lightning-AI/utilities/.github/workflows/check-md-links.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-checkpoints.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "Generate legacy ckpts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pkg-install.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pkg-install.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pkg-install.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-pkg-install.yml",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:28:22.803669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28543
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6202
+    },
+    {
+      "path": "requirements.txt",
+      "size": 105
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 7257
+    },
+    {
+      "path": ".github/workflows/_build-packages.yml",
+      "size": 1950
+    },
+    {
+      "path": ".github/workflows/_legacy-checkpoints.yml",
+      "size": 5972
+    },
+    {
+      "path": ".github/workflows/call-clear-cache.yml",
+      "size": 1266
+    },
+    {
+      "path": ".github/workflows/ci-check-md-links.yml",
+      "size": 632
+    },
+    {
+      "path": ".github/workflows/ci-checkpoints.yml",
+      "size": 607
+    },
+    {
+      "path": ".github/workflows/ci-pkg-install.yml",
+      "size": 3982
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes.",
+    "fork": false,
+    "full_name": "Lightning-AI/pytorch-lightning",
+    "html_url": "https://github.com/Lightning-AI/pytorch-lightning",
+    "language": "Python",
+    "pushed_at": "2026-04-21T09:35:34Z",
+    "stargazers_count": 31073,
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "data-science",
+      "deep-learning",
+      "machine-learning",
+      "python",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-22T17:04:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightning-ai/lightning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightning-ai/litserve",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Call building packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build-packages.yml",
+      "term": "Call building packages"
+    },
+    {
+      "context_snippet": "Create Legacy Ckpts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_legacy-checkpoints.yml",
+      "term": "Create Legacy Ckpts"
+    },
+    {
+      "context_snippet": "Clear cache weekly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/call-clear-cache.yml",
+      "term": "Clear cache weekly"
+    },
+    {
+      "context_snippet": "Generate legacy ckpts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-checkpoints.yml",
+      "term": "Generate legacy ckpts"
+    },
+    {
+      "context_snippet": "Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-pkg-install.yml",
+      "term": "Package"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

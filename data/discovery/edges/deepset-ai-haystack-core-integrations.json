@@ -1,0 +1,195 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_check_api_ref.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_check_api_ref.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_check_api_ref.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_check_integration_format.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_coverage_comment.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "py-cov-action/python-coverage-comment-action@63f52f4fbbffada6e8dee8ec432de7e01df9ba79",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_docstring_labeler.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_docstring_labeler.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_docusaurus_sync.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_docusaurus_sync.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_docusaurus_sync.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_docusaurus_sync.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_docusaurus_sync.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_labeler.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/labeler@634933edcd8ababfe52f92936142cc22ac488b1b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_license_compliance.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_license_compliance.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_license_compliance.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "tj-actions/changed-files@9426d40962ed5378910ee2e21d5f8c6fcbf2dd96",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_license_compliance.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "pilosus/action-pip-license-checker@e909b0226ff49d3235c99c4585bc617f49fff16a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_license_compliance.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "fossas/fossa-action@ff70fe9fe17cbd2040648f1c45e8ec4e4884dcf3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_license_compliance.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "deepset-ai/notify-slack-action@3cda73b77a148f16f703274198e7771340cf862b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_project.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_pypi_release.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_pypi_release.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_pypi_release.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_pypi_release.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "orhun/git-cliff-action@c93ef52f3d0ddcdcc9bd5447d98d458a11cd4f72",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI_pypi_release.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "EndBug/add-and-commit@290ea2c423ad77ca9c62ae0f5b224379612c0321",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "haystack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepset-ai/haystack-core-integrations",
+      "target": "mlops",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "deepset-ai/haystack-core-integrations"
+}

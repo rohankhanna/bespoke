@@ -1,0 +1,12 @@
+{
+  "component": "actions/setup-go@93397bea11091df50f3d7e59dc26a7711a8bcfbe",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "hashicorp/memberlist"
+    }
+  ]
+}

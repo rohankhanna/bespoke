@@ -1,0 +1,392 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagram.yml"
+    },
+    {
+      "component": "githubocto/repo-visualizer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagram.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzer.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcc-versions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "strukturag/libheif",
+      "target": "0xc0000054/libheif-sharp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "strukturag/libheif",
+      "target": "cykooz/libheif-sys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "strukturag/libheif",
+      "target": "lanthale/libheiffx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "strukturag/libheif",
+      "target": "h2non/bimg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "coverity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagram.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diagram.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "githubocto/repo-visualizer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diagram.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "Create diagram",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emscripten.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "emscripten",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fuzzer.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzzer.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "fuzzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcc-versions.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gcc-versions.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "gcc-versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "strukturag/libheif",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:47:00.414236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19504
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1355
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 1221
+    },
+    {
+      "path": ".github/workflows/clang.yml",
+      "size": 1402
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 1754
+    },
+    {
+      "path": ".github/workflows/diagram.yml",
+      "size": 333
+    },
+    {
+      "path": ".github/workflows/emscripten.yml",
+      "size": 444
+    },
+    {
+      "path": ".github/workflows/fuzzer.yml",
+      "size": 504
+    },
+    {
+      "path": ".github/workflows/gcc-versions.yml",
+      "size": 1149
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 651
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "libheif is an HEIF and AVIF file format decoder and encoder.",
+    "fork": false,
+    "full_name": "strukturag/libheif",
+    "html_url": "https://github.com/strukturag/libheif",
+    "language": "C++",
+    "pushed_at": "2026-04-21T05:50:39Z",
+    "stargazers_count": 2203,
+    "topics": [],
+    "updated_at": "2026-04-22T12:10:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xc0000054/libheif-sharp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cykooz/libheif-sys",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "h2non/bimg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lanthale/libheiffx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "clang",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang.yml",
+      "term": "clang"
+    },
+    {
+      "context_snippet": "coverity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "coverity"
+    },
+    {
+      "context_snippet": "Create diagram",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diagram.yml",
+      "term": "Create diagram"
+    },
+    {
+      "context_snippet": "emscripten",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emscripten.yml",
+      "term": "emscripten"
+    },
+    {
+      "context_snippet": "fuzzer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fuzzer.yml",
+      "term": "fuzzer"
+    },
+    {
+      "context_snippet": "gcc-versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gcc-versions.yml",
+      "term": "gcc-versions"
+    }
+  ]
+}

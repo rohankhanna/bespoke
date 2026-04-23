@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Pre-Commit Check",
-    "Pre-commit Check"
+    "Pre-commit Check",
+    "Pre Commit Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "alibaba/ROCK",
       "status": "candidate-context",
       "text": "Pre-commit Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "\ud83d\udc2b CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "Pre Commit Check"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "alibaba/ROCK",
       "status": "candidate",
       "text": "Pre-commit Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate",
+      "text": "Pre Commit Check"
     }
   ],
   "candidate_related_terms": [
@@ -83,6 +102,41 @@
       "score": 26424,
       "status": "candidate",
       "text": "ascertain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34235,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33952,
+      "status": "candidate",
+      "text": "kite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18035,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18001,
+      "status": "candidate",
+      "text": "preparation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17966,
+      "status": "candidate",
+      "text": "list"
     }
   ],
   "candidate_synonyms": [],
@@ -113,11 +167,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/pre-commit-check.yml",
       "source_repo": "alibaba/ROCK"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pre_commit.yml",
+      "source_repo": "camel-ai/camel"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

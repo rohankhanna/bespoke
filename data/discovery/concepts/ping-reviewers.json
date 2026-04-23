@@ -1,0 +1,118 @@
+{
+  "aliases": [
+    "Ping Reviewers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/tvm",
+      "status": "candidate-context",
+      "text": "Open Machine Learning Compiler Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tvm",
+      "status": "candidate-context",
+      "text": "Ping Reviewers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/relax",
+      "status": "candidate-context",
+      "text": "Ping Reviewers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tvm",
+      "status": "candidate",
+      "text": "Ping Reviewers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/relax",
+      "status": "candidate",
+      "text": "Ping Reviewers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10628,
+      "status": "candidate",
+      "text": "checker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10628,
+      "status": "candidate",
+      "text": "chequer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10628,
+      "status": "candidate",
+      "text": "chequered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10628,
+      "status": "candidate",
+      "text": "detect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10628,
+      "status": "candidate",
+      "text": "detected"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ping Reviewers",
+  "concept_id": "ping-reviewers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ping_reviewers.yml",
+      "source_repo": "apache/tvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ping_reviewers.yml",
+      "source_repo": "mlc-ai/relax"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ping Reviewers",
+      "sense_id": "ping-reviewers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

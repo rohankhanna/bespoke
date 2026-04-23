@@ -103,6 +103,78 @@
       "source_repo": "rurban/smhasher",
       "status": "candidate-context",
       "text": "SMhasher"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "FlatBuffers: Memory Efficient Serialization Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "![logo](https://flatbuffers.dev/assets/flatbuffers_logo.svg) FlatBuffers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/nix",
+      "status": "candidate-context",
+      "text": "Nix, the purely functional package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nix",
+      "status": "candidate-context",
+      "text": "[![Open Collective supporters](https://opencollective.com/nixos/tiers/supporter/badge.svg?label=Supporters&color=brightgreen)](https://opencollective.com/nixos)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "A modern formatting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/576385/156254208-f5b743a9-88cf-439d-b0c0-923d53e8d551.png\" alt=\"{fmt}\" width=\"25%\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpm-cmake/CPM.cmake",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 CMake's missing package manager. A small CMake script for setup-free, cross-platform, reproducible dependency management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpm-cmake/CPM.cmake",
+      "status": "candidate-context",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aseprite/aseprite",
+      "status": "candidate-context",
+      "text": "Animated sprite editor & pixel art tool (Windows, macOS, Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/aseprite",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/aseprite/aseprite/actions/workflows/build.yml/badge.svg)](https://github.com/aseprite/aseprite/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitcoin/bitcoin",
+      "status": "candidate-context",
+      "text": "Bitcoin Core integration/staging tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoin/bitcoin",
+      "status": "candidate-context",
+      "text": "Bitcoin Core integration/staging tree"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +225,42 @@
       "source_repo": "rurban/smhasher",
       "status": "candidate",
       "text": "SMhasher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate",
+      "text": "![logo](https://flatbuffers.dev/assets/flatbuffers_logo.svg) FlatBuffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nix",
+      "status": "candidate",
+      "text": "[![Open Collective supporters](https://opencollective.com/nixos/tiers/supporter/badge.svg?label=Supporters&color=brightgreen)](https://opencollective.com/nixos)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/576385/156254208-f5b743a9-88cf-439d-b0c0-923d53e8d551.png\" alt=\"{fmt}\" width=\"25%\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpm-cmake/CPM.cmake",
+      "status": "candidate",
+      "text": "<br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/aseprite",
+      "status": "candidate",
+      "text": "[![build](https://github.com/aseprite/aseprite/actions/workflows/build.yml/badge.svg)](https://github.com/aseprite/aseprite/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoin/bitcoin",
+      "status": "candidate",
+      "text": "Bitcoin Core integration/staging tree"
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +316,47 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "rurban/smhasher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/flatbuffers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NixOS/nix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fmtlib/fmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cpm-cmake/CPM.cmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aseprite/aseprite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bitcoin/bitcoin"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

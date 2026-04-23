@@ -1,0 +1,156 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "27medkamal/tmux-session-wizard",
+      "target": "tmux-plugins/tpm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "27medkamal/tmux-session-wizard",
+      "target": "theprimeagen/.dotfiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "27medkamal/tmux-session-wizard",
+      "target": "joshmedeski/t-smart-tmux-session-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "27medkamal/tmux-session-wizard",
+      "target": "dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "27medkamal/tmux-session-wizard",
+      "target": "productivity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "27medkamal/tmux-session-wizard",
+      "target": "session",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "27medkamal/tmux-session-wizard",
+      "target": "session-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "27medkamal/tmux-session-wizard",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "27medkamal/tmux-session-wizard",
+      "target": "zoxide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:35:20.470979+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6397
+    },
+    {
+      "path": "Dockerfile",
+      "size": 919
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "One prefix to control all your session creation, naming, switching, etc using fzf & zoxide",
+    "fork": false,
+    "full_name": "27medkamal/tmux-session-wizard",
+    "html_url": "https://github.com/27medkamal/tmux-session-wizard",
+    "language": "Shell",
+    "pushed_at": "2025-02-28T05:06:28Z",
+    "stargazers_count": 256,
+    "topics": [
+      "dotfiles",
+      "fzf",
+      "productivity",
+      "session",
+      "session-management",
+      "tmux",
+      "zoxide"
+    ],
+    "updated_at": "2026-04-15T05:59:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joshmedeski/t-smart-tmux-session-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theprimeagen/.dotfiles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tpm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![GitHub](https://img.shields.io/github/license/27medkamal/tmux-session-wizard)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    },
+    {
+      "context_snippet": "![GitHub](https://img.shields.io/github/license/27medkamal/tmux-session-wizard)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "productivity"
+    },
+    {
+      "context_snippet": "![GitHub](https://img.shields.io/github/license/27medkamal/tmux-session-wizard)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "session"
+    },
+    {
+      "context_snippet": "![GitHub](https://img.shields.io/github/license/27medkamal/tmux-session-wizard)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "session-management"
+    },
+    {
+      "context_snippet": "![GitHub](https://img.shields.io/github/license/27medkamal/tmux-session-wizard)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    },
+    {
+      "context_snippet": "![GitHub](https://img.shields.io/github/license/27medkamal/tmux-session-wizard)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zoxide"
+    }
+  ]
+}

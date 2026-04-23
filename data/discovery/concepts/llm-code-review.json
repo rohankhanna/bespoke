@@ -4,11 +4,68 @@
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "workflow-process"
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/MNN",
+      "status": "candidate-context",
+      "text": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/MNN",
+      "status": "candidate-context",
+      "text": "LLM Code Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/MNN",
+      "status": "candidate",
+      "text": "LLM Code Review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22459,
+      "status": "candidate",
+      "text": "reviewing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22454,
+      "status": "candidate",
+      "text": "accent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22454,
+      "status": "candidate",
+      "text": "canonist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22454,
+      "status": "candidate",
+      "text": "law school"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22454,
+      "status": "candidate",
+      "text": "maximization"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "LLM Code Review",
   "concept_id": "llm-code-review",
@@ -25,12 +82,20 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": ".github/workflows/llm-code-review.yml",
       "source_repo": "1Panel-dev/MaxKB"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/llm-pr-review.yml",
+      "source_repo": "alibaba/MNN"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

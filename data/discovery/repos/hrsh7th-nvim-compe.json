@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hrsh7th/nvim-compe",
+      "target": "cohama/lexima.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hrsh7th/nvim-compe",
+      "target": "goldsteine/compe-latex-symbols",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hrsh7th/nvim-compe",
+      "target": "andersevenrud/compe-tmux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hrsh7th/nvim-compe",
+      "target": "codybuell/compe-lbdb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/nvim-compe",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/nvim-compe",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/nvim-compe",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/nvim-compe",
+      "target": "nvim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:45:36.362595+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12707
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Auto completion Lua plugin for nvim",
+    "fork": false,
+    "full_name": "hrsh7th/nvim-compe",
+    "html_url": "https://github.com/hrsh7th/nvim-compe",
+    "language": "Lua",
+    "pushed_at": "2021-10-02T15:28:26Z",
+    "stargazers_count": 1277,
+    "topics": [
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "nvim-plugin"
+    ],
+    "updated_at": "2026-04-18T04:28:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andersevenrud/compe-tmux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codybuell/compe-lbdb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cohama/lexima.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "goldsteine/compe-latex-symbols",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "nvim-compe is now deprecated. Please use [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) the successor of nvim-compe.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "nvim-compe is now deprecated. Please use [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) the successor of nvim-compe.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "nvim-compe is now deprecated. Please use [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) the successor of nvim-compe.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "nvim-compe is now deprecated. Please use [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) the successor of nvim-compe.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-plugin"
+    }
+  ]
+}

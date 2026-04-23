@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Label newly opened RFC PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emberjs/rfcs",
+      "status": "candidate-context",
+      "text": "RFCs for changes to Ember"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/rfcs",
+      "status": "candidate-context",
+      "text": "Label newly opened RFC PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/rfcs",
+      "status": "candidate",
+      "text": "Label newly opened RFC PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25775,
+      "status": "candidate",
+      "text": "rusher"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17554,
+      "status": "candidate",
+      "text": "interface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16862,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16862,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16768,
+      "status": "candidate",
+      "text": "combination lock"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Label newly opened RFC PRs",
+  "concept_id": "label-newly-opened-rfc-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/label-opened-new-rfc-prs.yml",
+      "source_repo": "emberjs/rfcs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Label newly opened RFC PRs",
+      "sense_id": "label-newly-opened-rfc-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -11,21 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-ai-attribution-plugin",
+      "target": "danielrosehill/claude-budgeting-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-ai-engineering-plugin",
+      "target": "danielrosehill/claude-career-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-audio-production-plugin",
+      "target": "danielrosehill/claude-calls-the-shots",
       "target_type": "repository"
     },
     {
@@ -64,7 +64,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T19:16:59.067555+00:00",
+  "fetched_at": "2026-04-23T08:34:02.128908+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -85,13 +85,13 @@
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
     "pushed_at": "2026-04-21T11:06:00Z",
-    "stargazers_count": 376,
+    "stargazers_count": 378,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-04-21T18:27:52Z"
+    "updated_at": "2026-04-22T22:55:56Z"
   },
   "repo_links": [
     {
@@ -101,17 +101,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-ai-attribution-plugin",
+      "full_name": "danielrosehill/claude-budgeting-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-ai-engineering-plugin",
+      "full_name": "danielrosehill/claude-calls-the-shots",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-audio-production-plugin",
+      "full_name": "danielrosehill/claude-career-plugin",
       "source_file": "README.md"
     }
   ],

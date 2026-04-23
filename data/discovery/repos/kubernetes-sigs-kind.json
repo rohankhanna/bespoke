@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nerdctl.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nerdctl.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/podman.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/podman.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vm.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vm.yaml"
+    },
+    {
+      "component": "lima-vm/lima-actions/setup@55627e31b78637bf254a8b2a14da8ea7d12564e5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vm.yaml"
+    },
+    {
+      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vm.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vm.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "kubernetes/test-infra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nerdctl.yaml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nerdctl.yaml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nerdctl.yaml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "Nerdctl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/podman.yml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/podman.yml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/podman.yml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "Podman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vm.yaml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vm.yaml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vm.yaml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "lima-vm/lima-actions/setup@55627e31b78637bf254a8b2a14da8ea7d12564e5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vm.yaml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vm.yaml",
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "k8s-sig-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "kubeadm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kind",
+      "target": "podman",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:30:15.708954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6864
+    },
+    {
+      "path": "go.mod",
+      "size": 1046
+    },
+    {
+      "path": ".github/workflows/docker.yaml",
+      "size": 2823
+    },
+    {
+      "path": ".github/workflows/nerdctl.yaml",
+      "size": 3611
+    },
+    {
+      "path": ".github/workflows/podman.yml",
+      "size": 3554
+    },
+    {
+      "path": ".github/workflows/vm.yaml",
+      "size": 4102
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kubernetes IN Docker - local clusters for testing Kubernetes",
+    "fork": false,
+    "full_name": "kubernetes-sigs/kind",
+    "html_url": "https://github.com/kubernetes-sigs/kind",
+    "language": "Go",
+    "pushed_at": "2026-04-20T08:50:53Z",
+    "stargazers_count": 15181,
+    "topics": [
+      "docker",
+      "golang",
+      "k8s-sig-testing",
+      "kubeadm",
+      "kubernetes",
+      "podman"
+    ],
+    "updated_at": "2026-04-23T03:13:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/test-infra",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "Nerdctl",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nerdctl.yaml",
+      "term": "Nerdctl"
+    },
+    {
+      "context_snippet": "Podman",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/podman.yml",
+      "term": "Podman"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-testing"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubeadm"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "podman"
+    }
+  ]
+}

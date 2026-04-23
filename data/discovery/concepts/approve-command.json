@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Approve Command"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/ramalama",
+      "status": "candidate-context",
+      "text": "RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and facilitates their use for inference in production, all through the familiar language of containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/ramalama",
+      "status": "candidate-context",
+      "text": "Approve Command"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/ramalama",
+      "status": "candidate",
+      "text": "Approve Command"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28295,
+      "status": "candidate",
+      "text": "rubber-stamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11907,
+      "status": "candidate",
+      "text": "disallow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11907,
+      "status": "candidate",
+      "text": "nod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11907,
+      "status": "candidate",
+      "text": "signed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11907,
+      "status": "candidate",
+      "text": "take"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Approve Command",
+  "concept_id": "approve-command",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/approve-command.yml",
+      "source_repo": "containers/ramalama"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Approve Command",
+      "sense_id": "approve-command#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

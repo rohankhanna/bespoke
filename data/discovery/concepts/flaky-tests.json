@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "flaky-tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nextest-rs/nextest",
+      "status": "candidate-context",
+      "text": "A next-generation test runner for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextest-rs/nextest",
+      "status": "candidate-context",
+      "text": "Nextest is a next-generation test runner for Rust. For more information, **check out [the website](https://nexte.st/)**."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextest-rs/nextest",
+      "status": "candidate",
+      "text": "Nextest is a next-generation test runner for Rust. For more information, **check out [the website](https://nexte.st/)**."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "flaky-tests",
+  "concept_id": "flaky-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nextest-rs/nextest"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flaky-tests",
+      "sense_id": "flaky-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/analyze@e5f05b81d5b6ff8cfa111c80c22c5fd02a384118",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "prometheus/common"
+    }
+  ]
+}

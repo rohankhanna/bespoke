@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "d0c-s4vage/lookatme.contrib.image_ueberzug",
+      "target": "seebye/ueberzug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "d0c-s4vage/lookatme.contrib.image_ueberzug",
+      "target": "seebye/urwid-ueberzogen",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:42.334960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1102
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An in-development lookatme extension that uses ueberzug and urwid_ueberzogen to add image rendering support",
+    "fork": false,
+    "full_name": "d0c-s4vage/lookatme.contrib.image_ueberzug",
+    "html_url": "https://github.com/d0c-s4vage/lookatme.contrib.image_ueberzug",
+    "language": "Python",
+    "pushed_at": "2022-10-02T16:52:23Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2024-06-28T06:06:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seebye/ueberzug",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seebye/urwid-ueberzogen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

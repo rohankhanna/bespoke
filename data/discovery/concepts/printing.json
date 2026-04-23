@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "printing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pagedjs/pagedjs",
+      "status": "candidate-context",
+      "text": "Display paginated content in the browser and generate print books using web technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pagedjs/pagedjs",
+      "status": "candidate-context",
+      "text": "<img style=\"display: block; margin: 5em 0 auto;\" src=\"assets/pagedjs.png\" alt=\"Paged.js logo - pagination in the browser\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pagedjs/pagedjs",
+      "status": "candidate",
+      "text": "<img style=\"display: block; margin: 5em 0 auto;\" src=\"assets/pagedjs.png\" alt=\"Paged.js logo - pagination in the browser\"/>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035973,
+      "status": "candidate",
+      "text": "impression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043799,
+      "status": "candidate",
+      "text": "printing process"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043798,
+      "status": "candidate",
+      "text": "printout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043287,
+      "status": "candidate",
+      "text": "print-out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042794,
+      "status": "candidate",
+      "text": "printer"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21048,
+      "status": "candidate",
+      "text": "impression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "printing process"
+    }
+  ],
+  "canonical_name": "printing",
+  "concept_id": "printing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pagedjs/pagedjs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "printing",
+      "sense_id": "printing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

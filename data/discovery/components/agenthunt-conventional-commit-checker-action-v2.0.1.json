@@ -1,0 +1,17 @@
+{
+  "component": "agenthunt/conventional-commit-checker-action@v2.0.1",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commit_msg_check.yml",
+      "source_repo": "cgrindel/rules_swift_package_manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/commit_msg_check.yml",
+      "source_repo": "cgrindel/bazel-starlib"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:43:47.311841+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 775
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Python markdown breakless lists extension",
+    "fork": false,
+    "full_name": "adamb70/mdx-breakless-lists",
+    "html_url": "https://github.com/adamb70/mdx-breakless-lists",
+    "language": "Python",
+    "pushed_at": "2022-12-19T10:48:58Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-11-07T06:25:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

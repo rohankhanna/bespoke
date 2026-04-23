@@ -91,6 +91,90 @@
       "source_repo": "666ghj/MiroFish",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/graphrag",
+      "status": "candidate-context",
+      "text": "A modular graph-based Retrieval-Augmented Generation (RAG) system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/graphrag",
+      "status": "candidate-context",
+      "text": "\ud83d\udc49 [Microsoft Research Blog Post](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)<br/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unslothai/unsloth",
+      "status": "candidate-context",
+      "text": "Web UI for training and running open models like Gemma 4, Qwen3.5, DeepSeek, gpt-oss locally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unslothai/unsloth",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"margin:0;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/auto-round",
+      "status": "candidate-context",
+      "text": "A SOTA quantization algorithm for high-accuracy low-bit LLM inference, seamlessly optimized for CPU/XPU/CUDA, with multi-datatype support and full compatibility with vLLM, SGLang, and Transformers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/auto-round",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/OpenAOE",
+      "status": "candidate-context",
+      "text": "LLM Group Chat Framework: chat with multiple LLMs at the same time.      \u5927\u6a21\u578b\u7fa4\u804a\u6846\u67b6\uff1a\u540c\u65f6\u4e0e\u591a\u4e2a\u5927\u8bed\u8a00\u6a21\u578b\u804a\u5929\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/OpenAOE",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ml-explore/mlx-lm",
+      "status": "candidate-context",
+      "text": "Run LLMs with MLX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx-lm",
+      "status": "candidate-context",
+      "text": "MLX LM is a Python package for generating text and fine-tuning large language"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenNMT/OpenNMT-py",
+      "status": "candidate-context",
+      "text": "Open Source Neural Machine Translation and (Large) Language Models in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenNMT/OpenNMT-py",
+      "status": "candidate-context",
+      "text": "We started a new project [Eole](https://eole-nlp.github.io/eole/) available on [Github](https://github.com/eole-nlp/eole)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CodeBoarding/CodeBoarding",
+      "status": "candidate-context",
+      "text": "Interactive architecture diagrams for codebases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeBoarding/CodeBoarding",
+      "status": "candidate-context",
+      "text": "See what your AI is building before it breaks."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +219,48 @@
       "source_repo": "666ghj/MiroFish",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/graphrag",
+      "status": "candidate",
+      "text": "\ud83d\udc49 [Microsoft Research Blog Post](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)<br/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unslothai/unsloth",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"margin:0;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/auto-round",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/OpenAOE",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx-lm",
+      "status": "candidate",
+      "text": "MLX LM is a Python package for generating text and fine-tuning large language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenNMT/OpenNMT-py",
+      "status": "candidate",
+      "text": "We started a new project [Eole](https://eole-nlp.github.io/eole/) available on [Github](https://github.com/eole-nlp/eole)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeBoarding/CodeBoarding",
+      "status": "candidate",
+      "text": "See what your AI is building before it breaks."
     }
   ],
   "candidate_related_terms": [
@@ -238,11 +364,53 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "666ghj/MiroFish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/graphrag"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unslothai/unsloth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "intel/auto-round"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/OpenAOE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ml-explore/mlx-lm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "OpenNMT/OpenNMT-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "CodeBoarding/CodeBoarding"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

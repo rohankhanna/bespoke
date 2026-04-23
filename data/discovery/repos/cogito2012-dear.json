@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cogito2012/DEAR",
+      "target": "clovaai/rebias",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cogito2012/DEAR",
+      "target": "dougbrion/pytorch-classification-uncertainty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cogito2012/DEAR",
+      "target": "icgy96/arpl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cogito2012/DEAR",
+      "target": "abhijitbendale/osdn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cogito2012/DEAR",
+      "target": "action-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cogito2012/DEAR",
+      "target": "debiasing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cogito2012/DEAR",
+      "target": "evidential-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cogito2012/DEAR",
+      "target": "model-calibration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cogito2012/DEAR",
+      "target": "ood-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cogito2012/DEAR",
+      "target": "openset-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cogito2012/DEAR",
+      "target": "uncertainty-quantification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cogito2012/DEAR",
+      "target": "video-understanding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:32:06.249415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12754
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICCV 2021 Oral] Deep Evidential Action Recognition",
+    "fork": false,
+    "full_name": "Cogito2012/DEAR",
+    "html_url": "https://github.com/Cogito2012/DEAR",
+    "language": "Python",
+    "pushed_at": "2023-09-04T04:38:25Z",
+    "stargazers_count": 132,
+    "topics": [
+      "action-recognition",
+      "debiasing",
+      "evidential-deep-learning",
+      "model-calibration",
+      "ood-detection",
+      "openset-recognition",
+      "uncertainty-quantification",
+      "video-understanding"
+    ],
+    "updated_at": "2025-11-10T03:23:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abhijitbendale/osdn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clovaai/rebias",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dougbrion/pytorch-classification-uncertainty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "icgy96/arpl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": ":boom:**Update**:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "action-recognition"
+    },
+    {
+      "context_snippet": ":boom:**Update**:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debiasing"
+    },
+    {
+      "context_snippet": ":boom:**Update**:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evidential-deep-learning"
+    },
+    {
+      "context_snippet": ":boom:**Update**:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-calibration"
+    },
+    {
+      "context_snippet": ":boom:**Update**:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ood-detection"
+    },
+    {
+      "context_snippet": ":boom:**Update**:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openset-recognition"
+    },
+    {
+      "context_snippet": ":boom:**Update**:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "uncertainty-quantification"
+    },
+    {
+      "context_snippet": ":boom:**Update**:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-understanding"
+    }
+  ]
+}

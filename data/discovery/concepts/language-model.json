@@ -91,6 +91,78 @@
       "source_repo": "microsoft/LoRA",
       "status": "candidate-context",
       "text": "This repo contains the source code of the Python package `loralib` and several examples of how to integrate it with PyTorch models, such as those in Hugging Face."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate-context",
+      "text": "High-performance In-browser LLM Inference Engine "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"top\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer (parallelizable). We are at RWKV-7 \"Goose\". So it's combining the best of RNN and transformer - great performance, linear time, constant space (no kv-cache), fast training, infinite ctx_len, and free sentence embedding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/InternLM-XComposer",
+      "status": "candidate-context",
+      "text": "InternLM-XComposer2.5-OmniLive: A Comprehensive Multimodal System for Long-term Streaming Video and Audio Interactions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM-XComposer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "status": "candidate-context",
+      "text": "ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "status": "candidate-context",
+      "text": "RWKV-7 code: https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v7"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenNMT/OpenNMT-py",
+      "status": "candidate-context",
+      "text": "Open Source Neural Machine Translation and (Large) Language Models in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenNMT/OpenNMT-py",
+      "status": "candidate-context",
+      "text": "We started a new project [Eole](https://eole-nlp.github.io/eole/) available on [Github](https://github.com/eole-nlp/eole)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlc-ai/mlc-llm",
+      "status": "candidate-context",
+      "text": "Universal LLM Deployment Engine with ML Compilation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/mlc-llm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +207,42 @@
       "source_repo": "microsoft/LoRA",
       "status": "candidate",
       "text": "This repo contains the source code of the Python package `loralib` and several examples of how to integrate it with PyTorch models, such as those in Hugging Face."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"top\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM-XComposer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "status": "candidate",
+      "text": "RWKV-7 code: https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenNMT/OpenNMT-py",
+      "status": "candidate",
+      "text": "We started a new project [Eole](https://eole-nlp.github.io/eole/) available on [Github](https://github.com/eole-nlp/eole)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/mlc-llm",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +298,47 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "microsoft/LoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM-XComposer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BlinkDL/ChatRWKV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "OpenNMT/OpenNMT-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/mlc-llm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

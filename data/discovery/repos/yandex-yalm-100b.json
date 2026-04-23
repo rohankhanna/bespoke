@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yandex/YaLM-100B",
+      "target": "microsoft/deepspeedexamples",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:59.245752+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pretrained language model with 100B parameters",
+    "fork": false,
+    "full_name": "yandex/YaLM-100B",
+    "html_url": "https://github.com/yandex/YaLM-100B",
+    "language": "Python",
+    "pushed_at": "2023-07-10T00:54:27Z",
+    "stargazers_count": 3754,
+    "topics": [],
+    "updated_at": "2026-04-19T17:29:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeedexamples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

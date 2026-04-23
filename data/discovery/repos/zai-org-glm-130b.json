@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/GLM-130B",
+      "target": "nvidia/fastertransformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/GLM-130B",
+      "target": "thudm/chatglm2-6b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/GLM-130B",
+      "target": "thudm/chatglm-6b",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/GLM-130B",
+      "target": "thudm/glm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:58.421453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16132
+    },
+    {
+      "path": "requirements.txt",
+      "size": 80
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GLM-130B: An Open Bilingual Pre-Trained Model (ICLR 2023)",
+    "fork": false,
+    "full_name": "zai-org/GLM-130B",
+    "html_url": "https://github.com/zai-org/GLM-130B",
+    "language": "Python",
+    "pushed_at": "2023-07-25T09:01:49Z",
+    "stargazers_count": 7662,
+    "topics": [],
+    "updated_at": "2026-04-21T20:32:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/fastertransformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/chatglm-6b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/chatglm2-6b",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/glm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

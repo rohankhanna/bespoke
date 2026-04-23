@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "zip-dir",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Comfy-Org/ComfyUI_legacy_frontend",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Comfy-Org/ComfyUI_legacy_frontend",
+      "target": "zip-dir",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:34:46.927035+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 704
+    },
+    {
+      "path": "package.json",
+      "size": 328
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "ComfyUI legacy JS frontend",
+    "fork": false,
+    "full_name": "Comfy-Org/ComfyUI_legacy_frontend",
+    "html_url": "https://github.com/Comfy-Org/ComfyUI_legacy_frontend",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-11T14:45:40Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-21T20:00:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

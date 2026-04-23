@@ -1,0 +1,202 @@
+{
+  "components": [
+    {
+      "component": "tap",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isaacs-makework.yml"
+    },
+    {
+      "component": "actions/setup-node@v2.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isaacs-makework.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "isaacs/nave",
+      "target": "tap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "isaacs/nave",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "isaacs/nave",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isaacs-makework.yml",
+      "source_repo": "isaacs/nave",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/isaacs-makework.yml",
+      "source_repo": "isaacs/nave",
+      "target": "actions/setup-node@v2.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isaacs/nave",
+      "target": "nave",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isaacs/nave",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isaacs/nave",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isaacs/nave",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isaacs/nave",
+      "target": "subshell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "isaacs/nave",
+      "target": "versioning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:39:56.934678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14335
+    },
+    {
+      "path": "package.json",
+      "size": 880
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 882
+    },
+    {
+      "path": ".github/workflows/commit-if-modified.sh",
+      "size": 343
+    },
+    {
+      "path": ".github/workflows/copyright-year.sh",
+      "size": 513
+    },
+    {
+      "path": ".github/workflows/isaacs-makework.yml",
+      "size": 1126
+    },
+    {
+      "path": ".github/workflows/package-json-repo.js",
+      "size": 558
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Virtual Environments for Node",
+    "fork": false,
+    "full_name": "isaacs/nave",
+    "html_url": "https://github.com/isaacs/nave",
+    "language": "Shell",
+    "pushed_at": "2026-01-23T17:17:21Z",
+    "stargazers_count": 1633,
+    "topics": [
+      "nave",
+      "node",
+      "nodejs",
+      "nvm",
+      "sea",
+      "shell",
+      "subshell",
+      "versioning",
+      "zsh"
+    ],
+    "updated_at": "2026-04-09T10:24:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Virtual Environments for Node.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nave"
+    },
+    {
+      "context_snippet": "Virtual Environments for Node.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "Virtual Environments for Node.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "Virtual Environments for Node.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "Virtual Environments for Node.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subshell"
+    },
+    {
+      "context_snippet": "Virtual Environments for Node.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "versioning"
+    }
+  ]
+}

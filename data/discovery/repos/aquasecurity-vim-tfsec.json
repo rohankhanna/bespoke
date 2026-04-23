@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/vim-tfsec",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/vim-tfsec",
+      "target": "tfsec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/vim-tfsec",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/vim-tfsec",
+      "target": "vim-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:43:16.675842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "List your tfsec issues in the QuickFix window with this plugin.",
+    "fork": false,
+    "full_name": "aquasecurity/vim-tfsec",
+    "html_url": "https://github.com/aquasecurity/vim-tfsec",
+    "language": "Vim script",
+    "pushed_at": "2022-05-16T12:43:41Z",
+    "stargazers_count": 12,
+    "topics": [
+      "terraform",
+      "tfsec",
+      "vim",
+      "vim-plugin",
+      "vim-plugins"
+    ],
+    "updated_at": "2023-02-23T07:12:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Vim plugin for tfsec to install and run tfsec.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    },
+    {
+      "context_snippet": "Vim plugin for tfsec to install and run tfsec.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tfsec"
+    },
+    {
+      "context_snippet": "Vim plugin for tfsec to install and run tfsec.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "Vim plugin for tfsec to install and run tfsec.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugins"
+    }
+  ]
+}

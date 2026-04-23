@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Unit & Integration tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olric-data/olric",
+      "status": "candidate-context",
+      "text": "Distributed, in-memory key/value store and cache. It can be used as an embedded Go library and a language-independent service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olric-data/olric",
+      "status": "candidate-context",
+      "text": "Unit & Integration tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olric-data/olric",
+      "status": "candidate",
+      "text": "Unit & Integration tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28338,
+      "status": "candidate",
+      "text": "dyad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28338,
+      "status": "candidate",
+      "text": "tetrad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28338,
+      "status": "candidate",
+      "text": "triad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21256,
+      "status": "candidate",
+      "text": "bikini"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Unit & Integration tests",
+  "concept_id": "unit-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "olric-data/olric"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Unit & Integration tests",
+      "sense_id": "unit-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

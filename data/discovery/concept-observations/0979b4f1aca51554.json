@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\ude4c OpenHands: AI-Driven Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Enterprise Check Migrations"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Enterprise Check Migrations"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22510,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22510,
+      "status": "candidate",
+      "text": "synchronize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22510,
+      "status": "candidate",
+      "text": "wriggle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22456,
+      "status": "candidate",
+      "text": "inaugurate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22456,
+      "status": "candidate",
+      "text": "lull"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Enterprise Check Migrations",
+      "sense_id": "enterprise-check-migrations#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "enterprise-check-migrations",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "enterprise-check-migrations",
+  "observation_id": "0979b4f1aca51554",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Enterprise Check Migrations",
+  "source_context_snippet": "Enterprise Check Migrations",
+  "source_file": ".github/workflows/enterprise-check-migrations.yml",
+  "source_repo": "OpenHands/OpenHands",
+  "source_repo_description": "\ud83d\ude4c OpenHands: AI-Driven Development"
+}

@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkcheck.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkcheck.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    },
+    {
+      "component": "matheus23/md-spellcheck-action@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChainAgnostic/varsig",
+      "target": "multiformats/unsigned-varint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkcheck.yml",
+      "source_repo": "ChainAgnostic/varsig",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linkcheck.yml",
+      "source_repo": "ChainAgnostic/varsig",
+      "target": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "ChainAgnostic/varsig",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "ChainAgnostic/varsig",
+      "target": "matheus23/md-spellcheck-action@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "ChainAgnostic/varsig",
+      "target": "spellcheck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:39:04.911543+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17934
+    },
+    {
+      "path": ".github/workflows/dictionary.txt",
+      "size": 872
+    },
+    {
+      "path": ".github/workflows/linkcheck.cfg.json",
+      "size": 433
+    },
+    {
+      "path": ".github/workflows/linkcheck.yml",
+      "size": 377
+    },
+    {
+      "path": ".github/workflows/spellcheck.yml",
+      "size": 463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The cryptographic signature multifomat",
+    "fork": false,
+    "full_name": "ChainAgnostic/varsig",
+    "html_url": "https://github.com/ChainAgnostic/varsig",
+    "language": null,
+    "pushed_at": "2025-07-09T19:14:36Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-07-09T19:14:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multiformats/unsigned-varint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'spellcheck'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "term": "spellcheck"
+    }
+  ]
+}

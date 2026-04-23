@@ -1,0 +1,353 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-e2e-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@b55428b1882923874294fa556849718a1d7f2ca5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-e2e-tests.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-e2e-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yaml"
+    },
+    {
+      "component": "actions/setup-python@b55428b1882923874294fa556849718a1d7f2ca5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@37f50c210e3d2f9450da2cd423303d6a14a6e29f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yaml"
+    },
+    {
+      "component": "actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staleness.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@b55428b1882923874294fa556849718a1d7f2ca5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/clusterfuzz",
+      "target": "google/afl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/clusterfuzz",
+      "target": "google/honggfuzz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google/clusterfuzz",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google/clusterfuzz",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google/clusterfuzz",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google/clusterfuzz",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "google/clusterfuzz",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-e2e-tests.yaml",
+      "source_repo": "google/clusterfuzz",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-e2e-tests.yaml",
+      "source_repo": "google/clusterfuzz",
+      "target": "actions/setup-python@b55428b1882923874294fa556849718a1d7f2ca5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-e2e-tests.yaml",
+      "source_repo": "google/clusterfuzz",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kubernetes-e2e-tests.yaml",
+      "source_repo": "google/clusterfuzz",
+      "target": "Run Kubernetes e2e tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yaml",
+      "source_repo": "google/clusterfuzz",
+      "target": "actions/checkout@5a4ac9002d0be2fb38bd78e4b4dbde5606d7042f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yaml",
+      "source_repo": "google/clusterfuzz",
+      "target": "actions/setup-python@b55428b1882923874294fa556849718a1d7f2ca5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yaml",
+      "source_repo": "google/clusterfuzz",
+      "target": "pypa/gh-action-pypi-publish@37f50c210e3d2f9450da2cd423303d6a14a6e29f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yaml",
+      "source_repo": "google/clusterfuzz",
+      "target": "Publish PyPI package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staleness.yml",
+      "source_repo": "google/clusterfuzz",
+      "target": "actions/stale@28ca1036281a5e5922ead5184a1bbf96e5fc984e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/staleness.yml",
+      "source_repo": "google/clusterfuzz",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "google/clusterfuzz",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "google/clusterfuzz",
+      "target": "actions/setup-python@b55428b1882923874294fa556849718a1d7f2ca5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "google/clusterfuzz",
+      "target": "Run basic tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/clusterfuzz",
+      "target": "fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/clusterfuzz",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/clusterfuzz",
+      "target": "stability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/clusterfuzz",
+      "target": "vulnerabilities",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:43:26.567832+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3524
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2309
+    },
+    {
+      "path": ".github/workflows/kubernetes-e2e-tests.yaml",
+      "size": 1302
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yaml",
+      "size": 1471
+    },
+    {
+      "path": ".github/workflows/staleness.yml",
+      "size": 1168
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 1131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Scalable fuzzing infrastructure.",
+    "fork": false,
+    "full_name": "google/clusterfuzz",
+    "html_url": "https://github.com/google/clusterfuzz",
+    "language": "Python",
+    "pushed_at": "2026-04-21T18:03:52Z",
+    "stargazers_count": 5555,
+    "topics": [
+      "fuzzing",
+      "security",
+      "stability",
+      "vulnerabilities"
+    ],
+    "updated_at": "2026-04-22T20:30:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/afl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/honggfuzz",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Run Kubernetes e2e tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kubernetes-e2e-tests.yaml",
+      "term": "Run Kubernetes e2e tests"
+    },
+    {
+      "context_snippet": "Publish PyPI package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yaml",
+      "term": "Publish PyPI package"
+    },
+    {
+      "context_snippet": "\"Close stale issues and PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/staleness.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "Run basic tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Run basic tests"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzing"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stability"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulnerabilities"
+    }
+  ]
+}

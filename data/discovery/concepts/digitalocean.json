@@ -19,6 +19,30 @@
       "source_repo": "digitalocean/doctl",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">doctl</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "Tfsec is now part of Trivy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amoniacou/external-dns-digitalocean-webhook",
+      "status": "candidate-context",
+      "text": "External DNS DigitalOcean Webhook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amoniacou/external-dns-digitalocean-webhook",
+      "status": "candidate-context",
+      "text": "A webhook provider for [ExternalDNS](https://github.com/kubernetes-sigs/external-dns) that manages DNS records in DigitalOcean."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "digitalocean/doctl",
       "status": "candidate",
       "text": "<h1 align=\"center\">doctl</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amoniacou/external-dns-digitalocean-webhook",
+      "status": "candidate",
+      "text": "A webhook provider for [ExternalDNS](https://github.com/kubernetes-sigs/external-dns) that manages DNS records in DigitalOcean."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "digitalocean/doctl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "amoniacou/external-dns-digitalocean-webhook"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

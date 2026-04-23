@@ -1,0 +1,93 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR_plugins",
+      "target": "breezedeus/pix2text",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR_plugins",
+      "target": "daybreak-u/chineseocr_lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR_plugins",
+      "target": "eaeful/wechatocr_umi_plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR_plugins",
+      "target": "chunzhimoe/mistral.ai_umi_plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiroi-sora/Umi-OCR_plugins",
+      "target": "umi-ocr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:29:56.690105+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6082
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Umi-OCR \u63d2\u4ef6\u5e93",
+    "fork": false,
+    "full_name": "hiroi-sora/Umi-OCR_plugins",
+    "html_url": "https://github.com/hiroi-sora/Umi-OCR_plugins",
+    "language": "Python",
+    "pushed_at": "2025-03-26T06:20:08Z",
+    "stargazers_count": 567,
+    "topics": [
+      "umi-ocr"
+    ],
+    "updated_at": "2026-04-22T07:50:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "breezedeus/pix2text",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chunzhimoe/mistral.ai_umi_plugin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daybreak-u/chineseocr_lite",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eaeful/wechatocr_umi_plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "umi-ocr"
+    }
+  ]
+}

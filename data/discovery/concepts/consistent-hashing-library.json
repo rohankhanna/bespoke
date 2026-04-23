@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "consistent-hashing-library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buraksezer/consistent",
+      "status": "candidate-context",
+      "text": "Consistent hashing with bounded loads in Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buraksezer/consistent",
+      "status": "candidate-context",
+      "text": "consistent"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buraksezer/consistent",
+      "status": "candidate",
+      "text": "consistent"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "consistent-hashing-library",
+  "concept_id": "consistent-hashing-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "buraksezer/consistent"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "consistent-hashing-library",
+      "sense_id": "consistent-hashing-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

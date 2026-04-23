@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "mesos"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/mesos",
+      "status": "candidate-context",
+      "text": "Apache Mesos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mesos",
+      "status": "candidate-context",
+      "text": "Apache Mesos is a cluster manager that provides efficient resource isolation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mesos",
+      "status": "candidate",
+      "text": "Apache Mesos is a cluster manager that provides efficient resource isolation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21365,
+      "status": "candidate",
+      "text": "countershaft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21365,
+      "status": "candidate",
+      "text": "idler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21365,
+      "status": "candidate",
+      "text": "inositol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21365,
+      "status": "candidate",
+      "text": "intermediary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21365,
+      "status": "candidate",
+      "text": "intermediate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mesos",
+  "concept_id": "mesos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/mesos"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mesos",
+      "sense_id": "mesos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

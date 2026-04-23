@@ -1,0 +1,510 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-rapidgzip.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-rapidgzip.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-binaries.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-binaries.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-binaries.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-binaries.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-binaries.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-binaries.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-python.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-python.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels-rapidgzip.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels-rapidgzip.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels-rapidgzip.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels-rapidgzip.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels-rapidgzip.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels-rapidgzip.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "pauldmccarthy/indexed_gzip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "mxmlnkn/indexed_bzip2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "mxmlnkn/ratarmount",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "piezoid/pugz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-rapidgzip.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-rapidgzip.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-rapidgzip.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "Build Conda Packages (rapidgzip)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-binaries.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-binaries.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "conda-incubator/setup-miniconda@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-binaries.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-binaries.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-binaries.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-binaries.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "Build and Publish Static Binaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-python.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-python.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels-rapidgzip.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels-rapidgzip.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wheels-rapidgzip.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels-rapidgzip.yml",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "Build (and Publish) Wheels for rapidgzip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "cpp17-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "decompression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "gzip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "gzip-decompression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "parallel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "python-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "random-access",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip",
+      "target": "thread",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:33:35.358585+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29907
+    },
+    {
+      "path": ".github/workflows/conda-rapidgzip.yml",
+      "size": 2595
+    },
+    {
+      "path": ".github/workflows/install-python-on-windows.py",
+      "size": 465
+    },
+    {
+      "path": ".github/workflows/publish-binaries.yml",
+      "size": 6381
+    },
+    {
+      "path": ".github/workflows/release-template.md",
+      "size": 659
+    },
+    {
+      "path": ".github/workflows/test-python.yml",
+      "size": 4199
+    },
+    {
+      "path": ".github/workflows/wheels-rapidgzip.yml",
+      "size": 10081
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Gzip Decompression and Random Access for Modern Multi-Core Machines",
+    "fork": false,
+    "full_name": "mxmlnkn/rapidgzip",
+    "html_url": "https://github.com/mxmlnkn/rapidgzip",
+    "language": "Python",
+    "pushed_at": "2025-11-30T22:17:13Z",
+    "stargazers_count": 450,
+    "topics": [
+      "cli",
+      "command-line",
+      "command-line-tool",
+      "cpp",
+      "cpp17",
+      "cpp17-library",
+      "decompression",
+      "gzip",
+      "gzip-decompression",
+      "header-only",
+      "library",
+      "parallel",
+      "python-library",
+      "python3",
+      "random-access",
+      "thread"
+    ],
+    "updated_at": "2026-04-10T19:12:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mxmlnkn/indexed_bzip2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mxmlnkn/ratarmount",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pauldmccarthy/indexed_gzip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "piezoid/pugz",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Conda Packages (rapidgzip)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-rapidgzip.yml",
+      "term": "Build Conda Packages (rapidgzip)"
+    },
+    {
+      "context_snippet": "Build and Publish Static Binaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-binaries.yml",
+      "term": "Build and Publish Static Binaries"
+    },
+    {
+      "context_snippet": "Build (and Publish) Wheels for rapidgzip",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wheels-rapidgzip.yml",
+      "term": "Build (and Publish) Wheels for rapidgzip"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17-library"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decompression"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gzip"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gzip-decompression"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-library"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "random-access"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thread"
+    }
+  ]
+}

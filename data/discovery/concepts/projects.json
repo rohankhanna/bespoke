@@ -19,6 +19,18 @@
       "source_repo": "danielrosehill/AI-Projects-Index",
       "status": "candidate-context",
       "text": "[![GitHub](https://img.shields.io/badge/GitHub-danielrosehill-blue?style=flat-square&logo=github)](https://github.com/danielrosehill)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igor-makarov/xcake",
+      "status": "candidate-context",
+      "text": ":cake: Describe Xcode projects in a human readable format and (re)generate one on demand."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igor-makarov/xcake",
+      "status": "candidate-context",
+      "text": "[![Gem](https://img.shields.io/gem/v/xcake.svg)](https://rubygems.org/gems/xcake)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "danielrosehill/AI-Projects-Index",
       "status": "candidate",
       "text": "[![GitHub](https://img.shields.io/badge/GitHub-danielrosehill-blue?style=flat-square&logo=github)](https://github.com/danielrosehill)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igor-makarov/xcake",
+      "status": "candidate",
+      "text": "[![Gem](https://img.shields.io/gem/v/xcake.svg)](https://rubygems.org/gems/xcake)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/AI-Projects-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

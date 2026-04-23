@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "video-player"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpv-android/mpv-android",
+      "status": "candidate-context",
+      "text": "video player for Android based on libmpv \u21a6 #mpv-android @ irc.libera.chat"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpv-android/mpv-android",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/mpv-android/mpv-android/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/mpv-android/mpv-android/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "videojs/video.js",
+      "status": "candidate-context",
+      "text": "Video.js - open source HTML5 video player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "videojs/video.js",
+      "status": "candidate-context",
+      "text": "[![Video.js logo][logo]][vjs]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpv-android/mpv-android",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/mpv-android/mpv-android/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/mpv-android/mpv-android/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "videojs/video.js",
+      "status": "candidate",
+      "text": "[![Video.js logo][logo]][vjs]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "video-player",
+  "concept_id": "video-player",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mpv-android/mpv-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "videojs/video.js"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "video-player",
+      "sense_id": "video-player#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

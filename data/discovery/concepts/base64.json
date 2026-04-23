@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "base64"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/copper-multibase",
+      "status": "candidate-context",
+      "text": "Self-describing base encodings \u2014 Multibase encoder/decoder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/copper-multibase",
+      "status": "candidate-context",
+      "text": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nugine/simd",
+      "status": "candidate-context",
+      "text": "SIMD-accelerated operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nugine/simd",
+      "status": "candidate-context",
+      "text": "[![MIT licensed][mit-badge]][mit-url] [![CI][CI-badge]][CI-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/copper-multibase",
+      "status": "candidate",
+      "text": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nugine/simd",
+      "status": "candidate",
+      "text": "[![MIT licensed][mit-badge]][mit-url] [![CI][CI-badge]][CI-url]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "encoding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "binary-coded decimal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "binary code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "base36"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "character encoding"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "base64",
+  "concept_id": "base64",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Nugine/simd"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "base64",
+      "sense_id": "base64#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

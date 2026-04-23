@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "wechat-framework"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "offu/WeRoBot",
+      "status": "candidate-context",
+      "text": "WeRoBot \u662f\u4e00\u4e2a\u5fae\u4fe1\u516c\u4f17\u53f7\u5f00\u53d1\u6846\u67b6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "offu/WeRoBot",
+      "status": "candidate-context",
+      "text": "===================================="
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "offu/WeRoBot",
+      "status": "candidate",
+      "text": "===================================="
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "wechat-framework",
+  "concept_id": "wechat-framework",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "offu/WeRoBot"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wechat-framework",
+      "sense_id": "wechat-framework#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

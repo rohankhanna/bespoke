@@ -31,6 +31,30 @@
       "source_repo": "sharkdp/fd",
       "status": "candidate-context",
       "text": "CICD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate-context",
+      "text": "A command-line benchmarking tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate-context",
+      "text": "CICD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lsd-rs/lsd",
+      "status": "candidate-context",
+      "text": "The next gen ls command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lsd-rs/lsd",
+      "status": "candidate-context",
+      "text": "CICD"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "sharkdp/fd",
+      "status": "candidate",
+      "text": "CICD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate",
+      "text": "CICD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lsd-rs/lsd",
       "status": "candidate",
       "text": "CICD"
     }
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/CICD.yml",
       "source_repo": "sharkdp/fd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "sharkdp/hyperfine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "lsd-rs/lsd"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

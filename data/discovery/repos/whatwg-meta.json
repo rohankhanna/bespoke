@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/meta",
+      "target": "discussion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "whatwg/meta",
+      "target": "whatwg",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:30:32.387260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Discussions and issues without a logical home",
+    "fork": false,
+    "full_name": "whatwg/meta",
+    "html_url": "https://github.com/whatwg/meta",
+    "language": "Python",
+    "pushed_at": "2026-02-17T05:53:32Z",
+    "stargazers_count": 115,
+    "topics": [
+      "discussion",
+      "whatwg"
+    ],
+    "updated_at": "2026-03-22T10:58:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Welcome to `whatwg/meta`, a repository for discussing:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discussion"
+    },
+    {
+      "context_snippet": "Welcome to `whatwg/meta`, a repository for discussing:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whatwg"
+    }
+  ]
+}

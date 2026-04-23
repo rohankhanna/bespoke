@@ -1,0 +1,288 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "buraksezer/consistent",
+      "target": "buraksezer/olric",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "buraksezer/consistent",
+      "target": "aquasecurity/starboard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "buraksezer/consistent",
+      "target": "celo-org/celo-blockchain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "buraksezer/consistent",
+      "target": "authorizer-tech/access-controller",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "buraksezer/consistent",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "buraksezer/consistent",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "buraksezer/consistent",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "buraksezer/consistent",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "buraksezer/consistent",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "buraksezer/consistent",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "buraksezer/consistent",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "buraksezer/consistent",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "buraksezer/consistent",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "buraksezer/consistent",
+      "target": "awesome-go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "buraksezer/consistent",
+      "target": "consistent-hashing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "buraksezer/consistent",
+      "target": "consistent-hashing-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "buraksezer/consistent",
+      "target": "consistenthash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "buraksezer/consistent",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "buraksezer/consistent",
+      "target": "load-balancing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:39:02.404749+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10859
+    },
+    {
+      "path": "go.mod",
+      "size": 48
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2373
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 418
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Consistent hashing with bounded loads in Golang",
+    "fork": false,
+    "full_name": "buraksezer/consistent",
+    "html_url": "https://github.com/buraksezer/consistent",
+    "language": "Go",
+    "pushed_at": "2023-11-07T09:47:56Z",
+    "stargazers_count": 769,
+    "topics": [
+      "awesome",
+      "awesome-go",
+      "consistent-hashing",
+      "consistent-hashing-library",
+      "consistenthash",
+      "golang",
+      "load-balancing"
+    ],
+    "updated_at": "2026-04-10T19:11:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aquasecurity/starboard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "authorizer-tech/access-controller",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buraksezer/olric",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celo-org/celo-blockchain",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "consistent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "consistent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-go"
+    },
+    {
+      "context_snippet": "consistent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consistent-hashing"
+    },
+    {
+      "context_snippet": "consistent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consistent-hashing-library"
+    },
+    {
+      "context_snippet": "consistent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consistenthash"
+    },
+    {
+      "context_snippet": "consistent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "consistent",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "load-balancing"
+    }
+  ]
+}

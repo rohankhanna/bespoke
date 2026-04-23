@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Proposal for Custom Annotation Syntax in the Text Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI for specs](https://github.com/WebAssembly/annotations/actions/workflows/ci-spec.yml/badge.svg)](https://github.com/WebAssembly/annotations/actions/workflows/ci-spec.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI for specs](https://github.com/WebAssembly/annotations/actions/workflows/ci-spec.yml/badge.svg)](https://github.com/WebAssembly/annotations/actions/workflows/ci-spec.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014561,
+      "status": "candidate",
+      "text": "marriage offer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014561,
+      "status": "candidate",
+      "text": "marriage proposal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014561,
+      "status": "candidate",
+      "text": "proposal of marriage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014560,
+      "status": "candidate",
+      "text": "proposition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014517,
+      "status": "candidate",
+      "text": "offer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "proposal",
+      "sense_id": "proposal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "marriage proposal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1008,
+      "status": "candidate",
+      "text": "marriage offer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "proposal of marriage"
+    }
+  ],
+  "concept_id": "proposal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "proposal",
+  "observation_id": "e003b770b617c5ec",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "proposal",
+  "source_context_snippet": "[![CI for specs](https://github.com/WebAssembly/annotations/actions/workflows/ci-spec.yml/badge.svg)](https://github.com/WebAssembly/annotations/actions/workflows/ci-spec.yml)",
+  "source_file": null,
+  "source_repo": "WebAssembly/annotations",
+  "source_repo_description": "Proposal for Custom Annotation Syntax in the Text Format"
+}

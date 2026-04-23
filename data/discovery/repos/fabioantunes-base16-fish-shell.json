@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-themes.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-themes.yml"
+    },
+    {
+      "component": "tinted-theming/base16-builder-go@v0.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-themes.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "target": "echasnovski/mini.base16",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "target": "chriskempson/base16",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "target": "belak/base16-builder-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "target": "chriskempson/base16-shell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-themes.yml",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-themes.yml",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "target": "tinted-theming/base16-builder-go@v0.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-themes.yml",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "target": "Update themes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "target": "base16",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "target": "fish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "target": "fish-shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:40:51.011847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4432
+    },
+    {
+      "path": ".github/workflows/update-themes.yml",
+      "size": 913
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "base16 for fish shell",
+    "fork": false,
+    "full_name": "FabioAntunes/base16-fish-shell",
+    "html_url": "https://github.com/FabioAntunes/base16-fish-shell",
+    "language": "Shell",
+    "pushed_at": "2025-04-08T10:50:20Z",
+    "stargazers_count": 33,
+    "topics": [
+      "base16",
+      "fish",
+      "fish-shell",
+      "hacktoberfest",
+      "shell"
+    ],
+    "updated_at": "2025-06-12T20:04:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "belak/base16-builder-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chriskempson/base16",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chriskempson/base16-shell",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "echasnovski/mini.base16",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update themes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-themes.yml",
+      "term": "Update themes"
+    },
+    {
+      "context_snippet": "There are multiple projects out there that provide better functionality and are under active development.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "base16"
+    },
+    {
+      "context_snippet": "There are multiple projects out there that provide better functionality and are under active development.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish"
+    },
+    {
+      "context_snippet": "There are multiple projects out there that provide better functionality and are under active development.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish-shell"
+    },
+    {
+      "context_snippet": "There are multiple projects out there that provide better functionality and are under active development.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "There are multiple projects out there that provide better functionality and are under active development.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

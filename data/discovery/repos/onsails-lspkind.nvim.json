@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onsails/lspkind.nvim",
+      "target": "hrsh7th/nvim-compe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onsails/lspkind.nvim",
+      "target": "hrsh7th/vim-vsnip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onsails/lspkind.nvim",
+      "target": "hrsh7th/vim-vsnip-integ",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "onsails/lspkind.nvim",
+      "target": "metalelf0/jellybeans-nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:28:42.720087+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4435
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VS Code\u2013style pictograms for Neovim completion items",
+    "fork": false,
+    "full_name": "onsails/lspkind.nvim",
+    "html_url": "https://github.com/onsails/lspkind.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-01-29T12:31:49Z",
+    "stargazers_count": 1683,
+    "topics": [
+      "lsp",
+      "lua",
+      "neovim",
+      "nvim"
+    ],
+    "updated_at": "2026-04-21T04:31:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrsh7th/nvim-compe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrsh7th/vim-vsnip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrsh7th/vim-vsnip-integ",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "metalelf0/jellybeans-nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> VS Code\u2013style pictograms for Neovim completion items",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "> VS Code\u2013style pictograms for Neovim completion items",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -161,6 +161,66 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "coderaiser/cloudcmd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "mcgoo/vcpkg-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattn/go-colorable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc-hib/winres"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "fmtlib/fmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "kondrak/vkQuake2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "aws/amazon-ecs-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "daipeihust/im-select"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "GuillaumeGomez/sysinfo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "heim-rs/heim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "felixrieseberg/windows-build-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/react-native-winrt"
     }
   ],
   "term": "Windows"

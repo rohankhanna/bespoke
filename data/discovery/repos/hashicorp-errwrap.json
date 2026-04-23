@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@0a35821d5c230e903fcfe077583637dea1b27b47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "hashicorp/errwrap",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "hashicorp/errwrap",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "hashicorp/errwrap",
+      "target": "golangci/golangci-lint-action@0a35821d5c230e903fcfe077583637dea1b27b47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "hashicorp/errwrap",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "hashicorp/errwrap",
+      "target": "Build and Test Workflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:43:46.233256+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2484
+    },
+    {
+      "path": "go.mod",
+      "size": 47
+    },
+    {
+      "path": ".github/workflows/build_test.yml",
+      "size": 1048
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Errwrap is a Go (golang) library for wrapping and querying errors.",
+    "fork": false,
+    "full_name": "hashicorp/errwrap",
+    "html_url": "https://github.com/hashicorp/errwrap",
+    "language": "Go",
+    "pushed_at": "2026-04-13T08:17:11Z",
+    "stargazers_count": 449,
+    "topics": [],
+    "updated_at": "2026-04-14T04:11:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yml",
+      "term": "Build and Test Workflow"
+    }
+  ]
+}

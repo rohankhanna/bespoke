@@ -56,6 +56,48 @@
       "source_repo": "cloudnativelabs/kube-router",
       "status": "candidate-context",
       "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devicons/devicon",
+      "status": "candidate-context",
+      "text": "Set of icons representing programming languages, designing & development tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devicons/devicon",
+      "status": "candidate-context",
+      "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate-context",
+      "text": "Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate-context",
+      "text": "Code Scanning - Action"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jquery/jquery",
+      "status": "candidate-context",
+      "text": "jQuery JavaScript Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/jquery",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/upload-artifact",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
     }
   ],
   "candidate_glosses": [
@@ -82,6 +124,30 @@
       "source_repo": "cloudnativelabs/kube-router",
       "status": "candidate",
       "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devicons/devicon",
+      "status": "candidate",
+      "text": "\"Code Scanning - Action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate",
+      "text": "Code Scanning - Action"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/jquery",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/upload-artifact",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
     }
   ],
   "candidate_related_terms": [
@@ -161,11 +227,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "cloudnativelabs/kube-router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "devicons/devicon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "butlerx/wetty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "jquery/jquery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "actions/upload-artifact"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Gzip Decompression and Random Access for Modern Multi-Core Machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Conda Packages (rapidgzip)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Conda Packages (rapidgzip)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11776,
+      "status": "candidate",
+      "text": "training"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10996,
+      "status": "candidate",
+      "text": "clusters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10996,
+      "status": "candidate",
+      "text": "mail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10996,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10996,
+      "status": "candidate",
+      "text": "package"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Conda Packages (rapidgzip)",
+      "sense_id": "build-conda-packages-rapidgzip#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-conda-packages-rapidgzip",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-conda-packages-rapidgzip",
+  "observation_id": "7eac6b8bc6da1239",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Build Conda Packages (rapidgzip)",
+  "source_context_snippet": "Build Conda Packages (rapidgzip)",
+  "source_file": ".github/workflows/conda-rapidgzip.yml",
+  "source_repo": "mxmlnkn/rapidgzip",
+  "source_repo_description": "Gzip Decompression and Random Access for Modern Multi-Core Machines"
+}

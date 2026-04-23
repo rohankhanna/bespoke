@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates",
+      "target": "github-profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates",
+      "target": "readme-template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:28:56.165050+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains best profile readme's for your reference. ",
+    "fork": false,
+    "full_name": "durgeshsamariya/awesome-github-profile-readme-templates",
+    "html_url": "https://github.com/durgeshsamariya/awesome-github-profile-readme-templates",
+    "language": "HTML",
+    "pushed_at": "2026-04-17T23:57:59Z",
+    "stargazers_count": 5221,
+    "topics": [
+      "github-profile",
+      "readme",
+      "readme-template"
+    ],
+    "updated_at": "2026-04-22T04:31:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">Oii, eu sou a Julia Krisnarane \ud83d\udc8c\ud83c\udf37<img src=\"https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif\" width=\"30px\"> </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-profile"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Oii, eu sou a Julia Krisnarane \ud83d\udc8c\ud83c\udf37<img src=\"https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif\" width=\"30px\"> </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Oii, eu sou a Julia Krisnarane \ud83d\udc8c\ud83c\udf37<img src=\"https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif\" width=\"30px\"> </h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme-template"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ChatGPT Minimal implements core ChatGPT features with a minimal codebase. Built with Next.js. Clean code, easy to extend. ChatGPT Minimal \u4ee5\u6700\u5c0f\u4ee3\u7801\u91cf\u5b9e\u73b0\u4e86 ChatGPT \u6838\u5fc3\u529f\u80fd\u3002\u57fa\u4e8e Next.js\uff0c\u4ee3\u7801\u6e05\u6670\uff0c\u6613\u4e8e\u6269\u5c55\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ant-design",
+      "sense_id": "ant-design#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ant-design",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ant-design",
+  "observation_id": "6647cc834d8cd757",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "ant-design",
+  "source_context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)",
+  "source_file": null,
+  "source_repo": "blrchen/chatgpt-minimal",
+  "source_repo_description": "ChatGPT Minimal implements core ChatGPT features with a minimal codebase. Built with Next.js. Clean code, easy to extend. ChatGPT Minimal \u4ee5\u6700\u5c0f\u4ee3\u7801\u91cf\u5b9e\u73b0\u4e86 ChatGPT \u6838\u5fc3\u529f\u80fd\u3002\u57fa\u4e8e Next.js\uff0c\u4ee3\u7801\u6e05\u6670\uff0c\u6613\u4e8e\u6269\u5c55\u3002"
+}

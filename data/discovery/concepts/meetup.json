@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "meetup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vaishnav-Sabari-Girish/rust_bangalore_december_2025",
+      "status": "candidate-context",
+      "text": "My presentation for the Rust Bangalore December 2025 Meetup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vaishnav-Sabari-Girish/rust_bangalore_december_2025",
+      "status": "candidate-context",
+      "text": "This is my presentation for the Rust Bangalore December Meetup held on 20/12/2025."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vaishnav-Sabari-Girish/rust_bangalore_december_2025",
+      "status": "candidate",
+      "text": "This is my presentation for the Rust Bangalore December Meetup held on 20/12/2025."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021519,
+      "status": "candidate",
+      "text": "meet-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021518,
+      "status": "candidate",
+      "text": "meeting place"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021517,
+      "status": "candidate",
+      "text": "meetingplace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021516,
+      "status": "candidate",
+      "text": "rendezvous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021515,
+      "status": "candidate",
+      "text": "hangout"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "meetup",
+  "concept_id": "meetup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Vaishnav-Sabari-Girish/rust_bangalore_december_2025"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "meetup",
+      "sense_id": "meetup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

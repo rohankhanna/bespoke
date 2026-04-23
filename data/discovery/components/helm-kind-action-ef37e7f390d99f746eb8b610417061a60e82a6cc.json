@@ -1,7 +1,7 @@
 {
   "component": "helm/kind-action@ef37e7f390d99f746eb8b610417061a60e82a6cc",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "coder/coder-logstream-kube"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compatibility-e2e.yml",
+      "source_repo": "dragonflyoss/dragonfly"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-nydus.yml",
+      "source_repo": "dragonflyoss/dragonfly"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-rate-limit.yml",
+      "source_repo": "dragonflyoss/dragonfly"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "grafana-community/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/diff.yaml",
+      "source_repo": "grafana-community/helm-charts"
     }
   ]
 }

@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "target": "creationix/nvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "target": "danhper/fundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FabioAntunes/fish-nvm",
+      "target": "fish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FabioAntunes/fish-nvm",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FabioAntunes/fish-nvm",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FabioAntunes/fish-nvm",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FabioAntunes/fish-nvm",
+      "target": "yarn",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:35:59.493689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "nvm wrapper for fish-shell ",
+    "fork": false,
+    "full_name": "FabioAntunes/fish-nvm",
+    "html_url": "https://github.com/FabioAntunes/fish-nvm",
+    "language": "Shell",
+    "pushed_at": "2024-04-17T09:51:58Z",
+    "stargazers_count": 536,
+    "topics": [
+      "fish",
+      "hacktoberfest",
+      "node",
+      "nodejs",
+      "npm",
+      "nvm",
+      "yarn"
+    ],
+    "updated_at": "2026-04-12T05:38:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creationix/nvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danhper/fundle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[NVM] wrapper for fish-shell.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish"
+    },
+    {
+      "context_snippet": "[NVM] wrapper for fish-shell.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[NVM] wrapper for fish-shell.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "[NVM] wrapper for fish-shell.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "[NVM] wrapper for fish-shell.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yarn"
+    }
+  ]
+}

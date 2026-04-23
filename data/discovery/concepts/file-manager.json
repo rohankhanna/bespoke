@@ -19,6 +19,54 @@
       "source_repo": "coderaiser/cloudcmd",
       "status": "candidate-context",
       "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ranger/ranger",
+      "status": "candidate-context",
+      "text": "A VIM-inspired filemanager for the console"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranger/ranger",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ms-jpq/chadtree",
+      "status": "candidate-context",
+      "text": "File manager for Neovim. Better than NERDTree."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ms-jpq/chadtree",
+      "status": "candidate-context",
+      "text": "File Manager for Neovim, Better than NERDTree."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preservim/nerdtree",
+      "status": "candidate-context",
+      "text": "A tree explorer plugin for vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/nerdtree",
+      "status": "candidate-context",
+      "text": "Vint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gokcehan/lf",
+      "status": "candidate-context",
+      "text": "Terminal file manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gokcehan/lf",
+      "status": "candidate-context",
+      "text": "[Doc](doc.md)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "coderaiser/cloudcmd",
       "status": "candidate",
       "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranger/ranger",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ms-jpq/chadtree",
+      "status": "candidate",
+      "text": "File Manager for Neovim, Better than NERDTree."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/nerdtree",
+      "status": "candidate",
+      "text": "Vint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gokcehan/lf",
+      "status": "candidate",
+      "text": "[Doc](doc.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +112,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "coderaiser/cloudcmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ranger/ranger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ms-jpq/chadtree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "preservim/nerdtree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gokcehan/lf"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

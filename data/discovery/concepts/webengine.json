@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "webengine"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "servo/servo",
+      "status": "candidate-context",
+      "text": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "servo/servo",
+      "status": "candidate-context",
+      "text": "Servo is a prototype web browser engine written in the"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "servo/servo",
+      "status": "candidate",
+      "text": "Servo is a prototype web browser engine written in the"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "webengine",
+  "concept_id": "webengine",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "servo/servo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "webengine",
+      "sense_id": "webengine#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

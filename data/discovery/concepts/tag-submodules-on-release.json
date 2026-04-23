@@ -19,12 +19,30 @@
       "source_repo": "darkweak/souin",
       "status": "candidate-context",
       "text": "Tag submodules on release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darkweak/storages",
+      "status": "candidate-context",
+      "text": "Souin's storages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/storages",
+      "status": "candidate-context",
+      "text": "Tag submodules on release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "darkweak/souin",
+      "status": "candidate",
+      "text": "Tag submodules on release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/storages",
       "status": "candidate",
       "text": "Tag submodules on release"
     }
@@ -82,11 +100,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/release_plugins.yml",
       "source_repo": "darkweak/souin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/generate_release.sh",
+      "source_repo": "darkweak/storages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/storages"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

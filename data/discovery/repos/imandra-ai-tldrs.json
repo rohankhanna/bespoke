@@ -1,0 +1,120 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "imandra-ai/tldrs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "imandra-ai/tldrs",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imandra-ai/tldrs",
+      "target": "chrome-trace-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imandra-ai/tldrs",
+      "target": "daemon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imandra-ai/tldrs",
+      "target": "perfetto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "imandra-ai/tldrs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:39:06.657823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2751
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 608
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Trace and Log Daemon in Rust",
+    "fork": false,
+    "full_name": "imandra-ai/tldrs",
+    "html_url": "https://github.com/imandra-ai/tldrs",
+    "language": "Rust",
+    "pushed_at": "2025-10-27T18:50:16Z",
+    "stargazers_count": 0,
+    "topics": [
+      "chrome-trace-format",
+      "daemon",
+      "perfetto",
+      "rust"
+    ],
+    "updated_at": "2025-12-02T20:01:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "Trace and Log Daemon in RuSt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-trace-format"
+    },
+    {
+      "context_snippet": "Trace and Log Daemon in RuSt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "daemon"
+    },
+    {
+      "context_snippet": "Trace and Log Daemon in RuSt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perfetto"
+    },
+    {
+      "context_snippet": "Trace and Log Daemon in RuSt",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

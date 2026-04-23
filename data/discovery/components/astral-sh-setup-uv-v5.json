@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@v5",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -152,6 +152,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/linting.yml",
       "source_repo": "basf/MolPipeline"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make_bentos.yml",
+      "source_repo": "bentoml/openllm-models"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "CodeBoarding/CodeBoarding"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "CodeBoarding/CodeBoarding"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeflash.yml",
+      "source_repo": "albumentations-team/albumentations"
     }
   ]
 }

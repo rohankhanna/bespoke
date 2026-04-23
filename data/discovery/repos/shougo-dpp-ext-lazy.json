@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/dpp-ext-lazy",
+      "target": "vim-denops/denops.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/dpp-ext-lazy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/dpp-ext-lazy",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/dpp-ext-lazy",
+      "target": "jsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/dpp-ext-lazy",
+      "target": "dpp-exts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/dpp-ext-lazy",
+      "target": "dpp-vim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:32:01.727626+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 605
+    },
+    {
+      "path": ".github/workflows/jsr.yml",
+      "size": 440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Lazy ext for dpp.vim",
+    "fork": false,
+    "full_name": "Shougo/dpp-ext-lazy",
+    "html_url": "https://github.com/Shougo/dpp-ext-lazy",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-17T00:20:03Z",
+    "stargazers_count": 8,
+    "topics": [
+      "dpp-exts",
+      "dpp-vim"
+    ],
+    "updated_at": "2026-04-17T00:20:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim-denops/denops.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "jsr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr.yml",
+      "term": "jsr"
+    },
+    {
+      "context_snippet": "This ext implements lazy loading.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dpp-exts"
+    },
+    {
+      "context_snippet": "This ext implements lazy loading.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dpp-vim"
+    }
+  ]
+}

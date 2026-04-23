@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "zstandard"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avaneev/lzav",
+      "status": "candidate-context",
+      "text": "Fast In-Memory Data Compression Algorithm (header-only C/C++) 480+MB/s compress, 2800+MB/s decompress, ratio% better than LZ4, Snappy, and Zstd@-1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avaneev/lzav",
+      "status": "candidate-context",
+      "text": "LZAV is a fast general-purpose in-memory data compression algorithm based on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mholt/archiver",
+      "status": "candidate-context",
+      "text": "DEPRECATED. Please use mholt/archives instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archiver",
+      "status": "candidate-context",
+      "text": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mcmilk/7-Zip-zstd",
+      "status": "candidate-context",
+      "text": "7-Zip with support for Brotli, Fast-LZMA2, Lizard, LZ4, LZ5 and Zstandard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcmilk/7-Zip-zstd",
+      "status": "candidate-context",
+      "text": "This is the Github Page of [7-Zip] ZS with support of additional Codecs. The library used therefore is located here: [Multithreading Library](https://github.com/mcmilk/zstdmt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mxmlnkn/ratarmount",
+      "status": "candidate-context",
+      "text": "Access large archives as a filesystem efficiently, e.g., TAR, RAR, ZIP, GZ, BZ2, XZ, ZSTD archives"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/ratarmount",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avaneev/lzav",
+      "status": "candidate",
+      "text": "LZAV is a fast general-purpose in-memory data compression algorithm based on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archiver",
+      "status": "candidate",
+      "text": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcmilk/7-Zip-zstd",
+      "status": "candidate",
+      "text": "This is the Github Page of [7-Zip] ZS with support of additional Codecs. The library used therefore is located here: [Multithreading Library](https://github.com/mcmilk/zstdmt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/ratarmount",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "zstandard",
+  "concept_id": "zstandard",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "avaneev/lzav"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mholt/archiver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mcmilk/7-Zip-zstd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mxmlnkn/ratarmount"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zstandard",
+      "sense_id": "zstandard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

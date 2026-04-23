@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "langchain-ai/langchain",
-      "target": "langchain-ai/deepagents",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_compile_integration_test.yml",
       "source_repo": "langchain-ai/langchain",
@@ -267,6 +260,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-18T18:30:26.389736+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "langchain-ai/langchain"
 }

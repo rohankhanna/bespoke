@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "SLSA go builder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "status": "candidate-context",
+      "text": "Language-agnostic SLSA provenance generation for Github Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "status": "candidate-context",
+      "text": "SLSA go builder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "status": "candidate",
+      "text": "SLSA go builder"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13350,
+      "status": "candidate",
+      "text": "maker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13041,
+      "status": "candidate",
+      "text": "bet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13041,
+      "status": "candidate",
+      "text": "bird"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13041,
+      "status": "candidate",
+      "text": "bob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13041,
+      "status": "candidate",
+      "text": "build"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "SLSA go builder",
+  "concept_id": "slsa-go-builder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/builder_go_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SLSA go builder",
+      "sense_id": "slsa-go-builder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

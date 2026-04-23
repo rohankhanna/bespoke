@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "emulation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RPCS3/rpcs3",
+      "status": "candidate-context",
+      "text": "PlayStation 3 emulator and debugger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RPCS3/rpcs3",
+      "status": "candidate-context",
+      "text": "RPCS3"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RPCS3/rpcs3",
+      "status": "candidate",
+      "text": "RPCS3"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048083,
+      "status": "candidate",
+      "text": "emulator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047799,
+      "status": "candidate",
+      "text": "imitation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30041827,
+      "status": "candidate",
+      "text": "replication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022740,
+      "status": "candidate",
+      "text": "incentive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011266,
+      "status": "candidate",
+      "text": "competition"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "emulation",
+  "concept_id": "emulation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "RPCS3/rpcs3"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "emulation",
+      "sense_id": "emulation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

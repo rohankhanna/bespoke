@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Auto Label Issues"
+    "Auto Label Issues",
+    "Auto-label Issues"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "NVIDIA/cutlass",
       "status": "candidate-context",
       "text": "Auto Label Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cline/cline",
+      "status": "candidate-context",
+      "text": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cline/cline",
+      "status": "candidate-context",
+      "text": "Auto-label Issues"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "NVIDIA/cutlass",
       "status": "candidate",
       "text": "Auto Label Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cline/cline",
+      "status": "candidate",
+      "text": "Auto-label Issues"
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +83,41 @@
       "score": 17833,
       "status": "candidate",
       "text": "garage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "access"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "affairs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "anything"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "areas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "arguments"
     }
   ],
   "candidate_synonyms": [],
@@ -76,11 +130,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/auto-label-issues.yml",
       "source_repo": "NVIDIA/cutlass"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/label-jetbrains-issues.yml",
+      "source_repo": "cline/cline"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

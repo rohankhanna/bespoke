@@ -1,0 +1,272 @@
+{
+  "components": [
+    {
+      "component": "anchor-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "bootstrap",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jquery",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "popper.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml"
+    },
+    {
+      "component": "dacbd/create-issue-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/validate-binaries.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-quick-start-module.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/validate-binaries.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-quick-start-module.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "creationix/nvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "pytorch/tutorials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "anchor-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "bootstrap",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "jquery",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "popper.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "dacbd/create-issue-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-quick-start-module.yml",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-quick-start-module.yml",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "Update quick start module",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-quick-start-module.yml",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "pytorch/test-infra/.github/workflows/validate-binaries.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-quick-start-module.yml",
+      "source_repo": "pytorch/pytorch.github.io",
+      "target": "Validate quick start module",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:33:01.952267+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2424
+    },
+    {
+      "path": "package.json",
+      "size": 132
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1197
+    },
+    {
+      "path": ".github/workflows/update-quick-start-module.yml",
+      "size": 4534
+    },
+    {
+      "path": ".github/workflows/validate-quick-start-module.yml",
+      "size": 774
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "site",
+    "description": "The website for PyTorch",
+    "fork": false,
+    "full_name": "pytorch/pytorch.github.io",
+    "html_url": "https://github.com/pytorch/pytorch.github.io",
+    "language": "HTML",
+    "pushed_at": "2026-04-16T19:01:17Z",
+    "stargazers_count": 279,
+    "topics": [],
+    "updated_at": "2026-04-21T08:18:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creationix/nvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/tutorials",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Update quick start module",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-quick-start-module.yml",
+      "term": "Update quick start module"
+    },
+    {
+      "context_snippet": "Validate quick start module",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-quick-start-module.yml",
+      "term": "Validate quick start module"
+    }
+  ]
+}

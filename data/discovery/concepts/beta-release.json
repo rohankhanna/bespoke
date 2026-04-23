@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Beta Release"
+    "Beta Release",
+    "beta-release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "AndyMik90/Aperant",
       "status": "candidate-context",
       "text": "Beta Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate-context",
+      "text": "A controller to help manage App Mesh resources for a Kubernetes cluster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate-context",
+      "text": "beta-release"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "AndyMik90/Aperant",
       "status": "candidate",
       "text": "Beta Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate",
+      "text": "beta-release"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +125,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/beta-release.yml",
       "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/beta-release.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/beta-release.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

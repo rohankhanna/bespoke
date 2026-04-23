@@ -19,12 +19,30 @@
       "source_repo": "Azure/azure-sdk-for-python",
       "status": "candidate-context",
       "text": "GitHub Event Processor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-sdk-for-rust",
+      "status": "candidate-context",
+      "text": "This repository is for the active development of the Azure SDK for Rust. For consumers of the SDK we recommend visiting Docs.rs and looking up the docs for any of libraries in the SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-rust",
+      "status": "candidate-context",
+      "text": "GitHub Event Processor"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Azure/azure-sdk-for-python",
+      "status": "candidate",
+      "text": "GitHub Event Processor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-rust",
       "status": "candidate",
       "text": "GitHub Event Processor"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/event-processor.yml",
       "source_repo": "Azure/azure-sdk-for-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/event-processor.yml",
+      "source_repo": "Azure/azure-sdk-for-rust"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

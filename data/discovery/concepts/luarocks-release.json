@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "luarocks-release"
+    "luarocks-release",
+    "Luarocks Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "ibhagwan/fzf-lua",
       "status": "candidate-context",
       "text": "\"luarocks-release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-tree/nvim-tree.lua",
+      "status": "candidate-context",
+      "text": "A file explorer tree for neovim written in lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-tree/nvim-tree.lua",
+      "status": "candidate-context",
+      "text": "Luarocks Release"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "ibhagwan/fzf-lua",
       "status": "candidate",
       "text": "\"luarocks-release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-tree/nvim-tree.lua",
+      "status": "candidate",
+      "text": "Luarocks Release"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "allocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "announcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assignment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "authorisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "authorization"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "luarocks-release",
   "concept_id": "luarocks-release",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/luarocks-release.yaml",
       "source_repo": "ibhagwan/fzf-lua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/luarocks-release.yml",
+      "source_repo": "nvim-tree/nvim-tree.lua"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

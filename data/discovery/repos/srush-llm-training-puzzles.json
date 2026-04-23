@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "srush/LLM-Training-Puzzles",
+      "target": "srush/transformer-puzzles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "srush/LLM-Training-Puzzles",
+      "target": "puzzles",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:32:41.604942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1304
+    },
+    {
+      "path": "requirements.txt",
+      "size": 53
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "What would you do with 1000 H100s...",
+    "fork": false,
+    "full_name": "srush/LLM-Training-Puzzles",
+    "html_url": "https://github.com/srush/LLM-Training-Puzzles",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-01-10T17:11:43Z",
+    "stargazers_count": 1169,
+    "topics": [
+      "llm",
+      "puzzles"
+    ],
+    "updated_at": "2026-04-22T01:51:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "srush/transformer-puzzles",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- by [Sasha Rush](http://rush-nlp.com) - [srush_nlp](https://twitter.com/srush_nlp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "puzzles"
+    }
+  ]
+}

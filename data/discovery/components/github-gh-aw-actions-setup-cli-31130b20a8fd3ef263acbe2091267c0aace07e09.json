@@ -1,0 +1,12 @@
+{
+  "component": "github/gh-aw-actions/setup-cli@31130b20a8fd3ef263acbe2091267c0aace07e09",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/core"
+    }
+  ]
+}

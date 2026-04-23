@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release Drafter"
+    "Release Drafter",
+    "Release drafter"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -55,6 +56,90 @@
       "source_repo": "ApeWorX/ape",
       "status": "candidate-context",
       "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-go",
+      "status": "candidate-context",
+      "text": "Go Implementation For Apache Dubbo ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-go",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "The React Native Community CLI - command line tools to help you build RN apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate-context",
+      "text": "Ultra fast JSON decoder and encoder written in C with Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate-context",
+      "text": "Release drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jenkinsci/winsw-maven-packaging",
+      "status": "candidate-context",
+      "text": "Maven Packaging for Windows Service Wrapper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/winsw-maven-packaging",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate-context",
+      "text": "Python humanize functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate-context",
+      "text": "Release drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gdesmott/system-deps",
+      "status": "candidate-context",
+      "text": "Run pkg-config from declarative dependencies in Cargo.toml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gdesmott/system-deps",
+      "status": "candidate-context",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/go-redis",
+      "status": "candidate-context",
+      "text": "Redis Go client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/go-redis",
+      "status": "candidate-context",
+      "text": "Release Drafter"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +164,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ApeWorX/ape",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-go",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate",
+      "text": "Release drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jenkinsci/winsw-maven-packaging",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate",
+      "text": "Release drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gdesmott/system-deps",
+      "status": "candidate",
+      "text": "Release Drafter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/go-redis",
       "status": "candidate",
       "text": "Release Drafter"
     }
@@ -148,11 +275,53 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/draft.yaml",
       "source_repo": "ApeWorX/ape"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "apache/dubbo-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "react-native-community/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "jenkinsci/winsw-maven-packaging"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "python-humanize/humanize"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "gdesmott/system-deps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/go-redis"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

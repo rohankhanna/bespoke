@@ -157,6 +157,72 @@
       "source_repo": "deepset-ai/haystack",
       "status": "candidate-context",
       "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erigontech/erigon",
+      "status": "candidate-context",
+      "text": "Ethereum implementation on the efficiency frontier "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erigontech/erigon",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shakacode/shakapacker",
+      "status": "candidate-context",
+      "text": "Use Webpack to manage app-like JavaScript modules in Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shakacode/shakapacker",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/loki",
+      "status": "candidate-context",
+      "text": "Like Prometheus, but for logs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/loki",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NethermindEth/nethermind",
+      "status": "candidate-context",
+      "text": "A robust, high-performance execution client for Ethereum node operators."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NethermindEth/nethermind",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/rocksdb",
+      "status": "candidate-context",
+      "text": "A library that provides an embeddable, persistent key-value store for fast storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/rocksdb",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shakacode/package_json",
+      "status": "candidate-context",
+      "text": "Claude Code Review"
     }
   ],
   "candidate_glosses": [
@@ -235,6 +301,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "deepset-ai/haystack",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erigontech/erigon",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shakacode/shakapacker",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/loki",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NethermindEth/nethermind",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/rocksdb",
+      "status": "candidate",
+      "text": "Claude Code Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shakacode/package_json",
       "status": "candidate",
       "text": "Claude Code Review"
     }
@@ -376,11 +478,53 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "deepset-ai/haystack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "erigontech/erigon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "shakacode/shakapacker"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "grafana/loki"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "NethermindEth/nethermind"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "facebook/rocksdb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "shakacode/package_json"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

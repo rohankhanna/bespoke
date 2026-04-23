@@ -1,0 +1,248 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Alpine.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Arch.yml"
+    },
+    {
+      "component": "tim-actions/get-pr-commits@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DCO.yml"
+    },
+    {
+      "component": "tim-actions/dco@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DCO.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu-aarch64.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu-aarch64.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu-riscv64.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu-riscv64.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artemsen/swayimg",
+      "target": "libjxl/libjxl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artemsen/swayimg",
+      "target": "strukturag/libheif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artemsen/swayimg",
+      "target": "aomediacodec/libavif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Alpine.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Arch.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DCO.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "tim-actions/get-pr-commits@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DCO.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "tim-actions/dco@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DCO.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "DCO check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu-aarch64.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu-aarch64.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu-riscv64.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu-riscv64.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:29:37.151237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3068
+    },
+    {
+      "path": ".github/workflows/Alpine.yml",
+      "size": 1645
+    },
+    {
+      "path": ".github/workflows/Arch.yml",
+      "size": 1640
+    },
+    {
+      "path": ".github/workflows/DCO.yml",
+      "size": 408
+    },
+    {
+      "path": ".github/workflows/Dockerfile.Alpine",
+      "size": 372
+    },
+    {
+      "path": ".github/workflows/Dockerfile.Arch",
+      "size": 771
+    },
+    {
+      "path": ".github/workflows/Dockerfile.Ubuntu",
+      "size": 716
+    },
+    {
+      "path": ".github/workflows/FreeBSD.yml",
+      "size": 1576
+    },
+    {
+      "path": ".github/workflows/Ubuntu-aarch64.yml",
+      "size": 1680
+    },
+    {
+      "path": ".github/workflows/Ubuntu-riscv64.yml",
+      "size": 1680
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Image viewer for Wayland",
+    "fork": false,
+    "full_name": "artemsen/swayimg",
+    "html_url": "https://github.com/artemsen/swayimg",
+    "language": "C++",
+    "pushed_at": "2026-04-09T09:21:48Z",
+    "stargazers_count": 641,
+    "topics": [],
+    "updated_at": "2026-04-22T19:38:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aomediacodec/libavif",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libjxl/libjxl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "strukturag/libheif",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "DCO check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DCO.yml",
+      "term": "DCO check"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io",
+      "target": "casbin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io",
+      "target": "docusaurus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io",
+      "target": "docusaurus-v2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:38:37.083623+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The GitHub pages (static site) for: https://github.com/casbin/casbin-website-v2",
+    "fork": false,
+    "full_name": "apache/casbin-casbin.io",
+    "html_url": "https://github.com/apache/casbin-casbin.io",
+    "language": "HTML",
+    "pushed_at": "2026-03-23T12:21:59Z",
+    "stargazers_count": 2,
+    "topics": [
+      "casbin",
+      "docs",
+      "docusaurus",
+      "docusaurus-v2"
+    ],
+    "updated_at": "2026-03-23T12:22:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The GitHub pages (static site) for: https://github.com/casbin/casbin-website-v2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "casbin"
+    },
+    {
+      "context_snippet": "The GitHub pages (static site) for: https://github.com/casbin/casbin-website-v2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docs"
+    },
+    {
+      "context_snippet": "The GitHub pages (static site) for: https://github.com/casbin/casbin-website-v2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docusaurus"
+    },
+    {
+      "context_snippet": "The GitHub pages (static site) for: https://github.com/casbin/casbin-website-v2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docusaurus-v2"
+    }
+  ]
+}

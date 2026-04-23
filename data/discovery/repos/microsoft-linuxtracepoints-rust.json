@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Rust.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Rust.yml",
+      "source_repo": "microsoft/LinuxTracepoints-Rust",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Rust.yml",
+      "source_repo": "microsoft/LinuxTracepoints-Rust",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Rust.yml",
+      "source_repo": "microsoft/LinuxTracepoints-Rust",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:38:35.214249+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2990
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 204
+    },
+    {
+      "path": ".github/workflows/Rust.yml",
+      "size": 696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust libraries for Linux Tracepoints and user_events",
+    "fork": false,
+    "full_name": "microsoft/LinuxTracepoints-Rust",
+    "html_url": "https://github.com/microsoft/LinuxTracepoints-Rust",
+    "language": "Rust",
+    "pushed_at": "2025-12-03T21:05:57Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-12-03T21:05:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

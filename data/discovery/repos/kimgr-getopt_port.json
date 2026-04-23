@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:32:42.593378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 926
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BSD-licensed getopt implementation",
+    "fork": false,
+    "full_name": "kimgr/getopt_port",
+    "html_url": "https://github.com/kimgr/getopt_port",
+    "language": "C++",
+    "pushed_at": "2024-03-03T14:27:15Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2026-02-22T16:45:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

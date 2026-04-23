@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/kmsan",
+      "target": "ramosian-glider/clang-kernel-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/kmsan",
+      "target": "google/syzkaller",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:41:14.922329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2563
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "KernelMemorySanitizer, a detector of uses of uninitialized memory in the Linux kernel",
+    "fork": false,
+    "full_name": "google/kmsan",
+    "html_url": "https://github.com/google/kmsan",
+    "language": "C",
+    "pushed_at": "2026-03-05T16:38:11Z",
+    "stargazers_count": 418,
+    "topics": [],
+    "updated_at": "2026-04-16T05:30:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/syzkaller",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ramosian-glider/clang-kernel-build",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

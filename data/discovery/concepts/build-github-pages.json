@@ -31,6 +31,18 @@
       "source_repo": "songquanpeng/gin-template",
       "status": "candidate-context",
       "text": "Build GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "songquanpeng/wechat-server",
+      "status": "candidate-context",
+      "text": "\u5fae\u4fe1\u516c\u4f17\u53f7\u7684\u540e\u7aef\uff0c\u4e3a\u5176\u4ed6\u7cfb\u7edf\u63d0\u4f9b\u5fae\u4fe1\u767b\u5f55\u9a8c\u8bc1\u529f\u80fd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songquanpeng/wechat-server",
+      "status": "candidate-context",
+      "text": "Build GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "songquanpeng/gin-template",
+      "status": "candidate",
+      "text": "Build GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songquanpeng/wechat-server",
       "status": "candidate",
       "text": "Build GitHub Pages"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/github-pages.yml",
       "source_repo": "songquanpeng/gin-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "songquanpeng/wechat-server"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

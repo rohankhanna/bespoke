@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C and C++ database for objects and structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ObjectBox Embedded Database for C and C++"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ObjectBox Embedded Database for C and C++"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036004,
+      "status": "candidate",
+      "text": "persistency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035687,
+      "status": "candidate",
+      "text": "tenaciousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035667,
+      "status": "candidate",
+      "text": "tenacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035436,
+      "status": "candidate",
+      "text": "perseveration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035238,
+      "status": "candidate",
+      "text": "doggedness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "persistence",
+      "sense_id": "persistence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 96037,
+      "status": "candidate",
+      "text": "tenacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40033,
+      "status": "candidate",
+      "text": "perseverance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13024,
+      "status": "candidate",
+      "text": "doggedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11018,
+      "status": "candidate",
+      "text": "tenaciousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10005,
+      "status": "candidate",
+      "text": "perseverence"
+    }
+  ],
+  "concept_id": "persistence",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "persistence",
+  "observation_id": "4055cdb8aa140b75",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "persistence",
+  "source_context_snippet": "ObjectBox Embedded Database for C and C++",
+  "source_file": null,
+  "source_repo": "objectbox/objectbox-c",
+  "source_repo_description": "C and C++ database for objects and structs"
+}

@@ -31,6 +31,30 @@
       "source_repo": "open-telemetry/opentelemetry-proto",
       "status": "candidate-context",
       "text": "\"Close stale pull requests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/tutorials",
+      "status": "candidate-context",
+      "text": "PyTorch tutorials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/tutorials",
+      "status": "candidate-context",
+      "text": "Close stale pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/foundationdb",
+      "status": "candidate-context",
+      "text": "FoundationDB - the open source, distributed, transactional key-value store"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/foundationdb",
+      "status": "candidate-context",
+      "text": "'Close stale pull requests'"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "open-telemetry/opentelemetry-proto",
       "status": "candidate",
       "text": "\"Close stale pull requests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/tutorials",
+      "status": "candidate",
+      "text": "Close stale pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/foundationdb",
+      "status": "candidate",
+      "text": "'Close stale pull requests'"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +142,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/stale-pr",
       "source_repo": "open-telemetry/opentelemetry-proto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/StalePRs.yml",
+      "source_repo": "pytorch/tutorials"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "apple/foundationdb"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

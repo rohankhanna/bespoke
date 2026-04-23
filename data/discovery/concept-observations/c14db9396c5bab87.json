@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "enhanced increment/decrement plugin for Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Extended increment/decrement plugin for [Neovim](https://github.com/neovim/neovim). Written in Lua."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Extended increment/decrement plugin for [Neovim](https://github.com/neovim/neovim). Written in Lua."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neovim-plugin",
+      "sense_id": "neovim-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neovim-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neovim-plugin",
+  "observation_id": "c14db9396c5bab87",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "neovim-plugin",
+  "source_context_snippet": "Extended increment/decrement plugin for [Neovim](https://github.com/neovim/neovim). Written in Lua.",
+  "source_file": null,
+  "source_repo": "monaqa/dial.nvim",
+  "source_repo_description": "enhanced increment/decrement plugin for Neovim."
+}

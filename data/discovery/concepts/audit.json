@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -128,6 +130,54 @@
       "source_repo": "googleworkspace/cli",
       "status": "candidate-context",
       "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "toml-rs/toml",
+      "status": "candidate-context",
+      "text": "Rust TOML Parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toml-rs/toml",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitcoindevkit/bdk",
+      "status": "candidate-context",
+      "text": "A modern, lightweight, descriptor-based wallet library written in Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoindevkit/bdk",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eigenwallet/bdk-old",
+      "status": "candidate-context",
+      "text": "A modern, lightweight, descriptor-based wallet library written in Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigenwallet/bdk-old",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-images/images",
+      "status": "candidate-context",
+      "text": "Public Chainguard Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-images/images",
+      "status": "candidate-context",
+      "text": "https://edu.chainguard.dev/chainguard/chainguard-images/"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +240,30 @@
       "source_repo": "googleworkspace/cli",
       "status": "candidate",
       "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toml-rs/toml",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoindevkit/bdk",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eigenwallet/bdk-old",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-images/images",
+      "status": "candidate",
+      "text": "https://edu.chainguard.dev/chainguard/chainguard-images/"
     }
   ],
   "candidate_related_terms": [
@@ -345,11 +419,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "googleworkspace/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "toml-rs/toml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bitcoindevkit/bdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "eigenwallet/bdk-old"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "chainguard-images/images"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

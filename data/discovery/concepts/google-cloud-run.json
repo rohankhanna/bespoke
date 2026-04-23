@@ -31,6 +31,30 @@
       "source_repo": "steren/awesome-cloud-run",
       "status": "candidate-context",
       "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "status": "candidate-context",
+      "text": "Serverless reverse proxy for exposing container registries (GCR, Docker Hub, Artifact Registry etc) on custom domains."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "status": "candidate-context",
+      "text": "This project offers a very simple reverse proxy that lets you expose your public"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmetb/ytdl",
+      "status": "candidate-context",
+      "text": "Serverless video downloader app (using youtube-dl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmetb/ytdl",
+      "status": "candidate-context",
+      "text": "A serverless application that uses `youtube-dl` to quickly download and stream"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "steren/awesome-cloud-run",
       "status": "candidate",
       "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "status": "candidate",
+      "text": "This project offers a very simple reverse proxy that lets you expose your public"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmetb/ytdl",
+      "status": "candidate",
+      "text": "A serverless application that uses `youtube-dl` to quickly download and stream"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "steren/awesome-cloud-run"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ahmetb/serverless-registry-proxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ahmetb/ytdl"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

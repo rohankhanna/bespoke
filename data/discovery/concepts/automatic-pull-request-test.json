@@ -19,12 +19,60 @@
       "source_repo": "aws/amazon-vpc-cni-k8s",
       "status": "candidate-context",
       "text": "Automatic Pull Request test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-network-policy-controller-k8s",
+      "status": "candidate-context",
+      "text": "Automatic Pull Request test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-ebpf-sdk-go",
+      "status": "candidate-context",
+      "text": "Golang based SDK for kernel eBPF operations i.e, load/attach/detach eBPF programs and create/delete/update maps. SDK relies on Unix bpf() system calls."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-ebpf-sdk-go",
+      "status": "candidate-context",
+      "text": "Automatic Pull Request test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-network-policy-agent",
+      "status": "candidate-context",
+      "text": "Network Policy Agent is a daemonset that is responsible for enforcing configured network policies on the cluster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-network-policy-agent",
+      "status": "candidate-context",
+      "text": "Automatic Pull Request test"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "aws/amazon-vpc-cni-k8s",
+      "status": "candidate",
+      "text": "Automatic Pull Request test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-network-policy-controller-k8s",
+      "status": "candidate",
+      "text": "Automatic Pull Request test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-ebpf-sdk-go",
+      "status": "candidate",
+      "text": "Automatic Pull Request test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-network-policy-agent",
       "status": "candidate",
       "text": "Automatic Pull Request test"
     }
@@ -76,11 +124,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/pr-automated-tests.yaml",
       "source_repo": "aws/amazon-vpc-cni-k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/amazon-network-policy-controller-k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/aws-ebpf-sdk-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

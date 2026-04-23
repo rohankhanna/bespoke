@@ -298,6 +298,162 @@
       "source_repo": "iorate/ublacklist",
       "status": "candidate-context",
       "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/checkpoint-sync-health-checks",
+      "status": "candidate-context",
+      "text": "A community maintained list of public Beacon Chain checkpoint sync endpoints with health checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/checkpoint-sync-health-checks",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmagic",
+      "status": "candidate-context",
+      "text": "OpenMMLab Multimodal Advanced, Generative, and Intelligent Creation Toolbox. Unlock the magic \ud83e\ude84: Generative-AI (AIGC), easy-to-use APIs, awsome model zoo, diffusion models, for text-to-image generation, image/video restoration/enhancement, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmagic",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmdetection",
+      "status": "candidate-context",
+      "text": "OpenMMLab Detection Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdetection",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmdetection3d",
+      "status": "candidate-context",
+      "text": "OpenMMLab's next-generation platform for general 3D object detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdetection3d",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmengine",
+      "status": "candidate-context",
+      "text": "OpenMMLab Foundational Library for Training Deep Learning Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmengine",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate-context",
+      "text": "Ultra fast JSON decoder and encoder written in C with Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/ipld",
+      "status": "candidate-context",
+      "text": "This repo holds Website and Specs at https://ipld.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/ipld",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/cbindgen",
+      "status": "candidate-context",
+      "text": "A project for generating C bindings from Rust code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/cbindgen",
+      "status": "candidate-context",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HoneyLuka/uBlacklist",
+      "status": "candidate-context",
+      "text": "Blocks specific sites from appearing in Google search results"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HoneyLuka/uBlacklist",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ublacklist/builtin",
+      "status": "candidate-context",
+      "text": "uBlacklist Built-in SERPINFO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ublacklist/builtin",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ublacklist/ublacklist.github.io",
+      "status": "candidate-context",
+      "text": "uBlacklist Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ublacklist/ublacklist.github.io",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "status": "candidate-context",
+      "text": "A community maintained list of public Beacon Chain checkpoint sync endpoints "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "status": "candidate-context",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matter-labs/zksync",
+      "status": "candidate-context",
+      "text": "zkSync: trustless scaling and privacy engine for Ethereum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync",
+      "status": "candidate-context",
+      "text": "Deploy"
     }
   ],
   "candidate_glosses": [
@@ -442,6 +598,84 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "iorate/ublacklist",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/checkpoint-sync-health-checks",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmagic",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdetection",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdetection3d",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmengine",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/ipld",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/cbindgen",
+      "status": "candidate",
+      "text": "deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HoneyLuka/uBlacklist",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ublacklist/builtin",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ublacklist/ublacklist.github.io",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "status": "candidate",
+      "text": "Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync",
       "status": "candidate",
       "text": "Deploy"
     }
@@ -637,11 +871,95 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "iorate/ublacklist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "ethpandaops/checkpoint-sync-health-checks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmdetection"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmdetection3d"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmengine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ipld/ipld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "mozilla/cbindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "HoneyLuka/uBlacklist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ublacklist/builtin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "ublacklist/ublacklist.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "matter-labs/zksync"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

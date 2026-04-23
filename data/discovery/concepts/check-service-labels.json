@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "check-service-labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/runtime",
+      "status": "candidate-context",
+      "text": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/runtime",
+      "status": "candidate-context",
+      "text": "check-service-labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/runtime",
+      "status": "candidate",
+      "text": "check-service-labels"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "check-service-labels",
+  "concept_id": "check-service-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check-service-labels.yml",
+      "source_repo": "dotnet/runtime"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "check-service-labels",
+      "sense_id": "check-service-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

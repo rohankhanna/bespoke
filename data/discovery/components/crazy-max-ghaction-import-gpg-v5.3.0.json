@@ -1,0 +1,17 @@
+{
+  "component": "crazy-max/ghaction-import-gpg@v5.3.0",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh_release.yml",
+      "source_repo": "aquasecurity/tfsec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aquasecurity/tfsec"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automatically verify traits invariants for [Partial]Eq, [Partial]Ord, Hash, [DoubleEnded|Fused]iterator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Crates.io](https://img.shields.io/crates/l/reltester)](https://github.com/neysofu/reltester/blob/main/LICENSE.txt) [![docs.rs](https://img.shields.io/docsrs/reltester)](https://docs.rs/reltester/latest/reltester/) [![GitHub Workflow Status](https://img.shields.io/github/actio\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/l/reltester)](https://github.com/neysofu/reltester/blob/main/LICENSE.txt) [![docs.rs](https://img.shields.io/docsrs/reltester)](https://docs.rs/reltester/latest/reltester/) [![GitHub Workflow Status](https://img.shields.io/github/actio\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "property-based-testing",
+      "sense_id": "property-based-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "property-based-testing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "property-based-testing",
+  "observation_id": "ac7218f5ff563250",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "property-based-testing",
+  "source_context_snippet": "[![Crates.io](https://img.shields.io/crates/l/reltester)](https://github.com/neysofu/reltester/blob/main/LICENSE.txt) [![docs.rs](https://img.shields.io/docsrs/reltester)](https://docs.rs/reltester/latest/reltester/) [![GitHub Workflow Status](https://img.shields.io/github/actio\u2026",
+  "source_file": null,
+  "source_repo": "neysofu/reltester",
+  "source_repo_description": "Automatically verify traits invariants for [Partial]Eq, [Partial]Ord, Hash, [DoubleEnded|Fused]iterator"
+}

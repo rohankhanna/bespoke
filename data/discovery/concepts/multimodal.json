@@ -91,6 +91,78 @@
       "source_repo": "open-mmlab/mmpretrain",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of CoCa, Contrastive Captioners are Image-Text Foundation Models, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./coca.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rom1504/clip-retrieval",
+      "status": "candidate-context",
+      "text": "Easily compute clip embeddings and build a clip retrieval system with them"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/clip-retrieval",
+      "status": "candidate-context",
+      "text": "[![pypi](https://img.shields.io/pypi/v/clip-retrieval.svg)](https://pypi.python.org/pypi/clip-retrieval)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autodistill/autodistill",
+      "status": "candidate-context",
+      "text": "Images to inference with no labeling (use foundation models to train supervised models)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodistill/autodistill",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/InternLM-XComposer",
+      "status": "candidate-context",
+      "text": "InternLM-XComposer2.5-OmniLive: A Comprehensive Multimodal System for Long-term Streaming Video and Audio Interactions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM-XComposer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/ms-swift",
+      "status": "candidate-context",
+      "text": "Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-R1, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/ms-swift",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LLaVA-VL/LLaVA-Interactive-Demo",
+      "status": "candidate-context",
+      "text": "LLaVA-Interactive-Demo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LLaVA-VL/LLaVA-Interactive-Demo",
+      "status": "candidate-context",
+      "text": "*An All-in-One Demo for Image Chat, Segmentation and Generation/Editing.*"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +207,42 @@
       "source_repo": "open-mmlab/mmpretrain",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./coca.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rom1504/clip-retrieval",
+      "status": "candidate",
+      "text": "[![pypi](https://img.shields.io/pypi/v/clip-retrieval.svg)](https://pypi.python.org/pypi/clip-retrieval)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodistill/autodistill",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM-XComposer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/ms-swift",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LLaVA-VL/LLaVA-Interactive-Demo",
+      "status": "candidate",
+      "text": "*An All-in-One Demo for Image Chat, Segmentation and Generation/Editing.*"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +334,53 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/CoCa-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rom1504/clip-retrieval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "autodistill/autodistill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM-XComposer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "LLaVA-VL/LLaVA-Interactive-Demo"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

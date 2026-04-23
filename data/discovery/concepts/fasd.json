@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "fasd"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "A smarter cd command. Supports all major shells."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file {"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file {"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019672,
+      "status": "candidate",
+      "text": "fdac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019671,
+      "status": "candidate",
+      "text": "sads"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019670,
+      "status": "candidate",
+      "text": "adhd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019669,
+      "status": "candidate",
+      "text": "dftd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019668,
+      "status": "candidate",
+      "text": "fast"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "fasd",
+  "concept_id": "fasd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ajeetdsouza/zoxide"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fasd",
+      "sense_id": "fasd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

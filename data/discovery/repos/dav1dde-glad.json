@@ -1,0 +1,266 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glad2.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glad2.yaml"
+    },
+    {
+      "component": "EnricoMi/publish-unit-test-result-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glad2.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dav1dde/glad",
+      "target": "aarnoldgad/glad-fortran",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Dav1dde/glad",
+      "target": "khronosgroup/opengl-registry",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glad2.yaml",
+      "source_repo": "Dav1dde/glad",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glad2.yaml",
+      "source_repo": "Dav1dde/glad",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glad2.yaml",
+      "source_repo": "Dav1dde/glad",
+      "target": "EnricoMi/publish-unit-test-result-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glad2.yaml",
+      "source_repo": "Dav1dde/glad",
+      "target": "glad2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dav1dde/glad",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dav1dde/glad",
+      "target": "generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dav1dde/glad",
+      "target": "glad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dav1dde/glad",
+      "target": "gles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dav1dde/glad",
+      "target": "gles2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dav1dde/glad",
+      "target": "loader-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dav1dde/glad",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dav1dde/glad",
+      "target": "pascal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dav1dde/glad",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Dav1dde/glad",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:32:37.295407+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2510
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2077
+    },
+    {
+      "path": "requirements.txt",
+      "size": 17
+    },
+    {
+      "path": ".github/workflows/glad2.yaml",
+      "size": 1098
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "glad2",
+    "description": "Multi-Language Vulkan/GL/GLES/EGL/GLX/WGL Loader-Generator based on the official specs.",
+    "fork": false,
+    "full_name": "Dav1dde/glad",
+    "html_url": "https://github.com/Dav1dde/glad",
+    "language": "C",
+    "pushed_at": "2026-04-09T06:36:29Z",
+    "stargazers_count": 4483,
+    "topics": [
+      "c",
+      "code-generation",
+      "cpp",
+      "d",
+      "egl",
+      "generator",
+      "gl",
+      "glad",
+      "gles",
+      "gles2",
+      "glx",
+      "loader-generator",
+      "nim",
+      "opengl",
+      "pascal",
+      "python",
+      "rust",
+      "vulkan",
+      "wgl"
+    ],
+    "updated_at": "2026-04-22T10:48:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aarnoldgad/glad-fortran",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/opengl-registry",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "glad2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glad2.yaml",
+      "term": "glad2"
+    },
+    {
+      "context_snippet": "glad",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "glad",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generator"
+    },
+    {
+      "context_snippet": "glad",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glad"
+    },
+    {
+      "context_snippet": "glad",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gles"
+    },
+    {
+      "context_snippet": "glad",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gles2"
+    },
+    {
+      "context_snippet": "glad",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loader-generator"
+    },
+    {
+      "context_snippet": "glad",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "glad",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pascal"
+    },
+    {
+      "context_snippet": "glad",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "glad",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

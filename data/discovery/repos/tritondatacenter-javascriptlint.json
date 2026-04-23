@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:38:10.109204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JavaScript Lint",
+    "fork": false,
+    "full_name": "TritonDataCenter/javascriptlint",
+    "html_url": "https://github.com/TritonDataCenter/javascriptlint",
+    "language": "C",
+    "pushed_at": "2022-04-08T19:33:07Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-01-27T04:54:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

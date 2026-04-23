@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Monthly Link Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/tutorials",
+      "status": "candidate-context",
+      "text": "PyTorch tutorials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/tutorials",
+      "status": "candidate-context",
+      "text": "Monthly Link Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/tutorials",
+      "status": "candidate",
+      "text": "Monthly Link Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35581,
+      "status": "candidate",
+      "text": "rent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26905,
+      "status": "candidate",
+      "text": "tenant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18867,
+      "status": "candidate",
+      "text": "month"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18867,
+      "status": "candidate",
+      "text": "quarter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18867,
+      "status": "candidate",
+      "text": "quarters"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Monthly Link Check",
+  "concept_id": "monthly-link-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/MonthlyLinkCheck.yml",
+      "source_repo": "pytorch/tutorials"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Monthly Link Check",
+      "sense_id": "monthly-link-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

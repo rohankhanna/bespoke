@@ -1,0 +1,69 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "ably-labs/realtime-quiz-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "14nrv/buefy-shop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "aaronlamz/navpress",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "aaronlamz/vue-next-i18n",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-lint-double-link.yml",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-lint-double-link.yml",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "Scrum/awesome-readme-lint-double-link-action@cea741ae76b31fdde3e5105e964e98a2adbf60ed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme-lint-double-link.yml",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "Awesome readme lint double link action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "technote-space/toc-generator@9e238e7974de5fcf7b17b7acc54c896160dda0a3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "TOC Generator",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "vuejs/awesome-vue"
+}

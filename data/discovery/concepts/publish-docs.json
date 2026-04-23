@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Publish Docs"
+    "Publish Docs",
+    "publish docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,12 +20,102 @@
       "source_repo": "axolotl-ai-cloud/axolotl",
       "status": "candidate-context",
       "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "starship/starship",
+      "status": "candidate-context",
+      "text": "\u2604\ud83c\udf0c\ufe0f  The minimal, blazing-fast, and infinitely customizable prompt for any shell!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starship/starship",
+      "status": "candidate-context",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urfave/cli",
+      "status": "candidate-context",
+      "text": "A declarative, simple, fast, and fun package for building command line tools in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urfave/cli",
+      "status": "candidate-context",
+      "text": "publish docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate-context",
+      "text": "A library for efficient similarity search and clustering of dense vectors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate-context",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diesel-rs/diesel",
+      "status": "candidate-context",
+      "text": "A safe, extensible ORM and Query Builder for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diesel-rs/diesel",
+      "status": "candidate-context",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/ultralytics",
+      "status": "candidate-context",
+      "text": "Ultralytics YOLO \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/ultralytics",
+      "status": "candidate-context",
+      "text": "Publish Docs"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "axolotl-ai-cloud/axolotl",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starship/starship",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urfave/cli",
+      "status": "candidate",
+      "text": "publish docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diesel-rs/diesel",
+      "status": "candidate",
+      "text": "Publish Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/ultralytics",
       "status": "candidate",
       "text": "Publish Docs"
     }
@@ -76,11 +167,47 @@
       "observed_at": "2026-04-19T01:08:57.644140+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "starship/starship"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "urfave/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "facebookresearch/faiss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "ultralytics/ultralytics"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T01:08:57.644140+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

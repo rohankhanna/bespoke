@@ -499,6 +499,270 @@
       "source_repo": "fish-shell/fish-shell",
       "status": "candidate-context",
       "text": ".. |Cirrus CI| image:: https://api.cirrus-ci.com/github/fish-shell/fish-shell.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/vhs-action",
+      "status": "candidate-context",
+      "text": "Keep your GIFs up to date with VHS + GitHub actions \ud83d\udcfd\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs-action",
+      "status": "candidate-context",
+      "text": "Keep your GIFs up to date with VHS + GitHub actions \ud83d\udcfd\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tsl0922/ttyd",
+      "status": "candidate-context",
+      "text": "Share your terminal over the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsl0922/ttyd",
+      "status": "candidate-context",
+      "text": "![backend](https://github.com/tsl0922/ttyd/workflows/backend/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/ghostty-web",
+      "status": "candidate-context",
+      "text": "Ghostty for the web with xterm.js API compatibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/ghostty-web",
+      "status": "candidate-context",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/ghostty-web)](https://npmjs.com/package/ghostty-web) [![NPM Downloads](https://img.shields.io/npm/dw/ghostty-web)](https://npmjs.com/package/ghostty-web) [![npm bundle size](https://img.shields.io/bundlephobia/minzip/ghostty-web)](htt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "termux/termux-app",
+      "status": "candidate-context",
+      "text": "Termux - a terminal emulator application for Android OS extendible by variety of packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-app",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/termux/termux-app/workflows/Build/badge.svg)](https://github.com/termux/termux-app/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "posva/catimg",
+      "status": "candidate-context",
+      "text": "\ud83e\udda6 Insanely fast image printing in your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posva/catimg",
+      "status": "candidate-context",
+      "text": "Renders images in the terminal."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asciinema/agg",
+      "status": "candidate-context",
+      "text": "asciinema gif generator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/agg",
+      "status": "candidate-context",
+      "text": "__agg__ is a command-line tool for generating animated GIF files from terminal"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asciinema/asciinema",
+      "status": "candidate-context",
+      "text": "Terminal session recorder, streamer and player \ud83d\udcf9"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/asciinema",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/asciinema/asciinema/actions/workflows/ci.yml/badge.svg)](https://github.com/asciinema/asciinema/actions/workflows/asciinema.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brendanzab/codespan",
+      "status": "candidate-context",
+      "text": "Beautiful diagnostic reporting for text-based programming languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brendanzab/codespan",
+      "status": "candidate-context",
+      "text": "[![Continuous integration][actions-badge]][actions-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hackerb9/lsix",
+      "status": "candidate-context",
+      "text": "Like \"ls\", but for images. Shows thumbnails in terminal using sixel graphics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hackerb9/lsix",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" src=\"README.md.d/thumb.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate-context",
+      "text": "Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtermjs/xterm.js",
+      "status": "candidate-context",
+      "text": "A terminal for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtermjs/xterm.js",
+      "status": "candidate-context",
+      "text": "Xterm.js is a frontend component that enables applications to bring fully-featured terminals to their users in the browser. It's used by popular projects such as [VS Code](https://code.visualstudio.com/) (and its forks), [Tabby](https://tabby.sh/) and [Hyper](https://hyper.is/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yudai/gotty",
+      "status": "candidate-context",
+      "text": "Share your terminal as a web application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yudai/gotty",
+      "status": "candidate-context",
+      "text": "[![GitHub release](http://img.shields.io/github/release/yudai/gotty.svg?style=flat-square)][release]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Record your terminal and generate animated gif images or share a web player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate-context",
+      "text": "A command-line benchmarking tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate-context",
+      "text": "[![CICD](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wezterm/wezterm",
+      "status": "candidate-context",
+      "text": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wezterm/wezterm",
+      "status": "candidate-context",
+      "text": "<img height=\"128\" alt=\"WezTerm Icon\" src=\"https://raw.githubusercontent.com/wezterm/wezterm/main/assets/icon/wezterm-icon.svg\" align=\"left\"> *A GPU-accelerated cross-platform terminal emulator and multiplexer written by <a href=\"https://github.com/wez\">@wez</a> and implemented i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kassio/neoterm",
+      "status": "candidate-context",
+      "text": "Wrapper of some vim/neovim's :terminal functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kassio/neoterm",
+      "status": "candidate-context",
+      "text": "[![lint](https://github.com/kassio/neoterm/workflows/lint/badge.svg?branch=master)](https://github.com/kassio/neoterm/actions?query=workflow%3Alint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate-context",
+      "text": "The new Windows Terminal and the original Windows console host, all in the same place!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate-context",
+      "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daipeihust/im-select",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdf Switch your input method through terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daipeihust/im-select",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/13344830/232276894-f84ee7d9-091e-40dd-8ad4-0b8840456a58.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gokcehan/lf",
+      "status": "candidate-context",
+      "text": "Terminal file manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gokcehan/lf",
+      "status": "candidate-context",
+      "text": "[Doc](doc.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "Modern C++ Terminal Emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sachaos/viddy",
+      "status": "candidate-context",
+      "text": "\ud83d\udc40 A modern watch command. Time machine and pager etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sachaos/viddy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c-bata/go-prompt",
+      "status": "candidate-context",
+      "text": "Building powerful interactive prompts in Go, inspired by python-prompt-toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/go-prompt",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/c-bata/go-prompt)](https://goreportcard.com/report/github.com/c-bata/go-prompt)"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +1011,138 @@
       "source_repo": "fish-shell/fish-shell",
       "status": "candidate",
       "text": ".. |Cirrus CI| image:: https://api.cirrus-ci.com/github/fish-shell/fish-shell.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs-action",
+      "status": "candidate",
+      "text": "Keep your GIFs up to date with VHS + GitHub actions \ud83d\udcfd\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsl0922/ttyd",
+      "status": "candidate",
+      "text": "![backend](https://github.com/tsl0922/ttyd/workflows/backend/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/ghostty-web",
+      "status": "candidate",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/ghostty-web)](https://npmjs.com/package/ghostty-web) [![NPM Downloads](https://img.shields.io/npm/dw/ghostty-web)](https://npmjs.com/package/ghostty-web) [![npm bundle size](https://img.shields.io/bundlephobia/minzip/ghostty-web)](htt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-app",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/termux/termux-app/workflows/Build/badge.svg)](https://github.com/termux/termux-app/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posva/catimg",
+      "status": "candidate",
+      "text": "Renders images in the terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/agg",
+      "status": "candidate",
+      "text": "__agg__ is a command-line tool for generating animated GIF files from terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciinema/asciinema",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/asciinema/asciinema/actions/workflows/ci.yml/badge.svg)](https://github.com/asciinema/asciinema/actions/workflows/asciinema.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brendanzab/codespan",
+      "status": "candidate",
+      "text": "[![Continuous integration][actions-badge]][actions-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hackerb9/lsix",
+      "status": "candidate",
+      "text": "<img align=\"right\" src=\"README.md.d/thumb.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtermjs/xterm.js",
+      "status": "candidate",
+      "text": "Xterm.js is a frontend component that enables applications to bring fully-featured terminals to their users in the browser. It's used by popular projects such as [VS Code](https://code.visualstudio.com/) (and its forks), [Tabby](https://tabby.sh/) and [Hyper](https://hyper.is/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yudai/gotty",
+      "status": "candidate",
+      "text": "[![GitHub release](http://img.shields.io/github/release/yudai/gotty.svg?style=flat-square)][release]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate",
+      "text": "[![CICD](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wezterm/wezterm",
+      "status": "candidate",
+      "text": "<img height=\"128\" alt=\"WezTerm Icon\" src=\"https://raw.githubusercontent.com/wezterm/wezterm/main/assets/icon/wezterm-icon.svg\" align=\"left\"> *A GPU-accelerated cross-platform terminal emulator and multiplexer written by <a href=\"https://github.com/wez\">@wez</a> and implemented i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kassio/neoterm",
+      "status": "candidate",
+      "text": "[![lint](https://github.com/kassio/neoterm/workflows/lint/badge.svg?branch=master)](https://github.com/kassio/neoterm/actions?query=workflow%3Alint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate",
+      "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daipeihust/im-select",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/13344830/232276894-f84ee7d9-091e-40dd-8ad4-0b8840456a58.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gokcehan/lf",
+      "status": "candidate",
+      "text": "[Doc](doc.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate",
+      "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sachaos/viddy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/go-prompt",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/c-bata/go-prompt)](https://goreportcard.com/report/github.com/c-bata/go-prompt)"
     }
   ],
   "candidate_related_terms": [
@@ -1114,11 +1510,161 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "fish-shell/fish-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/vhs-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "tsl0922/ttyd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "coder/ghostty-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "termux/termux-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "posva/catimg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "asciinema/agg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "asciinema/asciinema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "brendanzab/codespan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gitui-org/gitui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hackerb9/lsix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "butlerx/wetty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "xtermjs/xterm.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "yudai/gotty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "faressoft/terminalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/hyperfine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "wezterm/wezterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kassio/neoterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "daipeihust/im-select"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gokcehan/lf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "contour-terminal/contour"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sachaos/viddy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "c-bata/go-prompt"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

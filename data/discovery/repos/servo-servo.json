@@ -1,0 +1,479 @@
+{
+  "components": [
+    {
+      "component": "jlumbroso/free-disk-space@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "android-actions/setup-android@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "gradle/actions/setup-gradle@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml"
+    },
+    {
+      "component": "servo/ci-runners/actions/runner-select@f0b81b95522256c64ee207b4236ec71fc23b99a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bencher.yml"
+    },
+    {
+      "component": "servo/ci-runners/actions/checkout@f0b81b95522256c64ee207b4236ec71fc23b99a1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bencher.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bencher.yml"
+    },
+    {
+      "component": "bencherdev/bencher@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bencher.yml"
+    },
+    {
+      "component": "KyleMayes/install-llvm-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bencher.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book-export.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book-export.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "servo/servo",
+      "target": "servo/project",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "servo/servo",
+      "target": "servo/stylo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "servo/servo",
+      "target": "tikv/jemallocator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "servo/servo",
+      "target": "jlumbroso/free-disk-space@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "servo/servo",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "servo/servo",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "servo/servo",
+      "target": "android-actions/setup-android@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "servo/servo",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "servo/servo",
+      "target": "gradle/actions/setup-gradle@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "servo/servo",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "servo/servo",
+      "target": "Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-updates.yml",
+      "source_repo": "servo/servo",
+      "target": "Automerge Dependabot & WPT Updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bencher.yml",
+      "source_repo": "servo/servo",
+      "target": "servo/ci-runners/actions/runner-select@f0b81b95522256c64ee207b4236ec71fc23b99a1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bencher.yml",
+      "source_repo": "servo/servo",
+      "target": "servo/ci-runners/actions/checkout@f0b81b95522256c64ee207b4236ec71fc23b99a1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bencher.yml",
+      "source_repo": "servo/servo",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bencher.yml",
+      "source_repo": "servo/servo",
+      "target": "bencherdev/bencher@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bencher.yml",
+      "source_repo": "servo/servo",
+      "target": "KyleMayes/install-llvm-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bencher.yml",
+      "source_repo": "servo/servo",
+      "target": "Bencher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/book-export.yml",
+      "source_repo": "servo/servo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/book-export.yml",
+      "source_repo": "servo/servo",
+      "target": "Book Export",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco-merge-group.yml",
+      "source_repo": "servo/servo",
+      "target": "DCO",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch-workflow.yml",
+      "source_repo": "servo/servo",
+      "target": "Dispatch Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "servo/servo",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "servo/servo",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "servo/servo",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "servo/servo",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "servo/servo",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "servo/servo",
+      "target": "servo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "servo/servo",
+      "target": "webbrowser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "servo/servo",
+      "target": "webengine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "servo/servo",
+      "target": "webplatform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:40:16.397253+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4353
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 17873
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1888
+    },
+    {
+      "path": ".github/workflows/android.yml",
+      "size": 6112
+    },
+    {
+      "path": ".github/workflows/auto-merge-updates.yml",
+      "size": 523
+    },
+    {
+      "path": ".github/workflows/bencher.yml",
+      "size": 7712
+    },
+    {
+      "path": ".github/workflows/book-export.yml",
+      "size": 2847
+    },
+    {
+      "path": ".github/workflows/dco-merge-group.yml",
+      "size": 364
+    },
+    {
+      "path": ".github/workflows/dispatch-workflow.yml",
+      "size": 3196
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 4755
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications.",
+    "fork": false,
+    "full_name": "servo/servo",
+    "html_url": "https://github.com/servo/servo",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T06:38:32Z",
+    "stargazers_count": 36515,
+    "topics": [
+      "browser",
+      "rust",
+      "servo",
+      "web",
+      "webbrowser",
+      "webengine",
+      "webplatform"
+    ],
+    "updated_at": "2026-04-23T06:38:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "servo/project",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "servo/stylo",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tikv/jemallocator",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android.yml",
+      "term": "Android"
+    },
+    {
+      "context_snippet": "Automerge Dependabot & WPT Updates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge-updates.yml",
+      "term": "Automerge Dependabot & WPT Updates"
+    },
+    {
+      "context_snippet": "Bencher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bencher.yml",
+      "term": "Bencher"
+    },
+    {
+      "context_snippet": "Book Export",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/book-export.yml",
+      "term": "Book Export"
+    },
+    {
+      "context_snippet": "DCO",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco-merge-group.yml",
+      "term": "DCO"
+    },
+    {
+      "context_snippet": "Dispatch Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dispatch-workflow.yml",
+      "term": "Dispatch Workflow"
+    },
+    {
+      "context_snippet": "Servo is a prototype web browser engine written in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "Servo is a prototype web browser engine written in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "Servo is a prototype web browser engine written in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "servo"
+    },
+    {
+      "context_snippet": "Servo is a prototype web browser engine written in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webbrowser"
+    },
+    {
+      "context_snippet": "Servo is a prototype web browser engine written in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webengine"
+    },
+    {
+      "context_snippet": "Servo is a prototype web browser engine written in the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webplatform"
+    }
+  ]
+}

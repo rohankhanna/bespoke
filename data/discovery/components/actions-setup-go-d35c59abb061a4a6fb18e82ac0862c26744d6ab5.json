@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@d35c59abb061a4a6fb18e82ac0862c26744d6ab5",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-github.yml",
       "source_repo": "notaryproject/notation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/web.yml",
+      "source_repo": "cortexproject/cortex"
     }
   ]
 }

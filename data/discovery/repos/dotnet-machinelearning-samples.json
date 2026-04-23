@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/machinelearning-samples",
+      "target": "feiyun0112/machinelearning-samples.zh-cn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/machinelearning-samples",
+      "target": "algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/machinelearning-samples",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/machinelearning-samples",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/machinelearning-samples",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:09.862736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Samples for ML.NET, an open source and cross-platform machine learning framework for .NET.",
+    "fork": false,
+    "full_name": "dotnet/machinelearning-samples",
+    "html_url": "https://github.com/dotnet/machinelearning-samples",
+    "language": "PowerShell",
+    "pushed_at": "2024-07-27T09:39:50Z",
+    "stargazers_count": 4684,
+    "topics": [
+      "algorithms",
+      "csharp",
+      "dotnet",
+      "machine-learning",
+      "ml"
+    ],
+    "updated_at": "2026-04-18T14:02:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feiyun0112/machinelearning-samples.zh-cn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Note: We'd love to hear your thoughts about MLOps. Let us know in [this survey](https://www.research.net/r/mlops-samples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithms"
+    },
+    {
+      "context_snippet": "> Note: We'd love to hear your thoughts about MLOps. Let us know in [this survey](https://www.research.net/r/mlops-samples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "> Note: We'd love to hear your thoughts about MLOps. Let us know in [this survey](https://www.research.net/r/mlops-samples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "> Note: We'd love to hear your thoughts about MLOps. Let us know in [this survey](https://www.research.net/r/mlops-samples).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

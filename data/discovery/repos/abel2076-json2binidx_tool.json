@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:46:54.937990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1071
+    },
+    {
+      "path": "requirements.txt",
+      "size": 120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Abel2076/json2binidx_tool",
+    "html_url": "https://github.com/Abel2076/json2binidx_tool",
+    "language": "Python",
+    "pushed_at": "2024-05-15T07:46:20Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-02-02T15:02:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

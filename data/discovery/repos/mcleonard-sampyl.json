@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:32:43.635148+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1730
+    },
+    {
+      "path": "requirements.txt",
+      "size": 578
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MCMC samplers for Bayesian estimation in Python, including Metropolis-Hastings, NUTS, and Slice",
+    "fork": false,
+    "full_name": "mcleonard/sampyl",
+    "html_url": "https://github.com/mcleonard/sampyl",
+    "language": "Python",
+    "pushed_at": "2022-12-07T23:24:12Z",
+    "stargazers_count": 342,
+    "topics": [],
+    "updated_at": "2026-02-26T07:26:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

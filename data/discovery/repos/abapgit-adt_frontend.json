@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abapGit/ADT_Frontend",
+      "target": "abapgit/adt_backend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abapGit/ADT_Frontend",
+      "target": "abapgit/odense-z",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abapGit/ADT_Frontend",
+      "target": "abap-development-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abapGit/ADT_Frontend",
+      "target": "abapgit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abapGit/ADT_Frontend",
+      "target": "eclipse-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:32:51.182006+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2129
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ABAP development tools plug-in for abapGit",
+    "fork": false,
+    "full_name": "abapGit/ADT_Frontend",
+    "html_url": "https://github.com/abapGit/ADT_Frontend",
+    "language": "Java",
+    "pushed_at": "2025-11-14T15:47:18Z",
+    "stargazers_count": 73,
+    "topics": [
+      "abap-development-tools",
+      "abapgit",
+      "eclipse-plugin"
+    ],
+    "updated_at": "2026-03-29T19:17:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abapgit/adt_backend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abapgit/odense-z",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/abapGit/ADT_Frontend.svg?branch=master)](https://travis-ci.com/abapGit/ADT_Frontend)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap-development-tools"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/abapGit/ADT_Frontend.svg?branch=master)](https://travis-ci.com/abapGit/ADT_Frontend)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abapgit"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.com/abapGit/ADT_Frontend.svg?branch=master)](https://travis-ci.com/abapGit/ADT_Frontend)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse-plugin"
+    }
+  ]
+}

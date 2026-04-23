@@ -2,7 +2,8 @@
   "aliases": [
     "Test Suite",
     "test suite",
-    "Test suite"
+    "Test suite",
+    "test-suite"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -45,6 +46,30 @@
       "source_repo": "rtomayko/tilt",
       "status": "candidate-context",
       "text": "\"Test suite\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ncitron/ethereum_hashing",
+      "status": "candidate-context",
+      "text": "Hashing primitives used in Ethereum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ncitron/ethereum_hashing",
+      "status": "candidate-context",
+      "text": "test-suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigp/ethereum_hashing",
+      "status": "candidate-context",
+      "text": "Hashing primitives used in Ethereum"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigp/ethereum_hashing",
+      "status": "candidate-context",
+      "text": "test-suite"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +90,18 @@
       "source_repo": "rtomayko/tilt",
       "status": "candidate",
       "text": "\"Test suite\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ncitron/ethereum_hashing",
+      "status": "candidate",
+      "text": "test-suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigp/ethereum_hashing",
+      "status": "candidate",
+      "text": "test-suite"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +163,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "rtomayko/tilt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "ncitron/ethereum_hashing"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "sigp/ethereum_hashing"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

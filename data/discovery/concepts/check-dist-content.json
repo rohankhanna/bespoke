@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check dist content"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/cache",
+      "status": "candidate-context",
+      "text": "Cache dependencies and build outputs in GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/cache",
+      "status": "candidate-context",
+      "text": "Check dist content"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/cache",
+      "status": "candidate",
+      "text": "Check dist content"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27294,
+      "status": "candidate",
+      "text": "monitor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26894,
+      "status": "candidate",
+      "text": "monitoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26136,
+      "status": "candidate",
+      "text": "assay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23108,
+      "status": "candidate",
+      "text": "geneva"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23108,
+      "status": "candidate",
+      "text": "summary"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check dist content",
+  "concept_id": "check-dist-content",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check-dist.yml",
+      "source_repo": "actions/cache"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check dist content",
+      "sense_id": "check-dist-content#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

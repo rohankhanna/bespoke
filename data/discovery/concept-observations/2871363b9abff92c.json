@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "RFCs for substantial changes to ComfyUI core, APIs, or standards."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Create RFC Discussion"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Create RFC Discussion"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18417,
+      "status": "candidate",
+      "text": "interrupt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15361,
+      "status": "candidate",
+      "text": "telnet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10432,
+      "status": "candidate",
+      "text": "network"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10361,
+      "status": "candidate",
+      "text": "browser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10361,
+      "status": "candidate",
+      "text": "declarative"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create RFC Discussion",
+      "sense_id": "create-rfc-discussion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "create-rfc-discussion",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "create-rfc-discussion",
+  "observation_id": "2871363b9abff92c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Create RFC Discussion",
+  "source_context_snippet": "Create RFC Discussion",
+  "source_file": ".github/workflows/rfc-discussion.yml",
+  "source_repo": "Comfy-Org/rfcs",
+  "source_repo_description": "RFCs for substantial changes to ComfyUI core, APIs, or standards."
+}

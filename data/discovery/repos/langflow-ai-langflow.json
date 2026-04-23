@@ -1,0 +1,452 @@
+{
+  "components": [
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels.yml"
+    },
+    {
+      "component": "tibdex/auto-update@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-label.yml"
+    },
+    {
+      "component": "Namchee/conventional-pr@v0.15.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-labels.yml"
+    },
+    {
+      "component": "bcoe/conventional-release-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-labels.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "langflow-ai/langflow",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-labels.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-labels.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "Manage Review Labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "tibdex/auto-update@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "Auto-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-label.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-label.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "Add Community Label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-labels.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "Namchee/conventional-pr@v0.15.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-labels.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "bcoe/conventional-release-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-labels.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "Label PRs with Conventional Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "langflow-ai/langflow",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow",
+      "target": "multiagent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow",
+      "target": "react-flow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:43:34.895323+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4690
+    },
+    {
+      "path": "package.json",
+      "size": 60
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 15293
+    },
+    {
+      "path": ".github/workflows/add-labels.yml",
+      "size": 2258
+    },
+    {
+      "path": ".github/workflows/auto-update.yml",
+      "size": 169
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 19767
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2649
+    },
+    {
+      "path": ".github/workflows/community-label.yml",
+      "size": 858
+    },
+    {
+      "path": ".github/workflows/conventional-labels.yml",
+      "size": 894
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 908
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+    "fork": false,
+    "full_name": "langflow-ai/langflow",
+    "html_url": "https://github.com/langflow-ai/langflow",
+    "language": "Python",
+    "pushed_at": "2026-04-23T03:36:55Z",
+    "stargazers_count": 147278,
+    "topics": [
+      "agents",
+      "chatgpt",
+      "generative-ai",
+      "large-language-models",
+      "multiagent",
+      "react-flow"
+    ],
+    "updated_at": "2026-04-23T06:41:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Manage Review Labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-labels.yml",
+      "term": "Manage Review Labels"
+    },
+    {
+      "context_snippet": "Auto-update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update.yml",
+      "term": "Auto-update"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Add Community Label",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-label.yml",
+      "term": "Add Community Label"
+    },
+    {
+      "context_snippet": "Label PRs with Conventional Commits",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-labels.yml",
+      "term": "Label PRs with Conventional Commits"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD030 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD030 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD030 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD030 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiagent"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable MD030 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-flow"
+    }
+  ]
+}

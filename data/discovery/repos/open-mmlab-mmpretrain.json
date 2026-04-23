@@ -76,6 +76,20 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "open-mmlab/mmpretrain",
+      "target": "open-mmlab/mmengine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmpretrain",
+      "target": "open-mmlab/mmeval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/mmpretrain",
       "target": "open-mmlab/mmdetection",
       "target_type": "repository"
     },
@@ -84,20 +98,6 @@
       "source_file": "README.md",
       "source_repo": "open-mmlab/mmpretrain",
       "target": "open-mmlab/mmdetection3d",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/mmagic",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-mmlab/mmpretrain",
-      "target": "open-mmlab/mmdeploy",
       "target_type": "repository"
     },
     {
@@ -297,7 +297,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:17:37.926120+00:00",
+  "fetched_at": "2026-04-23T06:31:59.986585+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -359,22 +359,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmagic",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmdeploy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "open-mmlab/mmdetection",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "open-mmlab/mmdetection3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmengine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmeval",
       "source_file": "README.md"
     }
   ],

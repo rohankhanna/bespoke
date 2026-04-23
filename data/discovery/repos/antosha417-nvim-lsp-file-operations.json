@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antosha417/nvim-lsp-file-operations",
+      "target": "simonmclean/triptych.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antosha417/nvim-lsp-file-operations",
+      "target": "typescript-language-server/typescript-language-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antosha417/nvim-lsp-file-operations",
+      "target": "luals/lua-language-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antosha417/nvim-lsp-file-operations",
+      "target": "neovim/nvim-lspconfig",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:28:44.299256+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4524
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Neovim plugin that adds support for file operations using built-in LSP",
+    "fork": false,
+    "full_name": "antosha417/nvim-lsp-file-operations",
+    "html_url": "https://github.com/antosha417/nvim-lsp-file-operations",
+    "language": "Lua",
+    "pushed_at": "2026-01-04T12:23:27Z",
+    "stargazers_count": 415,
+    "topics": [],
+    "updated_at": "2026-04-14T13:22:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luals/lua-language-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neovim/nvim-lspconfig",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simonmclean/triptych.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "typescript-language-server/typescript-language-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

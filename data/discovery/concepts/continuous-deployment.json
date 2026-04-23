@@ -31,6 +31,30 @@
       "source_repo": "Builditluc/wiki-tui",
       "status": "candidate-context",
       "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "A smarter cd command. Supports all major shells."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ent/ent",
+      "status": "candidate-context",
+      "text": "An entity framework for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ent/ent",
+      "status": "candidate-context",
+      "text": "Continuous Deployment"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Builditluc/wiki-tui",
+      "status": "candidate",
+      "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate",
+      "text": "Continuous Deployment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ent/ent",
       "status": "candidate",
       "text": "Continuous Deployment"
     }
@@ -93,11 +129,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/cd.yml",
       "source_repo": "Builditluc/wiki-tui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "ajeetdsouza/zoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "ent/ent"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

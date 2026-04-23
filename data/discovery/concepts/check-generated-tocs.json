@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check generated TOCs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "Official Docker Image for Node.js :whale: :turtle: :rocket: "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "Check generated TOCs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate",
+      "text": "Check generated TOCs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11601,
+      "status": "candidate",
+      "text": "line"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11540,
+      "status": "candidate",
+      "text": "masking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10793,
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10793,
+      "status": "candidate",
+      "text": "electronic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10793,
+      "status": "candidate",
+      "text": "negative"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check generated TOCs",
+  "concept_id": "check-generated-tocs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/doctoc.yml",
+      "source_repo": "nodejs/docker-node"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check generated TOCs",
+      "sense_id": "check-generated-tocs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

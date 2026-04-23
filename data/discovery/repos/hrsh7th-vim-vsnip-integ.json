@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hrsh7th/vim-vsnip-integ",
+      "target": "natebosch/vim-lsc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hrsh7th/vim-vsnip-integ",
+      "target": "prabirshrestha/asyncomplete.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hrsh7th/vim-vsnip-integ",
+      "target": "lifepillar/vim-mucomplete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hrsh7th/vim-vsnip-integ",
+      "target": "girishji/vimcomplete",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:45:40.931340+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1413
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "vim-vsnip integrations to other plugins.",
+    "fork": false,
+    "full_name": "hrsh7th/vim-vsnip-integ",
+    "html_url": "https://github.com/hrsh7th/vim-vsnip-integ",
+    "language": "Vim Script",
+    "pushed_at": "2025-09-14T07:53:33Z",
+    "stargazers_count": 131,
+    "topics": [],
+    "updated_at": "2026-04-22T13:54:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/vimcomplete",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lifepillar/vim-mucomplete",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "natebosch/vim-lsc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prabirshrestha/asyncomplete.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

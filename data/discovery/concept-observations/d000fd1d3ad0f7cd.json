@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The fast conda package builder, based on mamba"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![boa header image](docs/assets/boa_header.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![boa header image](docs/assets/boa_header.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036922,
+      "status": "candidate",
+      "text": "dendraspis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036922,
+      "status": "candidate",
+      "text": "dendroaspis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036922,
+      "status": "candidate",
+      "text": "genus dendraspis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036922,
+      "status": "candidate",
+      "text": "genus dendroaspis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10036921,
+      "status": "candidate",
+      "text": "black mamba"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mamba",
+      "sense_id": "mamba#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mamba",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mamba",
+  "observation_id": "d000fd1d3ad0f7cd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "mamba",
+  "source_context_snippet": "![boa header image](docs/assets/boa_header.png)",
+  "source_file": null,
+  "source_repo": "mamba-org/boa",
+  "source_repo_description": "The fast conda package builder, based on mamba"
+}

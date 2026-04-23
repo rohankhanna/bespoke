@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "spotbugs-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotbugs/spotbugs-maven-plugin",
+      "status": "candidate-context",
+      "text": "Maven Mojo Plug-In to generate reports based on the SpotBugs Analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs-maven-plugin",
+      "status": "candidate-context",
+      "text": "[![Java CI](https://github.com/spotbugs/spotbugs-maven-plugin/actions/workflows/ci.yaml/badge.svg)](https://github.com/spotbugs/spotbugs-maven-plugin/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs-maven-plugin",
+      "status": "candidate",
+      "text": "[![Java CI](https://github.com/spotbugs/spotbugs-maven-plugin/actions/workflows/ci.yaml/badge.svg)](https://github.com/spotbugs/spotbugs-maven-plugin/actions/workflows/ci.yaml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "spotbugs-plugin",
+  "concept_id": "spotbugs-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "spotbugs/spotbugs-maven-plugin"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spotbugs-plugin",
+      "sense_id": "spotbugs-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

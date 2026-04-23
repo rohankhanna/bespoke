@@ -84,7 +84,7 @@
   "normalized_form": "test-.net-solution",
   "observation_id": "31b2273a020786b7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "Test .NET solution",
   "source_context_snippet": "\"Test .NET solution\"",
   "source_file": ".github/workflows/test.yml",

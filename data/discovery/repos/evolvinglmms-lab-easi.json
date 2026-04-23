@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EvolvingLMMs-Lab/EASI",
+      "target": "open-compass/vlmevalkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/EASI",
+      "target": "mllm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/EASI",
+      "target": "mllm-evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/EASI",
+      "target": "multimodal-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/EASI",
+      "target": "spatial-intelligence",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:47:11.868879+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Holistic Evaluation of Multimodal LLMs on Spatial Intelligence",
+    "fork": false,
+    "full_name": "EvolvingLMMs-Lab/EASI",
+    "html_url": "https://github.com/EvolvingLMMs-Lab/EASI",
+    "language": "Python",
+    "pushed_at": "2026-04-14T04:05:01Z",
+    "stargazers_count": 104,
+    "topics": [
+      "mllm",
+      "mllm-evaluation",
+      "multimodal-models",
+      "spatial-intelligence"
+    ],
+    "updated_at": "2026-04-16T06:40:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-compass/vlmevalkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mllm"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mllm-evaluation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatial-intelligence"
+    }
+  ]
+}

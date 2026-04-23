@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim-php/tagbar-phpctags.vim",
+      "target": "techlivezheng/phpctags",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:40:45.573649+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Using phpctags to generate php ctags index for vim plugin tagbar.",
+    "fork": false,
+    "full_name": "vim-php/tagbar-phpctags.vim",
+    "html_url": "https://github.com/vim-php/tagbar-phpctags.vim",
+    "language": "Vim Script",
+    "pushed_at": "2025-03-11T17:12:44Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2025-03-11T17:12:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "techlivezheng/phpctags",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

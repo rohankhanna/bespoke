@@ -1,0 +1,278 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_cpp.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_distributed.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_distributed.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_distributed.yaml"
+    },
+    {
+      "component": "rishabhgupta/git-action-issue@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_distributed.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_python.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_python.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_python.yml"
+    },
+    {
+      "component": "rishabhgupta/git-action-issue@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_python.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/examples",
+      "target": "pytorch/tutorials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/examples",
+      "target": "pytorch/pytorch.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/examples",
+      "target": "facebookresearch/recipes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/examples",
+      "target": "opennmt/opennmt-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "pytorch/examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "pytorch/examples",
+      "target": "JamesIves/github-pages-deploy-action@releases/v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "pytorch/examples",
+      "target": "Doc Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_cpp.yml",
+      "source_repo": "pytorch/examples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_cpp.yml",
+      "source_repo": "pytorch/examples",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_cpp.yml",
+      "source_repo": "pytorch/examples",
+      "target": "Run CPP Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_distributed.yaml",
+      "source_repo": "pytorch/examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_distributed.yaml",
+      "source_repo": "pytorch/examples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_distributed.yaml",
+      "source_repo": "pytorch/examples",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_distributed.yaml",
+      "source_repo": "pytorch/examples",
+      "target": "rishabhgupta/git-action-issue@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_distributed.yaml",
+      "source_repo": "pytorch/examples",
+      "target": "Run Distributed Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_python.yml",
+      "source_repo": "pytorch/examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_python.yml",
+      "source_repo": "pytorch/examples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_python.yml",
+      "source_repo": "pytorch/examples",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main_python.yml",
+      "source_repo": "pytorch/examples",
+      "target": "rishabhgupta/git-action-issue@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:28:02.249967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2503
+    },
+    {
+      "path": ".github/workflows/doc-build.yml",
+      "size": 895
+    },
+    {
+      "path": ".github/workflows/main_cpp.yml",
+      "size": 1401
+    },
+    {
+      "path": ".github/workflows/main_distributed.yaml",
+      "size": 1095
+    },
+    {
+      "path": ".github/workflows/main_python.yml",
+      "size": 1045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of examples around pytorch in Vision, Text, Reinforcement Learning, etc.",
+    "fork": false,
+    "full_name": "pytorch/examples",
+    "html_url": "https://github.com/pytorch/examples",
+    "language": "Python",
+    "pushed_at": "2025-09-01T17:21:47Z",
+    "stargazers_count": 23854,
+    "topics": [],
+    "updated_at": "2026-04-22T18:36:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/recipes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opennmt/opennmt-py",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/pytorch.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/tutorials",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Doc Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/doc-build.yml",
+      "term": "Doc Build"
+    },
+    {
+      "context_snippet": "Run CPP Examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_cpp.yml",
+      "term": "Run CPP Examples"
+    },
+    {
+      "context_snippet": "Run Distributed Examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main_distributed.yaml",
+      "term": "Run Distributed Examples"
+    }
+  ]
+}

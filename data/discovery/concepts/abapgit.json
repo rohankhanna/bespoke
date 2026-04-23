@@ -19,6 +19,54 @@
       "source_repo": "abapGit/abapGit",
       "status": "candidate-context",
       "text": "![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abapGit/ADT_Frontend",
+      "status": "candidate-context",
+      "text": "ABAP development tools plug-in for abapGit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abapGit/ADT_Frontend",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/abapGit/ADT_Frontend.svg?branch=master)](https://travis-ci.com/abapGit/ADT_Frontend)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "larshp/abapGitServer",
+      "status": "candidate-context",
+      "text": "Git server implemented in ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larshp/abapGitServer",
+      "status": "candidate-context",
+      "text": "Git server implemented in ABAP"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abapGit/ADT_Backend",
+      "status": "candidate-context",
+      "text": "DEPRECATED/NOT WORKING abapGit ADT Backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abapGit/ADT_Backend",
+      "status": "candidate-context",
+      "text": "[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/emersion/stability-badges#experimental)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abap2UI5/abap2UI5",
+      "status": "candidate-context",
+      "text": "Build UI5 Apps Purely in ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abap2UI5/abap2UI5",
+      "status": "candidate-context",
+      "text": "<details>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "abapGit/abapGit",
       "status": "candidate",
       "text": "![Build](https://github.com/abapGit/abapGit/workflows/main-build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abapGit/ADT_Frontend",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/abapGit/ADT_Frontend.svg?branch=master)](https://travis-ci.com/abapGit/ADT_Frontend)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larshp/abapGitServer",
+      "status": "candidate",
+      "text": "Git server implemented in ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abapGit/ADT_Backend",
+      "status": "candidate",
+      "text": "[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/emersion/stability-badges#experimental)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abap2UI5/abap2UI5",
+      "status": "candidate",
+      "text": "<details>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +112,41 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "abapGit/abapGit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abapGit/ADT_Frontend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "larshp/abapGitServer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abapGit/ADT_Backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5/abap2UI5"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

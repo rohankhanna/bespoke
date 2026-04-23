@@ -1,0 +1,12 @@
+{
+  "component": "distributhor/workflow-webhook@2381f0e9c7b6bf061fb1405bd0804b8706116369",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "connectbot/connectbot"
+    }
+  ]
+}

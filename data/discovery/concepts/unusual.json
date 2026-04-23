@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "unusual"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ijl/orjson",
+      "status": "candidate-context",
+      "text": "Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ijl/orjson",
+      "status": "candidate-context",
+      "text": "unusual"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ijl/orjson",
+      "status": "candidate",
+      "text": "unusual"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007987,
+      "status": "candidate",
+      "text": "odd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006752,
+      "status": "candidate",
+      "text": "strange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006737,
+      "status": "candidate",
+      "text": "uncommon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006546,
+      "status": "candidate",
+      "text": "peculiar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005551,
+      "status": "candidate",
+      "text": "weird"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 60042,
+      "status": "candidate",
+      "text": "peculiar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48038,
+      "status": "candidate",
+      "text": "grotesque"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48031,
+      "status": "candidate",
+      "text": "eerie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37036,
+      "status": "candidate",
+      "text": "quaint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35039,
+      "status": "candidate",
+      "text": "strange"
+    }
+  ],
+  "canonical_name": "unusual",
+  "concept_id": "unusual",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/unusual.yaml",
+      "source_repo": "ijl/orjson"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "unusual",
+      "sense_id": "unusual#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

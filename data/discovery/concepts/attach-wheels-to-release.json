@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Attach wheels to release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate-context",
+      "text": "A library for accelerating Transformer models on NVIDIA GPUs, including using 8-bit and 4-bit floating point (FP8 and FP4) precision on Hopper, Ada and Blackwell GPUs, to provide better performance with lower memory utilization in both training and inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate-context",
+      "text": "Attach wheels to release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate",
+      "text": "Attach wheels to release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17943,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17923,
+      "status": "candidate",
+      "text": "stick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17904,
+      "status": "candidate",
+      "text": "bridle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17904,
+      "status": "candidate",
+      "text": "bridled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17904,
+      "status": "candidate",
+      "text": "couple"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Attach wheels to release",
+  "concept_id": "attach-wheels-to-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/attach-wheels-to-release.yml",
+      "source_repo": "NVIDIA/TransformerEngine"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Attach wheels to release",
+      "sense_id": "attach-wheels-to-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,27 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aws-controllers-k8s/community",
-      "target": "aws-controllers-k8s/runtime",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aws-controllers-k8s/community",
-      "target": "aws-controllers-k8s/code-generator",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aws-controllers-k8s/community",
-      "target": "aws-controllers-k8s/test-infra",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/issue-response.yml",
       "source_repo": "aws-controllers-k8s/community",
@@ -43,6 +22,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "aws-controllers-k8s/community"
 }

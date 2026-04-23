@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Monthly contributor report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Combination of multiple linters to run as a GitHub Action or standalone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Monthly contributor report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate",
+      "text": "Monthly contributor report"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34638,
+      "status": "candidate",
+      "text": "statement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26551,
+      "status": "candidate",
+      "text": "earnings report"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19133,
+      "status": "candidate",
+      "text": "account of sales"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19087,
+      "status": "candidate",
+      "text": "friend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18979,
+      "status": "candidate",
+      "text": "soft-land"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Monthly contributor report",
+  "concept_id": "monthly-contributor-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/thank_contributors.yaml",
+      "source_repo": "super-linter/super-linter"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Monthly contributor report",
+      "sense_id": "monthly-contributor-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

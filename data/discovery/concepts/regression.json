@@ -19,12 +19,30 @@
       "source_repo": "abaplint/abaplint",
       "status": "candidate-context",
       "text": "Regression"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/transpiler",
+      "status": "candidate-context",
+      "text": "ABAP to JS transpiler & runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/transpiler",
+      "status": "candidate-context",
+      "text": "Regression"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "abaplint/abaplint",
+      "status": "candidate",
+      "text": "Regression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/transpiler",
       "status": "candidate",
       "text": "Regression"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/regression.yml",
       "source_repo": "abaplint/abaplint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "abaplint/transpiler"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/py-evm",
+      "target": "ethereum/execution-specs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethereum/py-evm",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethereum/py-evm",
+      "target": "ethereum-virtual-machine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:28:58.792857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1538
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A Python implementation of the Ethereum Virtual Machine",
+    "fork": false,
+    "full_name": "ethereum/py-evm",
+    "html_url": "https://github.com/ethereum/py-evm",
+    "language": "Python",
+    "pushed_at": "2025-09-08T15:31:46Z",
+    "stargazers_count": 2356,
+    "topics": [
+      "ethereum",
+      "ethereum-virtual-machine",
+      "evm",
+      "python"
+    ],
+    "updated_at": "2026-04-20T22:47:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/execution-specs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> [!caution]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "> [!caution]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum-virtual-machine"
+    }
+  ]
+}

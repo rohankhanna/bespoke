@@ -43,6 +43,90 @@
       "source_repo": "sbcgua/ajson",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable first-line-heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "larshp/abapGitServer",
+      "status": "candidate-context",
+      "text": "Git server implemented in ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larshp/abapGitServer",
+      "status": "candidate-context",
+      "text": "Git server implemented in ABAP"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SAP/abap-file-formats",
+      "status": "candidate-context",
+      "text": "File formats that define and specify the file representation for ABAP development objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/abap-file-formats",
+      "status": "candidate-context",
+      "text": "<!-- markdown-link-check-disable-next-line -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbcgua/abap-string-map",
+      "status": "candidate-context",
+      "text": "String map primitive implementation on abap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbcgua/abap-string-map",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/abaplint-sci-client",
+      "status": "candidate-context",
+      "text": "ABAP part for running abaplint on ABAP backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint-sci-client",
+      "status": "candidate-context",
+      "text": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/transpiler",
+      "status": "candidate-context",
+      "text": "ABAP to JS transpiler & runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/transpiler",
+      "status": "candidate-context",
+      "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/runtime?label=%40abaplint%2Fruntime)](https://www.npmjs.com/package/@abaplint/runtime)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abap2UI5/abap2UI5",
+      "status": "candidate-context",
+      "text": "Build UI5 Apps Purely in ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abap2UI5/abap2UI5",
+      "status": "candidate-context",
+      "text": "<details>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "status": "candidate-context",
+      "text": "Tools for the development of ABAP file formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "status": "candidate-context",
+      "text": "[![REUSE status](https://api.reuse.software/badge/github.com/SAP/abap-file-formats-tools)](https://api.reuse.software/info/github.com/SAP/abap-file-formats-tools)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +147,48 @@
       "source_repo": "sbcgua/ajson",
       "status": "candidate",
       "text": "<!-- markdownlint-disable first-line-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larshp/abapGitServer",
+      "status": "candidate",
+      "text": "Git server implemented in ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/abap-file-formats",
+      "status": "candidate",
+      "text": "<!-- markdown-link-check-disable-next-line -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbcgua/abap-string-map",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint-sci-client",
+      "status": "candidate",
+      "text": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/transpiler",
+      "status": "candidate",
+      "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/runtime?label=%40abaplint%2Fruntime)](https://www.npmjs.com/package/@abaplint/runtime)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abap2UI5/abap2UI5",
+      "status": "candidate",
+      "text": "<details>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "status": "candidate",
+      "text": "[![REUSE status](https://api.reuse.software/badge/github.com/SAP/abap-file-formats-tools)](https://api.reuse.software/info/github.com/SAP/abap-file-formats-tools)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +250,59 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "sbcgua/ajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "larshp/abapGitServer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "SAP/abap-file-formats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sbcgua/abap-string-map"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/abaplint-sci-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/transpiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abap2UI5/abap2UI5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "SAP/abap-file-formats-tools"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:32:47.725746+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4914
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Self-host LLMs with LMDeploy and BentoML",
+    "fork": false,
+    "full_name": "bentoml/BentoLMDeploy",
+    "html_url": "https://github.com/bentoml/BentoLMDeploy",
+    "language": "Python",
+    "pushed_at": "2025-12-26T17:35:13Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-01-05T11:05:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

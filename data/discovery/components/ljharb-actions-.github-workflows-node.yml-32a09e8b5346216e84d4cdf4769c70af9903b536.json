@@ -1,0 +1,17 @@
+{
+  "component": "ljharb/actions/.github/workflows/node.yml@32a09e8b5346216e84d4cdf4769c70af9903b536",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "A11yance/aria-query"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "A11yance/axobject-query"
+    }
+  ]
+}

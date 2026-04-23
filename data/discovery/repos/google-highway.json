@@ -1,0 +1,510 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "bazelbuild/setup-bazelisk@b39c379c82683a5f25d34f0d062761f62693e0b2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml"
+    },
+    {
+      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml"
+    },
+    {
+      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml"
+    },
+    {
+      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiarch.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiarch.yml"
+    },
+    {
+      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiarch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiarch.yml"
+    },
+    {
+      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiarch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiarch.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/highway",
+      "target": "bnprks/bpcells",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/highway",
+      "target": "google/jpegli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/highway",
+      "target": "exaloop/codon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/highway",
+      "target": "ashvardanian/numkong",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "google/highway",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "google/highway",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "google/highway",
+      "target": "bazelbuild/setup-bazelisk@b39c379c82683a5f25d34f0d062761f62693e0b2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "google/highway",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml",
+      "source_repo": "google/highway",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml",
+      "source_repo": "google/highway",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml",
+      "source_repo": "google/highway",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson_build_test.yml",
+      "source_repo": "google/highway",
+      "target": "uraimo/run-on-arch-action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiarch.yml",
+      "source_repo": "google/highway",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiarch.yml",
+      "source_repo": "google/highway",
+      "target": "uraimo/run-on-arch-action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiarch.yml",
+      "source_repo": "google/highway",
+      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/multiarch.yml",
+      "source_repo": "google/highway",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/multiarch.yml",
+      "source_repo": "google/highway",
+      "target": "Foreign architectures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "avx-512",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "avx-instructions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "avx2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "avx512",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "intrinsics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "neon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "simd-instructions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "simd-intrinsics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "simd-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "simd-parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "simd-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "sse42",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/highway",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:29:10.780641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23671
+    },
+    {
+      "path": ".github/workflows/build_test.yml",
+      "size": 10680
+    },
+    {
+      "path": ".github/workflows/docs_pages_workflow.yml",
+      "size": 733
+    },
+    {
+      "path": ".github/workflows/meson_build_test.yml",
+      "size": 8302
+    },
+    {
+      "path": ".github/workflows/multiarch.yml",
+      "size": 4754
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Performance-portable, length-agnostic SIMD with runtime dispatch",
+    "fork": false,
+    "full_name": "google/highway",
+    "html_url": "https://github.com/google/highway",
+    "language": "C++",
+    "pushed_at": "2026-04-22T16:20:05Z",
+    "stargazers_count": 5462,
+    "topics": [
+      "avx",
+      "avx-512",
+      "avx-instructions",
+      "avx2",
+      "avx512",
+      "intrinsics",
+      "neon",
+      "simd",
+      "simd-instructions",
+      "simd-intrinsics",
+      "simd-library",
+      "simd-parallelism",
+      "simd-programming",
+      "sse42",
+      "wasm"
+    ],
+    "updated_at": "2026-04-22T20:44:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/numkong",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bnprks/bpcells",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "exaloop/codon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jpegli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Foreign architectures",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/multiarch.yml",
+      "term": "Foreign architectures"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx-512"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx-instructions"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx2"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avx512"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intrinsics"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neon"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd-instructions"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd-intrinsics"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd-library"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd-parallelism"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd-programming"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sse42"
+    },
+    {
+      "context_snippet": "[//]: # (placeholder, do not remove)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

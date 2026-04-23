@@ -1,0 +1,17 @@
+{
+  "component": "JohnnyMorganz/stylua-action@v5",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml",
+      "source_repo": "nvim-mini/mini.nvim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "neovim/nvim-lspconfig"
+    }
+  ]
+}

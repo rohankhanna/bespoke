@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "core"
+    "core",
+    "Core"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "Homebrew/homebrew-core",
       "status": "candidate-context",
       "text": "Core formulae for the Homebrew package manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/snark-setup-operator",
+      "status": "candidate-context",
+      "text": "Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/snark-setup",
+      "status": "candidate-context",
+      "text": "Core"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,18 @@
       "source_repo": "Homebrew/homebrew-core",
       "status": "candidate",
       "text": "Core formulae for the Homebrew package manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/snark-setup-operator",
+      "status": "candidate",
+      "text": "Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/snark-setup",
+      "status": "candidate",
+      "text": "Core"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +139,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "Homebrew/homebrew-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/core.yml",
+      "source_repo": "celo-org/snark-setup-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/core.yml",
+      "source_repo": "celo-org/snark-setup"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

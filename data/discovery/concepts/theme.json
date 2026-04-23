@@ -121,6 +121,42 @@
       "source_repo": "hakadao/CherryStudio-Aero",
       "status": "candidate-context",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](README-cmn_CN.md) | [\u7e41\u9ad4\u4e2d\u6587](README-cmn_TW.md) | [\u5ee3\u6771\u8a71](README-jyut.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ryanoasis/vim-devicons",
+      "status": "candidate-context",
+      "text": "Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and many more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/vim-devicons",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Record your terminal and generate animated gif images or share a web player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reujab/silver",
+      "status": "candidate-context",
+      "text": "A cross-shell customizable powerline-like prompt with icons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reujab/silver",
+      "status": "candidate-context",
+      "text": "[package] name = \"silver\" version = \"2.0.1\" authors = [\"reujab <reujab@gmail.com>\"] description = \"A cross-shell customizable powerline-like prompt with icons\" repository = \"https://github.com/reujab/silver\" readme = \"readme.md\" keywords = [\"shell\", \"prompt\", \"powerline\", \"agnos\u2026"
     }
   ],
   "candidate_glosses": [
@@ -177,6 +213,24 @@
       "source_repo": "hakadao/CherryStudio-Aero",
       "status": "candidate",
       "text": "English | [\u7b80\u4f53\u4e2d\u6587](README-cmn_CN.md) | [\u7e41\u9ad4\u4e2d\u6587](README-cmn_TW.md) | [\u5ee3\u6771\u8a71](README-jyut.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/vim-devicons",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reujab/silver",
+      "status": "candidate",
+      "text": "[package] name = \"silver\" version = \"2.0.1\" authors = [\"reujab <reujab@gmail.com>\"] description = \"A cross-shell customizable powerline-like prompt with icons\" repository = \"https://github.com/reujab/silver\" readme = \"readme.md\" keywords = [\"shell\", \"prompt\", \"powerline\", \"agnos\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -328,11 +382,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "hakadao/CherryStudio-Aero"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ryanoasis/vim-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "faressoft/terminalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "reujab/silver"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,538 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-gnark.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-gnark.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-gnark.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-gnark.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-gnark.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-gnark.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/executor-suite.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/executor-suite.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/executor-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/executor-suite.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/executor-suite.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/executor-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/executor-suite.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/executor-suite.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/executor-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnark.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch-testing-cycles-comment.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch-testing-cycles-comment.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch-testing-cycles.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch-testing-cycles.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "succinctlabs/sp1",
+      "target": "plonky3/plonky3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "succinctlabs/sp1",
+      "target": "valida-xyz/valida",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-gnark.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-gnark.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-gnark.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "Docker Gnark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-gnark.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-gnark.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-gnark.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish-gnark.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish-gnark.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "Docker Publish Gnark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "Docker Publish CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/executor-suite.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/executor-suite.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/executor-suite.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/executor-suite.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "Testing Suite (Executor)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gnark.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gnark.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "Groth16 and Plonk tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch-testing-cycles-comment.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch-testing-cycles-comment.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patch-testing-cycles-comment.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "Patch Testing Cycles Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch-testing-cycles.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/patch-testing-cycles.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patch-testing-cycles.yml",
+      "source_repo": "succinctlabs/sp1",
+      "target": "Patch Testing Cycles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "succinctlabs/sp1",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "succinctlabs/sp1",
+      "target": "contributor-friendly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "succinctlabs/sp1",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "succinctlabs/sp1",
+      "target": "modular",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "succinctlabs/sp1",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "succinctlabs/sp1",
+      "target": "zero-knowledge",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:28:24.576757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3403
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 12745
+    },
+    {
+      "path": ".github/workflows/docker-gnark.yml",
+      "size": 1913
+    },
+    {
+      "path": ".github/workflows/docker-publish-gnark.yml",
+      "size": 1967
+    },
+    {
+      "path": ".github/workflows/docker-publish.yml",
+      "size": 2772
+    },
+    {
+      "path": ".github/workflows/examples.yml",
+      "size": 874
+    },
+    {
+      "path": ".github/workflows/executor-suite.yml",
+      "size": 5547
+    },
+    {
+      "path": ".github/workflows/gnark.yml",
+      "size": 1358
+    },
+    {
+      "path": ".github/workflows/patch-testing-cycles-comment.yml",
+      "size": 1626
+    },
+    {
+      "path": ".github/workflows/patch-testing-cycles.yml",
+      "size": 2104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SP1 is a zero\u2011knowledge virtual machine that proves the correct execution of programs compiled for the RISC-V architecture.",
+    "fork": false,
+    "full_name": "succinctlabs/sp1",
+    "html_url": "https://github.com/succinctlabs/sp1",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T08:13:55Z",
+    "stargazers_count": 1644,
+    "topics": [
+      "blockchain",
+      "contributor-friendly",
+      "ethereum",
+      "modular",
+      "rust",
+      "zero-knowledge"
+    ],
+    "updated_at": "2026-04-22T23:28:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plonky3/plonky3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "valida-xyz/valida",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker Gnark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-gnark.yml",
+      "term": "Docker Gnark"
+    },
+    {
+      "context_snippet": "Docker Publish Gnark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish-gnark.yml",
+      "term": "Docker Publish Gnark"
+    },
+    {
+      "context_snippet": "Docker Publish CLI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "term": "Docker Publish CLI"
+    },
+    {
+      "context_snippet": "Examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "term": "Examples"
+    },
+    {
+      "context_snippet": "Testing Suite (Executor)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/executor-suite.yml",
+      "term": "Testing Suite (Executor)"
+    },
+    {
+      "context_snippet": "Groth16 and Plonk tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gnark.yml",
+      "term": "Groth16 and Plonk tests"
+    },
+    {
+      "context_snippet": "Patch Testing Cycles Comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patch-testing-cycles-comment.yml",
+      "term": "Patch Testing Cycles Comment"
+    },
+    {
+      "context_snippet": "Patch Testing Cycles",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/patch-testing-cycles.yml",
+      "term": "Patch Testing Cycles"
+    },
+    {
+      "context_snippet": "![SP1](./assets/sp1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "![SP1](./assets/sp1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contributor-friendly"
+    },
+    {
+      "context_snippet": "![SP1](./assets/sp1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "![SP1](./assets/sp1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "modular"
+    },
+    {
+      "context_snippet": "![SP1](./assets/sp1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "![SP1](./assets/sp1.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-knowledge"
+    }
+  ]
+}

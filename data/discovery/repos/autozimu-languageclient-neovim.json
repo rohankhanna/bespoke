@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "target": "microsoft/language-server-protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "target": "ncm2/ncm2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "target": "lifepillar/vim-mucomplete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "target": "denite-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "target": "deoplete-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "target": "language-server-protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "target": "languageclient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:41:38.235061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4400
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "next",
+    "description": "Language Server Protocol (LSP) support for vim and neovim.",
+    "fork": false,
+    "full_name": "autozimu/LanguageClient-neovim",
+    "html_url": "https://github.com/autozimu/LanguageClient-neovim",
+    "language": "Rust",
+    "pushed_at": "2025-10-09T09:24:43Z",
+    "stargazers_count": 3556,
+    "topics": [
+      "denite-source",
+      "deoplete-source",
+      "language-server-protocol",
+      "languageclient",
+      "neovim-plugin",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-04-18T04:45:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lifepillar/vim-mucomplete",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/language-server-protocol",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ncm2/ncm2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> For legacy python implementation, see [branch master](https://github.com/autozimu/LanguageClient-neovim/tree/master).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denite-source"
+    },
+    {
+      "context_snippet": "> For legacy python implementation, see [branch master](https://github.com/autozimu/LanguageClient-neovim/tree/master).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deoplete-source"
+    },
+    {
+      "context_snippet": "> For legacy python implementation, see [branch master](https://github.com/autozimu/LanguageClient-neovim/tree/master).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-server-protocol"
+    },
+    {
+      "context_snippet": "> For legacy python implementation, see [branch master](https://github.com/autozimu/LanguageClient-neovim/tree/master).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "languageclient"
+    },
+    {
+      "context_snippet": "> For legacy python implementation, see [branch master](https://github.com/autozimu/LanguageClient-neovim/tree/master).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "> For legacy python implementation, see [branch master](https://github.com/autozimu/LanguageClient-neovim/tree/master).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

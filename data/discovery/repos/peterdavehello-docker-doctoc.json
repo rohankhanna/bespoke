@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "target": "docker-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "target": "doctoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "target": "readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "target": "table-of-contents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "target": "table-of-contents-generator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:27:59.208611+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1775
+    },
+    {
+      "path": "Dockerfile",
+      "size": 191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pack npm package \"doctoc\" into a docker image",
+    "fork": false,
+    "full_name": "PeterDaveHello/docker-doctoc",
+    "html_url": "https://github.com/PeterDaveHello/docker-doctoc",
+    "language": "Dockerfile",
+    "pushed_at": "2025-10-28T02:46:03Z",
+    "stargazers_count": 15,
+    "topics": [
+      "docker",
+      "docker-image",
+      "doctoc",
+      "hacktoberfest",
+      "markdown",
+      "readme",
+      "table-of-contents",
+      "table-of-contents-generator"
+    ],
+    "updated_at": "2026-02-17T18:17:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doctoc"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "readme"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "table-of-contents"
+    },
+    {
+      "context_snippet": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "table-of-contents-generator"
+    }
+  ]
+}

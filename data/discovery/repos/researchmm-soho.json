@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "researchmm/soho",
+      "target": "open-mmlab/mmdetection",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:28:35.561050+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4353
+    },
+    {
+      "path": "requirements.txt",
+      "size": 28
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR'21 Oral] Seeing Out of tHe bOx: End-to-End Pre-training for Vision-Language Representation Learning",
+    "fork": false,
+    "full_name": "researchmm/soho",
+    "html_url": "https://github.com/researchmm/soho",
+    "language": "Python",
+    "pushed_at": "2022-09-30T05:49:37Z",
+    "stargazers_count": 209,
+    "topics": [],
+    "updated_at": "2026-04-22T08:36:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmdetection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/swift-argument-parser",
+      "target": "apple/swift-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/swift-argument-parser",
+      "target": "apple/swift-package-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-argument-parser",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-argument-parser",
+      "target": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-argument-parser",
+      "target": "swiftlang/github-workflows/.github/workflows/soundness.yml@0.0.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-argument-parser",
+      "target": "Pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-argument-parser",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-argument-parser",
+      "target": "flag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/swift-argument-parser",
+      "target": "option",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:42:41.985232+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5711
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 2554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Straightforward, type-safe argument parsing for Swift",
+    "fork": false,
+    "full_name": "apple/swift-argument-parser",
+    "html_url": "https://github.com/apple/swift-argument-parser",
+    "language": "Swift",
+    "pushed_at": "2026-04-22T16:38:49Z",
+    "stargazers_count": 3699,
+    "topics": [
+      "cli",
+      "command-line",
+      "flag",
+      "option"
+    ],
+    "updated_at": "2026-04-22T16:38:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift-package-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Pull request"
+    },
+    {
+      "context_snippet": "Begin by declaring a type that defines the information",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "Begin by declaring a type that defines the information",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flag"
+    },
+    {
+      "context_snippet": "Begin by declaring a type that defines the information",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "option"
+    }
+  ]
+}

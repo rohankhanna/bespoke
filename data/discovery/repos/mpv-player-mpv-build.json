@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:47:02.629715+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 8069
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd28 Helper scripts to compile mpv on Linux",
+    "fork": false,
+    "full_name": "mpv-player/mpv-build",
+    "html_url": "https://github.com/mpv-player/mpv-build",
+    "language": "Shell",
+    "pushed_at": "2025-11-02T20:17:08Z",
+    "stargazers_count": 476,
+    "topics": [],
+    "updated_at": "2026-04-19T17:31:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

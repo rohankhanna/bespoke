@@ -43,6 +43,42 @@
       "source_repo": "langgenius/dify",
       "status": "candidate-context",
       "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "poolifier/poolifier",
+      "status": "candidate-context",
+      "text": "Fast and small Node.js worker_threads and cluster worker pool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/poolifier",
+      "status": "candidate-context",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/core",
+      "status": "candidate-context",
+      "text": "\ud83d\udd96 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/core",
+      "status": "candidate-context",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate-context",
+      "text": "Routing and navigation for React Native and Web apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate-context",
+      "text": "autofix.ci"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +97,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "langgenius/dify",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/poolifier",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/core",
+      "status": "candidate",
+      "text": "autofix.ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-navigation/react-navigation",
       "status": "candidate",
       "text": "autofix.ci"
     }
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/autofix.yml",
       "source_repo": "langgenius/dify"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "poolifier/poolifier"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "vuejs/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/autofix.yml",
+      "source_repo": "react-navigation/react-navigation"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

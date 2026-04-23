@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Trigger Breaking Change Notifications"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cugraph",
+      "status": "candidate-context",
+      "text": "cuGraph - RAPIDS Graph Analytics Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cugraph",
+      "status": "candidate-context",
+      "text": "Trigger Breaking Change Notifications"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/rmm",
+      "status": "candidate-context",
+      "text": "RAPIDS Memory Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/rmm",
+      "status": "candidate-context",
+      "text": "Trigger Breaking Change Notifications"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cugraph",
+      "status": "candidate",
+      "text": "Trigger Breaking Change Notifications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/rmm",
+      "status": "candidate",
+      "text": "Trigger Breaking Change Notifications"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33732,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33682,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33220,
+      "status": "candidate",
+      "text": "introduce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33220,
+      "status": "candidate",
+      "text": "introduced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33096,
+      "status": "candidate",
+      "text": "flash"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trigger Breaking Change Notifications",
+  "concept_id": "trigger-breaking-change-notifications",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "source_repo": "rapidsai/cugraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/trigger-breaking-change-alert.yaml",
+      "source_repo": "rapidsai/rmm"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trigger Breaking Change Notifications",
+      "sense_id": "trigger-breaking-change-notifications#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

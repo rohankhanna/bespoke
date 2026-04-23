@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update quick start module"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/pytorch.github.io",
+      "status": "candidate-context",
+      "text": "The website for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/pytorch.github.io",
+      "status": "candidate-context",
+      "text": "Update quick start module"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/pytorch.github.io",
+      "status": "candidate",
+      "text": "Update quick start module"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33066,
+      "status": "candidate",
+      "text": "leap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33045,
+      "status": "candidate",
+      "text": "truculent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31629,
+      "status": "candidate",
+      "text": "paragraph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31629,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31543,
+      "status": "candidate",
+      "text": "item"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update quick start module",
+  "concept_id": "update-quick-start-module",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/update-quick-start-module.yml",
+      "source_repo": "pytorch/pytorch.github.io"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update quick start module",
+      "sense_id": "update-quick-start-module#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "gemelo-ai/vocos",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "gemelo-ai/vocos",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi-release.yml",
+      "source_repo": "gemelo-ai/vocos",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gemelo-ai/vocos",
+      "target": "vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gemelo-ai/vocos",
+      "target": "vocos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:28:32.764760+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3920
+    },
+    {
+      "path": "requirements.txt",
+      "size": 73
+    },
+    {
+      "path": ".github/workflows/pypi-release.yml",
+      "size": 581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Vocos: Closing the gap between time-domain and Fourier-based neural vocoders for high-quality audio synthesis",
+    "fork": false,
+    "full_name": "gemelo-ai/vocos",
+    "html_url": "https://github.com/gemelo-ai/vocos",
+    "language": "Python",
+    "pushed_at": "2024-08-07T11:07:23Z",
+    "stargazers_count": 1116,
+    "topics": [
+      "vocoder",
+      "vocos"
+    ],
+    "updated_at": "2026-04-21T10:01:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Audio samples](https://gemelo-ai.github.io/vocos/) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocoder"
+    },
+    {
+      "context_snippet": "[Audio samples](https://gemelo-ai.github.io/vocos/) |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocos"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "ethers",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "solc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethers-io/ext-provider-multicall",
+      "target": "ricmoo/multicall",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ext-provider-multicall",
+      "target": "ethers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ext-provider-multicall",
+      "target": "solc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ext-provider-multicall",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:31:41.039359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2810
+    },
+    {
+      "path": "package.json",
+      "size": 1566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ethers extension for a multicall-based provider to batch calls.",
+    "fork": false,
+    "full_name": "ethers-io/ext-provider-multicall",
+    "html_url": "https://github.com/ethers-io/ext-provider-multicall",
+    "language": "TypeScript",
+    "pushed_at": "2024-12-03T21:17:36Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2025-12-06T13:24:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ricmoo/multicall",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

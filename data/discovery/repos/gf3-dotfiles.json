@@ -1,0 +1,208 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gf3/dotfiles",
+      "target": "stedolan/jq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gf3/dotfiles",
+      "target": "peltoche/lsd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gf3/dotfiles",
+      "target": "wez/wezterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gf3/dotfiles",
+      "target": "dotfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gf3/dotfiles",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gf3/dotfiles",
+      "target": "fish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gf3/dotfiles",
+      "target": "ghostty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gf3/dotfiles",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gf3/dotfiles",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gf3/dotfiles",
+      "target": "ripgrep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gf3/dotfiles",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gf3/dotfiles",
+      "target": "yadm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gf3/dotfiles",
+      "target": "zoxide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:52.272368+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Configurations for the tools I use every day",
+    "fork": false,
+    "full_name": "gf3/dotfiles",
+    "html_url": "https://github.com/gf3/dotfiles",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-01-19T14:45:17Z",
+    "stargazers_count": 1114,
+    "topics": [
+      "dotfiles",
+      "emacs",
+      "eza",
+      "fish",
+      "ghostty",
+      "linux",
+      "macos",
+      "ripgrep",
+      "shell",
+      "yadm",
+      "zoxide"
+    ],
+    "updated_at": "2026-04-16T11:30:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peltoche/lsd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stedolan/jq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wez/wezterm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the configuration files for the tools I use day-to-day.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotfiles"
+    },
+    {
+      "context_snippet": "This repository contains the configuration files for the tools I use day-to-day.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "This repository contains the configuration files for the tools I use day-to-day.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish"
+    },
+    {
+      "context_snippet": "This repository contains the configuration files for the tools I use day-to-day.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghostty"
+    },
+    {
+      "context_snippet": "This repository contains the configuration files for the tools I use day-to-day.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "This repository contains the configuration files for the tools I use day-to-day.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "This repository contains the configuration files for the tools I use day-to-day.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ripgrep"
+    },
+    {
+      "context_snippet": "This repository contains the configuration files for the tools I use day-to-day.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "This repository contains the configuration files for the tools I use day-to-day.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yadm"
+    },
+    {
+      "context_snippet": "This repository contains the configuration files for the tools I use day-to-day.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zoxide"
+    }
+  ]
+}

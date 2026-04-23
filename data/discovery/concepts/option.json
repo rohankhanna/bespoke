@@ -19,6 +19,18 @@
       "source_repo": "akfamily/akshare",
       "status": "candidate-context",
       "text": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-argument-parser",
+      "status": "candidate-context",
+      "text": "Straightforward, type-safe argument parsing for Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-argument-parser",
+      "status": "candidate-context",
+      "text": "Begin by declaring a type that defines the information"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "akfamily/akshare",
       "status": "candidate",
       "text": "**\u8d44\u6e90\u5206\u4eab**\uff1a\u5bf9\u4e8e\u60f3\u4e86\u89e3\u66f4\u591a\u8d22\u7ecf\u6570\u636e\u4e0e\u91cf\u5316\u6295\u7814\u7684\u5c0f\u4f19\u4f34\uff0c\u63a8\u8350\u4e00\u4e2a\u4e13\u6ce8\u4e8e\u8d22\u7ecf\u6570\u636e\u548c\u91cf\u5316\u7814\u7a76\u7684\u77e5\u8bc6\u793e\u533a\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-argument-parser",
+      "status": "candidate",
+      "text": "Begin by declaring a type that defines the information"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "akfamily/akshare"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apple/swift-argument-parser"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

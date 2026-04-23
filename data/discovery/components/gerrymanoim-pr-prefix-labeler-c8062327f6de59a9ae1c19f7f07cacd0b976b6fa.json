@@ -1,0 +1,12 @@
+{
+  "component": "gerrymanoim/pr-prefix-labeler@c8062327f6de59a9ae1c19f7f07cacd0b976b6fa",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/title_checker-labeler.yaml",
+      "source_repo": "aquasecurity/trivy-operator"
+    }
+  ]
+}

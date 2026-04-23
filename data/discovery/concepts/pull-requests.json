@@ -1,14 +1,91 @@
 {
   "aliases": [
-    "pull-requests"
+    "pull-requests",
+    "Pull Requests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
-    "tool-component"
+    "tool-component",
+    "workflow-process",
+    "data-document-artifact"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Main",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 The default bucket for Scoop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Main",
+      "status": "candidate-context",
+      "text": "Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ConsenSys-archive/ganache",
+      "status": "candidate-context",
+      "text": ":warning: The Truffle Suite is being sunset. For information on ongoing support, migration options and FAQs, visit the Consensys blog. Thank you for all the support over the years."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConsenSys-archive/ganache",
+      "status": "candidate-context",
+      "text": "Pull Requests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Main",
+      "status": "candidate",
+      "text": "Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConsenSys-archive/ganache",
+      "status": "candidate",
+      "text": "Pull Requests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11800,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11800,
+      "status": "candidate",
+      "text": "deny"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11543,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11543,
+      "status": "candidate",
+      "text": "tease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11543,
+      "status": "candidate",
+      "text": "teased"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "pull-requests",
   "concept_id": "pull-requests",
@@ -19,12 +96,26 @@
       "observed_at": "2026-04-18T10:25:53.609022+00:00",
       "source_file": null,
       "source_repo": "fcakyon/claude-codex-settings"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ScoopInstaller/Main"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "ConsenSys-archive/ganache"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

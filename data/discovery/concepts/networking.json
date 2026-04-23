@@ -67,6 +67,30 @@
       "source_repo": "cncf/wg-networking",
       "status": "candidate-context",
       "text": "CNCF Networking WG"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate-context",
+      "text": "Make underlay and overlay network can coexist, communicate, even be transformed purposefully."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/alibaba/hybridnet)](https://goreportcard.com/report/github.com/alibaba/hybridnet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-netinfo/react-native-netinfo",
+      "status": "candidate-context",
+      "text": "React Native Network Info API for Android & iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-netinfo/react-native-netinfo",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/react-native-netinfo/react-native-netinfo/actions/workflows/ci.yml/badge.svg)](https://github.com/react-native-netinfo/react-native-netinfo/actions/workflows/ci.yml) ![Supports Android, iOS, macOS, Windows and Web](https://img.shields.io/badge/plat\u2026"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "cncf/wg-networking",
       "status": "candidate",
       "text": "CNCF Networking WG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/alibaba/hybridnet)](https://goreportcard.com/report/github.com/alibaba/hybridnet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-netinfo/react-native-netinfo",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/react-native-netinfo/react-native-netinfo/actions/workflows/ci.yml/badge.svg)](https://github.com/react-native-netinfo/react-native-netinfo/actions/workflows/ci.yml) ![Supports Android, iOS, macOS, Windows and Web](https://img.shields.io/badge/plat\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +208,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "cncf/wg-networking"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/hybridnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "react-native-netinfo/react-native-netinfo"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

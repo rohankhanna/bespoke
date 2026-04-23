@@ -1,12 +1,22 @@
 {
   "component": "styfle/cancel-workflow-action@0.11.0",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cancel.yml",
       "source_repo": "berty/berty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cancel-pr.yml",
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "ConsenSys-archive/ganache"
     }
   ]
 }

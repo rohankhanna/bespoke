@@ -1,0 +1,125 @@
+{
+  "aliases": [
+    "Build CI Containers",
+    "Build CI containers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastai/docker-containers",
+      "status": "candidate-context",
+      "text": "Docker images for fastai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastai/docker-containers",
+      "status": "candidate-context",
+      "text": "Build CI Containers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate-context",
+      "text": "vimspector - A multi-language debugging system for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate-context",
+      "text": "\"Build CI containers\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastai/docker-containers",
+      "status": "candidate",
+      "text": "Build CI Containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate",
+      "text": "\"Build CI containers\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15065,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15065,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10312,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10312,
+      "status": "candidate",
+      "text": "positive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build CI Containers",
+  "concept_id": "build-ci-containers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/all.yaml",
+      "source_repo": "fastai/docker-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build_containers.yaml",
+      "source_repo": "puremourning/vimspector"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build CI Containers",
+      "sense_id": "build-ci-containers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

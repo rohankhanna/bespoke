@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "offu/WeRoBot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "offu/WeRoBot",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "offu/WeRoBot",
+      "target": "actions/cache@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "offu/WeRoBot",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "offu/WeRoBot",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "offu/WeRoBot",
+      "target": "wechat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "offu/WeRoBot",
+      "target": "wechat-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "offu/WeRoBot",
+      "target": "wechat-sdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "offu/WeRoBot",
+      "target": "weixin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "offu/WeRoBot",
+      "target": "weixin-sdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:30:46.771929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2345
+    },
+    {
+      "path": "requirements.txt",
+      "size": 26
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "WeRoBot \u662f\u4e00\u4e2a\u5fae\u4fe1\u516c\u4f17\u53f7\u5f00\u53d1\u6846\u67b6",
+    "fork": false,
+    "full_name": "offu/WeRoBot",
+    "html_url": "https://github.com/offu/WeRoBot",
+    "language": "Python",
+    "pushed_at": "2026-01-13T10:35:47Z",
+    "stargazers_count": 4666,
+    "topics": [
+      "python",
+      "sdk",
+      "wechat",
+      "wechat-framework",
+      "wechat-sdk",
+      "weixin",
+      "weixin-sdk"
+    ],
+    "updated_at": "2026-04-20T18:21:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "====================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wechat"
+    },
+    {
+      "context_snippet": "====================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wechat-framework"
+    },
+    {
+      "context_snippet": "====================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wechat-sdk"
+    },
+    {
+      "context_snippet": "====================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weixin"
+    },
+    {
+      "context_snippet": "====================================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weixin-sdk"
+    }
+  ]
+}

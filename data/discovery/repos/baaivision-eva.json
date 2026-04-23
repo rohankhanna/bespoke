@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/EVA",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/EVA",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/EVA",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:49:34.631554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "EVA Series: Visual Representation Fantasies from BAAI",
+    "fork": false,
+    "full_name": "baaivision/EVA",
+    "html_url": "https://github.com/baaivision/EVA",
+    "language": "Python",
+    "pushed_at": "2024-08-01T14:49:48Z",
+    "stargazers_count": 2668,
+    "topics": [
+      "foundation-models",
+      "representation-learning",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-04-23T00:54:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

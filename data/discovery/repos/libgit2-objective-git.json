@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libgit2/objective-git",
+      "target": "carthage/carthage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libgit2/objective-git",
+      "target": "kitware/cmake",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libgit2/objective-git",
+      "target": "abizern/commitviewer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "libgit2/objective-git",
+      "target": "github/objective-c-style-guide",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:41:21.789708+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7820
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Objective-C bindings to libgit2",
+    "fork": false,
+    "full_name": "libgit2/objective-git",
+    "html_url": "https://github.com/libgit2/objective-git",
+    "language": "Objective-C",
+    "pushed_at": "2023-09-17T05:16:14Z",
+    "stargazers_count": 1165,
+    "topics": [],
+    "updated_at": "2026-04-14T11:25:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abizern/commitviewer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carthage/carthage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/objective-c-style-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kitware/cmake",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

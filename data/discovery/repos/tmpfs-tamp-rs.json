@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:48:47.043417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 365
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 65
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bindings to the tamp compression library",
+    "fork": false,
+    "full_name": "tmpfs/tamp-rs",
+    "html_url": "https://github.com/tmpfs/tamp-rs",
+    "language": "Rust",
+    "pushed_at": "2025-09-20T05:41:12Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-02-07T09:03:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

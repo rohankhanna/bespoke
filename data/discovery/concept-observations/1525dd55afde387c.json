@@ -84,7 +84,7 @@
   "normalized_form": "release-pr",
   "observation_id": "1525dd55afde387c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T04:41:58.081535+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "Release PR",
   "source_context_snippet": "Release PR",
   "source_file": ".github/workflows/release-pr.yml",

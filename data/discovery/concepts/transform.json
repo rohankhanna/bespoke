@@ -19,6 +19,18 @@
       "source_repo": "coderaiser/putout",
       "status": "candidate-context",
       "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dropbox/ts-transform-react-jsx-source",
+      "status": "candidate-context",
+      "text": "TypeScript AST Transformer that adds source file and line number to JSX elements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropbox/ts-transform-react-jsx-source",
+      "status": "candidate-context",
+      "text": "![build status](https://travis-ci.org/dropbox/ts-transform-react-jsx-source.svg?branch=master)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "coderaiser/putout",
       "status": "candidate",
       "text": "[NPMURL]: https://npmjs.org/package/putout \"npm\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropbox/ts-transform-react-jsx-source",
+      "status": "candidate",
+      "text": "![build status](https://travis-ci.org/dropbox/ts-transform-react-jsx-source.svg?branch=master)"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "coderaiser/putout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dropbox/ts-transform-react-jsx-source"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

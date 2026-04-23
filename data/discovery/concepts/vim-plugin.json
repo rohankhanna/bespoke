@@ -91,6 +91,150 @@
       "source_repo": "jayli/vim-easycomplete",
       "status": "candidate-context",
       "text": "> [\u4e2d\u6587](README-cn.md) | [English](README.md) | [Wiki](https://github.com/jayli/vim-easycomplete/wiki)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-airline/vim-airline",
+      "status": "candidate-context",
+      "text": "lean & mean status/tabline for vim that's light as air"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-airline/vim-airline",
+      "status": "candidate-context",
+      "text": "[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/chrisbra)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tpope/vim-dispatch",
+      "status": "candidate-context",
+      "text": "dispatch.vim: Asynchronous build and test dispatcher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tpope/vim-dispatch",
+      "status": "candidate-context",
+      "text": "dispatch.vim: Asynchronous build and test dispatcher"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rhysd/vim-lsp-ale",
+      "status": "candidate-context",
+      "text": "Bridge between vim-lsp and ALE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/vim-lsp-ale",
+      "status": "candidate-context",
+      "text": "[vim-lsp][] + [ALE][]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "status": "candidate-context",
+      "text": "Language Server Protocol (LSP) support for vim and neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "status": "candidate-context",
+      "text": "> For legacy python implementation, see [branch master](https://github.com/autozimu/LanguageClient-neovim/tree/master)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndrewRadev/switch.vim",
+      "status": "candidate-context",
+      "text": "A simple Vim plugin to switch segments of text with predefined replacements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndrewRadev/switch.vim",
+      "status": "candidate-context",
+      "text": "[![GitHub version](https://badge.fury.io/gh/andrewradev%2Fswitch.vim.svg)](https://badge.fury.io/gh/andrewradev%2Fswitch.vim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "status": "candidate-context",
+      "text": "Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "status": "candidate-context",
+      "text": "VSCode(LSP)'s snippet feature in vim/nvim."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "preservim/nerdtree",
+      "status": "candidate-context",
+      "text": "A tree explorer plugin for vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/nerdtree",
+      "status": "candidate-context",
+      "text": "Vint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bagrat/vim-buffet",
+      "status": "candidate-context",
+      "text": "IDE-like Vim tabline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagrat/vim-buffet",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhinz/vim-startify",
+      "status": "candidate-context",
+      "text": ":link: The fancy start screen for Vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-startify",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mhinz/vim-startify.svg?branch=master)](https://travis-ci.org/mhinz/vim-startify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "easymotion/vim-easymotion",
+      "status": "candidate-context",
+      "text": "Vim motions on speed!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easymotion/vim-easymotion",
+      "status": "candidate-context",
+      "text": "Vim motion on speed!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate-context",
+      "text": "The missing motion for Vim :athletic_shoe:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate-context",
+      "text": "sneak.vim \ud83d\udc5f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/vim-tfsec",
+      "status": "candidate-context",
+      "text": "List your tfsec issues in the QuickFix window with this plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/vim-tfsec",
+      "status": "candidate-context",
+      "text": "Vim plugin for tfsec to install and run tfsec."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +279,78 @@
       "source_repo": "jayli/vim-easycomplete",
       "status": "candidate",
       "text": "> [\u4e2d\u6587](README-cn.md) | [English](README.md) | [Wiki](https://github.com/jayli/vim-easycomplete/wiki)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-airline/vim-airline",
+      "status": "candidate",
+      "text": "[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/chrisbra)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tpope/vim-dispatch",
+      "status": "candidate",
+      "text": "dispatch.vim: Asynchronous build and test dispatcher"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/vim-lsp-ale",
+      "status": "candidate",
+      "text": "[vim-lsp][] + [ALE][]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "status": "candidate",
+      "text": "> For legacy python implementation, see [branch master](https://github.com/autozimu/LanguageClient-neovim/tree/master)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndrewRadev/switch.vim",
+      "status": "candidate",
+      "text": "[![GitHub version](https://badge.fury.io/gh/andrewradev%2Fswitch.vim.svg)](https://badge.fury.io/gh/andrewradev%2Fswitch.vim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "status": "candidate",
+      "text": "VSCode(LSP)'s snippet feature in vim/nvim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "preservim/nerdtree",
+      "status": "candidate",
+      "text": "Vint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bagrat/vim-buffet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-startify",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mhinz/vim-startify.svg?branch=master)](https://travis-ci.org/mhinz/vim-startify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easymotion/vim-easymotion",
+      "status": "candidate",
+      "text": "Vim motion on speed!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate",
+      "text": "sneak.vim \ud83d\udc5f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/vim-tfsec",
+      "status": "candidate",
+      "text": "Vim plugin for tfsec to install and run tfsec."
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +406,95 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "vim-airline/vim-airline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "tpope/vim-dispatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rhysd/vim-lsp-ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "autozimu/LanguageClient-neovim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AndrewRadev/switch.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hrsh7th/vim-vsnip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "preservim/nerdtree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bagrat/vim-buffet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mhinz/vim-startify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "easymotion/vim-easymotion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "justinmk/vim-sneak"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/vim-tfsec"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/jsbundling-rails",
+      "target": "puma/puma-dev",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/jsbundling-rails",
+      "target": "shakacode/shakapacker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/jsbundling-rails",
+      "target": "rails/cssbundling-rails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/jsbundling-rails",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/jsbundling-rails",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:36:16.033331+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5970
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bundle and transpile JavaScript in Rails with esbuild, rollup.js, bun, or Webpack.",
+    "fork": false,
+    "full_name": "rails/jsbundling-rails",
+    "html_url": "https://github.com/rails/jsbundling-rails",
+    "language": "Ruby",
+    "pushed_at": "2025-03-09T13:24:08Z",
+    "stargazers_count": 920,
+    "topics": [],
+    "updated_at": "2026-04-21T09:42:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "puma/puma-dev",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rails/cssbundling-rails",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shakacode/shakapacker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

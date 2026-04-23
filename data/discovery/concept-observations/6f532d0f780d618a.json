@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The participatory democracy framework. A generator and multiple gems made with Ruby on Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933262,
+      "status": "candidate",
+      "text": "suicide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19933100,
+      "status": "candidate",
+      "text": "suicidal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030273,
+      "status": "candidate",
+      "text": "conception"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030272,
+      "status": "candidate",
+      "text": "idea"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10030271,
+      "status": "candidate",
+      "text": "conceit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ideation",
+      "sense_id": "ideation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ideation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ideation",
+  "observation_id": "6f532d0f780d618a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "ideation",
+  "source_context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+  "source_file": null,
+  "source_repo": "decidim/decidim",
+  "source_repo_description": "The participatory democracy framework. A generator and multiple gems made with Ruby on Rails"
+}

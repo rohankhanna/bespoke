@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jrh13/hol-light",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp.yml",
+      "source_repo": "jrh13/hol-light",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mcp.yml",
+      "source_repo": "jrh13/hol-light",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mcp.yml",
+      "source_repo": "jrh13/hol-light",
+      "target": "MCP Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:29:37.308287+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3258
+    },
+    {
+      "path": ".github/workflows/mcp.yml",
+      "size": 931
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The HOL Light theorem prover",
+    "fork": false,
+    "full_name": "jrh13/hol-light",
+    "html_url": "https://github.com/jrh13/hol-light",
+    "language": "OCaml",
+    "pushed_at": "2026-04-21T16:08:02Z",
+    "stargazers_count": 522,
+    "topics": [],
+    "updated_at": "2026-04-21T16:08:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "MCP Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mcp.yml",
+      "term": "MCP Tests"
+    }
+  ]
+}

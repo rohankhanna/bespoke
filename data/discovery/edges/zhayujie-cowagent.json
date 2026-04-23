@@ -4,27 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zhayujie/CowAgent",
-      "target": "zhayujie/cow-skill-hub",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zhayujie/CowAgent",
-      "target": "zhayujie/bot-on-anything",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zhayujie/CowAgent",
-      "target": "minimalfuture/agentmesh",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zhayujie/CowAgent",
       "target": "zhayujie/chatgpt-on-wechat",
       "target_type": "repository"
     },
@@ -225,6 +204,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "zhayujie/CowAgent"
 }

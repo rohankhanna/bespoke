@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Compression Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build ubuntu](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build ubuntu](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18629675,
+      "status": "candidate",
+      "text": "hoffmann"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18627508,
+      "status": "candidate",
+      "text": "hoffman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8630699,
+      "status": "candidate",
+      "text": "hofmann"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8630697,
+      "status": "candidate",
+      "text": "huffaker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8630696,
+      "status": "candidate",
+      "text": "huff"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "huffman",
+      "sense_id": "huffman#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "huffman",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "huffman",
+  "observation_id": "15eab4adbded2a5c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "huffman",
+  "source_context_snippet": "[![Build ubuntu](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml)",
+  "source_file": null,
+  "source_repo": "powturbo/TurboBench",
+  "source_repo_description": "Compression Benchmark"
+}

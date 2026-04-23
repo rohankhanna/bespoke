@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MOVED: Please use the new libapps repo on chromium.googlesource.com instead"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "hterm is a JS library that provides a terminal emulator. It is reasonably fast,"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "hterm is a JS library that provides a terminal emulator. It is reasonably fast,"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "terminal-emulator",
+      "sense_id": "terminal-emulator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "terminal-emulator",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "terminal-emulator",
+  "observation_id": "a83db70e3dff5eb6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "terminal-emulator",
+  "source_context_snippet": "hterm is a JS library that provides a terminal emulator. It is reasonably fast,",
+  "source_file": null,
+  "source_repo": "chromium/hterm",
+  "source_repo_description": "MOVED: Please use the new libapps repo on chromium.googlesource.com instead"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Protocol buffer generate ent. No handwritten schema required, they will be generated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The `protoc-gen-ent` can generate [ent](https://github.com/ent/ent)'s schemas."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The `protoc-gen-ent` can generate [ent](https://github.com/ent/ent)'s schemas."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "entgo",
+      "sense_id": "entgo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "entgo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "entgo",
+  "observation_id": "057edad6b9d7a5f2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "entgo",
+  "source_context_snippet": "The `protoc-gen-ent` can generate [ent](https://github.com/ent/ent)'s schemas.",
+  "source_file": null,
+  "source_repo": "go-woo/protoc-gen-ent",
+  "source_repo_description": "Protocol buffer generate ent. No handwritten schema required, they will be generated."
+}

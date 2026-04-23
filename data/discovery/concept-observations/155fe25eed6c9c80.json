@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "High-Performance server for NATS.io, the cloud and edge native messaging system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "NATS Server Releases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "NATS Server Releases"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22328,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22297,
+      "status": "candidate",
+      "text": "father"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22297,
+      "status": "candidate",
+      "text": "honorable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22297,
+      "status": "candidate",
+      "text": "house"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22297,
+      "status": "candidate",
+      "text": "law"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "NATS Server Releases",
+      "sense_id": "nats-server-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nats-server-releases",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nats-server-releases",
+  "observation_id": "155fe25eed6c9c80",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "NATS Server Releases",
+  "source_context_snippet": "NATS Server Releases",
+  "source_file": ".github/workflows/release.yaml",
+  "source_repo": "nats-io/nats-server",
+  "source_repo_description": "High-Performance server for NATS.io, the cloud and edge native messaging system."
+}

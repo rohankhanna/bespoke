@@ -1,0 +1,238 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "slimtoolkit/slim",
+      "target": "c-bata/go-prompt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "slimtoolkit/slim",
+      "target": "docker/build-push-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "slimtoolkit/slim",
+      "target": "docker/login-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "slimtoolkit/slim",
+      "target": "golang/lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim",
+      "target": "apparmor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim",
+      "target": "minify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim",
+      "target": "minify-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim",
+      "target": "seccomp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim",
+      "target": "seccomp-profile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim",
+      "target": "slim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:41:42.304605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 100418
+    },
+    {
+      "path": "go.mod",
+      "size": 7560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)",
+    "fork": false,
+    "full_name": "slimtoolkit/slim",
+    "html_url": "https://github.com/slimtoolkit/slim",
+    "language": "Go",
+    "pushed_at": "2026-04-16T20:45:31Z",
+    "stargazers_count": 23156,
+    "topics": [
+      "apparmor",
+      "containers",
+      "docker",
+      "go",
+      "golang",
+      "hacktoberfest",
+      "minify",
+      "minify-images",
+      "seccomp",
+      "seccomp-profile",
+      "security",
+      "slim"
+    ],
+    "updated_at": "2026-04-22T22:36:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "c-bata/go-prompt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/build-push-action",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/login-action",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "golang/lint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![SK](assets/images/dslim/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apparmor"
+    },
+    {
+      "context_snippet": "![SK](assets/images/dslim/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "![SK](assets/images/dslim/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "![SK](assets/images/dslim/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "![SK](assets/images/dslim/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![SK](assets/images/dslim/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minify"
+    },
+    {
+      "context_snippet": "![SK](assets/images/dslim/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minify-images"
+    },
+    {
+      "context_snippet": "![SK](assets/images/dslim/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seccomp"
+    },
+    {
+      "context_snippet": "![SK](assets/images/dslim/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "seccomp-profile"
+    },
+    {
+      "context_snippet": "![SK](assets/images/dslim/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "![SK](assets/images/dslim/logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slim"
+    }
+  ]
+}

@@ -128,6 +128,54 @@
       "source_repo": "zhayujie/bot-on-anything",
       "status": "candidate-context",
       "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "songquanpeng/wechat-server",
+      "status": "candidate-context",
+      "text": "\u5fae\u4fe1\u516c\u4f17\u53f7\u7684\u540e\u7aef\uff0c\u4e3a\u5176\u4ed6\u7cfb\u7edf\u63d0\u4f9b\u5fae\u4fe1\u767b\u5f55\u9a8c\u8bc1\u529f\u80fd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songquanpeng/wechat-server",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cornelk/llama-go",
+      "status": "candidate-context",
+      "text": "Port of Facebook's LLaMA (Large Language Model Meta AI) in Golang with embedded C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cornelk/llama-go",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate-context",
+      "text": "Test suites for Web platform specs \u2014 including WHATWG, W3C, and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate-context",
+      "text": ":fire: Seata is an easy-to-use, high-performance, open source distributed transaction solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate-context",
+      "text": "\"Publish Docker Image\""
     }
   ],
   "candidate_glosses": [
@@ -190,6 +238,30 @@
       "source_repo": "zhayujie/bot-on-anything",
       "status": "candidate",
       "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "songquanpeng/wechat-server",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cornelk/llama-go",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate",
+      "text": "\"Publish Docker Image\""
     }
   ],
   "candidate_related_terms": [
@@ -329,11 +401,47 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/docker-image.yaml",
       "source_repo": "zhayujie/bot-on-anything"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "songquanpeng/wechat-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "cornelk/llama-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish-docker.yml",
+      "source_repo": "apache/incubator-seata"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

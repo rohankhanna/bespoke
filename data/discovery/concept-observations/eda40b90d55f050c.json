@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Codety Scanner is a comprehensive code scanner designed to detect code issues for 30+ programming languages and IaC frameworks. It embeds more than 6,000 code analysis rules and can detect code smells, vulnerable code, secrets in the code, performance issues, style violations, and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "code-scanning",
+      "sense_id": "code-scanning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-scanning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-scanning",
+  "observation_id": "eda40b90d55f050c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "code-scanning",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "codetyio/codety-scanner",
+  "source_repo_description": "Codety Scanner is a comprehensive code scanner designed to detect code issues for 30+ programming languages and IaC frameworks. It embeds more than 6,000 code analysis rules and can detect code smells, vulnerable code, secrets in the code, performance issues, style violations, and more. "
+}

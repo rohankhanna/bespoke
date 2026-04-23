@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AInseven/ComfyUI-fastblend",
+      "target": "artiprocher/sd-webui-fastblend",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:34:00.091747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1673
+    },
+    {
+      "path": "requirements.txt",
+      "size": 12
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "fastblend for comfyui, and other nodes that I write for generate video. rebatch image, my openpose",
+    "fork": false,
+    "full_name": "AInseven/ComfyUI-fastblend",
+    "html_url": "https://github.com/AInseven/ComfyUI-fastblend",
+    "language": "Python",
+    "pushed_at": "2024-11-22T03:32:25Z",
+    "stargazers_count": 231,
+    "topics": [],
+    "updated_at": "2026-04-01T01:02:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artiprocher/sd-webui-fastblend",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

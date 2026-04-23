@@ -1,0 +1,301 @@
+{
+  "components": [
+    {
+      "component": "amannn/action-semantic-pull-request@0723387faaf9b38adef4775cd42cfd5155ed6017",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-pr-title-checker.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "Ilshidur/action-discord@d2594079a10f1d6739ee50a2471f0ca57418b554",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@a02a34c4d625f9be7cb89156071d8567266a2445",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-run-k8s.yml"
+    },
+    {
+      "component": "medyagh/setup-minikube@e3c7f79eb1e997eabccc536a6cf318a2b0fe19d9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-run-k8s.yml"
+    },
+    {
+      "component": "ethpandaops/kurtosis-assertoor-github-action@5932604b244dbd2ddb811516b516a9094f4d2c2f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-run-k8s.yml"
+    },
+    {
+      "component": "Ilshidur/action-discord@d2594079a10f1d6739ee50a2471f0ca57418b554",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-run-k8s.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "ethpandaops/ethereum-package",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "flashbots/contender",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "ethereum-optimism/grafana-dashboards-public",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "ethereum-optimism/kurtosis-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conventional-pr-title-checker.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "amannn/action-semantic-pull-request@0723387faaf9b38adef4775cd42cfd5155ed6017",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-pr-title-checker.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "Check PR title",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "Ilshidur/action-discord@d2594079a10f1d6739ee50a2471f0ca57418b554",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "Nightly test Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/per-pr.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "googleapis/release-please-action@a02a34c4d625f9be7cb89156071d8567266a2445",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "release-please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-run-k8s.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-run-k8s.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "medyagh/setup-minikube@e3c7f79eb1e997eabccc536a6cf318a2b0fe19d9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-run-k8s.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "ethpandaops/kurtosis-assertoor-github-action@5932604b244dbd2ddb811516b516a9094f4d2c2f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-run-k8s.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "Ilshidur/action-discord@d2594079a10f1d6739ee50a2471f0ca57418b554",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-run-k8s.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "Run k8s test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-k8s.yml",
+      "source_repo": "ethpandaops/optimism-package",
+      "target": "Run k8s test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:28:11.232235+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33113
+    },
+    {
+      "path": ".github/workflows/conventional-pr-title-checker.yml",
+      "size": 521
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 2835
+    },
+    {
+      "path": ".github/workflows/per-pr.yml",
+      "size": 2086
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 542
+    },
+    {
+      "path": ".github/workflows/reusable-run-k8s.yml",
+      "size": 2702
+    },
+    {
+      "path": ".github/workflows/scheduled-k8s.yml",
+      "size": 256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A kurtosis package for deploying an optimistic rollup",
+    "fork": false,
+    "full_name": "ethpandaops/optimism-package",
+    "html_url": "https://github.com/ethpandaops/optimism-package",
+    "language": "Starlark",
+    "pushed_at": "2026-01-01T21:17:28Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2026-04-09T10:35:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum-optimism/grafana-dashboards-public",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum-optimism/kurtosis-test",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethpandaops/ethereum-package",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flashbots/contender",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check PR title",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conventional-pr-title-checker.yml",
+      "term": "Check PR title"
+    },
+    {
+      "context_snippet": "Nightly test Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly test Workflow"
+    },
+    {
+      "context_snippet": "release-please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "release-please"
+    },
+    {
+      "context_snippet": "Run k8s test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-run-k8s.yml",
+      "term": "Run k8s test"
+    },
+    {
+      "context_snippet": "Run k8s test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-k8s.yml",
+      "term": "Run k8s test"
+    }
+  ]
+}

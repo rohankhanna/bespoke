@@ -5,6 +5,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-lua/completion-nvim",
+      "target": "lifepillar/vim-mucomplete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-lua/completion-nvim",
       "target": "haorenw1025/completion-nvim",
       "target_type": "repository"
     },
@@ -12,25 +19,18 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-lua/completion-nvim",
-      "target": "aca/completion-tabnine",
+      "target": "kristijanhusak/vim-dadbod-completion",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-lua/completion-nvim",
-      "target": "albertocarom/completion-tmux",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-lua/completion-nvim",
-      "target": "cbarrete/completion-vcard",
+      "target": "kristijanhusak/completion-tags",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-22T19:08:00.160299+00:00",
+  "fetched_at": "2026-04-23T07:47:24.977955+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,22 +54,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aca/completion-tabnine",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "albertocarom/completion-tmux",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "cbarrete/completion-vcard",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "haorenw1025/completion-nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kristijanhusak/completion-tags",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kristijanhusak/vim-dadbod-completion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lifepillar/vim-mucomplete",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mkdocs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mkdocs.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mkdocs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adithya-s-k/VARAG",
+      "target": "answerdotai/byaldi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adithya-s-k/VARAG",
+      "target": "answerdotai/ragatouille",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adithya-s-k/VARAG",
+      "target": "kyryl-opens-ml/vision-retrieval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adithya-s-k/VARAG",
+      "target": "ayushexel/vision-retrieval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mkdocs.yml",
+      "source_repo": "adithya-s-k/VARAG",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mkdocs.yml",
+      "source_repo": "adithya-s-k/VARAG",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-mkdocs.yml",
+      "source_repo": "adithya-s-k/VARAG",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-mkdocs.yml",
+      "source_repo": "adithya-s-k/VARAG",
+      "target": "Deploy MkDocs to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adithya-s-k/VARAG",
+      "target": "colpali",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adithya-s-k/VARAG",
+      "target": "multimodal-retrieval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:28:34.962119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13596
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 783
+    },
+    {
+      "path": ".github/workflows/deploy-mkdocs.yml",
+      "size": 622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " Vision-Augmented Retrieval and Generation (VARAG) - Vision first RAG Engine",
+    "fork": false,
+    "full_name": "adithya-s-k/VARAG",
+    "html_url": "https://github.com/adithya-s-k/VARAG",
+    "language": "Python",
+    "pushed_at": "2025-07-23T17:16:49Z",
+    "stargazers_count": 500,
+    "topics": [
+      "colpali",
+      "multimodal-retrieval",
+      "rag"
+    ],
+    "updated_at": "2026-04-21T05:17:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "answerdotai/byaldi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "answerdotai/ragatouille",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ayushexel/vision-retrieval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyryl-opens-ml/vision-retrieval",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Deploy MkDocs to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-mkdocs.yml",
+      "term": "Deploy MkDocs to GitHub Pages"
+    },
+    {
+      "context_snippet": "Vision Augmented Retrieval and Generation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colpali"
+    },
+    {
+      "context_snippet": "Vision Augmented Retrieval and Generation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-retrieval"
+    }
+  ]
+}

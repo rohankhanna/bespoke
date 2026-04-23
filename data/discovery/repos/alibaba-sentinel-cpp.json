@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "alibaba/sentinel-cpp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/sentinel-cpp",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/sentinel-cpp",
+      "target": "microservice",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/sentinel-cpp",
+      "target": "rate-limiting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/sentinel-cpp",
+      "target": "resilience",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:21.080075+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 948
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1606
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ implementation of Sentinel",
+    "fork": false,
+    "full_name": "alibaba/sentinel-cpp",
+    "html_url": "https://github.com/alibaba/sentinel-cpp",
+    "language": "C++",
+    "pushed_at": "2024-05-10T14:44:31Z",
+    "stargazers_count": 149,
+    "topics": [
+      "cpp",
+      "hacktoberfest",
+      "microservice",
+      "rate-limiting",
+      "resilience"
+    ],
+    "updated_at": "2026-04-16T13:41:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservice"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rate-limiting"
+    },
+    {
+      "context_snippet": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resilience"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build - All Platforms"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/desktop",
+      "status": "candidate-context",
+      "text": "The desktop app for ComfyUI (Windows & macOS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/desktop",
+      "status": "candidate-context",
+      "text": "Build - All Platforms"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/desktop",
+      "status": "candidate",
+      "text": "Build - All Platforms"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26651,
+      "status": "candidate",
+      "text": "deck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25201,
+      "status": "candidate",
+      "text": "decking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25137,
+      "status": "candidate",
+      "text": "gantry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24239,
+      "status": "candidate",
+      "text": "platform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24180,
+      "status": "candidate",
+      "text": "motherwell"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build - All Platforms",
+  "concept_id": "build---all-platforms",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/debug_all.yml",
+      "source_repo": "Comfy-Org/desktop"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build - All Platforms",
+      "sense_id": "build---all-platforms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

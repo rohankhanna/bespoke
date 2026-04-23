@@ -19,6 +19,30 @@
       "source_repo": "songquanpeng/message-pusher",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbarrete/completion-vcard",
+      "status": "candidate-context",
+      "text": "vCard source for completion-nvim, nvim-compe and nvim-cmp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbarrete/completion-vcard",
+      "status": "candidate-context",
+      "text": "vCard completion source for native Neovim LSP autocompletion (see `:h lsp-autocompletion`), [nvim-cmp](https://github.com/hrsh7th/nvim-cmp), [nvim-compe](https://github.com/hrsh7th/nvim-compe), and [completion-nvim](https://github.com/nvim-lua/completion-nvim)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JoshData/python-email-validator",
+      "status": "candidate-context",
+      "text": "A robust email syntax and deliverability validation library for Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JoshData/python-email-validator",
+      "status": "candidate-context",
+      "text": "email-validator: Validate Email Addresses"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "songquanpeng/message-pusher",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbarrete/completion-vcard",
+      "status": "candidate",
+      "text": "vCard completion source for native Neovim LSP autocompletion (see `:h lsp-autocompletion`), [nvim-cmp](https://github.com/hrsh7th/nvim-cmp), [nvim-compe](https://github.com/hrsh7th/nvim-compe), and [completion-nvim](https://github.com/nvim-lua/completion-nvim)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JoshData/python-email-validator",
+      "status": "candidate",
+      "text": "email-validator: Validate Email Addresses"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +134,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "songquanpeng/message-pusher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cbarrete/completion-vcard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "JoshData/python-email-validator"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

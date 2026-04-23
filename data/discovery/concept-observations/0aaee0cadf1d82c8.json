@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simplistic interactive filtering tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update man page"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update man page"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34929,
+      "status": "candidate",
+      "text": "groom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34830,
+      "status": "candidate",
+      "text": "groomed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26070,
+      "status": "candidate",
+      "text": "foldout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22954,
+      "status": "candidate",
+      "text": "recap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22766,
+      "status": "candidate",
+      "text": "statement"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update man page",
+      "sense_id": "update-man-page#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-man-page",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-man-page",
+  "observation_id": "0aaee0cadf1d82c8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Update man page",
+  "source_context_snippet": "Update man page",
+  "source_file": ".github/workflows/manpage.yml",
+  "source_repo": "peco/peco",
+  "source_repo_description": "Simplistic interactive filtering tool"
+}

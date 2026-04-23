@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Verify Antithesis Docker Compose Pipeline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "etcd-io/etcd",
+      "status": "candidate-context",
+      "text": "Distributed reliable key-value store for the most critical data of a distributed system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etcd-io/etcd",
+      "status": "candidate-context",
+      "text": "Verify Antithesis Docker Compose Pipeline"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etcd-io/etcd",
+      "status": "candidate",
+      "text": "Verify Antithesis Docker Compose Pipeline"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26281,
+      "status": "candidate",
+      "text": "deal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26033,
+      "status": "candidate",
+      "text": "looks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17220,
+      "status": "candidate",
+      "text": "prepare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17200,
+      "status": "candidate",
+      "text": "determine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17174,
+      "status": "candidate",
+      "text": "preparing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Verify Antithesis Docker Compose Pipeline",
+  "concept_id": "verify-antithesis-docker-compose-pipeline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/antithesis-verify.yml",
+      "source_repo": "etcd-io/etcd"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Verify Antithesis Docker Compose Pipeline",
+      "sense_id": "verify-antithesis-docker-compose-pipeline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

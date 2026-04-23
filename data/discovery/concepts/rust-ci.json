@@ -1,0 +1,167 @@
+{
+  "aliases": [
+    "rust-ci",
+    "Rust CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyphar/libpathrs",
+      "status": "candidate-context",
+      "text": "C-friendly API to make path resolution safer on Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyphar/libpathrs",
+      "status": "candidate-context",
+      "text": "rust-ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axodotdev/cargo-dist",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 shippable application packaging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodotdev/cargo-dist",
+      "status": "candidate-context",
+      "text": "Rust CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/hokulea",
+      "status": "candidate-context",
+      "text": "Rust CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "celo-org/celo-threshold-bls-rs",
+      "status": "candidate-context",
+      "text": "Threshold BLS Signatures and DKG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-threshold-bls-rs",
+      "status": "candidate-context",
+      "text": "Rust CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyphar/libpathrs",
+      "status": "candidate",
+      "text": "rust-ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodotdev/cargo-dist",
+      "status": "candidate",
+      "text": "Rust CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Layr-Labs/hokulea",
+      "status": "candidate",
+      "text": "Rust CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "celo-org/celo-threshold-bls-rs",
+      "status": "candidate",
+      "text": "Rust CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10795,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 7434,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6944,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6944,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6944,
+      "status": "candidate",
+      "text": "pasticcio"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "rust-ci",
+  "concept_id": "rust-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cyphar/libpathrs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "axodotdev/cargo-dist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rust_ci.yml",
+      "source_repo": "celo-org/celo-threshold-bls-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "rust-ci",
+      "sense_id": "rust-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

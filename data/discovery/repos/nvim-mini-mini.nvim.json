@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml"
+    },
+    {
+      "component": "JohnnyMorganz/stylua-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml"
+    },
+    {
+      "component": "credfeto/action-case-checker@v1.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-mini/mini.nvim",
+      "target": "monaqa/dial.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-mini/mini.nvim",
+      "target": "andrewradev/switch.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-mini/mini.nvim",
+      "target": "kassio/neoterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml",
+      "source_repo": "nvim-mini/mini.nvim",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml",
+      "source_repo": "nvim-mini/mini.nvim",
+      "target": "dorny/paths-filter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml",
+      "source_repo": "nvim-mini/mini.nvim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml",
+      "source_repo": "nvim-mini/mini.nvim",
+      "target": "JohnnyMorganz/stylua-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-control.yml",
+      "source_repo": "nvim-mini/mini.nvim",
+      "target": "credfeto/action-case-checker@v1.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality-control.yml",
+      "source_repo": "nvim-mini/mini.nvim",
+      "target": "Quality Control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.nvim",
+      "target": "mini-nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:28:37.035961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18651
+    },
+    {
+      "path": ".github/workflows/quality-control.yml",
+      "size": 3801
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Library of 40+ independent Lua modules improving Neovim experience with minimal effort",
+    "fork": false,
+    "full_name": "nvim-mini/mini.nvim",
+    "html_url": "https://github.com/nvim-mini/mini.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-21T12:49:22Z",
+    "stargazers_count": 9051,
+    "topics": [
+      "lua",
+      "mini-nvim",
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-22T21:18:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andrewradev/switch.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kassio/neoterm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "monaqa/dial.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Quality Control",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality-control.yml",
+      "term": "Quality Control"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"logo.png\" alt=\"mini.nvim\" style=\"max-width:100%;border:solid 2px\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mini-nvim"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"logo.png\" alt=\"mini.nvim\" style=\"max-width:100%;border:solid 2px\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <img src=\"logo.png\" alt=\"mini.nvim\" style=\"max-width:100%;border:solid 2px\"/> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "joelanford/go-apidiff@60c4206be8f84348ebda2a3e0c3ac9cb54b8f685",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "DataDog/trivy"
+    }
+  ]
+}

@@ -84,7 +84,7 @@
   "normalized_form": "ci-status",
   "observation_id": "b368b307811362b8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "CI Status",
   "source_context_snippet": "CI Status",
   "source_file": ".github/workflows/ci-status.yml",

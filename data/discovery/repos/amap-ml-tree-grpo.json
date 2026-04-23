@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AMAP-ML/Tree-GRPO",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AMAP-ML/Tree-GRPO",
+      "target": "thudm/treerl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "AMAP-ML/Tree-GRPO",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AMAP-ML/Tree-GRPO",
+      "target": "large-language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AMAP-ML/Tree-GRPO",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AMAP-ML/Tree-GRPO",
+      "target": "tree",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:34.621414+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5929
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2345
+    },
+    {
+      "path": "requirements.txt",
+      "size": 122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2026] Tree Search for LLM Agent Reinforcement Learning",
+    "fork": false,
+    "full_name": "AMAP-ML/Tree-GRPO",
+    "html_url": "https://github.com/AMAP-ML/Tree-GRPO",
+    "language": "Python",
+    "pushed_at": "2026-01-26T17:11:54Z",
+    "stargazers_count": 344,
+    "topics": [
+      "agent",
+      "large-language-model",
+      "llm",
+      "reinforcement-learning",
+      "tree"
+    ],
+    "updated_at": "2026-04-21T13:56:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/treerl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree"
+    }
+  ]
+}

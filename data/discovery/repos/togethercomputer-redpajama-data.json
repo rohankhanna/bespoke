@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "togethercomputer/RedPajama-Data",
+      "target": "facebookresearch/cc_net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "togethercomputer/RedPajama-Data",
+      "target": "ldnoobw/list-of-dirty-naughty-obscene-and-otherwise-bad-words",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "togethercomputer/RedPajama-Data",
+      "target": "prashnts/pybloomfiltermmap3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "togethercomputer/RedPajama-Data",
+      "target": "6/stopwords-json",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:28:07.914201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 37581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The RedPajama-Data repository contains code for preparing large datasets for training large language models.",
+    "fork": false,
+    "full_name": "togethercomputer/RedPajama-Data",
+    "html_url": "https://github.com/togethercomputer/RedPajama-Data",
+    "language": "Python",
+    "pushed_at": "2024-12-07T23:22:46Z",
+    "stargazers_count": 4937,
+    "topics": [],
+    "updated_at": "2026-04-22T05:56:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "6/stopwords-json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/cc_net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ldnoobw/list-of-dirty-naughty-obscene-and-otherwise-bad-words",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "prashnts/pybloomfiltermmap3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

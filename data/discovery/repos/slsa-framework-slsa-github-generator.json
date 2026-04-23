@@ -1,0 +1,672 @@
+{
+  "components": [
+    {
+      "component": "@sigstore/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-toc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdownlint-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "renovate",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sigstore",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/actions/delegator/setup-generic@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_bazel_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/delegator_lowperms-generic_slsa3.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_bazel_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/rng@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/detect-workflow-js@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/generate-builder@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/secure-builder-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "google-github-actions/auth@ba79af03959ebeac9769e648f473a284504d9193",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/secure-builder-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/secure-builder-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/secure-builder-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@72f2c25fcb47643c292f7107632f7a47c1df5cd8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@72f2c25fcb47643c292f7107632f7a47c1df5cd8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@f275313e70c08f6120db482d7a6b98377786765b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@f275313e70c08f6120db482d7a6b98377786765b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@f275313e70c08f6120db482d7a6b98377786765b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/rng@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/detect-workflow-js@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/generate-builder@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/secure-builder-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/secure-builder-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml"
+    },
+    {
+      "component": "slsa/hermeticity@xxx",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/secure-builder-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/actions/secure-builder-checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@72f2c25fcb47643c292f7107632f7a47c1df5cd8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/actions/delegator/setup-generic@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_gradle_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/delegator_lowperms-generic_slsa3.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_gradle_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/actions/delegator/setup-generic@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_maven_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/delegator_lowperms-generic_slsa3.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_maven_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/actions/delegator/setup-generic@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_nodejs_slsa3.yml"
+    },
+    {
+      "component": "slsa-framework/slsa-github-generator/.github/workflows/delegator_lowperms-generic_slsa3.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_nodejs_slsa3.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "argoproj/argo-cd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "aws-powertools/powertools-lambda-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "ddworken/hishtory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "atsign-foundation/noports",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "@sigstore/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "markdown-toc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "markdownlint-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "renovate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "sigstore",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_bazel_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/actions/delegator/setup-generic@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_bazel_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/delegator_lowperms-generic_slsa3.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/.github/actions/rng@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/.github/actions/detect-workflow-js@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/.github/actions/generate-builder@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/.github/actions/secure-builder-checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "google-github-actions/auth@ba79af03959ebeac9769e648f473a284504d9193",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "softprops/action-gh-release@72f2c25fcb47643c292f7107632f7a47c1df5cd8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "geekyeggo/delete-artifact@f275313e70c08f6120db482d7a6b98377786765b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "SLSA Container-based builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/.github/actions/rng@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/.github/actions/detect-workflow-js@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/.github/actions/generate-builder@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/.github/actions/secure-builder-checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa/hermeticity@xxx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_go_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "softprops/action-gh-release@72f2c25fcb47643c292f7107632f7a47c1df5cd8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builder_go_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "SLSA go builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_gradle_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/actions/delegator/setup-generic@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_gradle_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/delegator_lowperms-generic_slsa3.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_maven_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/actions/delegator/setup-generic@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_maven_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/delegator_lowperms-generic_slsa3.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_nodejs_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/actions/delegator/setup-generic@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builder_nodejs_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa-framework/slsa-github-generator/.github/workflows/delegator_lowperms-generic_slsa3.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builder_nodejs_slsa3.yml",
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "SLSA Node.js builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "security-hardening",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "security-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "slsa-framework/slsa-github-generator",
+      "target": "slsaprovenance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:48:08.650917+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22505
+    },
+    {
+      "path": "go.mod",
+      "size": 11200
+    },
+    {
+      "path": "package.json",
+      "size": 575
+    },
+    {
+      "path": "requirements.txt",
+      "size": 607
+    },
+    {
+      "path": ".github/workflows/builder_bazel_slsa3.yml",
+      "size": 3901
+    },
+    {
+      "path": ".github/workflows/builder_container-based_slsa3.yml",
+      "size": 28737
+    },
+    {
+      "path": ".github/workflows/builder_go_slsa3.yml",
+      "size": 17251
+    },
+    {
+      "path": ".github/workflows/builder_gradle_slsa3.yml",
+      "size": 3895
+    },
+    {
+      "path": ".github/workflows/builder_maven_slsa3.yml",
+      "size": 3587
+    },
+    {
+      "path": ".github/workflows/builder_nodejs_slsa3.yml",
+      "size": 4406
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Language-agnostic SLSA provenance generation for Github Actions",
+    "fork": false,
+    "full_name": "slsa-framework/slsa-github-generator",
+    "html_url": "https://github.com/slsa-framework/slsa-github-generator",
+    "language": "Go",
+    "pushed_at": "2026-03-29T18:57:33Z",
+    "stargazers_count": 569,
+    "topics": [
+      "security",
+      "security-hardening",
+      "security-tools",
+      "slsa",
+      "slsaprovenance"
+    ],
+    "updated_at": "2026-04-22T08:55:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "argoproj/argo-cd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atsign-foundation/noports",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-powertools/powertools-lambda-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ddworken/hishtory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "SLSA Container-based builder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builder_container-based_slsa3.yml",
+      "term": "SLSA Container-based builder"
+    },
+    {
+      "context_snippet": "SLSA go builder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builder_go_slsa3.yml",
+      "term": "SLSA go builder"
+    },
+    {
+      "context_snippet": "SLSA Node.js builder",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builder_nodejs_slsa3.yml",
+      "term": "SLSA Node.js builder"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator/badge)](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator/badge)](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-hardening"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator/badge)](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-tools"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator/badge)](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slsa"
+    },
+    {
+      "context_snippet": "[![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator/badge)](https://api.securityscorecards.dev/projects/github.com/slsa-framework/slsa-github-generator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slsaprovenance"
+    }
+  ]
+}

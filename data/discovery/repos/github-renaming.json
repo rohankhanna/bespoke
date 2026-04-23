@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "github/renaming",
+      "target": "dependabot/dependabot-core",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:43:47.407994+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5403
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Guidance for changing the default branch name for GitHub repositories",
+    "fork": false,
+    "full_name": "github/renaming",
+    "html_url": "https://github.com/github/renaming",
+    "language": null,
+    "pushed_at": "2022-03-18T00:40:56Z",
+    "stargazers_count": 2459,
+    "topics": [],
+    "updated_at": "2026-04-14T08:18:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dependabot/dependabot-core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

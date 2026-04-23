@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/lac",
+      "target": "chinese-nlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/lac",
+      "target": "chinese-word-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/lac",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/lac",
+      "target": "lexical-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/lac",
+      "target": "named-entity-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/lac",
+      "target": "part-of-speech-tagger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baidu/lac",
+      "target": "word-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:04.181691+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5926
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u767e\u5ea6NLP\uff1a\u5206\u8bcd\uff0c\u8bcd\u6027\u6807\u6ce8\uff0c\u547d\u540d\u5b9e\u4f53\u8bc6\u522b\uff0c\u8bcd\u91cd\u8981\u6027",
+    "fork": false,
+    "full_name": "baidu/lac",
+    "html_url": "https://github.com/baidu/lac",
+    "language": "C++",
+    "pushed_at": "2021-05-25T10:46:36Z",
+    "stargazers_count": 3999,
+    "topics": [
+      "chinese-nlp",
+      "chinese-word-segmentation",
+      "java",
+      "lexical-analysis",
+      "named-entity-recognition",
+      "part-of-speech-tagger",
+      "python",
+      "word-segmentation"
+    ],
+    "updated_at": "2026-04-22T02:41:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-nlp"
+    },
+    {
+      "context_snippet": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-word-segmentation"
+    },
+    {
+      "context_snippet": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lexical-analysis"
+    },
+    {
+      "context_snippet": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "named-entity-recognition"
+    },
+    {
+      "context_snippet": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "part-of-speech-tagger"
+    },
+    {
+      "context_snippet": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "word-segmentation"
+    }
+  ]
+}

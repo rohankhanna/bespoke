@@ -31,6 +31,54 @@
       "source_repo": "aws/aws-app-mesh-examples",
       "status": "candidate-context",
       "text": "*After careful consideration, we have made the decision to discontinue support for AWS App Mesh, effective September 30th, 2026. Until this date, existing AWS App Mesh customers will be able to use the service as normal, including creating new resources and onboarding new accoun\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-admin",
+      "status": "candidate-context",
+      "text": "The ops and reference implementation for Apache Dubbo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-admin",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-go",
+      "status": "candidate-context",
+      "text": "Go Implementation For Apache Dubbo ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-go",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/apache/dubbo-go/workflows/CI/badge.svg)](https://github.com/apache/dubbo-go/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-js",
+      "status": "candidate-context",
+      "text": "The Typescript implementation of Apache Dubbo. An RPC and microservice framework for Node.js and Web development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-js",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/github/license/alibaba/dubbo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-kubernetes",
+      "status": "candidate-context",
+      "text": "Embed gRPC, use xDS, build inherent mesh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-kubernetes",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Apache Kdubbo</h1>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "aws/aws-app-mesh-examples",
       "status": "candidate",
       "text": "*After careful consideration, we have made the decision to discontinue support for AWS App Mesh, effective September 30th, 2026. Until this date, existing AWS App Mesh customers will be able to use the service as normal, including creating new resources and onboarding new accoun\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-admin",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-go",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/apache/dubbo-go/workflows/CI/badge.svg)](https://github.com/apache/dubbo-go/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-js",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/github/license/alibaba/dubbo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-kubernetes",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Apache Kdubbo</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +136,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "aws/aws-app-mesh-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-kubernetes"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

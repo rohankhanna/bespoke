@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "clang-tidy"
+    "clang-tidy",
+    "Clang-Tidy"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,30 @@
       "source_repo": "google/benchmark",
       "status": "candidate-context",
       "text": "clang-tidy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate-context",
+      "text": "oneAPI Deep Neural Network Library (oneDNN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate-context",
+      "text": "\"Clang-Tidy\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/rocksdb",
+      "status": "candidate-context",
+      "text": "A library that provides an embeddable, persistent key-value store for fast storage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/rocksdb",
+      "status": "candidate-context",
+      "text": "clang-tidy"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +68,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "google/benchmark",
+      "status": "candidate",
+      "text": "clang-tidy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate",
+      "text": "\"Clang-Tidy\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/rocksdb",
       "status": "candidate",
       "text": "clang-tidy"
     }
@@ -64,11 +101,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/clang-tidy-lint.yml",
       "source_repo": "google/benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "facebook/rocksdb"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

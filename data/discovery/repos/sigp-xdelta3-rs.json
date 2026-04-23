@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "sigp/xdelta3-rs",
+      "target": "liushuyu/xdelta3-rs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:48:09.492785+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 518
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 866
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust binding for xdelta3 (APL branch)",
+    "fork": true,
+    "full_name": "sigp/xdelta3-rs",
+    "html_url": "https://github.com/sigp/xdelta3-rs",
+    "language": "Rust",
+    "pushed_at": "2026-01-15T02:33:12Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-03-06T00:02:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liushuyu/xdelta3-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

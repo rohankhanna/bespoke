@@ -79,6 +79,66 @@
       "source_repo": "VoltAgent/voltagent",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DataDog/datadog-agent",
+      "status": "candidate-context",
+      "text": "Main repository for Datadog Agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/datadog-agent",
+      "status": "candidate-context",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "Add-on agent to generate and expose cluster-level metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/kubernetes/kube-state-metrics/workflows/continuous-integration/badge.svg)](https://github.com/kubernetes/kube-state-metrics/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate-context",
+      "text": "Grafana Community Kubernetes Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/alloy",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Collector distribution with programmable pipelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/alloy",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate-context",
+      "text": "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +177,36 @@
       "source_repo": "VoltAgent/voltagent",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/datadog-agent",
+      "status": "candidate",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/kubernetes/kube-state-metrics/workflows/continuous-integration/badge.svg)](https://github.com/kubernetes/kube-state-metrics/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/alloy",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +292,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "VoltAgent/voltagent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/kube-state-metrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "grafana-community/helm-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "grafana/alloy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

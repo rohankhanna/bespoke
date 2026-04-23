@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:30:44.125186+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "seebye/ueberzug",
+    "html_url": "https://github.com/seebye/ueberzug",
+    "language": null,
+    "pushed_at": "2023-01-07T20:06:45Z",
+    "stargazers_count": 1248,
+    "topics": [],
+    "updated_at": "2026-03-25T09:13:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

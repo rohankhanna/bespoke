@@ -31,6 +31,30 @@
       "source_repo": "typescript-eslint/typescript-eslint",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">typescript-eslint</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eslint-community/eslint-plugin-n",
+      "status": "candidate-context",
+      "text": "Additional ESLint rules for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-community/eslint-plugin-n",
+      "status": "candidate-context",
+      "text": "> forked from [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node) v11.1.0. as the original repository seems [no longer maintained](https://github.com/mysticatea/eslint-plugin-node/issues/300)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate-context",
+      "text": "Additional ESLint's rules for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate-context",
+      "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "typescript-eslint/typescript-eslint",
       "status": "candidate",
       "text": "<h1 align=\"center\">typescript-eslint</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-community/eslint-plugin-n",
+      "status": "candidate",
+      "text": "> forked from [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node) v11.1.0. as the original repository seems [no longer maintained](https://github.com/mysticatea/eslint-plugin-node/issues/300)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate",
+      "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "typescript-eslint/typescript-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "eslint-community/eslint-plugin-n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mysticatea/eslint-plugin-node"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

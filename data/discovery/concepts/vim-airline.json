@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "vim-airline"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-airline/vim-airline",
+      "status": "candidate-context",
+      "text": "lean & mean status/tabline for vim that's light as air"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-airline/vim-airline",
+      "status": "candidate-context",
+      "text": "[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/chrisbra)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ryanoasis/vim-devicons",
+      "status": "candidate-context",
+      "text": "Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and many more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/vim-devicons",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-airline/vim-airline",
+      "status": "candidate",
+      "text": "[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/chrisbra)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/vim-devicons",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "vim-airline",
+  "concept_id": "vim-airline",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "vim-airline/vim-airline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ryanoasis/vim-devicons"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vim-airline",
+      "sense_id": "vim-airline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check milestone"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/rbs",
+      "status": "candidate-context",
+      "text": "The type signature language for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate-context",
+      "text": "Check milestone"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate",
+      "text": "Check milestone"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14106,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13865,
+      "status": "candidate",
+      "text": "date"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12985,
+      "status": "candidate",
+      "text": "turned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12744,
+      "status": "candidate",
+      "text": "advance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12744,
+      "status": "candidate",
+      "text": "advancing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check milestone",
+  "concept_id": "check-milestone",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "ruby/rbs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check milestone",
+      "sense_id": "check-milestone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

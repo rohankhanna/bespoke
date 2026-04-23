@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mgalgs/make-readme-markdown",
+      "target": "mgalgs/diffview-mode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mgalgs/make-readme-markdown",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mgalgs/make-readme-markdown",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:41:27.567860+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6920
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert elisp file header comments to markdown text, suitable for a github README.md file",
+    "fork": false,
+    "full_name": "mgalgs/make-readme-markdown",
+    "html_url": "https://github.com/mgalgs/make-readme-markdown",
+    "language": "Emacs Lisp",
+    "pushed_at": "2022-10-27T00:16:18Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2025-02-06T13:41:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mgalgs/diffview-mode",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

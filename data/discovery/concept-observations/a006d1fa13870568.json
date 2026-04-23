@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rapidly generate a Fastify project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/fastify/create-fastify/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/create-fastify/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/fastify/create-fastify/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/create-fastify/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fastify",
+      "sense_id": "fastify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fastify",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fastify",
+  "observation_id": "a006d1fa13870568",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "fastify",
+  "source_context_snippet": "[![CI](https://github.com/fastify/create-fastify/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/create-fastify/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "fastify/create-fastify",
+  "source_repo_description": "Rapidly generate a Fastify project"
+}

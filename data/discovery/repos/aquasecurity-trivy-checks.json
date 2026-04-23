@@ -1,0 +1,327 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yaml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yaml"
+    },
+    {
+      "component": "oras-project/setup-oras@22ce207df3b08e061f537244349aac6ae1d214f6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yaml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-go.yaml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-go.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rego.yaml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rego.yaml"
+    },
+    {
+      "component": "StyraInc/setup-regal@33a142b1189004e0f14bf42b15972c67eecce776",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rego.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-docs.yaml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-docs.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "aquasecurity/k8s-node-collector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "Reusable Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-release.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "Nightly Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "oras-project/setup-oras@22ce207df3b08e061f537244349aac6ae1d214f6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-release.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "Reusable Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-go.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-go.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-go.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "Test Go",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rego.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rego.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-rego.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "StyraInc/setup-regal@33a142b1189004e0f14bf42b15972c67eecce776",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-rego.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "test rego",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-docs.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-docs.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-docs.yaml",
+      "source_repo": "aquasecurity/trivy-checks",
+      "target": "Verify Docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:43:28.509338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1497
+    },
+    {
+      "path": "go.mod",
+      "size": 9721
+    },
+    {
+      "path": ".github/workflows/integration-tests.yaml",
+      "size": 431
+    },
+    {
+      "path": ".github/workflows/nightly-release.yaml",
+      "size": 476
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 368
+    },
+    {
+      "path": ".github/workflows/reusable-release.yaml",
+      "size": 4430
+    },
+    {
+      "path": ".github/workflows/test-go.yaml",
+      "size": 472
+    },
+    {
+      "path": ".github/workflows/test-rego.yaml",
+      "size": 1170
+    },
+    {
+      "path": ".github/workflows/verify-docs.yaml",
+      "size": 509
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aquasecurity/trivy-checks",
+    "html_url": "https://github.com/aquasecurity/trivy-checks",
+    "language": "Open Policy Agent",
+    "pushed_at": "2026-04-20T18:12:59Z",
+    "stargazers_count": 78,
+    "topics": [],
+    "updated_at": "2026-04-20T14:00:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aquasecurity/k8s-node-collector",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Reusable Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "term": "Reusable Integration Tests"
+    },
+    {
+      "context_snippet": "Nightly Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-release.yaml",
+      "term": "Nightly Release"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Reusable Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-release.yaml",
+      "term": "Reusable Release"
+    },
+    {
+      "context_snippet": "Test Go",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-go.yaml",
+      "term": "Test Go"
+    },
+    {
+      "context_snippet": "test rego",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-rego.yaml",
+      "term": "test rego"
+    },
+    {
+      "context_snippet": "Verify Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-docs.yaml",
+      "term": "Verify Docs"
+    }
+  ]
+}

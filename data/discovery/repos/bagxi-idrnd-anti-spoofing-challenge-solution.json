@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:28:18.557467+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1647
+    },
+    {
+      "path": "requirements.txt",
+      "size": 245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "`junior must know his place` team solution",
+    "fork": false,
+    "full_name": "bagxi/idrnd-anti-spoofing-challenge-solution",
+    "html_url": "https://github.com/bagxi/idrnd-anti-spoofing-challenge-solution",
+    "language": "Python",
+    "pushed_at": "2023-08-15T07:58:04Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2023-08-15T07:58:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -38,13 +38,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "preservim/tagbar",
-      "target": "vim-php/phpctags",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "preservim/tagbar",
       "target": "majutsushi/tagbar",
       "target_type": "repository"
     },
@@ -154,7 +147,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:24:09.896212+00:00",
+  "fetched_at": "2026-04-23T06:40:40.566470+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -205,11 +198,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "sergioramos/jsctags",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "vim-php/phpctags",
       "source_file": "README.md"
     }
   ],

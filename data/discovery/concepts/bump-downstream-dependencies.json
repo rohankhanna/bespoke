@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump downstream dependencies"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyca/cryptography",
+      "status": "candidate-context",
+      "text": "cryptography is a package designed to expose cryptographic primitives and recipes to Python developers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyca/cryptography",
+      "status": "candidate-context",
+      "text": "Bump downstream dependencies"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyca/cryptography",
+      "status": "candidate",
+      "text": "Bump downstream dependencies"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18719,
+      "status": "candidate",
+      "text": "decay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18719,
+      "status": "candidate",
+      "text": "decaying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18719,
+      "status": "candidate",
+      "text": "deconstruct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18719,
+      "status": "candidate",
+      "text": "disintegrate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18719,
+      "status": "candidate",
+      "text": "fix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump downstream dependencies",
+  "concept_id": "bump-downstream-dependencies",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/downstream-version-bump.yml",
+      "source_repo": "pyca/cryptography"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump downstream dependencies",
+      "sense_id": "bump-downstream-dependencies#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

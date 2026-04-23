@@ -31,6 +31,66 @@
       "source_repo": "toon-format/toon",
       "status": "candidate-context",
       "text": "![TOON logo with step\u2011by\u2011step guide](./.github/og.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "FlatBuffers: Memory Efficient Serialization Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "![logo](https://flatbuffers.dev/assets/flatbuffers_logo.svg) FlatBuffers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bincode-org/bincode",
+      "status": "candidate-context",
+      "text": "A binary encoder / decoder implementation in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bincode-org/bincode",
+      "status": "candidate-context",
+      "text": "This repo has migrated to [sourcehut](https://sr.ht/~stygianentity/bincode/) as its primary development hub."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rkyv/rkyv",
+      "status": "candidate-context",
+      "text": "Zero-copy deserialization framework for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rkyv/rkyv",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ijl/orjson",
+      "status": "candidate-context",
+      "text": "Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ijl/orjson",
+      "status": "candidate-context",
+      "text": "orjson is a fast, correct JSON library for Python. It"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3Hren/msgpack-rust",
+      "status": "candidate-context",
+      "text": "MessagePack implementation for Rust / msgpack.org[Rust]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3Hren/msgpack-rust",
+      "status": "candidate-context",
+      "text": "RMP is a complete pure-Rust [MessagePack](http://msgpack.org) implementation. MessagePack a compact self-describing binary serialization format."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +105,36 @@
       "source_repo": "protocolbuffers/protobuf",
       "status": "candidate",
       "text": "Protocol Buffers - Google's data interchange format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate",
+      "text": "![logo](https://flatbuffers.dev/assets/flatbuffers_logo.svg) FlatBuffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bincode-org/bincode",
+      "status": "candidate",
+      "text": "This repo has migrated to [sourcehut](https://sr.ht/~stygianentity/bincode/) as its primary development hub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rkyv/rkyv",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ijl/orjson",
+      "status": "candidate",
+      "text": "orjson is a fast, correct JSON library for Python. It"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3Hren/msgpack-rust",
+      "status": "candidate",
+      "text": "RMP is a complete pure-Rust [MessagePack](http://msgpack.org) implementation. MessagePack a compact self-describing binary serialization format."
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +216,47 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/flatbuffers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bincode-org/bincode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rkyv/rkyv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ijl/orjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "3Hren/msgpack-rust"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

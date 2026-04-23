@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "flakes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pwnwriter/PTN11",
+      "status": "candidate-context",
+      "text": "My talk on Pentester Nepal's 11th anniversary 'bout nix(os). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pwnwriter/PTN11",
+      "status": "candidate-context",
+      "text": "My talk on Pentester Nepal's 11th anniversary 'bout nix(os)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pwnwriter/PTN11",
+      "status": "candidate",
+      "text": "My talk on Pentester Nepal's 11th anniversary 'bout nix(os)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051294,
+      "status": "candidate",
+      "text": "flake off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049209,
+      "status": "candidate",
+      "text": "chip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10046800,
+      "status": "candidate",
+      "text": "fleck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041993,
+      "status": "candidate",
+      "text": "scrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10033617,
+      "status": "candidate",
+      "text": "peel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "flakes",
+  "concept_id": "flakes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pwnwriter/PTN11"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flakes",
+      "sense_id": "flakes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

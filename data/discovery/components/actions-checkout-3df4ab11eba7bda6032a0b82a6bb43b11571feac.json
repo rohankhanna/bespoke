@@ -1,0 +1,27 @@
+{
+  "component": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/draft.yml",
+      "source_repo": "theupdateframework/specification"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "theupdateframework/specification"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theupdateframework/specification"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "hashicorp/memberlist"
+    }
+  ]
+}

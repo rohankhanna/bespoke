@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gobwas/glob",
+      "target": "glob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gobwas/glob",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gobwas/glob",
+      "target": "pattern",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:32:19.300234+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go glob",
+    "fork": false,
+    "full_name": "gobwas/glob",
+    "html_url": "https://github.com/gobwas/glob",
+    "language": "Go",
+    "pushed_at": "2024-01-28T19:38:25Z",
+    "stargazers_count": 1018,
+    "topics": [
+      "glob",
+      "golang",
+      "pattern"
+    ],
+    "updated_at": "2026-04-23T02:18:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Go glob",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glob"
+    },
+    {
+      "context_snippet": "Go glob",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Go glob",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pattern"
+    }
+  ]
+}

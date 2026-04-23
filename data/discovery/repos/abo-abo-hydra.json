@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:41:22.448128+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14600
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "make Emacs bindings that stick around",
+    "fork": false,
+    "full_name": "abo-abo/hydra",
+    "html_url": "https://github.com/abo-abo/hydra",
+    "language": "Emacs Lisp",
+    "pushed_at": "2025-03-16T12:55:28Z",
+    "stargazers_count": 1935,
+    "topics": [],
+    "updated_at": "2026-04-23T01:46:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

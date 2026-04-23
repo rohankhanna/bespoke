@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u767e\u5ea6NLP\uff1a\u5206\u8bcd\uff0c\u8bcd\u6027\u6807\u6ce8\uff0c\u547d\u540d\u5b9e\u4f53\u8bc6\u522b\uff0c\u8bcd\u91cd\u8981\u6027"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "word-segmentation",
+      "sense_id": "word-segmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "word-segmentation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "word-segmentation",
+  "observation_id": "3c50d50c511ab20b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "word-segmentation",
+  "source_context_snippet": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a",
+  "source_file": null,
+  "source_repo": "baidu/lac",
+  "source_repo_description": "\u767e\u5ea6NLP\uff1a\u5206\u8bcd\uff0c\u8bcd\u6027\u6807\u6ce8\uff0c\u547d\u540d\u5b9e\u4f53\u8bc6\u522b\uff0c\u8bcd\u91cd\u8981\u6027"
+}

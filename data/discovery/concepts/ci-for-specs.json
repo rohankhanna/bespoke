@@ -1,0 +1,166 @@
+{
+  "aliases": [
+    "CI for specs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/annotations",
+      "status": "candidate-context",
+      "text": "Proposal for Custom Annotation Syntax in the Text Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/annotations",
+      "status": "candidate-context",
+      "text": "CI for specs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/compact-import-section",
+      "status": "candidate-context",
+      "text": "Proposal repository for compact import sections"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/compact-import-section",
+      "status": "candidate-context",
+      "text": "CI for specs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/custom-page-sizes",
+      "status": "candidate-context",
+      "text": "CI for specs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/esm-integration",
+      "status": "candidate-context",
+      "text": "ECMAScript module integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/esm-integration",
+      "status": "candidate-context",
+      "text": "CI for specs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/annotations",
+      "status": "candidate",
+      "text": "CI for specs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/compact-import-section",
+      "status": "candidate",
+      "text": "CI for specs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/custom-page-sizes",
+      "status": "candidate",
+      "text": "CI for specs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/esm-integration",
+      "status": "candidate",
+      "text": "CI for specs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10159,
+      "status": "candidate",
+      "text": "positive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4606,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4520,
+      "status": "candidate",
+      "text": "fucus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4520,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4520,
+      "status": "candidate",
+      "text": "pasticcio"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI for specs",
+  "concept_id": "ci-for-specs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/annotations"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/compact-import-section"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/custom-page-sizes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci-spec.yml",
+      "source_repo": "WebAssembly/esm-integration"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI for specs",
+      "sense_id": "ci-for-specs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

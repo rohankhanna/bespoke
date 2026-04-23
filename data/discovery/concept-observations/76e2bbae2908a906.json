@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Share your terminal over the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![backend](https://github.com/tsl0922/ttyd/workflows/backend/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![backend](https://github.com/tsl0922/ttyd/workflows/backend/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "window"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4998,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4997,
+      "status": "candidate",
+      "text": "running"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4996,
+      "status": "candidate",
+      "text": "use"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "xterm",
+      "sense_id": "xterm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "xterm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "xterm",
+  "observation_id": "76e2bbae2908a906",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "xterm",
+  "source_context_snippet": "![backend](https://github.com/tsl0922/ttyd/workflows/backend/badge.svg)",
+  "source_file": null,
+  "source_repo": "tsl0922/ttyd",
+  "source_repo_description": "Share your terminal over the web"
+}

@@ -19,6 +19,30 @@
       "source_repo": "electron/electron",
       "status": "candidate-context",
       "text": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate-context",
+      "text": "JavaScript API for Chrome and Firefox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "Chrome DevTools for coding agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "electron/electron",
       "status": "candidate",
       "text": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate",
+      "text": "[![build](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate",
+      "text": "[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +120,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

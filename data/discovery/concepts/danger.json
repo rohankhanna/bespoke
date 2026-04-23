@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "Danger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badges/shields",
+      "status": "candidate-context",
+      "text": "Concise, consistent, and legible badges in SVG and raster format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badges/shields",
+      "status": "candidate-context",
+      "text": "Danger"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badges/shields",
+      "status": "candidate",
+      "text": "Danger"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026302,
+      "status": "candidate",
+      "text": "peril"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024832,
+      "status": "candidate",
+      "text": "risk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026340,
+      "status": "candidate",
+      "text": "jeopardize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026332,
+      "status": "candidate",
+      "text": "hazardous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30026308,
+      "status": "candidate",
+      "text": "dangerous"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31039,
+      "status": "candidate",
+      "text": "peril"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "risk"
+    }
+  ],
+  "canonical_name": "Danger",
+  "concept_id": "danger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "badges/shields"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Danger",
+      "sense_id": "danger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

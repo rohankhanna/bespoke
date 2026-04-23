@@ -113,6 +113,66 @@
       "source_repo": "alibaba/ROCK",
       "status": "candidate-context",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boundless-xyz/kailua",
+      "status": "candidate-context",
+      "text": "The Ultimate ZK Proving Software Suite for Securing OP Rollups"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/kailua",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "imandra-ai/catapult",
+      "status": "candidate-context",
+      "text": "Tracing library for OCaml with catapult/TEF export."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imandra-ai/catapult",
+      "status": "candidate-context",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry",
+      "status": "candidate-context",
+      "text": "Instrumentation for https://opentelemetry.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry",
+      "status": "candidate-context",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rkyv/rkyv",
+      "status": "candidate-context",
+      "text": "Zero-copy deserialization framework for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rkyv/rkyv",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wavelens/gobgp.nix",
+      "status": "candidate-context",
+      "text": "GoBGP Nix Module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wavelens/gobgp.nix",
+      "status": "candidate-context",
+      "text": "\"github pages\""
     }
   ],
   "candidate_glosses": [
@@ -163,6 +223,36 @@
       "source_repo": "alibaba/ROCK",
       "status": "candidate",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/kailua",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "imandra-ai/catapult",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rkyv/rkyv",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wavelens/gobgp.nix",
+      "status": "candidate",
+      "text": "\"github pages\""
     }
   ],
   "candidate_related_terms": [
@@ -260,11 +350,53 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "alibaba/ROCK"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "boundless-xyz/kailua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "imandra-ai/catapult"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "rkyv/rkyv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/gh-pages.yaml",
+      "source_repo": "wavelens/gobgp.nix"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

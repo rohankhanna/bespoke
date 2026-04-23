@@ -1,0 +1,119 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cenkalti/backoff",
+      "target": "google/google-http-java-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "cenkalti/backoff",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "cenkalti/backoff",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "cenkalti/backoff",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "cenkalti/backoff",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cenkalti/backoff",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:43:42.759945+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1545
+    },
+    {
+      "path": "go.mod",
+      "size": 47
+    },
+    {
+      "path": ".github/workflows/go.yaml",
+      "size": 342
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v5",
+    "description": "\u23f1 The exponential backoff algorithm in Go",
+    "fork": false,
+    "full_name": "cenkalti/backoff",
+    "html_url": "https://github.com/cenkalti/backoff",
+    "language": "Go",
+    "pushed_at": "2026-03-28T17:10:20Z",
+    "stargazers_count": 3985,
+    "topics": [
+      "golang"
+    ],
+    "updated_at": "2026-04-22T19:23:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/google-http-java-client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "This is a Go port of the exponential backoff algorithm from [Google's HTTP Client Library for Java][google-http-java-client].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

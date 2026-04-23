@@ -1,0 +1,382 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@eslint/js",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-astro",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "globals",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-astro",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-astro-organize-imports",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-tailwindcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml"
+    },
+    {
+      "component": "nwtgck/actions-netlify@4cbaf4c08f1a7bfa537d6113472ef4424e4eb654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml"
+    },
+    {
+      "component": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml"
+    },
+    {
+      "component": "nwtgck/actions-netlify@4cbaf4c08f1a7bfa537d6113472ef4424e4eb654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "nixos/org",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "@eslint/js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "eslint-plugin-astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "globals",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "prettier-plugin-astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "prettier-plugin-astro-organize-imports",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "prettier-plugin-tailwindcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "typescript-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "nwtgck/actions-netlify@4cbaf4c08f1a7bfa537d6113472ef4424e4eb654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pr.yml",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "CI - Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "cachix/cachix-action@1eb2ef646ac0255473d23a5907ad7b04ce94065c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "nwtgck/actions-netlify@4cbaf4c08f1a7bfa537d6113472ef4424e4eb654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-prod.yml",
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "CI - Production",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NixOS/nixos-homepage",
+      "target": "nixos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:44:48.316453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6739
+    },
+    {
+      "path": "Dockerfile",
+      "size": 111
+    },
+    {
+      "path": "package.json",
+      "size": 1931
+    },
+    {
+      "path": ".github/workflows/deploy-pr.yml",
+      "size": 3241
+    },
+    {
+      "path": ".github/workflows/deploy-prod.yml",
+      "size": 2637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sources for nixos.org",
+    "fork": false,
+    "full_name": "NixOS/nixos-homepage",
+    "html_url": "https://github.com/NixOS/nixos-homepage",
+    "language": "Astro",
+    "pushed_at": "2026-04-23T02:42:31Z",
+    "stargazers_count": 370,
+    "topics": [
+      "nix",
+      "nixos"
+    ],
+    "updated_at": "2026-04-22T06:55:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nixos/org",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CI - Pull Request\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-pr.yml",
+      "term": "CI - Pull Request"
+    },
+    {
+      "context_snippet": "'CI - Production'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-prod.yml",
+      "term": "CI - Production"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/NixOS/nixos-homepage/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/NixOS/nixos-homepage/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nixos"
+    }
+  ]
+}

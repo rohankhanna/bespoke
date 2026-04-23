@@ -4,28 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "eigenwallet/core",
-      "target": "eigenwallet/arti",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "eigenwallet/core",
-      "target": "eigenwallet/dfx-swiss-rs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "eigenwallet/core",
-      "target": "delta1/rust-jsonrpc-client",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "eigenwallet/core",
-      "target": "eira-fransham/crunchy",
+      "target": "kayabanerve/monero-oxide",
       "target_type": "repository"
     },
     {
@@ -225,6 +204,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "eigenwallet/core"
 }

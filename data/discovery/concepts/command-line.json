@@ -163,6 +163,198 @@
       "source_repo": "digitalocean/doctl",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">doctl</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate-context",
+      "text": "Gzip Decompression and Random Access for Modern Multi-Core Machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urfave/cli",
+      "status": "candidate-context",
+      "text": "A declarative, simple, fast, and fun package for building command line tools in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urfave/cli",
+      "status": "candidate-context",
+      "text": "[![Go Reference][goreference_badge]][goreference_link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "A smarter cd command. Supports all major shells."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blacknon/hwatch",
+      "status": "candidate-context",
+      "text": "A modern alternative to the watch command, records the differences in execution results and can check this differences at after."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blacknon/hwatch",
+      "status": "candidate-context",
+      "text": "hwatch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "commitizen/cz-cli",
+      "status": "candidate-context",
+      "text": "The commitizen command line utility. #BlackLivesMatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "commitizen/cz-cli",
+      "status": "candidate-context",
+      "text": "When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time. No more waiting until later for a git commit hook to run and reject your commit (though [that](https://github.com/kentcdodds/validate-commit-msg) can still be helpful). No \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hugapi/hug",
+      "status": "candidate-context",
+      "text": "Embrace the APIs of the future. Hug aims to make developing APIs as simple as possible, but no simpler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hugapi/hug",
+      "status": "candidate-context",
+      "text": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate-context",
+      "text": "Command Line Interface for Managing ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate-context",
+      "text": "[![Run pytest](https://github.com/Comfy-Org/comfy-cli/actions/workflows/pytest.yml/badge.svg)](https://github.com/Comfy-Org/comfy-cli/actions/workflows/pytest.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "status": "candidate-context",
+      "text": "Checkbox with autocomplete and other additions for Inquirer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "status": "candidate-context",
+      "text": "A plugin for [Inquirer](https://github.com/SBoudrias/Inquirer.js), similar to the original checkbox with extra features."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Record your terminal and generate animated gif images or share a web player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jakeheis/SwiftCLI",
+      "status": "candidate-context",
+      "text": "A powerful framework for developing CLIs in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakeheis/SwiftCLI",
+      "status": "candidate-context",
+      "text": "SwiftCLI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate-context",
+      "text": "A command-line benchmarking tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate-context",
+      "text": "[![CICD](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-argument-parser",
+      "status": "candidate-context",
+      "text": "Straightforward, type-safe argument parsing for Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-argument-parser",
+      "status": "candidate-context",
+      "text": "Begin by declaring a type that defines the information"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate-context",
+      "text": "Fast parallel random access to bzip2 and gzip files in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate-context",
+      "text": "The new Windows Terminal and the original Windows console host, all in the same place!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate-context",
+      "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c-bata/go-prompt",
+      "status": "candidate-context",
+      "text": "Building powerful interactive prompts in Go, inspired by python-prompt-toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/go-prompt",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/c-bata/go-prompt)](https://goreportcard.com/report/github.com/c-bata/go-prompt)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sasha0552/nvidia-pstate",
+      "status": "candidate-context",
+      "text": "A library and CLI utilities for managing performance states of NVIDIA GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sasha0552/nvidia-pstate",
+      "status": "candidate-context",
+      "text": "A library and CLI utilities for managing performance states of NVIDIA GPUs."
     }
   ],
   "candidate_glosses": [
@@ -237,6 +429,102 @@
       "source_repo": "digitalocean/doctl",
       "status": "candidate",
       "text": "<h1 align=\"center\">doctl</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urfave/cli",
+      "status": "candidate",
+      "text": "[![Go Reference][goreference_badge]][goreference_link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blacknon/hwatch",
+      "status": "candidate",
+      "text": "hwatch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "commitizen/cz-cli",
+      "status": "candidate",
+      "text": "When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time. No more waiting until later for a git commit hook to run and reject your commit (though [that](https://github.com/kentcdodds/validate-commit-msg) can still be helpful). No \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hugapi/hug",
+      "status": "candidate",
+      "text": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate",
+      "text": "[![Run pytest](https://github.com/Comfy-Org/comfy-cli/actions/workflows/pytest.yml/badge.svg)](https://github.com/Comfy-Org/comfy-cli/actions/workflows/pytest.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "status": "candidate",
+      "text": "A plugin for [Inquirer](https://github.com/SBoudrias/Inquirer.js), similar to the original checkbox with extra features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakeheis/SwiftCLI",
+      "status": "candidate",
+      "text": "SwiftCLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate",
+      "text": "[![CICD](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-argument-parser",
+      "status": "candidate",
+      "text": "Begin by declaring a type that defines the information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate",
+      "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/go-prompt",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/c-bata/go-prompt)](https://goreportcard.com/report/github.com/c-bata/go-prompt)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sasha0552/nvidia-pstate",
+      "status": "candidate",
+      "text": "A library and CLI utilities for managing performance states of NVIDIA GPUs."
     }
   ],
   "candidate_related_terms": [
@@ -348,11 +636,107 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "digitalocean/doctl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "urfave/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ajeetdsouza/zoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "blacknon/hwatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "commitizen/cz-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hugapi/hug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "faressoft/terminalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jakeheis/SwiftCLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/hyperfine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apple/swift-argument-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mxmlnkn/indexed_bzip2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "c-bata/go-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sasha0552/nvidia-pstate"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

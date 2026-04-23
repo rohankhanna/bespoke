@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Relay and Apollo Offline Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A collection of example applications using [react-relay-offline](https://github.com/morrys/react-relay-offline)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A collection of example applications using [react-relay-offline](https://github.com/morrys/react-relay-offline)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "react-relay-offline",
+      "sense_id": "react-relay-offline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "react-relay-offline",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "react-relay-offline",
+  "observation_id": "9e16e5b09fe7c43d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "react-relay-offline",
+  "source_context_snippet": "A collection of example applications using [react-relay-offline](https://github.com/morrys/react-relay-offline).",
+  "source_file": null,
+  "source_repo": "morrys/offline-examples",
+  "source_repo_description": "Relay and Apollo Offline Examples"
+}

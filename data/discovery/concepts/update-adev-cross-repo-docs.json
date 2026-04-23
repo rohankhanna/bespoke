@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update ADEV Cross Repo Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "angular/angular",
+      "status": "candidate-context",
+      "text": "Deliver web apps with confidence \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular/angular",
+      "status": "candidate-context",
+      "text": "Update ADEV Cross Repo Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "angular/angular",
+      "status": "candidate",
+      "text": "Update ADEV Cross Repo Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23327,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22949,
+      "status": "candidate",
+      "text": "maintained"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22338,
+      "status": "candidate",
+      "text": "refresh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22214,
+      "status": "candidate",
+      "text": "hmo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22004,
+      "status": "candidate",
+      "text": "keeps"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update ADEV Cross Repo Docs",
+  "concept_id": "update-adev-cross-repo-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cross-repo-adev-docs.yml",
+      "source_repo": "angular/angular"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update ADEV Cross Repo Docs",
+      "sense_id": "update-adev-cross-repo-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

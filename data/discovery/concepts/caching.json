@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Caching"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "Official Haskell IDE support via the language server protocol (LSP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "Caching"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate",
+      "text": "Caching"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19999591,
+      "status": "candidate",
+      "text": "hoard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19997962,
+      "status": "candidate",
+      "text": "stash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996211,
+      "status": "candidate",
+      "text": "squirrel away"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19996011,
+      "status": "candidate",
+      "text": "hive up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19992992,
+      "status": "candidate",
+      "text": "lay away"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Caching",
+  "concept_id": "caching",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/caching.yml",
+      "source_repo": "haskell/haskell-language-server"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Caching",
+      "sense_id": "caching#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

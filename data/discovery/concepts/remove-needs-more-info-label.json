@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Remove needs-more-info label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/detectron2",
+      "status": "candidate-context",
+      "text": "Detectron2 is a platform for object detection, segmentation and other visual recognition tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/detectron2",
+      "status": "candidate-context",
+      "text": "Remove needs-more-info label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/detectron2",
+      "status": "candidate",
+      "text": "Remove needs-more-info label"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12108,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12108,
+      "status": "candidate",
+      "text": "tag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12108,
+      "status": "candidate",
+      "text": "tagging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12011,
+      "status": "candidate",
+      "text": "peel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12011,
+      "status": "candidate",
+      "text": "peeling"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Remove needs-more-info label",
+  "concept_id": "remove-needs-more-info-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/remove-needs-reply.yml",
+      "source_repo": "facebookresearch/detectron2"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Remove needs-more-info label",
+      "sense_id": "remove-needs-more-info-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

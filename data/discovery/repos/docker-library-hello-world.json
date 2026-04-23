@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker-library/bashbrew@HEAD",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/hello-world",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/hello-world",
+      "target": "docker-library/bashbrew@HEAD",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/hello-world",
+      "target": "GitHub CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:37:59.138759+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1662
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1529
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "docker-library/hello-world",
+    "html_url": "https://github.com/docker-library/hello-world",
+    "language": "Shell",
+    "pushed_at": "2026-03-23T21:06:54Z",
+    "stargazers_count": 540,
+    "topics": [],
+    "updated_at": "2026-04-19T20:05:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "GitHub CI"
+    }
+  ]
+}

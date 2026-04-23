@@ -255,6 +255,114 @@
       "source_repo": "anthonix/llm.c",
       "status": "candidate-context",
       "text": "Build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Combination of multiple linters to run as a GitHub Action or standalone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "slackhq/nebula",
+      "status": "candidate-context",
+      "text": "A scalable overlay networking tool with a focus on performance, simplicity and security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slackhq/nebula",
+      "status": "candidate-context",
+      "text": "Build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JPEWdev/icecream-sundae",
+      "status": "candidate-context",
+      "text": "Commandline Monitor for Icecream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JPEWdev/icecream-sundae",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ascend/pytorch",
+      "status": "candidate-context",
+      "text": "Ascend PyTorch adapter (torch_npu). Mirror of https://gitcode.com/Ascend/pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ascend/pytorch",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ml-explore/mlx-lm",
+      "status": "candidate-context",
+      "text": "Run LLMs with MLX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx-lm",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ml-explore/mlx-swift-examples",
+      "status": "candidate-context",
+      "text": "Examples using MLX Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx-swift-examples",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ml-explore/mlx-swift-lm",
+      "status": "candidate-context",
+      "text": "LLMs and VLMs with MLX Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx-swift-lm",
+      "status": "candidate-context",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-go",
+      "status": "candidate-context",
+      "text": "Embedded Go Database, the fast alternative to SQLite, gorm, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-go",
+      "status": "candidate-context",
+      "text": "Build and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ampl/mp",
+      "status": "candidate-context",
+      "text": "An open-source library for mathematical programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ampl/mp",
+      "status": "candidate-context",
+      "text": "build-and-test"
     }
   ],
   "candidate_glosses": [
@@ -377,6 +485,60 @@
       "source_repo": "anthonix/llm.c",
       "status": "candidate",
       "text": "Build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slackhq/nebula",
+      "status": "candidate",
+      "text": "Build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JPEWdev/icecream-sundae",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ascend/pytorch",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx-lm",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx-swift-examples",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ml-explore/mlx-swift-lm",
+      "status": "candidate",
+      "text": "Build and Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-go",
+      "status": "candidate",
+      "text": "Build and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ampl/mp",
+      "status": "candidate",
+      "text": "build-and-test"
     }
   ],
   "candidate_related_terms": [
@@ -546,11 +708,65 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "anthonix/llm.c"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "super-linter/super-linter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "slackhq/nebula"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JPEWdev/icecream-sundae"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/_build-and-test.yml",
+      "source_repo": "Ascend/pytorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ml-explore/mlx-lm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ml-explore/mlx-swift-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ml-explore/mlx-swift-lm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "objectbox/objectbox-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-and-test.yaml",
+      "source_repo": "ampl/mp"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

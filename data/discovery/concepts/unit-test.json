@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Unit Test"
+    "Unit Test",
+    "unit-test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -25,6 +26,30 @@
       "source_repo": "2noise/ChatTTS",
       "status": "candidate-context",
       "text": "Unit Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate-context",
+      "text": "A controller to help manage App Mesh resources for a Kubernetes cluster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate-context",
+      "text": "unit-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "status": "candidate-context",
+      "text": "Tools for the development of ABAP file formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "status": "candidate-context",
+      "text": "unit-test"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +64,18 @@
       "source_repo": "2noise/ChatTTS",
       "status": "candidate",
       "text": "Unit Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate",
+      "text": "unit-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "status": "candidate",
+      "text": "unit-test"
     }
   ],
   "candidate_related_terms": [
@@ -106,11 +143,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/UnitTests.yml",
       "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/UnitTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "SAP/abap-file-formats-tools"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

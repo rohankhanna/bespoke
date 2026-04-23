@@ -4,28 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "AgentR1/Agent-R1",
-      "target": "agentr1/claw-r1",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AgentR1/Agent-R1",
-      "target": "0russwest0/awesome-agent-rl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AgentR1/Agent-R1",
-      "target": "deepseek-ai/deepseek-r1",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "AgentR1/Agent-R1",
       "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AgentR1/Agent-R1",
+      "target": "zihanwang314/ragen",
       "target_type": "repository"
     },
     {
@@ -57,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T04:49:29.633207+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "AgentR1/Agent-R1"
 }

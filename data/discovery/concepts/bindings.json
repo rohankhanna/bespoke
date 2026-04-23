@@ -70,6 +70,30 @@
       "source_repo": "rusqlite/rusqlite",
       "status": "candidate-context",
       "text": "[![Latest Version](https://img.shields.io/crates/v/rusqlite.svg)](https://crates.io/crates/rusqlite)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rust-bindgen",
+      "status": "candidate-context",
+      "text": "Automatically generates Rust FFI bindings to C (and some C++) libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-bindgen",
+      "status": "candidate-context",
+      "text": "[![crates.io](https://img.shields.io/crates/v/bindgen.svg)](https://crates.io/crates/bindgen)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pybind/pybind11",
+      "status": "candidate-context",
+      "text": "Seamless operability between C++11 and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/pybind11",
+      "status": "candidate-context",
+      "text": ".. figure:: https://github.com/pybind/pybind11/raw/master/docs/pybind11-logo.png"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +126,18 @@
       "source_repo": "rusqlite/rusqlite",
       "status": "candidate",
       "text": "[![Latest Version](https://img.shields.io/crates/v/rusqlite.svg)](https://crates.io/crates/rusqlite)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-bindgen",
+      "status": "candidate",
+      "text": "[![crates.io](https://img.shields.io/crates/v/bindgen.svg)](https://crates.io/crates/bindgen)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/pybind11",
+      "status": "candidate",
+      "text": ".. figure:: https://github.com/pybind/pybind11/raw/master/docs/pybind11-logo.png"
     }
   ],
   "candidate_related_terms": [
@@ -181,11 +217,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rust-bindgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pybind/pybind11"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

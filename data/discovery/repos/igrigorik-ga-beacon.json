@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:37:51.289398+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Google Analytics collector-as-a-service (using GA measurement protocol).",
+    "fork": false,
+    "full_name": "igrigorik/ga-beacon",
+    "html_url": "https://github.com/igrigorik/ga-beacon",
+    "language": "Go",
+    "pushed_at": "2023-02-06T10:16:14Z",
+    "stargazers_count": 3538,
+    "topics": [],
+    "updated_at": "2026-04-14T08:42:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

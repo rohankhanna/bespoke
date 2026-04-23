@@ -166,6 +166,222 @@
       "source_repo": "mebigfatguy/fb-contrib",
       "status": "candidate-context",
       "text": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baidu/lac",
+      "status": "candidate-context",
+      "text": "\u767e\u5ea6NLP\uff1a\u5206\u8bcd\uff0c\u8bcd\u6027\u6807\u6ce8\uff0c\u547d\u540d\u5b9e\u4f53\u8bc6\u522b\uff0c\u8bcd\u91cd\u8981\u6027"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidu/lac",
+      "status": "candidate-context",
+      "text": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nacos-group/nacos-spring-project",
+      "status": "candidate-context",
+      "text": "Nacos ECO Project for Spring Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nacos-group/nacos-spring-project",
+      "status": "candidate-context",
+      "text": "Nacos Spring Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate-context",
+      "text": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-java",
+      "status": "candidate-context",
+      "text": "Database for Android and JVM - first and fast, lightweight on-device vector database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-java",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "FlatBuffers: Memory Efficient Serialization Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate-context",
+      "text": "![logo](https://flatbuffers.dev/assets/flatbuffers_logo.svg) FlatBuffers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate-context",
+      "text": "Java language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/jenkins/tests?jobUrl=https%3A%2F%2Fci.eclipse.org%2Fls%2Fjob%2Fjdt-ls-main%2F&logo=jenkins&logoColor=white&style=for-the-badge)](https://ci.eclipse.org/ls/job/jdt-ls-main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-lemminx/lemminx",
+      "status": "candidate-context",
+      "text": "XML Language Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-lemminx/lemminx",
+      "status": "candidate-context",
+      "text": "XML Language Server (LemMinX)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate-context",
+      "text": "vimspector - A multi-language debugging system for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate-context",
+      "text": "For a tutorial and usage overview, take a look at the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "besu-eth/besu",
+      "status": "candidate-context",
+      "text": "An enterprise-grade Java-based, Apache 2.0 licensed Ethereum client https://wiki.hyperledger.org/display/besu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "besu-eth/besu",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/besu-eth/besu/tree/main.svg?style=svg)](https://circleci.com/gh/besu-eth/besu/tree/main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "Emacs client/library for the Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-context-support",
+      "status": "candidate-context",
+      "text": "An internal support project for spring-context in Alibaba "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-context-support",
+      "status": "candidate-context",
+      "text": "====================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-examples",
+      "status": "candidate-context",
+      "text": "Examples for ObjectBox Android/Java, the super-fast database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-examples",
+      "status": "candidate-context",
+      "text": "Examples of JVM and Android applications written in Java and Kotlin using the [Java SDK](https://github.com/objectbox/objectbox-java)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectbot/connectbot",
+      "status": "candidate-context",
+      "text": "ConnectBot is the first SSH client for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/connectbot",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/connectbot/connectbot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/connectbot/connectbot/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atom/ide-java",
+      "status": "candidate-context",
+      "text": "Java language support for Atom-IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atom/ide-java",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/atom/ide-java/actions/workflows/ci.yml/badge.svg)](https://github.com/atom/ide-java/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-lsp4j/lsp4j",
+      "status": "candidate-context",
+      "text": "A Java implementation of the language server protocol intended to be consumed by tools and language servers implemented in Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-lsp4j/lsp4j",
+      "status": "candidate-context",
+      "text": "Java binding for the [Language Server Protocol](https://microsoft.github.io/language-server-protocol) and the [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate-context",
+      "text": "Simple and productive Web Development Tools in the Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation - Go, Java, Python, C++ and JS/TS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate",
+      "status": "candidate-context",
+      "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peggyrayzis/react-native-create-bridge",
+      "status": "candidate-context",
+      "text": "A CLI tool that bridges React Native modules & UI components with ease \ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peggyrayzis/react-native-create-bridge",
+      "status": "candidate-context",
+      "text": "Bridging native modules & UI components made easy! If you're a JavaScript developer writing your first lines of native code or a more experienced developer looking to eliminate boilerplate from your React Native workflow, this tool is for you."
     }
   ],
   "candidate_glosses": [
@@ -246,6 +462,114 @@
       "source_repo": "mebigfatguy/fb-contrib",
       "status": "candidate",
       "text": "<img width=\"200\" height=\"192\" alt=\"spotbugs-med\" src=\"https://github.com/user-attachments/assets/ced8e768-36c6-469c-bc9a-096cb7f832e3\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidu/lac",
+      "status": "candidate",
+      "text": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nacos-group/nacos-spring-project",
+      "status": "candidate",
+      "text": "Nacos Spring Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-java",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/flatbuffers",
+      "status": "candidate",
+      "text": "![logo](https://flatbuffers.dev/assets/flatbuffers_logo.svg) FlatBuffers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/jenkins/tests?jobUrl=https%3A%2F%2Fci.eclipse.org%2Fls%2Fjob%2Fjdt-ls-main%2F&logo=jenkins&logoColor=white&style=for-the-badge)](https://ci.eclipse.org/ls/job/jdt-ls-main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-lemminx/lemminx",
+      "status": "candidate",
+      "text": "XML Language Server (LemMinX)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate",
+      "text": "For a tutorial and usage overview, take a look at the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "besu-eth/besu",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/besu-eth/besu/tree/main.svg?style=svg)](https://circleci.com/gh/besu-eth/besu/tree/main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-context-support",
+      "status": "candidate",
+      "text": "====================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-examples",
+      "status": "candidate",
+      "text": "Examples of JVM and Android applications written in Java and Kotlin using the [Java SDK](https://github.com/objectbox/objectbox-java)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/connectbot",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/connectbot/connectbot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/connectbot/connectbot/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atom/ide-java",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/atom/ide-java/actions/workflows/ci.yml/badge.svg)](https://github.com/atom/ide-java/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-lsp4j/lsp4j",
+      "status": "candidate",
+      "text": "Java binding for the [Language Server Protocol](https://microsoft.github.io/language-server-protocol) and the [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate",
+      "status": "candidate",
+      "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peggyrayzis/react-native-create-bridge",
+      "status": "candidate",
+      "text": "Bridging native modules & UI components made easy! If you're a JavaScript developer writing your first lines of native code or a more experienced developer looking to eliminate boilerplate from your React Native workflow, this tool is for you."
     }
   ],
   "candidate_related_terms": [
@@ -393,11 +717,119 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "mebigfatguy/fb-contrib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "baidu/lac"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nacos-group/nacos-spring-project"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/flatbuffers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "puremourning/vimspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "besu-eth/besu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/spring-context-support"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "connectbot/connectbot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "peggyrayzis/react-native-create-bridge"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

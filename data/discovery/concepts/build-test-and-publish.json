@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build, test and publish"
+    "Build, test and publish",
+    "Build test and publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,12 @@
       "source_repo": "dmitry-brazhenko/SharpToken",
       "status": "candidate-context",
       "text": "Build, test and publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jspanchu/webgpu-dawn-binaries",
+      "status": "candidate-context",
+      "text": "Build test and publish"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +34,12 @@
       "source_repo": "dmitry-brazhenko/SharpToken",
       "status": "candidate",
       "text": "Build, test and publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jspanchu/webgpu-dawn-binaries",
+      "status": "candidate",
+      "text": "Build test and publish"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +89,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/build-test-and-publish.yml",
       "source_repo": "dmitry-brazhenko/SharpToken"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cmake-multi-platform.yml",
+      "source_repo": "jspanchu/webgpu-dawn-binaries"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

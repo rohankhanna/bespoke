@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:37:47.733208+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mirror only. Please do not send pull requests. See https://chromium.googlesource.com/webm/libwebp/+/HEAD/CONTRIBUTING.md.",
+    "fork": false,
+    "full_name": "webmproject/libwebp",
+    "html_url": "https://github.com/webmproject/libwebp",
+    "language": "C",
+    "pushed_at": "2026-04-16T13:32:45Z",
+    "stargazers_count": 2306,
+    "topics": [],
+    "updated_at": "2026-04-21T12:16:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

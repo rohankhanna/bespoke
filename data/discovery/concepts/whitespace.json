@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Whitespace"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/julia",
+      "status": "candidate-context",
+      "text": "The Julia Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/julia",
+      "status": "candidate-context",
+      "text": "Whitespace"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/julia",
+      "status": "candidate",
+      "text": "Whitespace"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19878543,
+      "status": "candidate",
+      "text": "blank"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19852134,
+      "status": "candidate",
+      "text": "ignorable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021947,
+      "status": "candidate",
+      "text": "newlines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021946,
+      "status": "candidate",
+      "text": "newline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021945,
+      "status": "candidate",
+      "text": "linefeeds"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Whitespace",
+  "concept_id": "whitespace",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/Whitespace.yml",
+      "source_repo": "JuliaLang/julia"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Whitespace",
+      "sense_id": "whitespace#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

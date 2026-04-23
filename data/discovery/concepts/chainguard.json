@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "chainguard"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chainguard-images/images",
+      "status": "candidate-context",
+      "text": "Public Chainguard Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-images/images",
+      "status": "candidate-context",
+      "text": "https://edu.chainguard.dev/chainguard/chainguard-images/"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chainguard-images/images",
+      "status": "candidate",
+      "text": "https://edu.chainguard.dev/chainguard/chainguard-images/"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021419,
+      "status": "candidate",
+      "text": "chain guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021418,
+      "status": "candidate",
+      "text": "chaincase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021417,
+      "status": "candidate",
+      "text": "guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021416,
+      "status": "candidate",
+      "text": "bicycle clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021415,
+      "status": "candidate",
+      "text": "chin guard"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "chainguard",
+  "concept_id": "chainguard",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "chainguard-images/images"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chainguard",
+      "sense_id": "chainguard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

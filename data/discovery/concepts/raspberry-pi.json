@@ -19,6 +19,30 @@
       "source_repo": "home-assistant/core",
       "status": "candidate-context",
       "text": "Home Assistant |Chat Status|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getumbrel/umbrel-lightning",
+      "status": "candidate-context",
+      "text": "The official Lightning Node app for Umbrel, powered by LND."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getumbrel/umbrel-lightning",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "status": "candidate-context",
+      "text": "Step-by-step guide to running an Erigon archive node (Ethereum) on an 8GB Raspberry Pi 4. Recommended minimum 4 TB SSD (SATA III) with Ubuntu Server 21."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "status": "candidate-context",
+      "text": "<br />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "home-assistant/core",
       "status": "candidate",
       "text": "Home Assistant |Chat Status|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getumbrel/umbrel-lightning",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "status": "candidate",
+      "text": "<br />"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "home-assistant/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "getumbrel/umbrel-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

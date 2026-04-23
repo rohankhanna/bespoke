@@ -19,6 +19,18 @@
       "source_repo": "danielrosehill/AI-Geopol-Projects",
       "status": "candidate-context",
       "text": "A curated list of projects using AI, LLMs, and multi-agent systems for geopolitical wargaming, policy simulation, conflict modeling, and strategic forecasting."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Agent-UN",
+      "status": "candidate-context",
+      "text": "Experimentary implementation of a model real life political body populated by representative AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Agent-UN",
+      "status": "candidate-context",
+      "text": "![alt text](images/banner.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "danielrosehill/AI-Geopol-Projects",
       "status": "candidate",
       "text": "A curated list of projects using AI, LLMs, and multi-agent systems for geopolitical wargaming, policy simulation, conflict modeling, and strategic forecasting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Agent-UN",
+      "status": "candidate",
+      "text": "![alt text](images/banner.jpg)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/AI-Geopol-Projects"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Agent-UN"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,326 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cc_bot.yml"
+    },
+    {
+      "component": "xt0rted/pull-request-comment-branch@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-command-test.yml"
+    },
+    {
+      "component": "myrotvorets/set-commit-status-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-command-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-command-test.yml"
+    },
+    {
+      "component": "myrotvorets/set-commit-status-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-command-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@b75a909f75acd358c2196fb9a5f1299a9a8868a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mlc.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mlc.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docker_update.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docker_update.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ping_reviewers.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_teams.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mlc-ai/relax",
+      "target": "halide/halide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mlc-ai/relax",
+      "target": "inducer/loopy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mlc-ai/relax",
+      "target": "theano/theano",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cc_bot.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-command-test.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "xt0rted/pull-request-comment-branch@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-command-test.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "myrotvorets/set-commit-status-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-command-test.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "astral-sh/setup-uv@b75a909f75acd358c2196fb9a5f1299a9a8868a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mlc.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docker_update.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docker_update.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_docker_update.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "Nightly Docker Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ping_reviewers.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ping_reviewers.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "Ping Reviewers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_teams.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag_teams.yml",
+      "source_repo": "mlc-ai/relax",
+      "target": "Teams",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:34:12.649467+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3494
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6581
+    },
+    {
+      "path": ".github/workflows/cc_bot.yml",
+      "size": 1695
+    },
+    {
+      "path": ".github/workflows/github-command-test.yml",
+      "size": 2145
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1464
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3701
+    },
+    {
+      "path": ".github/workflows/mlc.yml",
+      "size": 2897
+    },
+    {
+      "path": ".github/workflows/nightly_docker_update.yml",
+      "size": 689
+    },
+    {
+      "path": ".github/workflows/ping_reviewers.yml",
+      "size": 539
+    },
+    {
+      "path": ".github/workflows/tag_teams.yml",
+      "size": 1490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "mlc",
+    "description": null,
+    "fork": false,
+    "full_name": "mlc-ai/relax",
+    "html_url": "https://github.com/mlc-ai/relax",
+    "language": "Python",
+    "pushed_at": "2026-04-20T13:32:52Z",
+    "stargazers_count": 175,
+    "topics": [],
+    "updated_at": "2026-04-20T13:33:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "halide/halide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inducer/loopy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theano/theano",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Nightly Docker Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_docker_update.yml",
+      "term": "Nightly Docker Update"
+    },
+    {
+      "context_snippet": "Ping Reviewers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ping_reviewers.yml",
+      "term": "Ping Reviewers"
+    },
+    {
+      "context_snippet": "Teams",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag_teams.yml",
+      "term": "Teams"
+    }
+  ]
+}

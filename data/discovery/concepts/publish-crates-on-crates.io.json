@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish crates on crates.io"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brendanzab/codespan",
+      "status": "candidate-context",
+      "text": "Beautiful diagnostic reporting for text-based programming languages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brendanzab/codespan",
+      "status": "candidate-context",
+      "text": "Publish crates on crates.io"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brendanzab/codespan",
+      "status": "candidate",
+      "text": "Publish crates on crates.io"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15704,
+      "status": "candidate",
+      "text": "cased"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15464,
+      "status": "candidate",
+      "text": "compass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14924,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14924,
+      "status": "candidate",
+      "text": "reissue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14924,
+      "status": "candidate",
+      "text": "reprint"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish crates on crates.io",
+  "concept_id": "publish-crates-on-crates.io",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "brendanzab/codespan"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish crates on crates.io",
+      "sense_id": "publish-crates-on-crates.io#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

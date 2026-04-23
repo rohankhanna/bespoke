@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "rack"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rack/rack",
+      "status": "candidate-context",
+      "text": "A modular Ruby web server interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rack/rack",
+      "status": "candidate-context",
+      "text": "Rack provides a minimal, modular, and adaptable interface for developing web"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rack/rack",
+      "status": "candidate",
+      "text": "Rack provides a minimal, modular, and adaptable interface for developing web"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031535,
+      "status": "candidate",
+      "text": "wheel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028040,
+      "status": "candidate",
+      "text": "torment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027391,
+      "status": "candidate",
+      "text": "gouge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39994669,
+      "status": "candidate",
+      "text": "scud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39970287,
+      "status": "candidate",
+      "text": "stand"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32036,
+      "status": "candidate",
+      "text": "torment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31038,
+      "status": "candidate",
+      "text": "wring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20047,
+      "status": "candidate",
+      "text": "scud"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17055,
+      "status": "candidate",
+      "text": "stand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10054,
+      "status": "candidate",
+      "text": "gouge"
+    }
+  ],
+  "canonical_name": "rack",
+  "concept_id": "rack",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rack/rack"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rack",
+      "sense_id": "rack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,6 +19,30 @@
       "source_repo": "voxel51/voxelgpt",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jacobmarks/clustering-plugin",
+      "status": "candidate-context",
+      "text": "Compute clustering on your data in a visual, intuitive way with FiftyOne and Sklearn!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jacobmarks/clustering-plugin",
+      "status": "candidate-context",
+      "text": "![GPT4V_labels](https://github.com/jacobmarks/clustering-runs-plugin/assets/12500356/27b0ace4-ecd8-4f9d-821a-614fd597be7f)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jacobmarks/image-quality-issues",
+      "status": "candidate-context",
+      "text": "FiftyOne Plugin for finding common image quality issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jacobmarks/image-quality-issues",
+      "status": "candidate-context",
+      "text": "![common_image_issues_updated](https://github.com/jacobmarks/image-quality-issues/assets/12500356/4f3b89c9-58b6-4404-a9da-8cd6570a1793)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "voxel51/voxelgpt",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jacobmarks/clustering-plugin",
+      "status": "candidate",
+      "text": "![GPT4V_labels](https://github.com/jacobmarks/clustering-runs-plugin/assets/12500356/27b0ace4-ecd8-4f9d-821a-614fd597be7f)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jacobmarks/image-quality-issues",
+      "status": "candidate",
+      "text": "![common_image_issues_updated](https://github.com/jacobmarks/image-quality-issues/assets/12500356/4f3b89c9-58b6-4404-a9da-8cd6570a1793)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "voxel51/voxelgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/image-quality-issues"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

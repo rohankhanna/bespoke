@@ -43,6 +43,66 @@
       "source_repo": "HoangTheQuyen/think-better",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "Documenting the explosion of packages in the standard ecosystem!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate-context",
+      "text": "ESLint Config for JavaScript Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/standard/eslint-config-standard/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate-context",
+      "text": "ESLint Shareable Config for JSX support in JavaScript Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtermjs/xterm.js",
+      "status": "candidate-context",
+      "text": "A terminal for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtermjs/xterm.js",
+      "status": "candidate-context",
+      "text": "Xterm.js is a frontend component that enables applications to bring fully-featured terminals to their users in the browser. It's used by popular projects such as [VS Code](https://code.visualstudio.com/) (and its forks), [Tabby](https://tabby.sh/) and [Hyper](https://hyper.is/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate-context",
+      "text": "List of packages that use `standard`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +123,36 @@
       "source_repo": "HoangTheQuyen/think-better",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/standard/eslint-config-standard/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtermjs/xterm.js",
+      "status": "candidate",
+      "text": "Xterm.js is a frontend component that enables applications to bring fully-featured terminals to their users in the browser. It's used by popular projects such as [VS Code](https://code.visualstudio.com/) (and its forks), [Tabby](https://tabby.sh/) and [Hyper](https://hyper.is/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +268,47 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "HoangTheQuyen/think-better"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/awesome-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard-jsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "xtermjs/xterm.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-packages"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

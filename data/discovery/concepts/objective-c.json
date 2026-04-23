@@ -25,6 +25,18 @@
       "source_repo": "sveinbjornt/Platypus",
       "status": "candidate-context",
       "text": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peggyrayzis/react-native-create-bridge",
+      "status": "candidate-context",
+      "text": "A CLI tool that bridges React Native modules & UI components with ease \ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peggyrayzis/react-native-create-bridge",
+      "status": "candidate-context",
+      "text": "Bridging native modules & UI components made easy! If you're a JavaScript developer writing your first lines of native code or a more experienced developer looking to eliminate boilerplate from your React Native workflow, this tool is for you."
     }
   ],
   "candidate_glosses": [
@@ -33,6 +45,12 @@
       "source_repo": "sveinbjornt/Platypus",
       "status": "candidate",
       "text": "[![macOS](https://img.shields.io/badge/macOS-000000?style=flat&logo=apple&logoColor=white)](https://en.wikipedia.org/wiki/MacOS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peggyrayzis/react-native-create-bridge",
+      "status": "candidate",
+      "text": "Bridging native modules & UI components made easy! If you're a JavaScript developer writing your first lines of native code or a more experienced developer looking to eliminate boilerplate from your React Native workflow, this tool is for you."
     }
   ],
   "candidate_related_terms": [
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "sveinbjornt/Platypus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "peggyrayzis/react-native-create-bridge"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

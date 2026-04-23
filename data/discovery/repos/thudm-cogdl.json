@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/CogDL",
+      "target": "ambv/black",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/CogDL",
+      "target": "jittor/jittor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/CogDL",
+      "target": "laekov/fastmoe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/CogDL",
+      "target": "rusty1s/pytorch_geometric",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/CogDL",
+      "target": "gnn-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/CogDL",
+      "target": "graph-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/CogDL",
+      "target": "graph-embedding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/CogDL",
+      "target": "graph-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/CogDL",
+      "target": "leaderboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/CogDL",
+      "target": "link-prediction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/CogDL",
+      "target": "node-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/CogDL",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:49:06.009614+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13064
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CogDL: A Comprehensive Library for Graph Deep Learning (WWW 2023)",
+    "fork": false,
+    "full_name": "THUDM/CogDL",
+    "html_url": "https://github.com/THUDM/CogDL",
+    "language": "Python",
+    "pushed_at": "2024-02-01T21:24:47Z",
+    "stargazers_count": 1821,
+    "topics": [
+      "gnn-model",
+      "graph-classification",
+      "graph-embedding",
+      "graph-neural-networks",
+      "leaderboard",
+      "link-prediction",
+      "node-classification",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-19T13:22:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambv/black",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jittor/jittor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laekov/fastmoe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rusty1s/pytorch_geometric",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![CogDL](./docs/source/_static/cogdl-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnn-model"
+    },
+    {
+      "context_snippet": "![CogDL](./docs/source/_static/cogdl-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-classification"
+    },
+    {
+      "context_snippet": "![CogDL](./docs/source/_static/cogdl-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-embedding"
+    },
+    {
+      "context_snippet": "![CogDL](./docs/source/_static/cogdl-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graph-neural-networks"
+    },
+    {
+      "context_snippet": "![CogDL](./docs/source/_static/cogdl-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leaderboard"
+    },
+    {
+      "context_snippet": "![CogDL](./docs/source/_static/cogdl-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "link-prediction"
+    },
+    {
+      "context_snippet": "![CogDL](./docs/source/_static/cogdl-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-classification"
+    },
+    {
+      "context_snippet": "![CogDL](./docs/source/_static/cogdl-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

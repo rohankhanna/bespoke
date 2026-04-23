@@ -1,0 +1,413 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@12.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-kondo.yml"
+    },
+    {
+      "component": "DeLaGuardo/clojure-lint-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-kondo.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "actions/setup-java@v2.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "actions/cache@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "graalvm/setup-graalvm@v1.4.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@13.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "bbatsov/clojure-style-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "clj-kondo/configs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "babashka/babashka.pods",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "candid82/joker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "actions/cache@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "DeLaGuardo/setup-clojure@12.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "graalvm/setup-graalvm@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-kondo.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clj-kondo.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "DeLaGuardo/clojure-lint-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clj-kondo.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "clj-kondo checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "actions/setup-java@v2.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "DeLaGuardo/setup-clojure@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "actions/cache@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "Regression tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "graalvm/setup-graalvm@v1.4.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "DeLaGuardo/setup-clojure@13.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "windows build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "graalvm-native-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "static-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:42:19.758793+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14338
+    },
+    {
+      "path": "Dockerfile",
+      "size": 807
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3045
+    },
+    {
+      "path": ".github/workflows/clj-kondo.yml",
+      "size": 279
+    },
+    {
+      "path": ".github/workflows/diff.yml",
+      "size": 943
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 1823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Static analyzer and linter for Clojure code that sparks joy",
+    "fork": false,
+    "full_name": "clj-kondo/clj-kondo",
+    "html_url": "https://github.com/clj-kondo/clj-kondo",
+    "language": "Clojure",
+    "pushed_at": "2026-04-18T09:56:33Z",
+    "stargazers_count": 1828,
+    "topics": [
+      "clojure",
+      "clojurescript",
+      "graalvm",
+      "graalvm-native-image",
+      "linter",
+      "static-analysis"
+    ],
+    "updated_at": "2026-04-22T09:55:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babashka/babashka.pods",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bbatsov/clojure-style-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "candid82/joker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clj-kondo/configs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "clj-kondo checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clj-kondo.yml",
+      "term": "clj-kondo checks"
+    },
+    {
+      "context_snippet": "Regression tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/diff.yml",
+      "term": "Regression tests"
+    },
+    {
+      "context_snippet": "windows build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "windows build"
+    },
+    {
+      "context_snippet": "<img src=\"logo/logo-300dpi.png\" width=\"400px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "<img src=\"logo/logo-300dpi.png\" width=\"400px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "<img src=\"logo/logo-300dpi.png\" width=\"400px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    },
+    {
+      "context_snippet": "<img src=\"logo/logo-300dpi.png\" width=\"400px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm-native-image"
+    },
+    {
+      "context_snippet": "<img src=\"logo/logo-300dpi.png\" width=\"400px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "<img src=\"logo/logo-300dpi.png\" width=\"400px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    }
+  ]
+}

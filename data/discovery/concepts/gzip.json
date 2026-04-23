@@ -7,9 +7,155 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate-context",
+      "text": "Gzip Decompression and Random Access for Modern Multi-Core Machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/flate2-rs",
+      "status": "candidate-context",
+      "text": "DEFLATE, gzip, and zlib bindings for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/flate2-rs",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/flate2.svg?maxAge=2592000)](https://crates.io/crates/flate2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mholt/archiver",
+      "status": "candidate-context",
+      "text": "DEPRECATED. Please use mholt/archives instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archiver",
+      "status": "candidate-context",
+      "text": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate-context",
+      "text": "Fast parallel random access to bzip2 and gzip files in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mxmlnkn/ratarmount",
+      "status": "candidate-context",
+      "text": "Access large archives as a filesystem efficiently, e.g., TAR, RAR, ZIP, GZ, BZ2, XZ, ZSTD archives"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/ratarmount",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "powturbo/TurboBench",
+      "status": "candidate-context",
+      "text": "Compression Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/TurboBench",
+      "status": "candidate-context",
+      "text": "[![Build ubuntu](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/flate2-rs",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/flate2.svg?maxAge=2592000)](https://crates.io/crates/flate2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archiver",
+      "status": "candidate",
+      "text": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/ratarmount",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/TurboBench",
+      "status": "candidate",
+      "text": "[![Build ubuntu](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928948,
+      "status": "candidate",
+      "text": "zip up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928947,
+      "status": "candidate",
+      "text": "jpeg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928946,
+      "status": "candidate",
+      "text": "export"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928945,
+      "status": "candidate",
+      "text": "generify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19928944,
+      "status": "candidate",
+      "text": "containerize"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "gzip",
   "concept_id": "gzip",
@@ -20,12 +166,50 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": null,
       "source_repo": "tombelieber/claude-backup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/flate2-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mholt/archiver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mxmlnkn/indexed_bzip2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mxmlnkn/ratarmount"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/TurboBench"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

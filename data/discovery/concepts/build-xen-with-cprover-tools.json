@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Xen with CPROVER tools"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diffblue/cbmc",
+      "status": "candidate-context",
+      "text": "C Bounded Model Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffblue/cbmc",
+      "status": "candidate-context",
+      "text": "Build Xen with CPROVER tools"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffblue/cbmc",
+      "status": "candidate",
+      "text": "Build Xen with CPROVER tools"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10335,
+      "status": "candidate",
+      "text": "ambrose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10335,
+      "status": "candidate",
+      "text": "aristotelian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10335,
+      "status": "candidate",
+      "text": "burton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10335,
+      "status": "candidate",
+      "text": "plutarch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "xenophobia"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Xen with CPROVER tools",
+  "concept_id": "build-xen-with-cprover-tools",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-and-test-Xen.yaml",
+      "source_repo": "diffblue/cbmc"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Xen with CPROVER tools",
+      "sense_id": "build-xen-with-cprover-tools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

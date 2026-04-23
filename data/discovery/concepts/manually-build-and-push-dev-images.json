@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manually build and push dev images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/images",
+      "status": "candidate-context",
+      "text": "Repository for pre-built dev container images published under mcr.microsoft.com/devcontainers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/images",
+      "status": "candidate-context",
+      "text": "Manually build and push dev images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/images",
+      "status": "candidate",
+      "text": "Manually build and push dev images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28105,
+      "status": "candidate",
+      "text": "low"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28105,
+      "status": "candidate",
+      "text": "see"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27507,
+      "status": "candidate",
+      "text": "shoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27463,
+      "status": "candidate",
+      "text": "atlas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27463,
+      "status": "candidate",
+      "text": "represent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manually build and push dev images",
+  "concept_id": "manually-build-and-push-dev-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/push-manual-dev.yml",
+      "source_repo": "devcontainers/images"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manually build and push dev images",
+      "sense_id": "manually-build-and-push-dev-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

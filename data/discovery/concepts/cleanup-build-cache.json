@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cleanup Build Cache"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlackDex/rust-musl",
+      "status": "candidate-context",
+      "text": "For compiling static Rust binaries using musl toolchain with some pre-compiled static libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackDex/rust-musl",
+      "status": "candidate-context",
+      "text": "Cleanup Build Cache"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlackDex/rust-musl",
+      "status": "candidate",
+      "text": "Cleanup Build Cache"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18861,
+      "status": "candidate",
+      "text": "corduroy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18861,
+      "status": "candidate",
+      "text": "corduroys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18838,
+      "status": "candidate",
+      "text": "berth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18838,
+      "status": "candidate",
+      "text": "blur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18838,
+      "status": "candidate",
+      "text": "dentistry"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cleanup Build Cache",
+  "concept_id": "cleanup-build-cache",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/clean-build-cache.yaml",
+      "source_repo": "BlackDex/rust-musl"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup Build Cache",
+      "sense_id": "cleanup-build-cache#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

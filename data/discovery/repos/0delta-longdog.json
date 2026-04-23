@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "0Delta/longdog",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "0Delta/longdog",
+      "target": "docker/build-push-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "0Delta/longdog",
+      "target": "Docker Image CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:45:19.569459+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 848
+    },
+    {
+      "path": "Dockerfile",
+      "size": 200
+    },
+    {
+      "path": "requirements.txt",
+      "size": 118
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Looooooooooooooooooooooooooooooooooooooooooooooong dog",
+    "fork": false,
+    "full_name": "0Delta/longdog",
+    "html_url": "https://github.com/0Delta/longdog",
+    "language": "Python",
+    "pushed_at": "2022-12-08T06:37:23Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2024-01-20T09:12:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Docker Image CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Docker Image CI"
+    }
+  ]
+}

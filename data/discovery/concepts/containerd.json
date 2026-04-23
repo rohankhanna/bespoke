@@ -91,6 +91,18 @@
       "source_repo": "runfinch/finch",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable first-line-h1 no-inline-html -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate-context",
+      "text": "Fast container image distribution plugin with lazy pulling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate-context",
+      "text": "[[\u2b07\ufe0f **Download**]](https://github.com/containerd/stargz-snapshotter/releases)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "runfinch/finch",
       "status": "candidate",
       "text": "<!-- markdownlint-disable first-line-h1 no-inline-html -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate",
+      "text": "[[\u2b07\ufe0f **Download**]](https://github.com/containerd/stargz-snapshotter/releases)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "runfinch/finch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "containerd/stargz-snapshotter"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

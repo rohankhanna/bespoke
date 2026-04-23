@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spam-remover.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "actionless/pikaur",
+      "target": "aladw/aurutils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spam-remover.yml",
+      "source_repo": "actionless/pikaur",
+      "target": "actions/github-script@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spam-remover.yml",
+      "source_repo": "actionless/pikaur",
+      "target": "Spam issues handler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "actionless/pikaur",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "actionless/pikaur",
+      "target": "actions/upload-artifact@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "actionless/pikaur",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "actionless/pikaur",
+      "target": "actions/download-artifact@v4.1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "actionless/pikaur",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actionless/pikaur",
+      "target": "arch-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actionless/pikaur",
+      "target": "aur-helper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:46:38.965580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15383
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3064
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 7622
+    },
+    {
+      "path": ".github/workflows/spam-remover.yml",
+      "size": 7485
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2116
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AUR helper with minimal dependencies. Review PKGBUILDs all in once, next build them all without user interaction.",
+    "fork": false,
+    "full_name": "actionless/pikaur",
+    "html_url": "https://github.com/actionless/pikaur",
+    "language": "Python",
+    "pushed_at": "2026-03-07T16:55:36Z",
+    "stargazers_count": 946,
+    "topics": [
+      "arch-linux",
+      "aur",
+      "aur-helper"
+    ],
+    "updated_at": "2026-04-22T17:58:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aladw/aurutils",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Spam issues handler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spam-remover.yml",
+      "term": "Spam issues handler"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/actionless/pikaur/actions/workflows/tests.yml/badge.svg)](https://github.com/actionless/pikaur/actions/workflows/tests.yml) [![Coverage Status](https://coveralls.io/repos/github/actionless/pikaur/badge.svg?branch=master)](https://coveralls.io/github/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arch-linux"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/actionless/pikaur/actions/workflows/tests.yml/badge.svg)](https://github.com/actionless/pikaur/actions/workflows/tests.yml) [![Coverage Status](https://coveralls.io/repos/github/actionless/pikaur/badge.svg?branch=master)](https://coveralls.io/github/\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aur-helper"
+    }
+  ]
+}

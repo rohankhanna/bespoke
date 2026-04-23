@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Agent-UN",
+      "target": "experiments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Agent-UN",
+      "target": "geopolitics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Agent-UN",
+      "target": "simulations",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:37:00.928322+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7882
+    },
+    {
+      "path": "requirements.txt",
+      "size": 221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Experimentary implementation of a model real life political body populated by representative AI agents",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Agent-UN",
+    "html_url": "https://github.com/danielrosehill/AI-Agent-UN",
+    "language": "Python",
+    "pushed_at": "2025-10-30T17:29:07Z",
+    "stargazers_count": 1,
+    "topics": [
+      "ai-agents",
+      "experiments",
+      "geopolitics",
+      "simulations"
+    ],
+    "updated_at": "2026-02-17T16:08:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![alt text](images/banner.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "experiments"
+    },
+    {
+      "context_snippet": "![alt text](images/banner.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geopolitics"
+    },
+    {
+      "context_snippet": "![alt text](images/banner.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulations"
+    }
+  ]
+}

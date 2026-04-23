@@ -7,10 +7,106 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bincode-org/bincode",
+      "status": "candidate-context",
+      "text": "A binary encoder / decoder implementation in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bincode-org/bincode",
+      "status": "candidate-context",
+      "text": "This repo has migrated to [sourcehut](https://sr.ht/~stygianentity/bincode/) as its primary development hub."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/rspirv",
+      "status": "candidate-context",
+      "text": "Rust implementation of SPIR-V module processing functionalities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/rspirv",
+      "status": "candidate-context",
+      "text": "rspirv"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bincode-org/bincode",
+      "status": "candidate",
+      "text": "This repo has migrated to [sourcehut](https://sr.ht/~stygianentity/bincode/) as its primary development hub."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/rspirv",
+      "status": "candidate",
+      "text": "rspirv"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977766,
+      "status": "candidate",
+      "text": "multiple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931775,
+      "status": "candidate",
+      "text": "binary star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39931739,
+      "status": "candidate",
+      "text": "double star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999634,
+      "status": "candidate",
+      "text": "two-fold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999539,
+      "status": "candidate",
+      "text": "twofold"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7050,
+      "status": "candidate",
+      "text": "multiple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "binary star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19,
+      "status": "candidate",
+      "text": "double star"
+    }
+  ],
   "canonical_name": "binary",
   "concept_id": "binary",
   "definition_status": "unresolved",
@@ -20,12 +116,26 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": null,
       "source_repo": "cargo-bins/cargo-binstall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bincode-org/bincode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gfx-rs/rspirv"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

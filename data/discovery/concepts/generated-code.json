@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "generated-code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint-ruleset-aws",
+      "status": "candidate-context",
+      "text": "TFLint ruleset for terraform-provider-aws"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-aws",
+      "status": "candidate-context",
+      "text": "generated-code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate-context",
+      "text": "TFLint ruleset for terraform-provider-azurerm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate-context",
+      "text": "generated-code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-aws",
+      "status": "candidate",
+      "text": "generated-code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate",
+      "text": "generated-code"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "generated-code",
+  "concept_id": "generated-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/generated_code_checks.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/generated_code_checks.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "generated-code",
+      "sense_id": "generated-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

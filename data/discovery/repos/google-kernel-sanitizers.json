@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/kernel-sanitizers",
+      "target": "google/kmsan",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:41:13.886853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1078
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Linux Kernel Sanitizers, fast bug-detectors for the Linux kernel",
+    "fork": false,
+    "full_name": "google/kernel-sanitizers",
+    "html_url": "https://github.com/google/kernel-sanitizers",
+    "language": "Python",
+    "pushed_at": "2025-04-14T20:48:47Z",
+    "stargazers_count": 469,
+    "topics": [],
+    "updated_at": "2026-04-17T15:09:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/kmsan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:44:34.449854+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Archive of Kubernetes Design Proposals",
+    "fork": false,
+    "full_name": "kubernetes/design-proposals-archive",
+    "html_url": "https://github.com/kubernetes/design-proposals-archive",
+    "language": "Makefile",
+    "pushed_at": "2021-12-01T21:20:03Z",
+    "stargazers_count": 565,
+    "topics": [],
+    "updated_at": "2026-04-04T05:51:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

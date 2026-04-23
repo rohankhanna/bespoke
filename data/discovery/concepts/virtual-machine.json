@@ -19,6 +19,30 @@
       "source_repo": "kata-containers/kata-containers",
       "status": "candidate-context",
       "text": "<img src=\"https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/kata/SVG/kata-1.svg\" width=\"900\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "risc0/risc0",
+      "status": "candidate-context",
+      "text": "RISC Zero is a zero-knowledge verifiable general computing platform based on zk-STARKs and the RISC-V microarchitecture."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risc0/risc0",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate-context",
+      "text": "Ethereum L1 Protocol Stack and EVM in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "kata-containers/kata-containers",
       "status": "candidate",
       "text": "<img src=\"https://object-storage-ca-ymq-1.vexxhost.net/swift/v1/6e4619c416ff4bd19e1c087f27a43eea/www-images-prod/openstack-logo/kata/SVG/kata-1.svg\" width=\"900\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "risc0/risc0",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "risc0/risc0"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ethereumjs/ethereumjs-monorepo"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

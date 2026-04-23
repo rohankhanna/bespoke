@@ -133,6 +133,78 @@
       "source_repo": "catalyst-team/catalyst",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/oasis",
+      "status": "candidate-context",
+      "text": "\ud83c\udfdd\ufe0f OASIS: Open Agent Social Interaction Simulations with One Million Agents. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/oasis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/sentencepiece",
+      "status": "candidate-context",
+      "text": "Unsupervised text tokenizer for Neural Network-based text generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/sentencepiece",
+      "status": "candidate-context",
+      "text": "[![Build C++](https://github.com/google/sentencepiece/actions/workflows/cmake.yml/badge.svg)](https://github.com/google/sentencepiece/actions/workflows/cmake.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenMOSS/MOSS",
+      "status": "candidate-context",
+      "text": "An open-source tool-augmented conversational language model from Fudan University"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenMOSS/MOSS",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QwenLM/Qwen",
+      "status": "candidate-context",
+      "text": "The official repo of Qwen (\u901a\u4e49\u5343\u95ee) chat & pretrained large language model proposed by Alibaba Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/allennlp",
+      "status": "candidate-context",
+      "text": "An open-source NLP research library, built on PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/allennlp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "\ud83d\udc2b CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -193,6 +265,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "catalyst-team/catalyst",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/oasis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/sentencepiece",
+      "status": "candidate",
+      "text": "[![Build C++](https://github.com/google/sentencepiece/actions/workflows/cmake.yml/badge.svg)](https://github.com/google/sentencepiece/actions/workflows/cmake.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenMOSS/MOSS",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/allennlp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -268,11 +376,47 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "catalyst-team/catalyst"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "camel-ai/oasis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/sentencepiece"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "allenai/allennlp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "camel-ai/camel"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

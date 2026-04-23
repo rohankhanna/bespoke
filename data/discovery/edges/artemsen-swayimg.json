@@ -1,0 +1,111 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artemsen/swayimg",
+      "target": "libjxl/libjxl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artemsen/swayimg",
+      "target": "strukturag/libheif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artemsen/swayimg",
+      "target": "aomediacodec/libavif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Alpine.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Arch.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DCO.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "tim-actions/get-pr-commits@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/DCO.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "tim-actions/dco@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/DCO.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "DCO check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu-aarch64.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu-aarch64.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu-riscv64.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Ubuntu-riscv64.yml",
+      "source_repo": "artemsen/swayimg",
+      "target": "uraimo/run-on-arch-action@v3",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "artemsen/swayimg"
+}

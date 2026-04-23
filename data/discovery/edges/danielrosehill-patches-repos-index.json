@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Patches-Repos-Index",
+      "target": "danielrosehill/adb-keep-awake",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Patches-Repos-Index",
+      "target": "danielrosehill/amd-gpu-fixes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Patches-Repos-Index",
+      "target": "danielrosehill/amdgpu-dp-hotplug-fix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Patches-Repos-Index",
+      "target": "danielrosehill/handy-wayland-autostart-fix",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "danielrosehill/Patches-Repos-Index"
+}

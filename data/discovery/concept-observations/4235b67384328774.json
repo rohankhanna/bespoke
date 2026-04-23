@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A simple Vim plugin to switch segments of text with predefined replacements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub version](https://badge.fury.io/gh/andrewradev%2Fswitch.vim.svg)](https://badge.fury.io/gh/andrewradev%2Fswitch.vim)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub version](https://badge.fury.io/gh/andrewradev%2Fswitch.vim.svg)](https://badge.fury.io/gh/andrewradev%2Fswitch.vim)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "text-manipulation",
+      "sense_id": "text-manipulation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "text-manipulation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "text-manipulation",
+  "observation_id": "4235b67384328774",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "text-manipulation",
+  "source_context_snippet": "[![GitHub version](https://badge.fury.io/gh/andrewradev%2Fswitch.vim.svg)](https://badge.fury.io/gh/andrewradev%2Fswitch.vim)",
+  "source_file": null,
+  "source_repo": "AndrewRadev/switch.vim",
+  "source_repo_description": "A simple Vim plugin to switch segments of text with predefined replacements"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Newly Added RFC"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emberjs/rfcs",
+      "status": "candidate-context",
+      "text": "RFCs for changes to Ember"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/rfcs",
+      "status": "candidate-context",
+      "text": "Newly Added RFC"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emberjs/rfcs",
+      "status": "candidate",
+      "text": "Newly Added RFC"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26157,
+      "status": "candidate",
+      "text": "fresh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26157,
+      "status": "candidate",
+      "text": "new"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26049,
+      "status": "candidate",
+      "text": "singapore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18490,
+      "status": "candidate",
+      "text": "installation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18490,
+      "status": "candidate",
+      "text": "module"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Newly Added RFC",
+  "concept_id": "newly-added-rfc",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/newly-added-rfcs.yml",
+      "source_repo": "emberjs/rfcs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Newly Added RFC",
+      "sense_id": "newly-added-rfc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

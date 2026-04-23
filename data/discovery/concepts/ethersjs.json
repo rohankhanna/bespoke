@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "ethersjs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethers-io/ext-provider-ganache",
+      "status": "candidate-context",
+      "text": "Ethers extension for the GanacheProvider which provides a simple interface to a Ganache in-memory Ethereum instance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ext-provider-ganache",
+      "status": "candidate-context",
+      "text": "Ethers: GanacheProvider"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "status": "candidate-context",
+      "text": "Ethers extension for LedgerSigner for Ledger Hardware Wallet support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "status": "candidate-context",
+      "text": "Ethers: LedgerSigner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ext-provider-ganache",
+      "status": "candidate",
+      "text": "Ethers: GanacheProvider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "status": "candidate",
+      "text": "Ethers: LedgerSigner"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ethersjs",
+  "concept_id": "ethersjs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ethers-io/ext-provider-ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ethers-io/ext-signer-ledger"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ethersjs",
+      "sense_id": "ethersjs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -31,6 +31,30 @@
       "source_repo": "jaredpalmer/razzle",
       "status": "candidate-context",
       "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate-context",
+      "text": "Gzip Decompression and Random Access for Modern Multi-Core Machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate-context",
+      "text": "Fast parallel random access to bzip2 and gzip files in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "jaredpalmer/razzle",
       "status": "candidate",
       "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "jaredpalmer/razzle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mxmlnkn/indexed_bzip2"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

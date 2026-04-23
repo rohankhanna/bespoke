@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Commit Message Check"
+    "Commit Message Check",
+    "Commit message check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,12 +20,66 @@
       "source_repo": "kata-containers/cgroups-rs",
       "status": "candidate-context",
       "text": "Commit Message Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate-context",
+      "text": "Collection of utilities and Bazel rules to aid in the development and maintenance of Swift repositories using Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate-context",
+      "text": "Commit Message Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "willothy/nvim-cokeline",
+      "status": "candidate-context",
+      "text": ":nose: A Neovim bufferline for people with addictive personalities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "willothy/nvim-cokeline",
+      "status": "candidate-context",
+      "text": "\"Commit message check\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/bazel-starlib",
+      "status": "candidate-context",
+      "text": "Rules, macros, and APIs that are useful for the implementation of Bazel repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-starlib",
+      "status": "candidate-context",
+      "text": "Commit Message Check"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "kata-containers/cgroups-rs",
+      "status": "candidate",
+      "text": "Commit Message Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate",
+      "text": "Commit Message Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "willothy/nvim-cokeline",
+      "status": "candidate",
+      "text": "\"Commit message check\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/bazel-starlib",
       "status": "candidate",
       "text": "Commit Message Check"
     }
@@ -76,11 +131,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/commit-message-check.yaml",
       "source_repo": "kata-containers/cgroups-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/commit_msg_check.yml",
+      "source_repo": "cgrindel/rules_swift_package_manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/commit-messages.yaml",
+      "source_repo": "willothy/nvim-cokeline"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/commit_msg_check.yml",
+      "source_repo": "cgrindel/bazel-starlib"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

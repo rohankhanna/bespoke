@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:47:47.842400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 841
+    },
+    {
+      "path": "Dockerfile",
+      "size": 886
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tools for parsing messy tabular data. This is now superseded by https://github.com/frictionlessdata/tabulator-py",
+    "fork": false,
+    "full_name": "okfn/messytables",
+    "html_url": "https://github.com/okfn/messytables",
+    "language": "HTML",
+    "pushed_at": "2023-05-22T21:34:25Z",
+    "stargazers_count": 394,
+    "topics": [],
+    "updated_at": "2026-04-07T13:45:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

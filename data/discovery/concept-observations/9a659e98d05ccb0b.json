@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "File formats that define and specify the file representation for ABAP development objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ABAP Doc Casing Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ABAP Doc Casing Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18926,
+      "status": "candidate",
+      "text": "doctor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18902,
+      "status": "candidate",
+      "text": "jacket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18625,
+      "status": "candidate",
+      "text": "album"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18625,
+      "status": "candidate",
+      "text": "billfold"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ABAP Doc Casing Check",
+      "sense_id": "abap-doc-casing-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "abap-doc-casing-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "abap-doc-casing-check",
+  "observation_id": "9a659e98d05ccb0b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "ABAP Doc Casing Check",
+  "source_context_snippet": "ABAP Doc Casing Check",
+  "source_file": ".github/workflows/abap-doc-casing.yml",
+  "source_repo": "SAP/abap-file-formats",
+  "source_repo_description": "File formats that define and specify the file representation for ABAP development objects"
+}

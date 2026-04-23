@@ -1,0 +1,12 @@
+{
+  "component": "rez0n/actions-github-release@794c12f5e8d629e6ca329cf2e2daeb0f0ce6a3ce",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula-pr.yml",
+      "source_repo": "grafana/alloy"
+    }
+  ]
+}

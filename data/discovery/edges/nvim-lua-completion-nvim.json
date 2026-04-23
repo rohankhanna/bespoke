@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-lua/completion-nvim",
+      "target": "lifepillar/vim-mucomplete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-lua/completion-nvim",
       "target": "haorenw1025/completion-nvim",
       "target_type": "repository"
     },
@@ -11,24 +18,17 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-lua/completion-nvim",
-      "target": "aca/completion-tabnine",
+      "target": "kristijanhusak/vim-dadbod-completion",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nvim-lua/completion-nvim",
-      "target": "albertocarom/completion-tmux",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-lua/completion-nvim",
-      "target": "cbarrete/completion-vcard",
+      "target": "kristijanhusak/completion-tags",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "nvim-lua/completion-nvim"
 }

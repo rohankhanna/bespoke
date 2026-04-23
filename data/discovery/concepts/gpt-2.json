@@ -31,6 +31,18 @@
       "source_repo": "microsoft/LoRA",
       "status": "candidate-context",
       "text": "This repo contains the source code of the Python package `loralib` and several examples of how to integrate it with PyTorch models, such as those in Hugging Face."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer (parallelizable). We are at RWKV-7 \"Goose\". So it's combining the best of RNN and transformer - great performance, linear time, constant space (no kv-cache), fast training, infinite ctx_len, and free sentence embedding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "microsoft/LoRA",
       "status": "candidate",
       "text": "This repo contains the source code of the Python package `loralib` and several examples of how to integrate it with PyTorch models, such as those in Hugging Face."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "microsoft/LoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Embrace the APIs of the future. Hug aims to make developing APIs as simple as possible, but no simpler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050472,
+      "status": "candidate",
+      "text": "hawk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050410,
+      "status": "candidate",
+      "text": "lanner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050295,
+      "status": "candidate",
+      "text": "bird"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049484,
+      "status": "candidate",
+      "text": "nighthawk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049343,
+      "status": "candidate",
+      "text": "hawkish"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "falcon",
+      "sense_id": "falcon#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "falcon",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "falcon",
+  "observation_id": "5e6fba00ba5d2e95",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "falcon",
+  "source_context_snippet": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)",
+  "source_file": null,
+  "source_repo": "hugapi/hug",
+  "source_repo_description": "Embrace the APIs of the future. Hug aims to make developing APIs as simple as possible, but no simpler."
+}

@@ -43,6 +43,90 @@
       "source_repo": "jquery/esprima",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/esprima.svg)](https://www.npmjs.com/package/esprima)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "Documenting the explosion of packages in the standard ecosystem!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate-context",
+      "text": "ESLint Config for JavaScript Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/standard/eslint-config-standard/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate-context",
+      "text": "ESLint Shareable Config for JSX support in JavaScript Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lahma/test262-harness-dotnet",
+      "status": "candidate-context",
+      "text": "A .NET version of test262 ECMAScript test harness"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lahma/test262-harness-dotnet",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/lahma/test262-harness-dotnet/actions/workflows/build.yml/badge.svg)](https://github.com/sebastienros/jint/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate-context",
+      "text": "Additional ESLint's rules for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate-context",
+      "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate-context",
+      "text": "List of packages that use `standard`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation - Go, Java, Python, C++ and JS/TS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate",
+      "status": "candidate-context",
+      "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +147,48 @@
       "source_repo": "jquery/esprima",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/esprima.svg)](https://www.npmjs.com/package/esprima)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/standard/eslint-config-standard/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lahma/test262-harness-dotnet",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/lahma/test262-harness-dotnet/actions/workflows/build.yml/badge.svg)](https://github.com/sebastienros/jint/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate",
+      "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate",
+      "status": "candidate",
+      "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +262,59 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "jquery/esprima"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/awesome-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard-jsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lahma/test262-harness-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mysticatea/eslint-plugin-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

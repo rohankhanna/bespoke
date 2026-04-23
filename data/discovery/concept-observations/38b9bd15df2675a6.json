@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "File manager for Neovim. Better than NERDTree."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "File Manager for Neovim, Better than NERDTree."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "File Manager for Neovim, Better than NERDTree."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039255,
+      "status": "candidate",
+      "text": "colors"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039254,
+      "status": "candidate",
+      "text": "flag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035746,
+      "status": "candidate",
+      "text": "flags"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998518,
+      "status": "candidate",
+      "text": "chips"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29955487,
+      "status": "candidate",
+      "text": "technicolor"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "colours",
+      "sense_id": "colours#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1032,
+      "status": "candidate",
+      "text": "colors"
+    }
+  ],
+  "concept_id": "colours",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "colours",
+  "observation_id": "38b9bd15df2675a6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "colours",
+  "source_context_snippet": "File Manager for Neovim, Better than NERDTree.",
+  "source_file": null,
+  "source_repo": "ms-jpq/chadtree",
+  "source_repo_description": "File manager for Neovim. Better than NERDTree."
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "bitset"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RoaringBitmap/croaring-rs",
+      "status": "candidate-context",
+      "text": "Rust FFI wrapper for CRoaring"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/croaring-rs",
+      "status": "candidate-context",
+      "text": "A [Rust](https://www.rust-lang.org) wrapper for CRoaring (a C/C++ implementation at https://github.com/RoaringBitmap/CRoaring)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RoaringBitmap/croaring-rs",
+      "status": "candidate",
+      "text": "A [Rust](https://www.rust-lang.org) wrapper for CRoaring (a C/C++ implementation at https://github.com/RoaringBitmap/CRoaring)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022457,
+      "status": "candidate",
+      "text": "bit array"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022456,
+      "status": "candidate",
+      "text": "bitfield"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022455,
+      "status": "candidate",
+      "text": "bit string"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022454,
+      "status": "candidate",
+      "text": "bitstring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022453,
+      "status": "candidate",
+      "text": "bitstate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bitset",
+  "concept_id": "bitset",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "RoaringBitmap/croaring-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bitset",
+      "sense_id": "bitset#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KnowledgeXLab/O2-Searcher",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:31.461446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6014
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Searching-based Agent Model for Open-Domain Open-Ended Question Answering",
+    "fork": false,
+    "full_name": "KnowledgeXLab/O2-Searcher",
+    "html_url": "https://github.com/KnowledgeXLab/O2-Searcher",
+    "language": "Python",
+    "pushed_at": "2025-06-20T05:33:41Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-04-03T07:41:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

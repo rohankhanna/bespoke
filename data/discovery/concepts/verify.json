@@ -34,6 +34,30 @@
       "source_repo": "notaryproject/notation",
       "status": "candidate-context",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "knative/community",
+      "status": "candidate-context",
+      "text": "Knative governance and community material."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/community",
+      "status": "candidate-context",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anexia/k8s-external-dns-webhook",
+      "status": "candidate-context",
+      "text": "External-DNS Plugin to manage AnexiaCloudDNS Records"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anexia/k8s-external-dns-webhook",
+      "status": "candidate-context",
+      "text": "Verify"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +72,18 @@
       "source_repo": "notaryproject/notation",
       "status": "candidate",
       "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/notaryproject/notation)](https://goreportcard.com/report/github.com/notaryproject/notation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "knative/community",
+      "status": "candidate",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anexia/k8s-external-dns-webhook",
+      "status": "candidate",
+      "text": "Verify"
     }
   ],
   "candidate_related_terms": [
@@ -111,11 +147,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "notaryproject/notation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "knative/community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "anexia/k8s-external-dns-webhook"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

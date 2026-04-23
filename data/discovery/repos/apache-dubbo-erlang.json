@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/dubbo-erlang",
+      "target": "dubbo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:30.298814+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1971
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache Dubbo Erlang Implementation.",
+    "fork": false,
+    "full_name": "apache/dubbo-erlang",
+    "html_url": "https://github.com/apache/dubbo-erlang",
+    "language": "Erlang",
+    "pushed_at": "2025-02-19T11:14:15Z",
+    "stargazers_count": 49,
+    "topics": [
+      "dubbo"
+    ],
+    "updated_at": "2025-11-28T19:14:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "dubboerl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbo"
+    }
+  ]
+}

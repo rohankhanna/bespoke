@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/COIN-OR-OptimizationSuite",
+      "target": "coin-or/bcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/COIN-OR-OptimizationSuite",
+      "target": "coin-or/chipps-alps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/COIN-OR-OptimizationSuite",
+      "target": "coin-or/bonmin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/COIN-OR-OptimizationSuite",
+      "target": "coin-or-tools/homebrew-coinor",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:40:57.802477+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A harness for building the bundled suite of interoperable optimization tools available in the COIN-OR repository. ",
+    "fork": false,
+    "full_name": "coin-or/COIN-OR-OptimizationSuite",
+    "html_url": "https://github.com/coin-or/COIN-OR-OptimizationSuite",
+    "language": "Shell",
+    "pushed_at": "2021-08-04T15:04:55Z",
+    "stargazers_count": 137,
+    "topics": [],
+    "updated_at": "2026-04-07T21:41:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coin-or-tools/homebrew-coinor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coin-or/bcp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coin-or/bonmin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coin-or/chipps-alps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The OpenAPI Specification Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "respec"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "respec"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19783890,
+      "status": "candidate",
+      "text": "respecialize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19783889,
+      "status": "candidate",
+      "text": "re-skill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19783888,
+      "status": "candidate",
+      "text": "reskill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19783887,
+      "status": "candidate",
+      "text": "respawn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19783886,
+      "status": "candidate",
+      "text": "remort"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "respec",
+      "sense_id": "respec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "respec",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "respec",
+  "observation_id": "901fb6031b683ab0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "respec",
+  "source_context_snippet": "respec",
+  "source_file": ".github/workflows/respec.yaml",
+  "source_repo": "OAI/OpenAPI-Specification",
+  "source_repo_description": "The OpenAPI Specification Repository"
+}

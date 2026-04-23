@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:34:34.068604+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Installer script for dein.vim",
+    "fork": false,
+    "full_name": "Shougo/dein-installer.vim",
+    "html_url": "https://github.com/Shougo/dein-installer.vim",
+    "language": "Shell",
+    "pushed_at": "2024-04-12T12:18:20Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2025-12-08T13:26:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

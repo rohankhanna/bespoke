@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build & Package",
-    "Build package"
+    "Build package",
+    "Build Package"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -20,6 +21,30 @@
       "source_repo": "cargo-bins/cargo-quickinstall",
       "status": "candidate-context",
       "text": "Build package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "run-llama/llama_index",
+      "status": "candidate-context",
+      "text": "LlamaIndex is the leading document agent and OCR platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "run-llama/llama_index",
+      "status": "candidate-context",
+      "text": "Build Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "\ud83d\udc2b CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "Build Package"
     }
   ],
   "candidate_glosses": [
@@ -28,6 +53,18 @@
       "source_repo": "cargo-bins/cargo-quickinstall",
       "status": "candidate",
       "text": "Build package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "run-llama/llama_index",
+      "status": "candidate",
+      "text": "Build Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate",
+      "text": "Build Package"
     }
   ],
   "candidate_related_terms": [
@@ -83,11 +120,23 @@
       "observed_at": "2026-04-19T02:42:33.990002+00:00",
       "source_file": ".github/workflows/build-package.yml",
       "source_repo": "cargo-bins/cargo-quickinstall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "camel-ai/camel"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T02:42:33.990002+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

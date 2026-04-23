@@ -207,6 +207,114 @@
       "source_repo": "notaryproject/specifications",
       "status": "candidate-context",
       "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-cookbook",
+      "status": "candidate-context",
+      "text": "Examples and guides for using the OpenAI API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-cookbook",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/clusterfuzz",
+      "status": "candidate-context",
+      "text": "Scalable fuzzing infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/clusterfuzz",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shap/shap",
+      "status": "candidate-context",
+      "text": "A game theoretic approach to explain the output of any machine learning model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shap/shap",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notaryproject.dev",
+      "status": "candidate-context",
+      "text": "Notary Project Website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notaryproject.dev",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notation-core-go",
+      "status": "candidate-context",
+      "text": "Contains support for Notary Project signature envelope, and format specific implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-core-go",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notation-go",
+      "status": "candidate-context",
+      "text": "A collection of libraries for supporting sign and verify OCI artifacts. Based on Notary Project specifications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-go",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate-context",
+      "text": "Grafana Community Kubernetes Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mybigday/whisper.rn",
+      "status": "candidate-context",
+      "text": "React Native binding of whisper.cpp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/whisper.rn",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-webview/react-native-webview",
+      "status": "candidate-context",
+      "text": "React Native Cross-Platform WebView"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-webview/react-native-webview",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
     }
   ],
   "candidate_glosses": [
@@ -305,6 +413,60 @@
       "source_repo": "notaryproject/specifications",
       "status": "candidate",
       "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-cookbook",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/clusterfuzz",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shap/shap",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notaryproject.dev",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-core-go",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-go",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/whisper.rn",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-webview/react-native-webview",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
     }
   ],
   "candidate_related_terms": [
@@ -456,11 +618,71 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "notaryproject/specifications"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "openai/openai-cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/staleness.yml",
+      "source_repo": "google/clusterfuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/close-stale.yml",
+      "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale_issues.yml",
+      "source_repo": "shap/shap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "notaryproject/notaryproject.dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "notaryproject/notation-core-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "notaryproject/notation-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "grafana-community/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "mybigday/whisper.rn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "react-native-webview/react-native-webview"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

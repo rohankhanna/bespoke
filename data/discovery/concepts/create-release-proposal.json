@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create Release Proposal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/setuptools-scm",
+      "status": "candidate-context",
+      "text": "the blessed package to manage your versions by scm tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/setuptools-scm",
+      "status": "candidate-context",
+      "text": "Create Release Proposal"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/setuptools-scm",
+      "status": "candidate",
+      "text": "Create Release Proposal"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34382,
+      "status": "candidate",
+      "text": "offer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19023,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18063,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17990,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17982,
+      "status": "candidate",
+      "text": "project"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create Release Proposal",
+  "concept_id": "create-release-proposal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release-proposal.yml",
+      "source_repo": "pypa/setuptools-scm"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Release Proposal",
+      "sense_id": "create-release-proposal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

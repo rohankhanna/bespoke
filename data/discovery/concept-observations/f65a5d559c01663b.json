@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "sparse linear algebra library for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build status](https://github.com/sparsemat/sprs/actions/workflows/ci.yml/badge.svg)](https://github.com/sparsemat/sprs/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/sparsemat/sprs/actions/workflows/ci.yml/badge.svg)](https://github.com/sparsemat/sprs/actions)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sparse-linear-systems",
+      "sense_id": "sparse-linear-systems#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sparse-linear-systems",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sparse-linear-systems",
+  "observation_id": "f65a5d559c01663b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "sparse-linear-systems",
+  "source_context_snippet": "[![Build status](https://github.com/sparsemat/sprs/actions/workflows/ci.yml/badge.svg)](https://github.com/sparsemat/sprs/actions)",
+  "source_file": null,
+  "source_repo": "sparsemat/sprs",
+  "source_repo_description": "sparse linear algebra library for rust"
+}

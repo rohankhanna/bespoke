@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:46:59.907676+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 262
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "jart/gemma3",
+    "html_url": "https://github.com/jart/gemma3",
+    "language": "C++",
+    "pushed_at": "2024-02-25T04:07:18Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-04T03:54:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

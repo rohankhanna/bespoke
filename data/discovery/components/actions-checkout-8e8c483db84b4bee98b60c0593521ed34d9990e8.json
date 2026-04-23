@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -202,6 +202,156 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/leaderboard.yml",
       "source_repo": "kubernetes/minikube"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-dist-telemetry-scan.yaml",
+      "source_repo": "Comfy-Org/ComfyUI_frontend"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-oss-assets-validation.yaml",
+      "source_repo": "Comfy-Org/ComfyUI_frontend"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-cli.yml",
+      "source_repo": "aaif-goose/goose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-intel.yml",
+      "source_repo": "aaif-goose/goose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml",
+      "source_repo": "aaif-goose/goose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml",
+      "source_repo": "aaif-goose/goose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/upload-release.yml",
+      "source_repo": "NixOS/nix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "containers/ramalama"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "alecthomas/chroma"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "alecthomas/chroma"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typst/typst"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "typst/typst"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "typst/typst"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_package.yml",
+      "source_repo": "camel-ai/camel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "camel-ai/camel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "camel-ai/camel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre_commit.yml",
+      "source_repo": "camel-ai/camel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/profiling.yml",
+      "source_repo": "camel-ai/camel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "DataDog/trivy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-labels.yaml",
+      "source_repo": "DataDog/trivy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "DataDog/trivy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/metrics.yml",
+      "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_benches.yml",
+      "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-image.yml",
+      "source_repo": "cortexproject/cortex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "cortexproject/cortex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-build-deploy.yml",
+      "source_repo": "cortexproject/cortex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/web.yml",
+      "source_repo": "cortexproject/cortex"
     }
   ]
 }

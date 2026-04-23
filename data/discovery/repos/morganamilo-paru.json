@@ -1,0 +1,333 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/create-release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mo.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/paru.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/paru.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/paru.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/paru.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Morganamilo/paru",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Morganamilo/paru",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Morganamilo/paru",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Morganamilo/paru",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Morganamilo/paru",
+      "target": "actions/create-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Morganamilo/paru",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Morganamilo/paru",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Morganamilo/paru",
+      "target": "Build Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mo.yml",
+      "source_repo": "Morganamilo/paru",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mo.yml",
+      "source_repo": "Morganamilo/paru",
+      "target": "Build Translations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/paru.yml",
+      "source_repo": "Morganamilo/paru",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/paru.yml",
+      "source_repo": "Morganamilo/paru",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/paru.yml",
+      "source_repo": "Morganamilo/paru",
+      "target": "Paru",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morganamilo/paru",
+      "target": "arch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morganamilo/paru",
+      "target": "archlinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morganamilo/paru",
+      "target": "aur-helper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morganamilo/paru",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morganamilo/paru",
+      "target": "pacman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morganamilo/paru",
+      "target": "paru",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morganamilo/paru",
+      "target": "pkgbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Morganamilo/paru",
+      "target": "yaourt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:46:43.194718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3066
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2093
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1154
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2280
+    },
+    {
+      "path": ".github/workflows/mo.yml",
+      "size": 397
+    },
+    {
+      "path": ".github/workflows/paru.yml",
+      "size": 1915
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Feature packed AUR helper",
+    "fork": false,
+    "full_name": "Morganamilo/paru",
+    "html_url": "https://github.com/Morganamilo/paru",
+    "language": "Rust",
+    "pushed_at": "2026-01-09T07:31:27Z",
+    "stargazers_count": 8626,
+    "topics": [
+      "arch",
+      "archlinux",
+      "aur-helper",
+      "hacktoberfest",
+      "pacman",
+      "paru",
+      "pkgbuild",
+      "yaourt",
+      "yay"
+    ],
+    "updated_at": "2026-04-22T22:34:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build Release"
+    },
+    {
+      "context_snippet": "Build Translations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mo.yml",
+      "term": "Build Translations"
+    },
+    {
+      "context_snippet": "Paru",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/paru.yml",
+      "term": "Paru"
+    },
+    {
+      "context_snippet": "Feature packed AUR helper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arch"
+    },
+    {
+      "context_snippet": "Feature packed AUR helper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archlinux"
+    },
+    {
+      "context_snippet": "Feature packed AUR helper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aur-helper"
+    },
+    {
+      "context_snippet": "Feature packed AUR helper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Feature packed AUR helper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacman"
+    },
+    {
+      "context_snippet": "Feature packed AUR helper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paru"
+    },
+    {
+      "context_snippet": "Feature packed AUR helper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pkgbuild"
+    },
+    {
+      "context_snippet": "Feature packed AUR helper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaourt"
+    }
+  ]
+}

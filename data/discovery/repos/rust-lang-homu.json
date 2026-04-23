@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rust-lang/simpleinfra/github-actions/upload-docker-image@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-lang/homu",
+      "target": "graydon/bors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-lang/homu",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-lang/homu",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-lang/homu",
+      "target": "rust-lang/simpleinfra/github-actions/upload-docker-image@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-lang/homu",
+      "target": "rust-infra",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:45:08.259647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5916
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1118
+    },
+    {
+      "path": "requirements.txt",
+      "size": 326
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A bot that integrates with GitHub and your favorite continuous integration service",
+    "fork": false,
+    "full_name": "rust-lang/homu",
+    "html_url": "https://github.com/rust-lang/homu",
+    "language": "Python",
+    "pushed_at": "2025-11-04T16:09:31Z",
+    "stargazers_count": 212,
+    "topics": [
+      "rust-infra"
+    ],
+    "updated_at": "2026-03-22T18:05:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graydon/bors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Hommando]][Akemi Homura]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-infra"
+    }
+  ]
+}

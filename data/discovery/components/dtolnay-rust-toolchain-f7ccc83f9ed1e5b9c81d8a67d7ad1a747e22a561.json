@@ -1,0 +1,32 @@
+{
+  "component": "dtolnay/rust-toolchain@f7ccc83f9ed1e5b9c81d8a67d7ad1a747e22a561",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typst/typst"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/metrics.yml",
+      "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_benches.yml",
+      "source_repo": "diesel-rs/diesel"
+    }
+  ]
+}

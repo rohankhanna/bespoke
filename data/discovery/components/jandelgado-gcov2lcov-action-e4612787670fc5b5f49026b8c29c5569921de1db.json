@@ -1,0 +1,12 @@
+{
+  "component": "jandelgado/gcov2lcov-action@e4612787670fc5b5f49026b8c29c5569921de1db",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cov.yaml",
+      "source_repo": "nats-io/nats-server"
+    }
+  ]
+}

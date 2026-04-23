@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rust Custom Mutators"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate-context",
+      "text": "The fuzzer afl++ is afl with community patches, qemu 5.1 upgrade, collision-free coverage, enhanced laf-intel & redqueen, AFLfast++ power schedules, MOpt mutators, unicorn_mode, and a lot more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate-context",
+      "text": "Rust Custom Mutators"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate",
+      "text": "Rust Custom Mutators"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9651,
+      "status": "candidate",
+      "text": "brand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9651,
+      "status": "candidate",
+      "text": "eat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9651,
+      "status": "candidate",
+      "text": "eats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9651,
+      "status": "candidate",
+      "text": "rusted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9651,
+      "status": "candidate",
+      "text": "rustiness"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rust Custom Mutators",
+  "concept_id": "rust-custom-mutators",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rust_custom_mutator.yml",
+      "source_repo": "AFLplusplus/AFLplusplus"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rust Custom Mutators",
+      "sense_id": "rust-custom-mutators#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

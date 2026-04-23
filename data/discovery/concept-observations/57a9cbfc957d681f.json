@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Terraform module to create a responsive Maintenance Page using Cloudflare Workers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Terraform module to create a responsive **Maintenance Page** using Cloudflare Workers."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Terraform module to create a responsive **Maintenance Page** using Cloudflare Workers."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloudflare-workers",
+      "sense_id": "cloudflare-workers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cloudflare-workers",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cloudflare-workers",
+  "observation_id": "57a9cbfc957d681f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "cloudflare-workers",
+  "source_context_snippet": "Terraform module to create a responsive **Maintenance Page** using Cloudflare Workers.",
+  "source_file": null,
+  "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+  "source_repo_description": "Terraform module to create a responsive Maintenance Page using Cloudflare Workers."
+}

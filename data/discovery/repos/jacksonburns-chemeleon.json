@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JacksonBurns/chemeleon",
+      "target": "yuyangw/molclr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:30:41.510596+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CheMeleon Descriptor-based Foundation Model",
+    "fork": false,
+    "full_name": "JacksonBurns/chemeleon",
+    "html_url": "https://github.com/JacksonBurns/chemeleon",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-11T03:29:21Z",
+    "stargazers_count": 130,
+    "topics": [],
+    "updated_at": "2026-04-20T07:20:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuyangw/molclr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

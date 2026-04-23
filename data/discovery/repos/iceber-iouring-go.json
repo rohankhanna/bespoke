@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iceber/iouring-go",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iceber/iouring-go",
+      "target": "io-uring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Iceber/iouring-go",
+      "target": "iouring",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:40:12.465085+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3971
+    },
+    {
+      "path": "go.mod",
+      "size": 106
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Provides easy-to-use async IO interface with io_uring",
+    "fork": false,
+    "full_name": "Iceber/iouring-go",
+    "html_url": "https://github.com/Iceber/iouring-go",
+    "language": "Go",
+    "pushed_at": "2023-11-20T10:06:37Z",
+    "stargazers_count": 700,
+    "topics": [
+      "go",
+      "golang",
+      "io-uring",
+      "iouring"
+    ],
+    "updated_at": "2026-04-19T15:50:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[io_uring](http://kernel.dk/io_uring.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[io_uring](http://kernel.dk/io_uring.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "io-uring"
+    },
+    {
+      "context_snippet": "[io_uring](http://kernel.dk/io_uring.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iouring"
+    }
+  ]
+}

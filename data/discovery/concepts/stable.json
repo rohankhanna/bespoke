@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "akavel/rsrc",
       "status": "candidate-context",
       "text": "rsrc - Tool for embedding binary resources in Go programs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clux/muslrust",
+      "status": "candidate-context",
+      "text": "Docker environment for building musl based static rust binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clux/muslrust",
+      "status": "candidate-context",
+      "text": "stable"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "akavel/rsrc",
       "status": "candidate",
       "text": "rsrc - Tool for embedding binary resources in Go programs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clux/muslrust",
+      "status": "candidate",
+      "text": "stable"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +132,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "akavel/rsrc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stable.yml",
+      "source_repo": "clux/muslrust"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

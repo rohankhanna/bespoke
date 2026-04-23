@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ADaM-BJTU/AutoCoA",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:11.353634+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11979
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AutoCoA (Automatic generation of Chain-of-Action) is an agent model framework that enhances the multi-turn tool usage capability of reasoning models. ",
+    "fork": false,
+    "full_name": "ADaM-BJTU/AutoCoA",
+    "html_url": "https://github.com/ADaM-BJTU/AutoCoA",
+    "language": "Python",
+    "pushed_at": "2025-03-18T09:16:01Z",
+    "stargazers_count": 132,
+    "topics": [],
+    "updated_at": "2026-04-14T13:56:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

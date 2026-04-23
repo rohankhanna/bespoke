@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:34:55.239826+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 535
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 677
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Rust API for NSS primarily for use in Gecko",
+    "fork": false,
+    "full_name": "mozilla/nss-gk-api",
+    "html_url": "https://github.com/mozilla/nss-gk-api",
+    "language": "Rust",
+    "pushed_at": "2023-06-14T20:17:41Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-08-05T03:51:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

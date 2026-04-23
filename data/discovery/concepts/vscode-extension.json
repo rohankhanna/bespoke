@@ -82,6 +82,66 @@
       "source_repo": "fwcd/vscode-kotlin",
       "status": "candidate-context",
       "text": "[![Version](https://raster.shields.io/visual-studio-marketplace/v/fwcd.kotlin)](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VSCodeVim/Vim",
+      "status": "candidate-context",
+      "text": ":star: Vim for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodeVim/Vim",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"><img src=\"https://raw.githubusercontent.com/VSCodeVim/Vim/master/images/icon.png\" height=\"128\"><br>VSCodeVim</h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy-vscode-extension",
+      "status": "candidate-context",
+      "text": "A VS Code Extension for Trivy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-vscode-extension",
+      "status": "candidate-context",
+      "text": "![Deploy Extension](https://github.com/aquasecurity/trivy-vscode-extension/workflows/Deploy%20Extension/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamiBs/vscode-terraform-live-graph",
+      "status": "candidate-context",
+      "text": "The Terraform Live Graph Extension for Visual Studio Code is a plugin that allows you to generate a live Terraform graph as you code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamiBs/vscode-terraform-live-graph",
+      "status": "candidate-context",
+      "text": "[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](./LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matepek/vscode-catch2-test-adapter",
+      "status": "candidate-context",
+      "text": "Catch2, Google Test and doctest Adapter for the VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matepek/vscode-catch2-test-adapter",
+      "status": "candidate-context",
+      "text": "Announcment: Looking for contributors to polish:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-js-debug",
+      "status": "candidate-context",
+      "text": "A DAP-compatible JavaScript debugger. Used in VS Code, VS, + more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-js-debug",
+      "status": "candidate-context",
+      "text": "<h1>"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +180,36 @@
       "source_repo": "fwcd/vscode-kotlin",
       "status": "candidate",
       "text": "[![Version](https://raster.shields.io/visual-studio-marketplace/v/fwcd.kotlin)](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodeVim/Vim",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"><img src=\"https://raw.githubusercontent.com/VSCodeVim/Vim/master/images/icon.png\" height=\"128\"><br>VSCodeVim</h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-vscode-extension",
+      "status": "candidate",
+      "text": "![Deploy Extension](https://github.com/aquasecurity/trivy-vscode-extension/workflows/Deploy%20Extension/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamiBs/vscode-terraform-live-graph",
+      "status": "candidate",
+      "text": "[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](./LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matepek/vscode-catch2-test-adapter",
+      "status": "candidate",
+      "text": "Announcment: Looking for contributors to polish:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-js-debug",
+      "status": "candidate",
+      "text": "<h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -169,11 +259,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "fwcd/vscode-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "VSCodeVim/Vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy-vscode-extension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "adamiBs/vscode-terraform-live-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "matepek/vscode-catch2-test-adapter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

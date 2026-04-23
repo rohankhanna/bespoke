@@ -19,12 +19,30 @@
       "source_repo": "electron/forge",
       "status": "candidate-context",
       "text": "API Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-lc",
+      "status": "candidate-context",
+      "text": "AWS-LC is a general-purpose cryptographic library maintained by the AWS Cryptography team for AWS and their customers. It \u0456s based on code from the Google BoringSSL project and the OpenSSL project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-lc",
+      "status": "candidate-context",
+      "text": "API Documentation"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "electron/forge",
+      "status": "candidate",
+      "text": "API Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-lc",
       "status": "candidate",
       "text": "API Documentation"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/gh-pages.yml",
       "source_repo": "electron/forge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/api-docs.yml",
+      "source_repo": "aws/aws-lc"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

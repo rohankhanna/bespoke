@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+      "target": "hashicorp/setup-terraform@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+      "target": "cloudflare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+      "target": "cloudflare-workers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+      "target": "maintenance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+      "target": "web-development",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:43:09.532343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5089
+    },
+    {
+      "path": "package.json",
+      "size": 772
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 517
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Terraform module to create a responsive Maintenance Page using Cloudflare Workers.",
+    "fork": false,
+    "full_name": "adinhodovic/terraform-cloudflare-maintenance",
+    "html_url": "https://github.com/adinhodovic/terraform-cloudflare-maintenance",
+    "language": "HCL",
+    "pushed_at": "2026-04-10T03:34:31Z",
+    "stargazers_count": 128,
+    "topics": [
+      "cloudflare",
+      "cloudflare-workers",
+      "devops",
+      "maintenance",
+      "terraform",
+      "web-development"
+    ],
+    "updated_at": "2026-02-28T14:40:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Terraform module to create a responsive **Maintenance Page** using Cloudflare Workers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudflare"
+    },
+    {
+      "context_snippet": "Terraform module to create a responsive **Maintenance Page** using Cloudflare Workers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudflare-workers"
+    },
+    {
+      "context_snippet": "Terraform module to create a responsive **Maintenance Page** using Cloudflare Workers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "Terraform module to create a responsive **Maintenance Page** using Cloudflare Workers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maintenance"
+    },
+    {
+      "context_snippet": "Terraform module to create a responsive **Maintenance Page** using Cloudflare Workers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    },
+    {
+      "context_snippet": "Terraform module to create a responsive **Maintenance Page** using Cloudflare Workers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-development"
+    }
+  ]
+}

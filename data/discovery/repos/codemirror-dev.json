@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "@codemirror/buildhelper",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "esmoduleserve",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "serve-static",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "getdocs-ts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "builddocs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "codemirror/dev",
+      "target": "codemirror/codemirror.next",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "codemirror/dev",
+      "target": "@codemirror/buildhelper",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "codemirror/dev",
+      "target": "esmoduleserve",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "codemirror/dev",
+      "target": "serve-static",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "codemirror/dev",
+      "target": "getdocs-ts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "codemirror/dev",
+      "target": "builddocs",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:32:30.418969+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1589
+    },
+    {
+      "path": "package.json",
+      "size": 679
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Development repository for the CodeMirror editor project",
+    "fork": false,
+    "full_name": "codemirror/dev",
+    "html_url": "https://github.com/codemirror/dev",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-15T10:24:43Z",
+    "stargazers_count": 7834,
+    "topics": [],
+    "updated_at": "2026-04-22T09:52:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codemirror/codemirror.next",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

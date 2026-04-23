@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mhartington/nvim-typescript",
+      "target": "herringtondarkholme/yats.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhartington/nvim-typescript",
+      "target": "neovim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:30:14.604037+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Typescript tooling for Neovim",
+    "fork": false,
+    "full_name": "mhartington/nvim-typescript",
+    "html_url": "https://github.com/mhartington/nvim-typescript",
+    "language": "TypeScript",
+    "pushed_at": "2021-07-28T14:13:48Z",
+    "stargazers_count": 612,
+    "topics": [
+      "neovim",
+      "typescript"
+    ],
+    "updated_at": "2026-04-18T04:39:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "herringtondarkholme/yats.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The time has finally come. Since Neovim 0.5 is out, and LSP is officially supported, I'd suggest you migrate over to it. I have been using it instead of this plugin for a while and it solves many pain points that I've not been able to. This will stay around for older neovim rele\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    }
+  ]
+}

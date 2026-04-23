@@ -1,0 +1,22 @@
+{
+  "component": "nuget/setup-nuget@v1",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "OmniSharp/omnisharp-roslyn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests-net6.yml",
+      "source_repo": "OmniSharp/omnisharp-roslyn"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "OmniSharp/omnisharp-roslyn"
+    }
+  ]
+}

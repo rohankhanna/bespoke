@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Base branch checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "status": "candidate-context",
+      "text": ".NET API reference documentation (.NET 5+, .NET Core, .NET Framework)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "status": "candidate-context",
+      "text": "Base branch checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "status": "candidate",
+      "text": "Base branch checker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26439,
+      "status": "candidate",
+      "text": "offset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26439,
+      "status": "candidate",
+      "text": "stolon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26419,
+      "status": "candidate",
+      "text": "knot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26419,
+      "status": "candidate",
+      "text": "sheath"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26039,
+      "status": "candidate",
+      "text": "snag"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Base branch checker",
+  "concept_id": "base-branch-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/live-protection.yml",
+      "source_repo": "dotnet/dotnet-api-docs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Base branch checker",
+      "sense_id": "base-branch-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -127,6 +127,138 @@
       "source_repo": "fish-shell/fish-shell",
       "status": "candidate-context",
       "text": ".. |Cirrus CI| image:: https://api.cirrus-ci.com/github/fish-shell/fish-shell.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gf3/dotfiles",
+      "status": "candidate-context",
+      "text": "Configurations for the tools I use every day"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gf3/dotfiles",
+      "status": "candidate-context",
+      "text": "This repository contains the configuration files for the tools I use day-to-day."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "starship/starship",
+      "status": "candidate-context",
+      "text": "\u2604\ud83c\udf0c\ufe0f  The minimal, blazing-fast, and infinitely customizable prompt for any shell!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starship/starship",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jorgebucaran/awsm.fish",
+      "status": "candidate-context",
+      "text": "A curation of prompts, plugins & other Fish treasures \ud83d\udc1a\ud83d\udc8e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jorgebucaran/awsm.fish",
+      "status": "candidate-context",
+      "text": "> Fish is the sassy & user-friendly command line shell you never knew you needed for Linux, macOS, and the whole gang. Out with the old-fashioned shells that skimp on features for the sake of every last byte of RAM\u2014finally, a command line shell for the 90s!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oh-my-fish/packages-main",
+      "status": "candidate-context",
+      "text": "Primary Oh My Fish package repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/packages-main",
+      "status": "candidate-context",
+      "text": "Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate-context",
+      "text": "nvm wrapper for fish-shell "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate-context",
+      "text": "[NVM] wrapper for fish-shell."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "A smarter cd command. Supports all major shells."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "status": "candidate-context",
+      "text": "vits2 backbone with multilingual-bert"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reujab/silver",
+      "status": "candidate-context",
+      "text": "A cross-shell customizable powerline-like prompt with icons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reujab/silver",
+      "status": "candidate-context",
+      "text": "[package] name = \"silver\" version = \"2.0.1\" authors = [\"reujab <reujab@gmail.com>\"] description = \"A cross-shell customizable powerline-like prompt with icons\" repository = \"https://github.com/reujab/silver\" readme = \"readme.md\" keywords = [\"shell\", \"prompt\", \"powerline\", \"agnos\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinmayer/virtualfish",
+      "status": "candidate-context",
+      "text": "Fish shell tool for managing Python virtual environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmayer/virtualfish",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/justinmayer/virtualfish/main.yml?branch=main)](https://github.com/justinmayer/virtualfish/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danhper/fundle",
+      "status": "candidate-context",
+      "text": "A minimalist package manager for fish shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danhper/fundle",
+      "status": "candidate-context",
+      "text": "A minimalist package manager for [fish](http://fishshell.com/) inspired by [Vundle](https://github.com/VundleVim/Vundle.vim)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate-context",
+      "text": "base16 for fish shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate-context",
+      "text": "There are multiple projects out there that provide better functionality and are under active development."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +321,72 @@
       "source_repo": "fish-shell/fish-shell",
       "status": "candidate",
       "text": ".. |Cirrus CI| image:: https://api.cirrus-ci.com/github/fish-shell/fish-shell.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gf3/dotfiles",
+      "status": "candidate",
+      "text": "This repository contains the configuration files for the tools I use day-to-day."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "starship/starship",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jorgebucaran/awsm.fish",
+      "status": "candidate",
+      "text": "> Fish is the sassy & user-friendly command line shell you never knew you needed for Linux, macOS, and the whole gang. Out with the old-fashioned shells that skimp on features for the sake of every last byte of RAM\u2014finally, a command line shell for the 90s!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/packages-main",
+      "status": "candidate",
+      "text": "Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate",
+      "text": "[NVM] wrapper for fish-shell."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reujab/silver",
+      "status": "candidate",
+      "text": "[package] name = \"silver\" version = \"2.0.1\" authors = [\"reujab <reujab@gmail.com>\"] description = \"A cross-shell customizable powerline-like prompt with icons\" repository = \"https://github.com/reujab/silver\" readme = \"readme.md\" keywords = [\"shell\", \"prompt\", \"powerline\", \"agnos\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmayer/virtualfish",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/justinmayer/virtualfish/main.yml?branch=main)](https://github.com/justinmayer/virtualfish/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danhper/fundle",
+      "status": "candidate",
+      "text": "A minimalist package manager for [fish](http://fishshell.com/) inspired by [Vundle](https://github.com/VundleVim/Vundle.vim)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate",
+      "text": "There are multiple projects out there that provide better functionality and are under active development."
     }
   ],
   "candidate_related_terms": [
@@ -328,11 +526,77 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "fish-shell/fish-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gf3/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "starship/starship"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jorgebucaran/awsm.fish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "oh-my-fish/packages-main"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "FabioAntunes/fish-nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ajeetdsouza/zoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fishaudio/Bert-VITS2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "reujab/silver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "justinmayer/virtualfish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "danhper/fundle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "FabioAntunes/base16-fish-shell"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

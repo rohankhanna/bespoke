@@ -67,6 +67,18 @@
       "source_repo": "JetBrains/kotlin",
       "status": "candidate-context",
       "text": "The Kotlin Programming Language."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/julia",
+      "status": "candidate-context",
+      "text": "The Julia Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/julia",
+      "status": "candidate-context",
+      "text": "<a name=\"logo\"/>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "JetBrains/kotlin",
       "status": "candidate",
       "text": "The Kotlin Programming Language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/julia",
+      "status": "candidate",
+      "text": "<a name=\"logo\"/>"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "JetBrains/kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/julia"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

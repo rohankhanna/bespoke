@@ -231,28 +231,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "eigenwallet/core",
-      "target": "eigenwallet/arti",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "eigenwallet/core",
-      "target": "eigenwallet/dfx-swiss-rs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "eigenwallet/core",
-      "target": "delta1/rust-jsonrpc-client",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "eigenwallet/core",
-      "target": "eira-fransham/crunchy",
+      "target": "kayabanerve/monero-oxide",
       "target_type": "repository"
     },
     {
@@ -452,7 +431,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:08:06.560870+00:00",
+  "fetched_at": "2026-04-23T06:39:24.330059+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -500,30 +479,15 @@
     "full_name": "eigenwallet/core",
     "html_url": "https://github.com/eigenwallet/core",
     "language": "Rust",
-    "pushed_at": "2026-04-21T12:25:42Z",
-    "stargazers_count": 261,
+    "pushed_at": "2026-04-22T12:25:04Z",
+    "stargazers_count": 262,
     "topics": [],
-    "updated_at": "2026-04-21T08:38:10Z"
+    "updated_at": "2026-04-22T21:44:21Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "delta1/rust-jsonrpc-client",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "eigenwallet/arti",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "eigenwallet/dfx-swiss-rs",
-      "source_file": "Cargo.toml"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "eira-fransham/crunchy",
+      "full_name": "kayabanerve/monero-oxide",
       "source_file": "Cargo.toml"
     }
   ],

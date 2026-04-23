@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Starter template for building ModelFusion terminal apps with TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The ModelFusion Terminal App Starter is a template for creating your own AI terminal app. It is based on the [ModelFusion](https://modelfusion.dev) library and uses OpenAI's `gpt-3.5-turbo-instruct` model to generate text. Follow the steps below to set up your environment."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The ModelFusion Terminal App Starter is a template for creating your own AI terminal app. It is based on the [ModelFusion](https://modelfusion.dev) library and uses OpenAI's `gpt-3.5-turbo-instruct` model to generate text. Follow the steps below to set up your environment."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "modelfusion",
+      "sense_id": "modelfusion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "modelfusion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "modelfusion",
+  "observation_id": "5785b9df7929cbb3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "modelfusion",
+  "source_context_snippet": "The ModelFusion Terminal App Starter is a template for creating your own AI terminal app. It is based on the [ModelFusion](https://modelfusion.dev) library and uses OpenAI's `gpt-3.5-turbo-instruct` model to generate text. Follow the steps below to set up your environment.",
+  "source_file": null,
+  "source_repo": "lgrammel/modelfusion-terminal-app-starter",
+  "source_repo_description": "Starter template for building ModelFusion terminal apps with TypeScript."
+}

@@ -91,6 +91,42 @@
       "source_repo": "babel/website",
       "status": "candidate-context",
       "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/backpack",
+      "status": "candidate-context",
+      "text": "\ud83c\udf92 Backpack is a minimalistic build system for Node.js projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/backpack",
+      "status": "candidate-context",
+      "text": "![backpack](https://cloud.githubusercontent.com/assets/4060187/21872211/318795e8-d835-11e6-8376-bea370605361.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "developit/htm",
+      "status": "candidate-context",
+      "text": "Hyperscript Tagged Markup: JSX alternative using standard tagged templates, with compiler support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/htm",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "privatenumber/esbuild-loader",
+      "status": "candidate-context",
+      "text": "\ud83d\udca0 Speed up your Webpack with esbuild \u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/esbuild-loader",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "babel/website",
       "status": "candidate",
       "text": "This is the source for the [babeljs.io](https://babeljs.io) website; feel free to suggest changes to our docs!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/backpack",
+      "status": "candidate",
+      "text": "![backpack](https://cloud.githubusercontent.com/assets/4060187/21872211/318795e8-d835-11e6-8376-bea370605361.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "developit/htm",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/esbuild-loader",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -228,11 +282,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "babel/website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "developit/htm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "privatenumber/esbuild-loader"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

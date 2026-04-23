@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A lightweight and fast plugin manager for ZSH"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A lightweight yet powerful plugin manager for Zsh."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A lightweight yet powerful plugin manager for Zsh."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ohmyzsh",
+      "sense_id": "ohmyzsh#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ohmyzsh",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ohmyzsh",
+  "observation_id": "44ce83a524847ef7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "ohmyzsh",
+  "source_context_snippet": "A lightweight yet powerful plugin manager for Zsh.",
+  "source_file": null,
+  "source_repo": "jandamm/zgenom",
+  "source_repo_description": "A lightweight and fast plugin manager for ZSH"
+}

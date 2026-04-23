@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:28:16.234845+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "termux/termux-community",
+    "html_url": "https://github.com/termux/termux-community",
+    "language": null,
+    "pushed_at": "2024-07-09T16:16:32Z",
+    "stargazers_count": 50,
+    "topics": [],
+    "updated_at": "2026-04-21T22:22:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

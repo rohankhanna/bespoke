@@ -1,0 +1,12 @@
+{
+  "component": "anthropics/claude-code-action@cd77b50d2b0808657f8e6774085c8bf54484351c",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml",
+      "source_repo": "grafana/alloy"
+    }
+  ]
+}

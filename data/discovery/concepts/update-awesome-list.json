@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update awesome list"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "status": "candidate-context",
+      "text": "\ud83e\udd29 \u6211\u7684star\u5217\u8868\uff0c\u6bcf\u5929\u51cc\u6668\u81ea\u52a8\u66f4\u65b0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "status": "candidate-context",
+      "text": "Update awesome list"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "status": "candidate",
+      "text": "Update awesome list"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18911,
+      "status": "candidate",
+      "text": "maintenance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18886,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18862,
+      "status": "candidate",
+      "text": "bulletin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18862,
+      "status": "candidate",
+      "text": "maintaining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18862,
+      "status": "candidate",
+      "text": "revise"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update awesome list",
+  "concept_id": "update-awesome-list",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/star-list.yml",
+      "source_repo": "eryajf/awesome-stars-eryajf"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update awesome list",
+      "sense_id": "update-awesome-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

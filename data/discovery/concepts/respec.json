@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "respec"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "status": "candidate-context",
+      "text": "The OpenAPI Specification Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "status": "candidate-context",
+      "text": "respec"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "status": "candidate",
+      "text": "respec"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19783890,
+      "status": "candidate",
+      "text": "respecialize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19783889,
+      "status": "candidate",
+      "text": "re-skill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19783888,
+      "status": "candidate",
+      "text": "reskill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19783887,
+      "status": "candidate",
+      "text": "respawn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19783886,
+      "status": "candidate",
+      "text": "remort"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "respec",
+  "concept_id": "respec",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/respec.yaml",
+      "source_repo": "OAI/OpenAPI-Specification"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "respec",
+      "sense_id": "respec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

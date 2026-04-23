@@ -32,6 +32,42 @@
       "source_repo": "preservim/tagbar",
       "status": "candidate-context",
       "text": "Reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-airline/vim-airline",
+      "status": "candidate-context",
+      "text": "lean & mean status/tabline for vim that's light as air"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-airline/vim-airline",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prabirshrestha/vim-lsp",
+      "status": "candidate-context",
+      "text": "async language server protocol plugin for vim and neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/vim-lsp",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "easymotion/vim-easymotion",
+      "status": "candidate-context",
+      "text": "Vim motions on speed!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easymotion/vim-easymotion",
+      "status": "candidate-context",
+      "text": "reviewdog"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +82,24 @@
       "source_repo": "preservim/tagbar",
       "status": "candidate",
       "text": "Reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-airline/vim-airline",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/vim-lsp",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "easymotion/vim-easymotion",
+      "status": "candidate",
+      "text": "reviewdog"
     }
   ],
   "candidate_related_terms": [],
@@ -71,11 +125,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "vim-airline/vim-airline"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "prabirshrestha/vim-lsp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "easymotion/vim-easymotion"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "lens"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "status": "candidate-context",
+      "text": "A tool to convert images from one lens type to another."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/IDLabMedia/image-lens-reproject/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDLabMedia/image-lens-reproject",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/IDLabMedia/image-lens-reproject/build.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28858300,
+      "status": "candidate",
+      "text": "crystalline lens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28858300,
+      "status": "candidate",
+      "text": "electron lens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28858300,
+      "status": "candidate",
+      "text": "genus lens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28858300,
+      "status": "candidate",
+      "text": "lens system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28858271,
+      "status": "candidate",
+      "text": "eyepiece"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24,
+      "status": "candidate",
+      "text": "crystalline lens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "electron lens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "genus lens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "lens system"
+    }
+  ],
+  "canonical_name": "lens",
+  "concept_id": "lens",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/image-lens-reproject"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lens",
+      "sense_id": "lens#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agent-Journal",
+      "target": "agentic-ai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:36:51.055185+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Concept notes for an agent-managed wiki/logbook as part of agentic AI supervision",
+    "fork": false,
+    "full_name": "danielrosehill/Agent-Journal",
+    "html_url": "https://github.com/danielrosehill/Agent-Journal",
+    "language": null,
+    "pushed_at": "2026-04-08T14:15:54Z",
+    "stargazers_count": 0,
+    "topics": [
+      "agentic-ai",
+      "agents"
+    ],
+    "updated_at": "2026-04-08T14:26:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "*Placeholder repo for exploring an idea (and tooling) with Claude.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    }
+  ]
+}

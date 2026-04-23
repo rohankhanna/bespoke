@@ -1,0 +1,356 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesomebot.yml"
+    },
+    {
+      "component": "docker://dkhamsing/awesome_bot:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesomebot.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "0ghny/shellx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "0b10/cheatsheet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "0b10/rc-files",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "0532/wang-iterm-zsh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesomebot.yml",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/awesomebot.yml",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "docker://dkhamsing/awesome_bot:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/awesomebot.yml",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "Check links in ZSH list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "collection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "oh-my-zsh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "zgenom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "zsh-completions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "zsh-configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "zsh-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "zsh-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "zsh-prompt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "target": "zsh-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:42:34.786773+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 471746
+    },
+    {
+      "path": ".github/workflows/awesomebot.yml",
+      "size": 1056
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of ZSH frameworks, plugins, themes and tutorials.",
+    "fork": false,
+    "full_name": "unixorn/awesome-zsh-plugins",
+    "html_url": "https://github.com/unixorn/awesome-zsh-plugins",
+    "language": "Shell",
+    "pushed_at": "2026-04-20T17:02:39Z",
+    "stargazers_count": 17618,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "collection",
+      "hacktoberfest",
+      "list",
+      "oh-my-zsh",
+      "zgenom",
+      "zsh-completions",
+      "zsh-configuration",
+      "zsh-framework",
+      "zsh-plugin",
+      "zsh-prompt",
+      "zsh-theme"
+    ],
+    "updated_at": "2026-04-22T22:42:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0532/wang-iterm-zsh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0b10/cheatsheet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0b10/rc-files",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0ghny/shellx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check links in ZSH list",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/awesomebot.yml",
+      "term": "Check links in ZSH list"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collection"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "list"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oh-my-zsh"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zgenom"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-completions"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-configuration"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-framework"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-plugin"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-prompt"
+    },
+    {
+      "context_snippet": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-theme"
+    }
+  ]
+}

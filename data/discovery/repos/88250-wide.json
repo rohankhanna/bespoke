@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "gulp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-clean-css",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-concat",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-sourcemaps",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-uglify",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "88250/wide",
+      "target": "gulp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "88250/wide",
+      "target": "gulp-clean-css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "88250/wide",
+      "target": "gulp-concat",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "88250/wide",
+      "target": "gulp-sourcemaps",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "88250/wide",
+      "target": "gulp-uglify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "88250/wide",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:36:24.037807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1058
+    },
+    {
+      "path": "go.mod",
+      "size": 650
+    },
+    {
+      "path": "package.json",
+      "size": 847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udf08 \u4e00\u6b3e\u57fa\u4e8e Web \u7684 Go \u8bed\u8a00 IDE\uff0c\u968f\u65f6\u968f\u5730\u73a9 golang\u3002",
+    "fork": false,
+    "full_name": "88250/wide",
+    "html_url": "https://github.com/88250/wide",
+    "language": "JavaScript",
+    "pushed_at": "2025-04-20T03:01:41Z",
+    "stargazers_count": 122,
+    "topics": [
+      "golang",
+      "ide",
+      "web"
+    ],
+    "updated_at": "2026-03-22T01:47:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "* [Wide \u7528\u6237\u6307\u5357](https://ld246.com/article/1538873544275)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

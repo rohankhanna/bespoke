@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "tonsky/firacode",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "spaceship-prompt/spaceship-prompt",
-      "target": "starship/starship",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deps.yaml",
       "source_repo": "spaceship-prompt/spaceship-prompt",
@@ -197,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "spaceship-prompt/spaceship-prompt"
 }

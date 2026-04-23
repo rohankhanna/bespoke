@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "emacscollective/epkg",
+      "target": "Compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "emacscollective/epkg",
+      "target": "Manual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stats.yml",
+      "source_repo": "emacscollective/epkg",
+      "target": "Statistics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:41:25.911425+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/compile.yml",
+      "size": 234
+    },
+    {
+      "path": ".github/workflows/manual.yml",
+      "size": 333
+    },
+    {
+      "path": ".github/workflows/stats.yml",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Browse the Emacsmirror package database",
+    "fork": false,
+    "full_name": "emacscollective/epkg",
+    "html_url": "https://github.com/emacscollective/epkg",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-20T08:35:18Z",
+    "stargazers_count": 59,
+    "topics": [],
+    "updated_at": "2026-04-20T08:35:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Compile",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yml",
+      "term": "Compile"
+    },
+    {
+      "context_snippet": "Manual",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "term": "Manual"
+    },
+    {
+      "context_snippet": "Statistics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stats.yml",
+      "term": "Statistics"
+    }
+  ]
+}

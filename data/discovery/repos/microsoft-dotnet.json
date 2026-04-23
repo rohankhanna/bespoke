@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/dotnet",
+      "target": "adrientorris/awesome-blazor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/dotnet",
+      "target": "dotnet/aspire",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/dotnet",
+      "target": "dotnet/aspnetcore",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/dotnet",
+      "target": "dotnet/aspnetcore.docs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:43:27.361740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4352
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo is the official home of .NET on GitHub. It's a great starting point to find many .NET OSS projects from Microsoft and the community, including many that are part of the .NET Foundation.",
+    "fork": false,
+    "full_name": "microsoft/dotnet",
+    "html_url": "https://github.com/microsoft/dotnet",
+    "language": "HTML",
+    "pushed_at": "2025-09-23T22:36:40Z",
+    "stargazers_count": 15032,
+    "topics": [],
+    "updated_at": "2026-04-22T19:57:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adrientorris/awesome-blazor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/aspire",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/aspnetcore",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/aspnetcore.docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

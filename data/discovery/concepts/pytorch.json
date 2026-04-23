@@ -337,6 +337,390 @@
       "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
       "status": "candidate-context",
       "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coqui-ai/TTS",
+      "status": "candidate-context",
+      "text": "\ud83d\udc38\ud83d\udcac - a deep learning toolkit for Text-to-Speech, battle-tested in research and production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coqui-ai/TTS",
+      "status": "candidate-context",
+      "text": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/pytorch-image-models",
+      "status": "candidate-context",
+      "text": "The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- ResNet, ResNeXT, EfficientNet, NFNet, Vision Transformer (ViT), MobileNetV4, MobileNet-V3 & V2, RegNet, DPN, CSPNet, Swin Transformer, MaxViT, CoAtNet, ConvNeXt, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/pytorch-image-models",
+      "status": "candidate-context",
+      "text": "- [What's New](#whats-new)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/fairseq",
+      "status": "candidate-context",
+      "text": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/fairseq",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer (parallelizable). We are at RWKV-7 \"Goose\". So it's combining the best of RNN and transformer - great performance, linear time, constant space (no kv-cache), fast training, infinite ctx_len, and free sentence embedding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snakers4/silero-models",
+      "status": "candidate-context",
+      "text": "Silero Models: pre-trained text-to-speech models made embarrassingly simple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snakers4/silero-models",
+      "status": "candidate-context",
+      "text": "[![Mailing list : test](http://img.shields.io/badge/Email-gray.svg?style=for-the-badge&logo=gmail)](mailto:hello@silero.ai) [![Mailing list : test](http://img.shields.io/badge/Telegram-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/silero_speech) [![License: CC BY-NC \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autodistill/autodistill",
+      "status": "candidate-context",
+      "text": "Images to inference with no labeling (use foundation models to train supervised models)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodistill/autodistill",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/detrex",
+      "status": "candidate-context",
+      "text": "detrex is a research platform for DETR-based object detection, segmentation, pose estimation and other visual recognition tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/detrex",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate-context",
+      "text": "A library for accelerating Transformer models on NVIDIA GPUs, including using 8-bit and 4-bit floating point (FP8 and FP4) precision on Hopper, Ada and Blackwell GPUs, to provide better performance with lower memory utilization in both training and inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate-context",
+      "text": ".."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "status": "candidate-context",
+      "text": "Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmagic",
+      "status": "candidate-context",
+      "text": "OpenMMLab Multimodal Advanced, Generative, and Intelligent Creation Toolbox. Unlock the magic \ud83e\ude84: Generative-AI (AIGC), easy-to-use APIs, awsome model zoo, diffusion models, for text-to-image generation, image/video restoration/enhancement, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmagic",
+      "status": "candidate-context",
+      "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmdetection",
+      "status": "candidate-context",
+      "text": "OpenMMLab Detection Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdetection",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmdetection3d",
+      "status": "candidate-context",
+      "text": "OpenMMLab's next-generation platform for general 3D object detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdetection3d",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmengine",
+      "status": "candidate-context",
+      "text": "OpenMMLab Foundational Library for Training Deep Learning Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmengine",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ascend/pytorch",
+      "status": "candidate-context",
+      "text": "Ascend PyTorch adapter (torch_npu). Mirror of https://gitcode.com/Ascend/pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ascend/pytorch",
+      "status": "candidate-context",
+      "text": "This repository develops the **Ascend Extension for PyTorch** named **torch_npu** to adapt **Ascend NPU** to **PyTorch** so that developers who use the **PyTorch** can obtain powerful compute capabilities of **Ascend AI Processors**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/EasyNLP",
+      "status": "candidate-context",
+      "text": "EasyNLP: A Comprehensive and Easy-to-use NLP Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/EasyNLP",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TensorRT-LLM",
+      "status": "candidate-context",
+      "text": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT-LLM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "status": "candidate-context",
+      "text": "ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "status": "candidate-context",
+      "text": "RWKV-7 code: https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v7"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "toshas/torch-fidelity",
+      "status": "candidate-context",
+      "text": "High-fidelity performance metrics for generative models in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toshas/torch-fidelity",
+      "status": "candidate-context",
+      "text": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mseitzer/pytorch-fid",
+      "status": "candidate-context",
+      "text": "Compute FID scores with PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mseitzer/pytorch-fid",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/pytorch-fid.svg)](https://pypi.org/project/pytorch-fid/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yang-song/score_sde_pytorch",
+      "status": "candidate-context",
+      "text": "PyTorch implementation for Score-Based Generative Modeling through Stochastic Differential Equations (ICLR 2021, Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yang-song/score_sde_pytorch",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/score-based-generative-modeling-through-1/image-generation-on-cifar-10)](https://paperswithcode.com/sota/image-generation-on-cifar-10?p=score-based-generative-modeling-through-1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenNMT/OpenNMT-py",
+      "status": "candidate-context",
+      "text": "Open Source Neural Machine Translation and (Large) Language Models in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenNMT/OpenNMT-py",
+      "status": "candidate-context",
+      "text": "We started a new project [Eole](https://eole-nlp.github.io/eole/) available on [Github](https://github.com/eole-nlp/eole)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fatchord/WaveRNN",
+      "status": "candidate-context",
+      "text": "WaveRNN Vocoder + TTS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatchord/WaveRNN",
+      "status": "candidate-context",
+      "text": "![Tacotron with WaveRNN diagrams](assets/tacotron_wavernn.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daniilrobnikov/vits2",
+      "status": "candidate-context",
+      "text": "VITS2: Improving Quality and Efficiency of Single-Stage Text-to-Speech with Adversarial Learning and Architecture Design"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daniilrobnikov/vits2",
+      "status": "candidate-context",
+      "text": "Single-stage text-to-speech models have been actively studied recently, and their results have outperformed two-stage pipeline systems. Although the previous single-stage model has made great progress, there is room for improvement in terms of its intermittent unnaturalness, com\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kakaobrain/torchgpipe",
+      "status": "candidate-context",
+      "text": "A GPipe implementation in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kakaobrain/torchgpipe",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/torchgpipe.svg)](https://pypi.org/project/torchgpipe)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petuum/adaptdl",
+      "status": "candidate-context",
+      "text": "Resource-adaptive cluster scheduler for deep learning training."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petuum/adaptdl",
+      "status": "candidate-context",
+      "text": "Release Helm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/allennlp",
+      "status": "candidate-context",
+      "text": "An open-source NLP research library, built on PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/allennlp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moskomule/anatome",
+      "status": "candidate-context",
+      "text": "\u1f08\u03bd\u03b1\u03c4\u03bf\u03bc\u03ae is a PyTorch library to analyze representation of neural networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moskomule/anatome",
+      "status": "candidate-context",
+      "text": "\u1f08\u03bd\u03b1\u03c4\u03bf\u03bc\u03ae is a PyTorch library to analyze internal representation of neural networks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "art-programmer/FloorplanTransformation",
+      "status": "candidate-context",
+      "text": "Raster-to-Vector: Revisiting Floorplan Transformation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "art-programmer/FloorplanTransformation",
+      "status": "candidate-context",
+      "text": "By Chen Liu, Jiajun Wu, Pushmeet Kohli, and Yasutaka Furukawa"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/onnxruntime",
+      "status": "candidate-context",
+      "text": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"50%\" src=\"docs/images/ONNX_Runtime_logo_dark.png\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyg-team/pytorch_geometric",
+      "status": "candidate-context",
+      "text": "Graph Neural Network Library for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyg-team/pytorch_geometric",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/CogDL",
+      "status": "candidate-context",
+      "text": "CogDL: A Comprehensive Library for Graph Deep Learning (WWW 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/CogDL",
+      "status": "candidate-context",
+      "text": "![CogDL](./docs/source/_static/cogdl-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/ultralytics",
+      "status": "candidate-context",
+      "text": "Ultralytics YOLO \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/ultralytics",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -501,6 +885,198 @@
       "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix",
       "status": "candidate",
       "text": "<img src='imgs/horse2zebra.gif' align=\"right\" width=384>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coqui-ai/TTS",
+      "status": "candidate",
+      "text": "- \ud83d\udce3 \u24cdTTSv2 is here with 16 languages and better performance across the board."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/pytorch-image-models",
+      "status": "candidate",
+      "text": "- [What's New](#whats-new)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/fairseq",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snakers4/silero-models",
+      "status": "candidate",
+      "text": "[![Mailing list : test](http://img.shields.io/badge/Email-gray.svg?style=for-the-badge&logo=gmail)](mailto:hello@silero.ai) [![Mailing list : test](http://img.shields.io/badge/Telegram-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/silero_speech) [![License: CC BY-NC \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodistill/autodistill",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/detrex",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate",
+      "text": ".."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmagic",
+      "status": "candidate",
+      "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdetection",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdetection3d",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmengine",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ascend/pytorch",
+      "status": "candidate",
+      "text": "This repository develops the **Ascend Extension for PyTorch** named **torch_npu** to adapt **Ascend NPU** to **PyTorch** so that developers who use the **PyTorch** can obtain powerful compute capabilities of **Ascend AI Processors**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/EasyNLP",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT-LLM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "status": "candidate",
+      "text": "RWKV-7 code: https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toshas/torch-fidelity",
+      "status": "candidate",
+      "text": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mseitzer/pytorch-fid",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/pytorch-fid.svg)](https://pypi.org/project/pytorch-fid/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yang-song/score_sde_pytorch",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/score-based-generative-modeling-through-1/image-generation-on-cifar-10)](https://paperswithcode.com/sota/image-generation-on-cifar-10?p=score-based-generative-modeling-through-1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenNMT/OpenNMT-py",
+      "status": "candidate",
+      "text": "We started a new project [Eole](https://eole-nlp.github.io/eole/) available on [Github](https://github.com/eole-nlp/eole)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fatchord/WaveRNN",
+      "status": "candidate",
+      "text": "![Tacotron with WaveRNN diagrams](assets/tacotron_wavernn.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daniilrobnikov/vits2",
+      "status": "candidate",
+      "text": "Single-stage text-to-speech models have been actively studied recently, and their results have outperformed two-stage pipeline systems. Although the previous single-stage model has made great progress, there is room for improvement in terms of its intermittent unnaturalness, com\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kakaobrain/torchgpipe",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/torchgpipe.svg)](https://pypi.org/project/torchgpipe)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petuum/adaptdl",
+      "status": "candidate",
+      "text": "Release Helm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/allennlp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moskomule/anatome",
+      "status": "candidate",
+      "text": "\u1f08\u03bd\u03b1\u03c4\u03bf\u03bc\u03ae is a PyTorch library to analyze internal representation of neural networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "art-programmer/FloorplanTransformation",
+      "status": "candidate",
+      "text": "By Chen Liu, Jiajun Wu, Pushmeet Kohli, and Yasutaka Furukawa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"50%\" src=\"docs/images/ONNX_Runtime_logo_dark.png\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyg-team/pytorch_geometric",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/CogDL",
+      "status": "candidate",
+      "text": "![CogDL](./docs/source/_static/cogdl-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/ultralytics",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -742,11 +1318,221 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "junyanz/pytorch-CycleGAN-and-pix2pix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "snakers4/silero-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "autodistill/autodistill"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/detrex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/TransformerEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdetection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdetection3d"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmengine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Ascend/pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/EasyNLP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/TensorRT-LLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BlinkDL/ChatRWKV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "toshas/torch-fidelity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mseitzer/pytorch-fid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "yang-song/score_sde_pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "OpenNMT/OpenNMT-py"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fatchord/WaveRNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "daniilrobnikov/vits2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kakaobrain/torchgpipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "petuum/adaptdl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "allenai/allennlp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "moskomule/anatome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "art-programmer/FloorplanTransformation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/onnxruntime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/CogDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ultralytics/ultralytics"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

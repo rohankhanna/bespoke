@@ -1,0 +1,208 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-boost-test.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-boost-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/foundationdb",
+      "target": "foundationdb/fdb-build-support",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/foundationdb",
+      "target": "maskray/ccls",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apple/foundationdb",
+      "target": "cquery-project/cquery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "apple/foundationdb",
+      "target": "actions/stale@b5d41d4e1d5dceea10e7104786b73624c18a190f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "apple/foundationdb",
+      "target": "Close stale pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-boost-test.yml",
+      "source_repo": "apple/foundationdb",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-boost-test.yml",
+      "source_repo": "apple/foundationdb",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-boost-test.yml",
+      "source_repo": "apple/foundationdb",
+      "target": "Windows Boost CONFIG Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/foundationdb",
+      "target": "acid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/foundationdb",
+      "target": "distributed-database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/foundationdb",
+      "target": "foundationdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/foundationdb",
+      "target": "key-value-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apple/foundationdb",
+      "target": "transactional",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:37:52.649268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12032
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 733
+    },
+    {
+      "path": ".github/workflows/windows-boost-test.yml",
+      "size": 1307
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FoundationDB - the open source, distributed, transactional key-value store",
+    "fork": false,
+    "full_name": "apple/foundationdb",
+    "html_url": "https://github.com/apple/foundationdb",
+    "language": "C++",
+    "pushed_at": "2026-04-23T06:52:40Z",
+    "stargazers_count": 16272,
+    "topics": [
+      "acid",
+      "distributed-database",
+      "foundationdb",
+      "key-value-store",
+      "transactional"
+    ],
+    "updated_at": "2026-04-23T06:52:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cquery-project/cquery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "foundationdb/fdb-build-support",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maskray/ccls",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Close stale pull requests'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale pull requests"
+    },
+    {
+      "context_snippet": "Windows Boost CONFIG Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-boost-test.yml",
+      "term": "Windows Boost CONFIG Test"
+    },
+    {
+      "context_snippet": "<img alt=\"FoundationDB logo\" src=\"documentation/FDB_logo.png?raw=true\" width=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "acid"
+    },
+    {
+      "context_snippet": "<img alt=\"FoundationDB logo\" src=\"documentation/FDB_logo.png?raw=true\" width=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-database"
+    },
+    {
+      "context_snippet": "<img alt=\"FoundationDB logo\" src=\"documentation/FDB_logo.png?raw=true\" width=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundationdb"
+    },
+    {
+      "context_snippet": "<img alt=\"FoundationDB logo\" src=\"documentation/FDB_logo.png?raw=true\" width=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-value-store"
+    },
+    {
+      "context_snippet": "<img alt=\"FoundationDB logo\" src=\"documentation/FDB_logo.png?raw=true\" width=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transactional"
+    }
+  ]
+}

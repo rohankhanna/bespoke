@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "rust-lang-deprecated/rustc-serialize",
+      "target": "rust-lang/rustc-serialize",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:41:27.056079+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 983
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Deprecated serialization/deserialization for Rust",
+    "fork": false,
+    "full_name": "rust-lang-deprecated/rustc-serialize",
+    "html_url": "https://github.com/rust-lang-deprecated/rustc-serialize",
+    "language": "Rust",
+    "pushed_at": "2023-12-01T09:51:55Z",
+    "stargazers_count": 175,
+    "topics": [],
+    "updated_at": "2025-04-03T06:37:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/rustc-serialize",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,354 @@
+{
+  "components": [
+    {
+      "component": "@abaplint/cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@abaplint/database-sqlite",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@abaplint/runtime",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@abaplint/transpiler-cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "abapmerge",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editorconfig.yml"
+    },
+    {
+      "component": "editorconfig-checker/action-editorconfig-checker@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editorconfig.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-schema.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-schema.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-standalone.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-standalone.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-standalone.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-standalone.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-standalone.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-standalone.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "@abaplint/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "@abaplint/database-sqlite",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "@abaplint/runtime",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "@abaplint/transpiler-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "abapmerge",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "editorconfig-checker/action-editorconfig-checker@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "EditorConfig",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-schema.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-schema.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "Homebrew/actions/setup-homebrew@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "unit-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-standalone.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-standalone.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload-standalone.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-standalone.yml",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "standalone-program",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "abap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SAP/abap-file-formats-tools",
+      "target": "abap-file-formats",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:39:12.862434+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2946
+    },
+    {
+      "path": "package.json",
+      "size": 1901
+    },
+    {
+      "path": ".github/workflows/editorconfig.yml",
+      "size": 743
+    },
+    {
+      "path": ".github/workflows/generate-schema.yml",
+      "size": 291
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 873
+    },
+    {
+      "path": ".github/workflows/unit-test.yml",
+      "size": 254
+    },
+    {
+      "path": ".github/workflows/upload-standalone.yml",
+      "size": 885
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tools for the development of ABAP file formats",
+    "fork": false,
+    "full_name": "SAP/abap-file-formats-tools",
+    "html_url": "https://github.com/SAP/abap-file-formats-tools",
+    "language": "ABAP",
+    "pushed_at": "2026-04-23T06:54:54Z",
+    "stargazers_count": 28,
+    "topics": [
+      "abap",
+      "abap-file-formats"
+    ],
+    "updated_at": "2026-04-08T14:31:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "EditorConfig",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/editorconfig.yml",
+      "term": "EditorConfig"
+    },
+    {
+      "context_snippet": "publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "publish"
+    },
+    {
+      "context_snippet": "unit-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "term": "unit-test"
+    },
+    {
+      "context_snippet": "standalone-program",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload-standalone.yml",
+      "term": "standalone-program"
+    },
+    {
+      "context_snippet": "[![REUSE status](https://api.reuse.software/badge/github.com/SAP/abap-file-formats-tools)](https://api.reuse.software/info/github.com/SAP/abap-file-formats-tools)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap"
+    },
+    {
+      "context_snippet": "[![REUSE status](https://api.reuse.software/badge/github.com/SAP/abap-file-formats-tools)](https://api.reuse.software/info/github.com/SAP/abap-file-formats-tools)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap-file-formats"
+    }
+  ]
+}

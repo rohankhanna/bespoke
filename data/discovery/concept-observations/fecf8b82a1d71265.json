@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ChatGPT Lite is a feature-rich, self-hostable ChatGPT app. Built with Next.js.  ChatGPT Lite \u662f\u4e00\u4e2a\u529f\u80fd\u5b8c\u6574\u3001\u652f\u6301\u79c1\u6709\u5316\u90e8\u7f72\u7684 ChatGPT \u5e94\u7528\u3002\u57fa\u4e8e Next.js\uff0c\u5f00\u7bb1\u5373\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chatbot-gui",
+      "sense_id": "chatbot-gui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chatbot-gui",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chatbot-gui",
+  "observation_id": "fecf8b82a1d71265",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "chatbot-gui",
+  "source_context_snippet": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)",
+  "source_file": null,
+  "source_repo": "blrchen/chatgpt-lite",
+  "source_repo_description": "ChatGPT Lite is a feature-rich, self-hostable ChatGPT app. Built with Next.js.  ChatGPT Lite \u662f\u4e00\u4e2a\u529f\u80fd\u5b8c\u6574\u3001\u652f\u6301\u79c1\u6709\u5316\u90e8\u7f72\u7684 ChatGPT \u5e94\u7528\u3002\u57fa\u4e8e Next.js\uff0c\u5f00\u7bb1\u5373\u7528\u3002"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "ci-cann",
   "observation_id": "eb7eb20a3030e6f9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "CI (cann)",
   "source_context_snippet": "CI (cann)",
   "source_file": ".github/workflows/build-cann.yml",

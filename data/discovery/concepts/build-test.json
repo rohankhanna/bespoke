@@ -106,6 +106,54 @@
       "source_repo": "mudler/LocalAI",
       "status": "candidate-context",
       "text": "Build test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter/tree-sitter",
+      "status": "candidate-context",
+      "text": "An incremental parsing system for programming tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter",
+      "status": "candidate-context",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate-context",
+      "text": "Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate-context",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gobackup/gobackup",
+      "status": "candidate-context",
+      "text": "\ud83d\uddc4 CLI tool for backup your databases, files to cloud storages in schedully."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobackup/gobackup",
+      "status": "candidate-context",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "Official Docker Image for Node.js :whale: :turtle: :rocket: "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "build-test"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +204,30 @@
       "source_repo": "mudler/LocalAI",
       "status": "candidate",
       "text": "Build test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobackup/gobackup",
+      "status": "candidate",
+      "text": "Build & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate",
+      "text": "build-test"
     }
   ],
   "candidate_related_terms": [
@@ -277,11 +349,53 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/build-test.yaml",
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tree-sitter/tree-sitter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-and-test.workflow.yml",
+      "source_repo": "butlerx/wetty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-test.yml",
+      "source_repo": "nodejs/docker-node"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

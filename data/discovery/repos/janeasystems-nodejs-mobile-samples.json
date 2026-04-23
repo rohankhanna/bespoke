@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:45:04.898592+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Repository for demo applications that use Node.js on Mobile",
+    "fork": false,
+    "full_name": "JaneaSystems/nodejs-mobile-samples",
+    "html_url": "https://github.com/JaneaSystems/nodejs-mobile-samples",
+    "language": "C",
+    "pushed_at": "2023-01-03T21:47:37Z",
+    "stargazers_count": 179,
+    "topics": [],
+    "updated_at": "2025-09-15T07:44:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

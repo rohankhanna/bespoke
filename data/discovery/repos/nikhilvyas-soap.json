@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nikhilvyas/SOAP",
+      "target": "haydn-jones/soap_jax",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:40:01.553174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1020
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "nikhilvyas/SOAP",
+    "html_url": "https://github.com/nikhilvyas/SOAP",
+    "language": "Python",
+    "pushed_at": "2024-12-02T21:21:33Z",
+    "stargazers_count": 264,
+    "topics": [],
+    "updated_at": "2026-04-20T13:21:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haydn-jones/soap_jax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

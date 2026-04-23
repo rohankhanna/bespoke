@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jorgebucaran/awsm.fish",
+      "target": "danhper/fundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jorgebucaran/awsm.fish",
+      "target": "adambrenecki/virtualfish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jorgebucaran/awsm.fish",
+      "target": "acomagu/fish-async-prompt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jorgebucaran/awsm.fish",
+      "target": "fabioantunes/base16-fish-shell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jorgebucaran/awsm.fish",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jorgebucaran/awsm.fish",
+      "target": "fish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jorgebucaran/awsm.fish",
+      "target": "fish-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:42:57.266868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A curation of prompts, plugins & other Fish treasures \ud83d\udc1a\ud83d\udc8e",
+    "fork": false,
+    "full_name": "jorgebucaran/awsm.fish",
+    "html_url": "https://github.com/jorgebucaran/awsm.fish",
+    "language": null,
+    "pushed_at": "2026-01-25T05:07:30Z",
+    "stargazers_count": 4941,
+    "topics": [
+      "awesome",
+      "fish",
+      "fish-plugin"
+    ],
+    "updated_at": "2026-04-23T02:44:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acomagu/fish-async-prompt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adambrenecki/virtualfish",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danhper/fundle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fabioantunes/base16-fish-shell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Fish is the sassy & user-friendly command line shell you never knew you needed for Linux, macOS, and the whole gang. Out with the old-fashioned shells that skimp on features for the sake of every last byte of RAM\u2014finally, a command line shell for the 90s!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "> Fish is the sassy & user-friendly command line shell you never knew you needed for Linux, macOS, and the whole gang. Out with the old-fashioned shells that skimp on features for the sake of every last byte of RAM\u2014finally, a command line shell for the 90s!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish"
+    },
+    {
+      "context_snippet": "> Fish is the sassy & user-friendly command line shell you never knew you needed for Linux, macOS, and the whole gang. Out with the old-fashioned shells that skimp on features for the sake of every last byte of RAM\u2014finally, a command line shell for the 90s!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish-plugin"
+    }
+  ]
+}

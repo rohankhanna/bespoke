@@ -4,14 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "brody2consult/react-native-module-init",
-      "target": "frostney/react-native-create-library",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "brody2consult/react-native-module-init",
-      "target": "react-native-community/cli",
+      "target": "terkelg/prompts",
       "target_type": "repository"
     },
     {
@@ -26,6 +19,13 @@
       "source_file": "README.md",
       "source_repo": "brody2consult/react-native-module-init",
       "target": "react-native-community/bob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "brody2consult/react-native-module-init",
+      "target": "brodybits/react-native-module-init",
       "target_type": "repository"
     },
     {
@@ -281,6 +281,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "brody2consult/react-native-module-init"
 }

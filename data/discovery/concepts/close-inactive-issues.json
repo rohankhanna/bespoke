@@ -128,6 +128,114 @@
       "source_repo": "ethereum/trin",
       "status": "candidate-context",
       "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fishaudio/fish-speech",
+      "status": "candidate-context",
+      "text": "SOTA Open Source TTS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fishaudio/fish-speech",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-java",
+      "status": "candidate-context",
+      "text": "Database for Android and JVM - first and fast, lightweight on-device vector database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-java",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aaif-goose/goose",
+      "status": "candidate-context",
+      "text": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaif-goose/goose",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/cache",
+      "status": "candidate-context",
+      "text": "Cache dependencies and build outputs in GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/cache",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/graphrag",
+      "status": "candidate-context",
+      "text": "A modular graph-based Retrieval-Augmented Generation (RAG) system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/graphrag",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TensorRT-LLM",
+      "status": "candidate-context",
+      "text": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT-LLM",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate-context",
+      "text": "A library for efficient similarity search and clustering of dense vectors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate-context",
+      "text": "Close Inactive Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cenkalti/backoff",
+      "status": "candidate-context",
+      "text": "\u23f1 The exponential backoff algorithm in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cenkalti/backoff",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-dart",
+      "status": "candidate-context",
+      "text": "Flutter database for super-fast Dart object persistence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
     }
   ],
   "candidate_glosses": [
@@ -188,6 +296,60 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ethereum/trin",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fishaudio/fish-speech",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-java",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aaif-goose/goose",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/cache",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/graphrag",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT-LLM",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate",
+      "text": "Close Inactive Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cenkalti/backoff",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart",
       "status": "candidate",
       "text": "Close inactive issues"
     }
@@ -299,11 +461,71 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "ethereum/trin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "fishaudio/fish-speech"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/close-no-response.yml",
+      "source_repo": "objectbox/objectbox-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/autoclose",
+      "source_repo": "aaif-goose/goose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "actions/cache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/issues-autoresolve.yml",
+      "source_repo": "microsoft/graphrag"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/auto-close-inactive-issues.yml",
+      "source_repo": "NVIDIA/TensorRT-LLM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "facebookresearch/faiss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "cenkalti/backoff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/close-no-response.yml",
+      "source_repo": "objectbox/objectbox-dart"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

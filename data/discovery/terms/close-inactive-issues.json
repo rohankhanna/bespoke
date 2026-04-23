@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -56,6 +56,51 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "ethereum/trin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "fishaudio/fish-speech"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-no-response.yml",
+      "source_repo": "objectbox/objectbox-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/autoclose",
+      "source_repo": "aaif-goose/goose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yml",
+      "source_repo": "actions/cache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issues-autoresolve.yml",
+      "source_repo": "microsoft/graphrag"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/auto-close-inactive-issues.yml",
+      "source_repo": "NVIDIA/TensorRT-LLM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/autoclose.yml",
+      "source_repo": "facebookresearch/faiss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "cenkalti/backoff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/close-no-response.yml",
+      "source_repo": "objectbox/objectbox-dart"
     }
   ],
   "term": "Close inactive issues"

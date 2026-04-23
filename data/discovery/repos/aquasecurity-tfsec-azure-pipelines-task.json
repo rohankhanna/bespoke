@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev.yml",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "azure-devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "azure-devops-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "azure-devops-pipelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "target": "tfsec",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:43:12.455255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 392
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 196
+    },
+    {
+      "path": ".github/workflows/package.yml",
+      "size": 241
+    },
+    {
+      "path": ".github/workflows/publish-dev.yml",
+      "size": 430
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Azure DevOps Task for tfsec",
+    "fork": false,
+    "full_name": "aquasecurity/tfsec-azure-pipelines-task",
+    "html_url": "https://github.com/aquasecurity/tfsec-azure-pipelines-task",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-24T03:58:30Z",
+    "stargazers_count": 8,
+    "topics": [
+      "azure-devops",
+      "azure-devops-extension",
+      "azure-devops-pipelines",
+      "hacktoberfest",
+      "security",
+      "tfsec"
+    ],
+    "updated_at": "2025-11-06T17:41:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "An Azure DevOps Pipelines Task for [tfsec](https://github.com/aquasecurity/tfsec), with a bonus integrated UI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-devops"
+    },
+    {
+      "context_snippet": "An Azure DevOps Pipelines Task for [tfsec](https://github.com/aquasecurity/tfsec), with a bonus integrated UI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-devops-extension"
+    },
+    {
+      "context_snippet": "An Azure DevOps Pipelines Task for [tfsec](https://github.com/aquasecurity/tfsec), with a bonus integrated UI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure-devops-pipelines"
+    },
+    {
+      "context_snippet": "An Azure DevOps Pipelines Task for [tfsec](https://github.com/aquasecurity/tfsec), with a bonus integrated UI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "An Azure DevOps Pipelines Task for [tfsec](https://github.com/aquasecurity/tfsec), with a bonus integrated UI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "An Azure DevOps Pipelines Task for [tfsec](https://github.com/aquasecurity/tfsec), with a bonus integrated UI.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tfsec"
+    }
+  ]
+}

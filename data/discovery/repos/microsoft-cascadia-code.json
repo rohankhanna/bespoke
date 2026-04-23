@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/cascadia-code",
+      "target": "microsoft/terminal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/cascadia-code",
+      "target": "twardoch/fonttools-opentype-feature-freezer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:40:44.824389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5465
+    },
+    {
+      "path": "requirements.txt",
+      "size": 5562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is a fun, new monospaced font that includes programming ligatures and is designed to enhance the modern look and feel of the Windows Terminal.",
+    "fork": false,
+    "full_name": "microsoft/cascadia-code",
+    "html_url": "https://github.com/microsoft/cascadia-code",
+    "language": "Python",
+    "pushed_at": "2025-03-06T03:26:32Z",
+    "stargazers_count": 27648,
+    "topics": [],
+    "updated_at": "2026-04-23T05:19:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/terminal",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twardoch/fonttools-opentype-feature-freezer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

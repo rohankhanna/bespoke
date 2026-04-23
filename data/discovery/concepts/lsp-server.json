@@ -55,6 +55,30 @@
       "source_repo": "graphql/graphiql",
       "status": "candidate-context",
       "text": "<!-- @format -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "Official Haskell IDE support via the language server protocol (LSP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "![haskell-language-server][logo]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuaLS/lua-language-server",
+      "status": "candidate-context",
+      "text": "A language server that offers Lua language support - programmed in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/lua-language-server",
+      "status": "candidate-context",
+      "text": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "graphql/graphiql",
       "status": "candidate",
       "text": "<!-- @format -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate",
+      "text": "![haskell-language-server][logo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/lua-language-server",
+      "status": "candidate",
+      "text": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "graphql/graphiql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "haskell/haskell-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/lua-language-server"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

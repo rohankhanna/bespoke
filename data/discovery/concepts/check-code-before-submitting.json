@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check code before submitting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "Chrome DevTools for coding agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "Check code before submitting"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate",
+      "text": "Check code before submitting"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44538,
+      "status": "candidate",
+      "text": "anticipate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38167,
+      "status": "candidate",
+      "text": "antedate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37944,
+      "status": "candidate",
+      "text": "presort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35206,
+      "status": "candidate",
+      "text": "reference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34020,
+      "status": "candidate",
+      "text": "referenced"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check code before submitting",
+  "concept_id": "check-code-before-submitting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check code before submitting",
+      "sense_id": "check-code-before-submitting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

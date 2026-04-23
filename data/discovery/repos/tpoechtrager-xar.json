@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:40:34.462376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 2546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "eXtensible ARchiver",
+    "fork": true,
+    "full_name": "tpoechtrager/xar",
+    "html_url": "https://github.com/tpoechtrager/xar",
+    "language": "C",
+    "pushed_at": "2023-12-06T14:56:17Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-01-02T01:01:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

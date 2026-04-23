@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "ethers",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "solc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ricmoo/multicall",
+      "target": "ethers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ricmoo/multicall",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ricmoo/multicall",
+      "target": "solc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ricmoo/multicall",
+      "target": "typescript",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:28:40.028678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1448
+    },
+    {
+      "path": "package.json",
+      "size": 725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple multicall contract and library wrapper to aggregate Ethereum calls.",
+    "fork": false,
+    "full_name": "ricmoo/multicall",
+    "html_url": "https://github.com/ricmoo/multicall",
+    "language": "TypeScript",
+    "pushed_at": "2021-06-09T07:13:45Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2025-07-05T09:19:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

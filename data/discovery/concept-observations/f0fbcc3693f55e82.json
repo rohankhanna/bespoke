@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Catch2, Google Test and doctest Adapter for the VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Announcment: Looking for contributors to polish:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Announcment: Looking for contributors to polish:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "catch2",
+      "sense_id": "catch2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "catch2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "catch2",
+  "observation_id": "f0fbcc3693f55e82",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "catch2",
+  "source_context_snippet": "Announcment: Looking for contributors to polish:",
+  "source_file": null,
+  "source_repo": "matepek/vscode-catch2-test-adapter",
+  "source_repo_description": "Catch2, Google Test and doctest Adapter for the VSCode"
+}

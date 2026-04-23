@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Spec License Map Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/azurelinux",
+      "status": "candidate-context",
+      "text": "Linux OS for Azure 1P services and edge appliances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/azurelinux",
+      "status": "candidate-context",
+      "text": "Spec License Map Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/azurelinux",
+      "status": "candidate",
+      "text": "Spec License Map Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31540,
+      "status": "candidate",
+      "text": "mild"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30973,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30921,
+      "status": "candidate",
+      "text": "demo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30757,
+      "status": "candidate",
+      "text": "clearance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30672,
+      "status": "candidate",
+      "text": "authority"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Spec License Map Check",
+  "concept_id": "spec-license-map-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check-license-map.yml",
+      "source_repo": "microsoft/azurelinux"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Spec License Map Check",
+      "sense_id": "spec-license-map-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

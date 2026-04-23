@@ -25,6 +25,30 @@
       "source_repo": "gohugoio/hugo",
       "status": "candidate-context",
       "text": "[Clang]: https://clang.llvm.org/"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decaporg/one-click-hugo-cms",
+      "status": "candidate-context",
+      "text": "Hugo template with Decap CMS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/one-click-hugo-cms",
+      "status": "candidate-context",
+      "text": "This is a small business template built with [Hugo](https://gohugo.io) and [Decap CMS](https://github.com/decaporg/decap-cms), designed and developed by [Darin Dimitroff](https://twitter.com/deezel), [spacefarm.digital](https://www.spacefarm.digital)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gohugoio/hugoDocs",
+      "status": "candidate-context",
+      "text": "The source for https://gohugo.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gohugoio/hugoDocs",
+      "status": "candidate-context",
+      "text": "<a href=\"https://gohugo.io/\"><img src=\"https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true\" alt=\"Hugo\" width=\"565\"></a>"
     }
   ],
   "candidate_glosses": [
@@ -33,6 +57,18 @@
       "source_repo": "gohugoio/hugo",
       "status": "candidate",
       "text": "[Clang]: https://clang.llvm.org/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/one-click-hugo-cms",
+      "status": "candidate",
+      "text": "This is a small business template built with [Hugo](https://gohugo.io) and [Decap CMS](https://github.com/decaporg/decap-cms), designed and developed by [Darin Dimitroff](https://twitter.com/deezel), [spacefarm.digital](https://www.spacefarm.digital)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gohugoio/hugoDocs",
+      "status": "candidate",
+      "text": "<a href=\"https://gohugo.io/\"><img src=\"https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true\" alt=\"Hugo\" width=\"565\"></a>"
     }
   ],
   "candidate_related_terms": [
@@ -103,11 +139,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "gohugoio/hugo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "decaporg/one-click-hugo-cms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gohugoio/hugoDocs"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "msys2/setup-msys2@40677d36a502eb2cf0fb808cc9dec31bf6152638",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "fmtlib/fmt"
+    }
+  ]
+}

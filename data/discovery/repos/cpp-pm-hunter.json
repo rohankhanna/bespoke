@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "lots0logs/gh-action-get-changed-files@2.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "lots0logs/gh-action-get-changed-files@2.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "octokit/request-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "cpp-pm/hunter",
+      "target": "actions/checkout@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "cpp-pm/hunter",
+      "target": "CI-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cpp-pm/hunter",
+      "target": "actions/checkout@v4.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cpp-pm/hunter",
+      "target": "lots0logs/gh-action-get-changed-files@2.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cpp-pm/hunter",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cpp-pm/hunter",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cpp-pm/hunter",
+      "target": "actions/setup-python@v5.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cpp-pm/hunter",
+      "target": "octokit/request-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cpp-pm/hunter",
+      "target": "peaceiris/actions-gh-pages@v4.0.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:45:01.717647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1157
+    },
+    {
+      "path": ".github/workflows/ci-docs.yml",
+      "size": 545
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5476
+    },
+    {
+      "path": ".github/workflows/set_matrix.py",
+      "size": 17499
+    },
+    {
+      "path": ".github/workflows/set_status.py",
+      "size": 489
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CMake driven cross-platform package manager for C/C++.",
+    "fork": true,
+    "full_name": "cpp-pm/hunter",
+    "html_url": "https://github.com/cpp-pm/hunter",
+    "language": "CMake",
+    "pushed_at": "2026-03-13T10:03:05Z",
+    "stargazers_count": 672,
+    "topics": [],
+    "updated_at": "2026-04-10T09:44:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "term": "CI-docs"
+    }
+  ]
+}

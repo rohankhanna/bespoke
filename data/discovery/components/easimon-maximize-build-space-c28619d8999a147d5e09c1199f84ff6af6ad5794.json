@@ -1,0 +1,12 @@
+{
+  "component": "easimon/maximize-build-space@c28619d8999a147d5e09c1199f84ff6af6ad5794",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "NVIDIA/TransformerEngine"
+    }
+  ]
+}

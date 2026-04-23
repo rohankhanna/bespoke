@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "crewAIInc/crewAI-examples",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "crewAIInc/crewAI-examples",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crewAIInc/crewAI-examples",
+      "target": "crewai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crewAIInc/crewAI-examples",
+      "target": "examples",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:28:47.330685+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6527
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 949
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A collection of examples that show how to use CrewAI framework to automate workflows.",
+    "fork": false,
+    "full_name": "crewAIInc/crewAI-examples",
+    "html_url": "https://github.com/crewAIInc/crewAI-examples",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-20T19:45:46Z",
+    "stargazers_count": 5895,
+    "topics": [
+      "crewai",
+      "examples"
+    ],
+    "updated_at": "2026-04-23T02:42:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    },
+    {
+      "context_snippet": "Welcome to the official collection of **complete CrewAI applications**. This repository contains end-to-end implementations that showcase how to build real-world applications using CrewAI's framework for orchestrating AI agents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crewai"
+    },
+    {
+      "context_snippet": "Welcome to the official collection of **complete CrewAI applications**. This repository contains end-to-end implementations that showcase how to build real-world applications using CrewAI's framework for orchestrating AI agents.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    }
+  ]
+}

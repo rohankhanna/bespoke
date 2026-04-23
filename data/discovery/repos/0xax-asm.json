@@ -1,0 +1,163 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yaml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v2.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xAX/asm",
+      "target": "time-river/vvl.me",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xAX/asm",
+      "target": "furkanonder/asm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xAX/asm",
+      "target": "maldron0309/asm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0xAX/asm",
+      "target": "develoopeer/asm-ru",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "0xAX/asm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "0xAX/asm",
+      "target": "lycheeverse/lychee-action@v2.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "0xAX/asm",
+      "target": "Link Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xAX/asm",
+      "target": "assembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xAX/asm",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "0xAX/asm",
+      "target": "x86-64",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:48:44.303140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6861
+    },
+    {
+      "path": ".github/workflows/link-check.yaml",
+      "size": 672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning assembly for Linux x86_64",
+    "fork": false,
+    "full_name": "0xAX/asm",
+    "html_url": "https://github.com/0xAX/asm",
+    "language": "Assembly",
+    "pushed_at": "2026-04-21T13:37:45Z",
+    "stargazers_count": 3468,
+    "topics": [
+      "assembly",
+      "linux",
+      "x86-64"
+    ],
+    "updated_at": "2026-04-23T06:12:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "develoopeer/asm-ru",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "furkanonder/asm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maldron0309/asm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "time-river/vvl.me",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Link Check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yaml",
+      "term": "Link Check"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa] [![Check Links](https://github.com/0xAX/asm/actions/workflows/link-check.yaml/badge.svg)](https://github.com/0xAX/asm/actions/workflows/link-check.yaml) [![star this repo](https://badgen.net/github/stars/0xAX/asm)](https://gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembly"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa] [![Check Links](https://github.com/0xAX/asm/actions/workflows/link-check.yaml/badge.svg)](https://github.com/0xAX/asm/actions/workflows/link-check.yaml) [![star this repo](https://badgen.net/github/stars/0xAX/asm)](https://gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![CC BY-NC-SA 4.0][cc-by-nc-sa-shield]][cc-by-nc-sa] [![Check Links](https://github.com/0xAX/asm/actions/workflows/link-check.yaml/badge.svg)](https://github.com/0xAX/asm/actions/workflows/link-check.yaml) [![star this repo](https://badgen.net/github/stars/0xAX/asm)](https://gi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "x86-64"
+    }
+  ]
+}

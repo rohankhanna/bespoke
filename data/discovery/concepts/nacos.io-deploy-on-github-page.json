@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nacos.io deploy on github page"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nacos-group/nacos-group.github.io",
+      "status": "candidate-context",
+      "text": "nacos-group.github.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nacos-group/nacos-group.github.io",
+      "status": "candidate-context",
+      "text": "nacos.io deploy on github page"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nacos-group/nacos-group.github.io",
+      "status": "candidate",
+      "text": "nacos.io deploy on github page"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14140,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13661,
+      "status": "candidate",
+      "text": "column"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13120,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13120,
+      "status": "candidate",
+      "text": "pulling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12265,
+      "status": "candidate",
+      "text": "bak"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nacos.io deploy on github page",
+  "concept_id": "nacos.io-deploy-on-github-page",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy-github-page.yml",
+      "source_repo": "nacos-group/nacos-group.github.io"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nacos.io deploy on github page",
+      "sense_id": "nacos.io-deploy-on-github-page#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

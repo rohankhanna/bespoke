@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kubernetes-native security toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Trivy-operator logo](docs/images/trivy-operator-logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Trivy-operator logo](docs/images/trivy-operator-logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19899834,
+      "status": "candidate",
+      "text": "misinstallation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19899833,
+      "status": "candidate",
+      "text": "misrouting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19899832,
+      "status": "candidate",
+      "text": "misspecification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19899831,
+      "status": "candidate",
+      "text": "misimplementation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19899830,
+      "status": "candidate",
+      "text": "misadministration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "misconfiguration",
+      "sense_id": "misconfiguration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "misconfiguration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "misconfiguration",
+  "observation_id": "0cb995d426e61b24",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "misconfiguration",
+  "source_context_snippet": "![Trivy-operator logo](docs/images/trivy-operator-logo.png)",
+  "source_file": null,
+  "source_repo": "aquasecurity/trivy-operator",
+  "source_repo_description": "Kubernetes-native security toolkit"
+}

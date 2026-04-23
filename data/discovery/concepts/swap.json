@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "swap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate-context",
+      "text": "Cross-platform async library for system information fetching \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate-context",
+      "text": "![Project banner](./.github/readme-logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate",
+      "text": "![Project banner](./.github/readme-logo.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048658,
+      "status": "candidate",
+      "text": "barter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048584,
+      "status": "candidate",
+      "text": "quid pro quo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046832,
+      "status": "candidate",
+      "text": "trade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046596,
+      "status": "candidate",
+      "text": "swop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29980015,
+      "status": "candidate",
+      "text": "switch"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11069,
+      "status": "candidate",
+      "text": "switch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11068,
+      "status": "candidate",
+      "text": "trade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9048,
+      "status": "candidate",
+      "text": "quid pro quo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6061,
+      "status": "candidate",
+      "text": "barter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3036,
+      "status": "candidate",
+      "text": "swop"
+    }
+  ],
+  "canonical_name": "swap",
+  "concept_id": "swap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "heim-rs/heim"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "swap",
+      "sense_id": "swap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

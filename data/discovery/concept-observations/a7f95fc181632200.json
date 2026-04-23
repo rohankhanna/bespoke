@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "unusual"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "unusual"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007987,
+      "status": "candidate",
+      "text": "odd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006752,
+      "status": "candidate",
+      "text": "strange"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006737,
+      "status": "candidate",
+      "text": "uncommon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40006546,
+      "status": "candidate",
+      "text": "peculiar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005551,
+      "status": "candidate",
+      "text": "weird"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "unusual",
+      "sense_id": "unusual#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 60042,
+      "status": "candidate",
+      "text": "peculiar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48038,
+      "status": "candidate",
+      "text": "grotesque"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48031,
+      "status": "candidate",
+      "text": "eerie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37036,
+      "status": "candidate",
+      "text": "quaint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35039,
+      "status": "candidate",
+      "text": "strange"
+    }
+  ],
+  "concept_id": "unusual",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unusual",
+  "observation_id": "a7f95fc181632200",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "unusual",
+  "source_context_snippet": "unusual",
+  "source_file": ".github/workflows/unusual.yaml",
+  "source_repo": "ijl/orjson",
+  "source_repo_description": "Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-extsprintf",
+      "target": "davepacheco/node-extsprintf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:38:08.615090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1357
+    },
+    {
+      "path": "package.json",
+      "size": 281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extended POSIX-style sprintf",
+    "fork": false,
+    "full_name": "TritonDataCenter/node-extsprintf",
+    "html_url": "https://github.com/TritonDataCenter/node-extsprintf",
+    "language": "JavaScript",
+    "pushed_at": "2021-11-02T21:49:00Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2026-03-13T08:13:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davepacheco/node-extsprintf",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

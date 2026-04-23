@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BBVA/raft-badger",
+      "target": "hashicorp/raft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BBVA/raft-badger",
+      "target": "facebook/rocksdb",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:32.940709+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1535
+    },
+    {
+      "path": "go.mod",
+      "size": 328
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Raft backend implementation using BadgerDB",
+    "fork": false,
+    "full_name": "BBVA/raft-badger",
+    "html_url": "https://github.com/BBVA/raft-badger",
+    "language": "Go",
+    "pushed_at": "2023-05-17T14:56:09Z",
+    "stargazers_count": 120,
+    "topics": [],
+    "updated_at": "2025-11-11T07:25:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebook/rocksdb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashicorp/raft",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

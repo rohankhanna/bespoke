@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:31:10.904799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "qdrop",
+    "description": "The official PyTorch implementation of the ICLR2022 paper, QDrop: Randomly Dropping Quantization for Extremely Low-bit Post-Training Quantization",
+    "fork": false,
+    "full_name": "wimh966/QDrop",
+    "html_url": "https://github.com/wimh966/QDrop",
+    "language": "Python",
+    "pushed_at": "2025-09-23T13:31:08Z",
+    "stargazers_count": 130,
+    "topics": [],
+    "updated_at": "2026-04-14T09:23:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

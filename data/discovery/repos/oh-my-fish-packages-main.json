@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dead-repos.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-dead-repos.yml",
+      "source_repo": "oh-my-fish/packages-main",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-dead-repos.yml",
+      "source_repo": "oh-my-fish/packages-main",
+      "target": "Check for dead repositories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oh-my-fish/packages-main",
+      "target": "fish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oh-my-fish/packages-main",
+      "target": "fish-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oh-my-fish/packages-main",
+      "target": "fish-shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "oh-my-fish/packages-main",
+      "target": "shell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:42:58.696732+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2210
+    },
+    {
+      "path": ".github/workflows/check-dead-repos.fish",
+      "size": 1365
+    },
+    {
+      "path": ".github/workflows/check-dead-repos.py",
+      "size": 1388
+    },
+    {
+      "path": ".github/workflows/check-dead-repos.yml",
+      "size": 521
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Primary Oh My Fish package repository.",
+    "fork": false,
+    "full_name": "oh-my-fish/packages-main",
+    "html_url": "https://github.com/oh-my-fish/packages-main",
+    "language": null,
+    "pushed_at": "2026-01-06T17:40:02Z",
+    "stargazers_count": 260,
+    "topics": [
+      "fish",
+      "fish-packages",
+      "fish-shell",
+      "shell"
+    ],
+    "updated_at": "2026-04-21T09:39:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check for dead repositories",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-dead-repos.yml",
+      "term": "Check for dead repositories"
+    },
+    {
+      "context_snippet": "Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish"
+    },
+    {
+      "context_snippet": "Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish-packages"
+    },
+    {
+      "context_snippet": "Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish-shell"
+    },
+    {
+      "context_snippet": "Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    }
+  ]
+}

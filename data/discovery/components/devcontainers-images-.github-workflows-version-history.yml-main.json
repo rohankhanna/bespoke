@@ -1,0 +1,17 @@
+{
+  "component": "devcontainers/images/.github/workflows/version-history.yml@main",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push-dev.yml",
+      "source_repo": "devcontainers/images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "devcontainers/images"
+    }
+  ]
+}

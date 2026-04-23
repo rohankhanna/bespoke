@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ziglang/zig",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ziglang/zig",
+      "target": "language",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:35:17.465963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Moved to Codeberg",
+    "fork": false,
+    "full_name": "ziglang/zig",
+    "html_url": "https://github.com/ziglang/zig",
+    "language": "Zig",
+    "pushed_at": "2025-11-27T01:42:59Z",
+    "stargazers_count": 42848,
+    "topics": [
+      "compiler",
+      "language",
+      "zig"
+    ],
+    "updated_at": "2026-04-23T06:50:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Moved to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "[Moved to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    }
+  ]
+}

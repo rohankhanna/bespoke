@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rose-pine/rose-pine-theme",
+      "target": "rose-pine/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rose-pine/rose-pine-theme",
+      "target": "rose-pine/rose-pine-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rose-pine/rose-pine-theme",
+      "target": "rose-pine/palette",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rose-pine/rose-pine-theme",
+      "target": "rose-pine/rose-pine-site",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rose-pine/rose-pine-theme",
+      "target": "aesthetic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rose-pine/rose-pine-theme",
+      "target": "colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rose-pine/rose-pine-theme",
+      "target": "palette",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rose-pine/rose-pine-theme",
+      "target": "syntax-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rose-pine/rose-pine-theme",
+      "target": "ui-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:44:41.111197+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist",
+    "fork": false,
+    "full_name": "rose-pine/rose-pine-theme",
+    "html_url": "https://github.com/rose-pine/rose-pine-theme",
+    "language": null,
+    "pushed_at": "2025-11-10T17:35:31Z",
+    "stargazers_count": 1559,
+    "topics": [
+      "aesthetic",
+      "colorscheme",
+      "palette",
+      "syntax-theme",
+      "ui-theme"
+    ],
+    "updated_at": "2026-04-21T06:43:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rose-pine/.github",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rose-pine/palette",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rose-pine/rose-pine-site",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rose-pine/rose-pine-template",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aesthetic"
+    },
+    {
+      "context_snippet": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorscheme"
+    },
+    {
+      "context_snippet": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "palette"
+    },
+    {
+      "context_snippet": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-theme"
+    },
+    {
+      "context_snippet": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ui-theme"
+    }
+  ]
+}

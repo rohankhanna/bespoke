@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "gnostic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/gnostic",
+      "status": "candidate-context",
+      "text": "A compiler for APIs described by the OpenAPI Specification with plugins for code generation and other API support tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gnostic",
+      "status": "candidate-context",
+      "text": "[![Go Actions Status](https://github.com/google/gnostic/workflows/Go/badge.svg)](https://github.com/google/gnostic/actions)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gnostic",
+      "status": "candidate",
+      "text": "[![Go Actions Status](https://github.com/google/gnostic/workflows/Go/badge.svg)](https://github.com/google/gnostic/actions)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981052,
+      "status": "candidate",
+      "text": "theosophic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981051,
+      "status": "candidate",
+      "text": "mystical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981050,
+      "status": "candidate",
+      "text": "esoteric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981049,
+      "status": "candidate",
+      "text": "arcane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19981048,
+      "status": "candidate",
+      "text": "occult"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "gnostic",
+  "concept_id": "gnostic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/gnostic"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gnostic",
+      "sense_id": "gnostic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

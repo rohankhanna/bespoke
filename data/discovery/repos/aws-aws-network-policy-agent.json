@@ -1,0 +1,411 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-conformance.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-conformance.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-conformance.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-conformance.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-e2e-tests.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-e2e-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance-tests.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance-tests.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance-tests.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "awslabs/amazon-eks-ami",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-conformance.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-conformance.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "aws-actions/configure-aws-credentials@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-conformance.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "E2E Conformance Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-e2e-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual-e2e-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "aws-actions/configure-aws-credentials@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-e2e-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "Manual E2E tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/performance-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "aws-actions/configure-aws-credentials@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/performance-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "Performance tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "PR Cyclonus Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "Automatic Pull Request test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/aws-network-policy-agent",
+      "target": "network-policy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:44:15.038538+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11746
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1841
+    },
+    {
+      "path": "go.mod",
+      "size": 5187
+    },
+    {
+      "path": ".github/workflows/e2e-conformance.yaml",
+      "size": 2018
+    },
+    {
+      "path": ".github/workflows/manual-e2e-tests.yaml",
+      "size": 1350
+    },
+    {
+      "path": ".github/workflows/performance-tests.yaml",
+      "size": 1891
+    },
+    {
+      "path": ".github/workflows/pr-cyclonus-tests.yaml",
+      "size": 6798
+    },
+    {
+      "path": ".github/workflows/pr-tests.yaml",
+      "size": 3164
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Network Policy Agent is a daemonset that is responsible for enforcing configured network policies on the cluster.",
+    "fork": false,
+    "full_name": "aws/aws-network-policy-agent",
+    "html_url": "https://github.com/aws/aws-network-policy-agent",
+    "language": "Go",
+    "pushed_at": "2026-04-22T21:07:37Z",
+    "stargazers_count": 67,
+    "topics": [
+      "network-policy"
+    ],
+    "updated_at": "2026-04-22T18:27:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/amazon-eks-ami",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "E2E Conformance Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-conformance.yaml",
+      "term": "E2E Conformance Tests"
+    },
+    {
+      "context_snippet": "Manual E2E tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual-e2e-tests.yaml",
+      "term": "Manual E2E tests"
+    },
+    {
+      "context_snippet": "Performance tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/performance-tests.yaml",
+      "term": "Performance tests"
+    },
+    {
+      "context_snippet": "PR Cyclonus Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-cyclonus-tests.yaml",
+      "term": "PR Cyclonus Tests"
+    },
+    {
+      "context_snippet": "Automatic Pull Request test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "term": "Automatic Pull Request test"
+    },
+    {
+      "context_snippet": "Amazon EKS Network Policy Agent is a daemonset that is responsible for enforcing configured network policies on the cluster. Network policy support is a feature of the [Amazon VPC CNI](https://github.com/aws/amazon-vpc-cni-k8s).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network-policy"
+    }
+  ]
+}

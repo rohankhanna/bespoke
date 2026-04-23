@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "libfuzzer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-fuzz/libfuzzer",
+      "status": "candidate-context",
+      "text": "Rust bindings and utilities for LLVM\u2019s libFuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-fuzz/libfuzzer",
+      "status": "candidate-context",
+      "text": "Barebones wrapper around LLVM's libFuzzer runtime library."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-fuzz/libfuzzer",
+      "status": "candidate",
+      "text": "Barebones wrapper around LLVM's libFuzzer runtime library."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "libfuzzer",
+  "concept_id": "libfuzzer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-fuzz/libfuzzer"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "libfuzzer",
+      "sense_id": "libfuzzer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -22,6 +22,42 @@
       "source_repo": "pyodide/pyodide-build",
       "status": "candidate-context",
       "text": "Tools for building packages for use with Pyodide. You may be interested in using"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axodotdev/cargo-dist",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 shippable application packaging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodotdev/cargo-dist",
+      "status": "candidate-context",
+      "text": "<div class=\"oranda-hide\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/setuptools-scm",
+      "status": "candidate-context",
+      "text": "the blessed package to manage your versions by scm tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/setuptools-scm",
+      "status": "candidate-context",
+      "text": "This is the monorepo for the setuptools-scm ecosystem, containing two main projects:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pdm-project/pdm",
+      "status": "candidate-context",
+      "text": "A modern Python package and dependency manager supporting the latest PEP standards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdm-project/pdm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -30,6 +66,24 @@
       "source_repo": "pyodide/pyodide-build",
       "status": "candidate",
       "text": "Tools for building packages for use with Pyodide. You may be interested in using"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodotdev/cargo-dist",
+      "status": "candidate",
+      "text": "<div class=\"oranda-hide\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/setuptools-scm",
+      "status": "candidate",
+      "text": "This is the monorepo for the setuptools-scm ecosystem, containing two main projects:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdm-project/pdm",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +145,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "pyodide/pyodide-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "axodotdev/cargo-dist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pdm-project/pdm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:44:09.204263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1527
+    },
+    {
+      "path": "go.mod",
+      "size": 1488
+    },
+    {
+      "path": "requirements.txt",
+      "size": 68
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Testing infrastructure and frameworks for ACK",
+    "fork": false,
+    "full_name": "aws-controllers-k8s/test-infra",
+    "html_url": "https://github.com/aws-controllers-k8s/test-infra",
+    "language": "Python",
+    "pushed_at": "2026-04-23T01:39:25Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-04-23T01:39:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

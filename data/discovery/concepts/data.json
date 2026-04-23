@@ -79,6 +79,30 @@
       "source_repo": "ckan/ckan",
       "status": "candidate-context",
       "text": "CKAN: The Open Source Data Portal Software"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/browser-compat-data",
+      "status": "candidate-context",
+      "text": "Browser compatibility data for Web technologies as displayed on MDN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/browser-compat-data",
+      "status": "candidate-context",
+      "text": "[https://github.com/mdn/browser-compat-data](https://github.com/mdn/browser-compat-data)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "run-llama/llama_index",
+      "status": "candidate-context",
+      "text": "LlamaIndex is the leading document agent and OCR platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "run-llama/llama_index",
+      "status": "candidate-context",
+      "text": "[![PyPI - Downloads](https://img.shields.io/pypi/dm/llama-index)](https://pypi.org/project/llama-index/)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "ckan/ckan",
       "status": "candidate",
       "text": "CKAN: The Open Source Data Portal Software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/browser-compat-data",
+      "status": "candidate",
+      "text": "[https://github.com/mdn/browser-compat-data](https://github.com/mdn/browser-compat-data)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "run-llama/llama_index",
+      "status": "candidate",
+      "text": "[![PyPI - Downloads](https://img.shields.io/pypi/dm/llama-index)](https://pypi.org/project/llama-index/)"
     }
   ],
   "candidate_related_terms": [
@@ -204,11 +240,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "ckan/ckan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mdn/browser-compat-data"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "run-llama/llama_index"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

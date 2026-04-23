@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Audit Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpecterOps/BloodHound",
+      "status": "candidate-context",
+      "text": "Six Degrees of Domain Admin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/BloodHound",
+      "status": "candidate-context",
+      "text": "Audit Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/BloodHound",
+      "status": "candidate",
+      "text": "Audit Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11943,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "aaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "audited"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "auditing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10920,
+      "status": "candidate",
+      "text": "audits"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Audit Release",
+  "concept_id": "audit-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/audit-release.yml",
+      "source_repo": "SpecterOps/BloodHound"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Audit Release",
+      "sense_id": "audit-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

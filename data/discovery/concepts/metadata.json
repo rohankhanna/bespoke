@@ -31,6 +31,54 @@
       "source_repo": "dathere/datapusher-plus",
       "status": "candidate-context",
       "text": "[CKAN Service Provider]: https://github.com/ckan/ckan-service-provider"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badges/shields",
+      "status": "candidate-context",
+      "text": "Concise, consistent, and legible badges in SVG and raster format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badges/shields",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/community",
+      "status": "candidate-context",
+      "text": "Discussion, support and common information for projects in the community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/community",
+      "status": "candidate-context",
+      "text": "**Discussion, support and common information for projects in the community.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "status": "candidate-context",
+      "text": "Generate changelogs and release notes from a project's commit messages and metadata."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "status": "candidate-context",
+      "text": "[![Build status][build]][build-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/setuptools-scm",
+      "status": "candidate-context",
+      "text": "the blessed package to manage your versions by scm tags"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/setuptools-scm",
+      "status": "candidate-context",
+      "text": "This is the monorepo for the setuptools-scm ecosystem, containing two main projects:"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "dathere/datapusher-plus",
       "status": "candidate",
       "text": "[CKAN Service Provider]: https://github.com/ckan/ckan-service-provider"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badges/shields",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/community",
+      "status": "candidate",
+      "text": "**Discussion, support and common information for projects in the community.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "status": "candidate",
+      "text": "[![Build status][build]][build-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/setuptools-scm",
+      "status": "candidate",
+      "text": "This is the monorepo for the setuptools-scm ecosystem, containing two main projects:"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +172,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "dathere/datapusher-plus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "badges/shields"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pypa/setuptools-scm"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

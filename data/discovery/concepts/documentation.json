@@ -268,6 +268,144 @@
       "source_repo": "RichardLitt/standard-readme",
       "status": "candidate-context",
       "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/encodec",
+      "status": "candidate-context",
+      "text": "State-of-the-art deep learning based audio codec supporting both mono 24 kHz audio and stereo 48 kHz audio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/encodec",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syncthing/docs",
+      "status": "candidate-context",
+      "text": "Documentation site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/docs",
+      "status": "candidate-context",
+      "text": "Syncthing Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate-context",
+      "text": "\u26a1 The fastest and most configurable plugin for MkDocs, allowing seamless export of individual pages and/or entire documentation as PDF documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "status": "candidate-context",
+      "text": "Mkdocs plugin which displays links in a more elegant way. Links will automatically be populated with an image, description, fav icon, and title for the target website; or you can override the values to give your own."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate-context",
+      "text": "A library for accelerating Transformer models on NVIDIA GPUs, including using 8-bit and 4-bit floating point (FP8 and FP4) precision on Hopper, Ada and Blackwell GPUs, to provide better performance with lower memory utilization in both training and inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate-context",
+      "text": "'Documentation'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RichardLitt/generator-standard-readme",
+      "status": "candidate-context",
+      "text": "Scaffold out a Standard Readme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RichardLitt/generator-standard-readme",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liran-funaro/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": "A Sphinx extension to add markdown generation support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liran-funaro/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": "[![Coverage Status](https://coveralls.io/repos/github/liran-funaro/sphinx-markdown-builder/badge.svg?branch=main&cache-bust=1)](https://coveralls.io/github/liran-funaro/sphinx-markdown-builder?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate-context",
+      "text": "Test suites for Web platform specs \u2014 including WHATWG, W3C, and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate-context",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "audreyfeldroy/cookiecutter-pypackage",
+      "status": "candidate-context",
+      "text": "Cookiecutter template for a Python package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audreyfeldroy/cookiecutter-pypackage",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rack/rack",
+      "status": "candidate-context",
+      "text": "A modular Ruby web server interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rack/rack",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyg-team/pytorch_geometric",
+      "status": "candidate-context",
+      "text": "Graph Neural Network Library for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyg-team/pytorch_geometric",
+      "status": "candidate-context",
+      "text": "Documentation"
     }
   ],
   "candidate_glosses": [
@@ -402,6 +540,78 @@
       "source_repo": "RichardLitt/standard-readme",
       "status": "candidate",
       "text": "[![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/encodec",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/docs",
+      "status": "candidate",
+      "text": "Syncthing Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate",
+      "text": "'Documentation'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RichardLitt/generator-standard-readme",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liran-funaro/sphinx-markdown-builder",
+      "status": "candidate",
+      "text": "[![Coverage Status](https://coveralls.io/repos/github/liran-funaro/sphinx-markdown-builder/badge.svg?branch=main&cache-bust=1)](https://coveralls.io/github/liran-funaro/sphinx-markdown-builder?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audreyfeldroy/cookiecutter-pypackage",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rack/rack",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyg-team/pytorch_geometric",
+      "status": "candidate",
+      "text": "Documentation"
     }
   ],
   "candidate_related_terms": [
@@ -624,11 +834,89 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "RichardLitt/standard-readme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "facebookresearch/encodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "syncthing/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "adrienbrignon/mkdocs-exporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "adrienbrignon/mkdocs-exporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "NVIDIA/TransformerEngine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "RichardLitt/generator-standard-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "liran-funaro/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "audreyfeldroy/cookiecutter-pypackage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "rack/rack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "asdf-vm/actions/plugin-test@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "asdf-vm/actions/install@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "docker://rhysd/actionlint:1.6.23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "0ghny/asdf-tlsgcli",
+      "target": "0ghny/tlsg10x-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0ghny/asdf-tlsgcli",
+      "target": "asdf-vm/actions/plugin-test@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "0ghny/asdf-tlsgcli",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "0ghny/asdf-tlsgcli",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "0ghny/asdf-tlsgcli",
+      "target": "asdf-vm/actions/install@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "0ghny/asdf-tlsgcli",
+      "target": "docker://rhysd/actionlint:1.6.23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "0ghny/asdf-tlsgcli",
+      "target": "Lint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:31:00.865985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1579
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 374
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 432
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ASDF Plugin for tlsg-cli",
+    "fork": false,
+    "full_name": "0ghny/asdf-tlsgcli",
+    "html_url": "https://github.com/0ghny/asdf-tlsgcli",
+    "language": "Shell",
+    "pushed_at": "2023-05-28T17:19:02Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-01-05T17:19:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0ghny/tlsg10x-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    }
+  ]
+}

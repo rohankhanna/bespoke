@@ -19,12 +19,30 @@
       "source_repo": "nvim-tree/nvim-web-devicons",
       "status": "candidate-context",
       "text": "Semantic Pull Request Subject"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-tree/nvim-tree.lua",
+      "status": "candidate-context",
+      "text": "A file explorer tree for neovim written in lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-tree/nvim-tree.lua",
+      "status": "candidate-context",
+      "text": "Semantic Pull Request Subject"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "nvim-tree/nvim-web-devicons",
+      "status": "candidate",
+      "text": "Semantic Pull Request Subject"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-tree/nvim-tree.lua",
       "status": "candidate",
       "text": "Semantic Pull Request Subject"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/semantic-pr-subject.yml",
       "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/semantic-pr-subject.yml",
+      "source_repo": "nvim-tree/nvim-tree.lua"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

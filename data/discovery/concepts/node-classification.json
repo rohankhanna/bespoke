@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "node-classification"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/CogDL",
+      "status": "candidate-context",
+      "text": "CogDL: A Comprehensive Library for Graph Deep Learning (WWW 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/CogDL",
+      "status": "candidate-context",
+      "text": "![CogDL](./docs/source/_static/cogdl-logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/CogDL",
+      "status": "candidate",
+      "text": "![CogDL](./docs/source/_static/cogdl-logo.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "node-classification",
+  "concept_id": "node-classification",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/CogDL"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "node-classification",
+      "sense_id": "node-classification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

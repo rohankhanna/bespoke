@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Api: Update Electron API Types"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/ComfyUI_frontend",
+      "status": "candidate-context",
+      "text": "Official front-end implementation of ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI_frontend",
+      "status": "candidate-context",
+      "text": "'Api: Update Electron API Types'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI_frontend",
+      "status": "candidate",
+      "text": "'Api: Update Electron API Types'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23153,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21957,
+      "status": "candidate",
+      "text": "remake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21794,
+      "status": "candidate",
+      "text": "anode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21689,
+      "status": "candidate",
+      "text": "footage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21689,
+      "status": "candidate",
+      "text": "lot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Api: Update Electron API Types",
+  "concept_id": "api-update-electron-api-types",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/api-update-electron-api-types.yaml",
+      "source_repo": "Comfy-Org/ComfyUI_frontend"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Api: Update Electron API Types",
+      "sense_id": "api-update-electron-api-types#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

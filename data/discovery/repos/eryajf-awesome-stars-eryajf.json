@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/star-list.yml"
+    },
+    {
+      "component": "simonecorsi/mawesome@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/star-list.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "target": "0x2e/fusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "target": "027xiguapi/pear-rec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "target": "0xplaygrounds/rig",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "target": "0xjacky/nginx-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/star-list.yml",
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/star-list.yml",
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "target": "simonecorsi/mawesome@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/star-list.yml",
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "target": "Update awesome list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "target": "eryajf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:27:58.201830+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 194765
+    },
+    {
+      "path": ".github/workflows/star-list.yml",
+      "size": 506
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udd29 \u6211\u7684star\u5217\u8868\uff0c\u6bcf\u5929\u51cc\u6668\u81ea\u52a8\u66f4\u65b0",
+    "fork": false,
+    "full_name": "eryajf/awesome-stars-eryajf",
+    "html_url": "https://github.com/eryajf/awesome-stars-eryajf",
+    "language": null,
+    "pushed_at": "2026-04-23T01:53:58Z",
+    "stargazers_count": 175,
+    "topics": [
+      "awesome",
+      "eryajf"
+    ],
+    "updated_at": "2026-04-23T01:54:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "027xiguapi/pear-rec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0x2e/fusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xjacky/nginx-ui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "0xplaygrounds/rig",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update awesome list",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/star-list.yml",
+      "term": "Update awesome list"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eryajf"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/amazon-network-policy-controller-k8s",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/amazon-network-policy-controller-k8s",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/amazon-network-policy-controller-k8s",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/amazon-network-policy-controller-k8s",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/amazon-network-policy-controller-k8s",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/amazon-network-policy-controller-k8s",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/amazon-network-policy-controller-k8s",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/amazon-network-policy-controller-k8s",
+      "target": "Automatic Pull Request test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:44:10.433964+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3069
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1516
+    },
+    {
+      "path": "go.mod",
+      "size": 3271
+    },
+    {
+      "path": ".github/workflows/pr-tests.yaml",
+      "size": 2725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aws/amazon-network-policy-controller-k8s",
+    "html_url": "https://github.com/aws/amazon-network-policy-controller-k8s",
+    "language": "Go",
+    "pushed_at": "2026-03-30T23:25:06Z",
+    "stargazers_count": 54,
+    "topics": [],
+    "updated_at": "2026-04-22T19:32:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Automatic Pull Request test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "term": "Automatic Pull Request test"
+    }
+  ]
+}

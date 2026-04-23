@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "AndrewRadev/mirror-branch-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AndrewRadev/switch.vim",
+      "target": "tpope/vim-speeddating",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AndrewRadev/switch.vim",
+      "target": "zef/vim-cycle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "AndrewRadev/switch.vim",
+      "target": "AndrewRadev/mirror-branch-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndrewRadev/switch.vim",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndrewRadev/switch.vim",
+      "target": "substitutions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndrewRadev/switch.vim",
+      "target": "text-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AndrewRadev/switch.vim",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:45:23.973046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18324
+    },
+    {
+      "path": ".github/workflows/mirror.yml",
+      "size": 494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple Vim plugin to switch segments of text with predefined replacements",
+    "fork": false,
+    "full_name": "AndrewRadev/switch.vim",
+    "html_url": "https://github.com/AndrewRadev/switch.vim",
+    "language": "Ruby",
+    "pushed_at": "2026-02-25T15:42:19Z",
+    "stargazers_count": 761,
+    "topics": [
+      "cursor",
+      "substitutions",
+      "text-manipulation",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-04-15T03:32:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-speeddating",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zef/vim-cycle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub version](https://badge.fury.io/gh/andrewradev%2Fswitch.vim.svg)](https://badge.fury.io/gh/andrewradev%2Fswitch.vim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursor"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://badge.fury.io/gh/andrewradev%2Fswitch.vim.svg)](https://badge.fury.io/gh/andrewradev%2Fswitch.vim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "substitutions"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://badge.fury.io/gh/andrewradev%2Fswitch.vim.svg)](https://badge.fury.io/gh/andrewradev%2Fswitch.vim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-manipulation"
+    },
+    {
+      "context_snippet": "[![GitHub version](https://badge.fury.io/gh/andrewradev%2Fswitch.vim.svg)](https://badge.fury.io/gh/andrewradev%2Fswitch.vim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

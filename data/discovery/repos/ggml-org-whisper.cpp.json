@@ -516,7 +516,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "givimad/whisper-jni",
+      "target": "mybigday/whisper.rn",
       "target_type": "repository"
     },
     {
@@ -530,14 +530,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "exphat/swiftwhisper",
+      "target": "abdeladim-s/pywhispercpp",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/whisper.cpp",
-      "target": "abdeladim-s/pywhispercpp",
+      "target": "macoron/whisper.unity",
       "target_type": "repository"
     },
     {
@@ -835,7 +835,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:12:37.494052+00:00",
+  "fetched_at": "2026-04-23T08:46:44.014905+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -876,7 +876,7 @@
     "html_url": "https://github.com/ggml-org/whisper.cpp",
     "language": "C++",
     "pushed_at": "2026-04-20T05:12:57Z",
-    "stargazers_count": 48938,
+    "stargazers_count": 48946,
     "topics": [
       "inference",
       "openai",
@@ -885,7 +885,7 @@
       "transformer",
       "whisper"
     ],
-    "updated_at": "2026-04-22T23:43:37Z"
+    "updated_at": "2026-04-23T06:11:48Z"
   },
   "repo_links": [
     {
@@ -895,17 +895,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "exphat/swiftwhisper",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "ggml-org/whisper.spm",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "givimad/whisper-jni",
+      "full_name": "macoron/whisper.unity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mybigday/whisper.rn",
       "source_file": "README.md"
     }
   ],

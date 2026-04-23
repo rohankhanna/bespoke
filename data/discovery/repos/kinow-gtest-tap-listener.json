@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kinow/gtest-tap-listener",
+      "target": "actions/checkout@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kinow/gtest-tap-listener",
+      "target": "googletest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kinow/gtest-tap-listener",
+      "target": "gtest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kinow/gtest-tap-listener",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kinow/gtest-tap-listener",
+      "target": "testanythingprotocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kinow/gtest-tap-listener",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:41:03.735865+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1509
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GoogleTest TAP Listener",
+    "fork": false,
+    "full_name": "kinow/gtest-tap-listener",
+    "html_url": "https://github.com/kinow/gtest-tap-listener",
+    "language": "C++",
+    "pushed_at": "2023-07-25T20:01:57Z",
+    "stargazers_count": 80,
+    "topics": [
+      "cpp",
+      "googletest",
+      "gtest",
+      "hacktoberfest",
+      "tap",
+      "testanythingprotocol",
+      "testing"
+    ],
+    "updated_at": "2026-03-31T15:55:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml/badge.svg)](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "googletest"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml/badge.svg)](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gtest"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml/badge.svg)](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml/badge.svg)](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testanythingprotocol"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml/badge.svg)](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

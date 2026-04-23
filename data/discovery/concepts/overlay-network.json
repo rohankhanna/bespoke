@@ -19,6 +19,18 @@
       "source_repo": "flannel-io/flannel",
       "status": "candidate-context",
       "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate-context",
+      "text": "Make underlay and overlay network can coexist, communicate, even be transformed purposefully."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/alibaba/hybridnet)](https://goreportcard.com/report/github.com/alibaba/hybridnet)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "flannel-io/flannel",
       "status": "candidate",
       "text": "![flannel Logo](logos/flannel-horizontal-color.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/alibaba/hybridnet)](https://goreportcard.com/report/github.com/alibaba/hybridnet)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "flannel-io/flannel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/hybridnet"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

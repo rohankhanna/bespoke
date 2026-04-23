@@ -1,0 +1,12 @@
+{
+  "component": "dotnet/actions-create-pull-request@e8d799aa1f8b17f324f9513832811b0a62f1e0b1",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aspnetcore-sync.yml",
+      "source_repo": "dotnet/runtime"
+    }
+  ]
+}

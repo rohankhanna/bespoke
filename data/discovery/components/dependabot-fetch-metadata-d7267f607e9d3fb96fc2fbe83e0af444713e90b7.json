@@ -1,0 +1,12 @@
+{
+  "component": "dependabot/fetch-metadata@d7267f607e9d3fb96fc2fbe83e0af444713e90b7",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot_reviewer.yml",
+      "source_repo": "grafana/loki"
+    }
+  ]
+}

@@ -48,7 +48,7 @@
   "normalized_form": "bindgen",
   "observation_id": "62eb8d93d15414bc",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "bindgen",
   "source_context_snippet": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI.",
   "source_file": null,

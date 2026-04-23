@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:29:55.495571+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1677
+    },
+    {
+      "path": "requirements.txt",
+      "size": 14
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "dop-amin/ches2025-slothy-tutorial",
+    "html_url": "https://github.com/dop-amin/ches2025-slothy-tutorial",
+    "language": "Assembly",
+    "pushed_at": "2025-09-14T01:00:20Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-09-14T01:00:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

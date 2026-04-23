@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anderscui/jieba.NET",
+      "target": "vi3k6i5/flashtext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "anderscui/jieba.NET",
+      "target": "anderscui/jiebaforlucenenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anderscui/jieba.NET",
+      "target": "jieba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anderscui/jieba.NET",
+      "target": "lucene",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:02.823386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8052
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "jieba\u4e2d\u6587\u5206\u8bcd\u7684.NET\u7248\u672c\uff08\u652f\u6301.NET Framework\u4e0e.NET Core\uff09",
+    "fork": false,
+    "full_name": "anderscui/jieba.NET",
+    "html_url": "https://github.com/anderscui/jieba.NET",
+    "language": "C#",
+    "pushed_at": "2022-12-08T09:32:20Z",
+    "stargazers_count": 1143,
+    "topics": [
+      "jieba",
+      "lucene"
+    ],
+    "updated_at": "2026-04-22T00:18:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anderscui/jiebaforlucenenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vi3k6i5/flashtext",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "jieba.NET\u662f[jieba\u4e2d\u6587\u5206\u8bcd](https://github.com/fxsjy/jieba)\u7684.NET\u7248\u672c\uff08C#\u5b9e\u73b0\uff09\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jieba"
+    },
+    {
+      "context_snippet": "jieba.NET\u662f[jieba\u4e2d\u6587\u5206\u8bcd](https://github.com/fxsjy/jieba)\u7684.NET\u7248\u672c\uff08C#\u5b9e\u73b0\uff09\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lucene"
+    }
+  ]
+}

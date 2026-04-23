@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish - Insider - macOS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VSCodium/vscodium",
+      "status": "candidate-context",
+      "text": "binary releases of VS Code without MS branding/telemetry/licensing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodium/vscodium",
+      "status": "candidate-context",
+      "text": "Publish - Insider - macOS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodium/vscodium",
+      "status": "candidate",
+      "text": "Publish - Insider - macOS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18753,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9930,
+      "status": "candidate",
+      "text": "con"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9930,
+      "status": "candidate",
+      "text": "leak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9875,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9875,
+      "status": "candidate",
+      "text": "disperse"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish - Insider - macOS",
+  "concept_id": "publish---insider---macos",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish-insider-macos.yml",
+      "source_repo": "VSCodium/vscodium"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish - Insider - macOS",
+      "sense_id": "publish---insider---macos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

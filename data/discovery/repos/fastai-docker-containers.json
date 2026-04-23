@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/all.yaml",
+      "source_repo": "fastai/docker-containers",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all.yaml",
+      "source_repo": "fastai/docker-containers",
+      "target": "Build CI Containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastai/docker-containers",
+      "target": "conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastai/docker-containers",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastai/docker-containers",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastai/docker-containers",
+      "target": "fastai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastai/docker-containers",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastai/docker-containers",
+      "target": "mlops",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:28:26.090847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1501
+    },
+    {
+      "path": "Dockerfile",
+      "size": 231
+    },
+    {
+      "path": ".github/workflows/all.yaml",
+      "size": 504
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker images for fastai",
+    "fork": false,
+    "full_name": "fastai/docker-containers",
+    "html_url": "https://github.com/fastai/docker-containers",
+    "language": "Shell",
+    "pushed_at": "2022-04-22T17:29:38Z",
+    "stargazers_count": 183,
+    "topics": [
+      "conda",
+      "data-science",
+      "docker",
+      "fastai",
+      "machine-learning",
+      "mlops"
+    ],
+    "updated_at": "2026-03-03T01:53:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build CI Containers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/all.yaml",
+      "term": "Build CI Containers"
+    },
+    {
+      "context_snippet": "![Build CI Containers](https://github.com/fastai/docker-containers/workflows/Build%20CI%20Containers/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda"
+    },
+    {
+      "context_snippet": "![Build CI Containers](https://github.com/fastai/docker-containers/workflows/Build%20CI%20Containers/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "![Build CI Containers](https://github.com/fastai/docker-containers/workflows/Build%20CI%20Containers/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "![Build CI Containers](https://github.com/fastai/docker-containers/workflows/Build%20CI%20Containers/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastai"
+    },
+    {
+      "context_snippet": "![Build CI Containers](https://github.com/fastai/docker-containers/workflows/Build%20CI%20Containers/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "![Build CI Containers](https://github.com/fastai/docker-containers/workflows/Build%20CI%20Containers/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    }
+  ]
+}

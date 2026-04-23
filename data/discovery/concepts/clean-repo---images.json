@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "clean repo - images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/docs",
+      "status": "candidate-context",
+      "text": "This repository contains .NET Documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docs",
+      "status": "candidate-context",
+      "text": "\"clean repo - images\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docs",
+      "status": "candidate",
+      "text": "\"clean repo - images\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22270,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22270,
+      "status": "candidate",
+      "text": "filming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18493,
+      "status": "candidate",
+      "text": "gridiron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14453,
+      "status": "candidate",
+      "text": "come"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14453,
+      "status": "candidate",
+      "text": "refresh"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "clean repo - images",
+  "concept_id": "clean-repo---images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cleanrepo-orphaned-images.yml",
+      "source_repo": "dotnet/docs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "clean repo - images",
+      "sense_id": "clean-repo---images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

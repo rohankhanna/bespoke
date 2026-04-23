@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The website for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Validate quick start module"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Validate quick start module"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36238,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34343,
+      "status": "candidate",
+      "text": "mora"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34343,
+      "status": "candidate",
+      "text": "pop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34301,
+      "status": "candidate",
+      "text": "clink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34301,
+      "status": "candidate",
+      "text": "clinking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate quick start module",
+      "sense_id": "validate-quick-start-module#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "validate-quick-start-module",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "validate-quick-start-module",
+  "observation_id": "bed2c5512ba4cb7d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Validate quick start module",
+  "source_context_snippet": "Validate quick start module",
+  "source_file": ".github/workflows/validate-quick-start-module.yml",
+  "source_repo": "pytorch/pytorch.github.io",
+  "source_repo_description": "The website for PyTorch"
+}

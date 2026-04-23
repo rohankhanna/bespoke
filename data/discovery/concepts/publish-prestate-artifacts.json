@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Prestate Artifacts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "op-rs/kona",
+      "status": "candidate-context",
+      "text": "Monorepo for OP Stack Types, Components, and Services built in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/kona",
+      "status": "candidate-context",
+      "text": "Publish Prestate Artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/kona",
+      "status": "candidate",
+      "text": "Publish Prestate Artifacts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10315,
+      "status": "candidate",
+      "text": "gatherer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10315,
+      "status": "candidate",
+      "text": "gathering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10315,
+      "status": "candidate",
+      "text": "politicized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9708,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9708,
+      "status": "candidate",
+      "text": "issue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Prestate Artifacts",
+  "concept_id": "publish-prestate-artifacts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish_artifacts.yaml",
+      "source_repo": "op-rs/kona"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Prestate Artifacts",
+      "sense_id": "publish-prestate-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

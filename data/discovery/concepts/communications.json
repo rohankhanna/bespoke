@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "communications"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nccl",
+      "status": "candidate-context",
+      "text": "Optimized primitives for collective multi-GPU communication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nccl",
+      "status": "candidate-context",
+      "text": "Optimized primitives for inter-GPU communication."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nccl",
+      "status": "candidate",
+      "text": "Optimized primitives for inter-GPU communication."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891547,
+      "status": "candidate",
+      "text": "communicating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29898676,
+      "status": "candidate",
+      "text": "telecommunications"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29898534,
+      "status": "candidate",
+      "text": "telecommunication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29898467,
+      "status": "candidate",
+      "text": "telematics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29898123,
+      "status": "candidate",
+      "text": "telecoms"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "communications",
+  "concept_id": "communications",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/nccl"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "communications",
+      "sense_id": "communications#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

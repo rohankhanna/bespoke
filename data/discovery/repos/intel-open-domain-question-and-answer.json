@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "intel/open-domain-question-and-answer",
+      "target": "milvus-io/pymilvus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "intel/open-domain-question-and-answer",
+      "target": "seleniumhq/selenium",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "intel/open-domain-question-and-answer",
+      "target": "beir-cellar/beir",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:29:50.385114+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18447
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "intel/open-domain-question-and-answer",
+    "html_url": "https://github.com/intel/open-domain-question-and-answer",
+    "language": "Python",
+    "pushed_at": "2024-05-07T20:47:05Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-10-26T18:05:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beir-cellar/beir",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvus-io/pymilvus",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seleniumhq/selenium",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

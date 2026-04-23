@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "archives"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mholt/archiver",
+      "status": "candidate-context",
+      "text": "DEPRECATED. Please use mholt/archives instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archiver",
+      "status": "candidate-context",
+      "text": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archiver",
+      "status": "candidate",
+      "text": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9966106,
+      "status": "candidate",
+      "text": "archival"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9966106,
+      "status": "candidate",
+      "text": "archivist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9966106,
+      "status": "candidate",
+      "text": "archivists"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9966106,
+      "status": "candidate",
+      "text": "catalogues"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9966106,
+      "status": "candidate",
+      "text": "documents"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22043,
+      "status": "candidate",
+      "text": "archive"
+    }
+  ],
+  "canonical_name": "archives",
+  "concept_id": "archives",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mholt/archiver"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "archives",
+      "sense_id": "archives#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "integration Alternative Runtimes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/fastify",
+      "status": "candidate-context",
+      "text": "Fast and low overhead web framework, for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify",
+      "status": "candidate-context",
+      "text": "integration Alternative Runtimes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify",
+      "status": "candidate",
+      "text": "integration Alternative Runtimes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11270,
+      "status": "candidate",
+      "text": "maturities"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11270,
+      "status": "candidate",
+      "text": "mileage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11270,
+      "status": "candidate",
+      "text": "rates"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11270,
+      "status": "candidate",
+      "text": "runtime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10850,
+      "status": "candidate",
+      "text": "coordination"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "integration Alternative Runtimes",
+  "concept_id": "integration-alternative-runtimes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/integration-alternative-runtimes.yml",
+      "source_repo": "fastify/fastify"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "integration Alternative Runtimes",
+      "sense_id": "integration-alternative-runtimes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

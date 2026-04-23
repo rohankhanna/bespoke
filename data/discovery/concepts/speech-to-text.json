@@ -31,6 +31,42 @@
       "source_repo": "exPHAT/SwiftWhisper",
       "status": "candidate-context",
       "text": "> The easiest way to use Whisper in Swift"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ricky0123/vad",
+      "status": "candidate-context",
+      "text": "Voice activity detector (VAD) for the browser with a simple API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ricky0123/vad",
+      "status": "candidate-context",
+      "text": "[![npm vad-web](https://img.shields.io/npm/v/@ricky0123/vad-web?color=blue&label=%40ricky0123%2Fvad-web&style=flat-square)](https://www.npmjs.com/package/@ricky0123/vad-web)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snakers4/silero-models",
+      "status": "candidate-context",
+      "text": "Silero Models: pre-trained text-to-speech models made embarrassingly simple"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snakers4/silero-models",
+      "status": "candidate-context",
+      "text": "[![Mailing list : test](http://img.shields.io/badge/Email-gray.svg?style=for-the-badge&logo=gmail)](mailto:hello@silero.ai) [![Mailing list : test](http://img.shields.io/badge/Telegram-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/silero_speech) [![License: CC BY-NC \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Macoron/whisper.unity",
+      "status": "candidate-context",
+      "text": "Running speech to text model (whisper.cpp) in Unity3d on your local machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Macoron/whisper.unity",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![whisper.cpp](https://img.shields.io/badge/whisper.cpp-v1.7.5-green)](https://github.com/ggerganov/whisper.cpp/releases/tag/v1.7.5) [![Ko-fi](https://img.shields.io/badge/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "exPHAT/SwiftWhisper",
       "status": "candidate",
       "text": "> The easiest way to use Whisper in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ricky0123/vad",
+      "status": "candidate",
+      "text": "[![npm vad-web](https://img.shields.io/npm/v/@ricky0123/vad-web?color=blue&label=%40ricky0123%2Fvad-web&style=flat-square)](https://www.npmjs.com/package/@ricky0123/vad-web)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snakers4/silero-models",
+      "status": "candidate",
+      "text": "[![Mailing list : test](http://img.shields.io/badge/Email-gray.svg?style=for-the-badge&logo=gmail)](mailto:hello@silero.ai) [![Mailing list : test](http://img.shields.io/badge/Telegram-blue.svg?style=for-the-badge&logo=telegram)](https://t.me/silero_speech) [![License: CC BY-NC \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Macoron/whisper.unity",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![whisper.cpp](https://img.shields.io/badge/whisper.cpp-v1.7.5-green)](https://github.com/ggerganov/whisper.cpp/releases/tag/v1.7.5) [![Ko-fi](https://img.shields.io/badge/\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -82,11 +136,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "exPHAT/SwiftWhisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ricky0123/vad"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "snakers4/silero-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Macoron/whisper.unity"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

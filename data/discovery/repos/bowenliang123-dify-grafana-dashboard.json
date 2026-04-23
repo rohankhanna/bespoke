@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:30:16.783532+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Grafana dashboard for Dify",
+    "fork": false,
+    "full_name": "bowenliang123/dify-grafana-dashboard",
+    "html_url": "https://github.com/bowenliang123/dify-grafana-dashboard",
+    "language": null,
+    "pushed_at": "2025-10-20T00:12:55Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-04-22T01:45:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

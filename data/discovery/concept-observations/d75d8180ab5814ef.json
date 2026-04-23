@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CI system for Ascend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Ascend NPU Test Suite\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Ascend NPU Test Suite\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19196,
+      "status": "candidate",
+      "text": "sty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18998,
+      "status": "candidate",
+      "text": "scrambled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18974,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18950,
+      "status": "candidate",
+      "text": "amount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18950,
+      "status": "candidate",
+      "text": "elevator"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ascend NPU Test Suite",
+      "sense_id": "ascend-npu-test-suite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ascend-npu-test-suite",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ascend-npu-test-suite",
+  "observation_id": "d75d8180ab5814ef",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Ascend NPU Test Suite",
+  "source_context_snippet": "\"Ascend NPU Test Suite\"",
+  "source_file": ".github/workflows/ascend_npu-test.yml",
+  "source_repo": "Ascend/Ascend-CI",
+  "source_repo_description": "CI system for Ascend"
+}

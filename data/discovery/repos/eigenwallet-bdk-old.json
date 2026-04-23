@@ -1,0 +1,451 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions-rust-lang/audit@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions-rs/clippy-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-update-rust.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-update-rust.yml"
+    },
+    {
+      "component": "tibdex/github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-update-rust.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-update-rust.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-update-rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docs.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2.7.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "rust-bitcoin/rust-miniscript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "rust-bitcoin/rust-bitcoin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "actions-rust-lang/audit@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "Swatinem/rust-cache@v2.7.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "Swatinem/rust-cache@v2.7.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "actions-rs/clippy-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-update-rust.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-update-rust.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-update-rust.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "tibdex/github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-update-rust.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "crazy-max/ghaction-import-gpg@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-update-rust.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-update-rust.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "Update rust version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docs.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docs.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "Swatinem/rust-cache@v2.7.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docs.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docs.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_docs.yml",
+      "source_repo": "eigenwallet/bdk-old",
+      "target": "Publish Nightly Docs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:39:31.775150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5987
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 706
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 618
+    },
+    {
+      "path": ".github/workflows/code_coverage.yml",
+      "size": 1575
+    },
+    {
+      "path": ".github/workflows/cont_integration.yml",
+      "size": 6004
+    },
+    {
+      "path": ".github/workflows/cron-update-rust.yml",
+      "size": 2247
+    },
+    {
+      "path": ".github/workflows/nightly_docs.yml",
+      "size": 1904
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A modern, lightweight, descriptor-based wallet library written in Rust!",
+    "fork": true,
+    "full_name": "eigenwallet/bdk-old",
+    "html_url": "https://github.com/eigenwallet/bdk-old",
+    "language": "Rust",
+    "pushed_at": "2024-12-10T15:54:37Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-07-29T18:39:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-bitcoin/rust-bitcoin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-bitcoin/rust-miniscript",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "Audit"
+    },
+    {
+      "context_snippet": "Code Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "term": "Code Coverage"
+    },
+    {
+      "context_snippet": "Update rust version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cron-update-rust.yml",
+      "term": "Update rust version"
+    },
+    {
+      "context_snippet": "Publish Nightly Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_docs.yml",
+      "term": "Publish Nightly Docs"
+    }
+  ]
+}

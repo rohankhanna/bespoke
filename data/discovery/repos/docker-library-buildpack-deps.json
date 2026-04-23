@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker-library/bashbrew@HEAD",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-templating.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/buildpack-deps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/buildpack-deps",
+      "target": "docker-library/bashbrew@HEAD",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/buildpack-deps",
+      "target": "GitHub CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-templating.yml",
+      "source_repo": "docker-library/buildpack-deps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-templating.yml",
+      "source_repo": "docker-library/buildpack-deps",
+      "target": "Verify Templating",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:38:00.256882+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1707
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1482
+    },
+    {
+      "path": ".github/workflows/verify-templating.yml",
+      "size": 337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "docker-library/buildpack-deps",
+    "html_url": "https://github.com/docker-library/buildpack-deps",
+    "language": "Shell",
+    "pushed_at": "2026-02-17T19:22:56Z",
+    "stargazers_count": 471,
+    "topics": [],
+    "updated_at": "2026-04-05T21:24:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "GitHub CI"
+    },
+    {
+      "context_snippet": "Verify Templating",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-templating.yml",
+      "term": "Verify Templating"
+    }
+  ]
+}

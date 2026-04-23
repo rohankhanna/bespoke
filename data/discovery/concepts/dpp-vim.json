@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "dpp-vim"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dpp.vim",
+      "status": "candidate-context",
+      "text": "Dark powered plugin manager for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp.vim",
+      "status": "candidate-context",
+      "text": "> Dark Powered Plugin manager for Vim/Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dpp-ext-installer",
+      "status": "candidate-context",
+      "text": "Installer ext for dpp.vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-installer",
+      "status": "candidate-context",
+      "text": "This ext implements plugins installer."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dpp-ext-lazy",
+      "status": "candidate-context",
+      "text": "Lazy ext for dpp.vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-lazy",
+      "status": "candidate-context",
+      "text": "This ext implements lazy loading."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dpp-ext-local",
+      "status": "candidate-context",
+      "text": "Local ext for dpp.vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-local",
+      "status": "candidate-context",
+      "text": "This ext implements local loading."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dpp-ext-toml",
+      "status": "candidate-context",
+      "text": "Toml ext for dpp.vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-toml",
+      "status": "candidate-context",
+      "text": "This ext implements toml loading."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp.vim",
+      "status": "candidate",
+      "text": "> Dark Powered Plugin manager for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-installer",
+      "status": "candidate",
+      "text": "This ext implements plugins installer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-lazy",
+      "status": "candidate",
+      "text": "This ext implements lazy loading."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-local",
+      "status": "candidate",
+      "text": "This ext implements local loading."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-toml",
+      "status": "candidate",
+      "text": "This ext implements toml loading."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dpp-vim",
+  "concept_id": "dpp-vim",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/dpp.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/dpp-ext-installer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/dpp-ext-lazy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/dpp-ext-local"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/dpp-ext-toml"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dpp-vim",
+      "sense_id": "dpp-vim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,6 +19,30 @@
       "source_repo": "zdharma-continuum/zinit",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "status": "candidate-context",
+      "text": "Autoupdate plugin for zgen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "status": "candidate-context",
+      "text": "[zgen](https://github.com/tarjoilija/zgen) is no longer getting updates. However, the [zgenom](https://github.com/jandamm/zgenom) fork is getting updates and new features, and is basically zgen but better."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate-context",
+      "text": "A collection of ZSH frameworks, plugins, themes and tutorials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "zdharma-continuum/zinit",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "status": "candidate",
+      "text": "[zgen](https://github.com/tarjoilija/zgen) is no longer getting updates. However, the [zgenom](https://github.com/jandamm/zgenom) fork is getting updates and new features, and is basically zgen but better."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "zdharma-continuum/zinit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unixorn/autoupdate-zgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

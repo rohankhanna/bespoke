@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mbed-TLS/mbedtls-framework",
+      "target": "mbed-tls/tf-psa-crypto",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:35:18.468292+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1385
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TF-PSA-Crypto and Mbed TLS version-independent build and test framework",
+    "fork": false,
+    "full_name": "Mbed-TLS/mbedtls-framework",
+    "html_url": "https://github.com/Mbed-TLS/mbedtls-framework",
+    "language": "Python",
+    "pushed_at": "2026-04-08T13:50:19Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-08T13:50:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mbed-tls/tf-psa-crypto",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

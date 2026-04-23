@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/legacy-x11-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop",
+      "target": "buddiesofbudgie/budgie-backgrounds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop",
+      "target": "Build on Fedora Rawhide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/legacy-x11-build.yml",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/legacy-x11-build.yml",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop",
+      "target": "Build on Fedora 43",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BuddiesOfBudgie/budgie-desktop",
+      "target": "desktop-environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BuddiesOfBudgie/budgie-desktop",
+      "target": "linux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:41.330015+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4766
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1798
+    },
+    {
+      "path": ".github/workflows/legacy-x11-build.yml",
+      "size": 1670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Budgie Desktop is a familiar, modern desktop environment.",
+    "fork": false,
+    "full_name": "BuddiesOfBudgie/budgie-desktop",
+    "html_url": "https://github.com/BuddiesOfBudgie/budgie-desktop",
+    "language": "Vala",
+    "pushed_at": "2026-04-22T06:56:47Z",
+    "stargazers_count": 1308,
+    "topics": [
+      "desktop-environment",
+      "linux"
+    ],
+    "updated_at": "2026-04-22T17:23:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buddiesofbudgie/budgie-backgrounds",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build on Fedora Rawhide",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build on Fedora Rawhide"
+    },
+    {
+      "context_snippet": "Build on Fedora 43",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/legacy-x11-build.yml",
+      "term": "Build on Fedora 43"
+    },
+    {
+      "context_snippet": "![main_desktop](https://github.com/BuddiesOfBudgie/budgie-desktop/raw/main/.github/screenshots/MainDesktop.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop-environment"
+    },
+    {
+      "context_snippet": "![main_desktop](https://github.com/BuddiesOfBudgie/budgie-desktop/raw/main/.github/screenshots/MainDesktop.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    }
+  ]
+}

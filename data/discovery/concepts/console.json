@@ -43,6 +43,78 @@
       "source_repo": "coderaiser/cloudcmd",
       "status": "candidate-context",
       "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ranger/ranger",
+      "status": "candidate-context",
+      "text": "A VIM-inspired filemanager for the console"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranger/ranger",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustwasm/console_error_panic_hook",
+      "status": "candidate-context",
+      "text": "A panic hook for wasm32-unknown-unknown that logs panics with console.error"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustwasm/console_error_panic_hook",
+      "status": "candidate-context",
+      "text": "[![](https://docs.rs/console_error_panic_hook/badge.svg)](https://docs.rs/console_error_panic_hook/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtermjs/xterm.js",
+      "status": "candidate-context",
+      "text": "A terminal for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtermjs/xterm.js",
+      "status": "candidate-context",
+      "text": "Xterm.js is a frontend component that enables applications to bring fully-featured terminals to their users in the browser. It's used by popular projects such as [VS Code](https://code.visualstudio.com/) (and its forks), [Tabby](https://tabby.sh/) and [Hyper](https://hyper.is/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate-context",
+      "text": "A general purpose syntax highlighter in pure Go "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate-context",
+      "text": "![Chroma](chroma.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate-context",
+      "text": "The new Windows Terminal and the original Windows console host, all in the same place!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate-context",
+      "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "Modern C++ Terminal Emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +135,42 @@
       "source_repo": "coderaiser/cloudcmd",
       "status": "candidate",
       "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ranger/ranger",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustwasm/console_error_panic_hook",
+      "status": "candidate",
+      "text": "[![](https://docs.rs/console_error_panic_hook/badge.svg)](https://docs.rs/console_error_panic_hook/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtermjs/xterm.js",
+      "status": "candidate",
+      "text": "Xterm.js is a frontend component that enables applications to bring fully-featured terminals to their users in the browser. It's used by popular projects such as [VS Code](https://code.visualstudio.com/) (and its forks), [Tabby](https://tabby.sh/) and [Hyper](https://hyper.is/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate",
+      "text": "![Chroma](chroma.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate",
+      "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate",
+      "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -166,11 +274,47 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "coderaiser/cloudcmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ranger/ranger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rustwasm/console_error_panic_hook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "xtermjs/xterm.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alecthomas/chroma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "contour-terminal/contour"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/AFL",
+      "target": "zardus/preeny",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/AFL",
+      "target": "mrash/afl-cov",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:46:55.778862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "american fuzzy lop - a security-oriented fuzzer",
+    "fork": false,
+    "full_name": "google/AFL",
+    "html_url": "https://github.com/google/AFL",
+    "language": "C",
+    "pushed_at": "2021-07-05T14:02:41Z",
+    "stargazers_count": 4092,
+    "topics": [],
+    "updated_at": "2026-04-22T08:37:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrash/afl-cov",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zardus/preeny",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

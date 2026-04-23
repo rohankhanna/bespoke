@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "image-to-text"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of CoCa, Contrastive Captioners are Image-Text Foundation Models, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./coca.png\" width=\"450px\"></img>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./coca.png\" width=\"450px\"></img>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "image-to-text",
+  "concept_id": "image-to-text",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/CoCa-pytorch"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-to-text",
+      "sense_id": "image-to-text#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

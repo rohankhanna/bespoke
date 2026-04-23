@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:34:05.480517+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collection of patches and fixes - may be outdated, gathered for reference",
+    "fork": false,
+    "full_name": "danielrosehill/amd-gpu-fixes",
+    "html_url": "https://github.com/danielrosehill/amd-gpu-fixes",
+    "language": null,
+    "pushed_at": "2026-03-30T10:02:08Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-30T10:02:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

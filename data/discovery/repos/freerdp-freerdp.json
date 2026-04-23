@@ -1,0 +1,440 @@
+{
+  "components": [
+    {
+      "component": "suzuki-shunsuke/get-pr-action@v0.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-checker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-checker.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alt-architectures.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alt-architectures.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bash-format.yml"
+    },
+    {
+      "component": "akallabeth/clang-tidy-review/post@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-post.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "akallabeth/clang-tidy-review@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "akallabeth/clang-tidy-review/upload@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-checker.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "suzuki-shunsuke/get-pr-action@v0.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-checker.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abi-checker.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "abi-checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alt-architectures.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alt-architectures.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "uraimo/run-on-arch-action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bash-format.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-post.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "akallabeth/clang-tidy-review/post@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-post.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "Post clang-tidy review comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "akallabeth/clang-tidy-review@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "akallabeth/clang-tidy-review/upload@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "clang-tidy-review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-format.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-format.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "cmake-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "codespell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "Coverity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "freerdp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "rdp-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "rdp-connection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "remote-desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FreeRDP/FreeRDP",
+      "target": "wayland-client",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:30:48.556448+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2728
+    },
+    {
+      "path": ".github/workflows/abi-checker.yml",
+      "size": 1954
+    },
+    {
+      "path": ".github/workflows/alt-architectures.yml",
+      "size": 1829
+    },
+    {
+      "path": ".github/workflows/bash-format.yml",
+      "size": 536
+    },
+    {
+      "path": ".github/workflows/clang-tidy-post.yml",
+      "size": 534
+    },
+    {
+      "path": ".github/workflows/clang-tidy.yml",
+      "size": 870
+    },
+    {
+      "path": ".github/workflows/cmake-format.yml",
+      "size": 553
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 4444
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 538
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 1840
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FreeRDP is a free remote desktop protocol library and clients",
+    "fork": false,
+    "full_name": "FreeRDP/FreeRDP",
+    "html_url": "https://github.com/FreeRDP/FreeRDP",
+    "language": "C",
+    "pushed_at": "2026-04-23T06:58:34Z",
+    "stargazers_count": 13080,
+    "topics": [
+      "android",
+      "c",
+      "freerdp",
+      "library",
+      "rdp",
+      "rdp-client",
+      "rdp-connection",
+      "remote-desktop",
+      "sdl",
+      "wayland-client",
+      "x11"
+    ],
+    "updated_at": "2026-04-23T08:04:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "abi-checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abi-checker.yml",
+      "term": "abi-checker"
+    },
+    {
+      "context_snippet": "Post clang-tidy review comments",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-post.yml",
+      "term": "Post clang-tidy review comments"
+    },
+    {
+      "context_snippet": "clang-tidy-review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "term": "clang-tidy-review"
+    },
+    {
+      "context_snippet": "cmake-format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-format.yml",
+      "term": "cmake-format"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "codespell",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "codespell"
+    },
+    {
+      "context_snippet": "Coverity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity"
+    },
+    {
+      "context_snippet": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freerdp"
+    },
+    {
+      "context_snippet": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rdp-client"
+    },
+    {
+      "context_snippet": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rdp-connection"
+    },
+    {
+      "context_snippet": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remote-desktop"
+    },
+    {
+      "context_snippet": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wayland-client"
+    }
+  ]
+}

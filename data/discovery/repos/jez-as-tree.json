@@ -1,0 +1,65 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "jez/as-tree",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "jez/as-tree",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:39.401957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2967
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 775
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 1711
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Print a list of paths as a tree of paths \ud83c\udf33",
+    "fork": false,
+    "full_name": "jez/as-tree",
+    "html_url": "https://github.com/jez/as-tree",
+    "language": "Rust",
+    "pushed_at": "2021-10-07T12:59:11Z",
+    "stargazers_count": 498,
+    "topics": [
+      "cli"
+    ],
+    "updated_at": "2026-04-17T19:27:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

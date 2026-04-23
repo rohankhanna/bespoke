@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. \u5e26\u8fde\u5b57\u548c\u63a7\u5236\u53f0\u56fe\u6807\u7684\u5706\u89d2\u7b49\u5bbd\u5b57\u4f53\uff0c\u4e2d\u82f1\u6587\u5bbd\u5ea6\u5b8c\u7f8e2:1\uff0c\u7ec6\u7c92\u5ea6\u7684\u81ea\u5b9a\u4e49\u9009\u9879"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Cover](./resources/header.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Cover](./resources/header.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "monospace-font",
+      "sense_id": "monospace-font#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "monospace-font",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "monospace-font",
+  "observation_id": "8d806d4af0c5587a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "monospace-font",
+  "source_context_snippet": "![Cover](./resources/header.png)",
+  "source_file": null,
+  "source_repo": "subframe7536/maple-font",
+  "source_repo_description": "Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. \u5e26\u8fde\u5b57\u548c\u63a7\u5236\u53f0\u56fe\u6807\u7684\u5706\u89d2\u7b49\u5bbd\u5b57\u4f53\uff0c\u4e2d\u82f1\u6587\u5bbd\u5ea6\u5b8c\u7f8e2:1\uff0c\u7ec6\u7c92\u5ea6\u7684\u81ea\u5b9a\u4e49\u9009\u9879"
+}

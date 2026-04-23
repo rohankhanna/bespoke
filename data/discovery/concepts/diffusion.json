@@ -43,6 +43,42 @@
       "source_repo": "cloneofsimo/lora",
       "status": "candidate-context",
       "text": "<!-- #region -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmagic",
+      "status": "candidate-context",
+      "text": "OpenMMLab Multimodal Advanced, Generative, and Intelligent Creation Toolbox. Unlock the magic \ud83e\ude84: Generative-AI (AIGC), easy-to-use APIs, awsome model zoo, diffusion models, for text-to-image generation, image/video restoration/enhancement, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmagic",
+      "status": "candidate-context",
+      "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EdVince/Stable-Diffusion-NCNN",
+      "status": "candidate-context",
+      "text": "Stable Diffusion in NCNN with c++, supported txt2img and img2img"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdVince/Stable-Diffusion-NCNN",
+      "status": "candidate-context",
+      "text": "Stable-Diffusion implemented by [ncnn](https://github.com/Tencent/ncnn) framework based on C++, supported txt2img and img2img!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate-context",
+      "text": "Efficient Retrieval Augmentation and Generation Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate-context",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "cloneofsimo/lora",
       "status": "candidate",
       "text": "<!-- #region -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmagic",
+      "status": "candidate",
+      "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdVince/Stable-Diffusion-NCNN",
+      "status": "candidate",
+      "text": "Stable-Diffusion implemented by [ncnn](https://github.com/Tencent/ncnn) framework based on C++, supported txt2img and img2img!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
     }
   ],
   "candidate_related_terms": [
@@ -144,11 +198,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "cloneofsimo/lora"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EdVince/Stable-Diffusion-NCNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "IntelLabs/fastRAG"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

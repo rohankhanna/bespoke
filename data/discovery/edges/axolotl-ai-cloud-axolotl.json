@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "axolotl-ai-cloud/axolotl",
-      "target": "axolotl-ai-cloud/grpo_code",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "axolotl-ai-cloud/axolotl",
-      "target": "axolotl-ai-cloud/ml-cross-entropy",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/base.yml",
       "source_repo": "axolotl-ai-cloud/axolotl",
@@ -253,6 +239,48 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "quarto-dev/quarto-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "nwtgck/actions-netlify@v3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "Preview",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "axolotl-ai-cloud/axolotl",
@@ -260,6 +288,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-19T01:08:57.644140+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "axolotl-ai-cloud/axolotl"
 }

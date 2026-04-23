@@ -4,31 +4,31 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "bazel-contrib/rules_jvm",
+      "target": "bazelbuild/rules_go",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "aspect-build/aspect-gazelle",
+      "target": "benchsci/rules_nodejs_gazelle",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "bazel-contrib/rules_python",
+      "target": "bazelbuild/rules_rust",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "bazel-contrib/rules_go",
+      "target": "bazelbuild/bazel-gazelle",
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "bazel-contrib/bazel-gazelle"
 }

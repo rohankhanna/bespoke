@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:29:57.847564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1936
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Automatically exported from code.google.com/p/smhasher",
+    "fork": false,
+    "full_name": "aappleby/smhasher",
+    "html_url": "https://github.com/aappleby/smhasher",
+    "language": "C++",
+    "pushed_at": "2024-11-14T04:23:59Z",
+    "stargazers_count": 2859,
+    "topics": [],
+    "updated_at": "2026-04-20T07:47:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

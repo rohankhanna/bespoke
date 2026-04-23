@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:29:21.146941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6034
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 134
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust sample project for trying out Dev Containers",
+    "fork": false,
+    "full_name": "microsoft/vscode-remote-try-rust",
+    "html_url": "https://github.com/microsoft/vscode-remote-try-rust",
+    "language": "Rust",
+    "pushed_at": "2024-04-12T07:36:35Z",
+    "stargazers_count": 327,
+    "topics": [],
+    "updated_at": "2026-04-01T11:53:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

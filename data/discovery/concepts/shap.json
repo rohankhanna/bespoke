@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "shap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shap/shap",
+      "status": "candidate-context",
+      "text": "A game theoretic approach to explain the output of any machine learning model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shap/shap",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shap/shap",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38809627,
+      "status": "candidate",
+      "text": "formation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38809487,
+      "status": "candidate",
+      "text": "formative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38803633,
+      "status": "candidate",
+      "text": "defining"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38764892,
+      "status": "candidate",
+      "text": "constructive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "shap",
+  "concept_id": "shap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "shap/shap"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shap",
+      "sense_id": "shap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

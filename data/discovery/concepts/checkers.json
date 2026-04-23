@@ -1,0 +1,132 @@
+{
+  "aliases": [
+    "Checkers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate-context",
+      "text": "A Node.js style checker and lint tool for Markdown/CommonMark files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate-context",
+      "text": "Checkers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate-context",
+      "text": "A fast, flexible, configuration-based command-line interface for linting Markdown/CommonMark files with the markdownlint library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate-context",
+      "text": "Checkers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate",
+      "text": "Checkers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate",
+      "text": "Checkers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046409,
+      "status": "candidate",
+      "text": "draughts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29920203,
+      "status": "candidate",
+      "text": "dashboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29833782,
+      "status": "candidate",
+      "text": "board"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29831902,
+      "status": "candidate",
+      "text": "tabletop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29790199,
+      "status": "candidate",
+      "text": "ladies"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33,
+      "status": "candidate",
+      "text": "draughts"
+    }
+  ],
+  "canonical_name": "Checkers",
+  "concept_id": "checkers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/checkers.yml",
+      "source_repo": "DavidAnson/markdownlint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/checkers.yml",
+      "source_repo": "DavidAnson/markdownlint-cli2"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Checkers",
+      "sense_id": "checkers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

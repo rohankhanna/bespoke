@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zplug/zplug",
+      "target": "robbyrussell/oh-my-zsh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zplug/zplug",
+      "target": "peco/peco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zplug/zplug",
+      "target": "shougo/neobundle.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zplug/zplug",
+      "target": "unixorn/awesome-zsh-plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "zplug/zplug",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "zplug/zplug",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zplug/zplug",
+      "target": "zplug",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:56.988688+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15487
+    },
+    {
+      "path": "Dockerfile",
+      "size": 439
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A next-generation plugin manager for zsh \u2014 manage plugins, commands, and themes from GitHub, Bitbucket, oh-my-zsh, prezto, and more with parallel installation and lazy loading.",
+    "fork": false,
+    "full_name": "zplug/zplug",
+    "html_url": "https://github.com/zplug/zplug",
+    "language": "Shell",
+    "pushed_at": "2026-03-04T09:40:33Z",
+    "stargazers_count": 6018,
+    "topics": [
+      "zplug",
+      "zsh"
+    ],
+    "updated_at": "2026-04-22T13:59:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peco/peco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robbyrussell/oh-my-zsh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neobundle.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unixorn/awesome-zsh-plugins",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "A next-generation plugin manager for zsh. zplug can manage plugins, commands, and themes from GitHub, Bitbucket, Gist, oh-my-zsh, prezto, local directories, and more \u2014 all with parallel installation, lazy loading, and branch/tag locking.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zplug"
+    }
+  ]
+}

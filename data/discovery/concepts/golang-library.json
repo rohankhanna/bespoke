@@ -43,6 +43,42 @@
       "source_repo": "avelino/awesome-go",
       "status": "candidate-context",
       "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urfave/cli",
+      "status": "candidate-context",
+      "text": "A declarative, simple, fast, and fun package for building command line tools in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urfave/cli",
+      "status": "candidate-context",
+      "text": "[![Go Reference][goreference_badge]][goreference_link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codeGROOVE-dev/retry",
+      "status": "candidate-context",
+      "text": "Production-ready retry library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codeGROOVE-dev/retry",
+      "status": "candidate-context",
+      "text": "[![Release](https://img.shields.io/github/release/codeGROOVE-dev/retry.svg?style=flat-square)](https://github.com/codeGROOVE-dev/retry/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urfave/cli-altsrc",
+      "status": "candidate-context",
+      "text": "Read values for urfave/cli/v3 flags from config files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urfave/cli-altsrc",
+      "status": "candidate-context",
+      "text": "[![Run Tests](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml/badge.svg)](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "avelino/awesome-go",
       "status": "candidate",
       "text": "<a href=\"https://awesome-go.com/\"><img align=\"right\" src=\"https://github.com/avelino/awesome-go/raw/main/tmpl/assets/logo.png\" alt=\"awesome-go\" title=\"awesome-go\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urfave/cli",
+      "status": "candidate",
+      "text": "[![Go Reference][goreference_badge]][goreference_link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codeGROOVE-dev/retry",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/codeGROOVE-dev/retry.svg?style=flat-square)](https://github.com/codeGROOVE-dev/retry/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urfave/cli-altsrc",
+      "status": "candidate",
+      "text": "[![Run Tests](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml/badge.svg)](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,29 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "avelino/awesome-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "urfave/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "codeGROOVE-dev/retry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "urfave/cli-altsrc"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

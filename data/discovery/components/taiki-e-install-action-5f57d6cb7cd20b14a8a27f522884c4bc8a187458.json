@@ -1,0 +1,32 @@
+{
+  "component": "taiki-e/install-action@5f57d6cb7cd20b14a8a27f522884c4bc8a187458",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nextest-rs/nextest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "nextest-rs/nextest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "nextest-rs/nextest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hakari.yml",
+      "source_repo": "nextest-rs/nextest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nextest-rs/nextest"
+    }
+  ]
+}

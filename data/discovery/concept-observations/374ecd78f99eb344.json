@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Primary Oh My Fish package repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fish-shell",
+      "sense_id": "fish-shell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fish-shell",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fish-shell",
+  "observation_id": "374ecd78f99eb344",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "fish-shell",
+  "source_context_snippet": "Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework.",
+  "source_file": null,
+  "source_repo": "oh-my-fish/packages-main",
+  "source_repo_description": "Primary Oh My Fish package repository."
+}

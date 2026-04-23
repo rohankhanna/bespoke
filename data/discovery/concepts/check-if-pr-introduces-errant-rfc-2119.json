@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check if PR introduces errant RFC-2119"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/aria",
+      "status": "candidate-context",
+      "text": "Accessible Rich Internet Applications (WAI-ARIA)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/aria",
+      "status": "candidate-context",
+      "text": "\"Check if PR introduces errant RFC-2119\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/aria",
+      "status": "candidate",
+      "text": "\"Check if PR introduces errant RFC-2119\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35182,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34582,
+      "status": "candidate",
+      "text": "curb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32129,
+      "status": "candidate",
+      "text": "present"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31480,
+      "status": "candidate",
+      "text": "subordinating conjunction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26582,
+      "status": "candidate",
+      "text": "balk"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check if PR introduces errant RFC-2119",
+  "concept_id": "check-if-pr-introduces-errant-rfc-2119",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/RFC-2119-usage.yml",
+      "source_repo": "w3c/aria"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check if PR introduces errant RFC-2119",
+      "sense_id": "check-if-pr-introduces-errant-rfc-2119#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

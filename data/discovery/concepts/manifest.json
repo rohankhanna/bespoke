@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +33,18 @@
       "source_repo": "tc-hib/go-winres",
       "status": "candidate-context",
       "text": "A simple command line tool for embedding usual resources in Windows executables built with Go:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate-context",
+      "text": "Test suites for Web platform specs \u2014 including WHATWG, W3C, and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate-context",
+      "text": "manifest"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +59,12 @@
       "source_repo": "tc-hib/go-winres",
       "status": "candidate",
       "text": "A simple command line tool for embedding usual resources in Windows executables built with Go:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate",
+      "text": "manifest"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +156,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "tc-hib/go-winres"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/manifest.yml",
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

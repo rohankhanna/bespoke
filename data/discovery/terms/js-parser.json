@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/js_parser.yml",
+      "source_repo": "ocsigen/js_of_ocaml"
+    }
+  ],
+  "term": "js-parser"
+}

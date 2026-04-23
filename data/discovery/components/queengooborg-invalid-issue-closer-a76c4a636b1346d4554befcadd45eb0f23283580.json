@@ -1,0 +1,12 @@
+{
+  "component": "queengooborg/invalid-issue-closer@a76c4a636b1346d4554befcadd45eb0f23283580",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-incomplete-issues.yml",
+      "source_repo": "mdn/browser-compat-data"
+    }
+  ]
+}

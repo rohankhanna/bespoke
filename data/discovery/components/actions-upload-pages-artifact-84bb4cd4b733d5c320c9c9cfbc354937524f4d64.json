@@ -1,0 +1,12 @@
+{
+  "component": "actions/upload-pages-artifact@84bb4cd4b733d5c320c9c9cfbc354937524f4d64",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "ethpandaops/checkpoint-sync-health-checks"
+    }
+  ]
+}

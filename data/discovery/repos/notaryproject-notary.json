@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "notaryproject/notary",
-      "target": "theupdateframework/specification",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "notaryproject/notary",
       "target": "theupdateframework/notary",
       "target_type": "repository"
     },
@@ -37,7 +30,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T19:22:57.260065+00:00",
+  "fetched_at": "2026-04-23T08:40:01.939288+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -74,11 +67,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "theupdateframework/notary",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "theupdateframework/specification",
       "source_file": "README.md"
     }
   ],

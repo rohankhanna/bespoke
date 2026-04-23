@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -112,6 +112,131 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "open-telemetry/opentelemetry-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "blinklabs-io/bluefin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gradle-dependency-graph.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/acceptance-tests.yml",
+      "source_repo": "besu-eth/besu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bft-soak-test.yml",
+      "source_repo": "besu-eth/besu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "besu-eth/besu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/develop-pr.yml",
+      "source_repo": "besu-eth/besu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/develop.yml",
+      "source_repo": "besu-eth/besu"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-maven-3.8.9.yaml",
+      "source_repo": "spotbugs/spotbugs-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-maven-4.0.0.yaml",
+      "source_repo": "spotbugs/spotbugs-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "spotbugs/spotbugs-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "spotbugs/spotbugs-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coveralls.yaml",
+      "source_repo": "spotbugs/spotbugs-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/it-maven-3.8.9.yaml",
+      "source_repo": "spotbugs/spotbugs-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/it-maven-4.0.0.yaml",
+      "source_repo": "spotbugs/spotbugs-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/it.yaml",
+      "source_repo": "spotbugs/spotbugs-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "objectbox/objectbox-dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "connectbot/connectbot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-docs.yml",
+      "source_repo": "connectbot/connectbot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-emulator-tests.yml",
+      "source_repo": "AOMediaCodec/libavif"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-jni.yml",
+      "source_repo": "AOMediaCodec/libavif"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DefinedNet/mobile_nebula"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "DefinedNet/mobile_nebula"
     }
   ]
 }

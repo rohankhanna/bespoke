@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:40:31.212796+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":wrench: Initrd builder with qemu nbd metadata for Scaleway boot (armhf + x86_64)",
+    "fork": false,
+    "full_name": "scaleway/initrd",
+    "html_url": "https://github.com/scaleway/initrd",
+    "language": "Shell",
+    "pushed_at": "2022-09-27T14:19:02Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2023-12-22T10:48:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

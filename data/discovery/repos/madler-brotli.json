@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:46:14.669176+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Review and verification of Brotli compressed data format specification.",
+    "fork": false,
+    "full_name": "madler/brotli",
+    "html_url": "https://github.com/madler/brotli",
+    "language": "C",
+    "pushed_at": "2024-06-05T20:22:51Z",
+    "stargazers_count": 99,
+    "topics": [],
+    "updated_at": "2026-02-14T04:06:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

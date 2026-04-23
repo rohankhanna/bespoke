@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Start GitLab CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blockstream/esplora",
+      "status": "candidate-context",
+      "text": "Explorer for Bitcoin and Liquid"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blockstream/esplora",
+      "status": "candidate-context",
+      "text": "Start GitLab CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Blockstream/electrs",
+      "status": "candidate-context",
+      "text": "An efficient re-implementation of Electrum Server in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blockstream/electrs",
+      "status": "candidate-context",
+      "text": "Start GitLab CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blockstream/esplora",
+      "status": "candidate",
+      "text": "Start GitLab CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Blockstream/electrs",
+      "status": "candidate",
+      "text": "Start GitLab CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "curve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "fragment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "subscript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004,
+      "status": "candidate",
+      "text": "fucus"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Start GitLab CI",
+  "concept_id": "start-gitlab-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/start-gitlab.yml",
+      "source_repo": "Blockstream/esplora"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/start-gitlab.yml",
+      "source_repo": "Blockstream/electrs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Start GitLab CI",
+      "sense_id": "start-gitlab-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "target": "cake-build/cake",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "target": "igorshubovych/markdownlint-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "target": "cake-addin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "target": "cake-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "target": "markdownlint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:48:23.117743+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3771
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Cake Addin for calling Markdownlint",
+    "fork": false,
+    "full_name": "cake-contrib/Cake.Markdownlint",
+    "html_url": "https://github.com/cake-contrib/Cake.Markdownlint",
+    "language": "C#",
+    "pushed_at": "2026-04-22T20:43:57Z",
+    "stargazers_count": 1,
+    "topics": [
+      "cake-addin",
+      "cake-build",
+      "hacktoberfest",
+      "markdownlint"
+    ],
+    "updated_at": "2026-01-02T10:50:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cake-build/cake",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "igorshubovych/markdownlint-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This addin for the Cake Build Automation System allows you to run [markdownlint] using [markdownlint-cli].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cake-addin"
+    },
+    {
+      "context_snippet": "This addin for the Cake Build Automation System allows you to run [markdownlint] using [markdownlint-cli].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cake-build"
+    },
+    {
+      "context_snippet": "This addin for the Cake Build Automation System allows you to run [markdownlint] using [markdownlint-cli].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "This addin for the Cake Build Automation System allows you to run [markdownlint] using [markdownlint-cli].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdownlint"
+    }
+  ]
+}

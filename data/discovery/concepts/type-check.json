@@ -1,0 +1,185 @@
+{
+  "aliases": [
+    "Type Check",
+    "type-check",
+    "Type check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ricky0123/vad",
+      "status": "candidate-context",
+      "text": "Voice activity detector (VAD) for the browser with a simple API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ricky0123/vad",
+      "status": "candidate-context",
+      "text": "Type Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/optimizers",
+      "status": "candidate-context",
+      "text": "For optimization algorithm research and development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/optimizers",
+      "status": "candidate-context",
+      "text": "type-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/rbs",
+      "status": "candidate-context",
+      "text": "The type signature language for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate-context",
+      "text": "Type check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ricky0123/vad",
+      "status": "candidate",
+      "text": "Type Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/optimizers",
+      "status": "candidate",
+      "text": "type-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate",
+      "text": "Type check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48227,
+      "status": "candidate",
+      "text": "claim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48227,
+      "status": "candidate",
+      "text": "rain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11892,
+      "status": "candidate",
+      "text": "bearer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11892,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11892,
+      "status": "candidate",
+      "text": "brand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25001,
+      "status": "candidate",
+      "text": "typecheck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "typecast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "codebug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "debug"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Type Check",
+  "concept_id": "type-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "ricky0123/vad"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/type-check.yaml",
+      "source_repo": "facebookresearch/optimizers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "ruby/rbs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Type Check",
+      "sense_id": "type-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

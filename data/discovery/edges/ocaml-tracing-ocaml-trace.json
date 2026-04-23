@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ocaml-tracing/ocaml-trace",
-      "target": "janestreet/tracing",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ocaml-tracing/ocaml-trace",
-      "target": "imandra-ai/tldrs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ocaml-tracing/ocaml-trace",
-      "target": "imandra-ai/catapult",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ocaml-tracing/ocaml-trace",
-      "target": "ocaml-tracing/ocaml-opentelemetry",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "ocaml-tracing/ocaml-trace",
@@ -106,6 +78,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "ocaml-tracing/ocaml-trace"
 }

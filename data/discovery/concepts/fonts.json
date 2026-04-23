@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "fonts"
+    "fonts",
+    "Fonts"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -67,6 +70,18 @@
       "source_repo": "adobe-fonts/source-code-pro",
       "status": "candidate-context",
       "text": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KaTeX/KaTeX",
+      "status": "candidate-context",
+      "text": "Fast math typesetting for the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaTeX/KaTeX",
+      "status": "candidate-context",
+      "text": "Fonts"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +114,12 @@
       "source_repo": "adobe-fonts/source-code-pro",
       "status": "candidate",
       "text": "[Source Code Pro](http://adobe-fonts.github.io/source-code-pro/) is a set of OpenType fonts that have been designed to work well in user interface (UI) environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KaTeX/KaTeX",
+      "status": "candidate",
+      "text": "Fonts"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +193,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "adobe-fonts/source-code-pro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/fonts.yml",
+      "source_repo": "KaTeX/KaTeX"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

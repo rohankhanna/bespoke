@@ -481,14 +481,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ChatGPTNextWeb/NextChat",
-      "target": "josstorer/rwkv-runner",
+      "target": "go-skynet/localai",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ChatGPTNextWeb/NextChat",
-      "target": "go-skynet/localai",
+      "target": "plexpt/awesome-chatgpt-prompts-zh",
       "target_type": "repository"
     },
     {
@@ -1318,7 +1318,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:26:49.141240+00:00",
+  "fetched_at": "2026-04-23T07:29:03.719536+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1371,7 +1371,7 @@
     "html_url": "https://github.com/ChatGPTNextWeb/NextChat",
     "language": "TypeScript",
     "pushed_at": "2025-12-02T17:05:02Z",
-    "stargazers_count": 87772,
+    "stargazers_count": 87770,
     "topics": [
       "calclaude",
       "chatgpt",
@@ -1393,7 +1393,7 @@
       "vercel",
       "webui"
     ],
-    "updated_at": "2026-04-23T01:20:31Z"
+    "updated_at": "2026-04-23T07:14:08Z"
   },
   "repo_links": [
     {
@@ -1413,7 +1413,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "josstorer/rwkv-runner",
+      "full_name": "plexpt/awesome-chatgpt-prompts-zh",
       "source_file": "README.md"
     }
   ],

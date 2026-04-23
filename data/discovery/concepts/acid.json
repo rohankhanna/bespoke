@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "acid"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/foundationdb",
+      "status": "candidate-context",
+      "text": "FoundationDB - the open source, distributed, transactional key-value store"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/foundationdb",
+      "status": "candidate-context",
+      "text": "<img alt=\"FoundationDB logo\" src=\"documentation/FDB_logo.png?raw=true\" width=\"400\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/foundationdb",
+      "status": "candidate",
+      "text": "<img alt=\"FoundationDB logo\" src=\"documentation/FDB_logo.png?raw=true\" width=\"400\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945468,
+      "status": "candidate",
+      "text": "bitter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945461,
+      "status": "candidate",
+      "text": "acerb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945286,
+      "status": "candidate",
+      "text": "acerbic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39945092,
+      "status": "candidate",
+      "text": "acrid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892602,
+      "status": "candidate",
+      "text": "caustic"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61029,
+      "status": "candidate",
+      "text": "acerbic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57054,
+      "status": "candidate",
+      "text": "caustic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48042,
+      "status": "candidate",
+      "text": "virulent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 42044,
+      "status": "candidate",
+      "text": "acrid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40034,
+      "status": "candidate",
+      "text": "vitriolic"
+    }
+  ],
+  "canonical_name": "acid",
+  "concept_id": "acid",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apple/foundationdb"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "acid",
+      "sense_id": "acid#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

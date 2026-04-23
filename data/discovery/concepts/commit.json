@@ -1,0 +1,241 @@
+{
+  "aliases": [
+    "commit",
+    "Commit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact",
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eza-community/eza-themes",
+      "status": "candidate-context",
+      "text": "Themes for eza"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza-themes",
+      "status": "candidate-context",
+      "text": "commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "status": "candidate-context",
+      "text": "Generate changelogs and release notes from a project's commit messages and metadata."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "status": "candidate-context",
+      "text": "Commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conventional-changelog/commitlint",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd3 Lint commit messages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/commitlint",
+      "status": "candidate-context",
+      "text": "> Lint commit messages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/git",
+      "status": "candidate-context",
+      "text": ":twisted_rightwards_arrows: semantic-release plugin to commit release assets to the project's git repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/git",
+      "status": "candidate-context",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to commit release assets to the project's [git](https://git-scm.com/) repository."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TrigenSoftware/simple-release",
+      "status": "candidate-context",
+      "text": "A simple tool to release projects with monorepo support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrigenSoftware/simple-release",
+      "status": "candidate-context",
+      "text": "Commit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eza-community/eza-themes",
+      "status": "candidate",
+      "text": "commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "status": "candidate",
+      "text": "Commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/commitlint",
+      "status": "candidate",
+      "text": "> Lint commit messages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/git",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to commit release assets to the project's [git](https://git-scm.com/) repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrigenSoftware/simple-release",
+      "status": "candidate",
+      "text": "Commit"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017822,
+      "status": "candidate",
+      "text": "entrust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015822,
+      "status": "candidate",
+      "text": "trust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40014641,
+      "status": "candidate",
+      "text": "confide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40013711,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012024,
+      "status": "candidate",
+      "text": "devote"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43077,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33045,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21071,
+      "status": "candidate",
+      "text": "trust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15066,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12065,
+      "status": "candidate",
+      "text": "put"
+    }
+  ],
+  "canonical_name": "commit",
+  "concept_id": "commit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/convco.yml",
+      "source_repo": "eza-community/eza-themes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/nomerge.yml",
+      "source_repo": "eza-community/eza-themes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/commitlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/git"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/commit.yml",
+      "source_repo": "TrigenSoftware/simple-release"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "commit",
+      "sense_id": "commit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

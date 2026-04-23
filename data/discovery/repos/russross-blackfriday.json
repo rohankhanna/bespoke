@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "russross/blackfriday",
+      "target": "depado/bfchroma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "russross/blackfriday",
+      "target": "alecthomas/chroma",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "russross/blackfriday",
+      "target": "kentaro-m/blackfriday-confluence",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "russross/blackfriday",
+      "target": "karriereat/blackfriday-slack",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:31:15.269159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12948
+    },
+    {
+      "path": "go.mod",
+      "size": 48
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Blackfriday: a markdown processor for Go",
+    "fork": false,
+    "full_name": "russross/blackfriday",
+    "html_url": "https://github.com/russross/blackfriday",
+    "language": "Go",
+    "pushed_at": "2024-01-29T03:41:57Z",
+    "stargazers_count": 5619,
+    "topics": [],
+    "updated_at": "2026-04-21T05:41:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alecthomas/chroma",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "depado/bfchroma",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "karriereat/blackfriday-slack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kentaro-m/blackfriday-confluence",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI Linux Code Coverage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AOMediaCodec/libavif",
+      "status": "candidate-context",
+      "text": "libavif - Library for encoding and decoding .avif files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AOMediaCodec/libavif",
+      "status": "candidate-context",
+      "text": "CI Linux Code Coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AOMediaCodec/libavif",
+      "status": "candidate",
+      "text": "CI Linux Code Coverage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19917,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19793,
+      "status": "candidate",
+      "text": "concatenation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19793,
+      "status": "candidate",
+      "text": "fee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19793,
+      "status": "candidate",
+      "text": "green"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19670,
+      "status": "candidate",
+      "text": "reporting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Linux Code Coverage",
+  "concept_id": "ci-linux-code-coverage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci-linux-coverage.yml",
+      "source_repo": "AOMediaCodec/libavif"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Linux Code Coverage",
+      "sense_id": "ci-linux-code-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

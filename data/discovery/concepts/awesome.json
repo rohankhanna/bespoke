@@ -151,6 +151,126 @@
       "source_repo": "eryajf/awesome-github-profile-readme-chinese",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate-context",
+      "text": "A collection of ZSH frameworks, plugins, themes and tutorials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jorgebucaran/awsm.fish",
+      "status": "candidate-context",
+      "text": "A curation of prompts, plugins & other Fish treasures \ud83d\udc1a\ud83d\udc8e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jorgebucaran/awsm.fish",
+      "status": "candidate-context",
+      "text": "> Fish is the sassy & user-friendly command line shell you never knew you needed for Linux, macOS, and the whole gang. Out with the old-fashioned shells that skimp on features for the sake of every last byte of RAM\u2014finally, a command line shell for the 90s!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "Documenting the explosion of packages in the standard ecosystem!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "status": "candidate-context",
+      "text": "\ud83e\udd29 \u6211\u7684star\u5217\u8868\uff0c\u6bcf\u5929\u51cc\u6668\u81ea\u52a8\u66f4\u65b0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate-context",
+      "text": "\ud83d\ude0e A curated list of awesome GitHub Profile which updates in real time "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Awesome GitHub Profile README"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderjojo/creative-profile-readme",
+      "status": "candidate-context",
+      "text": "A Collection of GitHub Profiles with awesome readme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderjojo/creative-profile-readme",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub contributors](https://img.shields.io/github/contributors/coderjojo/creative-profile-readme)](https://github.com/coderjojo/creative-profile-readme/graphs/contributors) [![GitHub issues](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casbin-rs/examples",
+      "status": "candidate-context",
+      "text": "Examples for Casbin-RS Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casbin-rs/examples",
+      "status": "candidate-context",
+      "text": "A curated list of examples related to [casbin-rs](https://github.com/casbin/casbin-rs). A curated list of examples related to [casbin-rs](https://github.com/casbin/casbin-rs)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "buraksezer/consistent",
+      "status": "candidate-context",
+      "text": "Consistent hashing with bounded loads in Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buraksezer/consistent",
+      "status": "candidate-context",
+      "text": "consistent"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/awesome-terraform-compliance",
+      "status": "candidate-context",
+      "text": "Awesome Terraform Compliance - tools, frameworks, and resources for implementing compliance, security, and governance controls in Terraform and OpenTofu infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/awesome-terraform-compliance",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/awesome",
+      "status": "candidate-context",
+      "text": "An open list of awesome Level modules and resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/awesome",
+      "status": "candidate-context",
+      "text": "**An open list of awesome [Level][level-org] modules and resources. [Add yours!](#contributing)**"
     }
   ],
   "candidate_glosses": [
@@ -219,6 +339,66 @@
       "source_repo": "eryajf/awesome-github-profile-readme-chinese",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jorgebucaran/awsm.fish",
+      "status": "candidate",
+      "text": "> Fish is the sassy & user-friendly command line shell you never knew you needed for Linux, macOS, and the whole gang. Out with the old-fashioned shells that skimp on features for the sake of every last byte of RAM\u2014finally, a command line shell for the 90s!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eryajf/awesome-stars-eryajf",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Awesome GitHub Profile README"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderjojo/creative-profile-readme",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub contributors](https://img.shields.io/github/contributors/coderjojo/creative-profile-readme)](https://github.com/coderjojo/creative-profile-readme/graphs/contributors) [![GitHub issues](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casbin-rs/examples",
+      "status": "candidate",
+      "text": "A curated list of examples related to [casbin-rs](https://github.com/casbin/casbin-rs). A curated list of examples related to [casbin-rs](https://github.com/casbin/casbin-rs)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "buraksezer/consistent",
+      "status": "candidate",
+      "text": "consistent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/awesome-terraform-compliance",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/awesome",
+      "status": "candidate",
+      "text": "**An open list of awesome [Level][level-org] modules and resources. [Add yours!](#contributing)**"
     }
   ],
   "candidate_related_terms": [
@@ -382,11 +562,71 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "eryajf/awesome-github-profile-readme-chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jorgebucaran/awsm.fish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/awesome-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "eryajf/awesome-stars-eryajf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "coderjojo/creative-profile-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "casbin-rs/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "buraksezer/consistent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/awesome-terraform-compliance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/awesome"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

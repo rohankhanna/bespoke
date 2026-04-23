@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Repository providing samples and testing for running kubernetes/minikube on various CI services"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository provides samples and testing for running [kubernetes/minikube](https://github.com/kubernetes/minikube) on various CI platforms."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository provides samples and testing for running [kubernetes/minikube](https://github.com/kubernetes/minikube) on various CI platforms."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "minikube",
+      "sense_id": "minikube#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "minikube",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "minikube",
+  "observation_id": "f1dcc03a0a394a10",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "minikube",
+  "source_context_snippet": "This repository provides samples and testing for running [kubernetes/minikube](https://github.com/kubernetes/minikube) on various CI platforms.",
+  "source_file": null,
+  "source_repo": "minikube-ci/examples",
+  "source_repo_description": "Repository providing samples and testing for running kubernetes/minikube on various CI services"
+}

@@ -19,6 +19,18 @@
       "source_repo": "dropbox/mypy-PyCharm-plugin",
       "status": "candidate-context",
       "text": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/rbs",
+      "status": "candidate-context",
+      "text": "The type signature language for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate-context",
+      "text": "RBS is a language to describe the structure of Ruby programs."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dropbox/mypy-PyCharm-plugin",
       "status": "candidate",
       "text": "<img src=\"http://mypy-lang.org/static/mypy_light.svg\" alt=\"mypy logo\" width=\"300px\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate",
+      "text": "RBS is a language to describe the structure of Ruby programs."
     }
   ],
   "candidate_related_terms": [
@@ -62,11 +80,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "dropbox/mypy-PyCharm-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ruby/rbs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

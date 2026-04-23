@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:35:24.916796+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+    "fork": false,
+    "full_name": "deepseek-ai/DeepSeek-Math",
+    "html_url": "https://github.com/deepseek-ai/DeepSeek-Math",
+    "language": "Python",
+    "pushed_at": "2024-04-15T07:55:37Z",
+    "stargazers_count": 3239,
+    "topics": [],
+    "updated_at": "2026-04-22T22:59:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

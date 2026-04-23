@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "docopt/docopt.rb",
+      "target": "docopt/docopt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:34:57.640563+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6604
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Parse command line arguments from nothing more than a usage message",
+    "fork": false,
+    "full_name": "docopt/docopt.rb",
+    "html_url": "https://github.com/docopt/docopt.rb",
+    "language": "Ruby",
+    "pushed_at": "2023-04-09T18:40:08Z",
+    "stargazers_count": 465,
+    "topics": [],
+    "updated_at": "2026-03-08T14:00:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docopt/docopt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

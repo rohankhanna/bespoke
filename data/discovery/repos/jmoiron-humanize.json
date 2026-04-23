@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "roots/issue-closer@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autocloser.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jmoiron/humanize",
+      "target": "python-humanize/humanize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autocloser.yml",
+      "source_repo": "jmoiron/humanize",
+      "target": "roots/issue-closer@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autocloser.yml",
+      "source_repo": "jmoiron/humanize",
+      "target": "Autocloser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:31:51.128140+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4844
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 220
+    },
+    {
+      "path": ".github/workflows/autocloser.yml",
+      "size": 690
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "python humanize functions",
+    "fork": false,
+    "full_name": "jmoiron/humanize",
+    "html_url": "https://github.com/jmoiron/humanize",
+    "language": "Python",
+    "pushed_at": "2022-07-17T15:30:47Z",
+    "stargazers_count": 1704,
+    "topics": [],
+    "updated_at": "2026-04-21T14:17:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "python-humanize/humanize",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Autocloser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autocloser.yml",
+      "term": "Autocloser"
+    }
+  ]
+}

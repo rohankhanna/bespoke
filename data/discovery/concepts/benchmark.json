@@ -286,6 +286,174 @@
       "source_repo": "hajimes/mmh3",
       "status": "candidate-context",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate-context",
+      "text": "Fast container image distribution plugin with lazy pulling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-cpp",
+      "status": "candidate-context",
+      "text": "An authorization library that supports access control models like ACL, RBAC, ABAC in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-cpp",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serde-rs/json-benchmark",
+      "status": "candidate-context",
+      "text": "nativejson-benchmark in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serde-rs/json-benchmark",
+      "status": "candidate-context",
+      "text": "This is a partial port of [nativejson-benchmark] to Rust. The libraries tested"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JUNJIE99/MLVU",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25\ud83d\udd25MLVU: Multi-task Long Video Understanding Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JUNJIE99/MLVU",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">MLVU: Multi-task Long Video Understanding Benchmark</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate-context",
+      "text": "Ultra fast JSON decoder and encoder written in C with Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "Official Haskell IDE support via the language server protocol (LSP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate-context",
+      "text": "Efficient Retrieval Augmentation and Generation Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate-context",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyca/cryptography",
+      "status": "candidate-context",
+      "text": "cryptography is a package designed to expose cryptographic primitives and recipes to Python developers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyca/cryptography",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate-context",
+      "text": "A command-line benchmarking tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate-context",
+      "text": "[![CICD](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mypyc/mypyc-benchmarks",
+      "status": "candidate-context",
+      "text": "Mypyc benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mypyc/mypyc-benchmarks",
+      "status": "candidate-context",
+      "text": "This is a collection of mypyc benchmarks. They are intended to track"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/harmonia",
+      "status": "candidate-context",
+      "text": "Nix binary cache implemented in rust (maintainer: @Mic92)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/harmonia",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "recmo/uint",
+      "status": "candidate-context",
+      "text": "Rust Uint crate using const-generics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recmo/uint",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex/rust-asn1",
+      "status": "candidate-context",
+      "text": "A Rust ASN.1 (DER) serializer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex/rust-asn1",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "powturbo/TurboBench",
+      "status": "candidate-context",
+      "text": "Compression Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/TurboBench",
+      "status": "candidate-context",
+      "text": "[![Build ubuntu](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -426,6 +594,90 @@
       "source_repo": "hajimes/mmh3",
       "status": "candidate",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-cpp",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serde-rs/json-benchmark",
+      "status": "candidate",
+      "text": "This is a partial port of [nativejson-benchmark] to Rust. The libraries tested"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JUNJIE99/MLVU",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">MLVU: Multi-task Long Video Understanding Benchmark</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyca/cryptography",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate",
+      "text": "[![CICD](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mypyc/mypyc-benchmarks",
+      "status": "candidate",
+      "text": "This is a collection of mypyc benchmarks. They are intended to track"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/harmonia",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "recmo/uint",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex/rust-asn1",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/TurboBench",
+      "status": "candidate",
+      "text": "[![Build ubuntu](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -681,11 +933,107 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "containerd/stargz-snapshotter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "serde-rs/json-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "JUNJIE99/MLVU"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "haskell/haskell-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "IntelLabs/fastRAG"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "pyca/cryptography"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/hyperfine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mypyc/mypyc-benchmarks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "nix-community/harmonia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "recmo/uint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "alex/rust-asn1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/TurboBench"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "cspell",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "wgutils",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wgutils-automerge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graphql/composite-schemas-wg",
+      "target": "graphql/composite-schemas-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/composite-schemas-wg",
+      "target": "cspell",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/composite-schemas-wg",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/composite-schemas-wg",
+      "target": "wgutils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wgutils-automerge.yml",
+      "source_repo": "graphql/composite-schemas-wg",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wgutils-automerge.yml",
+      "source_repo": "graphql/composite-schemas-wg",
+      "target": "Agenda auto-merge",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:31:44.812218+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4300
+    },
+    {
+      "path": "package.json",
+      "size": 492
+    },
+    {
+      "path": ".github/workflows/wgutils-automerge.yml",
+      "size": 1652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The GraphQL Composite Schemas WG (subcommittee)",
+    "fork": false,
+    "full_name": "graphql/composite-schemas-wg",
+    "html_url": "https://github.com/graphql/composite-schemas-wg",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-02T15:13:38Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-04-02T15:13:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphql/composite-schemas-spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Agenda auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wgutils-automerge.yml",
+      "term": "Agenda auto-merge"
+    }
+  ]
+}

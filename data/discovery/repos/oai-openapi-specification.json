@@ -1,0 +1,587 @@
+{
+  "components": [
+    {
+      "component": "cheerio",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "highlight.js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-it",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "respec",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@hyperjump/json-schema-coverage",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@umbrelladocs/linkspector",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@vitest/coverage-v8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "c8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdownlint-cli2",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yaml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agenda.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-restricted-files.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive-issues.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/respec.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/respec.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/respec.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/respec.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/respec.yaml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema-publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema-publish.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema-publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema-publish.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema-publish.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema-tests.yaml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema-tests.yaml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-dev-to-vX.Y-dev.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-dev-to-vX.Y-dev.yaml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-main-to-dev.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-main-to-dev.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "cheerio",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "highlight.js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "markdown-it",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "respec",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "@hyperjump/json-schema-coverage",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "@umbrelladocs/linkspector",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "@vitest/coverage-v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "markdownlint-cli2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agenda.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agenda.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "agenda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-restricted-files.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-restricted-files.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "check-restricted-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactive-issues.yml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/respec.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/respec.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/respec.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/respec.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/respec.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "respec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema-publish.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema-publish.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema-publish.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema-publish.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schema-publish.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "schema-publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema-tests.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schema-tests.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schema-tests.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "schema-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-dev-to-vX.Y-dev.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-dev-to-vX.Y-dev.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-dev-to-vX.Y-dev.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "sync-dev-to-vX.Y-dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-main-to-dev.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/create-github-app-token@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-main-to-dev.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-main-to-dev.yaml",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "sync-main-to-dev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "apis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "openapi-specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OAI/OpenAPI-Specification",
+      "target": "webapi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:39:47.779851+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5464
+    },
+    {
+      "path": "package.json",
+      "size": 1397
+    },
+    {
+      "path": ".github/workflows/agenda.yaml",
+      "size": 2327
+    },
+    {
+      "path": ".github/workflows/check-restricted-files.yaml",
+      "size": 1998
+    },
+    {
+      "path": ".github/workflows/inactive-issues.yml",
+      "size": 1150
+    },
+    {
+      "path": ".github/workflows/respec.yaml",
+      "size": 2121
+    },
+    {
+      "path": ".github/workflows/schema-publish.yaml",
+      "size": 2233
+    },
+    {
+      "path": ".github/workflows/schema-tests.yaml",
+      "size": 758
+    },
+    {
+      "path": ".github/workflows/sync-dev-to-vX.Y-dev.yaml",
+      "size": 2404
+    },
+    {
+      "path": ".github/workflows/sync-main-to-dev.yaml",
+      "size": 1955
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The OpenAPI Specification Repository",
+    "fork": false,
+    "full_name": "OAI/OpenAPI-Specification",
+    "html_url": "https://github.com/OAI/OpenAPI-Specification",
+    "language": "Markdown",
+    "pushed_at": "2026-04-22T07:43:52Z",
+    "stargazers_count": 30901,
+    "topics": [
+      "apis",
+      "oas",
+      "openapi",
+      "openapi-specification",
+      "rest",
+      "webapi"
+    ],
+    "updated_at": "2026-04-23T07:52:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "agenda",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agenda.yaml",
+      "term": "agenda"
+    },
+    {
+      "context_snippet": "check-restricted-files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-restricted-files.yaml",
+      "term": "check-restricted-files"
+    },
+    {
+      "context_snippet": "respec",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/respec.yaml",
+      "term": "respec"
+    },
+    {
+      "context_snippet": "schema-publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schema-publish.yaml",
+      "term": "schema-publish"
+    },
+    {
+      "context_snippet": "schema-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schema-tests.yaml",
+      "term": "schema-test"
+    },
+    {
+      "context_snippet": "sync-dev-to-vX.Y-dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-dev-to-vX.Y-dev.yaml",
+      "term": "sync-dev-to-vX.Y-dev"
+    },
+    {
+      "context_snippet": "sync-main-to-dev",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-main-to-dev.yaml",
+      "term": "sync-main-to-dev"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/OAI/OpenAPI-Specification/workflows/validate-markdown/badge.svg) [![Issue triagers](https://www.codetriage.com/oai/openapi-specification/badges/users.svg)](https://www.codetriage.com/oai/openapi-specification)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apis"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/OAI/OpenAPI-Specification/workflows/validate-markdown/badge.svg) [![Issue triagers](https://www.codetriage.com/oai/openapi-specification/badges/users.svg)](https://www.codetriage.com/oai/openapi-specification)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/OAI/OpenAPI-Specification/workflows/validate-markdown/badge.svg) [![Issue triagers](https://www.codetriage.com/oai/openapi-specification/badges/users.svg)](https://www.codetriage.com/oai/openapi-specification)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi-specification"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/OAI/OpenAPI-Specification/workflows/validate-markdown/badge.svg) [![Issue triagers](https://www.codetriage.com/oai/openapi-specification/badges/users.svg)](https://www.codetriage.com/oai/openapi-specification)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/OAI/OpenAPI-Specification/workflows/validate-markdown/badge.svg) [![Issue triagers](https://www.codetriage.com/oai/openapi-specification/badges/users.svg)](https://www.codetriage.com/oai/openapi-specification)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webapi"
+    }
+  ]
+}

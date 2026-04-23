@@ -84,7 +84,7 @@
   "normalized_form": "build-eigenwallet-release",
   "observation_id": "eecb59a8d7f43b7d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "Build eigenwallet release",
   "source_context_snippet": "\"Build eigenwallet release\"",
   "source_file": ".github/workflows/build-gui-release-binaries.yml",

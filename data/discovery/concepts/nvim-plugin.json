@@ -43,6 +43,30 @@
       "source_repo": "mason-org/mason.nvim",
       "status": "candidate-context",
       "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrsh7th/nvim-compe",
+      "status": "candidate-context",
+      "text": "Auto completion Lua plugin for nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/nvim-compe",
+      "status": "candidate-context",
+      "text": "nvim-compe is now deprecated. Please use [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) the successor of nvim-compe."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/resession.nvim",
+      "status": "candidate-context",
+      "text": "A replacement for mksession with a better API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/resession.nvim",
+      "status": "candidate-context",
+      "text": "A replacement for `:mksession` with a better API"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "mason-org/mason.nvim",
       "status": "candidate",
       "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/nvim-compe",
+      "status": "candidate",
+      "text": "nvim-compe is now deprecated. Please use [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) the successor of nvim-compe."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/resession.nvim",
+      "status": "candidate",
+      "text": "A replacement for `:mksession` with a better API"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hrsh7th/nvim-compe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/resession.nvim"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

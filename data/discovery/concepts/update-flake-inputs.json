@@ -19,12 +19,30 @@
       "source_repo": "Mic92/nur-packages",
       "status": "candidate-context",
       "text": "Update Flake Inputs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/nix-direnv",
+      "status": "candidate-context",
+      "text": "A fast, persistent use_nix/use_flake implementation for direnv [maintainer=@Mic92 / @bbenne10] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nix-direnv",
+      "status": "candidate-context",
+      "text": "Update Flake Inputs"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Mic92/nur-packages",
+      "status": "candidate",
+      "text": "Update Flake Inputs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nix-direnv",
       "status": "candidate",
       "text": "Update Flake Inputs"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/update-flake-inputs.yml",
       "source_repo": "Mic92/nur-packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/update-flake-inputs.yml",
+      "source_repo": "nix-community/nix-direnv"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

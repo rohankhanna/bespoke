@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository contains .NET Documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"clean repo - relative links\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"clean repo - relative links\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31978,
+      "status": "candidate",
+      "text": "separate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31978,
+      "status": "candidate",
+      "text": "separated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31570,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21963,
+      "status": "candidate",
+      "text": "seated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21963,
+      "status": "candidate",
+      "text": "seats"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "clean repo - relative links",
+      "sense_id": "clean-repo---relative-links#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clean-repo---relative-links",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clean-repo---relative-links",
+  "observation_id": "881c537c1bc68675",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "clean repo - relative links",
+  "source_context_snippet": "\"clean repo - relative links\"",
+  "source_file": ".github/workflows/cleanrepo-relative-links.yml",
+  "source_repo": "dotnet/docs",
+  "source_repo_description": "This repository contains .NET Documentation."
+}

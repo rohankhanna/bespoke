@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Sync labels"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate-context",
+      "text": "Ultra fast JSON decoder and encoder written in C with Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate-context",
+      "text": "Sync labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate-context",
+      "text": "Python humanize functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate-context",
+      "text": "Sync labels"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate",
+      "text": "Sync labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate",
+      "text": "Sync labels"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10561,
+      "status": "candidate",
+      "text": "lance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "beamforming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "big ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "logos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10523,
+      "status": "candidate",
+      "text": "mel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync labels",
+  "concept_id": "sync-labels",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "python-humanize/humanize"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync labels",
+      "sense_id": "sync-labels#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

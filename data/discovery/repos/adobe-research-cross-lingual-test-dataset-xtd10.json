@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:33:07.264425+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1517
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "adobe-research/Cross-lingual-Test-Dataset-XTD10",
+    "html_url": "https://github.com/adobe-research/Cross-lingual-Test-Dataset-XTD10",
+    "language": null,
+    "pushed_at": "2021-12-22T06:26:53Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-23T06:12:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

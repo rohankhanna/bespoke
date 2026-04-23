@@ -1,0 +1,298 @@
+{
+  "components": [
+    {
+      "component": "@types/eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-react",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.9.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    },
+    {
+      "component": "bahmutov/npm-install@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "@types/eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "@types/tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "eslint-plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "eslint-plugin-react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "styfle/cancel-workflow-action@0.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "bahmutov/npm-install@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "ecmascript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "eslint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "standard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "target": "style-guide",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:35:56.138545+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3748
+    },
+    {
+      "path": "package.json",
+      "size": 1603
+    },
+    {
+      "path": ".github/workflows/validate.yml",
+      "size": 822
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ESLint Shareable Config for JSX support in JavaScript Standard Style",
+    "fork": false,
+    "full_name": "standard/eslint-config-standard-jsx",
+    "html_url": "https://github.com/standard/eslint-config-standard-jsx",
+    "language": "JavaScript",
+    "pushed_at": "2023-09-16T07:25:37Z",
+    "stargazers_count": 105,
+    "topics": [
+      "development",
+      "ecmascript",
+      "es6",
+      "eslint",
+      "javascript",
+      "linter",
+      "nodejs",
+      "standard",
+      "static-code-analysis",
+      "style-guide"
+    ],
+    "updated_at": "2026-04-16T08:06:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate.yml",
+      "term": "validate"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ecmascript"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eslint"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-code-analysis"
+    },
+    {
+      "context_snippet": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-guide"
+    }
+  ]
+}

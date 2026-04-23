@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:36:40.679714+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pre-commit hook for ShellCheck",
+    "fork": false,
+    "full_name": "koalaman/shellcheck-precommit",
+    "html_url": "https://github.com/koalaman/shellcheck-precommit",
+    "language": "Shell",
+    "pushed_at": "2025-08-04T03:53:32Z",
+    "stargazers_count": 124,
+    "topics": [],
+    "updated_at": "2026-04-15T12:37:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

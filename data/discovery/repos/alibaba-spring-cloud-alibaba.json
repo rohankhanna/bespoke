@@ -1,0 +1,570 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-packages-release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-packages-release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-packages-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "jpmcb/prow-github-actions@f4d01dd4b13f289014c23fe5a19878a2479cb35b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-command.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/md-link-check.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/md-link-check.yml"
+    },
+    {
+      "component": "actions/stale@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "seata/seata",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "alibaba/aliyun-spring-boot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-packages-release.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-packages-release.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-packages-release.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-packages-release.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "GitHub Packages Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "docker/setup-qemu-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "Integration Testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-command.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "jpmcb/prow-github-actions@f4d01dd4b13f289014c23fe5a19878a2479cb35b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-command.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "Issue and PR comment commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/md-link-check.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/md-link-check.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/md-link-check.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "Link Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "actions/stale@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "Stale bot of marking stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "alibaba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "alibaba-middleware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "alibaba-oss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "aliyun",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "circuit-breaker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "distributed-configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "distributed-messaging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "distributed-transaction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "dubbo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "microservices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "nacos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "rocketmq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "service-discovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "service-registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "spring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "spring-cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "spring-cloud-alibaba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "target": "spring-cloud-core",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:14.686220+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12278
+    },
+    {
+      "path": ".github/workflows/github-packages-release.yml",
+      "size": 1608
+    },
+    {
+      "path": ".github/workflows/integration-test.yml",
+      "size": 1465
+    },
+    {
+      "path": ".github/workflows/issue-command.yml",
+      "size": 664
+    },
+    {
+      "path": ".github/workflows/md-link-check.yml",
+      "size": 1529
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1188
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "2025.1.x",
+    "description": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware.",
+    "fork": false,
+    "full_name": "alibaba/spring-cloud-alibaba",
+    "html_url": "https://github.com/alibaba/spring-cloud-alibaba",
+    "language": "Java",
+    "pushed_at": "2026-04-20T06:51:44Z",
+    "stargazers_count": 29106,
+    "topics": [
+      "alibaba",
+      "alibaba-middleware",
+      "alibaba-oss",
+      "aliyun",
+      "circuit-breaker",
+      "cloud-native",
+      "distributed-configuration",
+      "distributed-messaging",
+      "distributed-transaction",
+      "dubbo",
+      "java",
+      "microservices",
+      "nacos",
+      "rocketmq",
+      "service-discovery",
+      "service-registry",
+      "spring",
+      "spring-cloud",
+      "spring-cloud-alibaba",
+      "spring-cloud-core"
+    ],
+    "updated_at": "2026-04-22T10:27:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/aliyun-spring-boot",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seata/seata",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GitHub Packages Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-packages-release.yml",
+      "term": "GitHub Packages Release"
+    },
+    {
+      "context_snippet": "Integration Testing",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "term": "Integration Testing"
+    },
+    {
+      "context_snippet": "Issue and PR comment commands",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-command.yml",
+      "term": "Issue and PR comment commands"
+    },
+    {
+      "context_snippet": "'Link Checker'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/md-link-check.yml",
+      "term": "Link Checker"
+    },
+    {
+      "context_snippet": "\"Stale bot of marking stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale bot of marking stale issues"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alibaba"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alibaba-middleware"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alibaba-oss"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aliyun"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "circuit-breaker"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-configuration"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-messaging"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-transaction"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dubbo"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microservices"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nacos"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocketmq"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service-discovery"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service-registry"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-cloud"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-cloud-alibaba"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-cloud-core"
+    }
+  ]
+}

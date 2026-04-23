@@ -57,6 +57,42 @@
       "source_repo": "mkdocs/catalog",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate-context",
+      "text": "\u26a1 The fastest and most configurable plugin for MkDocs, allowing seamless export of individual pages and/or entire documentation as PDF documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "status": "candidate-context",
+      "text": "Mkdocs plugin which displays links in a more elegant way. Links will automatically be populated with an image, description, fav icon, and title for the target website; or you can override the values to give your own."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agarthetiger/mkdocs_latest_release_plugin",
+      "status": "candidate-context",
+      "text": "Plugin for MKDocs to inject the latest release tag from git into markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agarthetiger/mkdocs_latest_release_plugin",
+      "status": "candidate-context",
+      "text": "bleach==3.1.0 certifi==2019.3.9 chardet==3.0.4 Click==7.0 docutils==0.14 gitdb2==2.0.5 GitPython==2.1.11 idna==2.8 Jinja2==2.10 livereload==2.6.0 Markdown==3.0.1 MarkupSafe==1.1.1 mkdocs==1.0.4 mkdocs-git-revision-date-plugin==0.1.5 mkdocs-material==4.0.2 pkginfo==1.5.0.1 Pygmen\u2026"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +119,24 @@
       "source_repo": "mkdocs/catalog",
       "status": "candidate",
       "text": "<!-- markdownlint-disable -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agarthetiger/mkdocs_latest_release_plugin",
+      "status": "candidate",
+      "text": "bleach==3.1.0 certifi==2019.3.9 chardet==3.0.4 Click==7.0 docutils==0.14 gitdb2==2.0.5 GitPython==2.1.11 idna==2.8 Jinja2==2.10 livereload==2.6.0 Markdown==3.0.1 MarkupSafe==1.1.1 mkdocs==1.0.4 mkdocs-git-revision-date-plugin==0.1.5 mkdocs-material==4.0.2 pkginfo==1.5.0.1 Pygmen\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -114,11 +168,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "mkdocs/catalog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "adrienbrignon/mkdocs-exporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "agarthetiger/mkdocs_latest_release_plugin"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

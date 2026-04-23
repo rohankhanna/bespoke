@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yudai/gotty",
+      "target": "krishnasrinivas/wetty",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yudai/gotty",
+      "target": "moul/gotty-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yudai/gotty",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yudai/gotty",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yudai/gotty",
+      "target": "websocket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:36:04.934739+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Share your terminal as a web application",
+    "fork": false,
+    "full_name": "yudai/gotty",
+    "html_url": "https://github.com/yudai/gotty",
+    "language": "Go",
+    "pushed_at": "2024-08-01T18:50:55Z",
+    "stargazers_count": 19451,
+    "topics": [
+      "browser",
+      "go",
+      "javascript",
+      "terminal",
+      "tty",
+      "typescript",
+      "web",
+      "websocket"
+    ],
+    "updated_at": "2026-04-22T19:23:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "krishnasrinivas/wetty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moul/gotty-client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub release](http://img.shields.io/github/release/yudai/gotty.svg?style=flat-square)][release]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "[![GitHub release](http://img.shields.io/github/release/yudai/gotty.svg?style=flat-square)][release]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "[![GitHub release](http://img.shields.io/github/release/yudai/gotty.svg?style=flat-square)][release]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "websocket"
+    }
+  ]
+}

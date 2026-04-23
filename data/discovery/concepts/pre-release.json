@@ -45,6 +45,54 @@
       "source_repo": "josStorer/RWKV-Runner",
       "status": "candidate-context",
       "text": "pre-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate-context",
+      "text": "JavaScript API for Chrome and Firefox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate-context",
+      "text": "Pre-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "Add-on agent to generate and expose cluster-level metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "Pre-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "Chrome DevTools for coding agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "Pre-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/NumKong",
+      "status": "candidate-context",
+      "text": "SIMD-accelerated distances, dot products, matrix ops, geospatial & geometric kernels for 16 numeric types \u2014 from 6-bit floats to 64-bit complex \u2014 across x86, Arm, RISC-V, and WASM, with bindings for Python, Rust, C, C++, Swift, JS, and Go \ud83d\udcd0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumKong",
+      "status": "candidate-context",
+      "text": "Pre-Release"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +113,30 @@
       "source_repo": "josStorer/RWKV-Runner",
       "status": "candidate",
       "text": "pre-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate",
+      "text": "Pre-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate",
+      "text": "Pre-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate",
+      "text": "Pre-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumKong",
+      "status": "candidate",
+      "text": "Pre-Release"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +198,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/pre-release.yml",
       "source_repo": "josStorer/RWKV-Runner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "kubernetes/kube-state-metrics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pre-release.yml",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/prerelease.yml",
+      "source_repo": "ashvardanian/NumKong"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:39:54.680184+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "precision colorscheme for the vim text editor",
+    "fork": false,
+    "full_name": "altercation/vim-colors-solarized",
+    "html_url": "https://github.com/altercation/vim-colors-solarized",
+    "language": "VimL",
+    "pushed_at": "2024-04-10T14:44:21Z",
+    "stargazers_count": 6609,
+    "topics": [],
+    "updated_at": "2026-04-21T11:17:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

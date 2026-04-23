@@ -19,12 +19,30 @@
       "source_repo": "electron/fiddle",
       "status": "candidate-context",
       "text": "Coveralls"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotbugs/spotbugs-maven-plugin",
+      "status": "candidate-context",
+      "text": "Maven Mojo Plug-In to generate reports based on the SpotBugs Analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs-maven-plugin",
+      "status": "candidate-context",
+      "text": "Coveralls"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "electron/fiddle",
+      "status": "candidate",
+      "text": "Coveralls"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs-maven-plugin",
       "status": "candidate",
       "text": "Coveralls"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/coveralls.yml",
       "source_repo": "electron/fiddle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/coveralls.yaml",
+      "source_repo": "spotbugs/spotbugs-maven-plugin"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

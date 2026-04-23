@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:42:15.242910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3811
+    },
+    {
+      "path": "go.mod",
+      "size": 97
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "[mirror] This is a linter for Go source code. (deprecated)",
+    "fork": false,
+    "full_name": "golang/lint",
+    "html_url": "https://github.com/golang/lint",
+    "language": "Go",
+    "pushed_at": "2021-05-08T22:21:20Z",
+    "stargazers_count": 3968,
+    "topics": [],
+    "updated_at": "2026-04-20T09:46:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

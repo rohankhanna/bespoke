@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Target Platform Updates"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate-context",
+      "text": "Java language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate-context",
+      "text": "Target Platform Updates"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate-context",
+      "text": "Simple and productive Web Development Tools in the Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate-context",
+      "text": "Target Platform Updates"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate",
+      "text": "Target Platform Updates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate",
+      "text": "Target Platform Updates"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24105,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23143,
+      "status": "candidate",
+      "text": "regular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22512,
+      "status": "candidate",
+      "text": "acid-base indicator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22512,
+      "status": "candidate",
+      "text": "anchorwoman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22512,
+      "status": "candidate",
+      "text": "day bed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Target Platform Updates",
+  "concept_id": "target-platform-updates",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/updateTarget.yml",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/updateTarget.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Target Platform Updates",
+      "sense_id": "target-platform-updates#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

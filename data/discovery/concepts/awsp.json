@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "awsp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/awsp",
+      "status": "candidate-context",
+      "text": "AWS credential profile changer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/awsp",
+      "status": "candidate-context",
+      "text": "Excerpt from [IAM Best Practices](http://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#delegate-using-roles):"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/awsp",
+      "status": "candidate",
+      "text": "Excerpt from [IAM Best Practices](http://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#delegate-using-roles):"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "awsp",
+  "concept_id": "awsp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/awsp"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "awsp",
+      "sense_id": "awsp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

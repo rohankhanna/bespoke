@@ -19,6 +19,30 @@
       "source_repo": "microsoft/playwright-python",
       "status": "candidate-context",
       "text": "Playwright is a Python library to automate [Chromium](https://www.chromium.org/Home), [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [WebKit](https://webkit.org/) browsers with a single API. Playwright delivers automation that is **ever-green**, **capable**, **reliabl\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate-context",
+      "text": "JavaScript API for Chrome and Firefox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate-context",
+      "text": "Linux, Android and Chromium Performance Tools built using the Microsoft Performance Toolkit. Cross-platform .NET Core + WPA GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate-context",
+      "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "microsoft/playwright-python",
       "status": "candidate",
       "text": "Playwright is a Python library to automate [Chromium](https://www.chromium.org/Home), [Firefox](https://www.mozilla.org/en-US/firefox/new/) and [WebKit](https://webkit.org/) browsers with a single API. Playwright delivers automation that is **ever-green**, **capable**, **reliabl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate",
+      "text": "[![build](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate",
+      "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
     }
   ],
   "candidate_related_terms": [
@@ -77,11 +113,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "microsoft/playwright-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

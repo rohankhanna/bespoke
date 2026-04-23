@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vssetup.powershell",
+      "target": "powershell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/vssetup.powershell",
+      "target": "visual-studio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:44:54.696534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "PowerShell module to interact with Visual Studio Setup",
+    "fork": false,
+    "full_name": "microsoft/vssetup.powershell",
+    "html_url": "https://github.com/microsoft/vssetup.powershell",
+    "language": "C#",
+    "pushed_at": "2026-04-03T23:47:43Z",
+    "stargazers_count": 259,
+    "topics": [
+      "powershell",
+      "visual-studio"
+    ],
+    "updated_at": "2026-04-20T17:40:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Visual Studio Setup PowerShell Module",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powershell"
+    },
+    {
+      "context_snippet": "Visual Studio Setup PowerShell Module",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio"
+    }
+  ]
+}

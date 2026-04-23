@@ -82,6 +82,42 @@
       "source_repo": "artisan-roaster-scope/artisan",
       "status": "candidate-context",
       "text": "Pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenManus/OpenManus-RL",
+      "status": "candidate-context",
+      "text": "A live stream development of RL tunning for LLM agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenManus/OpenManus-RL",
+      "status": "candidate-context",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate-context",
+      "text": "Sandboxed code execution for AI agents, locally or on the cloud. Massively parallel, easy to extend. Powering SWE-agent and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate-context",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moskomule/anatome",
+      "status": "candidate-context",
+      "text": "\u1f08\u03bd\u03b1\u03c4\u03bf\u03bc\u03ae is a PyTorch library to analyze representation of neural networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moskomule/anatome",
+      "status": "candidate-context",
+      "text": "pytest"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +156,24 @@
       "source_repo": "artisan-roaster-scope/artisan",
       "status": "candidate",
       "text": "Pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenManus/OpenManus-RL",
+      "status": "candidate",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate",
+      "text": "Pytest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moskomule/anatome",
+      "status": "candidate",
+      "text": "pytest"
     }
   ],
   "candidate_related_terms": [
@@ -199,11 +253,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/pytest.yaml",
       "source_repo": "artisan-roaster-scope/artisan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pytest.yml",
+      "source_repo": "OpenManus/OpenManus-RL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pytest.yaml",
+      "source_repo": "SWE-agent/SWE-ReX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "moskomule/anatome"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

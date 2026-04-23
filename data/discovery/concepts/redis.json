@@ -19,6 +19,42 @@
       "source_repo": "hibiken/asynq",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/11155743/114697792-ffbfa580-9d26-11eb-8e5b-33bef69476dc.png\" alt=\"Asynq logo\" width=\"360px\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "olric-data/olric",
+      "status": "candidate-context",
+      "text": "Distributed, in-memory key/value store and cache. It can be used as an embedded Go library and a language-independent service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olric-data/olric",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/olric-data/olric/.svg)](https://pkg.go.dev/github.com/olric-data/olric/) [![Go Report Card](https://goreportcard.com/badge/olric-data/olric)](https://goreportcard.com/report/github.com/olric-data/olric/) [![Discord](https://im\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gobackup/gobackup",
+      "status": "candidate-context",
+      "text": "\ud83d\uddc4 CLI tool for backup your databases, files to cloud storages in schedully."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobackup/gobackup",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/go-redis",
+      "status": "candidate-context",
+      "text": "Redis Go client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/go-redis",
+      "status": "candidate-context",
+      "text": "[![build workflow](https://github.com/redis/go-redis/actions/workflows/build.yml/badge.svg)](https://github.com/redis/go-redis/actions)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "hibiken/asynq",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/11155743/114697792-ffbfa580-9d26-11eb-8e5b-33bef69476dc.png\" alt=\"Asynq logo\" width=\"360px\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "olric-data/olric",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/olric-data/olric/.svg)](https://pkg.go.dev/github.com/olric-data/olric/) [![Go Report Card](https://goreportcard.com/badge/olric-data/olric)](https://goreportcard.com/report/github.com/olric-data/olric/) [![Discord](https://im\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobackup/gobackup",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/go-redis",
+      "status": "candidate",
+      "text": "[![build workflow](https://github.com/redis/go-redis/actions/workflows/build.yml/badge.svg)](https://github.com/redis/go-redis/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +130,29 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "hibiken/asynq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

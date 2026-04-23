@@ -43,6 +43,30 @@
       "source_repo": "zlib-ng/patches",
       "status": "candidate-context",
       "text": "This repository is here to allow sharing patches that allow compiling an application against zlib-ng."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/flate2-rs",
+      "status": "candidate-context",
+      "text": "DEFLATE, gzip, and zlib bindings for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/flate2-rs",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/flate2.svg?maxAge=2592000)](https://crates.io/crates/flate2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/libz-sys",
+      "status": "candidate-context",
+      "text": "Rust crate package to link to a system libz (zlib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/libz-sys",
+      "status": "candidate-context",
+      "text": "A common library for linking `libz` to Rust programs (also known as zlib)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "zlib-ng/patches",
       "status": "candidate",
       "text": "This repository is here to allow sharing patches that allow compiling an application against zlib-ng."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/flate2-rs",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/flate2.svg?maxAge=2592000)](https://crates.io/crates/flate2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/libz-sys",
+      "status": "candidate",
+      "text": "A common library for linking `libz` to Rust programs (also known as zlib)."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "zlib-ng/patches"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/flate2-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/libz-sys"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

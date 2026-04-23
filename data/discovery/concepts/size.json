@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "size"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate-context",
+      "text": "TypeScript & JavaScript Language Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate-context",
+      "text": "size"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate",
+      "text": "size"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966391,
+      "status": "candidate",
+      "text": "size of it"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966390,
+      "status": "candidate",
+      "text": "endowment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963699,
+      "status": "candidate",
+      "text": "staffing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29963531,
+      "status": "candidate",
+      "text": "turnover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962472,
+      "status": "candidate",
+      "text": "membership"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1032,
+      "status": "candidate",
+      "text": "sized"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39,
+      "status": "candidate",
+      "text": "sizing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "size of it"
+    }
+  ],
+  "canonical_name": "size",
+  "concept_id": "size",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/size-limit.yaml",
+      "source_repo": "typescript-language-server/typescript-language-server"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "size",
+      "sense_id": "size#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

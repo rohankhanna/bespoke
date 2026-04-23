@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Approve GH Workflows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/external-dns",
+      "status": "candidate-context",
+      "text": "Configure external DNS servers dynamically from Kubernetes resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/external-dns",
+      "status": "candidate-context",
+      "text": "Approve GH Workflows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/metrics-server",
+      "status": "candidate-context",
+      "text": "Scalable and efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/metrics-server",
+      "status": "candidate-context",
+      "text": "Approve GH Workflows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/external-dns",
+      "status": "candidate",
+      "text": "Approve GH Workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/metrics-server",
+      "status": "candidate",
+      "text": "Approve GH Workflows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "aar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "codec"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "codex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "drainage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "fiber"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Approve GH Workflows",
+  "concept_id": "approve-gh-workflows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml",
+      "source_repo": "kubernetes-sigs/external-dns"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/gh-workflow-approve.yaml",
+      "source_repo": "kubernetes-sigs/metrics-server"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Approve GH Workflows",
+      "sense_id": "approve-gh-workflows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

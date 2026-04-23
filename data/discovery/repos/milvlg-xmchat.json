@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MILVLG/xmchat",
+      "target": "milvlg/prophet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:43:24.753645+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1620
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "MILVLG/xmchat",
+    "html_url": "https://github.com/MILVLG/xmchat",
+    "language": null,
+    "pushed_at": "2023-04-24T14:26:43Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2025-06-16T13:55:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "milvlg/prophet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

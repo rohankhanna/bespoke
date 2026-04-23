@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "llm-in-sandbox/llm-in-sandbox-rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "cdxeve/awesome-computer-use-agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "cdxeve/scale-openclaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "r2e-gym/r2e-gym",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "coding-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "computer-use-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "general-agent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:35:22.528071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8755
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Computer Environments Elicit General Agentic Intelligence in LLMs",
+    "fork": false,
+    "full_name": "llm-in-sandbox/llm-in-sandbox",
+    "html_url": "https://github.com/llm-in-sandbox/llm-in-sandbox",
+    "language": "Python",
+    "pushed_at": "2026-04-11T06:21:44Z",
+    "stargazers_count": 221,
+    "topics": [
+      "coding-agent",
+      "computer-use-agent",
+      "general-agent"
+    ],
+    "updated_at": "2026-04-21T07:54:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cdxeve/awesome-computer-use-agents",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cdxeve/scale-openclaw",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llm-in-sandbox/llm-in-sandbox-rl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r2e-gym/r2e-gym",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"left\">LLM-in-Sandbox</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coding-agent"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">LLM-in-Sandbox</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-use-agent"
+    },
+    {
+      "context_snippet": "<h1 align=\"left\">LLM-in-Sandbox</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "general-agent"
+    }
+  ]
+}

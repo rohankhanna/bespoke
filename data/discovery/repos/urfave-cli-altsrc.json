@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "urfave/cli-altsrc",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "urfave/cli-altsrc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "urfave/cli-altsrc",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urfave/cli-altsrc",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urfave/cli-altsrc",
+      "target": "golang-cli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urfave/cli-altsrc",
+      "target": "golang-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urfave/cli-altsrc",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urfave/cli-altsrc",
+      "target": "toml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urfave/cli-altsrc",
+      "target": "yaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:35:12.480658+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1691
+    },
+    {
+      "path": "go.mod",
+      "size": 342
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 412
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Read values for urfave/cli/v3 flags from config files",
+    "fork": false,
+    "full_name": "urfave/cli-altsrc",
+    "html_url": "https://github.com/urfave/cli-altsrc",
+    "language": "Go",
+    "pushed_at": "2026-01-19T14:05:56Z",
+    "stargazers_count": 39,
+    "topics": [
+      "cli",
+      "golang",
+      "golang-cli",
+      "golang-library",
+      "json",
+      "toml",
+      "yaml"
+    ],
+    "updated_at": "2026-03-25T05:54:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "[![Run Tests](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml/badge.svg)](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Run Tests](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml/badge.svg)](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-cli"
+    },
+    {
+      "context_snippet": "[![Run Tests](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml/badge.svg)](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-library"
+    },
+    {
+      "context_snippet": "[![Run Tests](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml/badge.svg)](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![Run Tests](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml/badge.svg)](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toml"
+    },
+    {
+      "context_snippet": "[![Run Tests](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml/badge.svg)](https://github.com/urfave/cli-altsrc/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    }
+  ]
+}

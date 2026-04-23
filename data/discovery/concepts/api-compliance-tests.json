@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "API Compliance Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "status": "candidate-context",
+      "text": "A clean, modular SDK for building AI agents with OpenHands V1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "status": "candidate-context",
+      "text": "API Compliance Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/software-agent-sdk",
+      "status": "candidate",
+      "text": "API Compliance Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20339,
+      "status": "candidate",
+      "text": "aviate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20339,
+      "status": "candidate",
+      "text": "deadly"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20339,
+      "status": "candidate",
+      "text": "missed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20324,
+      "status": "candidate",
+      "text": "pilot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20272,
+      "status": "candidate",
+      "text": "action"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "API Compliance Tests",
+  "concept_id": "api-compliance-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/api-compliance-runner.yml",
+      "source_repo": "OpenHands/software-agent-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "API Compliance Tests",
+      "sense_id": "api-compliance-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

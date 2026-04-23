@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/Next-ViT",
+      "target": "open-mmlab/mmsegmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bytedance/Next-ViT",
+      "target": "meituan-automl/twins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/Next-ViT",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:30:51.203539+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19335
+    },
+    {
+      "path": "requirements.txt",
+      "size": 209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "bytedance/Next-ViT",
+    "html_url": "https://github.com/bytedance/Next-ViT",
+    "language": "Python",
+    "pushed_at": "2023-07-23T16:32:24Z",
+    "stargazers_count": 589,
+    "topics": [
+      "research"
+    ],
+    "updated_at": "2026-04-11T08:48:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meituan-automl/twins",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmsegmentation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo is the official implementation of [\"Next-ViT: Next Generation Vision Transformer for Efficient Deployment in Realistic Industrial Scenarios\"](https://arxiv.org/abs/2207.05501). This algorithm is proposed by ByteDance, Intelligent Creation, AutoML Team (\u5b57\u8282\u8df3\u52a8-\u667a\u80fd\u521b\u4f5c AutoML\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    }
+  ]
+}

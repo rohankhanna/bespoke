@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deflake Puppeteer test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate-context",
+      "text": "JavaScript API for Chrome and Firefox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate-context",
+      "text": "Deflake Puppeteer test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate",
+      "text": "Deflake Puppeteer test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15011,
+      "status": "candidate",
+      "text": "marionette"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15011,
+      "status": "candidate",
+      "text": "puppet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14338,
+      "status": "candidate",
+      "text": "professor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14297,
+      "status": "candidate",
+      "text": "lewis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14297,
+      "status": "candidate",
+      "text": "puppetmaster"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deflake Puppeteer test",
+  "concept_id": "deflake-puppeteer-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deflake.yml",
+      "source_repo": "puppeteer/puppeteer"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deflake Puppeteer test",
+      "sense_id": "deflake-puppeteer-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

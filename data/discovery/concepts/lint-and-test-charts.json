@@ -31,6 +31,18 @@
       "source_repo": "jtblin/kube2iam",
       "status": "candidate-context",
       "text": "Lint and Test Charts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "status": "candidate-context",
+      "text": "Deploy langgenious/dify, an LLM based app on kubernetes with helm chart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "status": "candidate-context",
+      "text": "Lint and Test Charts"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jtblin/kube2iam",
+      "status": "candidate",
+      "text": "Lint and Test Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BorisPolonsky/dify-helm",
       "status": "candidate",
       "text": "Lint and Test Charts"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "jtblin/kube2iam"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "BorisPolonsky/dify-helm"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

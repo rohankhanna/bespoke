@@ -1,0 +1,206 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs-publish-ghpages.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs-publish-ghpages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chalk-diagrams/chalk",
+      "target": "creativescala/doodle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chalk-diagrams/chalk",
+      "target": "vaab/colour",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "chalk-diagrams/chalk",
+      "target": "chalk-diagrams/planar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "chalk-diagrams/chalk",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "chalk-diagrams/chalk",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs-publish-ghpages.yml",
+      "source_repo": "chalk-diagrams/chalk",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mkdocs-publish-ghpages.yml",
+      "source_repo": "chalk-diagrams/chalk",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/selfassign.yml",
+      "source_repo": "chalk-diagrams/chalk",
+      "target": "Self-assign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chalk-diagrams/chalk",
+      "target": "cairo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chalk-diagrams/chalk",
+      "target": "declarative-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chalk-diagrams/chalk",
+      "target": "drawing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chalk-diagrams/chalk",
+      "target": "edsl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:32:32.663647+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6743
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 101
+    },
+    {
+      "path": "requirements.txt",
+      "size": 138
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 1834
+    },
+    {
+      "path": ".github/workflows/mkdocs-publish-ghpages.yml",
+      "size": 1839
+    },
+    {
+      "path": ".github/workflows/selfassign.yml",
+      "size": 890
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A declarative drawing API in Python",
+    "fork": false,
+    "full_name": "chalk-diagrams/chalk",
+    "html_url": "https://github.com/chalk-diagrams/chalk",
+    "language": "Python",
+    "pushed_at": "2024-08-28T04:48:21Z",
+    "stargazers_count": 300,
+    "topics": [
+      "cairo",
+      "declarative-language",
+      "drawing",
+      "edsl",
+      "python"
+    ],
+    "updated_at": "2026-03-22T03:33:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creativescala/doodle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vaab/colour",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chalk-diagrams/planar",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Self-assign",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/selfassign.yml",
+      "term": "Self-assign"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/chalk-diagrams/chalk/master/examples/output/logo-sm.png\" width=300></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cairo"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/chalk-diagrams/chalk/master/examples/output/logo-sm.png\" width=300></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "declarative-language"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/chalk-diagrams/chalk/master/examples/output/logo-sm.png\" width=300></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "drawing"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://raw.githubusercontent.com/chalk-diagrams/chalk/master/examples/output/logo-sm.png\" width=300></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edsl"
+    }
+  ]
+}

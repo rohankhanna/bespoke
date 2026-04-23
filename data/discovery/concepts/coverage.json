@@ -200,6 +200,78 @@
       "source_repo": "googleworkspace/cli",
       "status": "candidate-context",
       "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pug-php/pug",
+      "status": "candidate-context",
+      "text": "Pug template engine for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/pug",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sass/node-sass",
+      "status": "candidate-context",
+      "text": ":rainbow: Node.js bindings to libsass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/node-sass",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-rs",
+      "status": "candidate-context",
+      "text": "An authorization library that supports access control models like ACL, RBAC, ABAC in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-rs",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasm-bindgen/wasm-bindgen",
+      "status": "candidate-context",
+      "text": "Facilitating high-level interactions between Wasm modules and JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasm-bindgen/wasm-bindgen",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wechaty/wechaty",
+      "status": "candidate-context",
+      "text": "Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wechaty/wechaty",
+      "status": "candidate-context",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pug-php/ci-pug-engine",
+      "status": "candidate-context",
+      "text": "Pug Template Engine for CodeIgniter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/ci-pug-engine",
+      "status": "candidate-context",
+      "text": "Coverage"
     }
   ],
   "candidate_glosses": [
@@ -296,6 +368,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "googleworkspace/cli",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/pug",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/node-sass",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-rs",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasm-bindgen/wasm-bindgen",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wechaty/wechaty",
+      "status": "candidate",
+      "text": "Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/ci-pug-engine",
       "status": "candidate",
       "text": "Coverage"
     }
@@ -471,11 +579,47 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "googleworkspace/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "pug-php/pug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "sass/node-sass"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "wasm-bindgen/wasm-bindgen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "wechaty/wechaty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "pug-php/ci-pug-engine"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

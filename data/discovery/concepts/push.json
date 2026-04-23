@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "push"
+    "push",
+    "Push"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,12 +20,48 @@
       "source_repo": "facebook/jscodeshift",
       "status": "candidate-context",
       "text": "push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-js",
+      "status": "candidate-context",
+      "text": "A reference implementation of GraphQL for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-js",
+      "status": "candidate-context",
+      "text": "Push"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/ansible-lint",
+      "status": "candidate-context",
+      "text": "ansible-lint checks playbooks for practices and behavior that could potentially be improved and can fix some of the most common ones for you"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-lint",
+      "status": "candidate-context",
+      "text": "push"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "facebook/jscodeshift",
+      "status": "candidate",
+      "text": "push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-js",
+      "status": "candidate",
+      "text": "Push"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-lint",
       "status": "candidate",
       "text": "push"
     }
@@ -112,11 +149,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/push.yml",
       "source_repo": "facebook/jscodeshift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "graphql/graphql-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "ansible/ansible-lint"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

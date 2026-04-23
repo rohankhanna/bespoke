@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/ALBEF",
+      "target": "contrastive-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/ALBEF",
+      "target": "image-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/ALBEF",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/ALBEF",
+      "target": "vision-and-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "salesforce/ALBEF",
+      "target": "weakly-supervised-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:29:14.176168+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Code for ALBEF: a new vision-language pre-training method",
+    "fork": false,
+    "full_name": "salesforce/ALBEF",
+    "html_url": "https://github.com/salesforce/ALBEF",
+    "language": "Python",
+    "pushed_at": "2022-09-20T04:57:34Z",
+    "stargazers_count": 1758,
+    "topics": [
+      "contrastive-learning",
+      "image-text",
+      "representation-learning",
+      "vision-and-language",
+      "weakly-supervised-learning"
+    ],
+    "updated_at": "2026-04-19T16:20:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is the official PyTorch implementation of the <a href=\"https://arxiv.org/abs/2107.07651\">ALBEF paper</a> <a href=\"https://blog.salesforceairesearch.com/align-before-fuse/\">[Blog]</a>.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contrastive-learning"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the <a href=\"https://arxiv.org/abs/2107.07651\">ALBEF paper</a> <a href=\"https://blog.salesforceairesearch.com/align-before-fuse/\">[Blog]</a>.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-text"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the <a href=\"https://arxiv.org/abs/2107.07651\">ALBEF paper</a> <a href=\"https://blog.salesforceairesearch.com/align-before-fuse/\">[Blog]</a>.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the <a href=\"https://arxiv.org/abs/2107.07651\">ALBEF paper</a> <a href=\"https://blog.salesforceairesearch.com/align-before-fuse/\">[Blog]</a>.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-and-language"
+    },
+    {
+      "context_snippet": "This is the official PyTorch implementation of the <a href=\"https://arxiv.org/abs/2107.07651\">ALBEF paper</a> <a href=\"https://blog.salesforceairesearch.com/align-before-fuse/\">[Blog]</a>.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "weakly-supervised-learning"
+    }
+  ]
+}

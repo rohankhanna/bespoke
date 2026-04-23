@@ -79,6 +79,18 @@
       "source_repo": "Bearer/bearer",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codetyio/codety-scanner",
+      "status": "candidate-context",
+      "text": "Codety Scanner is a comprehensive code scanner designed to detect code issues for 30+ programming languages and IaC frameworks. It embeds more than 6,000 code analysis rules and can detect code smells, vulnerable code, secrets in the code, performance issues, style violations, and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codetyio/codety-scanner",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Bearer/bearer",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codetyio/codety-scanner",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -178,11 +196,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "codetyio/codety-scanner"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

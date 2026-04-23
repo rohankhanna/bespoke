@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "check-no-merge-label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/runtime",
+      "status": "candidate-context",
+      "text": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/runtime",
+      "status": "candidate-context",
+      "text": "check-no-merge-label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/runtime",
+      "status": "candidate",
+      "text": "check-no-merge-label"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "check-no-merge-label",
+  "concept_id": "check-no-merge-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check-no-merge-label.yml",
+      "source_repo": "dotnet/runtime"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "check-no-merge-label",
+      "sense_id": "check-no-merge-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

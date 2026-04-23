@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "clustering-algorithm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jacobmarks/clustering-plugin",
+      "status": "candidate-context",
+      "text": "Compute clustering on your data in a visual, intuitive way with FiftyOne and Sklearn!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jacobmarks/clustering-plugin",
+      "status": "candidate-context",
+      "text": "![GPT4V_labels](https://github.com/jacobmarks/clustering-runs-plugin/assets/12500356/27b0ace4-ecd8-4f9d-821a-614fd597be7f)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jacobmarks/clustering-plugin",
+      "status": "candidate",
+      "text": "![GPT4V_labels](https://github.com/jacobmarks/clustering-runs-plugin/assets/12500356/27b0ace4-ecd8-4f9d-821a-614fd597be7f)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "clustering-algorithm",
+  "concept_id": "clustering-algorithm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clustering-algorithm",
+      "sense_id": "clustering-algorithm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

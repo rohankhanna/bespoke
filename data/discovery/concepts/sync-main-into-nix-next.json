@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync main into nix-next"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/harmonia",
+      "status": "candidate-context",
+      "text": "Nix binary cache implemented in rust (maintainer: @Mic92)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/harmonia",
+      "status": "candidate-context",
+      "text": "Sync main into nix-next"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/harmonia",
+      "status": "candidate",
+      "text": "Sync main into nix-next"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36822,
+      "status": "candidate",
+      "text": "feeder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35211,
+      "status": "candidate",
+      "text": "chapter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35211,
+      "status": "candidate",
+      "text": "dichotomy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26874,
+      "status": "candidate",
+      "text": "undercut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26561,
+      "status": "candidate",
+      "text": "affluent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync main into nix-next",
+  "concept_id": "sync-main-into-nix-next",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/sync-main-to-nix-next.yml",
+      "source_repo": "nix-community/harmonia"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync main into nix-next",
+      "sense_id": "sync-main-into-nix-next#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Close answered discussions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "Close answered discussions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate",
+      "text": "Close answered discussions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20152,
+      "status": "candidate",
+      "text": "iff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20152,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20152,
+      "status": "candidate",
+      "text": "pff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030,
+      "status": "candidate",
+      "text": "continuance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030,
+      "status": "candidate",
+      "text": "knock"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Close answered discussions",
+  "concept_id": "close-answered-discussions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/close-answered-discussions.yml",
+      "source_repo": "renovatebot/renovate"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Close answered discussions",
+      "sense_id": "close-answered-discussions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

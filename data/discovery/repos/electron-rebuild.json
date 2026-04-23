@@ -168,27 +168,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "electron/rebuild",
-      "target": "nodejs/node-gyp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "electron/rebuild",
-      "target": "electron/forge",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "electron/rebuild",
-      "target": "electron/packager",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "electron/rebuild",
@@ -455,7 +434,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:11:41.824610+00:00",
+  "fetched_at": "2026-04-23T08:44:44.760470+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -500,23 +479,7 @@
     "topics": [],
     "updated_at": "2026-04-21T17:50:50Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "electron/forge",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "electron/packager",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nodejs/node-gyp",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Add to Ecosystem WG Project",

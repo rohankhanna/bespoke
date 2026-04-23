@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:29:35.907413+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 65
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "https://tencent.github.io",
+    "fork": false,
+    "full_name": "Tencent/tencent.github.io",
+    "html_url": "https://github.com/Tencent/tencent.github.io",
+    "language": null,
+    "pushed_at": "2025-11-05T07:34:12Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2026-01-11T16:20:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

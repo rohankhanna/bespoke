@@ -1,0 +1,218 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cli-cursor",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "figures",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lodash",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rxjs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fuzzy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "inquirer",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "faressoft/terminalizer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "cli-cursor",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "figures",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "lodash",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "rxjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "fuzzy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "inquirer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "checkbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "fuzzy-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "inquirer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "target": "prompt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:38:04.660435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2506
+    },
+    {
+      "path": "package.json",
+      "size": 864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Checkbox with autocomplete and other additions for Inquirer",
+    "fork": false,
+    "full_name": "faressoft/inquirer-checkbox-plus-prompt",
+    "html_url": "https://github.com/faressoft/inquirer-checkbox-plus-prompt",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-02T13:25:11Z",
+    "stargazers_count": 41,
+    "topics": [
+      "checkbox",
+      "cli",
+      "command-line",
+      "fuzzy-search",
+      "inquirer",
+      "javascript",
+      "nodejs",
+      "prompt"
+    ],
+    "updated_at": "2026-02-05T06:14:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "faressoft/terminalizer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A plugin for [Inquirer](https://github.com/SBoudrias/Inquirer.js), similar to the original checkbox with extra features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "checkbox"
+    },
+    {
+      "context_snippet": "A plugin for [Inquirer](https://github.com/SBoudrias/Inquirer.js), similar to the original checkbox with extra features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "A plugin for [Inquirer](https://github.com/SBoudrias/Inquirer.js), similar to the original checkbox with extra features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy-search"
+    },
+    {
+      "context_snippet": "A plugin for [Inquirer](https://github.com/SBoudrias/Inquirer.js), similar to the original checkbox with extra features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inquirer"
+    },
+    {
+      "context_snippet": "A plugin for [Inquirer](https://github.com/SBoudrias/Inquirer.js), similar to the original checkbox with extra features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "A plugin for [Inquirer](https://github.com/SBoudrias/Inquirer.js), similar to the original checkbox with extra features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt"
+    }
+  ]
+}

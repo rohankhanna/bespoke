@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:47:06.753674+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A comprehensive test suite for RFC 8259 compliant JSON parsers",
+    "fork": false,
+    "full_name": "nst/JSONTestSuite",
+    "html_url": "https://github.com/nst/JSONTestSuite",
+    "language": "C++",
+    "pushed_at": "2024-11-22T12:55:41Z",
+    "stargazers_count": 1136,
+    "topics": [],
+    "updated_at": "2026-04-19T17:05:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

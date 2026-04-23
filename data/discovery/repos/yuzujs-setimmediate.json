@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "jshint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "http-server",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "opener",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "zuul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YuzuJS/setImmediate",
+      "target": "kriskowal/asap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "YuzuJS/setImmediate",
+      "target": "jshint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "YuzuJS/setImmediate",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "YuzuJS/setImmediate",
+      "target": "http-server",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "YuzuJS/setImmediate",
+      "target": "opener",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "YuzuJS/setImmediate",
+      "target": "zuul",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:30:24.375916+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5475
+    },
+    {
+      "path": "package.json",
+      "size": 980
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A cross-browser implementation of the new setImmediate API.",
+    "fork": false,
+    "full_name": "YuzuJS/setImmediate",
+    "html_url": "https://github.com/YuzuJS/setImmediate",
+    "language": "JavaScript",
+    "pushed_at": "2024-01-01T07:03:03Z",
+    "stargazers_count": 1301,
+    "topics": [],
+    "updated_at": "2026-04-14T15:43:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kriskowal/asap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

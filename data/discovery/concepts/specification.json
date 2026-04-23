@@ -55,6 +55,30 @@
       "source_repo": "estree/estree",
       "status": "candidate-context",
       "text": "Once upon a time, an [unsuspecting Mozilla engineer](http://calculist.org) created an API in Firefox that exposed the SpiderMonkey engine's JavaScript parser as a JavaScript API. Said engineer [documented the format it produced](https://web.archive.org/web/20210314002546/https:/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syncthing/docs",
+      "status": "candidate-context",
+      "text": "Documentation site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/docs",
+      "status": "candidate-context",
+      "text": "Syncthing Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yonaskolb/XcodeGen",
+      "status": "candidate-context",
+      "text": "A Swift command line tool for generating your Xcode project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/XcodeGen",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "estree/estree",
       "status": "candidate",
       "text": "Once upon a time, an [unsuspecting Mozilla engineer](http://calculist.org) created an API in Firefox that exposed the SpiderMonkey engine's JavaScript parser as a JavaScript API. Said engineer [documented the format it produced](https://web.archive.org/web/20210314002546/https:/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/docs",
+      "status": "candidate",
+      "text": "Syncthing Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/XcodeGen",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -169,11 +205,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "estree/estree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "syncthing/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "yonaskolb/XcodeGen"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

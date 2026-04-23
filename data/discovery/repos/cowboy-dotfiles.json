@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cowboy/dotfiles",
+      "target": "isaacs/nave",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cowboy/dotfiles",
+      "target": "gf3/dotfiles",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:50.894554+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My Ubuntu / OS X dotfiles.",
+    "fork": false,
+    "full_name": "cowboy/dotfiles",
+    "html_url": "https://github.com/cowboy/dotfiles",
+    "language": "Shell",
+    "pushed_at": "2021-09-17T03:43:02Z",
+    "stargazers_count": 1601,
+    "topics": [],
+    "updated_at": "2026-04-03T16:42:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gf3/dotfiles",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isaacs/nave",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

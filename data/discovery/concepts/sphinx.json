@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "sphinx"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syncthing/docs",
+      "status": "candidate-context",
+      "text": "Documentation site"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/docs",
+      "status": "candidate-context",
+      "text": "Syncthing Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liran-funaro/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": "A Sphinx extension to add markdown generation support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liran-funaro/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": "[![Coverage Status](https://coveralls.io/repos/github/liran-funaro/sphinx-markdown-builder/badge.svg?branch=main&cache-bust=1)](https://coveralls.io/github/liran-funaro/sphinx-markdown-builder?branch=main)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syncthing/docs",
+      "status": "candidate",
+      "text": "Syncthing Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liran-funaro/sphinx-markdown-builder",
+      "status": "candidate",
+      "text": "[![Coverage Status](https://coveralls.io/repos/github/liran-funaro/sphinx-markdown-builder/badge.svg?branch=main&cache-bust=1)](https://coveralls.io/github/liran-funaro/sphinx-markdown-builder?branch=main)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20002033,
+      "status": "candidate",
+      "text": "moth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19924195,
+      "status": "candidate",
+      "text": "andro"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035133,
+      "status": "candidate",
+      "text": "mandrillus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035133,
+      "status": "candidate",
+      "text": "moths"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10035132,
+      "status": "candidate",
+      "text": "hieracosphinx"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "sphinx",
+  "concept_id": "sphinx",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "syncthing/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "liran-funaro/sphinx-markdown-builder"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sphinx",
+      "sense_id": "sphinx#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

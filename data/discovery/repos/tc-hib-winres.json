@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "tc-hib/winres",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "tc-hib/winres",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc-hib/winres",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc-hib/winres",
+      "target": "rsrc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tc-hib/winres",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:37:53.839169+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3062
+    },
+    {
+      "path": "go.mod",
+      "size": 141
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 519
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Functions for embedding typical Windows resources into Go executables: icon, manifest, version info...",
+    "fork": false,
+    "full_name": "tc-hib/winres",
+    "html_url": "https://github.com/tc-hib/winres",
+    "language": "Go",
+    "pushed_at": "2024-03-18T16:47:05Z",
+    "stargazers_count": 63,
+    "topics": [
+      "golang",
+      "rsrc",
+      "windows"
+    ],
+    "updated_at": "2026-04-02T23:18:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/tc-hib/winres.svg)](https://pkg.go.dev/github.com/tc-hib/winres)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/tc-hib/winres.svg)](https://pkg.go.dev/github.com/tc-hib/winres)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rsrc"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/github.com/tc-hib/winres.svg)](https://pkg.go.dev/github.com/tc-hib/winres)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Rules for building and handling Docker images with Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "| Bazel CI |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "| Bazel CI |"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29476700,
+      "status": "candidate",
+      "text": "valley"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19828954,
+      "status": "candidate",
+      "text": "adsense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19828954,
+      "status": "candidate",
+      "text": "adwords"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19828952,
+      "status": "candidate",
+      "text": "googlize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19828951,
+      "status": "candidate",
+      "text": "oogle"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "google",
+      "sense_id": "google#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "google",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "google",
+  "observation_id": "c3573a2ab79e7a55",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "google",
+  "source_context_snippet": "| Bazel CI |",
+  "source_file": null,
+  "source_repo": "bazelbuild/rules_docker",
+  "source_repo_description": "Rules for building and handling Docker images with Bazel"
+}

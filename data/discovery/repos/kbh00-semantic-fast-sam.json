@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KBH00/Semantic-Fast-SAM",
+      "target": "casia-iva-lab/fastsam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KBH00/Semantic-Fast-SAM",
+      "target": "fudan-zvg/semantic-segment-anything",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:49:17.769473+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1092
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gpu_ver",
+    "description": "SSA + FastSAM/Semantic Fast Segment Anything , or Fast Semantic Segment Anything ",
+    "fork": false,
+    "full_name": "KBH00/Semantic-Fast-SAM",
+    "html_url": "https://github.com/KBH00/Semantic-Fast-SAM",
+    "language": "Python",
+    "pushed_at": "2026-04-23T05:37:32Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2026-04-23T05:37:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casia-iva-lab/fastsam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fudan-zvg/semantic-segment-anything",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "multi-task"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JUNJIE99/MLVU",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25\ud83d\udd25MLVU: Multi-task Long Video Understanding Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JUNJIE99/MLVU",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">MLVU: Multi-task Long Video Understanding Benchmark</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JUNJIE99/MLVU",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">MLVU: Multi-task Long Video Understanding Benchmark</h1>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9973540,
+      "status": "candidate",
+      "text": "canoe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9973540,
+      "status": "candidate",
+      "text": "canoeing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9973540,
+      "status": "candidate",
+      "text": "multitask"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9973540,
+      "status": "candidate",
+      "text": "multitasking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9973539,
+      "status": "candidate",
+      "text": "focus"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "multi-task",
+  "concept_id": "multi-task",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "JUNJIE99/MLVU"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multi-task",
+      "sense_id": "multi-task#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "togethercomputer/RedPajama-Data",
+      "target": "facebookresearch/cc_net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "togethercomputer/RedPajama-Data",
+      "target": "ldnoobw/list-of-dirty-naughty-obscene-and-otherwise-bad-words",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "togethercomputer/RedPajama-Data",
+      "target": "prashnts/pybloomfiltermmap3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "togethercomputer/RedPajama-Data",
+      "target": "6/stopwords-json",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "togethercomputer/RedPajama-Data"
+}

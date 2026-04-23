@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/AI-Model-Manager",
+      "target": "jeremysltn/civitai-data-manager",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:36:52.016240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Planning/WIP repo fro AI model manager",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Model-Manager",
+    "html_url": "https://github.com/danielrosehill/AI-Model-Manager",
+    "language": null,
+    "pushed_at": "2025-12-15T02:45:54Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-03-21T19:31:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeremysltn/civitai-data-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

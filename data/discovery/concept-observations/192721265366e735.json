@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Network Policy Agent is a daemonset that is responsible for enforcing configured network policies on the cluster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Amazon EKS Network Policy Agent is a daemonset that is responsible for enforcing configured network policies on the cluster. Network policy support is a feature of the [Amazon VPC CNI](https://github.com/aws/amazon-vpc-cni-k8s)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Amazon EKS Network Policy Agent is a daemonset that is responsible for enforcing configured network policies on the cluster. Network policy support is a feature of the [Amazon VPC CNI](https://github.com/aws/amazon-vpc-cni-k8s)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "network-policy",
+      "sense_id": "network-policy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "network-policy",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "network-policy",
+  "observation_id": "192721265366e735",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "network-policy",
+  "source_context_snippet": "Amazon EKS Network Policy Agent is a daemonset that is responsible for enforcing configured network policies on the cluster. Network policy support is a feature of the [Amazon VPC CNI](https://github.com/aws/amazon-vpc-cni-k8s).",
+  "source_file": null,
+  "source_repo": "aws/aws-network-policy-agent",
+  "source_repo_description": "Network Policy Agent is a daemonset that is responsible for enforcing configured network policies on the cluster."
+}

@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airbnb/css",
+      "target": "arvinh/css-style-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airbnb/css",
+      "target": "davidkadaria/css-style-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airbnb/css",
+      "target": "codemakebros/css-style-guide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airbnb/css",
+      "target": "antoniofull/linee-guida-css",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:42:50.773333+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A mostly reasonable approach to CSS and Sass.",
+    "fork": false,
+    "full_name": "airbnb/css",
+    "html_url": "https://github.com/airbnb/css",
+    "language": null,
+    "pushed_at": "2024-06-04T00:44:40Z",
+    "stargazers_count": 6988,
+    "topics": [],
+    "updated_at": "2026-04-23T08:36:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antoniofull/linee-guida-css",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arvinh/css-style-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codemakebros/css-style-guide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davidkadaria/css-style-guide",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A fourk of ormolu that uses four space indentation and allows arbitrary configuration. Don't like it? PRs welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Backwards compatible formatting"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Backwards compatible formatting"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18622,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18622,
+      "status": "candidate",
+      "text": "regression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18622,
+      "status": "candidate",
+      "text": "retro"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18602,
+      "status": "candidate",
+      "text": "backboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18602,
+      "status": "candidate",
+      "text": "consistency"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backwards compatible formatting",
+      "sense_id": "backwards-compatible-formatting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "backwards-compatible-formatting",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "backwards-compatible-formatting",
+  "observation_id": "88417385c6929136",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Backwards compatible formatting",
+  "source_context_snippet": "Backwards compatible formatting",
+  "source_file": ".github/workflows/format-compat.yml",
+  "source_repo": "fourmolu/fourmolu",
+  "source_repo_description": "A fourk of ormolu that uses four space indentation and allows arbitrary configuration. Don't like it? PRs welcome!"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cloud-run-button"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmetb/ytdl",
+      "status": "candidate-context",
+      "text": "Serverless video downloader app (using youtube-dl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmetb/ytdl",
+      "status": "candidate-context",
+      "text": "A serverless application that uses `youtube-dl` to quickly download and stream"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmetb/ytdl",
+      "status": "candidate",
+      "text": "A serverless application that uses `youtube-dl` to quickly download and stream"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cloud-run-button",
+  "concept_id": "cloud-run-button",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ahmetb/ytdl"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cloud-run-button",
+      "sense_id": "cloud-run-button#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

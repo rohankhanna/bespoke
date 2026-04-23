@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Halo\u4e3b\u9898Bootstrap\u6837\u5f0f\u00b7\u7b80\u6d01"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> \u611f\u8c22\u4f7f\u7528Halo Simple Bootstrap\u4e3b\u9898"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> \u611f\u8c22\u4f7f\u7528Halo Simple Bootstrap\u4e3b\u9898"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880237,
+      "status": "candidate",
+      "text": "boot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29750656,
+      "status": "candidate",
+      "text": "startup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29745289,
+      "status": "candidate",
+      "text": "start"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29712440,
+      "status": "candidate",
+      "text": "method"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29669294,
+      "status": "candidate",
+      "text": "bootable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bootstrap",
+      "sense_id": "bootstrap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bootstrap",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bootstrap",
+  "observation_id": "19927ed105746c9b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "bootstrap",
+  "source_context_snippet": "> \u611f\u8c22\u4f7f\u7528Halo Simple Bootstrap\u4e3b\u9898",
+  "source_file": null,
+  "source_repo": "CodeLunatic/halo-theme-simple-bootstrap",
+  "source_repo_description": "Halo\u4e3b\u9898Bootstrap\u6837\u5f0f\u00b7\u7b80\u6d01"
+}

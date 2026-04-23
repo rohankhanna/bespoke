@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:33:34.105672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8728
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1257
+    },
+    {
+      "path": "requirements.txt",
+      "size": 298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A multi-voice TTS system trained with an emphasis on quality",
+    "fork": false,
+    "full_name": "neonbjb/tortoise-tts",
+    "html_url": "https://github.com/neonbjb/tortoise-tts",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-11-19T18:59:13Z",
+    "stargazers_count": 14840,
+    "topics": [],
+    "updated_at": "2026-04-23T06:25:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

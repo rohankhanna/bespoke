@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/vscode-recipes",
+      "target": "weinand/vscode-recipes",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:34:39.243348+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2129
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "microsoft/vscode-recipes",
+    "html_url": "https://github.com/microsoft/vscode-recipes",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-30T18:43:15Z",
+    "stargazers_count": 5961,
+    "topics": [],
+    "updated_at": "2026-04-20T11:16:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "weinand/vscode-recipes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

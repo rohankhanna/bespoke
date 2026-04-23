@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "bootstrap"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CodeLunatic/halo-theme-simple-bootstrap",
+      "status": "candidate-context",
+      "text": "Halo\u4e3b\u9898Bootstrap\u6837\u5f0f\u00b7\u7b80\u6d01"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeLunatic/halo-theme-simple-bootstrap",
+      "status": "candidate-context",
+      "text": "> \u611f\u8c22\u4f7f\u7528Halo Simple Bootstrap\u4e3b\u9898"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeLunatic/halo-theme-simple-bootstrap",
+      "status": "candidate",
+      "text": "> \u611f\u8c22\u4f7f\u7528Halo Simple Bootstrap\u4e3b\u9898"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29880237,
+      "status": "candidate",
+      "text": "boot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29750656,
+      "status": "candidate",
+      "text": "startup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29745289,
+      "status": "candidate",
+      "text": "start"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29712440,
+      "status": "candidate",
+      "text": "method"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29669294,
+      "status": "candidate",
+      "text": "bootable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bootstrap",
+  "concept_id": "bootstrap",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "CodeLunatic/halo-theme-simple-bootstrap"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bootstrap",
+      "sense_id": "bootstrap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -27,6 +27,18 @@
       "source_repo": "moby/buildkit",
       "status": "candidate-context",
       "text": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmdjulian/mopy",
+      "status": "candidate-context",
+      "text": "mopy is a docker buildkit frontend to package and build your python app into a minimal best practice docker image. You don't have to be a docker pro anymore! \ud83d\udc0b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmdjulian/mopy",
+      "status": "candidate-context",
+      "text": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)"
     }
   ],
   "candidate_glosses": [
@@ -41,6 +53,12 @@
       "source_repo": "moby/buildkit",
       "status": "candidate",
       "text": "[![asciicinema example](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU.png)](https://asciinema.org/a/gPEIEo1NzmDTUu2bEPsUboqmU)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmdjulian/mopy",
+      "status": "candidate",
+      "text": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)"
     }
   ],
   "candidate_related_terms": [],
@@ -60,11 +78,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "moby/buildkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cmdjulian/mopy"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

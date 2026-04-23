@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "styfle/cancel-workflow-action@0.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "google/fuzzbench",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "google/fuzzbench",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "google/fuzzbench",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "google/fuzzbench",
+      "target": "Fuzzers+Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "google/fuzzbench",
+      "target": "styfle/cancel-workflow-action@0.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "google/fuzzbench",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "google/fuzzbench",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "google/fuzzbench",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/fuzzbench",
+      "target": "benchmark-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/fuzzbench",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/fuzzbench",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/fuzzbench",
+      "target": "fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/fuzzbench",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:41:10.124765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2401
+    },
+    {
+      "path": "requirements.txt",
+      "size": 564
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 2873
+    },
+    {
+      "path": ".github/workflows/build_and_test_run_fuzzer_benchmarks.py",
+      "size": 4665
+    },
+    {
+      "path": ".github/workflows/presubmit.yml",
+      "size": 1261
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FuzzBench - Fuzzer benchmarking as a service.",
+    "fork": false,
+    "full_name": "google/fuzzbench",
+    "html_url": "https://github.com/google/fuzzbench",
+    "language": "Python",
+    "pushed_at": "2026-01-26T08:55:21Z",
+    "stargazers_count": 1188,
+    "topics": [
+      "benchmark-framework",
+      "benchmarking",
+      "evaluation",
+      "fuzzing",
+      "security"
+    ],
+    "updated_at": "2026-04-23T06:56:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Fuzzers+Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "Fuzzers+Benchmarks"
+    },
+    {
+      "context_snippet": "FuzzBench is a free service that evaluates fuzzers on a wide variety of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark-framework"
+    },
+    {
+      "context_snippet": "FuzzBench is a free service that evaluates fuzzers on a wide variety of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "FuzzBench is a free service that evaluates fuzzers on a wide variety of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "FuzzBench is a free service that evaluates fuzzers on a wide variety of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzing"
+    },
+    {
+      "context_snippet": "FuzzBench is a free service that evaluates fuzzers on a wide variety of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

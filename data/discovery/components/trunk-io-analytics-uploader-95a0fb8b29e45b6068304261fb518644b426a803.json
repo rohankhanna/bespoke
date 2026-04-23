@@ -1,0 +1,12 @@
+{
+  "component": "trunk-io/analytics-uploader@95a0fb8b29e45b6068304261fb518644b426a803",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nextest-rs/nextest"
+    }
+  ]
+}

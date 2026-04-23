@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "objectbox/objectbox-examples",
+      "target": "objectbox/objectbox-sync-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-examples",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-examples",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-examples",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-examples",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:41:32.860843+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples for ObjectBox Android/Java, the super-fast database",
+    "fork": false,
+    "full_name": "objectbox/objectbox-examples",
+    "html_url": "https://github.com/objectbox/objectbox-examples",
+    "language": "Java",
+    "pushed_at": "2026-03-31T09:02:40Z",
+    "stargazers_count": 407,
+    "topics": [
+      "android",
+      "database",
+      "examples",
+      "java",
+      "kotlin"
+    ],
+    "updated_at": "2026-04-15T08:12:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "objectbox/objectbox-sync-examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Examples of JVM and Android applications written in Java and Kotlin using the [Java SDK](https://github.com/objectbox/objectbox-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "Examples of JVM and Android applications written in Java and Kotlin using the [Java SDK](https://github.com/objectbox/objectbox-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "Examples of JVM and Android applications written in Java and Kotlin using the [Java SDK](https://github.com/objectbox/objectbox-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "Examples of JVM and Android applications written in Java and Kotlin using the [Java SDK](https://github.com/objectbox/objectbox-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Examples of JVM and Android applications written in Java and Kotlin using the [Java SDK](https://github.com/objectbox/objectbox-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    }
+  ]
+}

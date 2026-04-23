@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semver.yml"
+    },
+    {
+      "component": "haya14busa/action-update-semver@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semver.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semver.yml",
+      "source_repo": "bendrucker/terraform-configuration-aliases-action",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semver.yml",
+      "source_repo": "bendrucker/terraform-configuration-aliases-action",
+      "target": "haya14busa/action-update-semver@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semver.yml",
+      "source_repo": "bendrucker/terraform-configuration-aliases-action",
+      "target": "Update Semver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bendrucker/terraform-configuration-aliases-action",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bendrucker/terraform-configuration-aliases-action",
+      "target": "hashicorp/setup-terraform@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "bendrucker/terraform-configuration-aliases-action",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:42:50.756575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1323
+    },
+    {
+      "path": ".github/workflows/semver.yml",
+      "size": 237
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GitHub Action for generating aliased provider blocks that satisfy required configuration aliases",
+    "fork": false,
+    "full_name": "bendrucker/terraform-configuration-aliases-action",
+    "html_url": "https://github.com/bendrucker/terraform-configuration-aliases-action",
+    "language": "Shell",
+    "pushed_at": "2026-03-05T20:46:56Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-03-05T20:46:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update Semver",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semver.yml",
+      "term": "Update Semver"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "test"
+    }
+  ]
+}

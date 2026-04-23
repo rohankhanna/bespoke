@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bincode-org/bincode",
+      "target": "binary",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bincode-org/bincode",
+      "target": "encoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bincode-org/bincode",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bincode-org/bincode",
+      "target": "serialization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:38:13.293963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "trunk",
+    "description": "A binary encoder / decoder implementation in Rust.",
+    "fork": false,
+    "full_name": "bincode-org/bincode",
+    "html_url": "https://github.com/bincode-org/bincode",
+    "language": null,
+    "pushed_at": "2025-08-15T11:21:51Z",
+    "stargazers_count": 3073,
+    "topics": [
+      "binary",
+      "encoding",
+      "rust",
+      "serialization"
+    ],
+    "updated_at": "2026-04-14T17:22:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo has migrated to [sourcehut](https://sr.ht/~stygianentity/bincode/) as its primary development hub.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binary"
+    },
+    {
+      "context_snippet": "This repo has migrated to [sourcehut](https://sr.ht/~stygianentity/bincode/) as its primary development hub.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoding"
+    },
+    {
+      "context_snippet": "This repo has migrated to [sourcehut](https://sr.ht/~stygianentity/bincode/) as its primary development hub.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "This repo has migrated to [sourcehut](https://sr.ht/~stygianentity/bincode/) as its primary development hub.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Scaffold out a Standard Readme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29949813,
+      "status": "candidate",
+      "text": "shelf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29899347,
+      "status": "candidate",
+      "text": "studio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29897201,
+      "status": "candidate",
+      "text": "tower"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29892641,
+      "status": "candidate",
+      "text": "construct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29886461,
+      "status": "candidate",
+      "text": "compound"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scaffold",
+      "sense_id": "scaffold#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scaffold",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scaffold",
+  "observation_id": "1a565b1400aa3a67",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "scaffold",
+  "source_context_snippet": "[![Build Status](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml)",
+  "source_file": null,
+  "source_repo": "RichardLitt/generator-standard-readme",
+  "source_repo_description": "Scaffold out a Standard Readme"
+}

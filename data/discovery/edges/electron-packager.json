@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "electron/packager",
-      "target": "electron-userland/electron-installer-dmg",
+      "target": "electron-userland/electron-installer-zip",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "electron/packager",
-      "target": "electron-userland/electron-installer-debian",
+      "target": "electron-userland/electron-windows-msix",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "electron/packager",
-      "target": "electron-userland/electron-installer-redhat",
+      "target": "electron-userland/electron-windows-store",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "electron/packager",
-      "target": "electron-userland/electron-installer-snap",
+      "target": "electron-userland/electron-installer-windows",
       "target_type": "repository"
     },
     {
@@ -456,6 +456,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "electron/packager"
 }

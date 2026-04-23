@@ -67,6 +67,102 @@
       "source_repo": "deepset-ai/haystack",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of CoCa, Contrastive Captioners are Image-Text Foundation Models, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./coca.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/audiolm-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of AudioLM, a SOTA Language Modeling Approach to Audio Generation out of Google Research, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/audiolm-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./audiolm.png\" width=\"600px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer (parallelizable). We are at RWKV-7 \"Goose\". So it's combining the best of RNN and transformer - great performance, linear time, constant space (no kv-cache), fast training, infinite ctx_len, and free sentence embedding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/auto-round",
+      "status": "candidate-context",
+      "text": "A SOTA quantization algorithm for high-accuracy low-bit LLM inference, seamlessly optimized for CPU/XPU/CUDA, with multi-datatype support and full compatibility with vLLM, SGLang, and Transformers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/auto-round",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/EasyNLP",
+      "status": "candidate-context",
+      "text": "EasyNLP: A Comprehensive and Easy-to-use NLP Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/EasyNLP",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate-context",
+      "text": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate-context",
+      "text": "![# LLaMA Factory](assets/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/musiclm-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of MusicLM, Google's new SOTA model for music generation using attention networks, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/musiclm-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./musiclm.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate-context",
+      "text": "Efficient Retrieval Augmentation and Generation Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate-context",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +195,54 @@
       "source_repo": "deepset-ai/haystack",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/CoCa-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./coca.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/audiolm-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./audiolm.png\" width=\"600px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/auto-round",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/EasyNLP",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate",
+      "text": "![# LLaMA Factory](assets/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/musiclm-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./musiclm.png\" width=\"450px\"></img>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +322,59 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "deepset-ai/haystack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/CoCa-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/audiolm-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "intel/auto-round"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/EasyNLP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/musiclm-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "IntelLabs/fastRAG"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

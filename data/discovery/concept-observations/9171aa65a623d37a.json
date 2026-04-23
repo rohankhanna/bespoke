@@ -1,0 +1,65 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deploy langgenious/dify, an LLM based app on kubernetes with helm chart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CVE Scan (Chart Images)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CVE Scan (Chart Images)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11104,
+      "status": "candidate",
+      "text": "fig"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CVE Scan (Chart Images)",
+      "sense_id": "cve-scan-chart-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cve-scan-chart-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cve-scan-chart-images",
+  "observation_id": "9171aa65a623d37a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "CVE Scan (Chart Images)",
+  "source_context_snippet": "CVE Scan (Chart Images)",
+  "source_file": ".github/workflows/cve-scan.yml",
+  "source_repo": "BorisPolonsky/dify-helm",
+  "source_repo_description": "Deploy langgenious/dify, an LLM based app on kubernetes with helm chart."
+}

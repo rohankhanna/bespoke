@@ -1,0 +1,680 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-workflow-run.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-workflow-run.yml"
+    },
+    {
+      "component": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/metadata-action@c1e51972afc2121e065aed6d45c65596fe445f3f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/epochs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/epochs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interfaces.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interfaces.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manifest.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manifest.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_test_jobs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regen_certs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regen_certs.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regen_certs.yml"
+    },
+    {
+      "component": "actions/checkout@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/safari-wptrunner.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/safari-wptrunner.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/safari-wptrunner.yml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/safari-wptrunner.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "web-platform-tests/rfcs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-workflow-run.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-workflow-run.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "docker/metadata-action@c1e51972afc2121e065aed6d45c65596fe445f3f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/epochs.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/epochs.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/epochs.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "epochs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interfaces.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/interfaces.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/interfaces.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "interfaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manifest.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manifest.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manifest.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "manifest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request_test_jobs.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/checkout@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_test_jobs.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "test-jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regen_certs.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regen_certs.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/regen_certs.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regen_certs.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "certificates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/safari-wptrunner.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/checkout@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/safari-wptrunner.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/upload-artifact@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/safari-wptrunner.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "actions/upload-artifact/merge@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/safari-wptrunner.yml",
+      "source_repo": "web-platform-tests/wpt",
+      "target": "Run Safari Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "blink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "gecko",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "google-chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "microsoft-edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "opera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "safari",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "test-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "test-runner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "web-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "web-standards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "webkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt",
+      "target": "whatwg",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:30:26.726822+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5887
+    },
+    {
+      "path": ".github/workflows/check-workflow-run.yml",
+      "size": 1553
+    },
+    {
+      "path": ".github/workflows/docker.yml",
+      "size": 1581
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 861
+    },
+    {
+      "path": ".github/workflows/epochs.yml",
+      "size": 758
+    },
+    {
+      "path": ".github/workflows/interfaces.yml",
+      "size": 1657
+    },
+    {
+      "path": ".github/workflows/manifest.yml",
+      "size": 718
+    },
+    {
+      "path": ".github/workflows/pull_request_test_jobs.yml",
+      "size": 2094
+    },
+    {
+      "path": ".github/workflows/regen_certs.yml",
+      "size": 1228
+    },
+    {
+      "path": ".github/workflows/safari-wptrunner.yml",
+      "size": 6069
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Test suites for Web platform specs \u2014 including WHATWG, W3C, and others",
+    "fork": false,
+    "full_name": "web-platform-tests/wpt",
+    "html_url": "https://github.com/web-platform-tests/wpt",
+    "language": "HTML",
+    "pushed_at": "2026-04-23T07:14:59Z",
+    "stargazers_count": 5896,
+    "topics": [
+      "blink",
+      "browser",
+      "dom",
+      "firefox",
+      "gecko",
+      "google-chrome",
+      "html",
+      "javascript",
+      "microsoft-edge",
+      "opera",
+      "safari",
+      "test-automation",
+      "test-runner",
+      "testing",
+      "w3c",
+      "web-development",
+      "web-standards",
+      "webkit",
+      "whatwg"
+    ],
+    "updated_at": "2026-04-23T06:40:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "web-platform-tests/rfcs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "epochs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/epochs.yml",
+      "term": "epochs"
+    },
+    {
+      "context_snippet": "interfaces",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/interfaces.yml",
+      "term": "interfaces"
+    },
+    {
+      "context_snippet": "manifest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manifest.yml",
+      "term": "manifest"
+    },
+    {
+      "context_snippet": "test-jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request_test_jobs.yml",
+      "term": "test-jobs"
+    },
+    {
+      "context_snippet": "certificates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/regen_certs.yml",
+      "term": "certificates"
+    },
+    {
+      "context_snippet": "Run Safari Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/safari-wptrunner.yml",
+      "term": "Run Safari Tests"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blink"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gecko"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-chrome"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-edge"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opera"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "safari"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-automation"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-runner"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-development"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-standards"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webkit"
+    },
+    {
+      "context_snippet": "The web-platform-tests Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whatwg"
+    }
+  ]
+}

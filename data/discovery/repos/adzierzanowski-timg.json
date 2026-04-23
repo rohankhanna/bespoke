@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:45:22.221569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Display an image in terminal",
+    "fork": false,
+    "full_name": "adzierzanowski/timg",
+    "html_url": "https://github.com/adzierzanowski/timg",
+    "language": "Python",
+    "pushed_at": "2025-09-29T19:16:24Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-02-02T03:49:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

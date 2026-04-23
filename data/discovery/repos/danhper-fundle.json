@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danhper/fundle",
+      "target": "danhper/oh-my-fish-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danhper/fundle",
+      "target": "joseluisq/gitnow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danhper/fundle",
+      "target": "danhper/fish-completion-helpers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danhper/fundle",
+      "target": "danhper/fish-nvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danhper/fundle",
+      "target": "fish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danhper/fundle",
+      "target": "fish-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:40:48.707984+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9158
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A minimalist package manager for fish shell",
+    "fork": false,
+    "full_name": "danhper/fundle",
+    "html_url": "https://github.com/danhper/fundle",
+    "language": "Shell",
+    "pushed_at": "2023-01-05T16:21:45Z",
+    "stargazers_count": 386,
+    "topics": [
+      "fish",
+      "fish-plugins"
+    ],
+    "updated_at": "2026-04-17T03:52:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danhper/fish-completion-helpers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danhper/fish-nvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danhper/oh-my-fish-core",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joseluisq/gitnow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A minimalist package manager for [fish](http://fishshell.com/) inspired by [Vundle](https://github.com/VundleVim/Vundle.vim).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish"
+    },
+    {
+      "context_snippet": "A minimalist package manager for [fish](http://fishshell.com/) inspired by [Vundle](https://github.com/VundleVim/Vundle.vim).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish-plugins"
+    }
+  ]
+}

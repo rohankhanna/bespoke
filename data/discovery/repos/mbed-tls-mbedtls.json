@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mbed-TLS/mbedtls",
+      "target": "mbed-tls/tf-psa-crypto",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mbed-TLS/mbedtls",
+      "target": "mbed-tls/mbedtls-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mbed-TLS/mbedtls",
+      "target": "mbed-tls/mbedtls-test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mbed-TLS/mbedtls",
+      "target": "crypto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Mbed-TLS/mbedtls",
+      "target": "cryptography-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:29:57.019478+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14703
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "development",
+    "description": "An open source, portable, easy to use, readable and flexible TLS library, and reference implementation of the PSA Cryptography API. Releases are on a varying cadence, typically around 3 - 6 months between releases.",
+    "fork": false,
+    "full_name": "Mbed-TLS/mbedtls",
+    "html_url": "https://github.com/Mbed-TLS/mbedtls",
+    "language": "C",
+    "pushed_at": "2026-04-22T17:45:47Z",
+    "stargazers_count": 6610,
+    "topics": [
+      "crypto",
+      "cryptography-library",
+      "psa",
+      "ssl",
+      "tls"
+    ],
+    "updated_at": "2026-04-23T03:43:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mbed-tls/mbedtls-framework",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mbed-tls/mbedtls-test",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mbed-tls/tf-psa-crypto",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "README for Mbed TLS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crypto"
+    },
+    {
+      "context_snippet": "README for Mbed TLS",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography-library"
+    }
+  ]
+}

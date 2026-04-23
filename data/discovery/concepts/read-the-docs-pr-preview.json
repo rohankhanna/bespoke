@@ -19,12 +19,30 @@
       "source_repo": "python/cpython",
       "status": "candidate-context",
       "text": "Read the Docs PR preview"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pybind/pybind11",
+      "status": "candidate-context",
+      "text": "Seamless operability between C++11 and Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/pybind11",
+      "status": "candidate-context",
+      "text": "Read the Docs PR preview"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "python/cpython",
+      "status": "candidate",
+      "text": "Read the Docs PR preview"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/pybind11",
       "status": "candidate",
       "text": "Read the Docs PR preview"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/documentation-links.yml",
       "source_repo": "python/cpython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docs-link.yml",
+      "source_repo": "pybind/pybind11"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

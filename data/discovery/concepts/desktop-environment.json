@@ -19,6 +19,18 @@
       "source_repo": "BarutSRB/OmniWM",
       "status": "candidate-context",
       "text": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop",
+      "status": "candidate-context",
+      "text": "Budgie Desktop is a familiar, modern desktop environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop",
+      "status": "candidate-context",
+      "text": "![main_desktop](https://github.com/BuddiesOfBudgie/budgie-desktop/raw/main/.github/screenshots/MainDesktop.jpg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "BarutSRB/OmniWM",
       "status": "candidate",
       "text": "[![Watch the demo](https://img.youtube.com/vi/WcHjGkuD2Fc/maxresdefault.jpg)](https://youtu.be/WcHjGkuD2Fc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop",
+      "status": "candidate",
+      "text": "![main_desktop](https://github.com/BuddiesOfBudgie/budgie-desktop/raw/main/.github/screenshots/MainDesktop.jpg)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "BarutSRB/OmniWM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BuddiesOfBudgie/budgie-desktop"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

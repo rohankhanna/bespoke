@@ -1,0 +1,337 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.8.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.8.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gazelle_examples.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gazelle_examples.yaml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.8.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gazelle_examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.8.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_windows.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_windows.yaml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.8.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_windows.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "apple/apple_rules_lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "bazel-contrib/setup-bazel@0.8.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "bazel-contrib/setup-bazel@0.8.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gazelle_examples.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gazelle_examples.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gazelle_examples.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "bazel-contrib/setup-bazel@0.8.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gazelle_examples.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "Gazelle Examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "bazel-contrib/setup-bazel@0.8.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_windows.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_windows.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_windows.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "bazel-contrib/setup-bazel@0.8.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests_windows.yaml",
+      "source_repo": "bazel-contrib/rules_jvm",
+      "target": "Tests (Windows)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:37:34.161861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27623
+    },
+    {
+      "path": "go.mod",
+      "size": 1392
+    },
+    {
+      "path": ".github/workflows/ci.bazelrc",
+      "size": 858
+    },
+    {
+      "path": ".github/workflows/examples.yaml",
+      "size": 805
+    },
+    {
+      "path": ".github/workflows/format.yaml",
+      "size": 1097
+    },
+    {
+      "path": ".github/workflows/gazelle_examples.yaml",
+      "size": 1157
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 861
+    },
+    {
+      "path": ".github/workflows/release_prep.sh",
+      "size": 733
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 1344
+    },
+    {
+      "path": ".github/workflows/tests_windows.yaml",
+      "size": 1316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Contributed Bazel rules that make working with java projects more pleasant",
+    "fork": false,
+    "full_name": "bazel-contrib/rules_jvm",
+    "html_url": "https://github.com/bazel-contrib/rules_jvm",
+    "language": "Java",
+    "pushed_at": "2026-04-20T14:25:59Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2026-04-01T11:53:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/apple_rules_lint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yaml",
+      "term": "Examples"
+    },
+    {
+      "context_snippet": "Format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yaml",
+      "term": "Format"
+    },
+    {
+      "context_snippet": "Gazelle Examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gazelle_examples.yaml",
+      "term": "Gazelle Examples"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Tests (Windows)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests_windows.yaml",
+      "term": "Tests (Windows)"
+    }
+  ]
+}

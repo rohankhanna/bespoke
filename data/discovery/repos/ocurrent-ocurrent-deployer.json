@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocurrent/ocurrent-deployer",
+      "target": "ocurrent/docker-base-images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocurrent/ocurrent-deployer",
+      "target": "mirage/mirage-www",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocurrent/ocurrent-deployer",
+      "target": "ocurrent/ocluster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ocurrent/ocurrent-deployer",
+      "target": "hannesm/albatross",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:40:57.447464+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7037
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2575
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A pipeline that deploys unikernels and other services",
+    "fork": false,
+    "full_name": "ocurrent/ocurrent-deployer",
+    "html_url": "https://github.com/ocurrent/ocurrent-deployer",
+    "language": "OCaml",
+    "pushed_at": "2026-03-31T17:20:28Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-03-31T17:20:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hannesm/albatross",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mirage/mirage-www",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocurrent/docker-base-images",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ocurrent/ocluster",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

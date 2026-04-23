@@ -168,14 +168,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dethcrypto/TypeChain",
-      "target": "aave/protocol-v2",
+      "target": "matter-labs/zksync",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dethcrypto/TypeChain",
-      "target": "dethcrypto/eth-sdk",
+      "target": "kybernetwork/dao_sc",
       "target_type": "repository"
     },
     {
@@ -410,7 +410,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T19:11:15.153878+00:00",
+  "fetched_at": "2026-04-23T08:29:42.574260+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -455,22 +455,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aave/protocol-v2",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dethcrypto/eth-sdk",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "ethereum-ts/typechain",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "krzkaczor/typechain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kybernetwork/dao_sc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matter-labs/zksync",
       "source_file": "README.md"
     }
   ],

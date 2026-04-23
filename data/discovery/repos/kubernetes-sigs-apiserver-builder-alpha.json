@@ -1,0 +1,257 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2.1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v2.1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v2.1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "helm/kind-action@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@v2.1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "helm/kind-action@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "kubernetes-sigs/kubebuilder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "kubernetes-sigs/controller-runtime",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "actions/setup-go@v2.1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "actions/checkout@v2.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "helm/kind-action@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "GoRelease",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "apiserver-aggregation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "k8s-sig-api-machinery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "target": "server-sdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:44:22.638254+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5276
+    },
+    {
+      "path": "go.mod",
+      "size": 6053
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 6096
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "apiserver-builder-alpha implements libraries and tools to quickly and easily build Kubernetes apiservers/controllers to support custom resource types based on APIServer Aggregation",
+    "fork": false,
+    "full_name": "kubernetes-sigs/apiserver-builder-alpha",
+    "html_url": "https://github.com/kubernetes-sigs/apiserver-builder-alpha",
+    "language": "Go",
+    "pushed_at": "2024-01-11T14:22:35Z",
+    "stargazers_count": 821,
+    "topics": [
+      "apiserver-aggregation",
+      "k8s-sig-api-machinery",
+      "kubernetes",
+      "server-sdk"
+    ],
+    "updated_at": "2026-04-16T01:20:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/controller-runtime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/kubebuilder",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "GoRelease",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "GoRelease"
+    },
+    {
+      "context_snippet": "![build](https://github.com/kubernetes-sigs/apiserver-builder-alpha/workflows/build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apiserver-aggregation"
+    },
+    {
+      "context_snippet": "![build](https://github.com/kubernetes-sigs/apiserver-builder-alpha/workflows/build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-api-machinery"
+    },
+    {
+      "context_snippet": "![build](https://github.com/kubernetes-sigs/apiserver-builder-alpha/workflows/build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "![build](https://github.com/kubernetes-sigs/apiserver-builder-alpha/workflows/build/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server-sdk"
+    }
+  ]
+}

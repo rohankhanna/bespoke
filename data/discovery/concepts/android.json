@@ -172,6 +172,270 @@
       "source_repo": "coderaiser/cloudcmd",
       "status": "candidate-context",
       "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appleboy/gorush",
+      "status": "candidate-context",
+      "text": "A push notification server written in Go (Golang)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/gorush",
+      "status": "candidate-context",
+      "text": "A push notification micro server using [Gin](https://github.com/gin-gonic/gin) framework written in Go (Golang) and see the [demo app](https://github.com/appleboy/flutter-gorush)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-java",
+      "status": "candidate-context",
+      "text": "Database for Android and JVM - first and fast, lightweight on-device vector database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-java",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "duckdb/duckdb",
+      "status": "candidate-context",
+      "text": "DuckDB is an analytical in-process SQL database management system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duckdb/duckdb",
+      "status": "candidate-context",
+      "text": "Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "termux/termux-app",
+      "status": "candidate-context",
+      "text": "Termux - a terminal emulator application for Android OS extendible by variety of packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-app",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/termux/termux-app/workflows/Build/badge.svg)](https://github.com/termux/termux-app/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/executorch",
+      "status": "candidate-context",
+      "text": "On-device AI across mobile, embedded and edge for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/executorch",
+      "status": "candidate-context",
+      "text": "Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "The React Native Community CLI - command line tools to help you build RN apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "Command line tools that help you build apps with [`react-native`](https://github.com/facebook/react-native), shipped as the `@react-native-community/cli` NPM package."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/MNN",
+      "status": "candidate-context",
+      "text": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/MNN",
+      "status": "candidate-context",
+      "text": "android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "servo/servo",
+      "status": "candidate-context",
+      "text": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "servo/servo",
+      "status": "candidate-context",
+      "text": "Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EdVince/Stable-Diffusion-NCNN",
+      "status": "candidate-context",
+      "text": "Stable Diffusion in NCNN with c++, supported txt2img and img2img"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdVince/Stable-Diffusion-NCNN",
+      "status": "candidate-context",
+      "text": "Stable-Diffusion implemented by [ncnn](https://github.com/Tencent/ncnn) framework based on C++, supported txt2img and img2img!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARM-software/ComputeLibrary",
+      "status": "candidate-context",
+      "text": "The Compute Library is a set of computer vision and machine learning functions optimised for both Arm CPUs and GPUs using SIMD technologies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/ComputeLibrary",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libressl/portable",
+      "status": "candidate-context",
+      "text": "LibreSSL Portable itself. This includes the build scaffold and compatibility layer that builds portable LibreSSL from the OpenBSD source code. Pull requests or patches sent to tech@openbsd.org are welcome."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libressl/portable",
+      "status": "candidate-context",
+      "text": "\"Android\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appleboy/go-fcm",
+      "status": "candidate-context",
+      "text": "Firebase Cloud Messaging Library for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/go-fcm",
+      "status": "candidate-context",
+      "text": "[English](README.md) | [\u7e41\u9ad4\u4e2d\u6587](README.zh-tw.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-cn.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morrys/wora",
+      "status": "candidate-context",
+      "text": "Write Once, Render Anywhere. typescript libraries: cache-persist, apollo-offline, relay-offline, offline-first, apollo-cache, relay-store, netinfo, detect-network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/wora",
+      "status": "candidate-context",
+      "text": "**the github page contains all the documentation relating to the libraries distributed by this monorepo.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/react-native",
+      "status": "candidate-context",
+      "text": "A framework for building native applications using React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-dart",
+      "status": "candidate-context",
+      "text": "Flutter database for super-fast Dart object persistence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-examples",
+      "status": "candidate-context",
+      "text": "Examples for ObjectBox Android/Java, the super-fast database"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-examples",
+      "status": "candidate-context",
+      "text": "Examples of JVM and Android applications written in Java and Kotlin using the [Java SDK](https://github.com/objectbox/objectbox-java)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectbot/connectbot",
+      "status": "candidate-context",
+      "text": "ConnectBot is the first SSH client for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/connectbot",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/connectbot/connectbot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/connectbot/connectbot/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FreeRDP/FreeRDP",
+      "status": "candidate-context",
+      "text": "FreeRDP is a free remote desktop protocol library and clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreeRDP/FreeRDP",
+      "status": "candidate-context",
+      "text": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate-context",
+      "text": "Linux, Android and Chromium Performance Tools built using the Microsoft Performance Toolkit. Cross-platform .NET Core + WPA GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate-context",
+      "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "status": "candidate-context",
+      "text": "Brings nebula to mobile devices (iOS, Android)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "status": "candidate-context",
+      "text": "[Play Store](https://play.google.com/store/apps/details?id=net.defined.mobile_nebula&hl=en_US&gl=US) | [App Store](https://apps.apple.com/us/app/mobile-nebula/id1509587936)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-share/react-native-share",
+      "status": "candidate-context",
+      "text": "Social share, sending simple data to other apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-share/react-native-share",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/react-native-share.svg)](http://badge.fury.io/js/react-native-share) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-webview/react-native-webview",
+      "status": "candidate-context",
+      "text": "React Native Cross-Platform WebView"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-webview/react-native-webview",
+      "status": "candidate-context",
+      "text": "Android"
     }
   ],
   "candidate_glosses": [
@@ -258,6 +522,138 @@
       "source_repo": "coderaiser/cloudcmd",
       "status": "candidate",
       "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/gorush",
+      "status": "candidate",
+      "text": "A push notification micro server using [Gin](https://github.com/gin-gonic/gin) framework written in Go (Golang) and see the [demo app](https://github.com/appleboy/flutter-gorush)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-java",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"466\" src=\"https://raw.githubusercontent.com/objectbox/objectbox-java/master/logo.png\" alt=\"ObjectBox\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "duckdb/duckdb",
+      "status": "candidate",
+      "text": "Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-app",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/termux/termux-app/workflows/Build/badge.svg)](https://github.com/termux/termux-app/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/executorch",
+      "status": "candidate",
+      "text": "Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate",
+      "text": "Command line tools that help you build apps with [`react-native`](https://github.com/facebook/react-native), shipped as the `@react-native-community/cli` NPM package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/MNN",
+      "status": "candidate",
+      "text": "android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "servo/servo",
+      "status": "candidate",
+      "text": "Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdVince/Stable-Diffusion-NCNN",
+      "status": "candidate",
+      "text": "Stable-Diffusion implemented by [ncnn](https://github.com/Tencent/ncnn) framework based on C++, supported txt2img and img2img!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/ComputeLibrary",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libressl/portable",
+      "status": "candidate",
+      "text": "\"Android\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/go-fcm",
+      "status": "candidate",
+      "text": "[English](README.md) | [\u7e41\u9ad4\u4e2d\u6587](README.zh-tw.md) | [\u7b80\u4f53\u4e2d\u6587](README.zh-cn.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/wora",
+      "status": "candidate",
+      "text": "**the github page contains all the documentation relating to the libraries distributed by this monorepo.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-dart",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-examples",
+      "status": "candidate",
+      "text": "Examples of JVM and Android applications written in Java and Kotlin using the [Java SDK](https://github.com/objectbox/objectbox-java)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectbot/connectbot",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/connectbot/connectbot/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/connectbot/connectbot/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreeRDP/FreeRDP",
+      "status": "candidate",
+      "text": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate",
+      "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "status": "candidate",
+      "text": "[Play Store](https://play.google.com/store/apps/details?id=net.defined.mobile_nebula&hl=en_US&gl=US) | [App Store](https://apps.apple.com/us/app/mobile-nebula/id1509587936)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-share/react-native-share",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/react-native-share.svg)](http://badge.fury.io/js/react-native-share) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-webview/react-native-webview",
+      "status": "candidate",
+      "text": "Android"
     }
   ],
   "candidate_related_terms": [
@@ -406,11 +802,143 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "coderaiser/cloudcmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "appleboy/gorush"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/Android.yml",
+      "source_repo": "duckdb/duckdb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "termux/termux-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/_android.yml",
+      "source_repo": "pytorch/executorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "react-native-community/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "alibaba/MNN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "servo/servo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EdVince/Stable-Diffusion-NCNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ARM-software/ComputeLibrary"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "libressl/portable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "appleboy/go-fcm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "morrys/wora"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "facebook/react-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "connectbot/connectbot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "FreeRDP/FreeRDP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "DefinedNet/mobile_nebula"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "react-native-share/react-native-share"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

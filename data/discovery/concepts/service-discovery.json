@@ -19,6 +19,42 @@
       "source_repo": "Adminisme/ServerScan",
       "status": "candidate-context",
       "text": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate-context",
+      "text": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "CoreDNS is a DNS server that chains plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "[![CoreDNS](https://coredns.io/images/CoreDNS_Colour_Horizontal.png)](https://coredns.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinfx/olric-nats-plugin",
+      "status": "candidate-context",
+      "text": "A service discovery plugin for Olric distributed cache, using nats.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinfx/olric-nats-plugin",
+      "status": "candidate-context",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "Adminisme/ServerScan",
       "status": "candidate",
       "text": "![Author](https://img.shields.io/badge/Author-Trim-blueviolet) ![Bin](https://img.shields.io/badge/servercan-Bin-ff69b4) ![build](https://img.shields.io/badge/build-passing-green.svg) ![](https://img.shields.io/badge/language-golang-blue.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate",
+      "text": "[![CoreDNS](https://coredns.io/images/CoreDNS_Colour_Horizontal.png)](https://coredns.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinfx/olric-nats-plugin",
+      "status": "candidate",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "Adminisme/ServerScan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "coredns/coredns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "justinfx/olric-nats-plugin"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,30 @@
       "source_repo": "com-lihaoyi/cask",
       "status": "candidate-context",
       "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate-context",
+      "text": "Web server middleware for Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/dart-lang/shelf/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/shelf/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expressjs/express",
+      "status": "candidate-context",
+      "text": "Fast, unopinionated, minimalist web framework for node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/express",
+      "status": "candidate-context",
+      "text": "express \u2014 Fast, unopinionated, minimalist web framework"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "com-lihaoyi/cask",
       "status": "candidate",
       "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/dart-lang/shelf/workflows/Dart%20CI/badge.svg)](https://github.com/dart-lang/shelf/actions?query=workflow%3A\"Dart+CI\"+branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/express",
+      "status": "candidate",
+      "text": "express \u2014 Fast, unopinionated, minimalist web framework"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +175,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "com-lihaoyi/cask"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dart-lang/shelf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "expressjs/express"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

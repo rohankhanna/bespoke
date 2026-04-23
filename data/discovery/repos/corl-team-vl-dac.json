@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "corl-team/VL-DAC",
+      "target": "marccote/textworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "corl-team/VL-DAC",
+      "target": "natyren/alfworld",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "corl-team/VL-DAC",
+      "target": "natyren/webshop",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:13.493181+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4689
+    },
+    {
+      "path": "requirements.txt",
+      "size": 112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of the paper \"Enhancing Vision-Language Model Training with Reinforcement Learning in Synthetic Worlds for Real-World Success\"",
+    "fork": false,
+    "full_name": "corl-team/VL-DAC",
+    "html_url": "https://github.com/corl-team/VL-DAC",
+    "language": "Python",
+    "pushed_at": "2026-03-03T08:07:55Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-03-30T13:53:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marccote/textworld",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "natyren/alfworld",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "natyren/webshop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

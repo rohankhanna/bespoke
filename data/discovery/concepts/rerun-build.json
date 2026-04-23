@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rerun build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate-context",
+      "text": ":fire: Seata is an easy-to-use, high-performance, open source distributed transaction solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate-context",
+      "text": "Rerun build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate",
+      "text": "Rerun build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15153,
+      "status": "candidate",
+      "text": "echo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15153,
+      "status": "candidate",
+      "text": "repeat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15153,
+      "status": "candidate",
+      "text": "repeated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15112,
+      "status": "candidate",
+      "text": "movie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14384,
+      "status": "candidate",
+      "text": "melodrama"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rerun build",
+  "concept_id": "rerun-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rerun-build.yml",
+      "source_repo": "apache/incubator-seata"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rerun build",
+      "sense_id": "rerun-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,42 @@
+{
+  "component": "dotnet/docs-tools/cleanrepo@main",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-articles.yml",
+      "source_repo": "dotnet/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-images.yml",
+      "source_repo": "dotnet/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-includes.yml",
+      "source_repo": "dotnet/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-snippets.yml",
+      "source_repo": "dotnet/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-redirect-hops.yml",
+      "source_repo": "dotnet/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-relative-links.yml",
+      "source_repo": "dotnet/docs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-replace-redirects.yml",
+      "source_repo": "dotnet/docs"
+    }
+  ]
+}

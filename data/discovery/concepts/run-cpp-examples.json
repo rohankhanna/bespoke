@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run CPP Examples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/examples",
+      "status": "candidate-context",
+      "text": "A set of examples around pytorch in Vision, Text, Reinforcement Learning, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/examples",
+      "status": "candidate-context",
+      "text": "Run CPP Examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/examples",
+      "status": "candidate",
+      "text": "Run CPP Examples"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23063,
+      "status": "candidate",
+      "text": "circuitry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23063,
+      "status": "candidate",
+      "text": "conspiracy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23063,
+      "status": "candidate",
+      "text": "contrivance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23063,
+      "status": "candidate",
+      "text": "introduced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23063,
+      "status": "candidate",
+      "text": "premeditate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run CPP Examples",
+  "concept_id": "run-cpp-examples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main_cpp.yml",
+      "source_repo": "pytorch/examples"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run CPP Examples",
+      "sense_id": "run-cpp-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

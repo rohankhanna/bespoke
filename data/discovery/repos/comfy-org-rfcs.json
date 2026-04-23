@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rfc-discussion.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rfc-discussion.yml"
+    },
+    {
+      "component": "abirismyname/create-discussion@v1.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rfc-discussion.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rfc-discussion.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-rfc-discussion.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-rfc-discussion.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-rfc-discussion.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-rfc-discussion.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Comfy-Org/rfcs",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs",
+      "target": "abirismyname/create-discussion@v1.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs",
+      "target": "Create RFC Discussion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs",
+      "target": "Sync RFC Discussion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:34:44.557619+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7361
+    },
+    {
+      "path": ".github/workflows/rfc-discussion.yml",
+      "size": 5155
+    },
+    {
+      "path": ".github/workflows/sync-rfc-discussion.yml",
+      "size": 6322
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RFCs for substantial changes to ComfyUI core, APIs, or standards.",
+    "fork": false,
+    "full_name": "Comfy-Org/rfcs",
+    "html_url": "https://github.com/Comfy-Org/rfcs",
+    "language": "Python",
+    "pushed_at": "2025-06-17T17:04:34Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-04-20T03:27:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create RFC Discussion",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rfc-discussion.yml",
+      "term": "Create RFC Discussion"
+    },
+    {
+      "context_snippet": "Sync RFC Discussion",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-rfc-discussion.yml",
+      "term": "Sync RFC Discussion"
+    }
+  ]
+}

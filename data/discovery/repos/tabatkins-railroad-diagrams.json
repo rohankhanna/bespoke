@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:33:01.882961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2414
+    },
+    {
+      "path": "package.json",
+      "size": 567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gh-pages",
+    "description": ":steam_locomotive: A small JS+SVG library for drawing railroad syntax diagrams, like on JSON.org. Now with a Python port!",
+    "fork": false,
+    "full_name": "tabatkins/railroad-diagrams",
+    "html_url": "https://github.com/tabatkins/railroad-diagrams",
+    "language": "Python",
+    "pushed_at": "2026-03-28T15:48:51Z",
+    "stargazers_count": 1738,
+    "topics": [],
+    "updated_at": "2026-04-16T07:00:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

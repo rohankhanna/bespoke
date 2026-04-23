@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "css-modules/css-modules",
+      "target": "css-modules/icss",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:31:14.004238+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2165
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Documentation about css-modules",
+    "fork": false,
+    "full_name": "css-modules/css-modules",
+    "html_url": "https://github.com/css-modules/css-modules",
+    "language": null,
+    "pushed_at": "2024-05-30T14:58:51Z",
+    "stargazers_count": 17972,
+    "topics": [],
+    "updated_at": "2026-04-21T23:00:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "css-modules/icss",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

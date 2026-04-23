@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR_plugins",
+      "target": "breezedeus/pix2text",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR_plugins",
+      "target": "daybreak-u/chineseocr_lite",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR_plugins",
+      "target": "eaeful/wechatocr_umi_plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR_plugins",
+      "target": "chunzhimoe/mistral.ai_umi_plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiroi-sora/Umi-OCR_plugins",
+      "target": "umi-ocr",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "hiroi-sora/Umi-OCR_plugins"
+}

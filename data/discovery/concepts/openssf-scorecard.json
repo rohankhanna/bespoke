@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "OpenSSF Scorecard"
+    "OpenSSF Scorecard",
+    "OpenSSF scorecard"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -91,6 +92,18 @@
       "source_repo": "angular/vscode-ng-language-service",
       "status": "candidate-context",
       "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate-context",
+      "text": "oneAPI Deep Neural Network Library (oneDNN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate-context",
+      "text": "OpenSSF scorecard"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +148,12 @@
       "source_repo": "angular/vscode-ng-language-service",
       "status": "candidate",
       "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate",
+      "text": "OpenSSF scorecard"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +251,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "angular/vscode-ng-language-service"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/openssf-scorecard.yml",
+      "source_repo": "uxlfoundation/oneDNN"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

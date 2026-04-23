@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -307,6 +309,114 @@
       "source_repo": "songquanpeng/gin-template",
       "status": "candidate-context",
       "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morrys/offline-examples",
+      "status": "candidate-context",
+      "text": "Relay and Apollo Offline Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/offline-examples",
+      "status": "candidate-context",
+      "text": "A collection of example applications using [react-relay-offline](https://github.com/morrys/react-relay-offline)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serafimcloud/21st",
+      "status": "candidate-context",
+      "text": "npm for design engineers: largest marketplace of shadcn/ui-based React Tailwind components, blocks and hooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serafimcloud/21st",
+      "status": "candidate-context",
+      "text": "**[21st.dev](https://21st.dev)** is your go-to open-source community registry for **React UI components**! Whether you're a developer, designer, or just someone who loves building beautiful interfaces, 21st.dev is the place to **publish, discover, and install** minimal, modern, \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xyflow/xyflow",
+      "status": "candidate-context",
+      "text": "React Flow |\u00a0Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xyflow/xyflow",
+      "status": "candidate-context",
+      "text": "![xyflow-header](https://user-images.githubusercontent.com/2857535/279643999-ffda9f91-6b6d-447d-82be-fcbd6103edb6.svg#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morrys/wora",
+      "status": "candidate-context",
+      "text": "Write Once, Render Anywhere. typescript libraries: cache-persist, apollo-offline, relay-offline, offline-first, apollo-cache, relay-store, netinfo, detect-network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/wora",
+      "status": "candidate-context",
+      "text": "**the github page contains all the documentation relating to the libraries distributed by this monorepo.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/react-native",
+      "status": "candidate-context",
+      "text": "A framework for building native applications using React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dropbox/ts-transform-react-jsx-source",
+      "status": "candidate-context",
+      "text": "TypeScript AST Transformer that adds source file and line number to JSX elements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropbox/ts-transform-react-jsx-source",
+      "status": "candidate-context",
+      "text": "![build status](https://travis-ci.org/dropbox/ts-transform-react-jsx-source.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate-context",
+      "text": "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate-context",
+      "text": "react"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-share/react-native-share",
+      "status": "candidate-context",
+      "text": "Social share, sending simple data to other apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-share/react-native-share",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/react-native-share.svg)](http://badge.fury.io/js/react-native-share) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate-context",
+      "text": "Routing and navigation for React Native and Web apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate-context",
+      "text": "[![Build Status][build-badge]][build]"
     }
   ],
   "candidate_glosses": [
@@ -459,6 +569,60 @@
       "source_repo": "songquanpeng/gin-template",
       "status": "candidate",
       "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/offline-examples",
+      "status": "candidate",
+      "text": "A collection of example applications using [react-relay-offline](https://github.com/morrys/react-relay-offline)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serafimcloud/21st",
+      "status": "candidate",
+      "text": "**[21st.dev](https://21st.dev)** is your go-to open-source community registry for **React UI components**! Whether you're a developer, designer, or just someone who loves building beautiful interfaces, 21st.dev is the place to **publish, discover, and install** minimal, modern, \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xyflow/xyflow",
+      "status": "candidate",
+      "text": "![xyflow-header](https://user-images.githubusercontent.com/2857535/279643999-ffda9f91-6b6d-447d-82be-fcbd6103edb6.svg#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/wora",
+      "status": "candidate",
+      "text": "**the github page contains all the documentation relating to the libraries distributed by this monorepo.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropbox/ts-transform-react-jsx-source",
+      "status": "candidate",
+      "text": "![build status](https://travis-ci.org/dropbox/ts-transform-react-jsx-source.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate",
+      "text": "react"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-share/react-native-share",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/react-native-share.svg)](http://badge.fury.io/js/react-native-share) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate",
+      "text": "[![Build Status][build-badge]][build]"
     }
   ],
   "candidate_related_terms": [
@@ -709,11 +873,77 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "morrys/offline-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "serafimcloud/21st"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "xyflow/xyflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "morrys/wora"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "facebook/react-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dropbox/ts-transform-react-jsx-source"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/react.yml",
+      "source_repo": "thanos-io/thanos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "react-native-share/react-native-share"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "react-navigation/react-navigation"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

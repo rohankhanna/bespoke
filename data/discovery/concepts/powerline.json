@@ -31,6 +31,30 @@
       "source_repo": "powerline/powerline",
       "status": "candidate-context",
       "text": "Powerline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ryanoasis/vim-devicons",
+      "status": "candidate-context",
+      "text": "Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and many more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/vim-devicons",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reujab/silver",
+      "status": "candidate-context",
+      "text": "A cross-shell customizable powerline-like prompt with icons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reujab/silver",
+      "status": "candidate-context",
+      "text": "[package] name = \"silver\" version = \"2.0.1\" authors = [\"reujab <reujab@gmail.com>\"] description = \"A cross-shell customizable powerline-like prompt with icons\" repository = \"https://github.com/reujab/silver\" readme = \"readme.md\" keywords = [\"shell\", \"prompt\", \"powerline\", \"agnos\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "powerline/powerline",
       "status": "candidate",
       "text": "Powerline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/vim-devicons",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reujab/silver",
+      "status": "candidate",
+      "text": "[package] name = \"silver\" version = \"2.0.1\" authors = [\"reujab <reujab@gmail.com>\"] description = \"A cross-shell customizable powerline-like prompt with icons\" repository = \"https://github.com/reujab/silver\" readme = \"readme.md\" keywords = [\"shell\", \"prompt\", \"powerline\", \"agnos\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "powerline/powerline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ryanoasis/vim-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "reujab/silver"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

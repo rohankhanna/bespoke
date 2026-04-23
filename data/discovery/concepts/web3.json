@@ -55,6 +55,30 @@
       "source_repo": "ApeWorX/ape",
       "status": "candidate-context",
       "text": "[![Pypi.org][pypi-badge]][pypi-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dethcrypto/eth-sdk",
+      "status": "candidate-context",
+      "text": "Type-safe, lightweight SDKs for Ethereum smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dethcrypto/eth-sdk",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web3/web3.js",
+      "status": "candidate-context",
+      "text": "Collection of comprehensive TypeScript libraries for Interaction with the Ethereum JSON RPC API and utility functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web3/web3.js",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "ApeWorX/ape",
       "status": "candidate",
       "text": "[![Pypi.org][pypi-badge]][pypi-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dethcrypto/eth-sdk",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web3/web3.js",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -134,11 +170,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "ApeWorX/ape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "web3/web3.js"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

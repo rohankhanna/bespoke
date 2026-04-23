@@ -43,6 +43,66 @@
       "source_repo": "bazelbuild/rules_swift",
       "status": "candidate-context",
       "text": "[![Build status](https://badge.buildkite.com/d562b11425e192a8f6ba9c43715bc8364985bccf54e4b9194a.svg?branch=main)](https://buildkite.com/bazel/rules-swift-swift)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate-context",
+      "text": "Collection of utilities and Bazel rules to aid in the development and maintenance of Swift repositories using Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/cgrindel/rules_swift_package_manager/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/cgrindel/rules_swift_package_manager/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_docker",
+      "status": "candidate-context",
+      "text": "Rules for building and handling Docker images with Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_docker",
+      "status": "candidate-context",
+      "text": "| Bazel CI |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_k8s",
+      "status": "candidate-context",
+      "text": "This repository contains rules for interacting with Kubernetes configurations / clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_k8s",
+      "status": "candidate-context",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_go",
+      "status": "candidate-context",
+      "text": "Go rules for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_go",
+      "status": "candidate-context",
+      "text": "Go rules for Bazel_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_python",
+      "status": "candidate-context",
+      "text": "Bazel Python Rules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_python",
+      "status": "candidate-context",
+      "text": "[![Build status](https://badge.buildkite.com/0bcfe58b6f5741aacb09b12485969ba7a1205955a45b53e854.svg?branch=main)](https://buildkite.com/bazel/rules-python-python)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +123,36 @@
       "source_repo": "bazelbuild/rules_swift",
       "status": "candidate",
       "text": "[![Build status](https://badge.buildkite.com/d562b11425e192a8f6ba9c43715bc8364985bccf54e4b9194a.svg?branch=main)](https://buildkite.com/bazel/rules-swift-swift)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/cgrindel/rules_swift_package_manager/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/cgrindel/rules_swift_package_manager/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_docker",
+      "status": "candidate",
+      "text": "| Bazel CI |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_k8s",
+      "status": "candidate",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_go",
+      "status": "candidate",
+      "text": "Go rules for Bazel_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_python",
+      "status": "candidate",
+      "text": "[![Build status](https://badge.buildkite.com/0bcfe58b6f5741aacb09b12485969ba7a1205955a45b53e854.svg?branch=main)](https://buildkite.com/bazel/rules-python-python)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +178,41 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "bazelbuild/rules_swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cgrindel/rules_swift_package_manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_k8s"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_python"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

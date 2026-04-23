@@ -127,6 +127,78 @@
       "source_repo": "voxel51/voxelgpt",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matplotlib/matplotlib",
+      "status": "candidate-context",
+      "text": "matplotlib: plotting with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matplotlib/matplotlib",
+      "status": "candidate-context",
+      "text": "[![PyPi](https://img.shields.io/pypi/v/matplotlib)](https://pypi.org/project/matplotlib/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "status": "candidate-context",
+      "text": "Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastai/docker-containers",
+      "status": "candidate-context",
+      "text": "Docker images for fastai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastai/docker-containers",
+      "status": "candidate-context",
+      "text": "![Build CI Containers](https://github.com/fastai/docker-containers/workflows/Build%20CI%20Containers/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cudf",
+      "status": "candidate-context",
+      "text": "cuDF - GPU DataFrame Library "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cudf",
+      "status": "candidate-context",
+      "text": "cuDF (pronounced \"KOO-dee-eff\") is an [Apache 2.0 licensed](LICENSE), GPU-accelerated DataFrame library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/allennlp",
+      "status": "candidate-context",
+      "text": "An open-source NLP research library, built on PyTorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/allennlp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/airflow",
+      "status": "candidate-context",
+      "text": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/airflow",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +261,42 @@
       "source_repo": "voxel51/voxelgpt",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matplotlib/matplotlib",
+      "status": "candidate",
+      "text": "[![PyPi](https://img.shields.io/pypi/v/matplotlib)](https://pypi.org/project/matplotlib/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/pytorch-lightning",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastai/docker-containers",
+      "status": "candidate",
+      "text": "![Build CI Containers](https://github.com/fastai/docker-containers/workflows/Build%20CI%20Containers/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cudf",
+      "status": "candidate",
+      "text": "cuDF (pronounced \"KOO-dee-eff\") is an [Apache 2.0 licensed](LICENSE), GPU-accelerated DataFrame library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/allennlp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/airflow",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +364,47 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "voxel51/voxelgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "matplotlib/matplotlib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fastai/docker-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/cudf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "allenai/allennlp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/airflow"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

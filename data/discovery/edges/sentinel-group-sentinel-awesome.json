@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sentinel-group/sentinel-awesome",
+      "target": "mse-group/slides",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sentinel-group/sentinel-awesome",
+      "target": "cdfive/sentinel-support",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sentinel-group/sentinel-awesome",
+      "target": "finefuture/sentinel-dashboard-x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sentinel-group/sentinel-awesome",
+      "target": "code1986/sentinel-lib",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "sentinel-group/sentinel-awesome"
+}

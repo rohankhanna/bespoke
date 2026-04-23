@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Evaluation harness for OpenHands V1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build GAIA Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build GAIA Images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13607,
+      "status": "candidate",
+      "text": "cyclops"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13119,
+      "status": "candidate",
+      "text": "typhoeus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10094,
+      "status": "candidate",
+      "text": "adam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10094,
+      "status": "candidate",
+      "text": "colonial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10094,
+      "status": "candidate",
+      "text": "epic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build GAIA Images",
+      "sense_id": "build-gaia-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-gaia-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-gaia-images",
+  "observation_id": "cbfaeb53101d9c58",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Build GAIA Images",
+  "source_context_snippet": "Build GAIA Images",
+  "source_file": ".github/workflows/build-gaia-images.yml",
+  "source_repo": "OpenHands/benchmarks",
+  "source_repo_description": "Evaluation harness for OpenHands V1."
+}

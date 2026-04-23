@@ -1,0 +1,80 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmetb/ytdl",
+      "target": "cloud-run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmetb/ytdl",
+      "target": "cloud-run-button",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmetb/ytdl",
+      "target": "google-cloud-run",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:35:36.466394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 716
+    },
+    {
+      "path": "Dockerfile",
+      "size": 217
+    },
+    {
+      "path": "go.mod",
+      "size": 104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Serverless video downloader app (using youtube-dl)",
+    "fork": false,
+    "full_name": "ahmetb/ytdl",
+    "html_url": "https://github.com/ahmetb/ytdl",
+    "language": "Go",
+    "pushed_at": "2021-05-25T17:00:04Z",
+    "stargazers_count": 13,
+    "topics": [
+      "cloud-run",
+      "cloud-run-button",
+      "google-cloud-run"
+    ],
+    "updated_at": "2025-08-06T22:03:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A serverless application that uses `youtube-dl` to quickly download and stream",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-run"
+    },
+    {
+      "context_snippet": "A serverless application that uses `youtube-dl` to quickly download and stream",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-run-button"
+    },
+    {
+      "context_snippet": "A serverless application that uses `youtube-dl` to quickly download and stream",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-run"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hugo-docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gohugoio/hugoDocs",
+      "status": "candidate-context",
+      "text": "The source for https://gohugo.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gohugoio/hugoDocs",
+      "status": "candidate-context",
+      "text": "<a href=\"https://gohugo.io/\"><img src=\"https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true\" alt=\"Hugo\" width=\"565\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gohugoio/hugoDocs",
+      "status": "candidate",
+      "text": "<a href=\"https://gohugo.io/\"><img src=\"https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true\" alt=\"Hugo\" width=\"565\"></a>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hugo-docs",
+  "concept_id": "hugo-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gohugoio/hugoDocs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hugo-docs",
+      "sense_id": "hugo-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:30:50.328552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CVPR 2022",
+    "fork": false,
+    "full_name": "jychoi118/P2-weighting",
+    "html_url": "https://github.com/jychoi118/P2-weighting",
+    "language": "Python",
+    "pushed_at": "2024-07-08T21:19:28Z",
+    "stargazers_count": 153,
+    "topics": [],
+    "updated_at": "2026-03-18T17:48:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

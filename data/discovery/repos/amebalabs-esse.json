@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:33:55.270052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 970
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Swiss army knife of text transformation for iOS and macOS",
+    "fork": false,
+    "full_name": "amebalabs/Esse",
+    "html_url": "https://github.com/amebalabs/Esse",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-09T18:05:31Z",
+    "stargazers_count": 169,
+    "topics": [],
+    "updated_at": "2026-03-27T16:43:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

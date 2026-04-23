@@ -13,13 +13,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ocaml-opam/opam-rt",
-      "target": "ocamlpro/opam",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "ocaml-opam/opam-rt",
@@ -55,7 +48,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:16:50.072129+00:00",
+  "fetched_at": "2026-04-23T04:43:15.051943+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -83,13 +76,7 @@
     ],
     "updated_at": "2025-11-07T16:29:32Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ocamlpro/opam",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Opam RT",

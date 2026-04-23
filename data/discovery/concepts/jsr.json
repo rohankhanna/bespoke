@@ -1,0 +1,196 @@
+{
+  "aliases": [
+    "jsr"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dpp.vim",
+      "status": "candidate-context",
+      "text": "Dark powered plugin manager for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp.vim",
+      "status": "candidate-context",
+      "text": "jsr"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dpp-ext-installer",
+      "status": "candidate-context",
+      "text": "Installer ext for dpp.vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-installer",
+      "status": "candidate-context",
+      "text": "jsr"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dpp-ext-lazy",
+      "status": "candidate-context",
+      "text": "Lazy ext for dpp.vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-lazy",
+      "status": "candidate-context",
+      "text": "jsr"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dpp-ext-local",
+      "status": "candidate-context",
+      "text": "Local ext for dpp.vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-local",
+      "status": "candidate-context",
+      "text": "jsr"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dpp-ext-toml",
+      "status": "candidate-context",
+      "text": "Toml ext for dpp.vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-toml",
+      "status": "candidate-context",
+      "text": "jsr"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp.vim",
+      "status": "candidate",
+      "text": "jsr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-installer",
+      "status": "candidate",
+      "text": "jsr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-lazy",
+      "status": "candidate",
+      "text": "jsr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-local",
+      "status": "candidate",
+      "text": "jsr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp-ext-toml",
+      "status": "candidate",
+      "text": "jsr"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020104,
+      "status": "candidate",
+      "text": "portlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020103,
+      "status": "candidate",
+      "text": "servlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020102,
+      "status": "candidate",
+      "text": "markup language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020101,
+      "status": "candidate",
+      "text": "java"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020100,
+      "status": "candidate",
+      "text": "apis"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "jsr",
+  "concept_id": "jsr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/dpp.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/dpp-ext-installer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/dpp-ext-lazy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/dpp-ext-local"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/dpp-ext-toml"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "jsr",
+      "sense_id": "jsr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

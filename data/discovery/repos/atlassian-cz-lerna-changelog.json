@@ -1,0 +1,282 @@
+{
+  "components": [
+    {
+      "component": "@semantic-release/commit-analyzer",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cz-customizable",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "inquirer-autocomplete-prompt",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "promise",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "shelljs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-preset-es2015",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-register",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "commitizen",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cz-conventional-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "inquirer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semantic-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "stevemao/conventional-changelog-angular",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "@semantic-release/commit-analyzer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "cz-customizable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "inquirer-autocomplete-prompt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "promise",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "shelljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "babel-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "babel-preset-es2015",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "babel-register",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "commitizen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "cz-conventional-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "inquirer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "commitizen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "lerna",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian/cz-lerna-changelog",
+      "target": "lerna-changelog",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:47:48.191119+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1240
+    },
+    {
+      "path": "package.json",
+      "size": 1389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A commitizen adapter for the angular preset of https://github.com/conventional-changelog/conventional-changelog",
+    "fork": true,
+    "full_name": "atlassian/cz-lerna-changelog",
+    "html_url": "https://github.com/atlassian/cz-lerna-changelog",
+    "language": "JavaScript",
+    "pushed_at": "2024-04-17T02:42:11Z",
+    "stargazers_count": 109,
+    "topics": [
+      "commitizen",
+      "lerna",
+      "lerna-changelog"
+    ],
+    "updated_at": "2025-06-05T11:02:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stevemao/conventional-changelog-angular",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Version 2.0.0 is compatible with lerna version 3 only, if you need support for lerna 2 (more specifically, lerna 2.0.0.beta.31).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commitizen"
+    },
+    {
+      "context_snippet": "Version 2.0.0 is compatible with lerna version 3 only, if you need support for lerna 2 (more specifically, lerna 2.0.0.beta.31).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lerna"
+    },
+    {
+      "context_snippet": "Version 2.0.0 is compatible with lerna version 3 only, if you need support for lerna 2 (more specifically, lerna 2.0.0.beta.31).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lerna-changelog"
+    }
+  ]
+}

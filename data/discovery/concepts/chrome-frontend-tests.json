@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Chrome frontend tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "status": "candidate-context",
+      "text": "\ud83c\udf88 Simple reactive notebooks for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "status": "candidate-context",
+      "text": "Chrome frontend tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "status": "candidate",
+      "text": "Chrome frontend tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11050,
+      "status": "candidate",
+      "text": "browser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10235,
+      "status": "candidate",
+      "text": "rust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10060,
+      "status": "candidate",
+      "text": "home"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10060,
+      "status": "candidate",
+      "text": "site"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10060,
+      "status": "candidate",
+      "text": "tab"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Chrome frontend tests",
+  "concept_id": "chrome-frontend-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/FrontendTest.yml",
+      "source_repo": "JuliaPluto/Pluto.jl"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Chrome frontend tests",
+      "sense_id": "chrome-frontend-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

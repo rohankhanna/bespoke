@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:46:54.955546+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1015
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "docker/model-spec",
+    "html_url": "https://github.com/docker/model-spec",
+    "language": null,
+    "pushed_at": "2025-10-02T11:16:41Z",
+    "stargazers_count": 21,
+    "topics": [],
+    "updated_at": "2026-03-02T11:02:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

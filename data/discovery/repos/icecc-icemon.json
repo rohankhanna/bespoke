@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "jurplel/install-qt-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-single-platform.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-single-platform.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-single-platform.yml",
+      "source_repo": "icecc/icemon",
+      "target": "jurplel/install-qt-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake-single-platform.yml",
+      "source_repo": "icecc/icemon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-single-platform.yml",
+      "source_repo": "icecc/icemon",
+      "target": "CMake on a single platform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:32:34.789899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 880
+    },
+    {
+      "path": ".github/workflows/cmake-single-platform.yml",
+      "size": 1670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Icecream GUI Monitor",
+    "fork": false,
+    "full_name": "icecc/icemon",
+    "html_url": "https://github.com/icecc/icemon",
+    "language": "C++",
+    "pushed_at": "2026-03-05T13:57:56Z",
+    "stargazers_count": 96,
+    "topics": [],
+    "updated_at": "2026-03-05T13:57:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CMake on a single platform",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake-single-platform.yml",
+      "term": "CMake on a single platform"
+    }
+  ]
+}

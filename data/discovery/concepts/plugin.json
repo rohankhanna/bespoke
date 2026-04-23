@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "plugin"
+    "plugin",
+    "Plugin"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -91,6 +94,66 @@
       "source_repo": "lightningd/plugins",
       "status": "candidate-context",
       "text": "Community curated plugins for Core-Lightning."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate-context",
+      "text": "A Ruby language server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate-context",
+      "text": "Plugin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate-context",
+      "text": "Quickstart configs for Nvim LSP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate-context",
+      "text": "nvim-lspconfig is a collection of LSP server configurations for the [Nvim LSP client](https://neovim.io/doc/user/lsp.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "CoreDNS is a DNS server that chains plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "[![CoreDNS](https://coredns.io/images/CoreDNS_Colour_Horizontal.png)](https://coredns.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate-context",
+      "text": "The missing motion for Vim :athletic_shoe:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate-context",
+      "text": "sneak.vim \ud83d\udc5f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinfx/olric-nats-plugin",
+      "status": "candidate-context",
+      "text": "A service discovery plugin for Olric distributed cache, using nats.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinfx/olric-nats-plugin",
+      "status": "candidate-context",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +198,36 @@
       "source_repo": "lightningd/plugins",
       "status": "candidate",
       "text": "Community curated plugins for Core-Lightning."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate",
+      "text": "Plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate",
+      "text": "nvim-lspconfig is a collection of LSP server configurations for the [Nvim LSP client](https://neovim.io/doc/user/lsp.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate",
+      "text": "[![CoreDNS](https://coredns.io/images/CoreDNS_Colour_Horizontal.png)](https://coredns.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate",
+      "text": "sneak.vim \ud83d\udc5f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinfx/olric-nats-plugin",
+      "status": "candidate",
+      "text": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +325,41 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "lightningd/plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "castwide/solargraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "neovim/nvim-lspconfig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "coredns/coredns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "justinmk/vim-sneak"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "justinfx/olric-nats-plugin"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

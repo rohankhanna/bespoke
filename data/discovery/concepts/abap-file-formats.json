@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "abap-file-formats"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SAP/abap-file-formats",
+      "status": "candidate-context",
+      "text": "File formats that define and specify the file representation for ABAP development objects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/abap-file-formats",
+      "status": "candidate-context",
+      "text": "<!-- markdown-link-check-disable-next-line -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "status": "candidate-context",
+      "text": "Tools for the development of ABAP file formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "status": "candidate-context",
+      "text": "[![REUSE status](https://api.reuse.software/badge/github.com/SAP/abap-file-formats-tools)](https://api.reuse.software/info/github.com/SAP/abap-file-formats-tools)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/abap-file-formats",
+      "status": "candidate",
+      "text": "<!-- markdown-link-check-disable-next-line -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SAP/abap-file-formats-tools",
+      "status": "candidate",
+      "text": "[![REUSE status](https://api.reuse.software/badge/github.com/SAP/abap-file-formats-tools)](https://api.reuse.software/info/github.com/SAP/abap-file-formats-tools)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "abap-file-formats",
+  "concept_id": "abap-file-formats",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "SAP/abap-file-formats"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "SAP/abap-file-formats-tools"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "abap-file-formats",
+      "sense_id": "abap-file-formats#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

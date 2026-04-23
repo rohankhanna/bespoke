@@ -1,0 +1,12 @@
+{
+  "component": "actions/setup-dotnet@4d4a70f4a5b2a5a5329f13be4ac933f2c9206ac0",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-bot.yml",
+      "source_repo": "dotnet/docs"
+    }
+  ]
+}

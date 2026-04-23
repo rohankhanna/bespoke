@@ -1,0 +1,12 @@
+{
+  "component": "bencherdev/bencher@2f1532643adc0e69e52acaec936d227ff14da24f",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/track_benches.yml",
+      "source_repo": "diesel-rs/diesel"
+    }
+  ]
+}

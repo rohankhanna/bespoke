@@ -31,6 +31,18 @@
       "source_repo": "insin/nwb",
       "status": "candidate-context",
       "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate-context",
+      "text": "Additional ESLint's rules for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate-context",
+      "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "insin/nwb",
       "status": "candidate",
       "text": "nwb was created at a time when JavaScript tooling was in flux, when the capabilities of ES6 were less widely-supported by browsers than they are today, and when versions of Webpack, Babel and other common build tools were out of date almost as soon as you added them to your pack\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate",
+      "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "insin/nwb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mysticatea/eslint-plugin-node"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

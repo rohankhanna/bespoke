@@ -2,13 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nodejs/Release",
-      "target": "nodejs/citgm",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "nodejs/Release",
@@ -23,7 +16,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T17:44:16.852338+00:00",
+  "fetched_at": "2026-04-23T08:40:00.562246+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -45,15 +38,9 @@
       "node",
       "nodejs"
     ],
-    "updated_at": "2026-04-15T17:13:12Z"
+    "updated_at": "2026-04-22T02:12:40Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nodejs/citgm",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "| Release | Status | Codename |Initial Release | Active LTS Start | Maintenance Start | End-of-life |",

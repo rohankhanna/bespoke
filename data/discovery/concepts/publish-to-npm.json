@@ -32,6 +32,36 @@
       "source_repo": "chaijs/chai-http",
       "status": "candidate-context",
       "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bartheleway/inquirer-table-multiple",
+      "status": "candidate-context",
+      "text": "Publish to npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devicons/devicon",
+      "status": "candidate-context",
+      "text": "Set of icons representing programming languages, designing & development tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devicons/devicon",
+      "status": "candidate-context",
+      "text": "\"Publish to npm\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajaxorg/ace",
+      "status": "candidate-context",
+      "text": "Ace (Ajax.org Cloud9 Editor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajaxorg/ace",
+      "status": "candidate-context",
+      "text": "Publish to NPM"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +76,24 @@
       "source_repo": "chaijs/chai-http",
       "status": "candidate",
       "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Bartheleway/inquirer-table-multiple",
+      "status": "candidate",
+      "text": "Publish to npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devicons/devicon",
+      "status": "candidate",
+      "text": "\"Publish to npm\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajaxorg/ace",
+      "status": "candidate",
+      "text": "Publish to NPM"
     }
   ],
   "candidate_related_terms": [
@@ -113,11 +161,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "chaijs/chai-http"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Bartheleway/inquirer-table-multiple"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/npm_publish.yml",
+      "source_repo": "devicons/devicon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajaxorg/ace"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -21,16 +21,9 @@
       "source_repo": "llamastack/llama-stack-client-kotlin",
       "target": "meta-llama/llama-stack-apps",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "llamastack/llama-stack-client-kotlin",
-      "target": "objectbox/objectbox-java",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-22T19:03:26.127960+00:00",
+  "fetched_at": "2026-04-23T07:41:22.665295+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -65,11 +58,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "meta-llama/llama-stack-client-kotlin",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "objectbox/objectbox-java",
       "source_file": "README.md"
     }
   ],

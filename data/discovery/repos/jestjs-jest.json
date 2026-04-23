@@ -545,13 +545,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "jestjs/jest",
-      "target": "kulshekhar/ts-jest",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "jestjs/jest",
@@ -1336,7 +1329,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:24:28.787085+00:00",
+  "fetched_at": "2026-04-23T05:46:50.831681+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -1401,14 +1394,9 @@
       "snapshot",
       "testing"
     ],
-    "updated_at": "2026-04-21T19:33:47Z"
+    "updated_at": "2026-04-23T03:57:37Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kulshekhar/ts-jest",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "sodatea/vite-jest",

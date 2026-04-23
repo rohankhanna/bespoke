@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/swav",
+      "target": "facebookresearch/detr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/swav",
+      "target": "ayulockin/swav-tf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:48:06.201354+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14667
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "PyTorch implementation of SwAV https//arxiv.org/abs/2006.09882",
+    "fork": false,
+    "full_name": "facebookresearch/swav",
+    "html_url": "https://github.com/facebookresearch/swav",
+    "language": "Python",
+    "pushed_at": "2023-04-13T16:40:34Z",
+    "stargazers_count": 2090,
+    "topics": [],
+    "updated_at": "2026-04-14T11:04:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ayulockin/swav-tf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/detr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

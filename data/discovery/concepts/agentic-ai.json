@@ -211,6 +211,30 @@
       "source_repo": "langgenius/dify",
       "status": "candidate-context",
       "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Agent-Journal",
+      "status": "candidate-context",
+      "text": "Concept notes for an agent-managed wiki/logbook as part of agentic AI supervision"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Agent-Journal",
+      "status": "candidate-context",
+      "text": "*Placeholder repo for exploring an idea (and tooling) with Claude.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pat-jj/s3",
+      "status": "candidate-context",
+      "text": "[EMNLP'25] s3 - \u26a1 Efficient & Effective Search Agent Training via RL for RAG (RLVR for Search with Minimal Data)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pat-jj/s3",
+      "status": "candidate-context",
+      "text": "<div align=\"right\">"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "langgenius/dify",
       "status": "candidate",
       "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Agent-Journal",
+      "status": "candidate",
+      "text": "*Placeholder repo for exploring an idea (and tooling) with Claude.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pat-jj/s3",
+      "status": "candidate",
+      "text": "<div align=\"right\">"
     }
   ],
   "candidate_related_terms": [],
@@ -466,11 +502,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "langgenius/dify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ruvnet/ruflo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agent-Journal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pat-jj/s3"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

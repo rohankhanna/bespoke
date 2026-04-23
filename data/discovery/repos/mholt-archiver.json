@@ -1,0 +1,359 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-latest.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-latest.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-latest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mholt/archiver",
+      "target": "mholt/archives",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-latest.yml",
+      "source_repo": "mholt/archiver",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-latest.yml",
+      "source_repo": "mholt/archiver",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-latest.yml",
+      "source_repo": "mholt/archiver",
+      "target": "Macos-latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest.yml",
+      "source_repo": "mholt/archiver",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-latest.yml",
+      "source_repo": "mholt/archiver",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-latest.yml",
+      "source_repo": "mholt/archiver",
+      "target": "Ubuntu-latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-latest.yml",
+      "source_repo": "mholt/archiver",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-latest.yml",
+      "source_repo": "mholt/archiver",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-latest.yml",
+      "source_repo": "mholt/archiver",
+      "target": "Windows-latest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archiver",
+      "target": "7zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archiver",
+      "target": "archives",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archiver",
+      "target": "brotli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archiver",
+      "target": "bzip2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archiver",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archiver",
+      "target": "decompression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archiver",
+      "target": "extract",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archiver",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archiver",
+      "target": "gzip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archiver",
+      "target": "snappy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archiver",
+      "target": "streaming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archiver",
+      "target": "streams",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mholt/archiver",
+      "target": "zstandard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:41:33.430904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 478
+    },
+    {
+      "path": "go.mod",
+      "size": 906
+    },
+    {
+      "path": ".github/workflows/macos-latest.yml",
+      "size": 444
+    },
+    {
+      "path": ".github/workflows/ubuntu-latest.yml",
+      "size": 446
+    },
+    {
+      "path": ".github/workflows/windows-latest.yml",
+      "size": 448
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "DEPRECATED. Please use mholt/archives instead.",
+    "fork": false,
+    "full_name": "mholt/archiver",
+    "html_url": "https://github.com/mholt/archiver",
+    "language": "Go",
+    "pushed_at": "2024-11-19T16:52:17Z",
+    "stargazers_count": 4414,
+    "topics": [
+      "7zip",
+      "archives",
+      "brotli",
+      "bzip2",
+      "compression",
+      "decompression",
+      "extract",
+      "go",
+      "golang",
+      "gzip",
+      "lz4",
+      "rar",
+      "snappy",
+      "streaming",
+      "streams",
+      "tar",
+      "xz",
+      "zip",
+      "zstandard"
+    ],
+    "updated_at": "2026-04-20T13:19:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mholt/archives",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Macos-latest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-latest.yml",
+      "term": "Macos-latest"
+    },
+    {
+      "context_snippet": "Ubuntu-latest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-latest.yml",
+      "term": "Ubuntu-latest"
+    },
+    {
+      "context_snippet": "Windows-latest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-latest.yml",
+      "term": "Windows-latest"
+    },
+    {
+      "context_snippet": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "7zip"
+    },
+    {
+      "context_snippet": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archives"
+    },
+    {
+      "context_snippet": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brotli"
+    },
+    {
+      "context_snippet": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bzip2"
+    },
+    {
+      "context_snippet": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decompression"
+    },
+    {
+      "context_snippet": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extract"
+    },
+    {
+      "context_snippet": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gzip"
+    },
+    {
+      "context_snippet": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snappy"
+    },
+    {
+      "context_snippet": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming"
+    },
+    {
+      "context_snippet": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streams"
+    },
+    {
+      "context_snippet": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zstandard"
+    }
+  ]
+}

@@ -730,6 +730,378 @@
       "source_repo": "labring/sealos",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tsl0922/ttyd",
+      "status": "candidate-context",
+      "text": "Share your terminal over the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsl0922/ttyd",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate-context",
+      "text": "\ud83d\ude4c OpenHands: AI-Driven Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigp/lighthouse",
+      "status": "candidate-context",
+      "text": "Ethereum consensus client in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigp/lighthouse",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate-context",
+      "text": "\u26a1 Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dragonflyoss/dragonfly",
+      "status": "candidate-context",
+      "text": "Delivers efficient, stable, and secure data distribution and acceleration powered by P2P technology, with an optional content\u2011addressable filesystem that accelerates OCI container launch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate-context",
+      "text": "Fast container image distribution plugin with lazy pulling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate-context",
+      "text": "[[\u2b07\ufe0f **Download**]](https://github.com/containerd/stargz-snapshotter/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmdjulian/mopy",
+      "status": "candidate-context",
+      "text": "mopy is a docker buildkit frontend to package and build your python app into a minimal best practice docker image. You don't have to be a docker pro anymore! \ud83d\udc0b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmdjulian/mopy",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmdjulian/mopy",
+      "status": "candidate-context",
+      "text": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/kaniko",
+      "status": "candidate-context",
+      "text": "Build Container Images In Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/kaniko",
+      "status": "candidate-context",
+      "text": "The code remains available for historic purposes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getumbrel/umbrel-lightning",
+      "status": "candidate-context",
+      "text": "The official Lightning Node app for Umbrel, powered by LND."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getumbrel/umbrel-lightning",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clux/muslrust",
+      "status": "candidate-context",
+      "text": "Docker environment for building musl based static rust binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clux/muslrust",
+      "status": "candidate-context",
+      "text": "[![nightly](https://github.com/clux/muslrust/actions/workflows/nightly.yml/badge.svg)](https://github.com/clux/muslrust/actions/workflows/nightly.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "slimtoolkit/slim",
+      "status": "candidate-context",
+      "text": "Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slimtoolkit/slim",
+      "status": "candidate-context",
+      "text": "![SK](assets/images/dslim/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/distroless",
+      "status": "candidate-context",
+      "text": "\ud83e\udd51  Language focused docker images, minus the operating system.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/distroless",
+      "status": "candidate-context",
+      "text": "[![CI Build Status](https://github.com/GoogleContainerTools/distroless/actions/workflows/ci.yaml/badge.svg)](https://github.com/GoogleContainerTools/distroless/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastai/docker-containers",
+      "status": "candidate-context",
+      "text": "Docker images for fastai"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastai/docker-containers",
+      "status": "candidate-context",
+      "text": "![Build CI Containers](https://github.com/fastai/docker-containers/workflows/Build%20CI%20Containers/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "A curated list of awesome self-hosted GitHub Action runners in a large comparison matrix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_docker",
+      "status": "candidate-context",
+      "text": "Rules for building and handling Docker images with Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_docker",
+      "status": "candidate-context",
+      "text": "| Bazel CI |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_k8s",
+      "status": "candidate-context",
+      "text": "This repository contains rules for interacting with Kubernetes configurations / clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_k8s",
+      "status": "candidate-context",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/oci-conformance",
+      "status": "candidate-context",
+      "text": "OCI Conformance/Certification Working Group"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/oci-conformance",
+      "status": "candidate-context",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/3e16a8a1-e338-4050-a39d-426b33f5292a/deploy-status)](https://app.netlify.com/sites/oci-conformance/deploys)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate-context",
+      "text": "Sandboxed code execution for AI agents, locally or on the cloud. Massively parallel, easy to extend. Powering SWE-agent and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelTC/LightLLM",
+      "status": "candidate-context",
+      "text": "LightLLM is a Python-based LLM (Large Language Model) inference and serving framework, notable for its lightweight design, easy scalability, and high-speed performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/LightLLM",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate-context",
+      "text": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate-context",
+      "text": "docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wechaty/wechaty",
+      "status": "candidate-context",
+      "text": "Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wechaty/wechaty",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/runtime-tools",
+      "status": "candidate-context",
+      "text": "OCI Runtime Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runtime-tools",
+      "status": "candidate-context",
+      "text": "oci-runtime-tool is a collection of tools for working with the [OCI runtime specification][runtime-spec]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "Official Docker Image for Node.js :whale: :turtle: :rocket: "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "[**node - Docker Official Images on Docker Hub**](https://hub.docker.com/_/node)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate-context",
+      "text": "Pack npm package \"doctoc\" into a docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate-context",
+      "text": "Kubernetes IN Docker - local clusters for testing Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate-context",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate-context",
+      "text": "Command line tool to create and query container image manifest list/indexes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate-context",
+      "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/build-push-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to build and push Docker images with Buildx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/build-push-action",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/build-push-action.svg?style=flat-square)](https://github.com/docker/build-push-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/login-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to login against a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/login-action",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/login-action.svg?style=flat-square)](https://github.com/docker/login-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_oci",
+      "status": "candidate-context",
+      "text": "Bazel rules for building OCI containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_oci",
+      "status": "candidate-context",
+      "text": "Very simple Bazel rules based on the Open Containers Initiative specification: <https://opencontainers.org/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intentee/paddler",
+      "status": "candidate-context",
+      "text": "Open-source LLM/VLM load balancer and serving platform for self-hosting LLMs (and VLMs) at scale \ud83c\udfd3\ud83e\udd99 Alternative to projects like llm-d, Docker Model Runner, etc but with less moving parts and simple deployments built around ggml ecosystem. Runs on CPU and GPU."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intentee/paddler",
+      "status": "candidate-context",
+      "text": "docker"
     }
   ],
   "candidate_glosses": [
@@ -1092,6 +1464,198 @@
       "source_repo": "labring/sealos",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsl0922/ttyd",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigp/lighthouse",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate",
+      "text": "[[\u2b07\ufe0f **Download**]](https://github.com/containerd/stargz-snapshotter/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmdjulian/mopy",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmdjulian/mopy",
+      "status": "candidate",
+      "text": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/kaniko",
+      "status": "candidate",
+      "text": "The code remains available for historic purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getumbrel/umbrel-lightning",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clux/muslrust",
+      "status": "candidate",
+      "text": "[![nightly](https://github.com/clux/muslrust/actions/workflows/nightly.yml/badge.svg)](https://github.com/clux/muslrust/actions/workflows/nightly.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slimtoolkit/slim",
+      "status": "candidate",
+      "text": "![SK](assets/images/dslim/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/distroless",
+      "status": "candidate",
+      "text": "[![CI Build Status](https://github.com/GoogleContainerTools/distroless/actions/workflows/ci.yaml/badge.svg)](https://github.com/GoogleContainerTools/distroless/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastai/docker-containers",
+      "status": "candidate",
+      "text": "![Build CI Containers](https://github.com/fastai/docker-containers/workflows/Build%20CI%20Containers/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_docker",
+      "status": "candidate",
+      "text": "| Bazel CI |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_k8s",
+      "status": "candidate",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/oci-conformance",
+      "status": "candidate",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/3e16a8a1-e338-4050-a39d-426b33f5292a/deploy-status)](https://app.netlify.com/sites/oci-conformance/deploys)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/LightLLM",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate",
+      "text": "docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wechaty/wechaty",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runtime-tools",
+      "status": "candidate",
+      "text": "oci-runtime-tool is a collection of tools for working with the [OCI runtime specification][runtime-spec]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate",
+      "text": "[**node - Docker Official Images on Docker Hub**](https://hub.docker.com/_/node)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate",
+      "text": "Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate",
+      "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/build-push-action",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/build-push-action.svg?style=flat-square)](https://github.com/docker/build-push-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/login-action",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/login-action.svg?style=flat-square)](https://github.com/docker/login-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_oci",
+      "status": "candidate",
+      "text": "Very simple Bazel rules based on the Open Containers Initiative specification: <https://opencontainers.org/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intentee/paddler",
+      "status": "candidate",
+      "text": "docker"
     }
   ],
   "candidate_related_terms": [
@@ -1633,11 +2197,245 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/docker.yaml",
       "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "tsl0922/ttyd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "sigp/lighthouse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "lycheeverse/lychee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "dragonflyoss/dragonfly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "containerd/stargz-snapshotter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "source_repo": "cmdjulian/mopy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cmdjulian/mopy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "GoogleContainerTools/kaniko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "notaryproject/notary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "getumbrel/umbrel-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "clux/muslrust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "GoogleContainerTools/distroless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fastai/docker-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonico/awesome-runners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_k8s"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "opencontainers/oci-conformance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "SWE-agent/SWE-ReX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "ModelTC/LightLLM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "wechaty/wechaty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "velviagris/PaddleOCRFastAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "coaidev/blob-service"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "opencontainers/runtime-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/docker-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "kubernetes-sigs/kind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "estesp/manifest-tool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "docker/build-push-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "docker/login-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_oci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "intentee/paddler"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

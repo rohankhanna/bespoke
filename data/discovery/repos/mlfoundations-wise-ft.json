@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:28:10.787205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Robust fine-tuning of zero-shot models",
+    "fork": false,
+    "full_name": "mlfoundations/wise-ft",
+    "html_url": "https://github.com/mlfoundations/wise-ft",
+    "language": "Python",
+    "pushed_at": "2022-04-29T20:54:27Z",
+    "stargazers_count": 763,
+    "topics": [],
+    "updated_at": "2026-04-10T09:53:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "crazy-max/.github/.github/actions/install-k3s@d89fe92d808a15e2b2ed5cdb62db7c172c31410d",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "docker/buildx"
+    }
+  ]
+}

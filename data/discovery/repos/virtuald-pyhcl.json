@@ -1,0 +1,154 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/download-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/download-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "virtuald/pyhcl",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "virtuald/pyhcl",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "virtuald/pyhcl",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "virtuald/pyhcl",
+      "target": "actions/download-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "virtuald/pyhcl",
+      "target": "actions/download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "virtuald/pyhcl",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "virtuald/pyhcl",
+      "target": "dist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "virtuald/pyhcl",
+      "target": "configuration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:43:31.450310+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 3103
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 412
+    },
+    {
+      "path": "requirements.txt",
+      "size": 0
+    },
+    {
+      "path": ".github/workflows/dist.yml",
+      "size": 1969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HCL is a configuration language. pyhcl is a python parser for it.",
+    "fork": false,
+    "full_name": "virtuald/pyhcl",
+    "html_url": "https://github.com/virtuald/pyhcl",
+    "language": "Python",
+    "pushed_at": "2026-01-20T03:05:37Z",
+    "stargazers_count": 340,
+    "topics": [
+      "configuration",
+      "hcl",
+      "python"
+    ],
+    "updated_at": "2026-01-20T03:05:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "dist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dist.yml",
+      "term": "dist"
+    },
+    {
+      "context_snippet": "pyhcl",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration"
+    }
+  ]
+}

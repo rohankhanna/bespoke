@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/blender-lightfield-addon",
+      "target": "addon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/blender-lightfield-addon",
+      "target": "blender",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/blender-lightfield-addon",
+      "target": "blender-addon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/blender-lightfield-addon",
+      "target": "camera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/blender-lightfield-addon",
+      "target": "lightfield",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/blender-lightfield-addon",
+      "target": "lightfields",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDLabMedia/blender-lightfield-addon",
+      "target": "multi-view",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:31:13.806440+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5533
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Blender addon to configure and render light fields",
+    "fork": false,
+    "full_name": "IDLabMedia/blender-lightfield-addon",
+    "html_url": "https://github.com/IDLabMedia/blender-lightfield-addon",
+    "language": "Python",
+    "pushed_at": "2023-04-10T11:28:25Z",
+    "stargazers_count": 43,
+    "topics": [
+      "addon",
+      "blender",
+      "blender-addon",
+      "camera",
+      "lightfield",
+      "lightfields",
+      "multi-view"
+    ],
+    "updated_at": "2026-04-10T09:59:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat\" /> <img src=\"https://img.shields.io/badge/compatible-3.0+-orange?logo=blender&style=flat\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "addon"
+    },
+    {
+      "context_snippet": "<img src=\"https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat\" /> <img src=\"https://img.shields.io/badge/compatible-3.0+-orange?logo=blender&style=flat\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blender"
+    },
+    {
+      "context_snippet": "<img src=\"https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat\" /> <img src=\"https://img.shields.io/badge/compatible-3.0+-orange?logo=blender&style=flat\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blender-addon"
+    },
+    {
+      "context_snippet": "<img src=\"https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat\" /> <img src=\"https://img.shields.io/badge/compatible-3.0+-orange?logo=blender&style=flat\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "camera"
+    },
+    {
+      "context_snippet": "<img src=\"https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat\" /> <img src=\"https://img.shields.io/badge/compatible-3.0+-orange?logo=blender&style=flat\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightfield"
+    },
+    {
+      "context_snippet": "<img src=\"https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat\" /> <img src=\"https://img.shields.io/badge/compatible-3.0+-orange?logo=blender&style=flat\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightfields"
+    },
+    {
+      "context_snippet": "<img src=\"https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat\" /> <img src=\"https://img.shields.io/badge/compatible-3.0+-orange?logo=blender&style=flat\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-view"
+    }
+  ]
+}

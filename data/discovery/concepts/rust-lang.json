@@ -43,6 +43,78 @@
       "source_repo": "rust-windowing/winit",
       "status": "candidate-context",
       "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/cargo-about",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdc Cargo plugin to generate list of all licenses for a crate \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-about",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable no-inline-html first-line-heading no-emphasis-as-heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "status": "candidate-context",
+      "text": "`serde-json` for `no_std` programs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "status": "candidate-context",
+      "text": "> [`serde-json`] for `no_std` programs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/cargo-deny-action",
+      "status": "candidate-context",
+      "text": "\u274c GitHub Action for cargo-deny \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-deny-action",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hickory-dns/hickory-dns",
+      "status": "candidate-context",
+      "text": "A Rust based DNS client, server, and resolver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hickory-dns/hickory-dns",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/hickory-dns/hickory-dns/workflows/test/badge.svg?branch=main)](https://github.com/hickory-dns/hickory-dns/actions?query=workflow%3Atest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-sdk-for-rust",
+      "status": "candidate-context",
+      "text": "This repository is for the active development of the Azure SDK for Rust. For consumers of the SDK we recommend visiting Docs.rs and looking up the docs for any of libraries in the SDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-rust",
+      "status": "candidate-context",
+      "text": "This repository is for the active development of the Azure SDK for Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/libz-sys",
+      "status": "candidate-context",
+      "text": "Rust crate package to link to a system libz (zlib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/libz-sys",
+      "status": "candidate-context",
+      "text": "A common library for linking `libz` to Rust programs (also known as zlib)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +135,42 @@
       "source_repo": "rust-windowing/winit",
       "status": "candidate",
       "text": "[![Crates.io](https://img.shields.io/crates/v/winit.svg)](https://crates.io/crates/winit)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-about",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable no-inline-html first-line-heading no-emphasis-as-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "status": "candidate",
+      "text": "> [`serde-json`] for `no_std` programs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-deny-action",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hickory-dns/hickory-dns",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/hickory-dns/hickory-dns/workflows/test/badge.svg?branch=main)](https://github.com/hickory-dns/hickory-dns/actions?query=workflow%3Atest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-sdk-for-rust",
+      "status": "candidate",
+      "text": "This repository is for the active development of the Azure SDK for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/libz-sys",
+      "status": "candidate",
+      "text": "A common library for linking `libz` to Rust programs (also known as zlib)."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +196,47 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "rust-windowing/winit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/cargo-about"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-embedded-community/serde-json-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/cargo-deny-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hickory-dns/hickory-dns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-sdk-for-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/libz-sys"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

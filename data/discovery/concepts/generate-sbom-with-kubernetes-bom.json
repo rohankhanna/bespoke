@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate SBOM with Kubernetes BOM"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "Add-on agent to generate and expose cluster-level metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "Generate SBOM with Kubernetes BOM"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate",
+      "text": "Generate SBOM with Kubernetes BOM"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14158,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14158,
+      "status": "candidate",
+      "text": "feedback"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14158,
+      "status": "candidate",
+      "text": "propagate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14158,
+      "status": "candidate",
+      "text": "roll"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14158,
+      "status": "candidate",
+      "text": "rolled"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate SBOM with Kubernetes BOM",
+  "concept_id": "generate-sbom-with-kubernetes-bom",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/sbom.yaml",
+      "source_repo": "kubernetes/kube-state-metrics"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate SBOM with Kubernetes BOM",
+      "sense_id": "generate-sbom-with-kubernetes-bom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

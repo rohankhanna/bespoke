@@ -19,6 +19,18 @@
       "source_repo": "coveragepy/coveragepy",
       "status": "candidate-context",
       "text": "\"Quality\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simd-lite/simd-json",
+      "status": "candidate-context",
+      "text": "Rust port of simdjson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simd-lite/simd-json",
+      "status": "candidate-context",
+      "text": "Quality"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "coveragepy/coveragepy",
       "status": "candidate",
       "text": "\"Quality\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simd-lite/simd-json",
+      "status": "candidate",
+      "text": "Quality"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/quality.yml",
       "source_repo": "coveragepy/coveragepy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/quality.yaml",
+      "source_repo": "simd-lite/simd-json"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

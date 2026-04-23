@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -667,6 +667,171 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/autofix.yml",
       "source_repo": "langgenius/dify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-aarch64.yml",
+      "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-aarch64.yml",
+      "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autoclose_schedule.yml",
+      "source_repo": "matplotlib/matplotlib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "matplotlib/matplotlib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "google/brotli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "kubernetes-sigs/external-dns"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-linux.yml",
+      "source_repo": "VSCodium/vscodium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-macos.yml",
+      "source_repo": "VSCodium/vscodium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-build-windows.yml",
+      "source_repo": "VSCodium/vscodium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-insider-linux.yml",
+      "source_repo": "VSCodium/vscodium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-insider-macos.yml",
+      "source_repo": "VSCodium/vscodium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/wheel.yml",
+      "source_repo": "google/sentencepiece"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "astropy/repo_stats"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/package.yml",
+      "source_repo": "astropy/repo_stats"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "astropy/repo_stats"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update_stats.yml",
+      "source_repo": "astropy/repo_stats"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/api-check.yml",
+      "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-towncrier-release.yml",
+      "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ossf/osv-schema"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI_check_api_ref.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI_docstring_labeler.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI_docusaurus_sync.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI_license_compliance.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI_pypi_release.yml",
+      "source_repo": "deepset-ai/haystack-core-integrations"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "pyca/cryptography"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pyca/cryptography"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linkcheck.yml",
+      "source_repo": "pyca/cryptography"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "grafana-community/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/diff.yaml",
+      "source_repo": "grafana-community/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "grafana-community/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/renovate-custom-hooks.yaml",
+      "source_repo": "grafana-community/helm-charts"
     }
   ]
 }

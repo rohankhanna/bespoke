@@ -1,0 +1,12 @@
+{
+  "component": "action-stars/install-tool-from-github-release@f2e83e089fa618aa7e9fd3452fbcf4fe1598ede2",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-test-chart.yaml",
+      "source_repo": "kubernetes-sigs/metrics-server"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "dart-lang/setup-dart@65eb853c7ba17dde3be364c3d2858773e7144260",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -157,6 +157,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "flutter/website"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/shelf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/test"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/fake_async.yaml",
+      "source_repo": "dart-lang/test"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_descriptor.yaml",
+      "source_repo": "dart-lang/test"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/site-shared"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-analysis.yml",
+      "source_repo": "objectbox/objectbox-dart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "objectbox/objectbox-dart"
     }
   ]
 }

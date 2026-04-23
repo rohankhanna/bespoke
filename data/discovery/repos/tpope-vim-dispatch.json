@@ -1,0 +1,54 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tpope/vim-dispatch",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tpope/vim-dispatch",
+      "target": "vimscript-4504",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:28:19.774969+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "dispatch.vim: Asynchronous build and test dispatcher",
+    "fork": false,
+    "full_name": "tpope/vim-dispatch",
+    "html_url": "https://github.com/tpope/vim-dispatch",
+    "language": "Vim Script",
+    "pushed_at": "2024-09-02T19:34:27Z",
+    "stargazers_count": 2733,
+    "topics": [
+      "vim",
+      "vim-plugin",
+      "vimscript-4504"
+    ],
+    "updated_at": "2026-04-18T04:36:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "dispatch.vim: Asynchronous build and test dispatcher",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "dispatch.vim: Asynchronous build and test dispatcher",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimscript-4504"
+    }
+  ]
+}

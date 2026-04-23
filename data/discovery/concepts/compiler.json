@@ -139,6 +139,102 @@
       "source_repo": "JetBrains/kotlin",
       "status": "candidate-context",
       "text": "The Kotlin Programming Language."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mypyc/mypyc",
+      "status": "candidate-context",
+      "text": "Compile type annotated Python to fast C extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mypyc/mypyc",
+      "status": "candidate-context",
+      "text": "Mypyc compiles Python modules to C extensions. It uses standard Python"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/tvm",
+      "status": "candidate-context",
+      "text": "Open Machine Learning Compiler Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tvm",
+      "status": "candidate-context",
+      "text": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocsigen/js_of_ocaml",
+      "status": "candidate-context",
+      "text": "Compiler from OCaml to Javascript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocsigen/js_of_ocaml",
+      "status": "candidate-context",
+      "text": "[![Build js_of_ocaml](https://github.com/ocsigen/js_of_ocaml/actions/workflows/js_of_ocaml.yml/badge.svg)](https://github.com/ocsigen/js_of_ocaml/actions/workflows/js_of_ocaml.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack",
+      "status": "candidate-context",
+      "text": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ziglang/zig",
+      "status": "candidate-context",
+      "text": "Moved to Codeberg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ziglang/zig",
+      "status": "candidate-context",
+      "text": "[Moved to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dropbox/ts-transform-react-jsx-source",
+      "status": "candidate-context",
+      "text": "TypeScript AST Transformer that adds source file and line number to JSX elements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropbox/ts-transform-react-jsx-source",
+      "status": "candidate-context",
+      "text": "![build status](https://travis-ci.org/dropbox/ts-transform-react-jsx-source.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typst/typst",
+      "status": "candidate-context",
+      "text": "A markup-based typesetting system that is powerful and easy to learn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/typst",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "exaloop/codon",
+      "status": "candidate-context",
+      "text": "A high-performance, zero-overhead, extensible Python compiler with built-in NumPy support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exaloop/codon",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +303,54 @@
       "source_repo": "JetBrains/kotlin",
       "status": "candidate",
       "text": "The Kotlin Programming Language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mypyc/mypyc",
+      "status": "candidate",
+      "text": "Mypyc compiles Python modules to C extensions. It uses standard Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tvm",
+      "status": "candidate",
+      "text": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocsigen/js_of_ocaml",
+      "status": "candidate",
+      "text": "[![Build js_of_ocaml](https://github.com/ocsigen/js_of_ocaml/actions/workflows/js_of_ocaml.yml/badge.svg)](https://github.com/ocsigen/js_of_ocaml/actions/workflows/js_of_ocaml.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ziglang/zig",
+      "status": "candidate",
+      "text": "[Moved to Codeberg](https://ziglang.org/news/migrating-from-github-to-codeberg/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dropbox/ts-transform-react-jsx-source",
+      "status": "candidate",
+      "text": "![build status](https://travis-ci.org/dropbox/ts-transform-react-jsx-source.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typst/typst",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exaloop/codon",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -337,11 +481,59 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "JetBrains/kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mypyc/mypyc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/tvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ocsigen/js_of_ocaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "webpack/webpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ziglang/zig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dropbox/ts-transform-react-jsx-source"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "typst/typst"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "exaloop/codon"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

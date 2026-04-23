@@ -79,6 +79,138 @@
       "source_repo": "sublimelsp/LSP",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate-context",
+      "text": "Java language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/jenkins/tests?jobUrl=https%3A%2F%2Fci.eclipse.org%2Fls%2Fjob%2Fjdt-ls-main%2F&logo=jenkins&logoColor=white&style=for-the-badge)](https://ci.eclipse.org/ls/job/jdt-ls-main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-lemminx/lemminx",
+      "status": "candidate-context",
+      "text": "XML Language Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-lemminx/lemminx",
+      "status": "candidate-context",
+      "text": "XML Language Server (LemMinX)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate-context",
+      "text": "Quickstart configs for Nvim LSP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate-context",
+      "text": "nvim-lspconfig is a collection of LSP server configurations for the [Nvim LSP client](https://neovim.io/doc/user/lsp.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prabirshrestha/vim-lsp",
+      "status": "candidate-context",
+      "text": "async language server protocol plugin for vim and neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/vim-lsp",
+      "status": "candidate-context",
+      "text": "Async [Language Server Protocol](https://github.com/Microsoft/language-server-protocol) plugin for vim8 and neovim."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rhysd/vim-lsp-ale",
+      "status": "candidate-context",
+      "text": "Bridge between vim-lsp and ALE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/vim-lsp-ale",
+      "status": "candidate-context",
+      "text": "[vim-lsp][] + [ALE][]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "status": "candidate-context",
+      "text": "Language Server Protocol (LSP) support for vim and neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "status": "candidate-context",
+      "text": "> For legacy python implementation, see [branch master](https://github.com/autozimu/LanguageClient-neovim/tree/master)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "Emacs client/library for the Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CodeBoarding/CodeBoarding",
+      "status": "candidate-context",
+      "text": "Interactive architecture diagrams for codebases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeBoarding/CodeBoarding",
+      "status": "candidate-context",
+      "text": "See what your AI is building before it breaks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate-context",
+      "text": "TypeScript & JavaScript Language Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate-context",
+      "text": "[![Discord][discord-src]][discord-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atom/ide-java",
+      "status": "candidate-context",
+      "text": "Java language support for Atom-IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atom/ide-java",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/atom/ide-java/actions/workflows/ci.yml/badge.svg)](https://github.com/atom/ide-java/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-lsp4j/lsp4j",
+      "status": "candidate-context",
+      "text": "A Java implementation of the language server protocol intended to be consumed by tools and language servers implemented in Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-lsp4j/lsp4j",
+      "status": "candidate-context",
+      "text": "Java binding for the [Language Server Protocol](https://microsoft.github.io/language-server-protocol) and the [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol)."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +249,72 @@
       "source_repo": "sublimelsp/LSP",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/jenkins/tests?jobUrl=https%3A%2F%2Fci.eclipse.org%2Fls%2Fjob%2Fjdt-ls-main%2F&logo=jenkins&logoColor=white&style=for-the-badge)](https://ci.eclipse.org/ls/job/jdt-ls-main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-lemminx/lemminx",
+      "status": "candidate",
+      "text": "XML Language Server (LemMinX)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate",
+      "text": "nvim-lspconfig is a collection of LSP server configurations for the [Nvim LSP client](https://neovim.io/doc/user/lsp.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/vim-lsp",
+      "status": "candidate",
+      "text": "Async [Language Server Protocol](https://github.com/Microsoft/language-server-protocol) plugin for vim8 and neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/vim-lsp-ale",
+      "status": "candidate",
+      "text": "[vim-lsp][] + [ALE][]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autozimu/LanguageClient-neovim",
+      "status": "candidate",
+      "text": "> For legacy python implementation, see [branch master](https://github.com/autozimu/LanguageClient-neovim/tree/master)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeBoarding/CodeBoarding",
+      "status": "candidate",
+      "text": "See what your AI is building before it breaks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate",
+      "text": "[![Discord][discord-src]][discord-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atom/ide-java",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/atom/ide-java/actions/workflows/ci.yml/badge.svg)](https://github.com/atom/ide-java/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-lsp4j/lsp4j",
+      "status": "candidate",
+      "text": "Java binding for the [Language Server Protocol](https://microsoft.github.io/language-server-protocol) and the [Debug Adapter Protocol](https://microsoft.github.io/debug-adapter-protocol)."
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +364,83 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "sublimelsp/LSP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lemminx/lemminx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "neovim/nvim-lspconfig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "prabirshrestha/vim-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rhysd/vim-lsp-ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "autozimu/LanguageClient-neovim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "CodeBoarding/CodeBoarding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "atom/ide-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

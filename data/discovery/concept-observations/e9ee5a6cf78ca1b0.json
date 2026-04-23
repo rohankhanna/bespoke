@@ -84,7 +84,7 @@
   "normalized_form": "release-doctor",
   "observation_id": "e9ee5a6cf78ca1b0",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "Release Doctor",
   "source_context_snippet": "Release Doctor",
   "source_file": ".github/workflows/release-doctor.yml",

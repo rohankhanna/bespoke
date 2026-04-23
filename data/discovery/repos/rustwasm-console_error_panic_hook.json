@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rustwasm/console_error_panic_hook",
+      "target": "console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rustwasm/console_error_panic_hook",
+      "target": "panic-hook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rustwasm/console_error_panic_hook",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rustwasm/console_error_panic_hook",
+      "target": "rust-wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rustwasm/console_error_panic_hook",
+      "target": "wasm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:41:56.708824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2431
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 478
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A panic hook for wasm32-unknown-unknown that logs panics with console.error",
+    "fork": false,
+    "full_name": "rustwasm/console_error_panic_hook",
+    "html_url": "https://github.com/rustwasm/console_error_panic_hook",
+    "language": "Rust",
+    "pushed_at": "2022-12-04T18:10:44Z",
+    "stargazers_count": 353,
+    "topics": [
+      "console",
+      "panic-hook",
+      "rust",
+      "rust-wasm",
+      "wasm"
+    ],
+    "updated_at": "2026-03-30T02:09:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![](https://docs.rs/console_error_panic_hook/badge.svg)](https://docs.rs/console_error_panic_hook/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console"
+    },
+    {
+      "context_snippet": "[![](https://docs.rs/console_error_panic_hook/badge.svg)](https://docs.rs/console_error_panic_hook/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "panic-hook"
+    },
+    {
+      "context_snippet": "[![](https://docs.rs/console_error_panic_hook/badge.svg)](https://docs.rs/console_error_panic_hook/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![](https://docs.rs/console_error_panic_hook/badge.svg)](https://docs.rs/console_error_panic_hook/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-wasm"
+    },
+    {
+      "context_snippet": "[![](https://docs.rs/console_error_panic_hook/badge.svg)](https://docs.rs/console_error_panic_hook/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    }
+  ]
+}

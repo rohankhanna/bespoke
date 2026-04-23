@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caoyunkang/WinClip",
+      "target": "caoyunkang/cdo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:49:15.534889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5916
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[CVPR 2023] Unofficial re-implementation of \"WinCLIP: Zero-/Few-Shot Anomaly Classification and Segmentation\".",
+    "fork": false,
+    "full_name": "caoyunkang/WinClip",
+    "html_url": "https://github.com/caoyunkang/WinClip",
+    "language": "Python",
+    "pushed_at": "2024-03-16T09:32:57Z",
+    "stargazers_count": 414,
+    "topics": [],
+    "updated_at": "2026-04-17T05:43:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caoyunkang/cdo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -19,6 +19,30 @@
       "source_repo": "kovidgoyal/kitty",
       "status": "candidate-context",
       "text": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xtermjs/xterm.js",
+      "status": "candidate-context",
+      "text": "A terminal for the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtermjs/xterm.js",
+      "status": "candidate-context",
+      "text": "Xterm.js is a frontend component that enables applications to bring fully-featured terminals to their users in the browser. It's used by popular projects such as [VS Code](https://code.visualstudio.com/) (and its forks), [Tabby](https://tabby.sh/) and [Hyper](https://hyper.is/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c-bata/go-prompt",
+      "status": "candidate-context",
+      "text": "Building powerful interactive prompts in Go, inspired by python-prompt-toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/go-prompt",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/c-bata/go-prompt)](https://goreportcard.com/report/github.com/c-bata/go-prompt)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "kovidgoyal/kitty",
       "status": "candidate",
       "text": "module github.com/kovidgoyal/kitty go 1.26.0 toolchain go1.26.2 require ( github.com/ALTree/bigfloat v0.2.0 github.com/alecthomas/chroma/v2 v2.23.1 github.com/bmatcuk/doublestar/v4 v4.10.0 github.com/dlclark/regexp2 v1.11.5 github.com/ebitengine/purego v0.10.0 github.com/emmansu\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xtermjs/xterm.js",
+      "status": "candidate",
+      "text": "Xterm.js is a frontend component that enables applications to bring fully-featured terminals to their users in the browser. It's used by popular projects such as [VS Code](https://code.visualstudio.com/) (and its forks), [Tabby](https://tabby.sh/) and [Hyper](https://hyper.is/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/go-prompt",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/c-bata/go-prompt)](https://goreportcard.com/report/github.com/c-bata/go-prompt)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "kovidgoyal/kitty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "xtermjs/xterm.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "c-bata/go-prompt"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

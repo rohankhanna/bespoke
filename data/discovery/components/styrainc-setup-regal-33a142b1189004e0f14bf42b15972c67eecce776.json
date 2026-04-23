@@ -1,0 +1,17 @@
+{
+  "component": "StyraInc/setup-regal@33a142b1189004e0f14bf42b15972c67eecce776",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "DataDog/opa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-rego.yaml",
+      "source_repo": "aquasecurity/trivy-checks"
+    }
+  ]
+}

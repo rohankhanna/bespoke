@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
+      "target": "amd-gpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
+      "target": "hotfix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:34:06.088442+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Workaround for AMDGPU DisplayPort monitors not detected at boot (Navi 32, kernel 6.14+)",
+    "fork": false,
+    "full_name": "danielrosehill/AMD-GPU-DP-Hotplug-Fix",
+    "html_url": "https://github.com/danielrosehill/AMD-GPU-DP-Hotplug-Fix",
+    "language": "Shell",
+    "pushed_at": "2026-03-30T10:05:12Z",
+    "stargazers_count": 0,
+    "topics": [
+      "amd-gpu",
+      "hotfix"
+    ],
+    "updated_at": "2026-03-30T10:05:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**Part of the [Patches Index](https://github.com/danielrosehill/Patches-Repos-Index).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amd-gpu"
+    },
+    {
+      "context_snippet": "**Part of the [Patches Index](https://github.com/danielrosehill/Patches-Repos-Index).**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hotfix"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hollowstrawberry/kohya-colab",
+      "target": "linaqruf/kohya-trainer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:34:12.282223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3682
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Accessible Google Colab notebooks for Stable Diffusion Lora training, based on the work of kohya-ss and Linaqruf",
+    "fork": false,
+    "full_name": "hollowstrawberry/kohya-colab",
+    "html_url": "https://github.com/hollowstrawberry/kohya-colab",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-02-05T14:18:05Z",
+    "stargazers_count": 798,
+    "topics": [],
+    "updated_at": "2026-04-20T14:01:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "linaqruf/kohya-trainer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

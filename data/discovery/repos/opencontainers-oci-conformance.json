@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencontainers/oci-conformance",
+      "target": "opencontainers/artwork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/oci-conformance",
+      "target": "certification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/oci-conformance",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/oci-conformance",
+      "target": "docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:31:37.463383+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1219
+    },
+    {
+      "path": "Dockerfile",
+      "size": 244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OCI Conformance/Certification Working Group",
+    "fork": false,
+    "full_name": "opencontainers/oci-conformance",
+    "html_url": "https://github.com/opencontainers/oci-conformance",
+    "language": "HTML",
+    "pushed_at": "2025-11-20T22:19:02Z",
+    "stargazers_count": 83,
+    "topics": [
+      "certification",
+      "containers",
+      "docker",
+      "oci"
+    ],
+    "updated_at": "2026-02-24T06:50:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/artwork",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/3e16a8a1-e338-4050-a39d-426b33f5292a/deploy-status)](https://app.netlify.com/sites/oci-conformance/deploys)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "certification"
+    },
+    {
+      "context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/3e16a8a1-e338-4050-a39d-426b33f5292a/deploy-status)](https://app.netlify.com/sites/oci-conformance/deploys)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/3e16a8a1-e338-4050-a39d-426b33f5292a/deploy-status)](https://app.netlify.com/sites/oci-conformance/deploys)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:35:22.036883+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The dedicated application build system for DragonFly BSD",
+    "fork": false,
+    "full_name": "DragonFlyBSD/DPorts",
+    "html_url": "https://github.com/DragonFlyBSD/DPorts",
+    "language": "Makefile",
+    "pushed_at": "2026-03-13T23:31:13Z",
+    "stargazers_count": 94,
+    "topics": [],
+    "updated_at": "2026-03-13T23:34:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

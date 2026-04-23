@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DataDog/go-cmp",
+      "target": "google/go-cmp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "DataDog/go-cmp",
+      "target": "actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "DataDog/go-cmp",
+      "target": "actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "DataDog/go-cmp",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:40:03.858224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1690
+    },
+    {
+      "path": "go.mod",
+      "size": 41
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Package for comparing Go values in tests",
+    "fork": true,
+    "full_name": "DataDog/go-cmp",
+    "html_url": "https://github.com/DataDog/go-cmp",
+    "language": "Go",
+    "pushed_at": "2026-03-01T14:30:00Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-06-05T14:25:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/go-cmp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "skywind3000/gutentags_plus",
+      "target": "skywind3000/vim-preview",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:40:39.263597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The right way to use gtags with gutentags",
+    "fork": false,
+    "full_name": "skywind3000/gutentags_plus",
+    "html_url": "https://github.com/skywind3000/gutentags_plus",
+    "language": "Vim Script",
+    "pushed_at": "2023-10-13T13:36:11Z",
+    "stargazers_count": 278,
+    "topics": [],
+    "updated_at": "2025-12-17T04:34:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skywind3000/vim-preview",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

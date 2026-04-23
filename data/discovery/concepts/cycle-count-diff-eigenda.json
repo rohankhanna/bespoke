@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cycle Count Diff (EigenDA)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "succinctlabs/op-succinct",
+      "status": "candidate-context",
+      "text": "Succinct's Production-Grade Proving Engine for the OP Stack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/op-succinct",
+      "status": "candidate-context",
+      "text": "Cycle Count Diff (EigenDA)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "succinctlabs/op-succinct",
+      "status": "candidate",
+      "text": "Cycle Count Diff (EigenDA)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23095,
+      "status": "candidate",
+      "text": "var"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22645,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22612,
+      "status": "candidate",
+      "text": "dismount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22579,
+      "status": "candidate",
+      "text": "era"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22545,
+      "status": "candidate",
+      "text": "day"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cycle Count Diff (EigenDA)",
+  "concept_id": "cycle-count-diff-eigenda",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cycle-count-diff-eigenda.yml",
+      "source_repo": "succinctlabs/op-succinct"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cycle Count Diff (EigenDA)",
+      "sense_id": "cycle-count-diff-eigenda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

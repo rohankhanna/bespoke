@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Deploy Book"
+    "Deploy Book",
+    "Deploy book"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "cedar-policy/rfcs",
       "status": "candidate-context",
       "text": "Deploy Book"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rust-bindgen",
+      "status": "candidate-context",
+      "text": "Automatically generates Rust FFI bindings to C (and some C++) libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-bindgen",
+      "status": "candidate-context",
+      "text": "Deploy book"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "cedar-policy/rfcs",
       "status": "candidate",
       "text": "Deploy Book"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-bindgen",
+      "status": "candidate",
+      "text": "Deploy book"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "cedar-policy/rfcs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy-book.yml",
+      "source_repo": "rust-lang/rust-bindgen"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Android Release Artifacts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/executorch",
+      "status": "candidate-context",
+      "text": "On-device AI across mobile, embedded and edge for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/executorch",
+      "status": "candidate-context",
+      "text": "Android Release Artifacts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/executorch",
+      "status": "candidate",
+      "text": "Android Release Artifacts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22096,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22096,
+      "status": "candidate",
+      "text": "icon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19214,
+      "status": "candidate",
+      "text": "star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18129,
+      "status": "candidate",
+      "text": "organic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14627,
+      "status": "candidate",
+      "text": "bot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Android Release Artifacts",
+  "concept_id": "android-release-artifacts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/android-release-artifacts.yml",
+      "source_repo": "pytorch/executorch"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Android Release Artifacts",
+      "sense_id": "android-release-artifacts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

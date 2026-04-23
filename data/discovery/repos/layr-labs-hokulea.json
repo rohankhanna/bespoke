@@ -1,0 +1,348 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action/4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis_devnet.yaml"
+    },
+    {
+      "component": "jdx/mise-action@c37c93293d6b742fc901e1406b8f764f6fb19dac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis_devnet.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@7e4a4ef9ed66446ab203dacde3df96698830955f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@7e4a4ef9ed66446ab203dacde3df96698830955f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@e9fe1d0c24b9415d0c0be1429c063ba3e3a8b277",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@7e4a4ef9ed66446ab203dacde3df96698830955f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@5b842231ba77f5c045dba54ac5560fed2db780e2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@7e4a4ef9ed66446ab203dacde3df96698830955f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "taiki-e/install-action@eea29cff9a2b68892c0845ae3e4f45fc47ee9354",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@5b842231ba77f5c045dba54ac5560fed2db780e2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    },
+    {
+      "component": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "anton-rs/kona",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "succinctlabs/op-succinct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "boundless-xyz/kailua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "ethpandaops/optimism-package",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf.yml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf.yml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "docker/setup-buildx-action/4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elf.yml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "ELF",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis_devnet.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis_devnet.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "jdx/mise-action@c37c93293d6b742fc901e1406b8f764f6fb19dac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kurtosis_devnet.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "Kurtosis Devnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "taiki-e/install-action@7e4a4ef9ed66446ab203dacde3df96698830955f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "taiki-e/install-action@e9fe1d0c24b9415d0c0be1429c063ba3e3a8b277",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "dtolnay/rust-toolchain@5b842231ba77f5c045dba54ac5560fed2db780e2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "taiki-e/install-action@eea29cff9a2b68892c0845ae3e4f45fc47ee9354",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "Rust CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:31:24.411596+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6564
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 8336
+    },
+    {
+      "path": ".github/workflows/elf.yml",
+      "size": 1366
+    },
+    {
+      "path": ".github/workflows/kurtosis_devnet.yaml",
+      "size": 1483
+    },
+    {
+      "path": ".github/workflows/rust_ci.yaml",
+      "size": 5160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Layr-Labs/hokulea",
+    "html_url": "https://github.com/Layr-Labs/hokulea",
+    "language": "Rust",
+    "pushed_at": "2026-04-16T16:28:46Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-16T16:28:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anton-rs/kona",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boundless-xyz/kailua",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethpandaops/optimism-package",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "succinctlabs/op-succinct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ELF",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elf.yml",
+      "term": "ELF"
+    },
+    {
+      "context_snippet": "Kurtosis Devnet",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kurtosis_devnet.yaml",
+      "term": "Kurtosis Devnet"
+    },
+    {
+      "context_snippet": "Rust CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "term": "Rust CI"
+    }
+  ]
+}

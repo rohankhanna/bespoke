@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A reference implementation for the specification that can create and configure a dev container from a devcontainer.json."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Test Plan Item Validator"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Test Plan Item Validator"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33422,
+      "status": "candidate",
+      "text": "flagpole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33256,
+      "status": "candidate",
+      "text": "blot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33256,
+      "status": "candidate",
+      "text": "inkblot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32873,
+      "status": "candidate",
+      "text": "meal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27712,
+      "status": "candidate",
+      "text": "arbitration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Plan Item Validator",
+      "sense_id": "test-plan-item-validator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "test-plan-item-validator",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "test-plan-item-validator",
+  "observation_id": "9cce36d9cfed4025",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Test Plan Item Validator",
+  "source_context_snippet": "Test Plan Item Validator",
+  "source_file": ".github/workflows/test-plan-item-validator.yml",
+  "source_repo": "devcontainers/cli",
+  "source_repo_description": "A reference implementation for the specification that can create and configure a dev container from a devcontainer.json."
+}

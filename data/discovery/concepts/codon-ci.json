@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Codon CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "exaloop/codon",
+      "status": "candidate-context",
+      "text": "A high-performance, zero-overhead, extensible Python compiler with built-in NumPy support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exaloop/codon",
+      "status": "candidate-context",
+      "text": "Codon CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exaloop/codon",
+      "status": "candidate",
+      "text": "Codon CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4394,
+      "status": "candidate",
+      "text": "degeneracy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4394,
+      "status": "candidate",
+      "text": "degenerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4394,
+      "status": "candidate",
+      "text": "genetic code"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4394,
+      "status": "candidate",
+      "text": "missense"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4394,
+      "status": "candidate",
+      "text": "ochre"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Codon CI",
+  "concept_id": "codon-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "exaloop/codon"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Codon CI",
+      "sense_id": "codon-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

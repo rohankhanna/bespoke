@@ -1,0 +1,503 @@
+{
+  "components": [
+    {
+      "component": "DataDog/dd-octo-sts-action@96a25462dbcb10ebf0bfd6e2ccc917d2ab235b9a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-dependabot-pr-to-mq.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-dependabot-pr-to-mq.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-dependabot-pr-to-mq.yml"
+    },
+    {
+      "component": "DataDog/dd-octo-sts-action@96a25462dbcb10ebf0bfd6e2ccc917d2ab235b9a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-label-community-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-label-community-pr.yml"
+    },
+    {
+      "component": "DataDog/dd-octo-sts-action@96a25462dbcb10ebf0bfd6e2ccc917d2ab235b9a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-label-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-label-pr.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-label-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-milestone.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-reviewer-bot-pr.yml"
+    },
+    {
+      "component": "DataDog/dd-octo-sts-action@96a25462dbcb10ebf0bfd6e2ccc917d2ab235b9a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-reviewer-bot-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-reviewer-bot-pr.yml"
+    },
+    {
+      "component": "DataDog/dd-octo-sts-action@96a25462dbcb10ebf0bfd6e2ccc917d2ab235b9a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ask-review-bot-pr.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ask-review-bot-pr.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ask-review-bot-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "datadog/go-cmp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "datadog/trivy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "iceber/iouring-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "datadog/opa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-dependabot-pr-to-mq.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "DataDog/dd-octo-sts-action@96a25462dbcb10ebf0bfd6e2ccc917d2ab235b9a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-dependabot-pr-to-mq.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-label-community-pr.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "DataDog/dd-octo-sts-action@96a25462dbcb10ebf0bfd6e2ccc917d2ab235b9a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-label-community-pr.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-label-community-pr.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "Add labels to community PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-label-pr.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "DataDog/dd-octo-sts-action@96a25462dbcb10ebf0bfd6e2ccc917d2ab235b9a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-label-pr.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-label-pr.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-label-pr.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "Add labels to PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-milestone.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-milestone.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "Add Milestone on a Merged PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-reviewer-bot-pr.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-reviewer-bot-pr.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "DataDog/dd-octo-sts-action@96a25462dbcb10ebf0bfd6e2ccc917d2ab235b9a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-reviewer-bot-pr.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-reviewer-bot-pr.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "Add reviewers on dependency bot PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ask-review-bot-pr.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "DataDog/dd-octo-sts-action@96a25462dbcb10ebf0bfd6e2ccc917d2ab235b9a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ask-review-bot-pr.yml",
+      "source_repo": "DataDog/datadog-agent",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent",
+      "target": "apm-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent",
+      "target": "apm-instrumentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent",
+      "target": "datadog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent",
+      "target": "distributed-tracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent",
+      "target": "logging",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent",
+      "target": "open-telemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent",
+      "target": "otel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent",
+      "target": "profiling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent",
+      "target": "tracing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:40:28.362609+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1517
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1702
+    },
+    {
+      "path": "go.mod",
+      "size": 92579
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2338
+    },
+    {
+      "path": ".github/workflows/add-dependabot-pr-to-mq.yml",
+      "size": 2586
+    },
+    {
+      "path": ".github/workflows/add-label-community-pr.yml",
+      "size": 1833
+    },
+    {
+      "path": ".github/workflows/add-label-pr.yml",
+      "size": 1786
+    },
+    {
+      "path": ".github/workflows/add-milestone.yml",
+      "size": 1592
+    },
+    {
+      "path": ".github/workflows/add-reviewer-bot-pr.yml",
+      "size": 1826
+    },
+    {
+      "path": ".github/workflows/ask-review-bot-pr.yml",
+      "size": 2236
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Main repository for Datadog Agent",
+    "fork": false,
+    "full_name": "DataDog/datadog-agent",
+    "html_url": "https://github.com/DataDog/datadog-agent",
+    "language": "Go",
+    "pushed_at": "2026-04-23T05:21:16Z",
+    "stargazers_count": 3574,
+    "topics": [
+      "apm-agent",
+      "apm-instrumentation",
+      "datadog",
+      "distributed-tracing",
+      "go",
+      "logging",
+      "metrics",
+      "monitoring",
+      "observability",
+      "open-telemetry",
+      "otel",
+      "profiling",
+      "tracing"
+    ],
+    "updated_at": "2026-04-22T23:02:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datadog/go-cmp",
+      "source_file": "go.mod"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datadog/opa",
+      "source_file": "go.mod"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datadog/trivy",
+      "source_file": "go.mod"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iceber/iouring-go",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Add labels to community PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-label-community-pr.yml",
+      "term": "Add labels to community PRs"
+    },
+    {
+      "context_snippet": "\"Add labels to PR\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-label-pr.yml",
+      "term": "Add labels to PR"
+    },
+    {
+      "context_snippet": "Add Milestone on a Merged PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-milestone.yml",
+      "term": "Add Milestone on a Merged PR"
+    },
+    {
+      "context_snippet": "\"Add reviewers on dependency bot PR\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-reviewer-bot-pr.yml",
+      "term": "Add reviewers on dependency bot PR"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apm-agent"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apm-instrumentation"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datadog"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-tracing"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logging"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observability"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-telemetry"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "otel"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profiling"
+    },
+    {
+      "context_snippet": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tracing"
+    }
+  ]
+}

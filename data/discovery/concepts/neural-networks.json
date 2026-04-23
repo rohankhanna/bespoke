@@ -19,6 +19,30 @@
       "source_repo": "explosion/spaCy",
       "status": "candidate-context",
       "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moskomule/anatome",
+      "status": "candidate-context",
+      "text": "\u1f08\u03bd\u03b1\u03c4\u03bf\u03bc\u03ae is a PyTorch library to analyze representation of neural networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moskomule/anatome",
+      "status": "candidate-context",
+      "text": "\u1f08\u03bd\u03b1\u03c4\u03bf\u03bc\u03ae is a PyTorch library to analyze internal representation of neural networks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/onnxruntime",
+      "status": "candidate-context",
+      "text": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"50%\" src=\"docs/images/ONNX_Runtime_logo_dark.png\" /></p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "explosion/spaCy",
       "status": "candidate",
       "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moskomule/anatome",
+      "status": "candidate",
+      "text": "\u1f08\u03bd\u03b1\u03c4\u03bf\u03bc\u03ae is a PyTorch library to analyze internal representation of neural networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"50%\" src=\"docs/images/ONNX_Runtime_logo_dark.png\" /></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "explosion/spaCy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "moskomule/anatome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/onnxruntime"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

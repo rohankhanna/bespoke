@@ -1,0 +1,147 @@
+{
+  "aliases": [
+    "Platforms",
+    "platforms"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sentinel-group/sentinel-rust",
+      "status": "candidate-context",
+      "text": "Sentinel Rust version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sentinel-group/sentinel-rust",
+      "status": "candidate-context",
+      "text": "Platforms"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustsec/rustsec",
+      "status": "candidate-context",
+      "text": "RustSec API & Tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustsec/rustsec",
+      "status": "candidate-context",
+      "text": "platforms"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sentinel-group/sentinel-rust",
+      "status": "candidate",
+      "text": "Platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustsec/rustsec",
+      "status": "candidate",
+      "text": "platforms"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "chopine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "chopines"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "aprons"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "curriculums"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "dcps"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11056,
+      "status": "candidate",
+      "text": "platform"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2022,
+      "status": "candidate",
+      "text": "chopine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7,
+      "status": "candidate",
+      "text": "chopines"
+    }
+  ],
+  "canonical_name": "Platforms",
+  "concept_id": "platforms",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/platforms.yml",
+      "source_repo": "sentinel-group/sentinel-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/platforms.yml",
+      "source_repo": "rustsec/rustsec"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Platforms",
+      "sense_id": "platforms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

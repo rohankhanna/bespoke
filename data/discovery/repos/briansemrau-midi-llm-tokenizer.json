@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "briansemrau/MIDI-LLM-tokenizer",
+      "target": "abel2076/json2binidx_tool",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:29:32.678225+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2255
+    },
+    {
+      "path": "requirements.txt",
+      "size": 34
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tools for converting .mid files into text for training large language models",
+    "fork": false,
+    "full_name": "briansemrau/MIDI-LLM-tokenizer",
+    "html_url": "https://github.com/briansemrau/MIDI-LLM-tokenizer",
+    "language": "Python",
+    "pushed_at": "2023-12-13T18:00:21Z",
+    "stargazers_count": 103,
+    "topics": [],
+    "updated_at": "2026-04-03T14:59:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abel2076/json2binidx_tool",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

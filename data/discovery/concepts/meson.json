@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "agl/jbig2enc",
       "status": "candidate-context",
       "text": "meson"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JPEWdev/icecream-sundae",
+      "status": "candidate-context",
+      "text": "Commandline Monitor for Icecream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JPEWdev/icecream-sundae",
+      "status": "candidate-context",
+      "text": "Commandline Monitor for [Icecream](https://github.com/icecc/icecream)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "agl/jbig2enc",
       "status": "candidate",
       "text": "meson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JPEWdev/icecream-sundae",
+      "status": "candidate",
+      "text": "Commandline Monitor for [Icecream](https://github.com/icecc/icecream)."
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +104,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/meson.yaml",
       "source_repo": "agl/jbig2enc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "JPEWdev/icecream-sundae"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

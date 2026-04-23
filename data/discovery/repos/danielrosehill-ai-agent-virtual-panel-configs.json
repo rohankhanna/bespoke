@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Agent-Virtual-Panel-Configs",
+      "target": "personas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Agent-Virtual-Panel-Configs",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:37:02.075975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sets of \"panels\" for testing Rally (AskRally.com) exploring various \"frontier\" applications for the concept of AI personas and simulated voting bodies and thinking groups",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Agent-Virtual-Panel-Configs",
+    "html_url": "https://github.com/danielrosehill/AI-Agent-Virtual-Panel-Configs",
+    "language": "Shell",
+    "pushed_at": "2025-12-02T00:47:03Z",
+    "stargazers_count": 0,
+    "topics": [
+      "personas",
+      "testing"
+    ],
+    "updated_at": "2025-12-02T00:47:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A collection of panel configurations and persona system prompts for [Rally](https://askrally.com) - a platform for creating virtual focus groups comprised of AI agents representing diverse perspectives.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "personas"
+    },
+    {
+      "context_snippet": "A collection of panel configurations and persona system prompts for [Rally](https://askrally.com) - a platform for creating virtual focus groups comprised of AI agents representing diverse perspectives.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

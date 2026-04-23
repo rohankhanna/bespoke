@@ -1,0 +1,12 @@
+{
+  "component": "grafana/shared-workflows/actions/send-slack-message@send-slack-message/v2.0.4",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/alerting-update-module.yml",
+      "source_repo": "grafana/grafana"
+    }
+  ]
+}

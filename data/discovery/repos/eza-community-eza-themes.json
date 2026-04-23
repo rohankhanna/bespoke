@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/convco.yml"
+    },
+    {
+      "component": "webiny/action-conventional-commits@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/convco.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nomerge.yml"
+    },
+    {
+      "component": "NexusPHP/no-merge-commits@v2.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nomerge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eza-community/eza-themes",
+      "target": "folke/tokyonight.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eza-community/eza-themes",
+      "target": "rose-pine/rose-pine-theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/convco.yml",
+      "source_repo": "eza-community/eza-themes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/convco.yml",
+      "source_repo": "eza-community/eza-themes",
+      "target": "webiny/action-conventional-commits@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/convco.yml",
+      "source_repo": "eza-community/eza-themes",
+      "target": "commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nomerge.yml",
+      "source_repo": "eza-community/eza-themes",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nomerge.yml",
+      "source_repo": "eza-community/eza-themes",
+      "target": "NexusPHP/no-merge-commits@v2.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nomerge.yml",
+      "source_repo": "eza-community/eza-themes",
+      "target": "commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:27:54.500252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9036
+    },
+    {
+      "path": ".github/workflows/convco.yml",
+      "size": 426
+    },
+    {
+      "path": ".github/workflows/nomerge.yml",
+      "size": 298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Themes for eza",
+    "fork": false,
+    "full_name": "eza-community/eza-themes",
+    "html_url": "https://github.com/eza-community/eza-themes",
+    "language": null,
+    "pushed_at": "2026-03-04T17:26:16Z",
+    "stargazers_count": 229,
+    "topics": [],
+    "updated_at": "2026-04-22T20:14:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "folke/tokyonight.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rose-pine/rose-pine-theme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/convco.yml",
+      "term": "commit"
+    },
+    {
+      "context_snippet": "commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nomerge.yml",
+      "term": "commit"
+    }
+  ]
+}

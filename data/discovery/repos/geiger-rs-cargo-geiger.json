@@ -1,0 +1,318 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-zigs.yml"
+    },
+    {
+      "component": "rinse-repeat/zig-gh-helper/.github/workflows/zig_install.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-zigs.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@1.73.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rinse-repeat/auditable-builder/.github/workflows/rust-builder.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rinse-repeat/auditable-builder/.github/workflows/release-builder.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-audit-check.yml"
+    },
+    {
+      "component": "actions-rs/audit-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-audit-check.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "sfackler/cargo-tree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "rust-lang/unsafe-code-guidelines",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "rust-secure-code/cargo-geiger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-zigs.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-zigs.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "rinse-repeat/zig-gh-helper/.github/workflows/zig_install.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-zigs.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "Cache Zigs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "dtolnay/rust-toolchain@1.73.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "rinse-repeat/auditable-builder/.github/workflows/rust-builder.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "rinse-repeat/auditable-builder/.github/workflows/release-builder.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "Cargo-geiger Release Builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-audit-check.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-audit-check.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "actions-rs/audit-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-audit-check.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "cargo audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "target": "rustfmt",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:39:35.113466+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3262
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 460
+    },
+    {
+      "path": "Dockerfile",
+      "size": 609
+    },
+    {
+      "path": ".github/workflows/cache-zigs.yml",
+      "size": 1145
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1165
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1551
+    },
+    {
+      "path": ".github/workflows/rust-audit-check.yml",
+      "size": 244
+    },
+    {
+      "path": ".github/workflows/rustfmt.yml",
+      "size": 469
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Detects usage of unsafe Rust in a Rust crate and its dependencies.",
+    "fork": false,
+    "full_name": "geiger-rs/cargo-geiger",
+    "html_url": "https://github.com/geiger-rs/cargo-geiger",
+    "language": "Rust",
+    "pushed_at": "2026-01-11T08:36:51Z",
+    "stargazers_count": 1573,
+    "topics": [],
+    "updated_at": "2026-04-19T02:32:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/unsafe-code-guidelines",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-secure-code/cargo-geiger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sfackler/cargo-tree",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Cache Zigs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-zigs.yml",
+      "term": "Cache Zigs"
+    },
+    {
+      "context_snippet": "\"Cargo-geiger Release Builder\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Cargo-geiger Release Builder"
+    },
+    {
+      "context_snippet": "cargo audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust-audit-check.yml",
+      "term": "cargo audit"
+    },
+    {
+      "context_snippet": "rustfmt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "term": "rustfmt"
+    }
+  ]
+}

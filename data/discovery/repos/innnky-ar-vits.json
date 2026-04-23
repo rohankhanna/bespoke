@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/ar-vits",
+      "target": "yangdongchao/soundstorm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/ar-vits",
+      "target": "jaywalnut310/vits",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "innnky/ar-vits",
+      "target": "hcy71o/transfertts",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:33:43.884838+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1473
+    },
+    {
+      "path": "requirements.txt",
+      "size": 90
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "text to speech using autoregressive transformer and VITS ",
+    "fork": false,
+    "full_name": "innnky/ar-vits",
+    "html_url": "https://github.com/innnky/ar-vits",
+    "language": "Python",
+    "pushed_at": "2024-04-03T13:58:38Z",
+    "stargazers_count": 248,
+    "topics": [],
+    "updated_at": "2026-03-15T13:56:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hcy71o/transfertts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaywalnut310/vits",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yangdongchao/soundstorm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

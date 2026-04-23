@@ -1,0 +1,78 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "antidot/Pyckson",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "antidot/Pyckson",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antidot/Pyckson",
+      "target": "json",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:28:46.633088+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2048
+    },
+    {
+      "path": "requirements.txt",
+      "size": 13
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 720
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple python library to serialize python objects to json",
+    "fork": false,
+    "full_name": "antidot/Pyckson",
+    "html_url": "https://github.com/antidot/Pyckson",
+    "language": "Python",
+    "pushed_at": "2024-07-19T14:12:18Z",
+    "stargazers_count": 28,
+    "topics": [
+      "json",
+      "python"
+    ],
+    "updated_at": "2024-07-19T14:12:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A simple python library to serialize python objects to json",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    }
+  ]
+}

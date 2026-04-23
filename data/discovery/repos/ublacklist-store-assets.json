@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin.yml"
+    },
+    {
+      "component": "crowdin/github-action@ce33ce793a5cbc401d9cd748716e03fc90c001f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin.yml",
+      "source_repo": "ublacklist/store-assets",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin.yml",
+      "source_repo": "ublacklist/store-assets",
+      "target": "crowdin/github-action@ce33ce793a5cbc401d9cd748716e03fc90c001f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crowdin.yml",
+      "source_repo": "ublacklist/store-assets",
+      "target": "Crowdin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:42:58.748395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 435
+    },
+    {
+      "path": ".github/workflows/crowdin.yml",
+      "size": 594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "uBlacklist Store Assets",
+    "fork": false,
+    "full_name": "ublacklist/store-assets",
+    "html_url": "https://github.com/ublacklist/store-assets",
+    "language": null,
+    "pushed_at": "2026-04-13T14:23:11Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-13T14:23:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Crowdin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crowdin.yml",
+      "term": "Crowdin"
+    }
+  ]
+}

@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +33,30 @@
       "source_repo": "bytedance/Shot2Story",
       "status": "candidate-context",
       "text": "<a href='https://mingfei.info/shot2story/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "status": "candidate-context",
+      "text": "Minimal reproduction of DeepSeek R1-Zero"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "status": "candidate-context",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/browser-compat-data",
+      "status": "candidate-context",
+      "text": "Browser compatibility data for Web technologies as displayed on MDN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/browser-compat-data",
+      "status": "candidate-context",
+      "text": "[https://github.com/mdn/browser-compat-data](https://github.com/mdn/browser-compat-data)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +71,18 @@
       "source_repo": "bytedance/Shot2Story",
       "status": "candidate",
       "text": "<a href='https://mingfei.info/shot2story/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "status": "candidate",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/browser-compat-data",
+      "status": "candidate",
+      "text": "[https://github.com/mdn/browser-compat-data](https://github.com/mdn/browser-compat-data)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +138,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "bytedance/Shot2Story"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "Jiayi-Pan/TinyZero"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mdn/browser-compat-data"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

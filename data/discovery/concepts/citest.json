@@ -31,6 +31,18 @@
       "source_repo": "modelscope/modelscope",
       "status": "candidate-context",
       "text": "citest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/ms-swift",
+      "status": "candidate-context",
+      "text": "Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-R1, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/ms-swift",
+      "status": "candidate-context",
+      "text": "citest"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "modelscope/modelscope",
+      "status": "candidate",
+      "text": "citest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/ms-swift",
       "status": "candidate",
       "text": "citest"
     }
@@ -82,11 +100,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/citest.yaml",
       "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/citest.yaml",
+      "source_repo": "modelscope/ms-agent"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/citest.yaml",
+      "source_repo": "modelscope/ms-swift"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

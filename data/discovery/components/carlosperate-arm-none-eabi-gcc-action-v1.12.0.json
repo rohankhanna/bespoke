@@ -1,0 +1,12 @@
+{
+  "component": "carlosperate/arm-none-eabi-gcc-action@v1.12.0",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mpy_native_module.yaml",
+      "source_repo": "BrianPugh/tamp"
+    }
+  ]
+}

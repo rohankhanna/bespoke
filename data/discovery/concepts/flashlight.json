@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "flashlight"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashlight/flashlight",
+      "status": "candidate-context",
+      "text": "A C++ standalone library for machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashlight/flashlight",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/flashlight/flashlight.svg?style=shield)](https://app.circleci.com/pipelines/github/flashlight/flashlight)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashlight/flashlight",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/flashlight/flashlight.svg?style=shield)](https://app.circleci.com/pipelines/github/flashlight/flashlight)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037995,
+      "status": "candidate",
+      "text": "torch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046639,
+      "status": "candidate",
+      "text": "lamp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046068,
+      "status": "candidate",
+      "text": "searchlight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044811,
+      "status": "candidate",
+      "text": "lantern"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035855,
+      "status": "candidate",
+      "text": "blowtorch"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5052,
+      "status": "candidate",
+      "text": "torch"
+    }
+  ],
+  "canonical_name": "flashlight",
+  "concept_id": "flashlight",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "flashlight/flashlight"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flashlight",
+      "sense_id": "flashlight#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

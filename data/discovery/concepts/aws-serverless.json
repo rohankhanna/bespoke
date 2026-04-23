@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "aws-serverless"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/serverless.tf",
+      "status": "candidate-context",
+      "text": "serverless.tf is an opinionated open-source framework for developing, building, deploying, and securing serverless applications and infrastructures on AWS using Terraform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/serverless.tf",
+      "status": "candidate-context",
+      "text": "This repository / _[serverless.tf framework](https://serverless.tf)_ aims to provide information, solutions, and tools for building, deploying, and managing serverless applications and infrastructure using [Terraform](https://www.terraform.io/)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/serverless.tf",
+      "status": "candidate",
+      "text": "This repository / _[serverless.tf framework](https://serverless.tf)_ aims to provide information, solutions, and tools for building, deploying, and managing serverless applications and infrastructure using [Terraform](https://www.terraform.io/)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "aws-serverless",
+  "concept_id": "aws-serverless",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aws-serverless",
+      "sense_id": "aws-serverless#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

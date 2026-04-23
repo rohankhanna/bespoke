@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "emacscollective/borg",
+      "target": "Compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "emacscollective/borg",
+      "target": "Manual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stats.yml",
+      "source_repo": "emacscollective/borg",
+      "target": "Statistics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:41:24.282268+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/compile.yml",
+      "size": 234
+    },
+    {
+      "path": ".github/workflows/manual.yml",
+      "size": 333
+    },
+    {
+      "path": ".github/workflows/stats.yml",
+      "size": 342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Assimilate Emacs packages as Git submodules",
+    "fork": false,
+    "full_name": "emacscollective/borg",
+    "html_url": "https://github.com/emacscollective/borg",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-22T17:26:59Z",
+    "stargazers_count": 280,
+    "topics": [],
+    "updated_at": "2026-04-22T17:27:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Compile",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yml",
+      "term": "Compile"
+    },
+    {
+      "context_snippet": "Manual",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "term": "Manual"
+    },
+    {
+      "context_snippet": "Statistics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stats.yml",
+      "term": "Statistics"
+    }
+  ]
+}

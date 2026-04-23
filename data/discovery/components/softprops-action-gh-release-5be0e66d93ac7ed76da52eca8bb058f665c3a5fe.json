@@ -1,0 +1,17 @@
+{
+  "component": "softprops/action-gh-release@5be0e66d93ac7ed76da52eca8bb058f665c3a5fe",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-cli.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-webui.yml",
+      "source_repo": "eclipse-openvsx/openvsx"
+    }
+  ]
+}

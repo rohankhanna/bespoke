@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "miloyip/nativejson-benchmark",
+      "target": "bblanchon/arduinojson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "miloyip/nativejson-benchmark",
+      "target": "boazsegev/facil.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "miloyip/nativejson-benchmark",
+      "target": "akheron/jansson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "miloyip/nativejson-benchmark",
+      "target": "anhero/jsonbox",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:41:25.675773+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16090
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1009
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C/C++ JSON parser/generator benchmark",
+    "fork": false,
+    "full_name": "miloyip/nativejson-benchmark",
+    "html_url": "https://github.com/miloyip/nativejson-benchmark",
+    "language": "JavaScript",
+    "pushed_at": "2022-10-28T09:32:21Z",
+    "stargazers_count": 2055,
+    "topics": [],
+    "updated_at": "2026-04-21T02:04:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akheron/jansson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anhero/jsonbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bblanchon/arduinojson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boazsegev/facil.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

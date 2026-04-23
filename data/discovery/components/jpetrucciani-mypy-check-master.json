@@ -1,12 +1,17 @@
 {
   "component": "jpetrucciani/mypy-check@master",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/script_lint.yml",
       "source_repo": "getsolus/packages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mypy.yaml",
+      "source_repo": "bazel-contrib/rules_python"
     }
   ]
 }

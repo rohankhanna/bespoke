@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "raspberry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GuillaumeGomez/sysinfo",
+      "status": "candidate-context",
+      "text": "Cross-platform library to fetch system information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuillaumeGomez/sysinfo",
+      "status": "candidate-context",
+      "text": "`sysinfo` is a crate used to get a system's information."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuillaumeGomez/sysinfo",
+      "status": "candidate",
+      "text": "`sysinfo` is a crate used to get a system's information."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916329,
+      "status": "candidate",
+      "text": "bird"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39885722,
+      "status": "candidate",
+      "text": "snort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39857061,
+      "status": "candidate",
+      "text": "bronx cheer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39712240,
+      "status": "candidate",
+      "text": "hoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39706121,
+      "status": "candidate",
+      "text": "hiss"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61046,
+      "status": "candidate",
+      "text": "snort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25039,
+      "status": "candidate",
+      "text": "hiss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14042,
+      "status": "candidate",
+      "text": "hoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8043,
+      "status": "candidate",
+      "text": "boo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7016,
+      "status": "candidate",
+      "text": "razzing"
+    }
+  ],
+  "canonical_name": "raspberry",
+  "concept_id": "raspberry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "GuillaumeGomez/sysinfo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "raspberry",
+      "sense_id": "raspberry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

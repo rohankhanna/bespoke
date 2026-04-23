@@ -33,6 +33,30 @@
       "source_repo": "safe-global/safe-deployments",
       "status": "candidate-context",
       "text": "Bump Version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-tree-sitter/tree-sitter-langs",
+      "status": "candidate-context",
+      "text": "Language bundle for Emacs's tree-sitter package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-tree-sitter/tree-sitter-langs",
+      "status": "candidate-context",
+      "text": "Bump Version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "status": "candidate-context",
+      "text": "Lightweight OpenHands CLI in a binary executable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "status": "candidate-context",
+      "text": "Bump Version"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "safe-global/safe-deployments",
+      "status": "candidate",
+      "text": "Bump Version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-tree-sitter/tree-sitter-langs",
+      "status": "candidate",
+      "text": "Bump Version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands-CLI",
       "status": "candidate",
       "text": "Bump Version"
     }
@@ -126,11 +162,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/bump-version.yml",
       "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "emacs-tree-sitter/tree-sitter-langs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "OpenHands/OpenHands-CLI"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

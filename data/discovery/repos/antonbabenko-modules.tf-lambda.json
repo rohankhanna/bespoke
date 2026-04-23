@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "target": "antonbabenko/modules.tf-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "target": "jakubroztocil/httpie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "target": "aws-lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "target": "cloudcraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "target": "terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "target": "terraform-aws",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "target": "terraform-configurations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "target": "terragrunt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "target": "visual",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "target": "visual-diagrams",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:43:05.913536+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6515
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Infrastructure as code generator - from visual diagrams created with Cloudcraft.co to Terraform",
+    "fork": false,
+    "full_name": "antonbabenko/modules.tf-lambda",
+    "html_url": "https://github.com/antonbabenko/modules.tf-lambda",
+    "language": "Python",
+    "pushed_at": "2021-08-20T07:25:57Z",
+    "stargazers_count": 356,
+    "topics": [
+      "aws-lambda",
+      "cloudcraft",
+      "infrastructure-as-code",
+      "serverless",
+      "terraform",
+      "terraform-aws",
+      "terraform-configurations",
+      "terragrunt",
+      "visual",
+      "visual-diagrams"
+    ],
+    "updated_at": "2026-01-31T22:01:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonbabenko/modules.tf-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jakubroztocil/httpie",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-lambda"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudcraft"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure-as-code"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform-aws"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform-configurations"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terragrunt"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual"
+    },
+    {
+      "context_snippet": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-diagrams"
+    }
+  ]
+}

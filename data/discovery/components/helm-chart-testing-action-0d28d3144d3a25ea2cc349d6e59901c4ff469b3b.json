@@ -1,0 +1,22 @@
+{
+  "component": "helm/chart-testing-action@0d28d3144d3a25ea2cc349d6e59901c4ff469b3b",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chart-testing.yaml",
+      "source_repo": "aquasecurity/trivy-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-helm-chart.yaml",
+      "source_repo": "aquasecurity/trivy-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-test-chart.yaml",
+      "source_repo": "kubernetes-sigs/metrics-server"
+    }
+  ]
+}

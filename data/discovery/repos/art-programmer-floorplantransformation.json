@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "art-programmer/FloorplanTransformation",
+      "target": "art-programmer/floornet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "art-programmer/FloorplanTransformation",
+      "target": "clementfarabet/lua---csv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "art-programmer/FloorplanTransformation",
+      "target": "marcoscoffier/lua---opencv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "art-programmer/FloorplanTransformation",
+      "target": "art-programmer/floorplanannotator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "art-programmer/FloorplanTransformation",
+      "target": "floorplan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "art-programmer/FloorplanTransformation",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "art-programmer/FloorplanTransformation",
+      "target": "torch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:33:58.756838+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Raster-to-Vector: Revisiting Floorplan Transformation",
+    "fork": false,
+    "full_name": "art-programmer/FloorplanTransformation",
+    "html_url": "https://github.com/art-programmer/FloorplanTransformation",
+    "language": "Lua",
+    "pushed_at": "2022-06-21T21:36:10Z",
+    "stargazers_count": 648,
+    "topics": [
+      "floorplan",
+      "pytorch",
+      "torch"
+    ],
+    "updated_at": "2026-04-22T00:32:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "art-programmer/floornet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "art-programmer/floorplanannotator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clementfarabet/lua---csv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marcoscoffier/lua---opencv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "By Chen Liu, Jiajun Wu, Pushmeet Kohli, and Yasutaka Furukawa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "floorplan"
+    },
+    {
+      "context_snippet": "By Chen Liu, Jiajun Wu, Pushmeet Kohli, and Yasutaka Furukawa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "By Chen Liu, Jiajun Wu, Pushmeet Kohli, and Yasutaka Furukawa",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    }
+  ]
+}

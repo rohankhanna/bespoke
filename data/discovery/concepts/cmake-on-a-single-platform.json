@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CMake on a single platform"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "icecc/icemon",
+      "status": "candidate-context",
+      "text": "Icecream GUI Monitor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icecc/icemon",
+      "status": "candidate-context",
+      "text": "CMake on a single platform"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "icecc/icemon",
+      "status": "candidate",
+      "text": "CMake on a single platform"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "decking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "floor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11828,
+      "status": "candidate",
+      "text": "leg"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CMake on a single platform",
+  "concept_id": "cmake-on-a-single-platform",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cmake-single-platform.yml",
+      "source_repo": "icecc/icemon"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CMake on a single platform",
+      "sense_id": "cmake-on-a-single-platform#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

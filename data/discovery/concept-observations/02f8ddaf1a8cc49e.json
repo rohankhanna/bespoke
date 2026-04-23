@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Best practices for training DeepSeek, Mixtral, Qwen and other MoE models using Megatron Core."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Production-ready training recipes for state-of-the-art MoE models \u2014 **DeepSeek-V3**, **Qwen3**, and **Mixtral** \u2014 built on \ud83d\ude80 [Megatron-Core DEV branch](https://github.com/NVIDIA/Megatron-LM/tree/dev)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Production-ready training recipes for state-of-the-art MoE models \u2014 **DeepSeek-V3**, **Qwen3**, and **Mixtral** \u2014 built on \ud83d\ude80 [Megatron-Core DEV branch](https://github.com/NVIDIA/Megatron-LM/tree/dev)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "megatron-lm",
+      "sense_id": "megatron-lm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "megatron-lm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "megatron-lm",
+  "observation_id": "02f8ddaf1a8cc49e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "megatron-lm",
+  "source_context_snippet": "Production-ready training recipes for state-of-the-art MoE models \u2014 **DeepSeek-V3**, **Qwen3**, and **Mixtral** \u2014 built on \ud83d\ude80 [Megatron-Core DEV branch](https://github.com/NVIDIA/Megatron-LM/tree/dev).",
+  "source_file": null,
+  "source_repo": "yanring/Megatron-MoE-ModelZoo",
+  "source_repo_description": "Best practices for training DeepSeek, Mixtral, Qwen and other MoE models using Megatron Core."
+}

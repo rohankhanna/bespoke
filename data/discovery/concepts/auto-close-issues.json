@@ -32,6 +32,30 @@
       "source_repo": "aquasecurity/trivy",
       "status": "candidate-context",
       "text": "Auto-close issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "Tfsec is now part of Trivy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "Auto-close issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DataDog/trivy",
+      "status": "candidate-context",
+      "text": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/trivy",
+      "status": "candidate-context",
+      "text": "Auto-close issues"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +68,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aquasecurity/trivy",
+      "status": "candidate",
+      "text": "Auto-close issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate",
+      "text": "Auto-close issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/trivy",
       "status": "candidate",
       "text": "Auto-close issues"
     }
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/auto-close-issue.yaml",
       "source_repo": "aquasecurity/trivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/auto-close-issues.yml",
+      "source_repo": "aquasecurity/tfsec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/auto-close-issue.yaml",
+      "source_repo": "DataDog/trivy"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

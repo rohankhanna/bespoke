@@ -19,6 +19,18 @@
       "source_repo": "abaplint/abaplint",
       "status": "candidate-context",
       "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/cli?label=%40abaplint%2Fcli)](https://www.npmjs.com/package/@abaplint/cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Combination of multiple linters to run as a GitHub Action or standalone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Super-linter is a ready-to-run collection of linters and code analyzers, to help"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "abaplint/abaplint",
       "status": "candidate",
       "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/cli?label=%40abaplint%2Fcli)](https://www.npmjs.com/package/@abaplint/cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate",
+      "text": "Super-linter is a ready-to-run collection of linters and code analyzers, to help"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "abaplint/abaplint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "super-linter/super-linter"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

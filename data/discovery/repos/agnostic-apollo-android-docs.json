@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:45:04.333413+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 320
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository provides documentation for random stuff related to the Android operating system.",
+    "fork": false,
+    "full_name": "agnostic-apollo/Android-Docs",
+    "html_url": "https://github.com/agnostic-apollo/Android-Docs",
+    "language": null,
+    "pushed_at": "2023-12-31T23:06:00Z",
+    "stargazers_count": 227,
+    "topics": [],
+    "updated_at": "2026-04-12T22:46:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

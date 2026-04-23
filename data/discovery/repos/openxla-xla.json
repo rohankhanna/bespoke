@@ -1,0 +1,361 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_dependency_violations.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_query.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_tags.yml"
+    },
+    {
+      "component": "jwalton/gh-find-current-pr@f3d61b485d2801773f7a07b2aaa3306bd8f8e653",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_postsubmit.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_postsubmit.yml"
+    },
+    {
+      "component": "google-ml-infra/actions/ci_connection@7f5ca0c263a81ed09ea276524c1b9192f1304e3c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_postsubmit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_postsubmit.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_contents.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "google-ml-infra/actions/ci_connection@7f5ca0c263a81ed09ea276524c1b9192f1304e3c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_multi_device.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_multi_device.yml"
+    },
+    {
+      "component": "google-ml-infra/actions/ci_connection@7f5ca0c263a81ed09ea276524c1b9192f1304e3c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_multi_device.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openxla/xla",
+      "target": "tensorflow/tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_dependency_violations.yml",
+      "source_repo": "openxla/xla",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel_dependency_violations.yml",
+      "source_repo": "openxla/xla",
+      "target": "Bazel Dependency Violations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_query.yml",
+      "source_repo": "openxla/xla",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel_query.yml",
+      "source_repo": "openxla/xla",
+      "target": "Bazel Query",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_tags.yml",
+      "source_repo": "openxla/xla",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel_tags.yml",
+      "source_repo": "openxla/xla",
+      "target": "Bazel Tags",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_postsubmit.yml",
+      "source_repo": "openxla/xla",
+      "target": "jwalton/gh-find-current-pr@f3d61b485d2801773f7a07b2aaa3306bd8f8e653",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_postsubmit.yml",
+      "source_repo": "openxla/xla",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_postsubmit.yml",
+      "source_repo": "openxla/xla",
+      "target": "google-ml-infra/actions/ci_connection@7f5ca0c263a81ed09ea276524c1b9192f1304e3c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_postsubmit.yml",
+      "source_repo": "openxla/xla",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_postsubmit.yml",
+      "source_repo": "openxla/xla",
+      "target": "Postsubmit Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_presubmit.yml",
+      "source_repo": "openxla/xla",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_presubmit.yml",
+      "source_repo": "openxla/xla",
+      "target": "Presubmit Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildifier.yml",
+      "source_repo": "openxla/xla",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yml",
+      "source_repo": "openxla/xla",
+      "target": "Buildifier",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_contents.yml",
+      "source_repo": "openxla/xla",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_contents.yml",
+      "source_repo": "openxla/xla",
+      "target": "Check Contents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openxla/xla",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openxla/xla",
+      "target": "google-ml-infra/actions/ci_connection@7f5ca0c263a81ed09ea276524c1b9192f1304e3c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_multi_device.yml",
+      "source_repo": "openxla/xla",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_multi_device.yml",
+      "source_repo": "openxla/xla",
+      "target": "google-ml-infra/actions/ci_connection@7f5ca0c263a81ed09ea276524c1b9192f1304e3c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_multi_device.yml",
+      "source_repo": "openxla/xla",
+      "target": "Multi-Device CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:35:46.001255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1689
+    },
+    {
+      "path": ".github/workflows/bazel_dependency_violations.yml",
+      "size": 2805
+    },
+    {
+      "path": ".github/workflows/bazel_query.yml",
+      "size": 1786
+    },
+    {
+      "path": ".github/workflows/bazel_tags.yml",
+      "size": 1497
+    },
+    {
+      "path": ".github/workflows/benchmark_postsubmit.yml",
+      "size": 11501
+    },
+    {
+      "path": ".github/workflows/benchmark_presubmit.yml",
+      "size": 5726
+    },
+    {
+      "path": ".github/workflows/buildifier.yml",
+      "size": 1448
+    },
+    {
+      "path": ".github/workflows/check_contents.yml",
+      "size": 5180
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5347
+    },
+    {
+      "path": ".github/workflows/ci_multi_device.yml",
+      "size": 2698
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A machine learning compiler for GPUs, CPUs, and ML accelerators",
+    "fork": false,
+    "full_name": "openxla/xla",
+    "html_url": "https://github.com/openxla/xla",
+    "language": "C++",
+    "pushed_at": "2026-04-23T06:35:20Z",
+    "stargazers_count": 4195,
+    "topics": [],
+    "updated_at": "2026-04-23T06:32:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorflow/tensorflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bazel Dependency Violations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel_dependency_violations.yml",
+      "term": "Bazel Dependency Violations"
+    },
+    {
+      "context_snippet": "Bazel Query",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel_query.yml",
+      "term": "Bazel Query"
+    },
+    {
+      "context_snippet": "Bazel Tags",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel_tags.yml",
+      "term": "Bazel Tags"
+    },
+    {
+      "context_snippet": "Postsubmit Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_postsubmit.yml",
+      "term": "Postsubmit Benchmarks"
+    },
+    {
+      "context_snippet": "Presubmit Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_presubmit.yml",
+      "term": "Presubmit Benchmarks"
+    },
+    {
+      "context_snippet": "Buildifier",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildifier.yml",
+      "term": "Buildifier"
+    },
+    {
+      "context_snippet": "Check Contents",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_contents.yml",
+      "term": "Check Contents"
+    },
+    {
+      "context_snippet": "Multi-Device CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_multi_device.yml",
+      "term": "Multi-Device CI"
+    }
+  ]
+}

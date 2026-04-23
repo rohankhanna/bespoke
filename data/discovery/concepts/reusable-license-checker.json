@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Reusable license checker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notaryproject/notation-core-go",
+      "status": "candidate-context",
+      "text": "Contains support for Notary Project signature envelope, and format specific implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-core-go",
+      "status": "candidate-context",
+      "text": "Reusable license checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notaryproject/notation-core-go",
+      "status": "candidate",
+      "text": "Reusable license checker"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19333,
+      "status": "candidate",
+      "text": "store"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19295,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19235,
+      "status": "candidate",
+      "text": "pass"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19205,
+      "status": "candidate",
+      "text": "abort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19205,
+      "status": "candidate",
+      "text": "actuator"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reusable license checker",
+  "concept_id": "reusable-license-checker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/reusable-license-checker.yml",
+      "source_repo": "notaryproject/notation-core-go"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reusable license checker",
+      "sense_id": "reusable-license-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -31,6 +31,30 @@
       "source_repo": "explosion/spaCy",
       "status": "candidate-context",
       "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "escherba/python-cityhash",
+      "status": "candidate-context",
+      "text": "Python bindings for FarmHash and CityHash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "escherba/python-cityhash",
+      "status": "candidate-context",
+      "text": "Python wrapper for [FarmHash](https://github.com/google/farmhash) and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "escherba/python-metrohash",
+      "status": "candidate-context",
+      "text": "Python bindings for MetroHash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "escherba/python-metrohash",
+      "status": "candidate-context",
+      "text": "Python wrapper for [MetroHash](https://github.com/jandrewrogers/MetroHash), a"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "explosion/spaCy",
       "status": "candidate",
       "text": "<a href=\"https://explosion.ai\"><img src=\"https://explosion.ai/assets/img/logo.svg\" width=\"125\" height=\"125\" align=\"right\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "escherba/python-cityhash",
+      "status": "candidate",
+      "text": "Python wrapper for [FarmHash](https://github.com/google/farmhash) and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "escherba/python-metrohash",
+      "status": "candidate",
+      "text": "Python wrapper for [MetroHash](https://github.com/jandrewrogers/MetroHash), a"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "explosion/spaCy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "escherba/python-cityhash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "escherba/python-metrohash"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

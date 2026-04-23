@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/vscode-discussions",
+      "target": "microsoft/vscode-extension-samples",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:30:58.414212+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official place to discuss all things VS Code!",
+    "fork": false,
+    "full_name": "microsoft/vscode-discussions",
+    "html_url": "https://github.com/microsoft/vscode-discussions",
+    "language": null,
+    "pushed_at": "2024-01-27T00:46:19Z",
+    "stargazers_count": 255,
+    "topics": [],
+    "updated_at": "2026-04-17T09:29:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vscode-extension-samples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

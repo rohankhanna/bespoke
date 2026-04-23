@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:31:19.485874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2002
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mitsuba renderer main repository",
+    "fork": false,
+    "full_name": "mitsuba-renderer/mitsuba",
+    "html_url": "https://github.com/mitsuba-renderer/mitsuba",
+    "language": "C++",
+    "pushed_at": "2023-09-11T19:45:29Z",
+    "stargazers_count": 1103,
+    "topics": [],
+    "updated_at": "2026-04-13T08:32:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "target": "aws/aws-controllers-k8s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "target": "aws-controllers-k8s/.github/.github/workflows/reusable-create-release.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yaml",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "target": "aws-controllers-k8s/.github/.github/workflows/reusable-postsubmit.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/postsubmit.yaml",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "target": "Hydrate Go Proxy",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "aws-controllers-k8s/code-generator"
+}

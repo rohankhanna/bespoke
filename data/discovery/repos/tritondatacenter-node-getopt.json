@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "TritonDataCenter/node-getopt",
+      "target": "davepacheco/node-getopt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:38:09.358815+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10930
+    },
+    {
+      "path": "package.json",
+      "size": 402
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "POSIX-style getopt() for Node.js",
+    "fork": false,
+    "full_name": "TritonDataCenter/node-getopt",
+    "html_url": "https://github.com/TritonDataCenter/node-getopt",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-01T15:11:07Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2022-08-16T23:06:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davepacheco/node-getopt",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

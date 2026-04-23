@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Apply labels on a new issue"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/alloy",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Collector distribution with programmable pipelines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/alloy",
+      "status": "candidate-context",
+      "text": "'Apply labels on a new issue'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/alloy",
+      "status": "candidate",
+      "text": "'Apply labels on a new issue'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33990,
+      "status": "candidate",
+      "text": "mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33787,
+      "status": "candidate",
+      "text": "appeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33711,
+      "status": "candidate",
+      "text": "postage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33592,
+      "status": "candidate",
+      "text": "propagate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33490,
+      "status": "candidate",
+      "text": "reissue"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Apply labels on a new issue",
+  "concept_id": "apply-labels-on-a-new-issue",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/auto-apply-component-labels.yml",
+      "source_repo": "grafana/alloy"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Apply labels on a new issue",
+      "sense_id": "apply-labels-on-a-new-issue#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

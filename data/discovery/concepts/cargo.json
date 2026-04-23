@@ -115,6 +115,78 @@
       "source_repo": "dtolnay/cargo-expand",
       "status": "candidate-context",
       "text": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-dtolnay/cargo--expand-8da0cb?style=for-the-badge&labelColor=555555&logo=github\" height=\"20\">](https://github.com/dtolnay/cargo-expand)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axodotdev/cargo-dist",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 shippable application packaging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodotdev/cargo-dist",
+      "status": "candidate-context",
+      "text": "<div class=\"oranda-hide\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "status": "candidate-context",
+      "text": "Build library for finding native libraries in vcpkg for Rust - Windows (msvc), Linux and macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "status": "candidate-context",
+      "text": "[Documentation](https://docs.rs/vcpkg) [Changelog](CHANGELOG.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/cargo-about",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdc Cargo plugin to generate list of all licenses for a crate \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-about",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable no-inline-html first-line-heading no-emphasis-as-heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/cargo-deny",
+      "status": "candidate-context",
+      "text": "\u274c Cargo plugin for linting your dependencies \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-deny",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable no-inline-html first-line-heading no-emphasis-as-heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustsec/rustsec",
+      "status": "candidate-context",
+      "text": "RustSec API & Tooling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustsec/rustsec",
+      "status": "candidate-context",
+      "text": "The RustSec Advisory Database is a repository of security advisories filed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/cargo-deny-action",
+      "status": "candidate-context",
+      "text": "\u274c GitHub Action for cargo-deny \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-deny-action",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +243,42 @@
       "source_repo": "dtolnay/cargo-expand",
       "status": "candidate",
       "text": "[<img alt=\"github\" src=\"https://img.shields.io/badge/github-dtolnay/cargo--expand-8da0cb?style=for-the-badge&labelColor=555555&logo=github\" height=\"20\">](https://github.com/dtolnay/cargo-expand)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodotdev/cargo-dist",
+      "status": "candidate",
+      "text": "<div class=\"oranda-hide\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "status": "candidate",
+      "text": "[Documentation](https://docs.rs/vcpkg) [Changelog](CHANGELOG.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-about",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable no-inline-html first-line-heading no-emphasis-as-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-deny",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable no-inline-html first-line-heading no-emphasis-as-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustsec/rustsec",
+      "status": "candidate",
+      "text": "The RustSec Advisory Database is a repository of security advisories filed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-deny-action",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -304,11 +412,53 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "dtolnay/cargo-expand"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "axodotdev/cargo-dist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mcgoo/vcpkg-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/cargo-about"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/cargo-deny"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cargo-generate/cargo-generate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rustsec/rustsec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/cargo-deny-action"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

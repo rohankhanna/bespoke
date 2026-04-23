@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Production-ready retry library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Release](https://img.shields.io/github/release/codeGROOVE-dev/retry.svg?style=flat-square)](https://github.com/codeGROOVE-dev/retry/releases/latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/codeGROOVE-dev/retry.svg?style=flat-square)](https://github.com/codeGROOVE-dev/retry/releases/latest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007366,
+      "status": "candidate",
+      "text": "rehear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006590,
+      "status": "candidate",
+      "text": "retrieve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006533,
+      "status": "candidate",
+      "text": "recover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006239,
+      "status": "candidate",
+      "text": "repeat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990538,
+      "status": "candidate",
+      "text": "attempt"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "retry",
+      "sense_id": "retry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "rehear"
+    }
+  ],
+  "concept_id": "retry",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "retry",
+  "observation_id": "ddaab49b3677fede",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "retry",
+  "source_context_snippet": "[![Release](https://img.shields.io/github/release/codeGROOVE-dev/retry.svg?style=flat-square)](https://github.com/codeGROOVE-dev/retry/releases/latest)",
+  "source_file": null,
+  "source_repo": "codeGROOVE-dev/retry",
+  "source_repo_description": "Production-ready retry library for Go"
+}

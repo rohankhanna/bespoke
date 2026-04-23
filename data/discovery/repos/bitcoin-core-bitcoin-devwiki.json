@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:40:56.993682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 71
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Wiki for Bitcoin Core development",
+    "fork": false,
+    "full_name": "bitcoin-core/bitcoin-devwiki",
+    "html_url": "https://github.com/bitcoin-core/bitcoin-devwiki",
+    "language": null,
+    "pushed_at": "2024-03-08T19:05:52Z",
+    "stargazers_count": 87,
+    "topics": [],
+    "updated_at": "2026-04-11T20:36:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

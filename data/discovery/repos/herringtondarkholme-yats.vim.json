@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "camel-case",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-upper-case",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HerringtonDarkholme/yats.vim",
+      "target": "othree/yajs.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HerringtonDarkholme/yats.vim",
+      "target": "vim-scripts/syntaxcomplete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HerringtonDarkholme/yats.vim",
+      "target": "camel-case",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HerringtonDarkholme/yats.vim",
+      "target": "is-upper-case",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "HerringtonDarkholme/yats.vim",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "HerringtonDarkholme/yats.vim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "HerringtonDarkholme/yats.vim",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HerringtonDarkholme/yats.vim",
+      "target": "viml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:47:27.991622+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2568
+    },
+    {
+      "path": "package.json",
+      "size": 258
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Yet Another TypeScript Syntax: The most advanced TypeScript Syntax Highlighting in Vim",
+    "fork": false,
+    "full_name": "HerringtonDarkholme/yats.vim",
+    "html_url": "https://github.com/HerringtonDarkholme/yats.vim",
+    "language": "Vim Script",
+    "pushed_at": "2025-12-09T20:45:05Z",
+    "stargazers_count": 666,
+    "topics": [
+      "viml"
+    ],
+    "updated_at": "2026-04-18T04:39:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "othree/yajs.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim-scripts/syntaxcomplete",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "YATS: Yet Another TypeScript Syntax",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "viml"
+    }
+  ]
+}

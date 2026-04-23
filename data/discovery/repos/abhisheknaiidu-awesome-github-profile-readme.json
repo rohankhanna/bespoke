@@ -1,0 +1,219 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml"
+    },
+    {
+      "component": "creyD/prettier_action@v2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "abhisheknaiidu/abhisheknaiidu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "8bithemant/8bithemant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "abhishekmaira10/abhishekmaira10",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "abhisheknaiidu/todoist-readme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "creyD/prettier_action@v2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prettier.yml",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "Continuous Integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "github-profile-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "github-readme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "portfolio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "target": "profile-readme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:28:47.803872+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25849
+    },
+    {
+      "path": ".github/workflows/prettier.yml",
+      "size": 335
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\ude0e A curated list of awesome GitHub Profile which updates in real time ",
+    "fork": false,
+    "full_name": "abhisheknaiidu/awesome-github-profile-readme",
+    "html_url": "https://github.com/abhisheknaiidu/awesome-github-profile-readme",
+    "language": null,
+    "pushed_at": "2026-03-03T07:35:24Z",
+    "stargazers_count": 29751,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "github",
+      "github-profile-readme",
+      "github-readme",
+      "portfolio",
+      "profile-readme"
+    ],
+    "updated_at": "2026-04-23T07:13:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "8bithemant/8bithemant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abhishekmaira10/abhishekmaira10",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abhisheknaiidu/abhisheknaiidu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abhisheknaiidu/todoist-readme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prettier.yml",
+      "term": "Continuous Integration"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Awesome GitHub Profile README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Awesome GitHub Profile README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Awesome GitHub Profile README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Awesome GitHub Profile README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-profile-readme"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Awesome GitHub Profile README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-readme"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Awesome GitHub Profile README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portfolio"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">Awesome GitHub Profile README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile-readme"
+    }
+  ]
+}

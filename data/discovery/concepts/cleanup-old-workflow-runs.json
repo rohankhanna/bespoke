@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cleanup Old Workflow Runs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spotbugs/spotbugs-maven-plugin",
+      "status": "candidate-context",
+      "text": "Maven Mojo Plug-In to generate reports based on the SpotBugs Analyzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs-maven-plugin",
+      "status": "candidate-context",
+      "text": "Cleanup Old Workflow Runs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spotbugs/spotbugs-maven-plugin",
+      "status": "candidate",
+      "text": "Cleanup Old Workflow Runs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37226,
+      "status": "candidate",
+      "text": "effluent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36849,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36495,
+      "status": "candidate",
+      "text": "wash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36473,
+      "status": "candidate",
+      "text": "cycle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36452,
+      "status": "candidate",
+      "text": "cleaned"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cleanup Old Workflow Runs",
+  "concept_id": "cleanup-old-workflow-runs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cleanup.yaml",
+      "source_repo": "spotbugs/spotbugs-maven-plugin"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup Old Workflow Runs",
+      "sense_id": "cleanup-old-workflow-runs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

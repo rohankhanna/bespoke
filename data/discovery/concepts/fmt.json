@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "fmt"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wezterm/wezterm",
+      "status": "candidate-context",
+      "text": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wezterm/wezterm",
+      "status": "candidate-context",
+      "text": "fmt"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wezterm/wezterm",
+      "status": "candidate",
+      "text": "fmt"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19849175,
+      "status": "candidate",
+      "text": "mechanism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840261,
+      "status": "candidate",
+      "text": "machinery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19835709,
+      "status": "candidate",
+      "text": "mtf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19820581,
+      "status": "candidate",
+      "text": "mob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19729569,
+      "status": "candidate",
+      "text": "fmr"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "fmt",
+  "concept_id": "fmt",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/fmt.yml",
+      "source_repo": "wezterm/wezterm"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "fmt",
+      "sense_id": "fmt#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

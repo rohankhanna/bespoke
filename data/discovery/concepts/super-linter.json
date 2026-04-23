@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Super-Linter"
+    "Super-Linter",
+    "super-linter"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,12 +22,66 @@
       "source_repo": "hajimes/mmh3",
       "status": "candidate-context",
       "text": "Super-Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "status": "candidate-context",
+      "text": "Autoupdate plugin for zgen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "status": "candidate-context",
+      "text": "Super-Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Combination of multiple linters to run as a GitHub Action or standalone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Super-linter is a ready-to-run collection of linters and code analyzers, to help"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/autoupdate-zgenom",
+      "status": "candidate-context",
+      "text": "ZSH Plugin for updating zgenom and its plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/autoupdate-zgenom",
+      "status": "candidate-context",
+      "text": "Super-Linter"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "hajimes/mmh3",
+      "status": "candidate",
+      "text": "Super-Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "status": "candidate",
+      "text": "Super-Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate",
+      "text": "Super-linter is a ready-to-run collection of linters and code analyzers, to help"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/autoupdate-zgenom",
       "status": "candidate",
       "text": "Super-Linter"
     }
@@ -40,11 +97,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/superlinter.yml",
       "source_repo": "hajimes/mmh3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/superlinter.yml",
+      "source_repo": "unixorn/autoupdate-zgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "super-linter/super-linter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/superlinter.yml",
+      "source_repo": "unixorn/autoupdate-zgenom"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

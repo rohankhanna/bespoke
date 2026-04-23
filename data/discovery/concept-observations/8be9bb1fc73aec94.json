@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Rust ASN.1 (DER) serializer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ClusterFuzzLite batch fuzzing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ClusterFuzzLite batch fuzzing"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16154,
+      "status": "candidate",
+      "text": "fuzz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14654,
+      "status": "candidate",
+      "text": "fuzzy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4870,
+      "status": "candidate",
+      "text": "clarifying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4870,
+      "status": "candidate",
+      "text": "defuzzing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4870,
+      "status": "candidate",
+      "text": "refining"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ClusterFuzzLite batch fuzzing",
+      "sense_id": "clusterfuzzlite-batch-fuzzing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "clusterfuzzlite-batch-fuzzing",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "clusterfuzzlite-batch-fuzzing",
+  "observation_id": "8be9bb1fc73aec94",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "ClusterFuzzLite batch fuzzing",
+  "source_context_snippet": "ClusterFuzzLite batch fuzzing",
+  "source_file": ".github/workflows/fuzz-cron.yml",
+  "source_repo": "alex/rust-asn1",
+  "source_repo_description": "A Rust ASN.1 (DER) serializer."
+}

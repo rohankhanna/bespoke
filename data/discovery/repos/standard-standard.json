@@ -138,21 +138,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "standard/eslint-config-standard",
+      "target": "standard/semistandard",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "standard/eslint-config-standard-jsx",
+      "target": "standard/eslint-config-standard-with-typescript",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "standard/standard",
-      "target": "standard/awesome-standard",
+      "target": "standard/snazzy",
       "target_type": "repository"
     },
     {
@@ -408,7 +408,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T19:15:32.427359+00:00",
+  "fetched_at": "2026-04-23T08:33:00.812702+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -445,7 +445,7 @@
     "html_url": "https://github.com/standard/standard",
     "language": "JavaScript",
     "pushed_at": "2025-07-11T08:28:23Z",
-    "stargazers_count": 29439,
+    "stargazers_count": 29440,
     "topics": [
       "development",
       "ecmascript",
@@ -458,7 +458,7 @@
       "static-code-analysis",
       "style-guide"
     ],
-    "updated_at": "2026-04-22T13:57:37Z"
+    "updated_at": "2026-04-23T05:56:06Z"
   },
   "repo_links": [
     {
@@ -468,17 +468,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "standard/awesome-standard",
+      "full_name": "standard/eslint-config-standard-with-typescript",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "standard/eslint-config-standard",
+      "full_name": "standard/semistandard",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "standard/eslint-config-standard-jsx",
+      "full_name": "standard/snazzy",
       "source_file": "README.md"
     }
   ],

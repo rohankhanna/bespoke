@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:40:32.314779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 303
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of fts(3) for musl libc packages in Void Linux",
+    "fork": true,
+    "full_name": "pullmoll/musl-fts",
+    "html_url": "https://github.com/pullmoll/musl-fts",
+    "language": "C",
+    "pushed_at": "2024-02-26T08:54:09Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-08-21T01:54:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

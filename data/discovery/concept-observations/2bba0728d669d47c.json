@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Command Line Interface for Managing ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Windows Specific Commands\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Windows Specific Commands\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19347,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19347,
+      "status": "candidate",
+      "text": "temperament"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19325,
+      "status": "candidate",
+      "text": "family planning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19325,
+      "status": "candidate",
+      "text": "flats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19325,
+      "status": "candidate",
+      "text": "flatter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows Specific Commands",
+      "sense_id": "windows-specific-commands#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "windows-specific-commands",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "windows-specific-commands",
+  "observation_id": "2bba0728d669d47c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Windows Specific Commands",
+  "source_context_snippet": "\"Windows Specific Commands\"",
+  "source_file": ".github/workflows/test-windows.yml",
+  "source_repo": "Comfy-Org/comfy-cli",
+  "source_repo_description": "Command Line Interface for Managing ComfyUI"
+}

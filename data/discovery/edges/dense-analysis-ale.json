@@ -11,21 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dense-analysis/ale",
-      "target": "neovim/nvim-lspconfig",
+      "target": "styled-components/stylelint-processor-styled-components",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dense-analysis/ale",
-      "target": "prabirshrestha/vim-lsp",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "dense-analysis/ale",
-      "target": "rhysd/vim-lsp-ale",
+      "target": "vuejs/eslint-plugin-vue",
       "target_type": "repository"
     },
     {
@@ -106,6 +99,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "dense-analysis/ale"
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Conventional Commit Validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate-context",
+      "text": "TypeScript & JavaScript Language Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate-context",
+      "text": "Conventional Commit Validation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate",
+      "text": "Conventional Commit Validation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20441,
+      "status": "candidate",
+      "text": "verification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20139,
+      "status": "candidate",
+      "text": "confirmation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20139,
+      "status": "candidate",
+      "text": "proof"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20139,
+      "status": "candidate",
+      "text": "ratification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20139,
+      "status": "candidate",
+      "text": "support"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Conventional Commit Validation",
+  "concept_id": "conventional-commit-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/semantic-commits.yaml",
+      "source_repo": "typescript-language-server/typescript-language-server"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Conventional Commit Validation",
+      "sense_id": "conventional-commit-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

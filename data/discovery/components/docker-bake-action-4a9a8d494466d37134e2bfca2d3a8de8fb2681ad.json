@@ -1,0 +1,12 @@
+{
+  "component": "docker/bake-action@4a9a8d494466d37134e2bfca2d3a8de8fb2681ad",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "deepset-ai/hayhooks"
+    }
+  ]
+}

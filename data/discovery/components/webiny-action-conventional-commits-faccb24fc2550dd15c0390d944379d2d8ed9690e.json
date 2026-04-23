@@ -1,0 +1,12 @@
+{
+  "component": "webiny/action-conventional-commits@faccb24fc2550dd15c0390d944379d2d8ed9690e",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "blinklabs-io/bluefin"
+    }
+  ]
+}

@@ -110,6 +110,66 @@
       "source_repo": "nektos/act",
       "status": "candidate-context",
       "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenManus/OpenManus-RL",
+      "status": "candidate-context",
+      "text": "A live stream development of RL tunning for LLM agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenManus/OpenManus-RL",
+      "status": "candidate-context",
+      "text": "codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xyflow/xyflow",
+      "status": "candidate-context",
+      "text": "React Flow |\u00a0Svelte Flow - Powerful open source libraries for building node-based UIs with React (https://reactflow.dev) or Svelte (https://svelteflow.dev). Ready out-of-the-box and infinitely customizable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xyflow/xyflow",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "netblue30/firejail",
+      "status": "candidate-context",
+      "text": "Linux namespaces and seccomp-bpf sandbox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netblue30/firejail",
+      "status": "candidate-context",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FreeRDP/FreeRDP",
+      "status": "candidate-context",
+      "text": "FreeRDP is a free remote desktop protocol library and clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreeRDP/FreeRDP",
+      "status": "candidate-context",
+      "text": "codespell"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate-context",
+      "text": "Command line tool to create and query container image manifest list/indexes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate-context",
+      "text": "Codespell"
     }
   ],
   "candidate_glosses": [
@@ -158,6 +218,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nektos/act",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenManus/OpenManus-RL",
+      "status": "candidate",
+      "text": "codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xyflow/xyflow",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "netblue30/firejail",
+      "status": "candidate",
+      "text": "Codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreeRDP/FreeRDP",
+      "status": "candidate",
+      "text": "codespell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/manifest-tool",
       "status": "candidate",
       "text": "Codespell"
     }
@@ -227,11 +317,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/codespell.yml",
       "source_repo": "nektos/act"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "OpenManus/OpenManus-RL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "xyflow/xyflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "netblue30/firejail"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "FreeRDP/FreeRDP"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "estesp/manifest-tool"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

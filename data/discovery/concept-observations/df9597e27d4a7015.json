@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open-source pan-CJK font families with enormous range of weights, the CJK sans and serif you have dreamed of."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u8bf7\u524d\u5f80[**\u53d1\u5e03\u9875\u9762**](https://github.com/Pal3love/dream-han-cjk/releases)\u4e0b\u8f7d\u6700\u65b0\u7248\u672c\u7684\u538b\u7f29\u5305\uff0c\u89e3\u538b\u540e\u5373\u53ef\u5f97\u5230 TTF/TTC \u5b57\u4f53\u6587\u4ef6\u3002\u5f53\u524d\u9875\u9762\u7684\u201cCode\u201d\u6309\u94ae\u4ec5\u5305\u542b\u4ee3\u7801\u548c\u6e90\u6587\u4ef6\uff0c\u4e0d\u5305\u542b\u5b57\u4f53\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u8bf7\u524d\u5f80[**\u53d1\u5e03\u9875\u9762**](https://github.com/Pal3love/dream-han-cjk/releases)\u4e0b\u8f7d\u6700\u65b0\u7248\u672c\u7684\u538b\u7f29\u5305\uff0c\u89e3\u538b\u540e\u5373\u53ef\u5f97\u5230 TTF/TTC \u5b57\u4f53\u6587\u4ef6\u3002\u5f53\u524d\u9875\u9762\u7684\u201cCode\u201d\u6309\u94ae\u4ec5\u5305\u542b\u4ee3\u7801\u548c\u6e90\u6587\u4ef6\uff0c\u4e0d\u5305\u542b\u5b57\u4f53\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "source-han-sans",
+      "sense_id": "source-han-sans#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "source-han-sans",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "source-han-sans",
+  "observation_id": "df9597e27d4a7015",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "source-han-sans",
+  "source_context_snippet": "\u8bf7\u524d\u5f80[**\u53d1\u5e03\u9875\u9762**](https://github.com/Pal3love/dream-han-cjk/releases)\u4e0b\u8f7d\u6700\u65b0\u7248\u672c\u7684\u538b\u7f29\u5305\uff0c\u89e3\u538b\u540e\u5373\u53ef\u5f97\u5230 TTF/TTC \u5b57\u4f53\u6587\u4ef6\u3002\u5f53\u524d\u9875\u9762\u7684\u201cCode\u201d\u6309\u94ae\u4ec5\u5305\u542b\u4ee3\u7801\u548c\u6e90\u6587\u4ef6\uff0c\u4e0d\u5305\u542b\u5b57\u4f53\u3002",
+  "source_file": null,
+  "source_repo": "Pal3love/dream-han-cjk",
+  "source_repo_description": "Open-source pan-CJK font families with enormous range of weights, the CJK sans and serif you have dreamed of."
+}

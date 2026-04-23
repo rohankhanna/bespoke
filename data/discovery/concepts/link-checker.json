@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Link Checker"
+    "Link Checker",
+    "link-checker"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,12 +22,84 @@
       "source_repo": "PaddlePaddle/PaddleOCR",
       "status": "candidate-context",
       "text": "Link Checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate-context",
+      "text": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate-context",
+      "text": "'Link Checker'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate-context",
+      "text": "\u26a1 Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mahmoud/awesome-python-applications",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbf Free software that works great, and also happens to be open-source Python. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoud/awesome-python-applications",
+      "status": "candidate-context",
+      "text": "Link Checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "op-rs/kona",
+      "status": "candidate-context",
+      "text": "Monorepo for OP Stack Types, Components, and Services built in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/kona",
+      "status": "candidate-context",
+      "text": "Link Checker"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "PaddlePaddle/PaddleOCR",
+      "status": "candidate",
+      "text": "Link Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate",
+      "text": "'Link Checker'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mahmoud/awesome-python-applications",
+      "status": "candidate",
+      "text": "Link Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/kona",
       "status": "candidate",
       "text": "Link Checker"
     }
@@ -76,11 +151,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/link-check.yml",
       "source_repo": "PaddlePaddle/PaddleOCR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/md-link-check.yml",
+      "source_repo": "alibaba/spring-cloud-alibaba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lycheeverse/lychee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "mahmoud/awesome-python-applications"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lychee.yaml",
+      "source_repo": "op-rs/kona"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

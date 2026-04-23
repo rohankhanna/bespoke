@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:41:11.259319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4759
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Details about the rust-embedded-community project",
+    "fork": false,
+    "full_name": "rust-embedded-community/meta",
+    "html_url": "https://github.com/rust-embedded-community/meta",
+    "language": null,
+    "pushed_at": "2025-06-25T09:35:01Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2025-08-04T08:33:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

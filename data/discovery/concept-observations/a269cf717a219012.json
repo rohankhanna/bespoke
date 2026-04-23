@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Display paginated content in the browser and generate print books using web technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img style=\"display: block; margin: 5em 0 auto;\" src=\"assets/pagedjs.png\" alt=\"Paged.js logo - pagination in the browser\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img style=\"display: block; margin: 5em 0 auto;\" src=\"assets/pagedjs.png\" alt=\"Paged.js logo - pagination in the browser\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035973,
+      "status": "candidate",
+      "text": "impression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043799,
+      "status": "candidate",
+      "text": "printing process"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043798,
+      "status": "candidate",
+      "text": "printout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043287,
+      "status": "candidate",
+      "text": "print-out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042794,
+      "status": "candidate",
+      "text": "printer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "printing",
+      "sense_id": "printing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21048,
+      "status": "candidate",
+      "text": "impression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "printing process"
+    }
+  ],
+  "concept_id": "printing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "printing",
+  "observation_id": "a269cf717a219012",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "printing",
+  "source_context_snippet": "<img style=\"display: block; margin: 5em 0 auto;\" src=\"assets/pagedjs.png\" alt=\"Paged.js logo - pagination in the browser\"/>",
+  "source_file": null,
+  "source_repo": "pagedjs/pagedjs",
+  "source_repo_description": "Display paginated content in the browser and generate print books using web technology"
+}

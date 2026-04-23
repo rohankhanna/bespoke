@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "depado/github-actions/.github/workflows/golang.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "depado/bfchroma",
+      "target": "depado/smallblog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "depado/bfchroma",
+      "target": "depado/github-actions/.github/workflows/golang.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "depado/bfchroma",
+      "target": "blackfriday",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "depado/bfchroma",
+      "target": "blackfriday-renderer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "depado/bfchroma",
+      "target": "chroma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "depado/bfchroma",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "depado/bfchroma",
+      "target": "markdown-to-html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "depado/bfchroma",
+      "target": "syntax-highlighting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:37:10.331222+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6128
+    },
+    {
+      "path": "go.mod",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Integrating Chroma syntax highlighter as a Blackfriday renderer",
+    "fork": false,
+    "full_name": "depado/bfchroma",
+    "html_url": "https://github.com/depado/bfchroma",
+    "language": "Go",
+    "pushed_at": "2026-03-27T14:56:53Z",
+    "stargazers_count": 62,
+    "topics": [
+      "blackfriday",
+      "blackfriday-renderer",
+      "chroma",
+      "markdown",
+      "markdown-to-html",
+      "syntax-highlighting"
+    ],
+    "updated_at": "2026-03-27T14:55:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "depado/smallblog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blackfriday"
+    },
+    {
+      "context_snippet": "[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blackfriday-renderer"
+    },
+    {
+      "context_snippet": "[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chroma"
+    },
+    {
+      "context_snippet": "[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown-to-html"
+    },
+    {
+      "context_snippet": "[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-highlighting"
+    }
+  ]
+}

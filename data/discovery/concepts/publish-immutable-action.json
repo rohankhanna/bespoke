@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish immutable action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/cache",
+      "status": "candidate-context",
+      "text": "Cache dependencies and build outputs in GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/cache",
+      "status": "candidate-context",
+      "text": "Publish immutable action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/cache",
+      "status": "candidate",
+      "text": "Publish immutable action"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28553,
+      "status": "candidate",
+      "text": "promulgate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25153,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25153,
+      "status": "candidate",
+      "text": "pressed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25111,
+      "status": "candidate",
+      "text": "protest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25091,
+      "status": "candidate",
+      "text": "disperse"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish immutable action",
+  "concept_id": "publish-immutable-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish-immutable-actions.yml",
+      "source_repo": "actions/cache"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish immutable action",
+      "sense_id": "publish-immutable-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

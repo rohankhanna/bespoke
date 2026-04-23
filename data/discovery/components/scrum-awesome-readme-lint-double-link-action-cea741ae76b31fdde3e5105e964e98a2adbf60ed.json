@@ -1,0 +1,12 @@
+{
+  "component": "Scrum/awesome-readme-lint-double-link-action@cea741ae76b31fdde3e5105e964e98a2adbf60ed",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/readme-lint-double-link.yml",
+      "source_repo": "vuejs/awesome-vue"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hugapi/hug",
+      "target": "falconry/falcon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hugapi/hug",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hugapi/hug",
+      "target": "falcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hugapi/hug",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hugapi/hug",
+      "target": "http-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hugapi/hug",
+      "target": "hug-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hugapi/hug",
+      "target": "python-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hugapi/hug",
+      "target": "python3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:35:02.305444+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15236
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 235
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Embrace the APIs of the future. Hug aims to make developing APIs as simple as possible, but no simpler.",
+    "fork": false,
+    "full_name": "hugapi/hug",
+    "html_url": "https://github.com/hugapi/hug",
+    "language": "Python",
+    "pushed_at": "2024-07-04T14:37:30Z",
+    "stargazers_count": 6894,
+    "topics": [
+      "command-line",
+      "falcon",
+      "http",
+      "http-server",
+      "hug-api",
+      "python",
+      "python-api",
+      "python3"
+    ],
+    "updated_at": "2026-04-23T01:19:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "falconry/falcon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "falcon"
+    },
+    {
+      "context_snippet": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-server"
+    },
+    {
+      "context_snippet": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hug-api"
+    },
+    {
+      "context_snippet": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-api"
+    },
+    {
+      "context_snippet": "[![HUG](https://raw.github.com/hugapi/hug/develop/artwork/logo.png)](http://hug.rest)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    }
+  ]
+}

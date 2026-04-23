@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/attach_debug_apks_to_release.yml",
+      "source_repo": "termux/termux-app"
+    }
+  ],
+  "term": "Attach Debug APKs To Release"
+}

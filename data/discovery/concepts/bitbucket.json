@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "bitbucket"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "renovate \u2014 Automated dependency updates. Flexible so you don't need to be."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate",
+      "text": "renovate \u2014 Automated dependency updates. Flexible so you don't need to be."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019884,
+      "status": "candidate",
+      "text": "bit-bucket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019883,
+      "status": "candidate",
+      "text": "drop-box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019882,
+      "status": "candidate",
+      "text": "drop box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019881,
+      "status": "candidate",
+      "text": "firebucket"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019880,
+      "status": "candidate",
+      "text": "fire-bucket"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bitbucket",
+  "concept_id": "bitbucket",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "renovatebot/renovate"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bitbucket",
+      "sense_id": "bitbucket#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:40:32.840061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The libdispatch Project, (a.k.a. Grand Central Dispatch), for concurrency on multicore hardware",
+    "fork": true,
+    "full_name": "tpoechtrager/apple-libdispatch",
+    "html_url": "https://github.com/tpoechtrager/apple-libdispatch",
+    "language": "C",
+    "pushed_at": "2025-08-16T10:38:25Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-08-16T10:38:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

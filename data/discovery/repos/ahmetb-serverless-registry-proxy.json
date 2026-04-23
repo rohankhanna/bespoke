@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "target": "artifact-registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "target": "cloud-run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "target": "docker-hub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "target": "gcr-registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "target": "google-artifact-registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "target": "google-cloud-run",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:35:33.842734+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6846
+    },
+    {
+      "path": "Dockerfile",
+      "size": 380
+    },
+    {
+      "path": "go.mod",
+      "size": 42
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 465
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Serverless reverse proxy for exposing container registries (GCR, Docker Hub, Artifact Registry etc) on custom domains.",
+    "fork": false,
+    "full_name": "ahmetb/serverless-registry-proxy",
+    "html_url": "https://github.com/ahmetb/serverless-registry-proxy",
+    "language": "Go",
+    "pushed_at": "2023-12-27T12:47:18Z",
+    "stargazers_count": 269,
+    "topics": [
+      "artifact-registry",
+      "cloud-run",
+      "docker-hub",
+      "gcr",
+      "gcr-registry",
+      "google-artifact-registry",
+      "google-cloud-run"
+    ],
+    "updated_at": "2026-03-11T04:03:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project offers a very simple reverse proxy that lets you expose your public",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artifact-registry"
+    },
+    {
+      "context_snippet": "This project offers a very simple reverse proxy that lets you expose your public",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-run"
+    },
+    {
+      "context_snippet": "This project offers a very simple reverse proxy that lets you expose your public",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-hub"
+    },
+    {
+      "context_snippet": "This project offers a very simple reverse proxy that lets you expose your public",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gcr-registry"
+    },
+    {
+      "context_snippet": "This project offers a very simple reverse proxy that lets you expose your public",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-artifact-registry"
+    },
+    {
+      "context_snippet": "This project offers a very simple reverse proxy that lets you expose your public",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-run"
+    }
+  ]
+}

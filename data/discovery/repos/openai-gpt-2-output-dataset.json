@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:39:58.585155+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2016
+    },
+    {
+      "path": "requirements.txt",
+      "size": 95
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dataset of GPT-2 outputs for research in detection, biases, and more",
+    "fork": false,
+    "full_name": "openai/gpt-2-output-dataset",
+    "html_url": "https://github.com/openai/gpt-2-output-dataset",
+    "language": "Python",
+    "pushed_at": "2023-12-13T03:03:19Z",
+    "stargazers_count": 2028,
+    "topics": [],
+    "updated_at": "2026-04-19T20:50:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

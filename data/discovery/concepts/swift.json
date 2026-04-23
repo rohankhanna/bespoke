@@ -82,6 +82,132 @@
       "source_repo": "ggerganov/whisper.spm",
       "status": "candidate-context",
       "text": "Swift"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-crypto",
+      "status": "candidate-context",
+      "text": "Open-source implementation of a substantial portion of the API of Apple CryptoKit suitable for use on Linux platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-crypto",
+      "status": "candidate-context",
+      "text": "Swift Crypto is an open-source implementation of a substantial portion of the API of [Apple CryptoKit](https://developer.apple.com/documentation/cryptokit) suitable for use on Linux and ARM64 Windows platforms. It enables cross-platform or server applications with the advantages\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yonaskolb/XcodeGen",
+      "status": "candidate-context",
+      "text": "A Swift command line tool for generating your Xcode project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/XcodeGen",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate-context",
+      "text": "Collection of utilities and Bazel rules to aid in the development and maintenance of Swift repositories using Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/cgrindel/rules_swift_package_manager/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/cgrindel/rules_swift_package_manager/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amebalabs/TRex",
+      "status": "candidate-context",
+      "text": "Copy any text on your screen, stop retyping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amebalabs/TRex",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/github/license/amebalabs/TRex.svg)](https://github.com/amebalabs/TRex/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AudioKit/AudioKit",
+      "status": "candidate-context",
+      "text": "Audio synthesis, processing, & analysis platform for iOS, macOS and tvOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AudioKit/AudioKit",
+      "status": "candidate-context",
+      "text": "Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AudioKit/AudioKit",
+      "status": "candidate-context",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "Emacs client/library for the Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jakeheis/SwiftCLI",
+      "status": "candidate-context",
+      "text": "A powerful framework for developing CLIs in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakeheis/SwiftCLI",
+      "status": "candidate-context",
+      "text": "SwiftCLI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpsim/Yams",
+      "status": "candidate-context",
+      "text": "A Sweet and Swifty YAML parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpsim/Yams",
+      "status": "candidate-context",
+      "text": "![Yams](https://raw.githubusercontent.com/jpsim/Yams/main/yams.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/NumKong",
+      "status": "candidate-context",
+      "text": "SIMD-accelerated distances, dot products, matrix ops, geospatial & geometric kernels for 16 numeric types \u2014 from 6-bit floats to 64-bit complex \u2014 across x86, Arm, RISC-V, and WASM, with bindings for Python, Rust, C, C++, Swift, JS, and Go \ud83d\udcd0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumKong",
+      "status": "candidate-context",
+      "text": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peggyrayzis/react-native-create-bridge",
+      "status": "candidate-context",
+      "text": "A CLI tool that bridges React Native modules & UI components with ease \ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peggyrayzis/react-native-create-bridge",
+      "status": "candidate-context",
+      "text": "Bridging native modules & UI components made easy! If you're a JavaScript developer writing your first lines of native code or a more experienced developer looking to eliminate boilerplate from your React Native workflow, this tool is for you."
     }
   ],
   "candidate_glosses": [
@@ -120,6 +246,72 @@
       "source_repo": "ggerganov/whisper.spm",
       "status": "candidate",
       "text": "Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-crypto",
+      "status": "candidate",
+      "text": "Swift Crypto is an open-source implementation of a substantial portion of the API of [Apple CryptoKit](https://developer.apple.com/documentation/cryptokit) suitable for use on Linux and ARM64 Windows platforms. It enables cross-platform or server applications with the advantages\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/XcodeGen",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cgrindel/rules_swift_package_manager",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/cgrindel/rules_swift_package_manager/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/cgrindel/rules_swift_package_manager/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amebalabs/TRex",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/github/license/amebalabs/TRex.svg)](https://github.com/amebalabs/TRex/blob/master/LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AudioKit/AudioKit",
+      "status": "candidate",
+      "text": "Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AudioKit/AudioKit",
+      "status": "candidate",
+      "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jakeheis/SwiftCLI",
+      "status": "candidate",
+      "text": "SwiftCLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpsim/Yams",
+      "status": "candidate",
+      "text": "![Yams](https://raw.githubusercontent.com/jpsim/Yams/main/yams.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumKong",
+      "status": "candidate",
+      "text": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peggyrayzis/react-native-create-bridge",
+      "status": "candidate",
+      "text": "Bridging native modules & UI components made easy! If you're a JavaScript developer writing your first lines of native code or a more experienced developer looking to eliminate boilerplate from your React Native workflow, this tool is for you."
     }
   ],
   "candidate_related_terms": [
@@ -241,11 +433,83 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/swift.yml",
       "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apple/swift-crypto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "yonaskolb/XcodeGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cgrindel/rules_swift_package_manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "amebalabs/TRex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "AudioKit/AudioKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AudioKit/AudioKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jakeheis/SwiftCLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jpsim/Yams"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "peggyrayzis/react-native-create-bridge"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

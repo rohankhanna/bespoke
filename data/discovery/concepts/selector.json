@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "selector"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "br14n-sol/inquirer-file-selector",
+      "status": "candidate-context",
+      "text": "Inquirer file selector prompt, you can navigate freely between directories, choose what type of files you want to allow and it is fully customizable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "br14n-sol/inquirer-file-selector",
+      "status": "candidate-context",
+      "text": "A prompt implementation for [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) that allows users to interactively select files or directories in the terminal."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "br14n-sol/inquirer-file-selector",
+      "status": "candidate",
+      "text": "A prompt implementation for [Inquirer.js](https://github.com/SBoudrias/Inquirer.js) that allows users to interactively select files or directories in the terminal."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030581,
+      "status": "candidate",
+      "text": "selector switch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030580,
+      "status": "candidate",
+      "text": "selection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030512,
+      "status": "candidate",
+      "text": "chooser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030482,
+      "status": "candidate",
+      "text": "choosing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030426,
+      "status": "candidate",
+      "text": "choice"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "selector switch"
+    }
+  ],
+  "canonical_name": "selector",
+  "concept_id": "selector",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "br14n-sol/inquirer-file-selector"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "selector",
+      "sense_id": "selector#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

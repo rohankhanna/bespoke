@@ -19,6 +19,18 @@
       "source_repo": "IDLabMedia/large-lightfields-dataset",
       "status": "candidate-context",
       "text": "<div class=\"thumbnails in-body\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDLabMedia/blender-lightfield-addon",
+      "status": "candidate-context",
+      "text": "Blender addon to configure and render light fields"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDLabMedia/blender-lightfield-addon",
+      "status": "candidate-context",
+      "text": "<img src=\"https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat\" /> <img src=\"https://img.shields.io/badge/compatible-3.0+-orange?logo=blender&style=flat\" />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "IDLabMedia/large-lightfields-dataset",
       "status": "candidate",
       "text": "<div class=\"thumbnails in-body\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDLabMedia/blender-lightfield-addon",
+      "status": "candidate",
+      "text": "<img src=\"https://img.shields.io/badge/compatible-2.8+-orange?logo=blender&style=flat\" /> <img src=\"https://img.shields.io/badge/compatible-3.0+-orange?logo=blender&style=flat\" />"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "IDLabMedia/large-lightfields-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/blender-lightfield-addon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "IDLabMedia/large-lightfields-dataset"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

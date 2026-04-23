@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The toolkit to pack, ship, store, and deliver container content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FOSSA License Scanning"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FOSSA License Scanning"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17988,
+      "status": "candidate",
+      "text": "trap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17988,
+      "status": "candidate",
+      "text": "trapped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17988,
+      "status": "candidate",
+      "text": "trapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17961,
+      "status": "candidate",
+      "text": "cave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17961,
+      "status": "candidate",
+      "text": "caving"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "FOSSA License Scanning",
+      "sense_id": "fossa-license-scanning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fossa-license-scanning",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fossa-license-scanning",
+  "observation_id": "d58c731aaeb7693f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "FOSSA License Scanning",
+  "source_context_snippet": "FOSSA License Scanning",
+  "source_file": ".github/workflows/fossa.yml",
+  "source_repo": "distribution/distribution",
+  "source_repo_description": "The toolkit to pack, ship, store, and deliver container content"
+}

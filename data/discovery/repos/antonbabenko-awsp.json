@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonbabenko/awsp",
+      "target": "99designs/aws-vault",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/awsp",
+      "target": "aws-iam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/awsp",
+      "target": "awsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/awsp",
+      "target": "iam-users",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/awsp",
+      "target": "profile",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:43:04.121747+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3553
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AWS credential profile changer",
+    "fork": false,
+    "full_name": "antonbabenko/awsp",
+    "html_url": "https://github.com/antonbabenko/awsp",
+    "language": "Shell",
+    "pushed_at": "2022-08-02T16:56:43Z",
+    "stargazers_count": 94,
+    "topics": [
+      "aws-iam",
+      "awsp",
+      "iam-users",
+      "mfa",
+      "profile"
+    ],
+    "updated_at": "2025-07-23T13:28:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "99designs/aws-vault",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Excerpt from [IAM Best Practices](http://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#delegate-using-roles):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-iam"
+    },
+    {
+      "context_snippet": "Excerpt from [IAM Best Practices](http://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#delegate-using-roles):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awsp"
+    },
+    {
+      "context_snippet": "Excerpt from [IAM Best Practices](http://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#delegate-using-roles):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iam-users"
+    },
+    {
+      "context_snippet": "Excerpt from [IAM Best Practices](http://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#delegate-using-roles):",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "profile"
+    }
+  ]
+}

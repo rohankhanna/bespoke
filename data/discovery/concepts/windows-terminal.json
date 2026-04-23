@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "windows-terminal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate-context",
+      "text": "The new Windows Terminal and the original Windows console host, all in the same place!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate-context",
+      "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "Modern C++ Terminal Emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate",
+      "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate",
+      "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "windows-terminal",
+  "concept_id": "windows-terminal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "contour-terminal/contour"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "windows-terminal",
+      "sense_id": "windows-terminal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

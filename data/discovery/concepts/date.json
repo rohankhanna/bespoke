@@ -19,6 +19,18 @@
       "source_repo": "chronotope/chrono",
       "status": "candidate-context",
       "text": "[Chrono][docsrs]: Timezone-aware date and time handling"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate-context",
+      "text": "Python humanize functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/humanize.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/humanize/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "chronotope/chrono",
       "status": "candidate",
       "text": "[Chrono][docsrs]: Timezone-aware date and time handling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/humanize.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/humanize/)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "chronotope/chrono"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "python-humanize/humanize"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -94,6 +94,42 @@
       "source_repo": "Bearer/bearer",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Combination of multiple linters to run as a GitHub Action or standalone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Super-linter is a ready-to-run collection of linters and code analyzers, to help"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate-context",
+      "text": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-executorch",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Optimum ExecuTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-executorch",
+      "status": "candidate-context",
+      "text": "Code Quality"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +174,24 @@
       "source_repo": "Bearer/bearer",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate",
+      "text": "Super-linter is a ready-to-run collection of linters and code analyzers, to help"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate",
+      "text": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-executorch",
+      "status": "candidate",
+      "text": "Code Quality"
     }
   ],
   "candidate_related_terms": [
@@ -241,11 +295,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Bearer/bearer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "super-linter/super-linter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "analysis-tools-dev/static-analysis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/optimum-executorch"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

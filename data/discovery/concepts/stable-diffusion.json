@@ -127,6 +127,78 @@
       "source_repo": "mudler/LocalAI",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KohakuBlueleaf/LyCORIS",
+      "status": "candidate-context",
+      "text": "Lora beYond Conventional methods, Other Rank adaptation Implementations for Stable diffusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KohakuBlueleaf/LyCORIS",
+      "status": "candidate-context",
+      "text": "![pypi](https://img.shields.io/pypi/v/lycoris-lora.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camenduru/grounded-segment-anything-colab",
+      "status": "candidate-context",
+      "text": "Grounding DINO with Segment Anything & Stable Diffusion colab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camenduru/grounded-segment-anything-colab",
+      "status": "candidate-context",
+      "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EdVince/Stable-Diffusion-NCNN",
+      "status": "candidate-context",
+      "text": "Stable Diffusion in NCNN with c++, supported txt2img and img2img"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdVince/Stable-Diffusion-NCNN",
+      "status": "candidate-context",
+      "text": "Stable-Diffusion implemented by [ncnn](https://github.com/Tencent/ncnn) framework based on C++, supported txt2img and img2img!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Akegarasu/lora-scripts",
+      "status": "candidate-context",
+      "text": "SD-Trainer. LoRA & Dreambooth training scripts & GUI use kohya-ss's trainer, for diffusion model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Akegarasu/lora-scripts",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate-context",
+      "text": "Command Line Interface for Managing ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate-context",
+      "text": "[![Run pytest](https://github.com/Comfy-Org/comfy-cli/actions/workflows/pytest.yml/badge.svg)](https://github.com/Comfy-Org/comfy-cli/actions/workflows/pytest.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jmsltnv/civitai-data-manager",
+      "status": "candidate-context",
+      "text": "A lightweight tool to locally manage, back up, and organize SafeTensors model metadata from Civitai."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jmsltnv/civitai-data-manager",
+      "status": "candidate-context",
+      "text": "A lightweight tool to locally manage, back up, and organize SafeTensors model metadata from Civitai."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +261,42 @@
       "source_repo": "mudler/LocalAI",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KohakuBlueleaf/LyCORIS",
+      "status": "candidate",
+      "text": "![pypi](https://img.shields.io/pypi/v/lycoris-lora.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camenduru/grounded-segment-anything-colab",
+      "status": "candidate",
+      "text": "\ud83d\udc23 Please follow me for new updates https://twitter.com/camenduru <br />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EdVince/Stable-Diffusion-NCNN",
+      "status": "candidate",
+      "text": "Stable-Diffusion implemented by [ncnn](https://github.com/Tencent/ncnn) framework based on C++, supported txt2img and img2img!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Akegarasu/lora-scripts",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate",
+      "text": "[![Run pytest](https://github.com/Comfy-Org/comfy-cli/actions/workflows/pytest.yml/badge.svg)](https://github.com/Comfy-Org/comfy-cli/actions/workflows/pytest.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jmsltnv/civitai-data-manager",
+      "status": "candidate",
+      "text": "A lightweight tool to locally manage, back up, and organize SafeTensors model metadata from Civitai."
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +370,65 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "KohakuBlueleaf/LyCORIS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "camenduru/grounded-segment-anything-colab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EdVince/Stable-Diffusion-NCNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Akegarasu/lora-scripts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

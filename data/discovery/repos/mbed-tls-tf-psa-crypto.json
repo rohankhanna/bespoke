@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mbed-TLS/TF-PSA-Crypto",
+      "target": "mpg/p256-m",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:35:20.326570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17929
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "development",
+    "description": "Reference implementation of the PSA Cryptography API",
+    "fork": false,
+    "full_name": "Mbed-TLS/TF-PSA-Crypto",
+    "html_url": "https://github.com/Mbed-TLS/TF-PSA-Crypto",
+    "language": "C",
+    "pushed_at": "2026-04-22T19:09:15Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-04-22T18:40:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mpg/p256-m",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

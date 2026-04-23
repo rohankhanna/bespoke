@@ -19,6 +19,18 @@
       "source_repo": "brunch/sass-brunch",
       "status": "candidate-context",
       "text": "Adds Sass support to [Brunch](https://brunch.io)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sass/dart-sass",
+      "status": "candidate-context",
+      "text": "The reference implementation of Sass, written in Dart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/dart-sass",
+      "status": "candidate-context",
+      "text": "A [Dart][dart] implementation of [Sass][sass]. **Sass makes CSS fun**."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "brunch/sass-brunch",
       "status": "candidate",
       "text": "Adds Sass support to [Brunch](https://brunch.io)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/dart-sass",
+      "status": "candidate",
+      "text": "A [Dart][dart] implementation of [Sass][sass]. **Sass makes CSS fun**."
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "brunch/sass-brunch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sass/dart-sass"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

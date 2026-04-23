@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "@ledgerhq/hw-app-eth",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ethers",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@ledgerhq/hw-transport-node-ble",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@ledgerhq/hw-transport-node-hid",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@ledgerhq/types-cryptoassets",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@ledgerhq/types-devices",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node-hid",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "target": "@ledgerhq/hw-app-eth",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "target": "ethers",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "target": "@ledgerhq/hw-transport-node-ble",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "target": "@ledgerhq/hw-transport-node-hid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "target": "@ledgerhq/types-cryptoassets",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "target": "@ledgerhq/types-devices",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "target": "@types/node-hid",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "target": "ethers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "target": "ethersjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "target": "ledger",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:31:42.494537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2872
+    },
+    {
+      "path": "package.json",
+      "size": 1746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ethers extension for LedgerSigner for Ledger Hardware Wallet support.",
+    "fork": false,
+    "full_name": "ethers-io/ext-signer-ledger",
+    "html_url": "https://github.com/ethers-io/ext-signer-ledger",
+    "language": "TypeScript",
+    "pushed_at": "2023-07-20T22:50:14Z",
+    "stargazers_count": 9,
+    "topics": [
+      "ethers",
+      "ethersjs",
+      "ledger"
+    ],
+    "updated_at": "2025-07-25T16:33:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ethers: LedgerSigner",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethers"
+    },
+    {
+      "context_snippet": "Ethers: LedgerSigner",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethersjs"
+    },
+    {
+      "context_snippet": "Ethers: LedgerSigner",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ledger"
+    }
+  ]
+}

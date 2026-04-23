@@ -1,0 +1,22 @@
+{
+  "component": "actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/draft.yml",
+      "source_repo": "theupdateframework/specification"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "theupdateframework/specification"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theupdateframework/specification"
+    }
+  ]
+}

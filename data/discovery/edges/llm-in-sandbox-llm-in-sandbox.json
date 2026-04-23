@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "llm-in-sandbox/llm-in-sandbox-rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "cdxeve/awesome-computer-use-agents",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "cdxeve/scale-openclaw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "r2e-gym/r2e-gym",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "coding-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "computer-use-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llm-in-sandbox/llm-in-sandbox",
+      "target": "general-agent",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "llm-in-sandbox/llm-in-sandbox"
+}

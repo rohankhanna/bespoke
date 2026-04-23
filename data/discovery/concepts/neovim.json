@@ -259,6 +259,306 @@
       "source_repo": "mason-org/mason.nvim",
       "status": "candidate-context",
       "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-mini/mini.nvim",
+      "status": "candidate-context",
+      "text": "Library of 40+ independent Lua modules improving Neovim experience with minimal effort"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.nvim",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <img src=\"logo.png\" alt=\"mini.nvim\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-tree/nvim-tree.lua",
+      "status": "candidate-context",
+      "text": "A file explorer tree for neovim written in lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-tree/nvim-tree.lua",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/nvim-tree/nvim-tree.lua/actions/workflows/ci.yml/badge.svg)](https://github.com/nvim-tree/nvim-tree.lua/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onsails/lspkind.nvim",
+      "status": "candidate-context",
+      "text": "VS Code\u2013style pictograms for Neovim completion items"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsails/lspkind.nvim",
+      "status": "candidate-context",
+      "text": "> VS Code\u2013style pictograms for Neovim completion items"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MunifTanjim/nui.nvim",
+      "status": "candidate-context",
+      "text": "UI Component Library for Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MunifTanjim/nui.nvim",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status: CI](https://img.shields.io/github/actions/workflow/status/MunifTanjim/nui.nvim/ci.yml?branch=main&label=CI&style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "willothy/nvim-cokeline",
+      "status": "candidate-context",
+      "text": ":nose: A Neovim bufferline for people with addictive personalities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "willothy/nvim-cokeline",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-include-comment <br> -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aca/completion-tabnine",
+      "status": "candidate-context",
+      "text": "A TabNine completion source for completion-nvim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aca/completion-tabnine",
+      "status": "candidate-context",
+      "text": "completion-tabnine"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbarrete/completion-vcard",
+      "status": "candidate-context",
+      "text": "vCard source for completion-nvim, nvim-compe and nvim-cmp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbarrete/completion-vcard",
+      "status": "candidate-context",
+      "text": "vCard completion source for native Neovim LSP autocompletion (see `:h lsp-autocompletion`), [nvim-cmp](https://github.com/hrsh7th/nvim-cmp), [nvim-compe](https://github.com/hrsh7th/nvim-compe), and [completion-nvim](https://github.com/nvim-lua/completion-nvim)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deoplete-plugins/deoplete-jedi",
+      "status": "candidate-context",
+      "text": "deoplete.nvim source for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deoplete-plugins/deoplete-jedi",
+      "status": "candidate-context",
+      "text": "[deoplete.nvim](https://github.com/Shougo/deoplete.nvim) source for [jedi](https://github.com/davidhalter/jedi)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhartington/nvim-typescript",
+      "status": "candidate-context",
+      "text": "Typescript tooling for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhartington/nvim-typescript",
+      "status": "candidate-context",
+      "text": "The time has finally come. Since Neovim 0.5 is out, and LSP is officially supported, I'd suggest you migrate over to it. I have been using it instead of this plugin for a while and it solves many pain points that I've not been able to. This will stay around for older neovim rele\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dpp.vim",
+      "status": "candidate-context",
+      "text": "Dark powered plugin manager for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp.vim",
+      "status": "candidate-context",
+      "text": "> Dark Powered Plugin manager for Vim/Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate-context",
+      "text": "Quickstart configs for Nvim LSP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate-context",
+      "text": "nvim-lspconfig is a collection of LSP server configurations for the [Nvim LSP client](https://neovim.io/doc/user/lsp.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prabirshrestha/vim-lsp",
+      "status": "candidate-context",
+      "text": "async language server protocol plugin for vim and neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/vim-lsp",
+      "status": "candidate-context",
+      "text": "Async [Language Server Protocol](https://github.com/Microsoft/language-server-protocol) plugin for vim8 and neovim."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airblade/vim-gitgutter",
+      "status": "candidate-context",
+      "text": "A Vim plugin which shows git diff markers in the sign column and stages/previews/undoes hunks and partial hunks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airblade/vim-gitgutter",
+      "status": "candidate-context",
+      "text": "A Vim plugin which shows git diff markers in the sign column and stages/previews/undoes hunks and partial hunks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/tokyonight.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd9  A clean, dark Neovim theme written in Lua, with support for lsp, treesitter and lots of plugins. Includes additional themes for Kitty, Alacritty, iTerm and Fish."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/tokyonight.nvim",
+      "status": "candidate-context",
+      "text": "A dark and light [Neovim](https://github.com/neovim/neovim) theme written in"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kassio/neoterm",
+      "status": "candidate-context",
+      "text": "Wrapper of some vim/neovim's :terminal functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kassio/neoterm",
+      "status": "candidate-context",
+      "text": "[![lint](https://github.com/kassio/neoterm/workflows/lint/badge.svg?branch=master)](https://github.com/kassio/neoterm/actions?query=workflow%3Alint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "monaqa/dial.nvim",
+      "status": "candidate-context",
+      "text": "enhanced increment/decrement plugin for Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monaqa/dial.nvim",
+      "status": "candidate-context",
+      "text": "Extended increment/decrement plugin for [Neovim](https://github.com/neovim/neovim). Written in Lua."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrsh7th/nvim-compe",
+      "status": "candidate-context",
+      "text": "Auto completion Lua plugin for nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/nvim-compe",
+      "status": "candidate-context",
+      "text": "nvim-compe is now deprecated. Please use [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) the successor of nvim-compe."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "status": "candidate-context",
+      "text": "Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "status": "candidate-context",
+      "text": "VSCode(LSP)'s snippet feature in vim/nvim."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonmclean/triptych.nvim",
+      "status": "candidate-context",
+      "text": "Directory browser plugin for Neovim, inspired by Ranger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonmclean/triptych.nvim",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ms-jpq/chadtree",
+      "status": "candidate-context",
+      "text": "File manager for Neovim. Better than NERDTree."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ms-jpq/chadtree",
+      "status": "candidate-context",
+      "text": "File Manager for Neovim, Better than NERDTree."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-lua/plenary.nvim",
+      "status": "candidate-context",
+      "text": "plenary: full; complete; entire; absolute; unqualified. All the lua functions I don't want to write twice."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/plenary.nvim",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/resession.nvim",
+      "status": "candidate-context",
+      "text": "A replacement for mksession with a better API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/resession.nvim",
+      "status": "candidate-context",
+      "text": "A replacement for `:mksession` with a better API"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhinz/vim-startify",
+      "status": "candidate-context",
+      "text": ":link: The fancy start screen for Vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-startify",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mhinz/vim-startify.svg?branch=master)](https://travis-ci.org/mhinz/vim-startify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3rd/config",
+      "status": "candidate-context",
+      "text": "My personal configuration - NixOS, Neovim, and all the good stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3rd/config",
+      "status": "candidate-context",
+      "text": "This repository contains most of the plumbing that powers my workflow."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate-context",
+      "text": "The missing motion for Vim :athletic_shoe:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate-context",
+      "text": "sneak.vim \ud83d\udc5f"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +687,156 @@
       "source_repo": "mason-org/mason.nvim",
       "status": "candidate",
       "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-mini/mini.nvim",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <img src=\"logo.png\" alt=\"mini.nvim\" style=\"max-width:100%;border:solid 2px\"/> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-tree/nvim-tree.lua",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/nvim-tree/nvim-tree.lua/actions/workflows/ci.yml/badge.svg)](https://github.com/nvim-tree/nvim-tree.lua/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsails/lspkind.nvim",
+      "status": "candidate",
+      "text": "> VS Code\u2013style pictograms for Neovim completion items"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MunifTanjim/nui.nvim",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status: CI](https://img.shields.io/github/actions/workflow/status/MunifTanjim/nui.nvim/ci.yml?branch=main&label=CI&style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "willothy/nvim-cokeline",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-include-comment <br> -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aca/completion-tabnine",
+      "status": "candidate",
+      "text": "completion-tabnine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbarrete/completion-vcard",
+      "status": "candidate",
+      "text": "vCard completion source for native Neovim LSP autocompletion (see `:h lsp-autocompletion`), [nvim-cmp](https://github.com/hrsh7th/nvim-cmp), [nvim-compe](https://github.com/hrsh7th/nvim-compe), and [completion-nvim](https://github.com/nvim-lua/completion-nvim)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deoplete-plugins/deoplete-jedi",
+      "status": "candidate",
+      "text": "[deoplete.nvim](https://github.com/Shougo/deoplete.nvim) source for [jedi](https://github.com/davidhalter/jedi)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhartington/nvim-typescript",
+      "status": "candidate",
+      "text": "The time has finally come. Since Neovim 0.5 is out, and LSP is officially supported, I'd suggest you migrate over to it. I have been using it instead of this plugin for a while and it solves many pain points that I've not been able to. This will stay around for older neovim rele\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp.vim",
+      "status": "candidate",
+      "text": "> Dark Powered Plugin manager for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate",
+      "text": "nvim-lspconfig is a collection of LSP server configurations for the [Nvim LSP client](https://neovim.io/doc/user/lsp.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/vim-lsp",
+      "status": "candidate",
+      "text": "Async [Language Server Protocol](https://github.com/Microsoft/language-server-protocol) plugin for vim8 and neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airblade/vim-gitgutter",
+      "status": "candidate",
+      "text": "A Vim plugin which shows git diff markers in the sign column and stages/previews/undoes hunks and partial hunks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/tokyonight.nvim",
+      "status": "candidate",
+      "text": "A dark and light [Neovim](https://github.com/neovim/neovim) theme written in"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kassio/neoterm",
+      "status": "candidate",
+      "text": "[![lint](https://github.com/kassio/neoterm/workflows/lint/badge.svg?branch=master)](https://github.com/kassio/neoterm/actions?query=workflow%3Alint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monaqa/dial.nvim",
+      "status": "candidate",
+      "text": "Extended increment/decrement plugin for [Neovim](https://github.com/neovim/neovim). Written in Lua."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/nvim-compe",
+      "status": "candidate",
+      "text": "nvim-compe is now deprecated. Please use [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) the successor of nvim-compe."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "status": "candidate",
+      "text": "VSCode(LSP)'s snippet feature in vim/nvim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonmclean/triptych.nvim",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ms-jpq/chadtree",
+      "status": "candidate",
+      "text": "File Manager for Neovim, Better than NERDTree."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/plenary.nvim",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/resession.nvim",
+      "status": "candidate",
+      "text": "A replacement for `:mksession` with a better API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-startify",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mhinz/vim-startify.svg?branch=master)](https://travis-ci.org/mhinz/vim-startify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3rd/config",
+      "status": "candidate",
+      "text": "This repository contains most of the plumbing that powers my workflow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate",
+      "text": "sneak.vim \ud83d\udc5f"
     }
   ],
   "candidate_related_terms": [],
@@ -538,11 +988,173 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-tree.lua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "MunifTanjim/nui.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "willothy/nvim-cokeline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aca/completion-tabnine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cbarrete/completion-vcard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "deoplete-plugins/deoplete-jedi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mhartington/nvim-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/dpp.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "neovim/nvim-lspconfig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "prabirshrestha/vim-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "airblade/vim-gitgutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "folke/tokyonight.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kassio/neoterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "monaqa/dial.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hrsh7th/nvim-compe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hrsh7th/vim-vsnip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "simonmclean/triptych.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ms-jpq/chadtree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nvim-lua/plenary.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/resession.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mhinz/vim-startify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "3rd/config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "justinmk/vim-sneak"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

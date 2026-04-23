@@ -1,0 +1,62 @@
+{
+  "aliases": [
+    "Update nextest on WinGet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nextest-rs/nextest",
+      "status": "candidate-context",
+      "text": "A next-generation test runner for Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextest-rs/nextest",
+      "status": "candidate-context",
+      "text": "Update nextest on WinGet"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nextest-rs/nextest",
+      "status": "candidate",
+      "text": "Update nextest on WinGet"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Update nextest on WinGet",
+  "concept_id": "update-nextest-on-winget",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/winget-update.yml",
+      "source_repo": "nextest-rs/nextest"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update nextest on WinGet",
+      "sense_id": "update-nextest-on-winget#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

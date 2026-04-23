@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "RNW Website Publish"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "status": "candidate-context",
+      "text": "A repository showcasing React Native samples and templates for Windows, macOS, and Surface Duo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "status": "candidate-context",
+      "text": "RNW Website Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "status": "candidate",
+      "text": "RNW Website Publish"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10626,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10626,
+      "status": "candidate",
+      "text": "author"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10626,
+      "status": "candidate",
+      "text": "authoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10626,
+      "status": "candidate",
+      "text": "blog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10626,
+      "status": "candidate",
+      "text": "blogging"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "RNW Website Publish",
+  "concept_id": "rnw-website-publish",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/website-publish.yml",
+      "source_repo": "microsoft/react-native-windows-samples"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "RNW Website Publish",
+      "sense_id": "rnw-website-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

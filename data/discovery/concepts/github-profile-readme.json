@@ -19,6 +19,18 @@
       "source_repo": "Ileriayo/markdown-badges",
       "status": "candidate-context",
       "text": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate-context",
+      "text": "\ud83d\ude0e A curated list of awesome GitHub Profile which updates in real time "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Awesome GitHub Profile README"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Ileriayo/markdown-badges",
       "status": "candidate",
       "text": "![Markdown-badge-kohasummons-stripped-image](https://user-images.githubusercontent.com/66284362/159115513-3ae48dd6-3d9c-416f-83d4-db48de23fac8.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Awesome GitHub Profile README"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Ileriayo/markdown-badges"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

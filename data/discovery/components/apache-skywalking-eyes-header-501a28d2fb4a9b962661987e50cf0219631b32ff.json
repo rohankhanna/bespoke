@@ -1,0 +1,12 @@
+{
+  "component": "apache/skywalking-eyes/header@501a28d2fb4a9b962661987e50cf0219631b32ff",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/licence-checker.yml",
+      "source_repo": "apache/dubbo-rust"
+    }
+  ]
+}

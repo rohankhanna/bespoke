@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Windows Specific Commands"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate-context",
+      "text": "Command Line Interface for Managing ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate-context",
+      "text": "\"Windows Specific Commands\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate",
+      "text": "\"Windows Specific Commands\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19347,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19347,
+      "status": "candidate",
+      "text": "temperament"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19325,
+      "status": "candidate",
+      "text": "family planning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19325,
+      "status": "candidate",
+      "text": "flats"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19325,
+      "status": "candidate",
+      "text": "flatter"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Windows Specific Commands",
+  "concept_id": "windows-specific-commands",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/test-windows.yml",
+      "source_repo": "Comfy-Org/comfy-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows Specific Commands",
+      "sense_id": "windows-specific-commands#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

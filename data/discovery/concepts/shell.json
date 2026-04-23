@@ -289,6 +289,210 @@
       "source_repo": "fish-shell/fish-shell",
       "status": "candidate-context",
       "text": ".. |Cirrus CI| image:: https://api.cirrus-ci.com/github/fish-shell/fish-shell.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koalaman/shellcheck",
+      "status": "candidate-context",
+      "text": "ShellCheck, a static analysis tool for shell scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koalaman/shellcheck",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/koalaman/shellcheck/actions/workflows/build.yml/badge.svg)](https://github.com/koalaman/shellcheck/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbb macOS / Ubuntu dotfiles"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate-context",
+      "text": "[![CI status for macOS][ci badge macos]][ci link macos]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gf3/dotfiles",
+      "status": "candidate-context",
+      "text": "Configurations for the tools I use every day"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gf3/dotfiles",
+      "status": "candidate-context",
+      "text": "This repository contains the configuration files for the tools I use day-to-day."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oh-my-fish/packages-main",
+      "status": "candidate-context",
+      "text": "Primary Oh My Fish package repository."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/packages-main",
+      "status": "candidate-context",
+      "text": "Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "posva/catimg",
+      "status": "candidate-context",
+      "text": "\ud83e\udda6 Insanely fast image printing in your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posva/catimg",
+      "status": "candidate-context",
+      "text": "Renders images in the terminal."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git/git",
+      "status": "candidate-context",
+      "text": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git/git",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/git/git/workflows/CI/badge.svg)](https://github.com/git/git/actions?query=branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "A smarter cd command. Supports all major shells."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "federicotdn/flymake-shellcheck",
+      "status": "candidate-context",
+      "text": "A ShellCheck-powered backend for Flymake"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "federicotdn/flymake-shellcheck",
+      "status": "candidate-context",
+      "text": "[![MELPA](https://melpa.org/packages/flymake-shellcheck-badge.svg)](https://melpa.org/#/flymake-shellcheck)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate-context",
+      "text": "\ud83e\udd84 Record your terminal and generate animated gif images or share a web player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isaacs/nave",
+      "status": "candidate-context",
+      "text": "Virtual Environments for Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaacs/nave",
+      "status": "candidate-context",
+      "text": "Virtual Environments for Node."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jandamm/zgenom",
+      "status": "candidate-context",
+      "text": "A lightweight and fast plugin manager for ZSH"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jandamm/zgenom",
+      "status": "candidate-context",
+      "text": "A lightweight yet powerful plugin manager for Zsh."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0ghny/shellx",
+      "status": "candidate-context",
+      "text": "Generic shell session bootstrapper and plugins manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/shellx",
+      "status": "candidate-context",
+      "text": "ZSH/BASH or any other shell has their own plugin managers and configuration managers which, for me:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "denysdovhan/robbyrussell-node",
+      "status": "candidate-context",
+      "text": "Cross-shell robbyrussell theme written in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denysdovhan/robbyrussell-node",
+      "status": "candidate-context",
+      "text": "![robbyrussell-img][robbyrussell-img]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reujab/silver",
+      "status": "candidate-context",
+      "text": "A cross-shell customizable powerline-like prompt with icons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reujab/silver",
+      "status": "candidate-context",
+      "text": "[package] name = \"silver\" version = \"2.0.1\" authors = [\"reujab <reujab@gmail.com>\"] description = \"A cross-shell customizable powerline-like prompt with icons\" repository = \"https://github.com/reujab/silver\" readme = \"readme.md\" keywords = [\"shell\", \"prompt\", \"powerline\", \"agnos\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinmayer/virtualfish",
+      "status": "candidate-context",
+      "text": "Fish shell tool for managing Python virtual environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmayer/virtualfish",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/justinmayer/virtualfish/main.yml?branch=main)](https://github.com/justinmayer/virtualfish/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate-context",
+      "text": "base16 for fish shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate-context",
+      "text": "There are multiple projects out there that provide better functionality and are under active development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate-context",
+      "text": "Manage your app's Node.js environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate-context",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -429,6 +633,108 @@
       "source_repo": "fish-shell/fish-shell",
       "status": "candidate",
       "text": ".. |Cirrus CI| image:: https://api.cirrus-ci.com/github/fish-shell/fish-shell.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koalaman/shellcheck",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/koalaman/shellcheck/actions/workflows/build.yml/badge.svg)](https://github.com/koalaman/shellcheck/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate",
+      "text": "[![CI status for macOS][ci badge macos]][ci link macos]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gf3/dotfiles",
+      "status": "candidate",
+      "text": "This repository contains the configuration files for the tools I use day-to-day."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oh-my-fish/packages-main",
+      "status": "candidate",
+      "text": "Primary package repository for the [Oh My Fish][oh-my-fish] [Fish shell][fish] framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "posva/catimg",
+      "status": "candidate",
+      "text": "Renders images in the terminal."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git/git",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/git/git/workflows/CI/badge.svg)](https://github.com/git/git/actions?query=branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "federicotdn/flymake-shellcheck",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/flymake-shellcheck-badge.svg)](https://melpa.org/#/flymake-shellcheck)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/terminalizer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaacs/nave",
+      "status": "candidate",
+      "text": "Virtual Environments for Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jandamm/zgenom",
+      "status": "candidate",
+      "text": "A lightweight yet powerful plugin manager for Zsh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/shellx",
+      "status": "candidate",
+      "text": "ZSH/BASH or any other shell has their own plugin managers and configuration managers which, for me:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denysdovhan/robbyrussell-node",
+      "status": "candidate",
+      "text": "![robbyrussell-img][robbyrussell-img]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reujab/silver",
+      "status": "candidate",
+      "text": "[package] name = \"silver\" version = \"2.0.1\" authors = [\"reujab <reujab@gmail.com>\"] description = \"A cross-shell customizable powerline-like prompt with icons\" repository = \"https://github.com/reujab/silver\" readme = \"readme.md\" keywords = [\"shell\", \"prompt\", \"powerline\", \"agnos\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmayer/virtualfish",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/justinmayer/virtualfish/main.yml?branch=main)](https://github.com/justinmayer/virtualfish/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate",
+      "text": "There are multiple projects out there that provide better functionality and are under active development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -688,11 +994,131 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "fish-shell/fish-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "koalaman/shellcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alrra/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gf3/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "oh-my-fish/packages-main"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "posva/catimg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "git/git"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ajeetdsouza/zoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "federicotdn/flymake-shellcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "faressoft/terminalizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "isaacs/nave"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "0ghny/shellx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "denysdovhan/robbyrussell-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "reujab/silver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "justinmayer/virtualfish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "FabioAntunes/base16-fish-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

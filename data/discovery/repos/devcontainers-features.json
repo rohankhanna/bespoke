@@ -1,0 +1,403 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-in-docker-stress-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-in-docker-stress-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-automated.yaml"
+    },
+    {
+      "component": "azohra/shell-linter@v0.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-automated.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-manual.yaml"
+    },
+    {
+      "component": "azohra/shell-linter@v0.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-manual.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "devcontainers/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-manual.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr-arm64.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr-arm64.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr-arm64.yaml"
+    },
+    {
+      "component": "dorny/paths-filter@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-aws-cli-completer-scripts.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devcontainers/features",
+      "target": "devcontainers/feature-template",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devcontainers/features",
+      "target": "devcontainers/action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "devcontainers/features",
+      "target": "devcontainers/spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-in-docker-stress-test.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-in-docker-stress-test.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "Stress test - Docker in Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-automated.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-automated.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "azohra/shell-linter@v0.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-manual.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter-manual.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "azohra/shell-linter@v0.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "devcontainers/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "Release dev container features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-all.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-all.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "CI - Test Features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-manual.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-manual.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "Manual - Test Features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr-arm64.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "dorny/paths-filter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr-arm64.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr-arm64.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "PR - Test Updated Features (arm64)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "dorny/paths-filter@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yaml",
+      "source_repo": "devcontainers/features",
+      "target": "PR - Test Updated Features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-aws-cli-completer-scripts.yml",
+      "source_repo": "devcontainers/features",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devcontainers/features",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devcontainers/features",
+      "target": "devcontainers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:32:22.746375+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4728
+    },
+    {
+      "path": ".github/workflows/docker-in-docker-stress-test.yaml",
+      "size": 1400
+    },
+    {
+      "path": ".github/workflows/linter-automated.yaml",
+      "size": 428
+    },
+    {
+      "path": ".github/workflows/linter-manual.yaml",
+      "size": 703
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 514
+    },
+    {
+      "path": ".github/workflows/test-all.yaml",
+      "size": 2947
+    },
+    {
+      "path": ".github/workflows/test-manual.yaml",
+      "size": 902
+    },
+    {
+      "path": ".github/workflows/test-pr-arm64.yaml",
+      "size": 2307
+    },
+    {
+      "path": ".github/workflows/test-pr.yaml",
+      "size": 3133
+    },
+    {
+      "path": ".github/workflows/update-aws-cli-completer-scripts.yml",
+      "size": 2150
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of Dev Container Features managed by Dev Container spec maintainers. See https://github.com/devcontainers/feature-starter to publish your own",
+    "fork": false,
+    "full_name": "devcontainers/features",
+    "html_url": "https://github.com/devcontainers/features",
+    "language": "Shell",
+    "pushed_at": "2026-04-19T00:24:05Z",
+    "stargazers_count": 1435,
+    "topics": [
+      "containers",
+      "devcontainers"
+    ],
+    "updated_at": "2026-04-21T22:00:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devcontainers/action",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devcontainers/feature-template",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devcontainers/spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Stress test - Docker in Docker\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-in-docker-stress-test.yaml",
+      "term": "Stress test - Docker in Docker"
+    },
+    {
+      "context_snippet": "\"Release dev container features\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release dev container features"
+    },
+    {
+      "context_snippet": "\"CI - Test Features\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-all.yaml",
+      "term": "CI - Test Features"
+    },
+    {
+      "context_snippet": "\"Manual - Test Features\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-manual.yaml",
+      "term": "Manual - Test Features"
+    },
+    {
+      "context_snippet": "\"PR - Test Updated Features (arm64)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr-arm64.yaml",
+      "term": "PR - Test Updated Features (arm64)"
+    },
+    {
+      "context_snippet": "\"PR - Test Updated Features\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yaml",
+      "term": "PR - Test Updated Features"
+    },
+    {
+      "context_snippet": "<table style=\"width: 100%; border-style: none;\"><tr>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "<table style=\"width: 100%; border-style: none;\"><tr>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devcontainers"
+    }
+  ]
+}

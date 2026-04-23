@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/type-check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "facebookresearch/optimizers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yaml",
+      "source_repo": "facebookresearch/optimizers",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gpu-tests.yaml",
+      "source_repo": "facebookresearch/optimizers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu-tests.yaml",
+      "source_repo": "facebookresearch/optimizers",
+      "target": "gpu-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "facebookresearch/optimizers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "facebookresearch/optimizers",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "facebookresearch/optimizers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "source_repo": "facebookresearch/optimizers",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/type-check.yaml",
+      "source_repo": "facebookresearch/optimizers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/type-check.yaml",
+      "source_repo": "facebookresearch/optimizers",
+      "target": "type-check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:39:59.929303+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2536
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1600
+    },
+    {
+      "path": ".github/workflows/examples.yaml",
+      "size": 3291
+    },
+    {
+      "path": ".github/workflows/gpu-tests.yaml",
+      "size": 723
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 645
+    },
+    {
+      "path": ".github/workflows/tests.yaml",
+      "size": 623
+    },
+    {
+      "path": ".github/workflows/type-check.yaml",
+      "size": 630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "For optimization algorithm research and development.",
+    "fork": false,
+    "full_name": "facebookresearch/optimizers",
+    "html_url": "https://github.com/facebookresearch/optimizers",
+    "language": "Python",
+    "pushed_at": "2026-04-10T18:41:10Z",
+    "stargazers_count": 565,
+    "topics": [],
+    "updated_at": "2026-04-20T23:43:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yaml",
+      "term": "examples"
+    },
+    {
+      "context_snippet": "gpu-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gpu-tests.yaml",
+      "term": "gpu-tests"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yaml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "type-check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/type-check.yaml",
+      "term": "type-check"
+    }
+  ]
+}

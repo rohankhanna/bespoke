@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2699\ufe0f A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "code-quality",
+      "sense_id": "code-quality#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-quality",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-quality",
+  "observation_id": "defe7e7f3f0eeff8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "code-quality",
+  "source_context_snippet": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->",
+  "source_file": null,
+  "source_repo": "analysis-tools-dev/static-analysis",
+  "source_repo_description": "\u2699\ufe0f A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality."
+}

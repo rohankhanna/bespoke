@@ -1,0 +1,12 @@
+{
+  "component": "cypress-io/github-action@57b70560982e6a11d23d4b8bec7f8a487cdbb71b",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "juice-shop/juice-shop"
+    }
+  ]
+}

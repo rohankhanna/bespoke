@@ -1,0 +1,17 @@
+{
+  "component": "bats-core/bats-action@77d6fb60505b4d0d1d73e48bd035b55074bbfb43",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump-trivy.yaml",
+      "source_repo": "aquasecurity/trivy-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "aquasecurity/trivy-action"
+    }
+  ]
+}

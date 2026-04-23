@@ -55,6 +55,42 @@
       "source_repo": "langbot-app/LangBot",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jacobmarks/image-quality-issues",
+      "status": "candidate-context",
+      "text": "FiftyOne Plugin for finding common image quality issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jacobmarks/image-quality-issues",
+      "status": "candidate-context",
+      "text": "![common_image_issues_updated](https://github.com/jacobmarks/image-quality-issues/assets/12500356/4f3b89c9-58b6-4404-a9da-8cd6570a1793)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack",
+      "status": "candidate-context",
+      "text": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matryer/xbar-plugins",
+      "status": "candidate-context",
+      "text": "Plugin repository for xbar (the BitBar reboot)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matryer/xbar-plugins",
+      "status": "candidate-context",
+      "text": "This repo contains scripts, programs and command-line tools that add functionality to [xbar](https://github.com/matryer/xbar#get-started)."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "langbot-app/LangBot",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jacobmarks/image-quality-issues",
+      "status": "candidate",
+      "text": "![common_image_issues_updated](https://github.com/jacobmarks/image-quality-issues/assets/12500356/4f3b89c9-58b6-4404-a9da-8cd6570a1793)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matryer/xbar-plugins",
+      "status": "candidate",
+      "text": "This repo contains scripts, programs and command-line tools that add functionality to [xbar](https://github.com/matryer/xbar#get-started)."
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +214,35 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/image-quality-issues"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "webpack/webpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "matryer/xbar-plugins"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

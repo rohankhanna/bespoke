@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Airflow E2E Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/airflow",
+      "status": "candidate-context",
+      "text": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/airflow",
+      "status": "candidate-context",
+      "text": "Airflow E2E Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/airflow",
+      "status": "candidate",
+      "text": "Airflow E2E Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11500,
+      "status": "candidate",
+      "text": "choke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11500,
+      "status": "candidate",
+      "text": "stall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11500,
+      "status": "candidate",
+      "text": "stalls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11457,
+      "status": "candidate",
+      "text": "spoiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11087,
+      "status": "candidate",
+      "text": "actuator"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Airflow E2E Tests",
+  "concept_id": "airflow-e2e-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/airflow-e2e-tests.yml",
+      "source_repo": "apache/airflow"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Airflow E2E Tests",
+      "sense_id": "airflow-e2e-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

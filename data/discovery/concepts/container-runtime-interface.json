@@ -19,6 +19,18 @@
       "source_repo": "containerd/cri",
       "status": "candidate-context",
       "text": "On October 7, 2020, the contents of this repo were merged into [the `containerd/containerd` repo](https://github.com/containerd/cri)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate-context",
+      "text": "Open Container Initiative-based implementation of Kubernetes Container Runtime Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "containerd/cri",
       "status": "candidate",
       "text": "On October 7, 2020, the contents of this repo were merged into [the `containerd/containerd` repo](https://github.com/containerd/cri)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "containerd/cri"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cri-o/cri-o"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

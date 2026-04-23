@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "streams"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mholt/archiver",
+      "status": "candidate-context",
+      "text": "DEPRECATED. Please use mholt/archives instead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archiver",
+      "status": "candidate-context",
+      "text": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/read-stream",
+      "status": "candidate-context",
+      "text": "Read from an abstract-level database using Node.js streams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/read-stream",
+      "status": "candidate-context",
+      "text": "**Read from an [`abstract-level`](https://github.com/Level/abstract-level) database using Node.js streams.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mholt/archiver",
+      "status": "candidate",
+      "text": "This package is no longer developed; it has been superceded by **[mholt/archives](https://github.com/mholt/archives)** with an improved, more conventional exported API, significant performance improvements, and new features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/read-stream",
+      "status": "candidate",
+      "text": "**Read from an [`abstract-level`](https://github.com/Level/abstract-level) database using Node.js streams.**"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051367,
+      "status": "candidate",
+      "text": "watercourse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10038554,
+      "status": "candidate",
+      "text": "rain cats and dogs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10037854,
+      "status": "candidate",
+      "text": "rain buckets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10026635,
+      "status": "candidate",
+      "text": "current"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10017436,
+      "status": "candidate",
+      "text": "flow"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "streams",
+  "concept_id": "streams",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mholt/archiver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/read-stream"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "streams",
+      "sense_id": "streams#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

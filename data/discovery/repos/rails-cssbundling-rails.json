@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/cssbundling-rails",
+      "target": "rails/tailwindcss-rails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/cssbundling-rails",
+      "target": "rails/dartsass-rails",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:33:23.164305+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6223
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bundle and process CSS in Rails with Tailwind, PostCSS, and Sass via Node.js.",
+    "fork": false,
+    "full_name": "rails/cssbundling-rails",
+    "html_url": "https://github.com/rails/cssbundling-rails",
+    "language": "Ruby",
+    "pushed_at": "2025-10-23T21:43:01Z",
+    "stargazers_count": 628,
+    "topics": [],
+    "updated_at": "2026-04-21T09:42:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rails/dartsass-rails",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rails/tailwindcss-rails",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

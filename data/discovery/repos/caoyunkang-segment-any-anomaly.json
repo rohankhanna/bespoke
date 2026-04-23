@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caoyunkang/Segment-Any-Anomaly",
+      "target": "abin24/magnetic-tile-defect-datasets.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caoyunkang/Segment-Any-Anomaly",
+      "target": "caoyunkang/winclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caoyunkang/Segment-Any-Anomaly",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caoyunkang/Segment-Any-Anomaly",
+      "target": "foundation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caoyunkang/Segment-Any-Anomaly",
+      "target": "zero-shot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:48:25.643056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "SAA-plus",
+    "description": "Official implementation of \"Segment Any Anomaly without Training via Hybrid Prompt Regularization (SAA+)\".",
+    "fork": false,
+    "full_name": "caoyunkang/Segment-Any-Anomaly",
+    "html_url": "https://github.com/caoyunkang/Segment-Any-Anomaly",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-02-22T04:57:10Z",
+    "stargazers_count": 840,
+    "topics": [
+      "anomaly-detection",
+      "foundation",
+      "zero-shot"
+    ],
+    "updated_at": "2026-04-16T07:08:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abin24/magnetic-tile-defect-datasets.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caoyunkang/winclip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12Sh0j92YYmTa0oIuSEWWpPBCpIwCSVhz?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anomaly-detection"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12Sh0j92YYmTa0oIuSEWWpPBCpIwCSVhz?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation"
+    },
+    {
+      "context_snippet": "[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12Sh0j92YYmTa0oIuSEWWpPBCpIwCSVhz?usp=sharing)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot"
+    }
+  ]
+}

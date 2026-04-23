@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:32:09.993398+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 163
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "My screenshots",
+    "fork": false,
+    "full_name": "rhysd/ss",
+    "html_url": "https://github.com/rhysd/ss",
+    "language": "Ruby",
+    "pushed_at": "2024-11-20T15:22:52Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-02-06T14:16:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

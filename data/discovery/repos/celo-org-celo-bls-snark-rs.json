@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:28:40.820782+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3446
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 481
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implements SNARK-friendly BLS signatures",
+    "fork": false,
+    "full_name": "celo-org/celo-bls-snark-rs",
+    "html_url": "https://github.com/celo-org/celo-bls-snark-rs",
+    "language": "Rust",
+    "pushed_at": "2024-02-02T14:32:47Z",
+    "stargazers_count": 86,
+    "topics": [],
+    "updated_at": "2026-04-14T04:50:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Vet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "status": "candidate-context",
+      "text": "A community maintained list of public Beacon Chain checkpoint sync endpoints "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "status": "candidate-context",
+      "text": "Vet"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "status": "candidate",
+      "text": "Vet"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907886,
+      "status": "candidate",
+      "text": "veterinarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907882,
+      "status": "candidate",
+      "text": "veterinary surgeon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907507,
+      "status": "candidate",
+      "text": "veterinary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39752503,
+      "status": "candidate",
+      "text": "veteran"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39740340,
+      "status": "candidate",
+      "text": "ex-serviceman"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3036,
+      "status": "candidate",
+      "text": "veterinary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37,
+      "status": "candidate",
+      "text": "veterinarian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23,
+      "status": "candidate",
+      "text": "veterinary surgeon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "ex-serviceman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "veteran"
+    }
+  ],
+  "canonical_name": "Vet",
+  "concept_id": "vet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/vet.yaml",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Vet",
+      "sense_id": "vet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

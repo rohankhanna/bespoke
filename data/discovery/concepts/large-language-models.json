@@ -139,6 +139,162 @@
       "source_repo": "deepset-ai/haystack",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/oasis",
+      "status": "candidate-context",
+      "text": "\ud83c\udfdd\ufe0f OASIS: Open Agent Social Interaction Simulations with One Million Agents. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/oasis",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pat-jj/s3",
+      "status": "candidate-context",
+      "text": "[EMNLP'25] s3 - \u26a1 Efficient & Effective Search Agent Training via RL for RAG (RLVR for Search with Minimal Data)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pat-jj/s3",
+      "status": "candidate-context",
+      "text": "<div align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate-context",
+      "text": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate-context",
+      "text": "![# LLaMA Factory](assets/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleCloudPlatform/generative-ai",
+      "status": "candidate-context",
+      "text": "Sample code and notebooks for Generative AI on Google Cloud, with Gemini on Vertex AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/generative-ai",
+      "status": "candidate-context",
+      "text": "> **[Gemini Enterprise Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform)**, the latest evolution of Vertex AI, has been released!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenMOSS/MOSS",
+      "status": "candidate-context",
+      "text": "An open-source tool-augmented conversational language model from Fudan University"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenMOSS/MOSS",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QwenLM/Qwen",
+      "status": "candidate-context",
+      "text": "The official repo of Qwen (\u901a\u4e49\u5343\u95ee) chat & pretrained large language model proposed by Alibaba Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langflow-ai/langflow",
+      "status": "candidate-context",
+      "text": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langflow-ai/langflow",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AGI-Arena/MARS",
+      "status": "candidate-context",
+      "text": "The official implementation of MARS: Unleashing the Power of Variance Reduction for Training Large Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AGI-Arena/MARS",
+      "status": "candidate-context",
+      "text": "This repository contains the official code for the paper [MARS: Unleashing the Power of Variance Reduction for Training Large Models](https://arxiv.org/abs/2411.10438)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlc-ai/web-llm-assistant",
+      "status": "candidate-context",
+      "text": "AI Assistant running within your browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/web-llm-assistant",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "\ud83d\udc2b CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "echo-yiyiyi/cube",
+      "status": "candidate-context",
+      "text": "\ud83e\uddca CUBE: Dynamic Simulations in Customized Unity3D-Based Environments with Large Language Model-Based Multi-Agent Systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "echo-yiyiyi/cube",
+      "status": "candidate-context",
+      "text": "[![Python Version][python-image]][python-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "status": "candidate-context",
+      "text": "This is the repository for the Tool Learning survey."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "status": "candidate-context",
+      "text": "Recently, tool learning with large language models(LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "status": "candidate-context",
+      "text": ":sparkles::sparkles:Latest Advances on Multimodal Large Language Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +363,84 @@
       "source_repo": "deepset-ai/haystack",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/oasis",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pat-jj/s3",
+      "status": "candidate",
+      "text": "<div align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate",
+      "text": "![# LLaMA Factory](assets/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleCloudPlatform/generative-ai",
+      "status": "candidate",
+      "text": "> **[Gemini Enterprise Agent Platform](https://docs.cloud.google.com/gemini-enterprise-agent-platform)**, the latest evolution of Vertex AI, has been released!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenMOSS/MOSS",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langflow-ai/langflow",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AGI-Arena/MARS",
+      "status": "candidate",
+      "text": "This repository contains the official code for the paper [MARS: Unleashing the Power of Variance Reduction for Training Large Models](https://arxiv.org/abs/2411.10438)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/web-llm-assistant",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "echo-yiyiyi/cube",
+      "status": "candidate",
+      "text": "[![Python Version][python-image]][python-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "status": "candidate",
+      "text": "Recently, tool learning with large language models(LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -310,11 +544,95 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "deepset-ai/haystack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "camel-ai/oasis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pat-jj/s3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/generative-ai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "QwenLM/Qwen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AGI-Arena/MARS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "camel-ai/camel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "quchangle1/LLM-Tool-Survey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

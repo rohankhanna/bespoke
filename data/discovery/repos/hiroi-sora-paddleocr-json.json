@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/PaddleOCR-json",
+      "target": "hiroi-sora/rapidocr-json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/PaddleOCR-json",
+      "target": "jerrylususu/paddleocr-json-java-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/PaddleOCR-json",
+      "target": "aki-0929/paddleocrjson.net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/PaddleOCR-json",
+      "target": "doraemonkeys/paddleocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiroi-sora/PaddleOCR-json",
+      "target": "json-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiroi-sora/PaddleOCR-json",
+      "target": "paddleocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiroi-sora/PaddleOCR-json",
+      "target": "paddlepaddle",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:29:53.254099+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13376
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OCR\u79bb\u7ebf\u56fe\u7247\u6587\u5b57\u8bc6\u522b\u547d\u4ee4\u884cwindows\u7a0b\u5e8f\uff0c\u4ee5JSON\u5b57\u7b26\u4e32\u5f62\u5f0f\u8f93\u51fa\u7ed3\u679c\uff0c\u65b9\u4fbf\u522b\u7684\u7a0b\u5e8f\u8c03\u7528\u3002\u63d0\u4f9b\u5404\u79cd\u8bed\u8a00API\u3002\u7531 PaddleOCR C++ \u7f16\u8bd1\u3002",
+    "fork": false,
+    "full_name": "hiroi-sora/PaddleOCR-json",
+    "html_url": "https://github.com/hiroi-sora/PaddleOCR-json",
+    "language": "C++",
+    "pushed_at": "2025-04-07T14:43:56Z",
+    "stargazers_count": 1477,
+    "topics": [
+      "json-api",
+      "ocr",
+      "paddleocr",
+      "paddlepaddle"
+    ],
+    "updated_at": "2026-04-22T00:48:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aki-0929/paddleocrjson.net",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "doraemonkeys/paddleocr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiroi-sora/rapidocr-json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jerrylususu/paddleocr-json-java-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- **PaddleOCR-json**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-api"
+    },
+    {
+      "context_snippet": "- **PaddleOCR-json**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddleocr"
+    },
+    {
+      "context_snippet": "- **PaddleOCR-json**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddlepaddle"
+    }
+  ]
+}

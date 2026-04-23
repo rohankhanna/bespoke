@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish to W3C TR space"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/annotations",
+      "status": "candidate-context",
+      "text": "Proposal for Custom Annotation Syntax in the Text Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/annotations",
+      "status": "candidate-context",
+      "text": "Publish to W3C TR space"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/annotations",
+      "status": "candidate",
+      "text": "Publish to W3C TR space"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18292,
+      "status": "candidate",
+      "text": "give"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18042,
+      "status": "candidate",
+      "text": "bring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18042,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18042,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18042,
+      "status": "candidate",
+      "text": "send"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish to W3C TR space",
+  "concept_id": "publish-to-w3c-tr-space",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/w3c-publish.yml",
+      "source_repo": "WebAssembly/annotations"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish to W3C TR space",
+      "sense_id": "publish-to-w3c-tr-space#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

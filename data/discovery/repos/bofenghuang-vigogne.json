@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bofenghuang/vigogne",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bofenghuang/vigogne",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bofenghuang/vigogne",
+      "target": "project-baize/baize-chatbot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bofenghuang/vigogne",
+      "target": "openaccess-ai-collective/axolotl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:45:56.738650+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8622
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1784
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "French instruction-following and chat models",
+    "fork": false,
+    "full_name": "bofenghuang/vigogne",
+    "html_url": "https://github.com/bofenghuang/vigogne",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-12-05T11:33:09Z",
+    "stargazers_count": 505,
+    "topics": [],
+    "updated_at": "2026-03-25T22:08:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openaccess-ai-collective/axolotl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-baize/baize-chatbot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

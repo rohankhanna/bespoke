@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "metrics"
+    "metrics",
+    "Metrics"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -93,6 +94,102 @@
       "source_repo": "prometheus/prometheus",
       "status": "candidate-context",
       "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry",
+      "status": "candidate-context",
+      "text": "Instrumentation for https://opentelemetry.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry",
+      "status": "candidate-context",
+      "text": "This project provides an API for instrumenting server software"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DataDog/datadog-agent",
+      "status": "candidate-context",
+      "text": "Main repository for Datadog Agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/datadog-agent",
+      "status": "candidate-context",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "Add-on agent to generate and expose cluster-level metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/kubernetes/kube-state-metrics/workflows/continuous-integration/badge.svg)](https://github.com/kubernetes/kube-state-metrics/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "toshas/torch-fidelity",
+      "status": "candidate-context",
+      "text": "High-fidelity performance metrics for generative models in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toshas/torch-fidelity",
+      "status": "candidate-context",
+      "text": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/NumKong",
+      "status": "candidate-context",
+      "text": "SIMD-accelerated distances, dot products, matrix ops, geospatial & geometric kernels for 16 numeric types \u2014 from 6-bit floats to 64-bit complex \u2014 across x86, Arm, RISC-V, and WASM, with bindings for Python, Rust, C, C++, Swift, JS, and Go \ud83d\udcd0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumKong",
+      "status": "candidate-context",
+      "text": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/grafana",
+      "status": "candidate-context",
+      "text": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/grafana",
+      "status": "candidate-context",
+      "text": "![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diesel-rs/diesel",
+      "status": "candidate-context",
+      "text": "A safe, extensible ORM and Query Builder for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diesel-rs/diesel",
+      "status": "candidate-context",
+      "text": "Metrics"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate-context",
+      "text": "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>"
     }
   ],
   "candidate_glosses": [
@@ -137,6 +234,54 @@
       "source_repo": "prometheus/prometheus",
       "status": "candidate",
       "text": "<h1 align=\"center\" style=\"border-bottom: none\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry",
+      "status": "candidate",
+      "text": "This project provides an API for instrumenting server software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/datadog-agent",
+      "status": "candidate",
+      "text": "![GitHub Release](https://img.shields.io/github/v/release/DataDog/datadog-agent?style=flat&logo=datadog&logoColor=%23632CA6&labelColor=%23FFF&color=%23632CA6)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/kubernetes/kube-state-metrics/workflows/continuous-integration/badge.svg)](https://github.com/kubernetes/kube-state-metrics/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toshas/torch-fidelity",
+      "status": "candidate",
+      "text": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumKong",
+      "status": "candidate",
+      "text": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/grafana",
+      "status": "candidate",
+      "text": "![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diesel-rs/diesel",
+      "status": "candidate",
+      "text": "Metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>"
     }
   ],
   "candidate_related_terms": [
@@ -222,11 +367,59 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "prometheus/prometheus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "DataDog/datadog-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/kube-state-metrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "toshas/torch-fidelity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "grafana/grafana"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/metrics.yml",
+      "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aca/completion-tabnine",
+      "target": "haorenw1025/completion-nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aca/completion-tabnine",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aca/completion-tabnine",
+      "target": "tabnine",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:30:02.554428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1425
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A TabNine completion source for completion-nvim.",
+    "fork": false,
+    "full_name": "aca/completion-tabnine",
+    "html_url": "https://github.com/aca/completion-tabnine",
+    "language": "Lua",
+    "pushed_at": "2021-09-27T12:08:49Z",
+    "stargazers_count": 48,
+    "topics": [
+      "neovim",
+      "tabnine",
+      "vim"
+    ],
+    "updated_at": "2024-07-01T07:02:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haorenw1025/completion-nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "completion-tabnine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "completion-tabnine",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tabnine"
+    }
+  ]
+}

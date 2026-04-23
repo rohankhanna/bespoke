@@ -31,6 +31,30 @@
       "source_repo": "lerna-lite/lerna-lite",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate-context",
+      "text": "nvm wrapper for fish-shell "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate-context",
+      "text": "[NVM] wrapper for fish-shell."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "The React Native Community CLI - command line tools to help you build RN apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "Command line tools that help you build apps with [`react-native`](https://github.com/facebook/react-native), shipped as the `@react-native-community/cli` NPM package."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "lerna-lite/lerna-lite",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate",
+      "text": "[NVM] wrapper for fish-shell."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate",
+      "text": "Command line tools that help you build apps with [`react-native`](https://github.com/facebook/react-native), shipped as the `@react-native-community/cli` NPM package."
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "lerna-lite/lerna-lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "FabioAntunes/fish-nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "react-native-community/cli"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

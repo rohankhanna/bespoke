@@ -1,0 +1,17 @@
+{
+  "component": "changesets/action@001cd79f0a536e733315164543a727bdf2d70aff",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades"
+    }
+  ]
+}

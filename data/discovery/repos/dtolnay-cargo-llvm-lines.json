@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "dtolnay/.github/.github/workflows/pre_ci.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@clippy",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/install@cargo-outdated",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/.github/.github/workflows/check_install.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-llvm-lines",
+      "target": "dtolnay/.github/.github/workflows/pre_ci.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-llvm-lines",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-llvm-lines",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-llvm-lines",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-llvm-lines",
+      "target": "dtolnay/rust-toolchain@clippy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-llvm-lines",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dtolnay/cargo-llvm-lines",
+      "target": "dtolnay/install@cargo-outdated",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "dtolnay/cargo-llvm-lines",
+      "target": "dtolnay/.github/.github/workflows/check_install.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "dtolnay/cargo-llvm-lines",
+      "target": "Install",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:41:45.461193+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5231
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 896
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1932
+    },
+    {
+      "path": ".github/workflows/install.yml",
+      "size": 287
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Count lines of LLVM IR per generic function",
+    "fork": false,
+    "full_name": "dtolnay/cargo-llvm-lines",
+    "html_url": "https://github.com/dtolnay/cargo-llvm-lines",
+    "language": "Rust",
+    "pushed_at": "2025-12-20T05:11:22Z",
+    "stargazers_count": 507,
+    "topics": [],
+    "updated_at": "2026-04-19T18:49:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Install",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/install.yml",
+      "term": "Install"
+    }
+  ]
+}

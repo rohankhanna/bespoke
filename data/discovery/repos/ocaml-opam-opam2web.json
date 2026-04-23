@@ -5,32 +5,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ocaml-opam/opam2web",
-      "target": "ocaml/ocaml-re",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ocaml-opam/opam2web",
-      "target": "avsm/ocaml-uri",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ocaml-opam/opam2web",
-      "target": "mirage/ocaml-cow",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ocaml-opam/opam2web",
-      "target": "ocaml/platform-blog",
+      "target": "ocurrent/ocurrent-deployer",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-22T01:16:52.638100+00:00",
+  "fetched_at": "2026-04-23T04:43:16.752803+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -58,22 +37,7 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "avsm/ocaml-uri",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mirage/ocaml-cow",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ocaml/ocaml-re",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ocaml/platform-blog",
+      "full_name": "ocurrent/ocurrent-deployer",
       "source_file": "README.md"
     }
   ],

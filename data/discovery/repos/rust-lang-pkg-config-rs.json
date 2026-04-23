@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-lang/pkg-config-rs",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-lang/pkg-config-rs",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:38:16.079922+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2886
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 490
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 847
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build library for invoking pkg-config for Rust",
+    "fork": false,
+    "full_name": "rust-lang/pkg-config-rs",
+    "html_url": "https://github.com/rust-lang/pkg-config-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-13T08:57:16Z",
+    "stargazers_count": 188,
+    "topics": [],
+    "updated_at": "2026-04-16T02:45:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

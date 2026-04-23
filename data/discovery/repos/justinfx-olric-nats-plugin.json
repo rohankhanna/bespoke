@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinfx/olric-nats-plugin",
+      "target": "buraksezer/olric",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "justinfx/olric-nats-plugin",
+      "target": "nats-io/nats-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinfx/olric-nats-plugin",
+      "target": "cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinfx/olric-nats-plugin",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinfx/olric-nats-plugin",
+      "target": "nats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinfx/olric-nats-plugin",
+      "target": "natsio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinfx/olric-nats-plugin",
+      "target": "olric",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinfx/olric-nats-plugin",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "justinfx/olric-nats-plugin",
+      "target": "service-discovery",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:39:12.034869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2232
+    },
+    {
+      "path": "go.mod",
+      "size": 709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A service discovery plugin for Olric distributed cache, using nats.io",
+    "fork": false,
+    "full_name": "justinfx/olric-nats-plugin",
+    "html_url": "https://github.com/justinfx/olric-nats-plugin",
+    "language": "Go",
+    "pushed_at": "2026-03-25T20:22:13Z",
+    "stargazers_count": 8,
+    "topics": [
+      "cache",
+      "distributed",
+      "nats",
+      "natsio",
+      "olric",
+      "plugin",
+      "service-discovery"
+    ],
+    "updated_at": "2026-03-25T20:22:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buraksezer/olric",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nats-io/nats-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cache"
+    },
+    {
+      "context_snippet": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed"
+    },
+    {
+      "context_snippet": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nats"
+    },
+    {
+      "context_snippet": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natsio"
+    },
+    {
+      "context_snippet": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "olric"
+    },
+    {
+      "context_snippet": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "[![GoDoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/justinfx/olric-nats-plugin/lib)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service-discovery"
+    }
+  ]
+}

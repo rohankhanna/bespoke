@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zheng977/MutiAgent4Fraud",
+      "target": "multi-agent-systems-failure-taxonomy/mast",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:34:26.831414+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7643
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2026]  \"When AI Agents Collude Online: Financial Fraud Risks by Collaborative LLM Agents on Social Platforms\"",
+    "fork": false,
+    "full_name": "zheng977/MutiAgent4Fraud",
+    "html_url": "https://github.com/zheng977/MutiAgent4Fraud",
+    "language": "Python",
+    "pushed_at": "2026-02-03T06:33:32Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-04-09T08:26:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multi-agent-systems-failure-taxonomy/mast",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

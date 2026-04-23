@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build Snap packages for Electron applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://github.com/electron-userland/electron-installer-snap/workflows/CI/badge.svg)](https://github.com/electron-userland/electron-installer-snap/actions?query=workflow:CI)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/electron-userland/electron-installer-snap/workflows/CI/badge.svg)](https://github.com/electron-userland/electron-installer-snap/actions?query=workflow:CI)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035784,
+      "status": "candidate",
+      "text": "flick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034213,
+      "status": "candidate",
+      "text": "crack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033627,
+      "status": "candidate",
+      "text": "click"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031250,
+      "status": "candidate",
+      "text": "rupture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028520,
+      "status": "candidate",
+      "text": "snarl"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snap",
+      "sense_id": "snap#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 81037,
+      "status": "candidate",
+      "text": "snarl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43070,
+      "status": "candidate",
+      "text": "crack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23046,
+      "status": "candidate",
+      "text": "rupture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17047,
+      "status": "candidate",
+      "text": "flick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16045,
+      "status": "candidate",
+      "text": "snatch"
+    }
+  ],
+  "concept_id": "snap",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snap",
+  "observation_id": "f674c956263e05a9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "snap",
+  "source_context_snippet": "[![Build Status](https://github.com/electron-userland/electron-installer-snap/workflows/CI/badge.svg)](https://github.com/electron-userland/electron-installer-snap/actions?query=workflow:CI)",
+  "source_file": null,
+  "source_repo": "electron-userland/electron-installer-snap",
+  "source_repo_description": "Build Snap packages for Electron applications"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Typescript tooling for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "The time has finally come. Since Neovim 0.5 is out, and LSP is officially supported, I'd suggest you migrate over to it. I have been using it instead of this plugin for a while and it solves many pain points that I've not been able to. This will stay around for older neovim rele\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "The time has finally come. Since Neovim 0.5 is out, and LSP is officially supported, I'd suggest you migrate over to it. I have been using it instead of this plugin for a while and it solves many pain points that I've not been able to. This will stay around for older neovim rele\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neovim",
+      "sense_id": "neovim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neovim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neovim",
+  "observation_id": "246079ff38f978d2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "neovim",
+  "source_context_snippet": "The time has finally come. Since Neovim 0.5 is out, and LSP is officially supported, I'd suggest you migrate over to it. I have been using it instead of this plugin for a while and it solves many pain points that I've not been able to. This will stay around for older neovim rele\u2026",
+  "source_file": null,
+  "source_repo": "mhartington/nvim-typescript",
+  "source_repo_description": "Typescript tooling for Neovim"
+}

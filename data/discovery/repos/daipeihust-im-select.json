@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "Platane/snk@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/im-select.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/im-select.yml",
+      "source_repo": "daipeihust/im-select",
+      "target": "Platane/snk@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daipeihust/im-select",
+      "target": "keyboard-layout",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daipeihust/im-select",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daipeihust/im-select",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "daipeihust/im-select",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:34:46.239219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6148
+    },
+    {
+      "path": ".github/workflows/im-select.yml",
+      "size": 910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcdf Switch your input method through terminal",
+    "fork": false,
+    "full_name": "daipeihust/im-select",
+    "html_url": "https://github.com/daipeihust/im-select",
+    "language": "C++",
+    "pushed_at": "2024-05-25T08:30:24Z",
+    "stargazers_count": 1311,
+    "topics": [
+      "im",
+      "keyboard-layout",
+      "linux",
+      "mac",
+      "terminal",
+      "windows"
+    ],
+    "updated_at": "2026-04-21T04:26:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![image](https://user-images.githubusercontent.com/13344830/232276894-f84ee7d9-091e-40dd-8ad4-0b8840456a58.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyboard-layout"
+    },
+    {
+      "context_snippet": "![image](https://user-images.githubusercontent.com/13344830/232276894-f84ee7d9-091e-40dd-8ad4-0b8840456a58.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "![image](https://user-images.githubusercontent.com/13344830/232276894-f84ee7d9-091e-40dd-8ad4-0b8840456a58.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "![image](https://user-images.githubusercontent.com/13344830/232276894-f84ee7d9-091e-40dd-8ad4-0b8840456a58.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

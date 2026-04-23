@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kika/fixedsys",
+      "target": "larsenwork/monoid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kika/fixedsys",
+      "target": "behdad/fonttools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kika/fixedsys",
+      "target": "macvim-dev/macvim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:40:43.869090+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fixedsys Excelsior font with programming ligatures",
+    "fork": false,
+    "full_name": "kika/fixedsys",
+    "html_url": "https://github.com/kika/fixedsys",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T02:40:44Z",
+    "stargazers_count": 1219,
+    "topics": [],
+    "updated_at": "2026-04-23T06:21:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "behdad/fonttools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "larsenwork/monoid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "macvim-dev/macvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

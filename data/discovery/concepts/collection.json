@@ -19,6 +19,30 @@
       "source_repo": "cncf/tag-observability",
       "status": "candidate-context",
       "text": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate-context",
+      "text": "A collection of ZSH frameworks, plugins, themes and tutorials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "A curated list of awesome self-hosted GitHub Action runners in a large comparison matrix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "cncf/tag-observability",
       "status": "candidate",
       "text": "Technical Advisory Group for Observability under the umbrella of [CNCF](https://www.cncf.io/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "cncf/tag-observability"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonico/awesome-runners"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "Buildifier"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/distroless",
+      "status": "candidate-context",
+      "text": "\ud83e\udd51  Language focused docker images, minus the operating system.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/distroless",
+      "status": "candidate-context",
+      "text": "Buildifier"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openxla/xla",
+      "status": "candidate-context",
+      "text": "A machine learning compiler for GPUs, CPUs, and ML accelerators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxla/xla",
+      "status": "candidate-context",
+      "text": "Buildifier"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/distroless",
+      "status": "candidate",
+      "text": "Buildifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openxla/xla",
+      "status": "candidate",
+      "text": "Buildifier"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Buildifier",
+  "concept_id": "buildifier",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/buildifier.yaml",
+      "source_repo": "GoogleContainerTools/distroless"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/buildifier.yml",
+      "source_repo": "openxla/xla"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Buildifier",
+      "sense_id": "buildifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udee0 Blackfriday-Confluence is confluence wiki renderer for the Blackfriday v2 markdown processor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![godoc](https://img.shields.io/badge/godoc-reference-orange.svg?style=flat-square)](https://godoc.org/github.com/kentaro-m/blackfriday-confluence)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![godoc](https://img.shields.io/badge/godoc-reference-orange.svg?style=flat-square)](https://godoc.org/github.com/kentaro-m/blackfriday-confluence)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39883155,
+      "status": "candidate",
+      "text": "conflux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39837984,
+      "status": "candidate",
+      "text": "concourse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39754790,
+      "status": "candidate",
+      "text": "merging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39751717,
+      "status": "candidate",
+      "text": "junction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39738282,
+      "status": "candidate",
+      "text": "meeting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "confluence",
+      "sense_id": "confluence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22035,
+      "status": "candidate",
+      "text": "concourse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17022,
+      "status": "candidate",
+      "text": "conflux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7043,
+      "status": "candidate",
+      "text": "meeting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6023,
+      "status": "candidate",
+      "text": "merging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "junction"
+    }
+  ],
+  "concept_id": "confluence",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "confluence",
+  "observation_id": "b3c6e4463c617c19",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "confluence",
+  "source_context_snippet": "[![godoc](https://img.shields.io/badge/godoc-reference-orange.svg?style=flat-square)](https://godoc.org/github.com/kentaro-m/blackfriday-confluence)",
+  "source_file": null,
+  "source_repo": "kentaro-m/blackfriday-confluence",
+  "source_repo_description": "\ud83d\udee0 Blackfriday-Confluence is confluence wiki renderer for the Blackfriday v2 markdown processor."
+}

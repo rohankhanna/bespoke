@@ -266,28 +266,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "electron/packager",
-      "target": "electron-userland/electron-installer-dmg",
+      "target": "electron-userland/electron-installer-zip",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "electron/packager",
-      "target": "electron-userland/electron-installer-debian",
+      "target": "electron-userland/electron-windows-msix",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "electron/packager",
-      "target": "electron-userland/electron-installer-redhat",
+      "target": "electron-userland/electron-windows-store",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "electron/packager",
-      "target": "electron-userland/electron-installer-snap",
+      "target": "electron-userland/electron-installer-windows",
       "target_type": "repository"
     },
     {
@@ -718,7 +718,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:11:52.373126+00:00",
+  "fetched_at": "2026-04-23T08:44:55.768925+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -762,7 +762,7 @@
     "full_name": "electron/packager",
     "html_url": "https://github.com/electron/packager",
     "language": "TypeScript",
-    "pushed_at": "2026-04-22T02:27:50Z",
+    "pushed_at": "2026-04-23T04:38:06Z",
     "stargazers_count": 290,
     "topics": [
       "electron",
@@ -775,22 +775,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "electron-userland/electron-installer-debian",
+      "full_name": "electron-userland/electron-installer-windows",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "electron-userland/electron-installer-dmg",
+      "full_name": "electron-userland/electron-installer-zip",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "electron-userland/electron-installer-redhat",
+      "full_name": "electron-userland/electron-windows-msix",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "electron-userland/electron-installer-snap",
+      "full_name": "electron-userland/electron-windows-store",
       "source_file": "README.md"
     }
   ],

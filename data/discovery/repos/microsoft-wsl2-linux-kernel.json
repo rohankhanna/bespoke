@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:33:39.891758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "linux-msft-wsl-6.18.y",
+    "description": "The source for the Linux kernel used in Windows Subsystem for Linux 2 (WSL2)",
+    "fork": false,
+    "full_name": "microsoft/WSL2-Linux-Kernel",
+    "html_url": "https://github.com/microsoft/WSL2-Linux-Kernel",
+    "language": "C",
+    "pushed_at": "2026-04-20T23:17:29Z",
+    "stargazers_count": 10318,
+    "topics": [],
+    "updated_at": "2026-04-23T02:27:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

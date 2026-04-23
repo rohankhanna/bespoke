@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "wgutils",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cspell",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wgutils-automerge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/community-wg",
+      "target": "wgutils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/community-wg",
+      "target": "cspell",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/community-wg",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wgutils-automerge.yml",
+      "source_repo": "graphql/community-wg",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wgutils-automerge.yml",
+      "source_repo": "graphql/community-wg",
+      "target": "Agenda auto-merge",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:31:43.454204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3894
+    },
+    {
+      "path": "package.json",
+      "size": 487
+    },
+    {
+      "path": ".github/workflows/wgutils-automerge.yml",
+      "size": 1783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "graphql/community-wg",
+    "html_url": "https://github.com/graphql/community-wg",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-03T12:17:52Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-04-21T17:40:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Agenda auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wgutils-automerge.yml",
+      "term": "Agenda auto-merge"
+    }
+  ]
+}

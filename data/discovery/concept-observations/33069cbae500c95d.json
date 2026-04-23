@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The participatory democracy framework. A generator and multiple gems made with Ruby on Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "civictech",
+      "sense_id": "civictech#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "civictech",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "civictech",
+  "observation_id": "33069cbae500c95d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "civictech",
+  "source_context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+  "source_file": null,
+  "source_repo": "decidim/decidim",
+  "source_repo_description": "The participatory democracy framework. A generator and multiple gems made with Ruby on Rails"
+}

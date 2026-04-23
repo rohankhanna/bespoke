@@ -1,12 +1,17 @@
 {
   "component": "android-actions/setup-android@651bceb6f9ca583f16b8d75b62c36ded2ae6fc9c",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/android-ndk-build.yml",
       "source_repo": "facebook/zstd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-jni.yml",
+      "source_repo": "AOMediaCodec/libavif"
     }
   ]
 }

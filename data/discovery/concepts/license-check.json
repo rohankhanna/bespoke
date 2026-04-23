@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "License check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/cache",
+      "status": "candidate-context",
+      "text": "Cache dependencies and build outputs in GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/cache",
+      "status": "candidate-context",
+      "text": "License check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate-context",
+      "text": "Simple and productive Web Development Tools in the Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate-context",
+      "text": "License check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/cache",
+      "status": "candidate",
+      "text": "License check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate",
+      "text": "License check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11942,
+      "status": "candidate",
+      "text": "certification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11942,
+      "status": "candidate",
+      "text": "certify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11942,
+      "status": "candidate",
+      "text": "leave"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11942,
+      "status": "candidate",
+      "text": "licence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11942,
+      "status": "candidate",
+      "text": "male"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "License check",
+  "concept_id": "license-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/cache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/licensecheck.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "License check",
+      "sense_id": "license-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

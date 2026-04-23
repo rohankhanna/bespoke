@@ -1,0 +1,524 @@
+{
+  "components": [
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml"
+    },
+    {
+      "component": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml"
+    },
+    {
+      "component": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@9ad2de8582b56c017cb530c1165116d40433f1c6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_pr_documentation.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "alphadl/lookahead.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "agi-arena/mars",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "allenai/allennlp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "albumentations-team/albumentations",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "huggingface/doc-builder/.github/workflows/build_main_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "Build documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "huggingface/doc-builder/.github/workflows/build_pr_documentation.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "Build PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "trufflesecurity/trufflehog@6bd2d14f7a4bc1e569fa3550efa7ec632a4fa67b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "Secret Leaks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload_pr_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "huggingface/doc-builder/.github/workflows/upload_pr_documentation.yml@9ad2de8582b56c017cb530c1165116d40433f1c6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload_pr_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "Upload PR Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "augmix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "convnext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "distributed-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "efficientnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "imagenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "maxvit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "mixnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "mobile-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "mobilenet-v2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "mobilenetv3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "nfnets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "normalization-free-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "optimizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "pretrained-weights",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "randaugment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models",
+      "target": "vision-transformer-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:29:08.782918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38484
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2110
+    },
+    {
+      "path": "requirements.txt",
+      "size": 77
+    },
+    {
+      "path": ".github/workflows/build_documentation.yml",
+      "size": 506
+    },
+    {
+      "path": ".github/workflows/build_pr_documentation.yml",
+      "size": 566
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2528
+    },
+    {
+      "path": ".github/workflows/trufflehog.yml",
+      "size": 348
+    },
+    {
+      "path": ".github/workflows/upload_pr_documentation.yml",
+      "size": 421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- ResNet, ResNeXT, EfficientNet, NFNet, Vision Transformer (ViT), MobileNetV4, MobileNet-V3 & V2, RegNet, DPN, CSPNet, Swin Transformer, MaxViT, CoAtNet, ConvNeXt, and more",
+    "fork": false,
+    "full_name": "huggingface/pytorch-image-models",
+    "html_url": "https://github.com/huggingface/pytorch-image-models",
+    "language": "Python",
+    "pushed_at": "2026-04-22T21:14:36Z",
+    "stargazers_count": 36682,
+    "topics": [
+      "augmix",
+      "convnext",
+      "distributed-training",
+      "efficientnet",
+      "image-classification",
+      "imagenet",
+      "maxvit",
+      "mixnet",
+      "mobile-deep-learning",
+      "mobilenet-v2",
+      "mobilenetv3",
+      "nfnets",
+      "normalization-free-training",
+      "optimizer",
+      "pretrained-models",
+      "pretrained-weights",
+      "pytorch",
+      "randaugment",
+      "resnet",
+      "vision-transformer-models"
+    ],
+    "updated_at": "2026-04-22T22:58:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agi-arena/mars",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "albumentations-team/albumentations",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/allennlp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alphadl/lookahead.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "term": "Build documentation"
+    },
+    {
+      "context_snippet": "Build PR Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_pr_documentation.yml",
+      "term": "Build PR Documentation"
+    },
+    {
+      "context_snippet": "Secret Leaks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "term": "Secret Leaks"
+    },
+    {
+      "context_snippet": "Upload PR Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload_pr_documentation.yml",
+      "term": "Upload PR Documentation"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "augmix"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convnext"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-training"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficientnet"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maxvit"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixnet"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-deep-learning"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenet-v2"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenetv3"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nfnets"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "normalization-free-training"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimizer"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-weights"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "randaugment"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet"
+    },
+    {
+      "context_snippet": "- [What's New](#whats-new)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer-models"
+    }
+  ]
+}

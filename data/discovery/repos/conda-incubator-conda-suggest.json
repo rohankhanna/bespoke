@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:47:00.370852+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2968
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Suggest packages to install to obtain command line utilities",
+    "fork": false,
+    "full_name": "conda-incubator/conda-suggest",
+    "html_url": "https://github.com/conda-incubator/conda-suggest",
+    "language": "Python",
+    "pushed_at": "2022-05-07T18:45:38Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2024-04-03T15:40:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

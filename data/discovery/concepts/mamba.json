@@ -34,6 +34,18 @@
       "source_repo": "mudler/LocalAI",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mamba-org/boa",
+      "status": "candidate-context",
+      "text": "The fast conda package builder, based on mamba"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/boa",
+      "status": "candidate-context",
+      "text": "![boa header image](docs/assets/boa_header.png)"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "mudler/LocalAI",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mamba-org/boa",
+      "status": "candidate",
+      "text": "![boa header image](docs/assets/boa_header.png)"
     }
   ],
   "candidate_related_terms": [
@@ -103,11 +121,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mamba-org/boa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

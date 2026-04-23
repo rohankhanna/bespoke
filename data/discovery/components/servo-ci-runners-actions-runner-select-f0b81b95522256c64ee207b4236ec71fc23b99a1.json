@@ -1,0 +1,12 @@
+{
+  "component": "servo/ci-runners/actions/runner-select@f0b81b95522256c64ee207b4236ec71fc23b99a1",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bencher.yml",
+      "source_repo": "servo/servo"
+    }
+  ]
+}

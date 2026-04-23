@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/amazon-ecs-cni-plugins",
+      "target": "aws/amazon-ecs-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-ecs-cni-plugins",
+      "target": "cni-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:31:34.348988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1568
+    },
+    {
+      "path": "go.mod",
+      "size": 1909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Networking Plugins repository for ECS Task Networking",
+    "fork": false,
+    "full_name": "aws/amazon-ecs-cni-plugins",
+    "html_url": "https://github.com/aws/amazon-ecs-cni-plugins",
+    "language": "Go",
+    "pushed_at": "2026-03-06T20:17:01Z",
+    "stargazers_count": 100,
+    "topics": [
+      "cni-plugin"
+    ],
+    "updated_at": "2026-03-06T20:17:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/amazon-ecs-agent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/aws/amazon-ecs-cni-plugins.svg?branch=master)](https://travis-ci.org/aws/amazon-ecs-cni-plugins)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cni-plugin"
+    }
+  ]
+}

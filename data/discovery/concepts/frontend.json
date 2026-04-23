@@ -76,6 +76,18 @@
       "source_repo": "Deep-Learning-Profiling-Tools/triton-viz",
       "status": "candidate-context",
       "text": "Frontend"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tsl0922/ttyd",
+      "status": "candidate-context",
+      "text": "Share your terminal over the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsl0922/ttyd",
+      "status": "candidate-context",
+      "text": "frontend"
     }
   ],
   "candidate_glosses": [
@@ -114,6 +126,12 @@
       "source_repo": "Deep-Learning-Profiling-Tools/triton-viz",
       "status": "candidate",
       "text": "Frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsl0922/ttyd",
+      "status": "candidate",
+      "text": "frontend"
     }
   ],
   "candidate_related_terms": [
@@ -193,11 +211,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/frontend.yml",
       "source_repo": "Deep-Learning-Profiling-Tools/triton-viz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/frontend.yml",
+      "source_repo": "tsl0922/ttyd"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

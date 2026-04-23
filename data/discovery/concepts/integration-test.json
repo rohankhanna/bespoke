@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Integration Test"
+    "Integration Test",
+    "integration-test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "ko-build/ko",
       "status": "candidate-context",
       "text": "Integration Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate-context",
+      "text": "A controller to help manage App Mesh resources for a Kubernetes cluster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate-context",
+      "text": "integration-test"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "ko-build/ko",
       "status": "candidate",
       "text": "Integration Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "status": "candidate",
+      "text": "integration-test"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +119,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/modules-integration-test.yaml",
       "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

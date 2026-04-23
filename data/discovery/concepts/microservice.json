@@ -31,6 +31,54 @@
       "source_repo": "alibaba/Sentinel",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/sentinel-cpp",
+      "status": "candidate-context",
+      "text": "C++ implementation of Sentinel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/sentinel-cpp",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/sentinel-golang",
+      "status": "candidate-context",
+      "text": "Sentinel Go enables reliability and resiliency for Go microservices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/sentinel-golang",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate-context",
+      "text": ":fire: Seata is an easy-to-use, high-performance, open source distributed transaction solution."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-go-pixiu",
+      "status": "candidate-context",
+      "text": "Based on the proxy gateway service of dubbo-go, it solves the problem that the external protocol calls the internal Dubbo cluster. At present, it supports HTTP and gRPC[developing]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-go-pixiu",
+      "status": "candidate-context",
+      "text": "[![Pixiu Logo](docs/images/pixiu-logo-v4.png)](http://alexstocks.github.io/html/dubbogo.html)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "alibaba/Sentinel",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/sentinel-cpp",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/sentinel-golang",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/incubator-seata",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-go-pixiu",
+      "status": "candidate",
+      "text": "[![Pixiu Logo](docs/images/pixiu-logo-v4.png)](http://alexstocks.github.io/html/dubbogo.html)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +172,35 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "alibaba/Sentinel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/sentinel-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/sentinel-golang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/incubator-seata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go-pixiu"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

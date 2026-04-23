@@ -1193,6 +1193,444 @@
       "source_repo": "genome21/langflow",
       "status": "candidate-context",
       "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0ghny/asdf-gitconfig",
+      "status": "candidate-context",
+      "text": "asdf-vm plugin to manage gitconfigs cli versions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/asdf-gitconfig",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0ghny/asdf-gobackup",
+      "status": "candidate-context",
+      "text": "huacnlee/gobackup plugin for asdf version manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/asdf-gobackup",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0ghny/asdf-tlsgcli",
+      "status": "candidate-context",
+      "text": "ASDF Plugin for tlsg-cli"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/asdf-tlsgcli",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-community/asdf-pdm",
+      "status": "candidate-context",
+      "text": "PDM plugin for the asdf version manager [maintainer=@1oglop1]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-community/asdf-pdm",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/brotli",
+      "status": "candidate-context",
+      "text": "Brotli compression format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/brotli",
+      "status": "candidate-context",
+      "text": "\"Lint\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mpv-player/mpv",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa5 Command line media player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpv-player/mpv",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate-context",
+      "text": "A Node.js style checker and lint tool for Markdown/CommonMark files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate-context",
+      "text": "> A Node.js style checker and lint tool for Markdown/CommonMark files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate-context",
+      "text": "A fast, flexible, configuration-based command-line interface for linting Markdown/CommonMark files with the markdownlint library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate-context",
+      "text": "> A fast, flexible, configuration-based command-line interface for linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate-context",
+      "text": "Quickstart configs for Nvim LSP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain-ai/langgraph-bigtool",
+      "status": "candidate-context",
+      "text": "Build LangGraph agents with large numbers of tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langgraph-bigtool",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "A modern formatting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+      "status": "candidate-context",
+      "text": "Terraform module to create a responsive Maintenance Page using Cloudflare Workers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate-context",
+      "text": "TFLint ruleset for terraform-provider-azurerm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate-context",
+      "text": "\u26a1 The fastest and most configurable plugin for MkDocs, allowing seamless export of individual pages and/or entire documentation as PDF documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate-context",
+      "text": "A library for accelerating Transformer models on NVIDIA GPUs, including using 8-bit and 4-bit floating point (FP8 and FP4) precision on Hopper, Ada and Blackwell GPUs, to provide better performance with lower memory utilization in both training and inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate-context",
+      "text": "'Lint'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conventional-changelog/commitlint",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd3 Lint commit messages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/commitlint",
+      "status": "candidate-context",
+      "text": "> Lint commit messages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmagic",
+      "status": "candidate-context",
+      "text": "OpenMMLab Multimodal Advanced, Generative, and Intelligent Creation Toolbox. Unlock the magic \ud83e\ude84: Generative-AI (AIGC), easy-to-use APIs, awsome model zoo, diffusion models, for text-to-image generation, image/video restoration/enhancement, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmagic",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmdetection3d",
+      "status": "candidate-context",
+      "text": "OpenMMLab's next-generation platform for general 3D object detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdetection3d",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmengine",
+      "status": "candidate-context",
+      "text": "OpenMMLab Foundational Library for Training Deep Learning Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmengine",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/tvm",
+      "status": "candidate-context",
+      "text": "Open Machine Learning Compiler Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tvm",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate-context",
+      "text": "Ultra fast JSON decoder and encoder written in C with Python bindings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ijl/orjson",
+      "status": "candidate-context",
+      "text": "Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ijl/orjson",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocsigen/js_of_ocaml",
+      "status": "candidate-context",
+      "text": "Compiler from OCaml to Javascript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocsigen/js_of_ocaml",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caddyserver/xcaddy",
+      "status": "candidate-context",
+      "text": "Build Caddy with plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/xcaddy",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "Emacs client/library for the Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mrs4s/go-cqhttp",
+      "status": "candidate-context",
+      "text": "cqhttp\u7684golang\u5b9e\u73b0\uff0c\u8f7b\u91cf\u3001\u539f\u751f\u8de8\u5e73\u53f0."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mrs4s/go-cqhttp",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate-context",
+      "text": "Python humanize functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CocoaPods/Xcodeproj",
+      "status": "candidate-context",
+      "text": "Create and modify Xcode projects from Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/Xcodeproj",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igor-makarov/xcake",
+      "status": "candidate-context",
+      "text": ":cake: Describe Xcode projects in a human readable format and (re)generate one on demand."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igor-makarov/xcake",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peco/peco",
+      "status": "candidate-context",
+      "text": "Simplistic interactive filtering tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peco/peco",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate-context",
+      "text": "Manage your app's Node.js environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kassio/neoterm",
+      "status": "candidate-context",
+      "text": "Wrapper of some vim/neovim's :terminal functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kassio/neoterm",
+      "status": "candidate-context",
+      "text": "lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dragonflyoss/community",
+      "status": "candidate-context",
+      "text": "Dragonfly related community material"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/community",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlc-ai/mlc-llm",
+      "status": "candidate-context",
+      "text": "Universal LLM Deployment Engine with ML Compilation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/mlc-llm",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/relax",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maypok86/otter",
+      "status": "candidate-context",
+      "text": "A high performance caching library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maypok86/otter",
+      "status": "candidate-context",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-webview/react-native-webview",
+      "status": "candidate-context",
+      "text": "React Native Cross-Platform WebView"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-webview/react-native-webview",
+      "status": "candidate-context",
+      "text": "'Lint'"
     }
   ],
   "candidate_glosses": [
@@ -1795,6 +2233,228 @@
       "source_repo": "genome21/langflow",
       "status": "candidate",
       "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/asdf-gitconfig",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/asdf-gobackup",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/asdf-tlsgcli",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-community/asdf-pdm",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/brotli",
+      "status": "candidate",
+      "text": "\"Lint\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mpv-player/mpv",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate",
+      "text": "> A Node.js style checker and lint tool for Markdown/CommonMark files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate",
+      "text": "> A fast, flexible, configuration-based command-line interface for linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain-ai/langgraph-bigtool",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate",
+      "text": "'Lint'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/commitlint",
+      "status": "candidate",
+      "text": "> Lint commit messages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmagic",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdetection3d",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmengine",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tvm",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultrajson/ultrajson",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ijl/orjson",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocsigen/js_of_ocaml",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caddyserver/xcaddy",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mrs4s/go-cqhttp",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CocoaPods/Xcodeproj",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igor-makarov/xcake",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peco/peco",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kassio/neoterm",
+      "status": "candidate",
+      "text": "lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/community",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/mlc-llm",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/relax",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maypok86/otter",
+      "status": "candidate",
+      "text": "Lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-webview/react-native-webview",
+      "status": "candidate",
+      "text": "'Lint'"
     }
   ],
   "candidate_related_terms": [
@@ -2641,11 +3301,287 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "genome21/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "0ghny/asdf-gitconfig"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "0ghny/asdf-gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/semantic-pr.yml",
+      "source_repo": "0ghny/asdf-gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "0ghny/asdf-tlsgcli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "asdf-community/asdf-pdm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "google/brotli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mpv-player/mpv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "DavidAnson/markdownlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "DavidAnson/markdownlint-cli2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "neovim/nvim-lspconfig"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langgraph-bigtool"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "fmtlib/fmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adinhodovic/terraform-cloudflare-maintenance"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "adrienbrignon/mkdocs-exporter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "NVIDIA/TransformerEngine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/commitlint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmdetection3d"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "open-mmlab/mmengine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/tvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ultrajson/ultrajson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "ijl/orjson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ocsigen/js_of_ocaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "caddyserver/xcaddy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "emacs-lsp/lsp-mode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/golint.yml",
+      "source_repo": "Mrs4s/go-cqhttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "python-humanize/humanize"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/Xcodeproj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "peco/peco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "kassio/neoterm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dragonflyoss/community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mlc-ai/mlc-llm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mlc-ai/relax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "maypok86/otter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "react-native-webview/react-native-webview"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

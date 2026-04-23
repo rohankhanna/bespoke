@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nytimes/covid-19-data",
+      "target": "covid-19",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:32:06.472946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21531
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A repository of data on coronavirus cases and deaths in the U.S.",
+    "fork": false,
+    "full_name": "nytimes/covid-19-data",
+    "html_url": "https://github.com/nytimes/covid-19-data",
+    "language": null,
+    "pushed_at": "2024-04-02T16:00:09Z",
+    "stargazers_count": 6979,
+    "topics": [
+      "covid-19"
+    ],
+    "updated_at": "2026-04-21T22:21:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**March 24, 2023 UPDATE: The data for daily cases and deaths will no longer be updated. The Times has updated its [Covid tracking pages]([url](https://www.nytimes.com/interactive/2023/us/covid-cases.html)) to use data from the federal government for cases and deaths. This GitHub\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "covid-19"
+    }
+  ]
+}

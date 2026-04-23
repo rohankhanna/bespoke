@@ -1,0 +1,562 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render.yml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render.yml"
+    },
+    {
+      "component": "actions/stale@v4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stats.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stats.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "alexkohler/dogsled",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "360entsecgroup-skylar/goreporter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "alexkohler/nargs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "activestate/tdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "ahmadnassri/action-dependabot-auto-merge@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "auto-merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "lycheeverse/lychee-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "peter-evans/create-issue-from-file@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "PR Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-comment.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "PR Check Comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "stefanzweifel/git-auto-commit-action@v4.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/render.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/render.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "Render",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "actions/stale@v4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stats.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stats.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "stefanzweifel/git-auto-commit-action@v4.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stats.yml",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "Stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "code-quality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "sast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "static-analyzers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:27:51.764439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 174132
+    },
+    {
+      "path": ".github/workflows/auto-merge.yml",
+      "size": 258
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2679
+    },
+    {
+      "path": ".github/workflows/links.yml",
+      "size": 665
+    },
+    {
+      "path": ".github/workflows/pr-check.yml",
+      "size": 4010
+    },
+    {
+      "path": ".github/workflows/pr-comment.yml",
+      "size": 1276
+    },
+    {
+      "path": ".github/workflows/render.yml",
+      "size": 1005
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 590
+    },
+    {
+      "path": ".github/workflows/stats.yml",
+      "size": 2213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u2699\ufe0f A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality.",
+    "fork": false,
+    "full_name": "analysis-tools-dev/static-analysis",
+    "html_url": "https://github.com/analysis-tools-dev/static-analysis",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T00:29:32Z",
+    "stargazers_count": 14508,
+    "topics": [
+      "analysis",
+      "awesome-list",
+      "code-quality",
+      "hacktoberfest",
+      "linter",
+      "sast",
+      "static-analysis",
+      "static-analyzers",
+      "static-code-analysis"
+    ],
+    "updated_at": "2026-04-22T06:32:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "360entsecgroup-skylar/goreporter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "activestate/tdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/dogsled",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexkohler/nargs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-merge.yml",
+      "term": "auto-merge"
+    },
+    {
+      "context_snippet": "Links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "term": "Links"
+    },
+    {
+      "context_snippet": "PR Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-check.yml",
+      "term": "PR Check"
+    },
+    {
+      "context_snippet": "PR Check Comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-comment.yml",
+      "term": "PR Check Comment"
+    },
+    {
+      "context_snippet": "Render",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/render.yml",
+      "term": "Render"
+    },
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "Stats",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stats.yml",
+      "term": "Stats"
+    },
+    {
+      "context_snippet": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analysis"
+    },
+    {
+      "context_snippet": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-quality"
+    },
+    {
+      "context_snippet": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sast"
+    },
+    {
+      "context_snippet": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    },
+    {
+      "context_snippet": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analyzers"
+    },
+    {
+      "context_snippet": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-code-analysis"
+    }
+  ]
+}

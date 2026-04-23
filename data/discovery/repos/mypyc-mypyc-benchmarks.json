@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mypyc/mypyc-benchmarks",
+      "target": "mypyc/mypyc-benchmark-results",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mypyc/mypyc-benchmarks",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mypyc/mypyc-benchmarks",
+      "target": "mypyc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mypyc/mypyc-benchmarks",
+      "target": "performance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:42:01.170658+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mypyc benchmarks",
+    "fork": false,
+    "full_name": "mypyc/mypyc-benchmarks",
+    "html_url": "https://github.com/mypyc/mypyc-benchmarks",
+    "language": "Python",
+    "pushed_at": "2026-04-17T08:45:00Z",
+    "stargazers_count": 28,
+    "topics": [
+      "benchmark",
+      "mypyc",
+      "performance",
+      "python"
+    ],
+    "updated_at": "2026-04-14T14:43:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mypyc/mypyc-benchmark-results",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a collection of mypyc benchmarks. They are intended to track",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "This is a collection of mypyc benchmarks. They are intended to track",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mypyc"
+    },
+    {
+      "context_snippet": "This is a collection of mypyc benchmarks. They are intended to track",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    }
+  ]
+}

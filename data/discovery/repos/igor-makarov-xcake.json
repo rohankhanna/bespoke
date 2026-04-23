@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "igor-makarov/xcake",
+      "target": "fastlane/fastlane",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "igor-makarov/xcake",
+      "target": "jcampbell05/xcake",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "igor-makarov/xcake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "igor-makarov/xcake",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "igor-makarov/xcake",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake",
+      "target": "cocoapods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake",
+      "target": "project-creation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake",
+      "target": "projects",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake",
+      "target": "tvos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake",
+      "target": "watchos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake",
+      "target": "xcode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:38:40.112272+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5417
+    },
+    {
+      "path": ".github/workflows/Lint.yml",
+      "size": 426
+    },
+    {
+      "path": ".github/workflows/Test.yml",
+      "size": 1488
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":cake: Describe Xcode projects in a human readable format and (re)generate one on demand.",
+    "fork": false,
+    "full_name": "igor-makarov/xcake",
+    "html_url": "https://github.com/igor-makarov/xcake",
+    "language": "Ruby",
+    "pushed_at": "2025-12-11T11:59:29Z",
+    "stargazers_count": 645,
+    "topics": [
+      "cocoapods",
+      "ios",
+      "macos",
+      "osx",
+      "project-creation",
+      "projects",
+      "tvos",
+      "watchos",
+      "xcode"
+    ],
+    "updated_at": "2026-01-11T10:55:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fastlane/fastlane",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcampbell05/xcake",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[![Gem](https://img.shields.io/gem/v/xcake.svg)](https://rubygems.org/gems/xcake)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cocoapods"
+    },
+    {
+      "context_snippet": "[![Gem](https://img.shields.io/gem/v/xcake.svg)](https://rubygems.org/gems/xcake)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![Gem](https://img.shields.io/gem/v/xcake.svg)](https://rubygems.org/gems/xcake)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project-creation"
+    },
+    {
+      "context_snippet": "[![Gem](https://img.shields.io/gem/v/xcake.svg)](https://rubygems.org/gems/xcake)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "projects"
+    },
+    {
+      "context_snippet": "[![Gem](https://img.shields.io/gem/v/xcake.svg)](https://rubygems.org/gems/xcake)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tvos"
+    },
+    {
+      "context_snippet": "[![Gem](https://img.shields.io/gem/v/xcake.svg)](https://rubygems.org/gems/xcake)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watchos"
+    },
+    {
+      "context_snippet": "[![Gem](https://img.shields.io/gem/v/xcake.svg)](https://rubygems.org/gems/xcake)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode"
+    }
+  ]
+}

@@ -19,6 +19,30 @@
       "source_repo": "kubernetes-sigs/hydrophone",
       "status": "candidate-context",
       "text": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate-context",
+      "text": "Kubernetes IN Docker - local clusters for testing Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/test-infra",
+      "status": "candidate-context",
+      "text": "Test infrastructure for the Kubernetes project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/test-infra",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/k8s.io/test-infra?status.svg)](https://godoc.org/k8s.io/test-infra)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "kubernetes-sigs/hydrophone",
       "status": "candidate",
       "text": "![Kubernetes Logo](https://raw.githubusercontent.com/kubernetes-sigs/kubespray/master/docs/img/kubernetes-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/test-infra",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/k8s.io/test-infra?status.svg)](https://godoc.org/k8s.io/test-infra)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "kubernetes-sigs/hydrophone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/test-infra"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

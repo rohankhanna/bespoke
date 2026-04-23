@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "scheduled"
+    "scheduled",
+    "Scheduled"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "ocornut/imgui",
       "status": "candidate-context",
       "text": "scheduled"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boundless-xyz/steel",
+      "status": "candidate-context",
+      "text": "Steel: The ZK Coprocessor for EVM Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/steel",
+      "status": "candidate-context",
+      "text": "Scheduled"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "ocornut/imgui",
       "status": "candidate",
       "text": "scheduled"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/steel",
+      "status": "candidate",
+      "text": "Scheduled"
     }
   ],
   "candidate_related_terms": [
@@ -108,11 +127,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/scheduled.yml",
       "source_repo": "ocornut/imgui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "boundless-xyz/steel"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

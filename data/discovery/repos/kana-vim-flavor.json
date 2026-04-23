@@ -1,0 +1,123 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "thinca/action-setup-vim@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kana/vim-flavor",
+      "target": "kana/vim-textobj-indent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kana/vim-flavor",
+      "target": "vim-scripts/fakeclip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kana/vim-flavor",
+      "target": "kana/vim-altr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kana/vim-flavor",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kana/vim-flavor",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kana/vim-flavor",
+      "target": "thinca/action-setup-vim@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kana/vim-flavor",
+      "target": "vim-plugin-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:30:59.559687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3877
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 970
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Taste the difference.",
+    "fork": false,
+    "full_name": "kana/vim-flavor",
+    "html_url": "https://github.com/kana/vim-flavor",
+    "language": "Ruby",
+    "pushed_at": "2024-07-13T05:02:04Z",
+    "stargazers_count": 114,
+    "topics": [
+      "vim",
+      "vim-plugin-manager"
+    ],
+    "updated_at": "2025-11-27T21:42:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kana/vim-altr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kana/vim-textobj-indent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim-scripts/fakeclip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CI](https://github.com/kana/vim-flavor/actions/workflows/ci.yml/badge.svg)](https://github.com/kana/vim-flavor/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin-manager"
+    }
+  ]
+}

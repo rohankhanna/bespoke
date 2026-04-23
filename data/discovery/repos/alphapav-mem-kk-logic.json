@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlphaPav/mem-kk-logic",
+      "target": "finetuning-llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlphaPav/mem-kk-logic",
+      "target": "logical-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlphaPav/mem-kk-logic",
+      "target": "mathematics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlphaPav/mem-kk-logic",
+      "target": "memorization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:35:23.583381+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "On Memorization of Large Language Models in Logical Reasoning",
+    "fork": false,
+    "full_name": "AlphaPav/mem-kk-logic",
+    "html_url": "https://github.com/AlphaPav/mem-kk-logic",
+    "language": "Python",
+    "pushed_at": "2025-03-29T08:56:21Z",
+    "stargazers_count": 79,
+    "topics": [
+      "finetuning-llms",
+      "llm",
+      "logical-reasoning",
+      "mathematics",
+      "memorization"
+    ],
+    "updated_at": "2026-04-07T08:17:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">On Memorization of Large Language Models in Logical Reasoning</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finetuning-llms"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">On Memorization of Large Language Models in Logical Reasoning</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logical-reasoning"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">On Memorization of Large Language Models in Logical Reasoning</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mathematics"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">On Memorization of Large Language Models in Logical Reasoning</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "memorization"
+    }
+  ]
+}

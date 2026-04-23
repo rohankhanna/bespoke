@@ -1,0 +1,12 @@
+{
+  "component": "step-security/harden-runner@cb605e52c26070c328afc4562f0b4ada7618a84e",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/live-protection.yml",
+      "source_repo": "dotnet/dotnet-api-docs"
+    }
+  ]
+}

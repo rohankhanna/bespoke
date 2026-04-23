@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "dist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curl/curl",
+      "status": "candidate-context",
+      "text": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curl/curl",
+      "status": "candidate-context",
+      "text": "'dist'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "virtuald/pyhcl",
+      "status": "candidate-context",
+      "text": "HCL is a configuration language. pyhcl is a python parser for it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "virtuald/pyhcl",
+      "status": "candidate-context",
+      "text": "dist"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curl/curl",
+      "status": "candidate",
+      "text": "'dist'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "virtuald/pyhcl",
+      "status": "candidate",
+      "text": "dist"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030746,
+      "status": "candidate",
+      "text": "distribution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29996250,
+      "status": "candidate",
+      "text": "syndication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29891353,
+      "status": "candidate",
+      "text": "taa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29728939,
+      "status": "candidate",
+      "text": "tna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29685188,
+      "status": "candidate",
+      "text": "accra"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "dist",
+  "concept_id": "dist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/distcheck.yml",
+      "source_repo": "curl/curl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "virtuald/pyhcl"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "dist",
+      "sense_id": "dist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

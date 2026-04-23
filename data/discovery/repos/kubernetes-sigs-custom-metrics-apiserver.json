@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/custom-metrics-apiserver",
+      "target": "k8s-sig-instrumentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:44:35.372805+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5084
+    },
+    {
+      "path": "go.mod",
+      "size": 5072
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Framework for implementing custom metrics support for Kubernetes",
+    "fork": false,
+    "full_name": "kubernetes-sigs/custom-metrics-apiserver",
+    "html_url": "https://github.com/kubernetes-sigs/custom-metrics-apiserver",
+    "language": "Go",
+    "pushed_at": "2026-04-22T01:39:59Z",
+    "stargazers_count": 524,
+    "topics": [
+      "k8s-sig-instrumentation"
+    ],
+    "updated_at": "2026-04-22T01:39:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/sigs.k8s.io/custom-metrics-apiserver.svg)](https://pkg.go.dev/sigs.k8s.io/custom-metrics-apiserver)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-instrumentation"
+    }
+  ]
+}

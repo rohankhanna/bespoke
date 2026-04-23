@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-tarpaulin",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "ncitron/ethereum_hashing",
+      "target": "sigp/ethereum_hashing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ncitron/ethereum_hashing",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ncitron/ethereum_hashing",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "ncitron/ethereum_hashing",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "ncitron/ethereum_hashing",
+      "target": "taiki-e/install-action@cargo-tarpaulin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "ncitron/ethereum_hashing",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "ncitron/ethereum_hashing",
+      "target": "test-suite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:31:51.415750+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 493
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 658
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 622
+    },
+    {
+      "path": ".github/workflows/test-suite.yml",
+      "size": 1320
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hashing primitives used in Ethereum",
+    "fork": true,
+    "full_name": "ncitron/ethereum_hashing",
+    "html_url": "https://github.com/ncitron/ethereum_hashing",
+    "language": "Rust",
+    "pushed_at": "2024-08-28T21:47:37Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-11-21T17:55:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sigp/ethereum_hashing",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "test-suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-suite.yml",
+      "term": "test-suite"
+    }
+  ]
+}

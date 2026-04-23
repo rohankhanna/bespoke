@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JUNJIE99/MLVU",
+      "target": "64327069/lvagent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JUNJIE99/MLVU",
+      "target": "damo-nlp-sg/videollama2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JUNJIE99/MLVU",
+      "target": "boheumd/ma-lmm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JUNJIE99/MLVU",
+      "target": "damo-nlp-sg/video-llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JUNJIE99/MLVU",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JUNJIE99/MLVU",
+      "target": "long-video-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JUNJIE99/MLVU",
+      "target": "mlvu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JUNJIE99/MLVU",
+      "target": "multi-task",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JUNJIE99/MLVU",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JUNJIE99/MLVU",
+      "target": "videos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:27:54.095533+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd25\ud83d\udd25MLVU: Multi-task Long Video Understanding Benchmark",
+    "fork": false,
+    "full_name": "JUNJIE99/MLVU",
+    "html_url": "https://github.com/JUNJIE99/MLVU",
+    "language": "Python",
+    "pushed_at": "2026-04-13T13:18:00Z",
+    "stargazers_count": 247,
+    "topics": [
+      "benchmark",
+      "long-video-understanding",
+      "mlvu",
+      "multi-task",
+      "multimodal-large-language-models",
+      "videos"
+    ],
+    "updated_at": "2026-04-15T20:01:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "64327069/lvagent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "boheumd/ma-lmm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damo-nlp-sg/video-llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damo-nlp-sg/videollama2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<h1 align=\"center\">MLVU: Multi-task Long Video Understanding Benchmark</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">MLVU: Multi-task Long Video Understanding Benchmark</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-video-understanding"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">MLVU: Multi-task Long Video Understanding Benchmark</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlvu"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">MLVU: Multi-task Long Video Understanding Benchmark</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-task"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">MLVU: Multi-task Long Video Understanding Benchmark</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-large-language-models"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">MLVU: Multi-task Long Video Understanding Benchmark</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "videos"
+    }
+  ]
+}

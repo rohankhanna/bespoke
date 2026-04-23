@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "nightly"
+    "nightly",
+    "Nightly"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -67,6 +68,90 @@
       "source_repo": "charmbracelet/vhs",
       "status": "candidate-context",
       "text": "nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate-context",
+      "text": "\u26a1 Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate-context",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate-context",
+      "text": "Fast container image distribution plugin with lazy pulling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate-context",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clux/muslrust",
+      "status": "candidate-context",
+      "text": "Docker environment for building musl based static rust binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clux/muslrust",
+      "status": "candidate-context",
+      "text": "nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate-context",
+      "text": "A library for efficient similarity search and clustering of dense vectors."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate-context",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lowRISC/opentitan",
+      "status": "candidate-context",
+      "text": "OpenTitan: Open source silicon root of trust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lowRISC/opentitan",
+      "status": "candidate-context",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpsim/Yams",
+      "status": "candidate-context",
+      "text": "A Sweet and Swifty YAML parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpsim/Yams",
+      "status": "candidate-context",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DataDog/opa",
+      "status": "candidate-context",
+      "text": "Open Policy Agent (OPA) is an open source, general-purpose policy engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/opa",
+      "status": "candidate-context",
+      "text": "Nightly"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +184,48 @@
       "source_repo": "charmbracelet/vhs",
       "status": "candidate",
       "text": "nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clux/muslrust",
+      "status": "candidate",
+      "text": "nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/faiss",
+      "status": "candidate",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lowRISC/opentitan",
+      "status": "candidate",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpsim/Yams",
+      "status": "candidate",
+      "text": "Nightly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DataDog/opa",
+      "status": "candidate",
+      "text": "Nightly"
     }
   ],
   "candidate_related_terms": [
@@ -187,11 +314,53 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/nightly.yml",
       "source_repo": "charmbracelet/vhs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "lycheeverse/lychee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "containerd/stargz-snapshotter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "clux/muslrust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "facebookresearch/faiss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "lowRISC/opentitan"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "jpsim/Yams"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "DataDog/opa"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

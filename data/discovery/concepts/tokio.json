@@ -19,11 +19,102 @@
       "source_repo": "google/tarpc",
       "status": "candidate-context",
       "text": "An RPC framework for Rust with a focus on ease of use."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate-context",
+      "text": "Cross-platform async library for system information fetching \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate-context",
+      "text": "![Project banner](./.github/readme-logo.png)"
     }
   ],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
-  "candidate_synonyms": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate",
+      "text": "![Project banner](./.github/readme-logo.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30035250,
+      "status": "candidate",
+      "text": "yeddo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032965,
+      "status": "candidate",
+      "text": "yedo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29931865,
+      "status": "candidate",
+      "text": "edo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29927272,
+      "status": "candidate",
+      "text": "tokyo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20035266,
+      "status": "candidate",
+      "text": "capital of japan"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "capital of japan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "japanese capital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "edo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "tokyo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "yeddo"
+    }
+  ],
   "canonical_name": "tokio",
   "concept_id": "tokio",
   "definition_status": "unresolved",
@@ -33,12 +124,20 @@
       "observed_at": "2026-04-18T13:29:00.435097+00:00",
       "source_file": null,
       "source_repo": "google/tarpc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "heim-rs/heim"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

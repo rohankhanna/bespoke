@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Better-Hashnode-Backups",
+      "target": "backup-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Better-Hashnode-Backups",
+      "target": "backups",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Better-Hashnode-Backups",
+      "target": "hashnode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:36:54.373939+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2512
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Backups a Hashnode blog including the images from the CDN",
+    "fork": false,
+    "full_name": "danielrosehill/Better-Hashnode-Backups",
+    "html_url": "https://github.com/danielrosehill/Better-Hashnode-Backups",
+    "language": "Python",
+    "pushed_at": "2025-01-12T10:41:54Z",
+    "stargazers_count": 0,
+    "topics": [
+      "backup-script",
+      "backups",
+      "hashnode"
+    ],
+    "updated_at": "2025-01-12T10:41:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[Hashnode](https://www.hashnode.com) is a great blogging service and has a nice Github action for syncing your posts to a repository as a backup mechanism. However, at the time of writing, the backup mechanism does not extract the images from the CDN.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backup-script"
+    },
+    {
+      "context_snippet": "[Hashnode](https://www.hashnode.com) is a great blogging service and has a nice Github action for syncing your posts to a repository as a backup mechanism. However, at the time of writing, the backup mechanism does not extract the images from the CDN.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backups"
+    },
+    {
+      "context_snippet": "[Hashnode](https://www.hashnode.com) is a great blogging service and has a nice Github action for syncing your posts to a repository as a backup mechanism. However, at the time of writing, the backup mechanism does not extract the images from the CDN.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashnode"
+    }
+  ]
+}

@@ -122,6 +122,96 @@
       "source_repo": "aws/amazon-vpc-cni-k8s",
       "status": "candidate-context",
       "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/fairseq",
+      "status": "candidate-context",
+      "text": "Facebook AI Research Sequence-to-Sequence Toolkit written in Python."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/fairseq",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "CoreDNS is a DNS server that chains plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webpack/webpack",
+      "status": "candidate-context",
+      "text": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack",
+      "status": "candidate-context",
+      "text": "Dependency Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/jpegli",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "\ud83d\udc2b CAMEL: The first and the best multi-agent framework. Finding the Scaling Law of Agents. https://www.camel-ai.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rack/rack",
+      "status": "candidate-context",
+      "text": "A modular Ruby web server interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rack/rack",
+      "status": "candidate-context",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/amazon-eks-ami",
+      "status": "candidate-context",
+      "text": "Packer configuration for building a custom EKS AMI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/amazon-eks-ami",
+      "status": "candidate-context",
+      "text": "\"Dependency Review\""
     }
   ],
   "candidate_glosses": [
@@ -176,6 +266,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws/amazon-vpc-cni-k8s",
+      "status": "candidate",
+      "text": "\"Dependency Review\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/fairseq",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webpack/webpack",
+      "status": "candidate",
+      "text": "Dependency Review"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/jpegli",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "camel-ai/camel",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rack/rack",
+      "status": "candidate",
+      "text": "'Dependency Review'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/amazon-eks-ami",
       "status": "candidate",
       "text": "\"Dependency Review\""
     }
@@ -299,11 +437,59 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/deps.yml",
       "source_repo": "aws/amazon-vpc-cni-k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/depreview.yml",
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "renovatebot/renovate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/depsreview.yml",
+      "source_repo": "coredns/coredns"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "webpack/webpack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "google/jpegli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "camel-ai/camel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/depsreview.yaml",
+      "source_repo": "rack/rack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/dependency-review.yaml",
+      "source_repo": "awslabs/amazon-eks-ami"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

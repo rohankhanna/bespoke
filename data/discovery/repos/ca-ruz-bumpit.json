@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:41:00.723003+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3942
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plugin to create cpfp transaction for opening lightning channels",
+    "fork": false,
+    "full_name": "ca-ruz/bumpit",
+    "html_url": "https://github.com/ca-ruz/bumpit",
+    "language": "Python",
+    "pushed_at": "2026-01-22T20:04:54Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-01-22T20:05:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "react-native-community/RNNewArchitectureLibraries",
+      "target": "cipolleschi/rnnewarchitecturelibraries",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:47:42.991273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2541
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A collection of sample React Native Libraries that will show you how to use the New Architecture (Fabric & TurboModules) step-by-step.",
+    "fork": false,
+    "full_name": "react-native-community/RNNewArchitectureLibraries",
+    "html_url": "https://github.com/react-native-community/RNNewArchitectureLibraries",
+    "language": null,
+    "pushed_at": "2024-03-20T10:48:14Z",
+    "stargazers_count": 348,
+    "topics": [],
+    "updated_at": "2026-03-24T01:05:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cipolleschi/rnnewarchitecturelibraries",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

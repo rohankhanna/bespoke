@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:29:14.501232+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3317
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Read-only mirror of https://gitlab.gnome.org/GNOME/glib",
+    "fork": true,
+    "full_name": "kleisauke/glib",
+    "html_url": "https://github.com/kleisauke/glib",
+    "language": null,
+    "pushed_at": "2026-03-17T11:11:04Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-10-22T10:10:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

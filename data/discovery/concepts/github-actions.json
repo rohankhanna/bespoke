@@ -91,6 +91,90 @@
       "source_repo": "nektos/act",
       "status": "candidate-context",
       "text": "![act-logo](https://raw.githubusercontent.com/wiki/nektos/act/img/logo-150.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/typescript-action",
+      "status": "candidate-context",
+      "text": "Create a TypeScript Action with tests, linting, workflow, publishing, and versioning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/typescript-action",
+      "status": "candidate-context",
+      "text": "![Linter](https://github.com/actions/typescript-action/actions/workflows/linter.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy-action",
+      "status": "candidate-context",
+      "text": "Runs Trivy as GitHub action to scan your Docker container image for vulnerabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-action",
+      "status": "candidate-context",
+      "text": "> [GitHub Action](https://github.com/features/actions) for [Trivy](https://github.com/aquasecurity/trivy)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/cargo-deny-action",
+      "status": "candidate-context",
+      "text": "\u274c GitHub Action for cargo-deny \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-deny-action",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/build-push-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to build and push Docker images with Buildx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/build-push-action",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/build-push-action.svg?style=flat-square)](https://github.com/docker/build-push-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/login-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to login against a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/login-action",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/login-action.svg?style=flat-square)](https://github.com/docker/login-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/create-github-app-token",
+      "status": "candidate-context",
+      "text": "GitHub Action for creating a GitHub App Installation Access Token"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/create-github-app-token",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/actions/create-github-app-token/actions/workflows/test.yml/badge.svg)](https://github.com/actions/create-github-app-token/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "community/community",
+      "status": "candidate-context",
+      "text": "Public feedback discussions for: GitHub Mobile, GitHub Discussions, GitHub Codespaces, GitHub Sponsors, GitHub Issues and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "community/community",
+      "status": "candidate-context",
+      "text": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions."
     }
   ],
   "candidate_glosses": [
@@ -135,6 +219,48 @@
       "source_repo": "nektos/act",
       "status": "candidate",
       "text": "![act-logo](https://raw.githubusercontent.com/wiki/nektos/act/img/logo-150.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/typescript-action",
+      "status": "candidate",
+      "text": "![Linter](https://github.com/actions/typescript-action/actions/workflows/linter.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-action",
+      "status": "candidate",
+      "text": "> [GitHub Action](https://github.com/features/actions) for [Trivy](https://github.com/aquasecurity/trivy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-deny-action",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/build-push-action",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/build-push-action.svg?style=flat-square)](https://github.com/docker/build-push-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/login-action",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/docker/login-action.svg?style=flat-square)](https://github.com/docker/login-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/create-github-app-token",
+      "status": "candidate",
+      "text": "[![test](https://github.com/actions/create-github-app-token/actions/workflows/test.yml/badge.svg)](https://github.com/actions/create-github-app-token/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "community/community",
+      "status": "candidate",
+      "text": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions."
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +310,53 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "nektos/act"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "actions/typescript-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/cargo-deny-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "docker/build-push-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "docker/login-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "actions/create-github-app-token"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "community/community"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

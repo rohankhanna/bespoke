@@ -55,6 +55,18 @@
       "source_repo": "all-contributors/app",
       "status": "candidate-context",
       "text": "<table>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyOpenSci/software-submission",
+      "status": "candidate-context",
+      "text": "pyOpenSci runs  open peer review for research software and software that directly supports scientific inquiry. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyOpenSci/software-submission",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "all-contributors/app",
       "status": "candidate",
       "text": "<table>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyOpenSci/software-submission",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pyOpenSci/software-submission"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

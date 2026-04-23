@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ChuRuaNh0/FastSam_Awsome_TensorRT",
+      "target": "casia-iva-lab/fastsam",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:49:16.975921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1347
+    },
+    {
+      "path": "requirements.txt",
+      "size": 35
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ChuRuaNh0/FastSam_Awsome_TensorRT",
+    "html_url": "https://github.com/ChuRuaNh0/FastSam_Awsome_TensorRT",
+    "language": "Python",
+    "pushed_at": "2023-06-30T03:48:44Z",
+    "stargazers_count": 130,
+    "topics": [],
+    "updated_at": "2026-03-20T11:45:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "casia-iva-lab/fastsam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

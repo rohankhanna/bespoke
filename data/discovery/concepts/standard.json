@@ -43,6 +43,78 @@
       "source_repo": "whatwg/fetch",
       "status": "candidate-context",
       "text": "This repository hosts the [Fetch Standard](https://fetch.spec.whatwg.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "Documenting the explosion of packages in the standard ecosystem!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate-context",
+      "text": "ESLint Config for JavaScript Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/standard/eslint-config-standard/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate-context",
+      "text": "ESLint Shareable Config for JSX support in JavaScript Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RichardLitt/generator-standard-readme",
+      "status": "candidate-context",
+      "text": "Scaffold out a Standard Readme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RichardLitt/generator-standard-readme",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate-context",
+      "text": "List of packages that use `standard`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "absolute-version/commit-and-tag-version",
+      "status": "candidate-context",
+      "text": "Fork of the excellent standard-version. Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org :trophy:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absolute-version/commit-and-tag-version",
+      "status": "candidate-context",
+      "text": "> **`commit-and-tag-version` is a fork of `standard-version`**. Because of maintainer availability, `standard-version` was [deprecated on 15th May 2022](https://github.com/conventional-changelog/standard-version/pull/907). The previous maintainer recommends [release-please](http\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +135,42 @@
       "source_repo": "whatwg/fetch",
       "status": "candidate",
       "text": "This repository hosts the [Fetch Standard](https://fetch.spec.whatwg.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/standard/eslint-config-standard/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RichardLitt/generator-standard-readme",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absolute-version/commit-and-tag-version",
+      "status": "candidate",
+      "text": "> **`commit-and-tag-version` is a fork of `standard-version`**. Because of maintainer availability, `standard-version` was [deprecated on 15th May 2022](https://github.com/conventional-changelog/standard-version/pull/907). The previous maintainer recommends [release-please](http\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +280,53 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "whatwg/fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/awesome-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard-jsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "RichardLitt/generator-standard-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "absolute-version/commit-and-tag-version"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

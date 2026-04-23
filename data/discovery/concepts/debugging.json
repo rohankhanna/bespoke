@@ -19,6 +19,54 @@
       "source_repo": "NomicFoundation/hardhat",
       "status": "candidate-context",
       "text": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate-context",
+      "text": "vimspector - A multi-language debugging system for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate-context",
+      "text": "For a tutorial and usage overview, take a look at the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "Chrome DevTools for coding agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "debug-js/debug",
+      "status": "candidate-context",
+      "text": "A tiny JavaScript debugging utility modelled after Node.js core's debugging technique. Works in Node.js and web browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debug-js/debug",
+      "status": "candidate-context",
+      "text": "[![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate-context",
+      "text": "Linux, Android and Chromium Performance Tools built using the Microsoft Performance Toolkit. Cross-platform .NET Core + WPA GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate-context",
+      "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "NomicFoundation/hardhat",
       "status": "candidate",
       "text": "![](https://raw.githubusercontent.com/NomicFoundation/hardhat/main/img/hardhat-header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate",
+      "text": "For a tutorial and usage overview, take a look at the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate",
+      "text": "[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debug-js/debug",
+      "status": "candidate",
+      "text": "[![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate",
+      "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +148,35 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "NomicFoundation/hardhat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "puremourning/vimspector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "debug-js/debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

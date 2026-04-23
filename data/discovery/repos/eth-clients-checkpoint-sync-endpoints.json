@@ -1,0 +1,160 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/configure-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/jekyll-build-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vet.yaml"
+    },
+    {
+      "component": "nrkno/yaml-schema-validator-github-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vet.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "target": "actions/configure-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "target": "actions/jekyll-build-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yaml",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vet.yaml",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vet.yaml",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "target": "nrkno/yaml-schema-validator-github-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vet.yaml",
+      "source_repo": "eth-clients/checkpoint-sync-endpoints",
+      "target": "Vet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:28:55.897927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1133
+    },
+    {
+      "path": ".github/workflows/pages.yaml",
+      "size": 1556
+    },
+    {
+      "path": ".github/workflows/vet.yaml",
+      "size": 343
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A community maintained list of public Beacon Chain checkpoint sync endpoints ",
+    "fork": false,
+    "full_name": "eth-clients/checkpoint-sync-endpoints",
+    "html_url": "https://github.com/eth-clients/checkpoint-sync-endpoints",
+    "language": "HTML",
+    "pushed_at": "2025-07-14T04:05:49Z",
+    "stargazers_count": 107,
+    "topics": [],
+    "updated_at": "2026-04-10T00:08:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yaml",
+      "term": "Deploy"
+    },
+    {
+      "context_snippet": "Vet",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vet.yaml",
+      "term": "Vet"
+    }
+  ]
+}

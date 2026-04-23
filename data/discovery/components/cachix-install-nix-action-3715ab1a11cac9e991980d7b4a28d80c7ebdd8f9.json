@@ -1,12 +1,17 @@
 {
   "component": "cachix/install-nix-action@3715ab1a11cac9e991980d7b4a28d80c7ebdd8f9",
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "spf13/viper"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nixpkgs.yml",
+      "source_repo": "cri-o/cri-o"
     }
   ]
 }

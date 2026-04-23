@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-fonts.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-fonts.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-fonts.yml"
+    },
+    {
+      "component": "py-actions/py-dependency-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-fonts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-fonts.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-fonts.yml",
+      "source_repo": "JetBrains/JetBrainsMono",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-fonts.yml",
+      "source_repo": "JetBrains/JetBrainsMono",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-fonts.yml",
+      "source_repo": "JetBrains/JetBrainsMono",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-fonts.yml",
+      "source_repo": "JetBrains/JetBrainsMono",
+      "target": "py-actions/py-dependency-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-fonts.yml",
+      "source_repo": "JetBrains/JetBrainsMono",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-fonts.yml",
+      "source_repo": "JetBrains/JetBrainsMono",
+      "target": "Build Fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/JetBrainsMono",
+      "target": "coding-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/JetBrainsMono",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/JetBrainsMono",
+      "target": "ligatures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/JetBrainsMono",
+      "target": "monospaced-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/JetBrainsMono",
+      "target": "programming-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JetBrains/JetBrainsMono",
+      "target": "programming-ligatures",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:40:41.148205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6032
+    },
+    {
+      "path": "requirements.txt",
+      "size": 24
+    },
+    {
+      "path": ".github/workflows/build-fonts.yml",
+      "size": 1301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JetBrains Mono \u2013 the free and open-source typeface for developers",
+    "fork": false,
+    "full_name": "JetBrains/JetBrainsMono",
+    "html_url": "https://github.com/JetBrains/JetBrainsMono",
+    "language": "Shell",
+    "pushed_at": "2025-01-31T14:05:22Z",
+    "stargazers_count": 12615,
+    "topics": [
+      "coding-font",
+      "font",
+      "ligatures",
+      "monospaced-font",
+      "programming-font",
+      "programming-ligatures"
+    ],
+    "updated_at": "2026-04-23T01:33:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Fonts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-fonts.yml",
+      "term": "Build Fonts"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coding-font"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ligatures"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monospaced-font"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-font"
+    },
+    {
+      "context_snippet": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-ligatures"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "ethereum-client"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NethermindEth/nethermind",
+      "status": "candidate-context",
+      "text": "A robust, high-performance execution client for Ethereum node operators."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NethermindEth/nethermind",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/nethermindeth/nethermind/actions/workflows/nethermind-tests.yml/badge.svg)](https://github.com/nethermindeth/nethermind/actions/workflows/nethermind-tests.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "status": "candidate-context",
+      "text": "Step-by-step guide to running an Erigon archive node (Ethereum) on an 8GB Raspberry Pi 4. Recommended minimum 4 TB SSD (SATA III) with Ubuntu Server 21."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "status": "candidate-context",
+      "text": "<br />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NethermindEth/nethermind",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/nethermindeth/nethermind/actions/workflows/nethermind-tests.yml/badge.svg)](https://github.com/nethermindeth/nethermind/actions/workflows/nethermind-tests.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "status": "candidate",
+      "text": "<br />"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ethereum-client",
+  "concept_id": "ethereum-client",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NethermindEth/nethermind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ethereum-client",
+      "sense_id": "ethereum-client#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

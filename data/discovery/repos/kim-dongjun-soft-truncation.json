@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:31:06.231993+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2837
+    },
+    {
+      "path": "requirements.txt",
+      "size": 194
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repo for \"Soft Truncation: A Universal Training Technique of Score-based Diffusion Model for High Precision Score Estimation\"",
+    "fork": false,
+    "full_name": "Kim-Dongjun/Soft-Truncation",
+    "html_url": "https://github.com/Kim-Dongjun/Soft-Truncation",
+    "language": "Python",
+    "pushed_at": "2022-06-28T07:40:18Z",
+    "stargazers_count": 50,
+    "topics": [],
+    "updated_at": "2025-09-29T04:05:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "golangci/golangci-lint-action@v3",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "chronosphereio/calyptia-go-bubble-table"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "alibaba/sentinel-golang"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/non-regression.yml",
+      "source_repo": "darkweak/go-esi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "coreos/go-iptables"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "moby/ipvs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ahmetb/serverless-registry-proxy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golint.yml",
+      "source_repo": "Mrs4s/go-cqhttp"
     }
   ]
 }

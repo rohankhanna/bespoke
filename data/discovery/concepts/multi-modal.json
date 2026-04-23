@@ -31,6 +31,42 @@
       "source_repo": "vercel/modelfusion",
       "status": "candidate-context",
       "text": "> ### The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnswerDotAI/byaldi",
+      "status": "candidate-context",
+      "text": "Use late-interaction multi-modal models such as ColPali in just a few lines of code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnswerDotAI/byaldi",
+      "status": "candidate-context",
+      "text": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/VisRAG",
+      "status": "candidate-context",
+      "text": "Parsing-free RAG supported by VLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/VisRAG",
+      "status": "candidate-context",
+      "text": "[![Github](https://img.shields.io/badge/VisRAG-000000?style=for-the-badge&logo=github&logoColor=000&logoColor=white)](https://github.com/OpenBMB/VisRAG)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate-context",
+      "text": "Efficient Retrieval Augmentation and Generation Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate-context",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "vercel/modelfusion",
       "status": "candidate",
       "text": "> ### The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnswerDotAI/byaldi",
+      "status": "candidate",
+      "text": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/VisRAG",
+      "status": "candidate",
+      "text": "[![Github](https://img.shields.io/badge/VisRAG-000000?style=for-the-badge&logo=github&logoColor=000&logoColor=white)](https://github.com/OpenBMB/VisRAG)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
     }
   ],
   "candidate_related_terms": [
@@ -93,11 +147,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AnswerDotAI/byaldi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/VisRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "IntelLabs/fastRAG"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1165,6 +1165,930 @@
       "source_repo": "electron/fiddle",
       "status": "candidate-context",
       "text": "[![Test](https://github.com/electron/fiddle/actions/workflows/test.yml/badge.svg)](https://github.com/electron/fiddle/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badges/shields",
+      "status": "candidate-context",
+      "text": "Concise, consistent, and legible badges in SVG and raster format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badges/shields",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate-context",
+      "text": "Open Container Initiative-based implementation of Kubernetes Container Runtime Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sbcgua/abap-string-map",
+      "status": "candidate-context",
+      "text": "String map primitive implementation on abap"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbcgua/abap-string-map",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/abaplint-sci-client",
+      "status": "candidate-context",
+      "text": "ABAP part for running abaplint on ABAP backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint-sci-client",
+      "status": "candidate-context",
+      "text": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/sentinel-cpp",
+      "status": "candidate-context",
+      "text": "C++ implementation of Sentinel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/sentinel-cpp",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "status": "candidate-context",
+      "text": "Autoupdate plugin for zgen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "status": "candidate-context",
+      "text": "[zgen](https://github.com/tarjoilija/zgen) is no longer getting updates. However, the [zgenom](https://github.com/jandamm/zgenom) fork is getting updates and new features, and is basically zgen but better."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate-context",
+      "text": "A collection of ZSH frameworks, plugins, themes and tutorials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "status": "candidate-context",
+      "text": "A simple ZSH quickstart for using ZSH, zgenom, oh-my-zsh and a curated list of extra plugins. It is designed to be easy to customize without requiring you to maintain your own fork."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "status": "candidate-context",
+      "text": "Check links in README.md"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/fastify",
+      "status": "candidate-context",
+      "text": "Fast and low overhead web framework, for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"> <a href=\"https://fastify.dev/\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/runtime",
+      "status": "candidate-context",
+      "text": ".NET is a cross-platform runtime for cloud, mobile, desktop, and IoT apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/runtime",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/runtime/runtime?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=129&branchName=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "termux/termux-app",
+      "status": "candidate-context",
+      "text": "Termux - a terminal emulator application for Android OS extendible by variety of packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-app",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/termux/termux-app/workflows/Build/badge.svg)](https://github.com/termux/termux-app/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "willothy/nvim-cokeline",
+      "status": "candidate-context",
+      "text": ":nose: A Neovim bufferline for people with addictive personalities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "willothy/nvim-cokeline",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-include-comment <br> -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devicons/devicon",
+      "status": "candidate-context",
+      "text": "Set of icons representing programming languages, designing & development tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devicons/devicon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ryanoasis/vim-devicons",
+      "status": "candidate-context",
+      "text": "Adds file type icons to Vim plugins such as: NERDTree, vim-airline, CtrlP, unite, Denite, lightline, vim-startify and many more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/vim-devicons",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curl/curl",
+      "status": "candidate-context",
+      "text": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curl/curl",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/ash-molten",
+      "status": "candidate-context",
+      "text": "\ud83c\udf0b Statically linked MoltenVK for Vulkan on Mac using Ash \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/ash-molten",
+      "status": "candidate-context",
+      "text": "<!-- Allow this file to not have a first line heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/cargo-about",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdc Cargo plugin to generate list of all licenses for a crate \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-about",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable no-inline-html first-line-heading no-emphasis-as-heading -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pug-php/pug",
+      "status": "candidate-context",
+      "text": "Pug template engine for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/pug",
+      "status": "candidate-context",
+      "text": "[![Latest Stable Version](https://poser.pugx.org/pug-php/pug/v/stable.png)](https://packagist.org/packages/pug-php/pug)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate-context",
+      "text": "nvm wrapper for fish-shell "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate-context",
+      "text": "[NVM] wrapper for fish-shell."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git/git",
+      "status": "candidate-context",
+      "text": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git/git",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/git/git/workflows/CI/badge.svg)](https://github.com/git/git/actions?query=branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Atheos/Atheos",
+      "status": "candidate-context",
+      "text": "A self-hosted browser-based cloud IDE, updated from Codiad IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atheos/Atheos",
+      "status": "candidate-context",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "A smarter cd command. Supports all major shells."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate-context",
+      "text": "OWASP Juice Shop: Probably the most modern and sophisticated insecure web application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate-context",
+      "text": "[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/#sec-flagships)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/loki",
+      "status": "candidate-context",
+      "text": "Like Prometheus, but for logs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/loki",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/sources/logo_and_name.png\" alt=\"Loki Logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "slimtoolkit/slim",
+      "status": "candidate-context",
+      "text": "Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slimtoolkit/slim",
+      "status": "candidate-context",
+      "text": "![SK](assets/images/dslim/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "Tfsec is now part of Trivy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/community",
+      "status": "candidate-context",
+      "text": "Aqua Security's open source community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/community",
+      "status": "candidate-context",
+      "text": "Aqua Security's open source community"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-iot-device-sdk-js-v2",
+      "status": "candidate-context",
+      "text": "Next generation AWS IoT Client SDK for Node.js using the AWS Common Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-iot-device-sdk-js-v2",
+      "status": "candidate-context",
+      "text": "The AWS IoT Device SDK for JavaScript v2 connects your JavaScript applications and devices to the AWS IoT platform. It handles the complexities of secure communication, authentication, and device management so you can focus on your IoT solution. The SDK makes it easy to use AWS \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/ramalama",
+      "status": "candidate-context",
+      "text": "RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and facilitates their use for inference in production, all through the familiar language of containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/ramalama",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "The React Native Community CLI - command line tools to help you build RN apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "Command line tools that help you build apps with [`react-native`](https://github.com/facebook/react-native), shipped as the `@react-native-community/cli` NPM package."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "status": "candidate-context",
+      "text": "Generate changelogs and release notes from a project's commit messages and metadata."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "status": "candidate-context",
+      "text": "[![Build status][build]][build-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "A curated list of awesome self-hosted GitHub Action runners in a large comparison matrix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emscripten-core/emscripten",
+      "status": "candidate-context",
+      "text": "Emscripten: An LLVM-to-WebAssembly Compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emscripten-core/emscripten",
+      "status": "candidate-context",
+      "text": "![emscripten logo](media/switch_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gohugoio/hugoDocs",
+      "status": "candidate-context",
+      "text": "The source for https://gohugo.io/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gohugoio/hugoDocs",
+      "status": "candidate-context",
+      "text": "<a href=\"https://gohugo.io/\"><img src=\"https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true\" alt=\"Hugo\" width=\"565\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitcoindevkit/bdk",
+      "status": "candidate-context",
+      "text": "A modern, lightweight, descriptor-based wallet library written in Rust!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoindevkit/bdk",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "Official Haskell IDE support via the language server protocol (LSP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "![haskell-language-server][logo]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/stylish-haskell",
+      "status": "candidate-context",
+      "text": "Haskell code prettifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/stylish-haskell",
+      "status": "candidate-context",
+      "text": "CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CodeBoarding/CodeBoarding",
+      "status": "candidate-context",
+      "text": "Interactive architecture diagrams for codebases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeBoarding/CodeBoarding",
+      "status": "candidate-context",
+      "text": "See what your AI is building before it breaks."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RPCS3/rpcs3",
+      "status": "candidate-context",
+      "text": "PlayStation 3 emulator and debugger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RPCS3/rpcs3",
+      "status": "candidate-context",
+      "text": "RPCS3"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate-context",
+      "text": "Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate-context",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pdm-project/pdm",
+      "status": "candidate-context",
+      "text": "A modern Python package and dependency manager supporting the latest PEP standards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdm-project/pdm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate-context",
+      "text": "Python humanize functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/humanize.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/humanize/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/abaplint-sci-server",
+      "status": "candidate-context",
+      "text": "Node backend application for running abaplint on ABAP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint-sci-server",
+      "status": "candidate-context",
+      "text": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lsd-rs/lsd",
+      "status": "candidate-context",
+      "text": "The next gen ls command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lsd-rs/lsd",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unixorn/autoupdate-zgenom",
+      "status": "candidate-context",
+      "text": "ZSH Plugin for updating zgenom and its plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/autoupdate-zgenom",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/github/license/unixorn/autoupdate-zgenom.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate-context",
+      "text": "base16 for fish shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate-context",
+      "text": "There are multiple projects out there that provide better functionality and are under active development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kinow/gtest-tap-listener",
+      "status": "candidate-context",
+      "text": "GoogleTest TAP Listener"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kinow/gtest-tap-listener",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml/badge.svg)](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/ansible-lint",
+      "status": "candidate-context",
+      "text": "ansible-lint checks playbooks for practices and behavior that could potentially be improved and can fix some of the most common ones for you"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-lint",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/ansible-lint.svg)](https://pypi.org/project/ansible-lint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Schniz/fnm",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Fast and simple Node.js version manager, built in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Schniz/fnm",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "status": "candidate-context",
+      "text": ".NET API reference documentation (.NET 5+, .NET Core, .NET Framework)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "status": "candidate-context",
+      "text": "This repository contains documentation for the .NET API reference. We track all work for this repository using [GitHub issues](https://github.com/dotnet/dotnet-api-docs/issues). The documentation for APIs is built from the text and code snippets in this repo, and from the sample\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-community/nix-direnv",
+      "status": "candidate-context",
+      "text": "A fast, persistent use_nix/use_flake implementation for direnv [maintainer=@Mic92 / @bbenne10] "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nix-direnv",
+      "status": "candidate-context",
+      "text": "![Test](https://github.com/nix-community/nix-direnv/workflows/Test/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kassio/neoterm",
+      "status": "candidate-context",
+      "text": "Wrapper of some vim/neovim's :terminal functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kassio/neoterm",
+      "status": "candidate-context",
+      "text": "[![lint](https://github.com/kassio/neoterm/workflows/lint/badge.svg?branch=master)](https://github.com/kassio/neoterm/actions?query=workflow%3Alint)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuaLS/lua-language-server",
+      "status": "candidate-context",
+      "text": "A language server that offers Lua language support - programmed in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/lua-language-server",
+      "status": "candidate-context",
+      "text": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate-context",
+      "text": "TypeScript & JavaScript Language Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate-context",
+      "text": "[![Discord][discord-src]][discord-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhinz/vim-startify",
+      "status": "candidate-context",
+      "text": ":link: The fancy start screen for Vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-startify",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/mhinz/vim-startify.svg?branch=master)](https://travis-ci.org/mhinz/vim-startify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Morganamilo/paru",
+      "status": "candidate-context",
+      "text": "Feature packed AUR helper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Morganamilo/paru",
+      "status": "candidate-context",
+      "text": "Feature packed AUR helper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate-context",
+      "text": "Simple and productive Web Development Tools in the Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EmbarkStudios/cargo-deny-action",
+      "status": "candidate-context",
+      "text": "\u274c GitHub Action for cargo-deny \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-deny-action",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "status": "candidate-context",
+      "text": "Cake Addin for calling Markdownlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "status": "candidate-context",
+      "text": "This addin for the Cake Build Automation System allows you to run [markdownlint] using [markdownlint-cli]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/docs",
+      "status": "candidate-context",
+      "text": "This repository contains .NET Documentation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docs",
+      "status": "candidate-context",
+      "text": "[![GitHub contributors](https://img.shields.io/github/contributors/dotnet/docs.svg)](https://GitHub.com/dotnet/docs/graphs/contributors/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate-context",
+      "text": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate-context",
+      "text": "Pack npm package \"doctoc\" into a docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate-context",
+      "text": "The new Windows Terminal and the original Windows console host, all in the same place!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate-context",
+      "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/julia",
+      "status": "candidate-context",
+      "text": "The Julia Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/julia",
+      "status": "candidate-context",
+      "text": "<a name=\"logo\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-js-debug",
+      "status": "candidate-context",
+      "text": "A DAP-compatible JavaScript debugger. Used in VS Code, VS, + more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-js-debug",
+      "status": "candidate-context",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "Modern C++ Terminal Emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/go-github",
+      "status": "candidate-context",
+      "text": "Go library for accessing the GitHub v3 API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-github",
+      "status": "candidate-context",
+      "text": "[![go-github release (latest SemVer)](https://img.shields.io/github/v/release/google/go-github?sort=semver)](https://github.com/google/go-github/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/grafana",
+      "status": "candidate-context",
+      "text": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/grafana",
+      "status": "candidate-context",
+      "text": "![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "node-lightning/node-lightning",
+      "status": "candidate-context",
+      "text": "Bitcoin Lighting Network implemented in Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "node-lightning/node-lightning",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simd-lite/simd-json",
+      "status": "candidate-context",
+      "text": "Rust port of simdjson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simd-lite/simd-json",
+      "status": "candidate-context",
+      "text": "[Build Status ARM]: https://cloud.drone.io/api/badges/simd-lite/simd-json/status.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "status": "candidate-context",
+      "text": "An Azure DevOps Task for tfsec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "status": "candidate-context",
+      "text": "An Azure DevOps Pipelines Task for [tfsec](https://github.com/aquasecurity/tfsec), with a bonus integrated UI."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/tfsec-pr-commenter-action",
+      "status": "candidate-context",
+      "text": "Add comments to pull requests where tfsec checks have failed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec-pr-commenter-action",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/create-github-app-token",
+      "status": "candidate-context",
+      "text": "GitHub Action for creating a GitHub App Installation Access Token"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/create-github-app-token",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/actions/create-github-app-token/actions/workflows/test.yml/badge.svg)](https://github.com/actions/create-github-app-token/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortexproject/cortex",
+      "status": "candidate-context",
+      "text": "A horizontally scalable, highly available, multi-tenant, long term Prometheus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortexproject/cortex",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"images/logo.png\" alt=\"Cortex Logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate-context",
+      "text": "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LinusU/node-appdmg",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbe Generate your app dmgs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LinusU/node-appdmg",
+      "status": "candidate-context",
+      "text": "Generate beautiful DMG-images for your OS X applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate-context",
+      "text": "Routing and navigation for React Native and Web apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate-context",
+      "text": "[![Build Status][build-badge]][build]"
     }
   ],
   "candidate_glosses": [
@@ -1743,6 +2667,468 @@
       "source_repo": "electron/fiddle",
       "status": "candidate",
       "text": "[![Test](https://github.com/electron/fiddle/actions/workflows/test.yml/badge.svg)](https://github.com/electron/fiddle/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badges/shields",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sbcgua/abap-string-map",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint-sci-client",
+      "status": "candidate",
+      "text": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/sentinel-cpp",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/9434884/43697219-3cb4ef3a-9975-11e8-9a9c-73f4f537442d.png\" alt=\"Sentinel Logo\" width=\"50%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "status": "candidate",
+      "text": "[zgen](https://github.com/tarjoilija/zgen) is no longer getting updates. However, the [zgenom](https://github.com/jandamm/zgenom) fork is getting updates and new features, and is basically zgen but better."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/awesome-zsh-plugins",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/zsh-quickstart-kit",
+      "status": "candidate",
+      "text": "Check links in README.md"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify",
+      "status": "candidate",
+      "text": "<div align=\"center\"> <a href=\"https://fastify.dev/\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/runtime",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/dotnet/runtime/runtime?branchName=main)](https://dev.azure.com/dnceng-public/public/_build/latest?definitionId=129&branchName=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-app",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/termux/termux-app/workflows/Build/badge.svg)](https://github.com/termux/termux-app/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "willothy/nvim-cokeline",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-include-comment <br> -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devicons/devicon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ryanoasis/vim-devicons",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curl/curl",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/ash-molten",
+      "status": "candidate",
+      "text": "<!-- Allow this file to not have a first line heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-about",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable no-inline-html first-line-heading no-emphasis-as-heading -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/pug",
+      "status": "candidate",
+      "text": "[![Latest Stable Version](https://poser.pugx.org/pug-php/pug/v/stable.png)](https://packagist.org/packages/pug-php/pug)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate",
+      "text": "[NVM] wrapper for fish-shell."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git/git",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/git/git/workflows/CI/badge.svg)](https://github.com/git/git/actions?query=branch%3Amaster+event%3Apush)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atheos/Atheos",
+      "status": "candidate",
+      "text": "\"CodeQL\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "juice-shop/juice-shop",
+      "status": "candidate",
+      "text": "[![OWASP Flagship](https://img.shields.io/badge/owasp-flagship%20project-48A646.svg)](https://owasp.org/projects/#sec-flagships)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/loki",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/sources/logo_and_name.png\" alt=\"Loki Logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slimtoolkit/slim",
+      "status": "candidate",
+      "text": "![SK](assets/images/dslim/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/community",
+      "status": "candidate",
+      "text": "Aqua Security's open source community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-iot-device-sdk-js-v2",
+      "status": "candidate",
+      "text": "The AWS IoT Device SDK for JavaScript v2 connects your JavaScript applications and devices to the AWS IoT platform. It handles the complexities of secure communication, authentication, and device management so you can focus on your IoT solution. The SDK makes it easy to use AWS \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/ramalama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate",
+      "text": "Command line tools that help you build apps with [`react-native`](https://github.com/facebook/react-native), shipped as the `@react-native-community/cli` NPM package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "status": "candidate",
+      "text": "[![Build status][build]][build-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emscripten-core/emscripten",
+      "status": "candidate",
+      "text": "![emscripten logo](media/switch_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gohugoio/hugoDocs",
+      "status": "candidate",
+      "text": "<a href=\"https://gohugo.io/\"><img src=\"https://raw.githubusercontent.com/gohugoio/gohugoioTheme/master/static/images/hugo-logo-wide.svg?sanitize=true\" alt=\"Hugo\" width=\"565\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitcoindevkit/bdk",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate",
+      "text": "![haskell-language-server][logo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/stylish-haskell",
+      "status": "candidate",
+      "text": "CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CodeBoarding/CodeBoarding",
+      "status": "candidate",
+      "text": "See what your AI is building before it breaks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RPCS3/rpcs3",
+      "status": "candidate",
+      "text": "RPCS3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate",
+      "text": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pdm-project/pdm",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-humanize/humanize",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/humanize.svg?logo=pypi&logoColor=FFE873)](https://pypi.org/project/humanize/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/abaplint-sci-server",
+      "status": "candidate",
+      "text": "This project enables [abaplint](https://abaplint.org) to be run in the context of SAP Code Inspector (SCI), allowing immediate feedback to the ABAP developers in their standard editor, SE24 / SE80 / SE38 / ABAP in Eclipse. And also works seamlessly with other places where the co\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lsd-rs/lsd",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unixorn/autoupdate-zgenom",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/unixorn/autoupdate-zgenom.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate",
+      "text": "There are multiple projects out there that provide better functionality and are under active development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kinow/gtest-tap-listener",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml/badge.svg)](https://github.com/kinow/gtest-tap-listener/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-lint",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/ansible-lint.svg)](https://pypi.org/project/ansible-lint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Schniz/fnm",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "status": "candidate",
+      "text": "This repository contains documentation for the .NET API reference. We track all work for this repository using [GitHub issues](https://github.com/dotnet/dotnet-api-docs/issues). The documentation for APIs is built from the text and code snippets in this repo, and from the sample\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-community/nix-direnv",
+      "status": "candidate",
+      "text": "![Test](https://github.com/nix-community/nix-direnv/workflows/Test/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kassio/neoterm",
+      "status": "candidate",
+      "text": "[![lint](https://github.com/kassio/neoterm/workflows/lint/badge.svg?branch=master)](https://github.com/kassio/neoterm/actions?query=workflow%3Alint)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/lua-language-server",
+      "status": "candidate",
+      "text": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate",
+      "text": "[![Discord][discord-src]][discord-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-startify",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/mhinz/vim-startify.svg?branch=master)](https://travis-ci.org/mhinz/vim-startify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Morganamilo/paru",
+      "status": "candidate",
+      "text": "Feature packed AUR helper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/actions/workflows/build.yml/badge.svg)](https://github.com/eclipse-wildwebdeveloper/wildwebdeveloper/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EmbarkStudios/cargo-deny-action",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "status": "candidate",
+      "text": "This addin for the Cake Build Automation System allows you to run [markdownlint] using [markdownlint-cli]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/docs",
+      "status": "candidate",
+      "text": "[![GitHub contributors](https://img.shields.io/github/contributors/dotnet/docs.svg)](https://GitHub.com/dotnet/docs/graphs/contributors/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate",
+      "text": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate",
+      "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/julia",
+      "status": "candidate",
+      "text": "<a name=\"logo\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-js-debug",
+      "status": "candidate",
+      "text": "<h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate",
+      "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-github",
+      "status": "candidate",
+      "text": "[![go-github release (latest SemVer)](https://img.shields.io/github/v/release/google/go-github?sort=semver)](https://github.com/google/go-github/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/grafana",
+      "status": "candidate",
+      "text": "![Grafana Logo (Light)](docs/logo-horizontal.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "node-lightning/node-lightning",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simd-lite/simd-json",
+      "status": "candidate",
+      "text": "[Build Status ARM]: https://cloud.drone.io/api/badges/simd-lite/simd-json/status.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "status": "candidate",
+      "text": "An Azure DevOps Pipelines Task for [tfsec](https://github.com/aquasecurity/tfsec), with a bonus integrated UI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec-pr-commenter-action",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/create-github-app-token",
+      "status": "candidate",
+      "text": "[![test](https://github.com/actions/create-github-app-token/actions/workflows/test.yml/badge.svg)](https://github.com/actions/create-github-app-token/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortexproject/cortex",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"images/logo.png\" alt=\"Cortex Logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thanos-io/thanos",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LinusU/node-appdmg",
+      "status": "candidate",
+      "text": "Generate beautiful DMG-images for your OS X applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate",
+      "text": "[![Build Status][build-badge]][build]"
     }
   ],
   "candidate_related_terms": [],
@@ -2398,11 +3784,521 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "electron/fiddle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "badges/shields"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cri-o/cri-o"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sbcgua/abap-string-map"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/abaplint-sci-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/sentinel-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unixorn/autoupdate-zgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unixorn/awesome-zsh-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unixorn/zsh-quickstart-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/ruby-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fastify/fastify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/runtime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "termux/termux-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "willothy/nvim-cokeline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "devicons/devicon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ryanoasis/vim-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "curl/curl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/ash-molten"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/cargo-about"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pug-php/pug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "FabioAntunes/fish-nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "git/git"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Atheos/Atheos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ajeetdsouza/zoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "juice-shop/juice-shop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "grafana/loki"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-iot-device-sdk-js-v2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "containers/ramalama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "react-native-community/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonico/awesome-runners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "emscripten-core/emscripten"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gohugoio/hugoDocs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bitcoindevkit/bdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gitui-org/gitui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "haskell/haskell-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "haskell/stylish-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "CodeBoarding/CodeBoarding"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "RPCS3/rpcs3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "butlerx/wetty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pdm-project/pdm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "python-humanize/humanize"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/abaplint-sci-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lsd-rs/lsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unixorn/autoupdate-zgenom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "FabioAntunes/base16-fish-shell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kinow/gtest-tap-listener"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ansible/ansible-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Schniz/fnm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/dotnet-api-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nix-community/nix-direnv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kassio/neoterm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/lua-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mhinz/vim-startify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Morganamilo/paru"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EmbarkStudios/cargo-deny-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cake-contrib/Cake.Markdownlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "analysis-tools-dev/static-analysis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "JuliaLang/julia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "contour-terminal/contour"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/go-github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "grafana/grafana"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "simd-lite/simd-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-pr-commenter-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "actions/create-github-app-token"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cortexproject/cortex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "LinusU/node-appdmg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "react-navigation/react-navigation"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

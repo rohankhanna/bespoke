@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "celo-org/plumo-prover",
+      "target": "celo-org/celo-bls-snark-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "celo-org/plumo-prover",
+      "target": "scipr-lab/zexe",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:31:46.183529+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1515
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 814
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Prover for the Plumo light client system https://docs.zkproof.org/pages/standards/accepted-workshop3/proposal-plumo_celolightclient.pdf",
+    "fork": false,
+    "full_name": "celo-org/plumo-prover",
+    "html_url": "https://github.com/celo-org/plumo-prover",
+    "language": "Rust",
+    "pushed_at": "2022-01-04T22:19:45Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2023-01-28T01:50:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celo-org/celo-bls-snark-rs",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scipr-lab/zexe",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hashnode"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/Better-Hashnode-Backups",
+      "status": "candidate-context",
+      "text": "Backups a Hashnode blog including the images from the CDN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Better-Hashnode-Backups",
+      "status": "candidate-context",
+      "text": "[Hashnode](https://www.hashnode.com) is a great blogging service and has a nice Github action for syncing your posts to a repository as a backup mechanism. However, at the time of writing, the backup mechanism does not extract the images from the CDN."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/Better-Hashnode-Backups",
+      "status": "candidate",
+      "text": "[Hashnode](https://www.hashnode.com) is a great blogging service and has a nice Github action for syncing your posts to a repository as a backup mechanism. However, at the time of writing, the backup mechanism does not extract the images from the CDN."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hashnode",
+  "concept_id": "hashnode",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Better-Hashnode-Backups"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hashnode",
+      "sense_id": "hashnode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

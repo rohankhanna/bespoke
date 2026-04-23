@@ -1,0 +1,376 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-p7zip-CI.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-p7zip-CI.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_mac.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_mac.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "jinfeihan57/p7zip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "jinfeihan57/p7zip_test_utils",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "inikep/lz5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "inikep/lizard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-p7zip-CI.yml",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-p7zip-CI.yml",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "p7zip-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-p7zip-CI.yml",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-p7zip-CI.yml",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "macos-p7zip-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yml",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_linux.yml",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_linux.yml",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "p7zip-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_mac.yml",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_mac.yml",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_mac.yml",
+      "source_repo": "p7zip-project/p7zip",
+      "target": "mac-p7zip-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p7zip-project/p7zip",
+      "target": "7zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p7zip-project/p7zip",
+      "target": "archive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p7zip-project/p7zip",
+      "target": "brotli",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p7zip-project/p7zip",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p7zip-project/p7zip",
+      "target": "fastlzma2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p7zip-project/p7zip",
+      "target": "lizard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p7zip-project/p7zip",
+      "target": "lzham",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p7zip-project/p7zip",
+      "target": "lzma",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p7zip-project/p7zip",
+      "target": "lzma2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p7zip-project/p7zip",
+      "target": "p7zip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "p7zip-project/p7zip",
+      "target": "zstd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:48:50.851286+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12212
+    },
+    {
+      "path": ".github/workflows/linux-p7zip-CI.yml",
+      "size": 1273
+    },
+    {
+      "path": ".github/workflows/macos-p7zip-CI.yml",
+      "size": 1287
+    },
+    {
+      "path": ".github/workflows/release_linux.yml",
+      "size": 1272
+    },
+    {
+      "path": ".github/workflows/release_mac.yml",
+      "size": 1280
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A new p7zip fork with additional codecs and improvements (forked from https://sourceforge.net/projects/sevenzip/ AND https://sourceforge.net/projects/p7zip/).",
+    "fork": false,
+    "full_name": "p7zip-project/p7zip",
+    "html_url": "https://github.com/p7zip-project/p7zip",
+    "language": "C",
+    "pushed_at": "2025-05-20T11:31:27Z",
+    "stargazers_count": 935,
+    "topics": [
+      "7zip",
+      "archive",
+      "brotli",
+      "compression",
+      "fastlzma2",
+      "lizard",
+      "lz4",
+      "lz5",
+      "lzham",
+      "lzma",
+      "lzma2",
+      "p7zip",
+      "zstd"
+    ],
+    "updated_at": "2026-04-22T12:56:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inikep/lizard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inikep/lz5",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jinfeihan57/p7zip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jinfeihan57/p7zip_test_utils",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "p7zip-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-p7zip-CI.yml",
+      "term": "p7zip-CI"
+    },
+    {
+      "context_snippet": "macos-p7zip-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-p7zip-CI.yml",
+      "term": "macos-p7zip-CI"
+    },
+    {
+      "context_snippet": "p7zip-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_linux.yml",
+      "term": "p7zip-release"
+    },
+    {
+      "context_snippet": "mac-p7zip-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_mac.yml",
+      "term": "mac-p7zip-release"
+    },
+    {
+      "context_snippet": "The original intention of p7zip is to make 7z run on unix-like systems. The latest [7zip] already supports unix systems, so the new version of this project is not just a derivative of p7zip. It is also a derivative of 7zip. To distinguish it from the 7zip project, I decided to u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "7zip"
+    },
+    {
+      "context_snippet": "The original intention of p7zip is to make 7z run on unix-like systems. The latest [7zip] already supports unix systems, so the new version of this project is not just a derivative of p7zip. It is also a derivative of 7zip. To distinguish it from the 7zip project, I decided to u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archive"
+    },
+    {
+      "context_snippet": "The original intention of p7zip is to make 7z run on unix-like systems. The latest [7zip] already supports unix systems, so the new version of this project is not just a derivative of p7zip. It is also a derivative of 7zip. To distinguish it from the 7zip project, I decided to u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brotli"
+    },
+    {
+      "context_snippet": "The original intention of p7zip is to make 7z run on unix-like systems. The latest [7zip] already supports unix systems, so the new version of this project is not just a derivative of p7zip. It is also a derivative of 7zip. To distinguish it from the 7zip project, I decided to u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "The original intention of p7zip is to make 7z run on unix-like systems. The latest [7zip] already supports unix systems, so the new version of this project is not just a derivative of p7zip. It is also a derivative of 7zip. To distinguish it from the 7zip project, I decided to u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastlzma2"
+    },
+    {
+      "context_snippet": "The original intention of p7zip is to make 7z run on unix-like systems. The latest [7zip] already supports unix systems, so the new version of this project is not just a derivative of p7zip. It is also a derivative of 7zip. To distinguish it from the 7zip project, I decided to u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lizard"
+    },
+    {
+      "context_snippet": "The original intention of p7zip is to make 7z run on unix-like systems. The latest [7zip] already supports unix systems, so the new version of this project is not just a derivative of p7zip. It is also a derivative of 7zip. To distinguish it from the 7zip project, I decided to u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lzham"
+    },
+    {
+      "context_snippet": "The original intention of p7zip is to make 7z run on unix-like systems. The latest [7zip] already supports unix systems, so the new version of this project is not just a derivative of p7zip. It is also a derivative of 7zip. To distinguish it from the 7zip project, I decided to u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lzma"
+    },
+    {
+      "context_snippet": "The original intention of p7zip is to make 7z run on unix-like systems. The latest [7zip] already supports unix systems, so the new version of this project is not just a derivative of p7zip. It is also a derivative of 7zip. To distinguish it from the 7zip project, I decided to u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lzma2"
+    },
+    {
+      "context_snippet": "The original intention of p7zip is to make 7z run on unix-like systems. The latest [7zip] already supports unix systems, so the new version of this project is not just a derivative of p7zip. It is also a derivative of 7zip. To distinguish it from the 7zip project, I decided to u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "p7zip"
+    },
+    {
+      "context_snippet": "The original intention of p7zip is to make 7z run on unix-like systems. The latest [7zip] already supports unix systems, so the new version of this project is not just a derivative of p7zip. It is also a derivative of 7zip. To distinguish it from the 7zip project, I decided to u\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zstd"
+    }
+  ]
+}

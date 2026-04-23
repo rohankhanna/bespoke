@@ -223,6 +223,150 @@
       "source_repo": "libssh2/libssh2",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate-context",
+      "text": "oneAPI Deep Neural Network Library (oneDNN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate-context",
+      "text": "[![UXL Foundation Logo](https://github.com/uxlfoundation/artwork/blob/main/foundation/uxl-foundation-logo-horizontal-color.png)][UXL Foundation]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/ghostty-web",
+      "status": "candidate-context",
+      "text": "Ghostty for the web with xterm.js API compatibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/ghostty-web",
+      "status": "candidate-context",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/ghostty-web)](https://npmjs.com/package/ghostty-web) [![NPM Downloads](https://img.shields.io/npm/dw/ghostty-web)](https://npmjs.com/package/ghostty-web) [![npm bundle size](https://img.shields.io/bundlephobia/minzip/ghostty-web)](htt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curl/curl",
+      "status": "candidate-context",
+      "text": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curl/curl",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Stebalien/tempfile",
+      "status": "candidate-context",
+      "text": "Temporary file library for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stebalien/tempfile",
+      "status": "candidate-context",
+      "text": "[![Crate](https://img.shields.io/crates/v/tempfile.svg)](https://crates.io/crates/tempfile)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate-context",
+      "text": "Gzip Decompression and Random Access for Modern Multi-Core Machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frostney/react-native-create-library",
+      "status": "candidate-context",
+      "text": ":notebook: Command line tool to create a React Native library with a single command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frostney/react-native-create-library",
+      "status": "candidate-context",
+      "text": "Tool to create a React Native library with a single command."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Vaishnav-Sabari-Girish/Hayasen",
+      "status": "candidate-context",
+      "text": "An Embedded Rust crate with support for multiple sensors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vaishnav-Sabari-Girish/Hayasen",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate-context",
+      "text": "A general purpose syntax highlighter in pure Go "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate-context",
+      "text": "![Chroma](chroma.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate-context",
+      "text": "Fast parallel random access to bzip2 and gzip files in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FreeRDP/FreeRDP",
+      "status": "candidate-context",
+      "text": "FreeRDP is a free remote desktop protocol library and clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreeRDP/FreeRDP",
+      "status": "candidate-context",
+      "text": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "Modern C++ Terminal Emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-nvml/nvml-wrapper",
+      "status": "candidate-context",
+      "text": "Safe Rust wrapper for the NVIDIA Management Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-nvml/nvml-wrapper",
+      "status": "candidate-context",
+      "text": "[![Docs.rs docs](https://docs.rs/nvml-wrapper/badge.svg)](https://docs.rs/nvml-wrapper)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +477,78 @@
       "source_repo": "libssh2/libssh2",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate",
+      "text": "[![UXL Foundation Logo](https://github.com/uxlfoundation/artwork/blob/main/foundation/uxl-foundation-logo-horizontal-color.png)][UXL Foundation]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/ghostty-web",
+      "status": "candidate",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/ghostty-web)](https://npmjs.com/package/ghostty-web) [![NPM Downloads](https://img.shields.io/npm/dw/ghostty-web)](https://npmjs.com/package/ghostty-web) [![npm bundle size](https://img.shields.io/bundlephobia/minzip/ghostty-web)](htt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curl/curl",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stebalien/tempfile",
+      "status": "candidate",
+      "text": "[![Crate](https://img.shields.io/crates/v/tempfile.svg)](https://crates.io/crates/tempfile)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frostney/react-native-create-library",
+      "status": "candidate",
+      "text": "Tool to create a React Native library with a single command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Vaishnav-Sabari-Girish/Hayasen",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate",
+      "text": "![Chroma](chroma.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreeRDP/FreeRDP",
+      "status": "candidate",
+      "text": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate",
+      "text": "[![CI Build](https://github.com/contour-terminal/contour/actions/workflows/build.yml/badge.svg)](https://github.com/contour-terminal/contour/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-nvml/nvml-wrapper",
+      "status": "candidate",
+      "text": "[![Docs.rs docs](https://docs.rs/nvml-wrapper/badge.svg)](https://docs.rs/nvml-wrapper)"
     }
   ],
   "candidate_related_terms": [
@@ -499,11 +715,83 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "libssh2/libssh2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "coder/ghostty-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "curl/curl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Stebalien/tempfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "frostney/react-native-create-library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Vaishnav-Sabari-Girish/Hayasen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alecthomas/chroma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mxmlnkn/indexed_bzip2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "FreeRDP/FreeRDP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "contour-terminal/contour"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

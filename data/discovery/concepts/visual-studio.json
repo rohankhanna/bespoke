@@ -33,6 +33,18 @@
       "source_repo": "nodejs/node-gyp",
       "status": "candidate-context",
       "text": "visual-studio"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vssetup.powershell",
+      "status": "candidate-context",
+      "text": "PowerShell module to interact with Visual Studio Setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vssetup.powershell",
+      "status": "candidate-context",
+      "text": "Visual Studio Setup PowerShell Module"
     }
   ],
   "candidate_glosses": [
@@ -47,6 +59,12 @@
       "source_repo": "nodejs/node-gyp",
       "status": "candidate",
       "text": "visual-studio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vssetup.powershell",
+      "status": "candidate",
+      "text": "Visual Studio Setup PowerShell Module"
     }
   ],
   "candidate_related_terms": [],
@@ -66,11 +84,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/visual-studio.yml",
       "source_repo": "nodejs/node-gyp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vssetup.powershell"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

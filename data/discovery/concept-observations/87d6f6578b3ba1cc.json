@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "cuGraph - RAPIDS Graph Analytics Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\"; style=\"font-style: italic\";>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"; style=\"font-style: italic\";>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39632067,
+      "status": "candidate",
+      "text": "speedy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39597556,
+      "status": "candidate",
+      "text": "fast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29632071,
+      "status": "candidate",
+      "text": "mountain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29619045,
+      "status": "candidate",
+      "text": "riffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29565263,
+      "status": "candidate",
+      "text": "early"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rapids",
+      "sense_id": "rapids#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rapids",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rapids",
+  "observation_id": "87d6f6578b3ba1cc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "rapids",
+  "source_context_snippet": "<h1 align=\"center\"; style=\"font-style: italic\";>",
+  "source_file": null,
+  "source_repo": "rapidsai/cugraph",
+  "source_repo_description": "cuGraph - RAPIDS Graph Analytics Library"
+}

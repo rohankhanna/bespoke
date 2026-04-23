@@ -19,12 +19,48 @@
       "source_repo": "huggingface/optimum-neuron",
       "status": "candidate-context",
       "text": "Upload PR Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/pytorch-image-models",
+      "status": "candidate-context",
+      "text": "The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- ResNet, ResNeXT, EfficientNet, NFNet, Vision Transformer (ViT), MobileNetV4, MobileNet-V3 & V2, RegNet, DPN, CSPNet, Swin Transformer, MaxViT, CoAtNet, ConvNeXt, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/pytorch-image-models",
+      "status": "candidate-context",
+      "text": "Upload PR Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/optimum-executorch",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17 Optimum ExecuTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-executorch",
+      "status": "candidate-context",
+      "text": "Upload PR Documentation"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "huggingface/optimum-neuron",
+      "status": "candidate",
+      "text": "Upload PR Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/pytorch-image-models",
+      "status": "candidate",
+      "text": "Upload PR Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/optimum-executorch",
       "status": "candidate",
       "text": "Upload PR Documentation"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/doc-pr-upload.yml",
       "source_repo": "huggingface/optimum-neuron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/upload_pr_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/upload_pr_documentation.yml",
+      "source_repo": "huggingface/optimum-executorch"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

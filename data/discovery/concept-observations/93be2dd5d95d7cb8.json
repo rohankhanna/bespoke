@@ -4,8 +4,25 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definition_hints": [],
-  "candidate_glosses": [],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An extremely fast Python linter and code formatter, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- Begin section: Overview -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- Begin section: Overview -->"
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
   "candidate_related_terms": [],
   "candidate_senses": [
@@ -24,15 +41,17 @@
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "rustpython",
   "observation_id": "93be2dd5d95d7cb8",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T12:46:59.510459+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "rustpython",
-  "source_context_snippet": null,
+  "source_context_snippet": "<!-- Begin section: Overview -->",
   "source_file": null,
   "source_repo": "astral-sh/ruff",
-  "source_repo_description": null
+  "source_repo_description": "An extremely fast Python linter and code formatter, written in Rust."
 }

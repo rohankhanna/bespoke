@@ -46,6 +46,66 @@
       "source_repo": "semantic-release/semantic-release",
       "status": "candidate-context",
       "text": "<h1 align=\"center\" style=\"border-bottom: none;\">\ud83d\udce6\ud83d\ude80 semantic-release</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlassian/lerna-semantic-release",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6:\ud83d\udee0\u2728\ud83d\udca5 \u2013 fully automated package publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian/lerna-semantic-release",
+      "status": "candidate-context",
+      "text": "Status:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "commitizen/cz-cli",
+      "status": "candidate-context",
+      "text": "The commitizen command line utility. #BlackLivesMatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "commitizen/cz-cli",
+      "status": "candidate-context",
+      "text": "When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time. No more waiting until later for a git commit hook to run and reject your commit (though [that](https://github.com/kentcdodds/validate-commit-msg) can still be helpful). No \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/changelog",
+      "status": "candidate-context",
+      "text": "\ud83d\udcc3semantic-release plugin to create or update a changelog file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/changelog",
+      "status": "candidate-context",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to create or update a changelog file."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/commit-analyzer",
+      "status": "candidate-context",
+      "text": ":bulb: semantic-release plugin to analyze commits with conventional-changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/commit-analyzer",
+      "status": "candidate-context",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to analyze commits with [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/git",
+      "status": "candidate-context",
+      "text": ":twisted_rightwards_arrows: semantic-release plugin to commit release assets to the project's git repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/git",
+      "status": "candidate-context",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to commit release assets to the project's [git](https://git-scm.com/) repository."
     }
   ],
   "candidate_glosses": [
@@ -66,6 +126,36 @@
       "source_repo": "semantic-release/semantic-release",
       "status": "candidate",
       "text": "<h1 align=\"center\" style=\"border-bottom: none;\">\ud83d\udce6\ud83d\ude80 semantic-release</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlassian/lerna-semantic-release",
+      "status": "candidate",
+      "text": "Status:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "commitizen/cz-cli",
+      "status": "candidate",
+      "text": "When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time. No more waiting until later for a git commit hook to run and reject your commit (though [that](https://github.com/kentcdodds/validate-commit-msg) can still be helpful). No \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/changelog",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to create or update a changelog file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/commit-analyzer",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to analyze commits with [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/git",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to commit release assets to the project's [git](https://git-scm.com/) repository."
     }
   ],
   "candidate_related_terms": [
@@ -133,11 +223,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "semantic-release/semantic-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "atlassian/lerna-semantic-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "commitizen/cz-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/commit-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/git"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

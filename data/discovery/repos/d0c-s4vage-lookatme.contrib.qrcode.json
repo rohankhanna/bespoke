@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:30:42.895022+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2168
+    },
+    {
+      "path": "requirements.txt",
+      "size": 31
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "lookatme extension that embeds qrcodes in the presentation ",
+    "fork": false,
+    "full_name": "d0c-s4vage/lookatme.contrib.qrcode",
+    "html_url": "https://github.com/d0c-s4vage/lookatme.contrib.qrcode",
+    "language": "Python",
+    "pushed_at": "2021-05-23T04:05:28Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2023-04-01T19:45:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

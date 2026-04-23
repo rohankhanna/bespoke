@@ -1,12 +1,17 @@
 {
   "component": "CodelyTV/pr-size-labeler@095a41fca88b8764fd9e008ad269bcdb82bb38b9",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yml",
       "source_repo": "hashicorp/terraform-provider-random"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "mdn/browser-compat-data"
     }
   ]
 }

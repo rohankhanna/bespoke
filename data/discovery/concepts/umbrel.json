@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "umbrel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "getumbrel/umbrel-lightning",
+      "status": "candidate-context",
+      "text": "The official Lightning Node app for Umbrel, powered by LND."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getumbrel/umbrel-lightning",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "getumbrel/umbrel-lightning",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027462,
+      "status": "candidate",
+      "text": "umbril"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027461,
+      "status": "candidate",
+      "text": "umber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027460,
+      "status": "candidate",
+      "text": "umbrere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027459,
+      "status": "candidate",
+      "text": "umberella"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027458,
+      "status": "candidate",
+      "text": "umbrella"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "umbrel",
+  "concept_id": "umbrel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "getumbrel/umbrel-lightning"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "umbrel",
+      "sense_id": "umbrel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

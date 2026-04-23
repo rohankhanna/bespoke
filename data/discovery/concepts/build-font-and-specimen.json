@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build font and specimen"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexeiva/jura",
+      "status": "candidate-context",
+      "text": "Jura open-source font by Daniel Johnson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexeiva/jura",
+      "status": "candidate-context",
+      "text": "Build font and specimen"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexeiva/jura",
+      "status": "candidate",
+      "text": "Build font and specimen"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18505,
+      "status": "candidate",
+      "text": "type"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18422,
+      "status": "candidate",
+      "text": "face"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18298,
+      "status": "candidate",
+      "text": "redevelop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18255,
+      "status": "candidate",
+      "text": "serif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18252,
+      "status": "candidate",
+      "text": "typify"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build font and specimen",
+  "concept_id": "build-font-and-specimen",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "alexeiva/jura"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build font and specimen",
+      "sense_id": "build-font-and-specimen#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

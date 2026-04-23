@@ -1,6 +1,8 @@
 {
   "aliases": [
-    "go-tests"
+    "go-tests",
+    "Go Tests",
+    "Go tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +21,30 @@
       "source_repo": "hashicorp/go-version",
       "status": "candidate-context",
       "text": "go-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "CoreDNS is a DNS server that chains plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "Go Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "status": "candidate-context",
+      "text": "Brings nebula to mobile devices (iOS, Android)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "status": "candidate-context",
+      "text": "Go tests"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +53,57 @@
       "source_repo": "hashicorp/go-version",
       "status": "candidate",
       "text": "go-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate",
+      "text": "Go Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "status": "candidate",
+      "text": "Go tests"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "experience"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14037,
+      "status": "candidate",
+      "text": "review"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "go-tests",
   "concept_id": "go-tests",
@@ -40,11 +114,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/go-tests.yml",
       "source_repo": "hashicorp/go-version"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/go.test.yml",
+      "source_repo": "coredns/coredns"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/gotest.yml",
+      "source_repo": "DefinedNet/mobile_nebula"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "g1mv/density",
+      "target": "quixdb/squash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "g1mv/density",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "g1mv/density",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:48:24.749427+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5746
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 596
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2572
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Superfast compression library",
+    "fork": false,
+    "full_name": "g1mv/density",
+    "html_url": "https://github.com/g1mv/density",
+    "language": "Rust",
+    "pushed_at": "2025-09-16T09:12:50Z",
+    "stargazers_count": 1043,
+    "topics": [],
+    "updated_at": "2026-04-09T16:45:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "quixdb/squash",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "zokugun/github-actions-aur-releaser@4348c8a4124434a85d0a5e7457d0ef4079dab490",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-insider-linux.yml",
+      "source_repo": "VSCodium/vscodium"
+    }
+  ]
+}

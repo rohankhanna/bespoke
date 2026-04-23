@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "srush/Tensor-Puzzles",
+      "target": "danoneata/chalk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "srush/Tensor-Puzzles",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "srush/Tensor-Puzzles",
+      "target": "puzzle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "srush/Tensor-Puzzles",
+      "target": "torch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:32:30.140038+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15872
+    },
+    {
+      "path": "requirements.txt",
+      "size": 76
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Solve puzzles. Improve your pytorch.",
+    "fork": false,
+    "full_name": "srush/Tensor-Puzzles",
+    "html_url": "https://github.com/srush/Tensor-Puzzles",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-07-15T20:11:52Z",
+    "stargazers_count": 4027,
+    "topics": [
+      "machine-learning",
+      "puzzle",
+      "torch"
+    ],
+    "updated_at": "2026-04-22T01:51:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danoneata/chalk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- by [Sasha Rush](http://rush-nlp.com) - [srush_nlp](https://twitter.com/srush_nlp) (with Marcos Treviso)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "- by [Sasha Rush](http://rush-nlp.com) - [srush_nlp](https://twitter.com/srush_nlp) (with Marcos Treviso)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "puzzle"
+    },
+    {
+      "context_snippet": "- by [Sasha Rush](http://rush-nlp.com) - [srush_nlp](https://twitter.com/srush_nlp) (with Marcos Treviso)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torch"
+    }
+  ]
+}

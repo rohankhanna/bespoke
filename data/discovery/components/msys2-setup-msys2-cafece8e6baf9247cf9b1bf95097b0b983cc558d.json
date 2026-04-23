@@ -1,7 +1,7 @@
 {
   "component": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "libssh2/libssh2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/distcheck.yml",
+      "source_repo": "curl/curl"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cmake-config.yml",
+      "source_repo": "libressl/portable"
     }
   ]
 }

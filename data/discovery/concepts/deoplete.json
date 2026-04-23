@@ -19,6 +19,18 @@
       "source_repo": "Shougo/deoplete.nvim",
       "status": "candidate-context",
       "text": "> Dark powered asynchronous completion framework for neovim/Vim8"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deoplete-plugins/deoplete-jedi",
+      "status": "candidate-context",
+      "text": "deoplete.nvim source for Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deoplete-plugins/deoplete-jedi",
+      "status": "candidate-context",
+      "text": "[deoplete.nvim](https://github.com/Shougo/deoplete.nvim) source for [jedi](https://github.com/davidhalter/jedi)."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Shougo/deoplete.nvim",
       "status": "candidate",
       "text": "> Dark powered asynchronous completion framework for neovim/Vim8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deoplete-plugins/deoplete-jedi",
+      "status": "candidate",
+      "text": "[deoplete.nvim](https://github.com/Shougo/deoplete.nvim) source for [jedi](https://github.com/davidhalter/jedi)."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Shougo/deoplete.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "deoplete-plugins/deoplete-jedi"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

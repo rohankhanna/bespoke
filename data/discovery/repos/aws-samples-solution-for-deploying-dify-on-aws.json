@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:30:13.054575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aws-samples/solution-for-deploying-dify-on-aws",
+    "html_url": "https://github.com/aws-samples/solution-for-deploying-dify-on-aws",
+    "language": "TypeScript",
+    "pushed_at": "2025-08-20T08:36:07Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2026-01-26T02:24:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

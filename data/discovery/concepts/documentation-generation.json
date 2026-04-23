@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Documentation generation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "criteo/autofaiss",
+      "status": "candidate-context",
+      "text": "Automatically create Faiss knn indices with the most optimal similarity search parameters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criteo/autofaiss",
+      "status": "candidate-context",
+      "text": "Documentation generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "criteo/autofaiss",
+      "status": "candidate",
+      "text": "Documentation generation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11720,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11653,
+      "status": "candidate",
+      "text": "receipts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10694,
+      "status": "candidate",
+      "text": "background"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10694,
+      "status": "candidate",
+      "text": "backgrounder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10694,
+      "status": "candidate",
+      "text": "description"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Documentation generation",
+  "concept_id": "documentation-generation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "criteo/autofaiss"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Documentation generation",
+      "sense_id": "documentation-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

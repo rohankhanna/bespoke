@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "zero-knowledge-proofs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boundless-xyz/kailua",
+      "status": "candidate-context",
+      "text": "The Ultimate ZK Proving Software Suite for Securing OP Rollups"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/kailua",
+      "status": "candidate-context",
+      "text": "<img width=\"100%\" src=\"https://github.com/user-attachments/assets/c71a1018-d970-49c0-af37-ba8a66d00bea\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arkworks-rs/snark",
+      "status": "candidate-context",
+      "text": "Interfaces for Relations and SNARKs for these relations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/snark",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">SNARK and Relation Traits</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/kailua",
+      "status": "candidate",
+      "text": "<img width=\"100%\" src=\"https://github.com/user-attachments/assets/c71a1018-d970-49c0-af37-ba8a66d00bea\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arkworks-rs/snark",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">SNARK and Relation Traits</h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "zero-knowledge-proofs",
+  "concept_id": "zero-knowledge-proofs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "boundless-xyz/kailua"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/snark"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zero-knowledge-proofs",
+      "sense_id": "zero-knowledge-proofs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

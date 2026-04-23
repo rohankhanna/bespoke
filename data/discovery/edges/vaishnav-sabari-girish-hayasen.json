@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vaishnav-Sabari-Girish/Hayasen",
+      "target": "rust-embedded/awesome-embedded-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vaishnav-Sabari-Girish/Hayasen",
+      "target": "vaishnav-sabari-girish/hayasen-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaishnav-Sabari-Girish/Hayasen",
+      "target": "crate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaishnav-Sabari-Girish/Hayasen",
+      "target": "embedded-rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaishnav-Sabari-Girish/Hayasen",
+      "target": "embedded-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaishnav-Sabari-Girish/Hayasen",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaishnav-Sabari-Girish/Hayasen",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaishnav-Sabari-Girish/Hayasen",
+      "target": "rust-library",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "Vaishnav-Sabari-Girish/Hayasen"
+}

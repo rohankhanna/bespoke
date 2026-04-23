@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:35:36.806048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15459
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ML.NET \u793a\u4f8b\u4e2d\u6587\u7248\uff0c\u82f1\u6587\u539f\u7248\u8bf7\u8bbf\u95ee\uff1ahttps://github.com/dotnet/machinelearning-samples",
+    "fork": false,
+    "full_name": "feiyun0112/machinelearning-samples.zh-cn",
+    "html_url": "https://github.com/feiyun0112/machinelearning-samples.zh-cn",
+    "language": "PowerShell",
+    "pushed_at": "2023-04-29T23:39:45Z",
+    "stargazers_count": 302,
+    "topics": [],
+    "updated_at": "2026-04-11T10:58:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

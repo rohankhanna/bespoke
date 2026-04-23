@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Blealtan/RWKV-LM-LoRA",
+      "target": "abel2076/json2binidx_tool",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:29:30.027925+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2440
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RWKV is a RNN with transformer-level LLM performance. It can be directly trained like a GPT (parallelizable). So it's combining the best of RNN and transformer - great performance, fast inference, saves VRAM, fast training, \"infinite\" ctx_len, and free sentence embedding.",
+    "fork": true,
+    "full_name": "Blealtan/RWKV-LM-LoRA",
+    "html_url": "https://github.com/Blealtan/RWKV-LM-LoRA",
+    "language": "Python",
+    "pushed_at": "2023-07-11T06:43:01Z",
+    "stargazers_count": 413,
+    "topics": [],
+    "updated_at": "2026-02-27T11:18:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abel2076/json2binidx_tool",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

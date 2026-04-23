@@ -76,6 +76,90 @@
       "source_repo": "rust-fuzz/cargo-fuzz",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate-context",
+      "text": "The fuzzer afl++ is afl with community patches, qemu 5.1 upgrade, collision-free coverage, enhanced laf-intel & redqueen, AFLfast++ power schedules, MOpt mutators, unicorn_mode, and a lot more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate-context",
+      "text": "<img align=\"right\" src=\"https://raw.githubusercontent.com/AFLplusplus/Website/main/static/aflpp_bg.svg\" alt=\"AFL++ logo\" width=\"250\" height=\"250\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/clusterfuzz",
+      "status": "candidate-context",
+      "text": "Scalable fuzzing infrastructure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/clusterfuzz",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/honggfuzz",
+      "status": "candidate-context",
+      "text": "Security oriented software fuzzer. Supports evolutionary, feedback-driven fuzzing based on code coverage (SW and HW based)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/honggfuzz",
+      "status": "candidate-context",
+      "text": "**A security-oriented, feedback-driven, evolutionary fuzzer.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-fuzz/trophy-case",
+      "status": "candidate-context",
+      "text": "\ud83c\udfc6 Collection of bugs uncovered by fuzzing Rust code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-fuzz/trophy-case",
+      "status": "candidate-context",
+      "text": "A showcase of bugs found via fuzz testing Rust codebases. It serves multiple purposes:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-fuzz/libfuzzer",
+      "status": "candidate-context",
+      "text": "Rust bindings and utilities for LLVM\u2019s libFuzzer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-fuzz/libfuzzer",
+      "status": "candidate-context",
+      "text": "Barebones wrapper around LLVM's libFuzzer runtime library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/fuzzbench",
+      "status": "candidate-context",
+      "text": "FuzzBench - Fuzzer benchmarking as a service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/fuzzbench",
+      "status": "candidate-context",
+      "text": "FuzzBench is a free service that evaluates fuzzers on a wide variety of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrash/afl-cov",
+      "status": "candidate-context",
+      "text": "Produce code coverage results with gcov from afl-fuzz test cases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrash/afl-cov",
+      "status": "candidate-context",
+      "text": "- [Introduction](#introduction)"
     }
   ],
   "candidate_glosses": [
@@ -114,6 +198,48 @@
       "source_repo": "rust-fuzz/cargo-fuzz",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate",
+      "text": "<img align=\"right\" src=\"https://raw.githubusercontent.com/AFLplusplus/Website/main/static/aflpp_bg.svg\" alt=\"AFL++ logo\" width=\"250\" height=\"250\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/clusterfuzz",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/honggfuzz",
+      "status": "candidate",
+      "text": "**A security-oriented, feedback-driven, evolutionary fuzzer.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-fuzz/trophy-case",
+      "status": "candidate",
+      "text": "A showcase of bugs found via fuzz testing Rust codebases. It serves multiple purposes:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-fuzz/libfuzzer",
+      "status": "candidate",
+      "text": "Barebones wrapper around LLVM's libFuzzer runtime library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/fuzzbench",
+      "status": "candidate",
+      "text": "FuzzBench is a free service that evaluates fuzzers on a wide variety of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrash/afl-cov",
+      "status": "candidate",
+      "text": "- [Introduction](#introduction)"
     }
   ],
   "candidate_related_terms": [
@@ -193,11 +319,53 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "rust-fuzz/cargo-fuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AFLplusplus/AFLplusplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/clusterfuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/honggfuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-fuzz/trophy-case"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-fuzz/libfuzzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/fuzzbench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mrash/afl-cov"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

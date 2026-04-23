@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heroku/heroku-buildpack-multi",
+      "target": "heroku/heroku-buildpack-pgbouncer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:45:02.629527+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "[DEPRECATED] Please use https://devcenter.heroku.com/articles/using-multiple-buildpacks-for-an-app instead",
+    "fork": false,
+    "full_name": "heroku/heroku-buildpack-multi",
+    "html_url": "https://github.com/heroku/heroku-buildpack-multi",
+    "language": "Shell",
+    "pushed_at": "2022-02-12T13:26:57Z",
+    "stargazers_count": 155,
+    "topics": [],
+    "updated_at": "2026-02-15T02:23:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heroku/heroku-buildpack-pgbouncer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abapGit/ADT_Backend",
+      "target": "emersion/stability-badges",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abapGit/ADT_Backend",
+      "target": "sap/project-odense",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "abapGit/ADT_Backend",
+      "target": "larshp/abapgit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "abapGit/ADT_Backend",
+      "target": "abapgit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:38:50.134412+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DEPRECATED/NOT WORKING abapGit ADT Backend",
+    "fork": false,
+    "full_name": "abapGit/ADT_Backend",
+    "html_url": "https://github.com/abapGit/ADT_Backend",
+    "language": "ABAP",
+    "pushed_at": "2026-01-29T11:05:51Z",
+    "stargazers_count": 35,
+    "topics": [
+      "abapgit"
+    ],
+    "updated_at": "2026-04-05T10:53:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emersion/stability-badges",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "larshp/abapgit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sap/project-odense",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![stability-experimental](https://img.shields.io/badge/stability-experimental-orange.svg)](https://github.com/emersion/stability-badges#experimental)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abapgit"
+    }
+  ]
+}

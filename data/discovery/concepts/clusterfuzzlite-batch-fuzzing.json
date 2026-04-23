@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ClusterFuzzLite batch fuzzing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alex/rust-asn1",
+      "status": "candidate-context",
+      "text": "A Rust ASN.1 (DER) serializer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex/rust-asn1",
+      "status": "candidate-context",
+      "text": "ClusterFuzzLite batch fuzzing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alex/rust-asn1",
+      "status": "candidate",
+      "text": "ClusterFuzzLite batch fuzzing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16154,
+      "status": "candidate",
+      "text": "fuzz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14654,
+      "status": "candidate",
+      "text": "fuzzy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4870,
+      "status": "candidate",
+      "text": "clarifying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4870,
+      "status": "candidate",
+      "text": "defuzzing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4870,
+      "status": "candidate",
+      "text": "refining"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ClusterFuzzLite batch fuzzing",
+  "concept_id": "clusterfuzzlite-batch-fuzzing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/fuzz-cron.yml",
+      "source_repo": "alex/rust-asn1"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ClusterFuzzLite batch fuzzing",
+      "sense_id": "clusterfuzzlite-batch-fuzzing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

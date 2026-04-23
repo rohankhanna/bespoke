@@ -1,11 +1,15 @@
 {
   "aliases": [
-    "Code Scanning"
+    "Code Scanning",
+    "Code scanning",
+    "code-scanning"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +35,54 @@
       "source_repo": "niieani/gpt-tokenizer",
       "status": "candidate-context",
       "text": "'Code Scanning'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/cache",
+      "status": "candidate-context",
+      "text": "Cache dependencies and build outputs in GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/cache",
+      "status": "candidate-context",
+      "text": "Code scanning"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "'Code scanning'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codetyio/codety-scanner",
+      "status": "candidate-context",
+      "text": "Codety Scanner is a comprehensive code scanner designed to detect code issues for 30+ programming languages and IaC frameworks. It embeds more than 6,000 code analysis rules and can detect code smells, vulnerable code, secrets in the code, performance issues, style violations, and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codetyio/codety-scanner",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "Modern C++ Terminal Emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "\"Code scanning\""
     }
   ],
   "candidate_glosses": [
@@ -45,6 +97,30 @@
       "source_repo": "niieani/gpt-tokenizer",
       "status": "candidate",
       "text": "'Code Scanning'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/cache",
+      "status": "candidate",
+      "text": "Code scanning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate",
+      "text": "'Code scanning'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codetyio/codety-scanner",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate",
+      "text": "\"Code scanning\""
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +176,35 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "niieani/gpt-tokenizer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "actions/cache"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "renovatebot/renovate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "codetyio/codety-scanner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml.disabled",
+      "source_repo": "contour-terminal/contour"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

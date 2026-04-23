@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:33:54.584363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "~ is where the \u2665 is \u2014\u00a0my dotfiles",
+    "fork": false,
+    "full_name": "janmoesen/tilde",
+    "html_url": "https://github.com/janmoesen/tilde",
+    "language": "Shell",
+    "pushed_at": "2024-04-14T21:20:31Z",
+    "stargazers_count": 168,
+    "topics": [],
+    "updated_at": "2026-03-19T20:17:07Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:45:03.782896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deploy with Nix and manage resources declaratively",
+    "fork": false,
+    "full_name": "nixops4/nixops4",
+    "html_url": "https://github.com/nixops4/nixops4",
+    "language": "Rust",
+    "pushed_at": "2026-04-11T09:29:02Z",
+    "stargazers_count": 869,
+    "topics": [],
+    "updated_at": "2026-04-23T00:50:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

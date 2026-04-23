@@ -1,0 +1,232 @@
+{
+  "aliases": [
+    "level"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/classic-level",
+      "status": "candidate-context",
+      "text": "An abstract-level database backed by LevelDB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/classic-level",
+      "status": "candidate-context",
+      "text": "**An [`abstract-level`](https://github.com/Level/abstract-level) database backed by [LevelDB](https://github.com/google/leveldb).** The successor to [`leveldown`](https://github.com/Level/leveldown) with builtin encodings, sublevels, events, hooks and support of Uint8Array. If y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/community",
+      "status": "candidate-context",
+      "text": "Discussion, support and common information for projects in the community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/community",
+      "status": "candidate-context",
+      "text": "**Discussion, support and common information for projects in the community.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/abstract-level",
+      "status": "candidate-context",
+      "text": "Abstract class for a lexicographically sorted key-value database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/abstract-level",
+      "status": "candidate-context",
+      "text": "**Abstract class for a lexicographically sorted key-value database.** Provides encodings, sublevels, events and hooks. If you are upgrading, please see [`UPGRADING.md`](UPGRADING.md)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/awesome",
+      "status": "candidate-context",
+      "text": "An open list of awesome Level modules and resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/awesome",
+      "status": "candidate-context",
+      "text": "**An open list of awesome [Level][level-org] modules and resources. [Add yours!](#contributing)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/read-stream",
+      "status": "candidate-context",
+      "text": "Read from an abstract-level database using Node.js streams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/read-stream",
+      "status": "candidate-context",
+      "text": "**Read from an [`abstract-level`](https://github.com/Level/abstract-level) database using Node.js streams.**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/classic-level",
+      "status": "candidate",
+      "text": "**An [`abstract-level`](https://github.com/Level/abstract-level) database backed by [LevelDB](https://github.com/google/leveldb).** The successor to [`leveldown`](https://github.com/Level/leveldown) with builtin encodings, sublevels, events, hooks and support of Uint8Array. If y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/community",
+      "status": "candidate",
+      "text": "**Discussion, support and common information for projects in the community.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/abstract-level",
+      "status": "candidate",
+      "text": "**Abstract class for a lexicographically sorted key-value database.** Provides encodings, sublevels, events and hooks. If you are upgrading, please see [`UPGRADING.md`](UPGRADING.md)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/awesome",
+      "status": "candidate",
+      "text": "**An open list of awesome [Level][level-org] modules and resources. [Add yours!](#contributing)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/read-stream",
+      "status": "candidate",
+      "text": "**Read from an [`abstract-level`](https://github.com/Level/abstract-level) database using Node.js streams.**"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028208,
+      "status": "candidate",
+      "text": "horizontal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028136,
+      "status": "candidate",
+      "text": "flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027420,
+      "status": "candidate",
+      "text": "plane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015801,
+      "status": "candidate",
+      "text": "stage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997394,
+      "status": "candidate",
+      "text": "storey"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43077,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34102,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31019,
+      "status": "candidate",
+      "text": "unwavering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25096,
+      "status": "candidate",
+      "text": "flat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22043,
+      "status": "candidate",
+      "text": "steady"
+    }
+  ],
+  "canonical_name": "level",
+  "concept_id": "level",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/classic-level"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/abstract-level"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/awesome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/read-stream"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "level",
+      "sense_id": "level#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

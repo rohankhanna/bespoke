@@ -45,6 +45,66 @@
       "source_repo": "cask/cask",
       "status": "candidate-context",
       "text": "readme"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RichardLitt/generator-standard-readme",
+      "status": "candidate-context",
+      "text": "Scaffold out a Standard Readme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RichardLitt/generator-standard-readme",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderjojo/creative-profile-readme",
+      "status": "candidate-context",
+      "text": "A Collection of GitHub Profiles with awesome readme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderjojo/creative-profile-readme",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub contributors](https://img.shields.io/github/contributors/coderjojo/creative-profile-readme)](https://github.com/coderjojo/creative-profile-readme/graphs/contributors) [![GitHub issues](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates",
+      "status": "candidate-context",
+      "text": "This repository contains best profile readme's for your reference. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Oii, eu sou a Julia Krisnarane \ud83d\udc8c\ud83c\udf37<img src=\"https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif\" width=\"30px\"> </h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate-context",
+      "text": "API and CLI for generating a markdown TOC (table of contents) for a README or any markdown files. Uses Remarkable to parse markdown. Used by NASA/openmct, Prisma, Joi, Mocha, Sass, Prettier, Orbit DB, FormatJS, Raneto, hapijs/code, webpack-flow, docusaurus, release-it, ts-loader, json-server, reactfire, bunyan, husky, react-easy-state, react-snap, chakra-ui, carbon, alfresco, repolinter, Assemble, Verb, and thousands of other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate-context",
+      "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate-context",
+      "text": "Pack npm package \"doctoc\" into a docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +125,36 @@
       "source_repo": "cask/cask",
       "status": "candidate",
       "text": "readme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RichardLitt/generator-standard-readme",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml/badge.svg)](https://github.com/RichardLitt/generator-standard-readme/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderjojo/creative-profile-readme",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub contributors](https://img.shields.io/github/contributors/coderjojo/creative-profile-readme)](https://github.com/coderjojo/creative-profile-readme/graphs/contributors) [![GitHub issues](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Oii, eu sou a Julia Krisnarane \ud83d\udc8c\ud83c\udf37<img src=\"https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif\" width=\"30px\"> </h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate",
+      "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
     }
   ],
   "candidate_related_terms": [
@@ -138,11 +228,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/readme.yml",
       "source_repo": "cask/cask"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "RichardLitt/generator-standard-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "coderjojo/creative-profile-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/markdown-toc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

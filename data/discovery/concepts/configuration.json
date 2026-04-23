@@ -31,6 +31,18 @@
       "source_repo": "dilanx/craco",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "virtuald/pyhcl",
+      "status": "candidate-context",
+      "text": "HCL is a configuration language. pyhcl is a python parser for it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "virtuald/pyhcl",
+      "status": "candidate-context",
+      "text": "pyhcl"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "dilanx/craco",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "virtuald/pyhcl",
+      "status": "candidate",
+      "text": "pyhcl"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +147,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "dilanx/craco"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "virtuald/pyhcl"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

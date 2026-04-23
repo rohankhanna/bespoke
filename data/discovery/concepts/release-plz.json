@@ -67,6 +67,42 @@
       "source_repo": "rust-lang/compiler-builtins",
       "status": "candidate-context",
       "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ratatui/mousefood",
+      "status": "candidate-context",
+      "text": "embedded-graphics backend for Ratatui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/mousefood",
+      "status": "candidate-context",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gdesmott/system-deps",
+      "status": "candidate-context",
+      "text": "Run pkg-config from declarative dependencies in Cargo.toml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gdesmott/system-deps",
+      "status": "candidate-context",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentclientprotocol/symposium-acp",
+      "status": "candidate-context",
+      "text": "The Symposium implementation the Agent Client Protocol specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentclientprotocol/symposium-acp",
+      "status": "candidate-context",
+      "text": "Release-plz"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +133,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rust-lang/compiler-builtins",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ratatui/mousefood",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gdesmott/system-deps",
+      "status": "candidate",
+      "text": "Release-plz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentclientprotocol/symposium-acp",
       "status": "candidate",
       "text": "Release-plz"
     }
@@ -160,11 +214,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/release-plz.yml",
       "source_repo": "ratatui/ratatui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "ratatui/mousefood"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "gdesmott/system-deps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release-plz.yml",
+      "source_repo": "agentclientprotocol/symposium-acp"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

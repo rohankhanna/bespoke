@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songquanpeng/blog-theme-bootstrap",
+      "target": "blog-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "songquanpeng/blog-theme-bootstrap",
+      "target": "bootstrap4",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:43:02.028790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 386
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Theme for the following blog system: https://github.com/songquanpeng/blog",
+    "fork": false,
+    "full_name": "songquanpeng/blog-theme-bootstrap",
+    "html_url": "https://github.com/songquanpeng/blog-theme-bootstrap",
+    "language": "EJS",
+    "pushed_at": "2022-11-24T01:32:58Z",
+    "stargazers_count": 0,
+    "topics": [
+      "blog-theme",
+      "bootstrap4"
+    ],
+    "updated_at": "2022-02-04T15:08:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "1. Powered by the Bootstrap CSS framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blog-theme"
+    },
+    {
+      "context_snippet": "1. Powered by the Bootstrap CSS framework.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap4"
+    }
+  ]
+}

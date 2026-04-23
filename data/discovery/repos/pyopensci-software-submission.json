@@ -1,0 +1,220 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown.yml"
+    },
+    {
+      "component": "articulate/actions-markdownlint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-project.yml"
+    },
+    {
+      "component": "actions/add-to-project@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-project.yml"
+    },
+    {
+      "component": "octokit/graphql-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-project.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "pyopensci/software-review",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "gaurav-nelson/github-action-markdown-link-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "check links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown.yml",
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-markdown.yml",
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "articulate/actions-markdownlint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-markdown.yml",
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "Lint docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-project.yml",
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-project.yml",
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "actions/add-to-project@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-project.yml",
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "octokit/graphql-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-project.yml",
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "update-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "opensource",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pyOpenSci/software-submission",
+      "target": "peer-review",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:30:37.285059+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13266
+    },
+    {
+      "path": ".github/workflows/check-links.yml",
+      "size": 293
+    },
+    {
+      "path": ".github/workflows/check-markdown.yml",
+      "size": 342
+    },
+    {
+      "path": ".github/workflows/update-project.yml",
+      "size": 1773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "pyOpenSci runs  open peer review for research software and software that directly supports scientific inquiry. ",
+    "fork": false,
+    "full_name": "pyOpenSci/software-submission",
+    "html_url": "https://github.com/pyOpenSci/software-submission",
+    "language": null,
+    "pushed_at": "2026-04-16T02:22:39Z",
+    "stargazers_count": 119,
+    "topics": [
+      "opensource",
+      "peer-review",
+      "python"
+    ],
+    "updated_at": "2026-04-16T02:22:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyopensci/software-review",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "check links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-links.yml",
+      "term": "check links"
+    },
+    {
+      "context_snippet": "Lint docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-markdown.yml",
+      "term": "Lint docs"
+    },
+    {
+      "context_snippet": "update-project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-project.yml",
+      "term": "update-project"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensource"
+    },
+    {
+      "context_snippet": "<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "peer-review"
+    }
+  ]
+}

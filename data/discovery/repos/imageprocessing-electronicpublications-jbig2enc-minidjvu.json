@@ -1,0 +1,84 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ImageProcessing-ElectronicPublications/jbig2enc-minidjvu",
+      "target": "barak/minidjvu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ImageProcessing-ElectronicPublications/jbig2enc-minidjvu",
+      "target": "trufanov-nok/minidjvu-mod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageProcessing-ElectronicPublications/jbig2enc-minidjvu",
+      "target": "jbig2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ImageProcessing-ElectronicPublications/jbig2enc-minidjvu",
+      "target": "minidjvu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:47:05.434111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Using jbig2enc in conjunction with minidjvu.",
+    "fork": false,
+    "full_name": "ImageProcessing-ElectronicPublications/jbig2enc-minidjvu",
+    "html_url": "https://github.com/ImageProcessing-ElectronicPublications/jbig2enc-minidjvu",
+    "language": null,
+    "pushed_at": "2024-12-13T09:18:37Z",
+    "stargazers_count": 2,
+    "topics": [
+      "jbig2",
+      "minidjvu",
+      "pdf"
+    ],
+    "updated_at": "2026-04-21T22:51:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "barak/minidjvu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trufanov-nok/minidjvu-mod",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Using [jbig2enc](https://github.com/agl/jbig2enc) in conjunction with [minidjvu](https://github.com/barak/minidjvu)/[minidjvu-mod](https://github.com/trufanov-nok/minidjvu-mod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jbig2"
+    },
+    {
+      "context_snippet": "Using [jbig2enc](https://github.com/agl/jbig2enc) in conjunction with [minidjvu](https://github.com/barak/minidjvu)/[minidjvu-mod](https://github.com/trufanov-nok/minidjvu-mod).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minidjvu"
+    }
+  ]
+}

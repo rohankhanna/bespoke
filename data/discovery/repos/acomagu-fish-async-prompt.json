@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:40:45.445961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Make your prompt asynchronous to improve the reactivity.",
+    "fork": false,
+    "full_name": "acomagu/fish-async-prompt",
+    "html_url": "https://github.com/acomagu/fish-async-prompt",
+    "language": "Shell",
+    "pushed_at": "2026-01-05T12:09:06Z",
+    "stargazers_count": 520,
+    "topics": [],
+    "updated_at": "2026-04-17T01:06:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

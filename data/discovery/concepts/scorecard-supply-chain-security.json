@@ -187,6 +187,102 @@
       "source_repo": "prometheus/client_golang",
       "status": "candidate-context",
       "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate-context",
+      "text": "Open Container Initiative-based implementation of Kubernetes Container Runtime Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/brotli",
+      "status": "candidate-context",
+      "text": "Brotli compression format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/brotli",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "A modern formatting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/common",
+      "status": "candidate-context",
+      "text": "Go libraries shared across Prometheus components and libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/common",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/double-conversion",
+      "status": "candidate-context",
+      "text": "Efficient binary-decimal and decimal-binary conversion routines for IEEE doubles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/double-conversion",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "Official Docker Image for Node.js :whale: :turtle: :rocket: "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expressjs/express",
+      "status": "candidate-context",
+      "text": "Fast, unopinionated, minimalist web framework for node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/express",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortexproject/cortex",
+      "status": "candidate-context",
+      "text": "A horizontally scalable, highly available, multi-tenant, long term Prometheus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortexproject/cortex",
+      "status": "candidate-context",
+      "text": "Scorecard supply-chain security"
     }
   ],
   "candidate_glosses": [
@@ -277,6 +373,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "prometheus/client_golang",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/brotli",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/common",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/double-conversion",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/express",
+      "status": "candidate",
+      "text": "Scorecard supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortexproject/cortex",
       "status": "candidate",
       "text": "Scorecard supply-chain security"
     }
@@ -460,11 +604,77 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "cri-o/cri-o"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/brotli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "fmtlib/fmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "prometheus/common"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/double-conversion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "nodejs/docker-node"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "expressjs/express"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "cortexproject/cortex"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alfredbaudisch/raylib-cimgui",
+      "target": "raylib-extras/rlimgui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredbaudisch/raylib-cimgui",
+      "target": "dear-imgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredbaudisch/raylib-cimgui",
+      "target": "imgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredbaudisch/raylib-cimgui",
+      "target": "immediate-gui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alfredbaudisch/raylib-cimgui",
+      "target": "raylib",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:38:18.453637+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2227
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A pure C raylib backend for the immediate mode gui Dear ImGui, on top of cimgui",
+    "fork": false,
+    "full_name": "alfredbaudisch/raylib-cimgui",
+    "html_url": "https://github.com/alfredbaudisch/raylib-cimgui",
+    "language": "C",
+    "pushed_at": "2025-07-27T14:48:29Z",
+    "stargazers_count": 50,
+    "topics": [
+      "c",
+      "dear-imgui",
+      "imgui",
+      "immediate-gui",
+      "raylib"
+    ],
+    "updated_at": "2026-03-08T03:31:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raylib-extras/rlimgui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A pure C raylib backend for the immediate mode gui [Dear ImGui](https://github.com/ocornut/imgui), on top of [cimgui](https://github.com/cimgui/cimgui).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dear-imgui"
+    },
+    {
+      "context_snippet": "A pure C raylib backend for the immediate mode gui [Dear ImGui](https://github.com/ocornut/imgui), on top of [cimgui](https://github.com/cimgui/cimgui).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imgui"
+    },
+    {
+      "context_snippet": "A pure C raylib backend for the immediate mode gui [Dear ImGui](https://github.com/ocornut/imgui), on top of [cimgui](https://github.com/cimgui/cimgui).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "immediate-gui"
+    },
+    {
+      "context_snippet": "A pure C raylib backend for the immediate mode gui [Dear ImGui](https://github.com/ocornut/imgui), on top of [cimgui](https://github.com/cimgui/cimgui).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raylib"
+    }
+  ]
+}

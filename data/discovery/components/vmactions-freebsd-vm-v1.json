@@ -1,7 +1,7 @@
 {
   "component": "vmactions/freebsd-vm@v1",
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/freebsd.yml",
       "source_repo": "ethereum/go-ethereum"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/FreeBSD.yml",
+      "source_repo": "artemsen/swayimg"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/freebsd.yml",
+      "source_repo": "Stebalien/tempfile"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bellard/quickjs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "diffblue/cbmc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml",
+      "source_repo": "RPCS3/rpcs3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "contour-terminal/contour"
     }
   ]
 }

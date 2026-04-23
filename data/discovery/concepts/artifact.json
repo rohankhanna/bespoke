@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Artifact"
+    "Artifact",
+    "artifact"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "containers/crun",
       "status": "candidate-context",
       "text": "Artifact"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ijl/orjson",
+      "status": "candidate-context",
+      "text": "Fast, correct Python JSON library supporting dataclasses, datetimes, and numpy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ijl/orjson",
+      "status": "candidate-context",
+      "text": "artifact"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "containers/crun",
       "status": "candidate",
       "text": "Artifact"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ijl/orjson",
+      "status": "candidate",
+      "text": "artifact"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +103,17 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "containers/crun"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/artifact.yaml",
+      "source_repo": "ijl/orjson"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

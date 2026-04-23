@@ -1,0 +1,699 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-commit0-images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-commit0-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-commit0-images.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-commit0-images.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-commit0-images.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gaia-images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gaia-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gaia-images.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gaia-images.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gaia-images.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multiswebench-images.yml"
+    },
+    {
+      "component": "useblacksmith/setup-docker-builder@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multiswebench-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multiswebench-images.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multiswebench-images.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multiswebench-images.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebench-images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebench-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebench-images.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebench-images.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebench-images.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swegym-images.yml"
+    },
+    {
+      "component": "useblacksmith/setup-docker-builder@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swegym-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swegym-images.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swegym-images.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swegym-images.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swesmith-images.yml"
+    },
+    {
+      "component": "useblacksmith/setup-docker-builder@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swesmith-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swesmith-images.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swesmith-images.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swesmith-images.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swtbench-images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swtbench-images.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swtbench-images.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swtbench-images.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swtbench-images.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "openhands/software-agent-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "multi-swe-bench/multi-swe-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "logic-star-ai/swt-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-commit0-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-commit0-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-commit0-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-commit0-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-commit0-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-commit0-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "Build Commit0 Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gaia-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gaia-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gaia-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gaia-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-gaia-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-gaia-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "Build GAIA Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multiswebench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multiswebench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "useblacksmith/setup-docker-builder@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multiswebench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multiswebench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-multiswebench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-multiswebench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "Build Multi-SWE-Bench Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-swebench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "Build SWE-Bench Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "Build SWE-Bench Multimodal Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swegym-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swegym-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "useblacksmith/setup-docker-builder@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swegym-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swegym-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swegym-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-swegym-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "Build SWE-Gym Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swesmith-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swesmith-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "useblacksmith/setup-docker-builder@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swesmith-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swesmith-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swesmith-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-swesmith-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "Build SWE-Smith Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swtbench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swtbench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swtbench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swtbench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-swtbench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-swtbench-images.yml",
+      "source_repo": "OpenHands/benchmarks",
+      "target": "Build SWT-Bench Images",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:42:53.590057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9746
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5036
+    },
+    {
+      "path": ".github/workflows/build-commit0-images.yml",
+      "size": 8106
+    },
+    {
+      "path": ".github/workflows/build-gaia-images.yml",
+      "size": 7652
+    },
+    {
+      "path": ".github/workflows/build-multiswebench-images.yml",
+      "size": 13869
+    },
+    {
+      "path": ".github/workflows/build-swebench-images.yml",
+      "size": 14564
+    },
+    {
+      "path": ".github/workflows/build-swebenchmultimodal-images.yml",
+      "size": 14023
+    },
+    {
+      "path": ".github/workflows/build-swegym-images.yml",
+      "size": 13325
+    },
+    {
+      "path": ".github/workflows/build-swesmith-images.yml",
+      "size": 13433
+    },
+    {
+      "path": ".github/workflows/build-swtbench-images.yml",
+      "size": 14337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Evaluation harness for OpenHands V1.",
+    "fork": false,
+    "full_name": "OpenHands/benchmarks",
+    "html_url": "https://github.com/OpenHands/benchmarks",
+    "language": "Python",
+    "pushed_at": "2026-04-23T07:08:27Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2026-04-23T07:06:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openhands/software-agent-sdk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "logic-star-ai/swt-bench",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multi-swe-bench/multi-swe-bench",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Commit0 Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-commit0-images.yml",
+      "term": "Build Commit0 Images"
+    },
+    {
+      "context_snippet": "Build GAIA Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-gaia-images.yml",
+      "term": "Build GAIA Images"
+    },
+    {
+      "context_snippet": "Build Multi-SWE-Bench Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-multiswebench-images.yml",
+      "term": "Build Multi-SWE-Bench Images"
+    },
+    {
+      "context_snippet": "Build SWE-Bench Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-swebench-images.yml",
+      "term": "Build SWE-Bench Images"
+    },
+    {
+      "context_snippet": "Build SWE-Bench Multimodal Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-swebenchmultimodal-images.yml",
+      "term": "Build SWE-Bench Multimodal Images"
+    },
+    {
+      "context_snippet": "Build SWE-Gym Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-swegym-images.yml",
+      "term": "Build SWE-Gym Images"
+    },
+    {
+      "context_snippet": "Build SWE-Smith Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-swesmith-images.yml",
+      "term": "Build SWE-Smith Images"
+    },
+    {
+      "context_snippet": "Build SWT-Bench Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-swtbench-images.yml",
+      "term": "Build SWT-Bench Images"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "IdanHo/comment-on-pr@63ea2bf352997c66e524b8b5be7a79163fb3a88a",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint_commit.yml",
+      "source_repo": "aseprite/aseprite"
+    }
+  ]
+}

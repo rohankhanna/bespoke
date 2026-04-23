@@ -196,28 +196,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "gitui-org/gitui",
-      "target": "extrawurst/gitui-presentation",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gitui-org/gitui",
-      "target": "jonas/tig",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gitui-org/gitui",
-      "target": "git-up/gitup",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gitui-org/gitui",
-      "target": "andys8/git-brunch",
+      "target": "scoopinstaller/main",
       "target_type": "repository"
     },
     {
@@ -445,7 +424,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T05:12:20.503955+00:00",
+  "fetched_at": "2026-04-23T06:41:11.520243+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -481,8 +460,8 @@
     "full_name": "gitui-org/gitui",
     "html_url": "https://github.com/gitui-org/gitui",
     "language": "Rust",
-    "pushed_at": "2026-04-21T02:57:38Z",
-    "stargazers_count": 21810,
+    "pushed_at": "2026-04-23T01:39:06Z",
+    "stargazers_count": 21812,
     "topics": [
       "async",
       "bash",
@@ -494,27 +473,12 @@
       "terminal",
       "tui"
     ],
-    "updated_at": "2026-04-22T01:21:01Z"
+    "updated_at": "2026-04-23T02:50:19Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "andys8/git-brunch",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "extrawurst/gitui-presentation",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "git-up/gitup",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jonas/tig",
+      "full_name": "scoopinstaller/main",
       "source_file": "README.md"
     }
   ],

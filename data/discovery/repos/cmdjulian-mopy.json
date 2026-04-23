@@ -1,0 +1,232 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v3.8.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml"
+    },
+    {
+      "component": "docker/login-action@6d4b68b490aef8836e8fb5e50ee7b3bdfa5894f0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cmdjulian/mopy",
+      "target": "docker/buildx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cmdjulian/mopy",
+      "target": "moskomule/anatome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cmdjulian/mopy",
+      "target": "googlecontainertools/distroless",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "source_repo": "cmdjulian/mopy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "source_repo": "cmdjulian/mopy",
+      "target": "sigstore/cosign-installer@v3.8.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "source_repo": "cmdjulian/mopy",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "source_repo": "cmdjulian/mopy",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "source_repo": "cmdjulian/mopy",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "source_repo": "cmdjulian/mopy",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "source_repo": "cmdjulian/mopy",
+      "target": "docker/login-action@6d4b68b490aef8836e8fb5e50ee7b3bdfa5894f0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "source_repo": "cmdjulian/mopy",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "source_repo": "cmdjulian/mopy",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmdjulian/mopy",
+      "target": "buildkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmdjulian/mopy",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmdjulian/mopy",
+      "target": "docker-image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:33:50.970429+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16713
+    },
+    {
+      "path": "Dockerfile",
+      "size": 826
+    },
+    {
+      "path": "go.mod",
+      "size": 3339
+    },
+    {
+      "path": ".github/workflows/docker-image.yaml",
+      "size": 2645
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "mopy is a docker buildkit frontend to package and build your python app into a minimal best practice docker image. You don't have to be a docker pro anymore! \ud83d\udc0b",
+    "fork": false,
+    "full_name": "cmdjulian/mopy",
+    "html_url": "https://github.com/cmdjulian/mopy",
+    "language": "Go",
+    "pushed_at": "2026-04-15T19:57:09Z",
+    "stargazers_count": 57,
+    "topics": [
+      "buildkit",
+      "docker",
+      "docker-image",
+      "python"
+    ],
+    "updated_at": "2025-12-16T12:33:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/buildx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecontainertools/distroless",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moskomule/anatome",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yaml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "buildkit"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-image"
+    }
+  ]
+}

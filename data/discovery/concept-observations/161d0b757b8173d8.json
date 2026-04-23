@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Examples and guides for using the OpenAI API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Rebuild Cookbook Website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Rebuild Cookbook Website"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17805,
+      "status": "candidate",
+      "text": "counter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17805,
+      "status": "candidate",
+      "text": "declaration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17805,
+      "status": "candidate",
+      "text": "deed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17805,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17805,
+      "status": "candidate",
+      "text": "kitchen"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rebuild Cookbook Website",
+      "sense_id": "rebuild-cookbook-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rebuild-cookbook-website",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rebuild-cookbook-website",
+  "observation_id": "161d0b757b8173d8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Rebuild Cookbook Website",
+  "source_context_snippet": "Rebuild Cookbook Website",
+  "source_file": ".github/workflows/build-website.yaml",
+  "source_repo": "openai/openai-cookbook",
+  "source_repo_description": "Examples and guides for using the OpenAI API"
+}

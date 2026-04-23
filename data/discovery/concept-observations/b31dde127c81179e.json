@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "On Memorization of Large Language Models in Logical Reasoning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h1 align=\"center\">On Memorization of Large Language Models in Logical Reasoning</h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">On Memorization of Large Language Models in Logical Reasoning</h1>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39774092,
+      "status": "candidate",
+      "text": "math"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39773363,
+      "status": "candidate",
+      "text": "maths"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29775950,
+      "status": "candidate",
+      "text": "mathematical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29774812,
+      "status": "candidate",
+      "text": "mathematically"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29773407,
+      "status": "candidate",
+      "text": "calculation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mathematics",
+      "sense_id": "mathematics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2029,
+      "status": "candidate",
+      "text": "maths"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39,
+      "status": "candidate",
+      "text": "math"
+    }
+  ],
+  "concept_id": "mathematics",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mathematics",
+  "observation_id": "b31dde127c81179e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "mathematics",
+  "source_context_snippet": "<h1 align=\"center\">On Memorization of Large Language Models in Logical Reasoning</h1>",
+  "source_file": null,
+  "source_repo": "AlphaPav/mem-kk-logic",
+  "source_repo_description": "On Memorization of Large Language Models in Logical Reasoning"
+}

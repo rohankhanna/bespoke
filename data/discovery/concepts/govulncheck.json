@@ -80,6 +80,18 @@
       "source_repo": "hairyhenderson/gomplate",
       "status": "candidate-context",
       "text": "govulncheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "Add-on agent to generate and expose cluster-level metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "govulncheck"
     }
   ],
   "candidate_glosses": [
@@ -110,6 +122,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "hairyhenderson/gomplate",
+      "status": "candidate",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
       "status": "candidate",
       "text": "govulncheck"
     }
@@ -155,11 +173,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/govulncheck.yml",
       "source_repo": "hairyhenderson/gomplate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "kubernetes/kube-state-metrics"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

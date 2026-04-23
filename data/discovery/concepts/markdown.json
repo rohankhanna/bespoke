@@ -187,6 +187,126 @@
       "source_repo": "open-rpc/markdown-gen",
       "status": "candidate-context",
       "text": "Generate API documentation from [OpenRPC](https://open-rpc.org) specifications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate-context",
+      "text": "A Node.js style checker and lint tool for Markdown/CommonMark files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate-context",
+      "text": "> A Node.js style checker and lint tool for Markdown/CommonMark files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate-context",
+      "text": "A fast, flexible, configuration-based command-line interface for linting Markdown/CommonMark files with the markdownlint library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate-context",
+      "text": "> A fast, flexible, configuration-based command-line interface for linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate-context",
+      "text": "\u26a1 The fastest and most configurable plugin for MkDocs, allowing seamless export of individual pages and/or entire documentation as PDF documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate-context",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liran-funaro/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": "A Sphinx extension to add markdown generation support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liran-funaro/sphinx-markdown-builder",
+      "status": "candidate-context",
+      "text": "[![Coverage Status](https://coveralls.io/repos/github/liran-funaro/sphinx-markdown-builder/badge.svg?branch=main&cache-bust=1)](https://coveralls.io/github/liran-funaro/sphinx-markdown-builder?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "depado/bfchroma",
+      "status": "candidate-context",
+      "text": "Integrating Chroma syntax highlighter as a Blackfriday renderer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "depado/bfchroma",
+      "status": "candidate-context",
+      "text": "[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kentaro-m/blackfriday-confluence",
+      "status": "candidate-context",
+      "text": "\ud83d\udee0 Blackfriday-Confluence is confluence wiki renderer for the Blackfriday v2 markdown processor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kentaro-m/blackfriday-confluence",
+      "status": "candidate-context",
+      "text": "[![godoc](https://img.shields.io/badge/godoc-reference-orange.svg?style=flat-square)](https://godoc.org/github.com/kentaro-m/blackfriday-confluence)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate-context",
+      "text": "API and CLI for generating a markdown TOC (table of contents) for a README or any markdown files. Uses Remarkable to parse markdown. Used by NASA/openmct, Prisma, Joi, Mocha, Sass, Prettier, Orbit DB, FormatJS, Raneto, hapijs/code, webpack-flow, docusaurus, release-it, ts-loader, json-server, reactfire, bunyan, husky, react-easy-state, react-snap, chakra-ui, carbon, alfresco, repolinter, Assemble, Verb, and thousands of other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate-context",
+      "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igorshubovych/markdownlint-cli",
+      "status": "candidate-context",
+      "text": "MarkdownLint Command Line Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorshubovych/markdownlint-cli",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Build Status][actions-badge]][actions-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markdown-it/markdown-it",
+      "status": "candidate-context",
+      "text": "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdown-it/markdown-it",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/markdown-it/markdown-it/actions/workflows/ci.yml/badge.svg)](https://github.com/markdown-it/markdown-it/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate-context",
+      "text": "Pack npm package \"doctoc\" into a docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +399,66 @@
       "source_repo": "open-rpc/markdown-gen",
       "status": "candidate",
       "text": "Generate API documentation from [OpenRPC](https://open-rpc.org) specifications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate",
+      "text": "> A Node.js style checker and lint tool for Markdown/CommonMark files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate",
+      "text": "> A fast, flexible, configuration-based command-line interface for linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adrienbrignon/mkdocs-exporter",
+      "status": "candidate",
+      "text": "<div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liran-funaro/sphinx-markdown-builder",
+      "status": "candidate",
+      "text": "[![Coverage Status](https://coveralls.io/repos/github/liran-funaro/sphinx-markdown-builder/badge.svg?branch=main&cache-bust=1)](https://coveralls.io/github/liran-funaro/sphinx-markdown-builder?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "depado/bfchroma",
+      "status": "candidate",
+      "text": "[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kentaro-m/blackfriday-confluence",
+      "status": "candidate",
+      "text": "[![godoc](https://img.shields.io/badge/godoc-reference-orange.svg?style=flat-square)](https://godoc.org/github.com/kentaro-m/blackfriday-confluence)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate",
+      "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorshubovych/markdownlint-cli",
+      "status": "candidate",
+      "text": "[![GitHub Actions Build Status][actions-badge]][actions-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdown-it/markdown-it",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/markdown-it/markdown-it/actions/workflows/ci.yml/badge.svg)](https://github.com/markdown-it/markdown-it/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
     }
   ],
   "candidate_related_terms": [
@@ -430,11 +610,71 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "open-rpc/markdown-gen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "DavidAnson/markdownlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "DavidAnson/markdownlint-cli2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "adrienbrignon/mkdocs-exporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "liran-funaro/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "depado/bfchroma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kentaro-m/blackfriday-confluence"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/markdown-toc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "igorshubovych/markdownlint-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "markdown-it/markdown-it"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

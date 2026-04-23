@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrash/afl-cov",
+      "target": "mrash/fwknop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrash/afl-cov",
+      "target": "afl-fuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrash/afl-cov",
+      "target": "code-coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrash/afl-cov",
+      "target": "fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrash/afl-cov",
+      "target": "gcov",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:47:57.054038+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Produce code coverage results with gcov from afl-fuzz test cases",
+    "fork": false,
+    "full_name": "mrash/afl-cov",
+    "html_url": "https://github.com/mrash/afl-cov",
+    "language": "Python",
+    "pushed_at": "2024-06-22T19:45:26Z",
+    "stargazers_count": 487,
+    "topics": [
+      "afl-fuzz",
+      "code-coverage",
+      "fuzzing",
+      "gcov"
+    ],
+    "updated_at": "2026-04-20T08:53:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mrash/fwknop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "afl-fuzz"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-coverage"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzing"
+    },
+    {
+      "context_snippet": "- [Introduction](#introduction)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gcov"
+    }
+  ]
+}

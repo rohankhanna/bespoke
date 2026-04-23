@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianon/markdownfmt",
+      "target": "moorereason/vim-markdownfmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianon/markdownfmt",
+      "target": "nlamirault/emacs-markdownfmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianon/markdownfmt",
+      "target": "moorereason/mdfmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tianon/markdownfmt",
+      "target": "jlevy/atom-flowmark",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:37:58.411056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1828
+    },
+    {
+      "path": "Dockerfile",
+      "size": 354
+    },
+    {
+      "path": "go.mod",
+      "size": 795
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Like gofmt, but for Markdown.",
+    "fork": true,
+    "full_name": "tianon/markdownfmt",
+    "html_url": "https://github.com/tianon/markdownfmt",
+    "language": "Go",
+    "pushed_at": "2025-09-18T00:04:02Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2025-12-18T01:07:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jlevy/atom-flowmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moorereason/mdfmt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "moorereason/vim-markdownfmt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nlamirault/emacs-markdownfmt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

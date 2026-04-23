@@ -1,0 +1,401 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golic.yaml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v3.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "anchore/sbom-action/download-syft@v0.16.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yamllint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yamllint.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "absaoss/golic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "golangci/golangci-lint-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "GolangCI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golic.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golic.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "GoLic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "sigstore/cosign-installer@v3.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "anchore/sbom-action/download-syft@v0.16.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "goreleaser/goreleaser-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yamllint.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/yamllint.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/yamllint.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "YamlLint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "external-dns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "external-dns-webhook",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "infoblox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "target": "infoblox-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:30:01.735450+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6148
+    },
+    {
+      "path": "Dockerfile",
+      "size": 896
+    },
+    {
+      "path": "go.mod",
+      "size": 1969
+    },
+    {
+      "path": ".github/workflows/golangci.yaml",
+      "size": 1082
+    },
+    {
+      "path": ".github/workflows/golic.yaml",
+      "size": 1080
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 2579
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 1216
+    },
+    {
+      "path": ".github/workflows/yamllint.yaml",
+      "size": 1057
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Infoblox provider based on in-tree provider for ExternalDNS",
+    "fork": false,
+    "full_name": "AbsaOSS/external-dns-infoblox-webhook",
+    "html_url": "https://github.com/AbsaOSS/external-dns-infoblox-webhook",
+    "language": "Go",
+    "pushed_at": "2026-03-04T21:22:22Z",
+    "stargazers_count": 22,
+    "topics": [
+      "dns",
+      "external-dns",
+      "external-dns-webhook",
+      "go",
+      "golang",
+      "infoblox",
+      "infoblox-api"
+    ],
+    "updated_at": "2026-04-01T12:23:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "absaoss/golic",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "GolangCI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci.yaml",
+      "term": "GolangCI"
+    },
+    {
+      "context_snippet": "GoLic",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golic.yaml",
+      "term": "GoLic"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "YamlLint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/yamllint.yaml",
+      "term": "YamlLint"
+    },
+    {
+      "context_snippet": "Infoblox provider based on in-tree provider for ExternalDNS. Supported records:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "external-dns"
+    },
+    {
+      "context_snippet": "Infoblox provider based on in-tree provider for ExternalDNS. Supported records:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "external-dns-webhook"
+    },
+    {
+      "context_snippet": "Infoblox provider based on in-tree provider for ExternalDNS. Supported records:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Infoblox provider based on in-tree provider for ExternalDNS. Supported records:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infoblox"
+    },
+    {
+      "context_snippet": "Infoblox provider based on in-tree provider for ExternalDNS. Supported records:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infoblox-api"
+    }
+  ]
+}

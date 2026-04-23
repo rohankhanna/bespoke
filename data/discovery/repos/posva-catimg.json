@@ -1,0 +1,88 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "posva/catimg",
+      "target": "catimg",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "posva/catimg",
+      "target": "imagemagick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "posva/catimg",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "posva/catimg",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:29:42.174527+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1801
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\udda6 Insanely fast image printing in your terminal",
+    "fork": false,
+    "full_name": "posva/catimg",
+    "html_url": "https://github.com/posva/catimg",
+    "language": "C",
+    "pushed_at": "2026-04-07T08:59:37Z",
+    "stargazers_count": 1545,
+    "topics": [
+      "c",
+      "catimg",
+      "fun",
+      "imagemagick",
+      "shell",
+      "terminal"
+    ],
+    "updated_at": "2026-04-20T21:52:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Renders images in the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "catimg"
+    },
+    {
+      "context_snippet": "Renders images in the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagemagick"
+    },
+    {
+      "context_snippet": "Renders images in the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "Renders images in the terminal.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "target": "alibabaresearch/damo-convai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "target": "eachsheep/shortcutsbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "target": "apple/toolsandbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "target": "angxiaoyue/awesome-llm-tool-learning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "target": "autonomous-agents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "target": "tool-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "target": "tool-retrieval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:34:34.480839+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 49108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the repository for the Tool Learning survey.",
+    "fork": false,
+    "full_name": "quchangle1/LLM-Tool-Survey",
+    "html_url": "https://github.com/quchangle1/LLM-Tool-Survey",
+    "language": null,
+    "pushed_at": "2025-08-09T02:24:38Z",
+    "stargazers_count": 482,
+    "topics": [
+      "agent",
+      "autonomous-agents",
+      "chatgpt",
+      "gpt-4",
+      "ir",
+      "large-language-models",
+      "llm",
+      "tool-learning",
+      "tool-retrieval"
+    ],
+    "updated_at": "2026-04-13T20:54:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibabaresearch/damo-convai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "angxiaoyue/awesome-llm-tool-learning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/toolsandbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eachsheep/shortcutsbench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Recently, tool learning with large language models(LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-agents"
+    },
+    {
+      "context_snippet": "Recently, tool learning with large language models(LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "Recently, tool learning with large language models(LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "Recently, tool learning with large language models(LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "Recently, tool learning with large language models(LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool-learning"
+    },
+    {
+      "context_snippet": "Recently, tool learning with large language models(LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool-retrieval"
+    }
+  ]
+}

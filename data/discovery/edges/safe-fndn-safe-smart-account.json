@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "safe-fndn/safe-smart-account",
-      "target": "safe-global/safe-deployments",
+      "target": "safe-global/safe-smart-account",
       "target_type": "repository"
     },
     {
@@ -18,14 +18,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "safe-fndn/safe-smart-account",
-      "target": "arachnid/deterministic-deployment-proxy",
+      "target": "safe-global/safe-singleton-factory",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "package.json",
       "source_repo": "safe-fndn/safe-smart-account",
-      "target": "safe-global/safe-singleton-factory",
+      "target": "safe-global/safe-smart-account",
       "target_type": "repository"
     },
     {
@@ -316,6 +316,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T01:04:16.609102+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "safe-fndn/safe-smart-account"
 }

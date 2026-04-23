@@ -1,0 +1,288 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zenodo.yml"
+    },
+    {
+      "component": "rseng/zenodo-release@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zenodo.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "toshas/torch-fidelity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "toshas/torch-fidelity",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "toshas/torch-fidelity",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "toshas/torch-fidelity",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zenodo.yml",
+      "source_repo": "toshas/torch-fidelity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zenodo.yml",
+      "source_repo": "toshas/torch-fidelity",
+      "target": "rseng/zenodo-release@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zenodo.yml",
+      "source_repo": "toshas/torch-fidelity",
+      "target": "Upload to Zenodo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "toshas/torch-fidelity",
+      "target": "evaluation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "toshas/torch-fidelity",
+      "target": "frechet-inception-distance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "toshas/torch-fidelity",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "toshas/torch-fidelity",
+      "target": "inception-score",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "toshas/torch-fidelity",
+      "target": "kernel-inception-distance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "toshas/torch-fidelity",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "toshas/torch-fidelity",
+      "target": "perceptual-path-length",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "toshas/torch-fidelity",
+      "target": "precision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "toshas/torch-fidelity",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "toshas/torch-fidelity",
+      "target": "reproducibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "toshas/torch-fidelity",
+      "target": "reproducible-research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:31:02.919480+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6833
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 46
+    },
+    {
+      "path": "requirements.txt",
+      "size": 36
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 648
+    },
+    {
+      "path": ".github/workflows/zenodo.yml",
+      "size": 761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High-fidelity performance metrics for generative models in PyTorch",
+    "fork": false,
+    "full_name": "toshas/torch-fidelity",
+    "html_url": "https://github.com/toshas/torch-fidelity",
+    "language": "Python",
+    "pushed_at": "2026-02-17T21:04:26Z",
+    "stargazers_count": 1178,
+    "topics": [
+      "evaluation",
+      "frechet-inception-distance",
+      "gan",
+      "generative-model",
+      "inception-score",
+      "kernel-inception-distance",
+      "metrics",
+      "perceptual-path-length",
+      "precision",
+      "pytorch",
+      "reproducibility",
+      "reproducible-research"
+    ],
+    "updated_at": "2026-04-11T13:54:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "Upload to Zenodo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zenodo.yml",
+      "term": "Upload to Zenodo"
+    },
+    {
+      "context_snippet": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "evaluation"
+    },
+    {
+      "context_snippet": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frechet-inception-distance"
+    },
+    {
+      "context_snippet": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inception-score"
+    },
+    {
+      "context_snippet": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kernel-inception-distance"
+    },
+    {
+      "context_snippet": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perceptual-path-length"
+    },
+    {
+      "context_snippet": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "precision"
+    },
+    {
+      "context_snippet": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reproducibility"
+    },
+    {
+      "context_snippet": "![High-fidelity performance metrics for generative models in PyTorch](doc/img/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reproducible-research"
+    }
+  ]
+}

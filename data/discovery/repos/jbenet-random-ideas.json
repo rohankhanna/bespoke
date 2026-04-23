@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:39:09.456796+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "random ideas",
+    "fork": false,
+    "full_name": "jbenet/random-ideas",
+    "html_url": "https://github.com/jbenet/random-ideas",
+    "language": null,
+    "pushed_at": "2023-03-05T21:15:59Z",
+    "stargazers_count": 328,
+    "topics": [],
+    "updated_at": "2026-02-20T16:40:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

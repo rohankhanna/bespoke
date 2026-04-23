@@ -1,0 +1,160 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "fabio42/sasqwatch",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "fabio42/sasqwatch",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "fabio42/sasqwatch",
+      "target": "goreleaser/goreleaser-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "fabio42/sasqwatch",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio42/sasqwatch",
+      "target": "bubbletea",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio42/sasqwatch",
+      "target": "charm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio42/sasqwatch",
+      "target": "charmbracelet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio42/sasqwatch",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fabio42/sasqwatch",
+      "target": "watch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:41:28.019819+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4084
+    },
+    {
+      "path": "go.mod",
+      "size": 1656
+    },
+    {
+      "path": ".github/workflows/goreleaser.yml",
+      "size": 560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A modern take on the classic watch command",
+    "fork": false,
+    "full_name": "fabio42/sasqwatch",
+    "html_url": "https://github.com/fabio42/sasqwatch",
+    "language": "Go",
+    "pushed_at": "2025-01-04T22:07:15Z",
+    "stargazers_count": 45,
+    "topics": [
+      "bubbletea",
+      "charm",
+      "charmbracelet",
+      "cli",
+      "go",
+      "golang",
+      "watch"
+    ],
+    "updated_at": "2025-07-25T07:15:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "Introducing `sasqwatch`, a modern take on the classic watch command using charm.sh libraries.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bubbletea"
+    },
+    {
+      "context_snippet": "Introducing `sasqwatch`, a modern take on the classic watch command using charm.sh libraries.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charm"
+    },
+    {
+      "context_snippet": "Introducing `sasqwatch`, a modern take on the classic watch command using charm.sh libraries.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charmbracelet"
+    },
+    {
+      "context_snippet": "Introducing `sasqwatch`, a modern take on the classic watch command using charm.sh libraries.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Introducing `sasqwatch`, a modern take on the classic watch command using charm.sh libraries.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watch"
+    }
+  ]
+}

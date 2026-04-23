@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release_mac.yml",
+      "source_repo": "p7zip-project/p7zip"
+    }
+  ],
+  "term": "mac-p7zip-release"
+}

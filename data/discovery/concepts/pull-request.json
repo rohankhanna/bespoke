@@ -2,7 +2,8 @@
   "aliases": [
     "Pull request",
     "Pull Request",
-    "pull-request"
+    "pull-request",
+    "pull request"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -101,6 +102,66 @@
       "source_repo": "bottlenoselabs/imgui-cs",
       "status": "candidate-context",
       "text": "\"Pull request\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VSCodeVim/Vim",
+      "status": "candidate-context",
+      "text": ":star: Vim for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodeVim/Vim",
+      "status": "candidate-context",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wellecks/lm-evaluation-harness",
+      "status": "candidate-context",
+      "text": "A framework for few-shot evaluation of autoregressive language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wellecks/lm-evaluation-harness",
+      "status": "candidate-context",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-argument-parser",
+      "status": "candidate-context",
+      "text": "Straightforward, type-safe argument parsing for Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-argument-parser",
+      "status": "candidate-context",
+      "text": "Pull request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cowprotocol/ethcontract-rs",
+      "status": "candidate-context",
+      "text": "Generate type-safe bindings for interacting with Ethereum contracts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cowprotocol/ethcontract-rs",
+      "status": "candidate-context",
+      "text": "pull request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate-context",
+      "text": "Grafana Community Kubernetes Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate-context",
+      "text": "Pull Request"
     }
   ],
   "candidate_glosses": [
@@ -145,6 +206,36 @@
       "source_repo": "bottlenoselabs/imgui-cs",
       "status": "candidate",
       "text": "\"Pull request\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodeVim/Vim",
+      "status": "candidate",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wellecks/lm-evaluation-harness",
+      "status": "candidate",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-argument-parser",
+      "status": "candidate",
+      "text": "Pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cowprotocol/ethcontract-rs",
+      "status": "candidate",
+      "text": "pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate",
+      "text": "Pull Request"
     }
   ],
   "candidate_related_terms": [
@@ -254,11 +345,47 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "VSCodeVim/Vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "wellecks/lm-evaluation-harness"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "apple/swift-argument-parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "cowprotocol/ethcontract-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "grafana-community/helm-charts"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

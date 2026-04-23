@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Release Binary"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate-context",
+      "text": "\u26a1 Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate-context",
+      "text": "Release Binary"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gobackup/gobackup",
+      "status": "candidate-context",
+      "text": "\ud83d\uddc4 CLI tool for backup your databases, files to cloud storages in schedully."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobackup/gobackup",
+      "status": "candidate-context",
+      "text": "Release Binary"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lycheeverse/lychee",
+      "status": "candidate",
+      "text": "Release Binary"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobackup/gobackup",
+      "status": "candidate",
+      "text": "Release Binary"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10834,
+      "status": "candidate",
+      "text": "duo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10808,
+      "status": "candidate",
+      "text": "trip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10808,
+      "status": "candidate",
+      "text": "trips"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10808,
+      "status": "candidate",
+      "text": "uncouple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10808,
+      "status": "candidate",
+      "text": "uncoupled"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Binary",
+  "concept_id": "release-binary",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release-binary.yml",
+      "source_repo": "lycheeverse/lychee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release-binary.yml",
+      "source_repo": "gobackup/gobackup"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Binary",
+      "sense_id": "release-binary#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

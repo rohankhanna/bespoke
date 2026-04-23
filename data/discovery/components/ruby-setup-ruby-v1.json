@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -237,6 +237,241 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "kana/vim-vspec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/typescript-action"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "castwide/solargraph"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/plugins.yml",
+      "source_repo": "castwide/solargraph"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rspec.yml",
+      "source_repo": "castwide/solargraph"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "castwide/solargraph"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/cache"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/importmap-rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/jsbundling-rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dummy.yml",
+      "source_repo": "shakacode/shakapacker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generator.yml",
+      "source_repo": "shakacode/shakapacker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "shakacode/shakapacker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-bundlers.yml",
+      "source_repo": "shakacode/shakapacker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-site.yaml",
+      "source_repo": "mlc-ai/web-llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "react-native-community/cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "47degrees/github4s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "47degrees/github4s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "47degrees/github4s"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kana/vim-flavor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/Xcodeproj"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/Xcodeproj"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "jpsim/Yams"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "iftheshoefritz/solargraph-rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rails_new.yml",
+      "source_repo": "iftheshoefritz/solargraph-rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "iftheshoefritz/solargraph-rails"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "puma/puma-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_locale_completeness.yml",
+      "source_repo": "decidim/decidim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_backporter.yml",
+      "source_repo": "decidim/decidim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "shakacode/package_json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "shakacode/package_json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-update.yml",
+      "source_repo": "ruby/rbs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/c-check.yml",
+      "source_repo": "ruby/rbs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comments.yml",
+      "source_repo": "ruby/rbs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "ruby/rbs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "ruby/rbs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typecheck.yml",
+      "source_repo": "ruby/rbs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "ruby/rbs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "mlc-ai/mlc-llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yaml",
+      "source_repo": "rack/rack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "rack/rack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/add-feedback-comment.yml",
+      "source_repo": "community/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-dormant-discussions.yml",
+      "source_repo": "community/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-dormant-discussions.yml",
+      "source_repo": "community/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-lint-example-app.yml",
+      "source_repo": "react-native-share/react-native-share"
     }
   ]
 }

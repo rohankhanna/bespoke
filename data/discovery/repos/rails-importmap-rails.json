@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/importmap-rails",
+      "target": "wicg/import-maps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rails/importmap-rails",
+      "target": "guybedford/es-module-shims",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/importmap-rails",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/importmap-rails",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:36:14.596842+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16584
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1749
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Use ESM with importmap to manage modern JavaScript in Rails without transpiling or bundling.",
+    "fork": false,
+    "full_name": "rails/importmap-rails",
+    "html_url": "https://github.com/rails/importmap-rails",
+    "language": "Ruby",
+    "pushed_at": "2026-01-07T20:25:13Z",
+    "stargazers_count": 1149,
+    "topics": [],
+    "updated_at": "2026-03-28T01:01:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guybedford/es-module-shims",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wicg/import-maps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

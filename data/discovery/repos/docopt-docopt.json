@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "docopt/docopt",
+      "target": "halst/schema",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:32:16.546357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 17973
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create *beautiful* command-line interfaces with Python",
+    "fork": false,
+    "full_name": "docopt/docopt",
+    "html_url": "https://github.com/docopt/docopt",
+    "language": "Python",
+    "pushed_at": "2025-06-23T09:03:15Z",
+    "stargazers_count": 8011,
+    "topics": [],
+    "updated_at": "2026-04-22T14:49:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "halst/schema",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

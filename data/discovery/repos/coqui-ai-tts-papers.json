@@ -1,0 +1,150 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coqui-ai/TTS-papers",
+      "target": "jaywalnut310/glow-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coqui-ai/TTS-papers",
+      "target": "mozilla/tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coqui-ai/TTS-papers",
+      "target": "ivanvovk/wavegrad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coqui-ai/TTS-papers",
+      "target": "nii-yamagishilab/project-nn-pytorch-scripts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-papers",
+      "target": "coqui-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-papers",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-papers",
+      "target": "papers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-papers",
+      "target": "research-paper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "coqui-ai/TTS-papers",
+      "target": "speech",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:33:29.984363+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udc38 collection of TTS papers",
+    "fork": false,
+    "full_name": "coqui-ai/TTS-papers",
+    "html_url": "https://github.com/coqui-ai/TTS-papers",
+    "language": null,
+    "pushed_at": "2024-07-04T15:36:15Z",
+    "stargazers_count": 727,
+    "topics": [
+      "coqui-ai",
+      "deep-learning",
+      "papers",
+      "research-paper",
+      "speech",
+      "tts"
+    ],
+    "updated_at": "2026-04-19T14:51:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ivanvovk/wavegrad",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaywalnut310/glow-tts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla/tts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nii-yamagishilab/project-nn-pytorch-scripts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "(Feel free to suggest changes)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coqui-ai"
+    },
+    {
+      "context_snippet": "(Feel free to suggest changes)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "(Feel free to suggest changes)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "papers"
+    },
+    {
+      "context_snippet": "(Feel free to suggest changes)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research-paper"
+    },
+    {
+      "context_snippet": "(Feel free to suggest changes)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech"
+    }
+  ]
+}

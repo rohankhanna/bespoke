@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:49:31.955569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 82
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LLaVA-Interactive: Chat, Segment and Generate/Edit an image -- All in one demo",
+    "fork": false,
+    "full_name": "LLaVA-VL/llava-interactive",
+    "html_url": "https://github.com/LLaVA-VL/llava-interactive",
+    "language": "HTML",
+    "pushed_at": "2024-07-25T17:53:36Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2024-07-25T17:53:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

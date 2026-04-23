@@ -1,0 +1,70 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vaishnav-Sabari-Girish/rust_bangalore_december_2025",
+      "target": "j-g00da/mousefood",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vaishnav-Sabari-Girish/rust_bangalore_december_2025",
+      "target": "vaishnav-sabari-girish/mousefood-programs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Vaishnav-Sabari-Girish/rust_bangalore_december_2025",
+      "target": "meetup",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:47.667095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 623
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "My presentation for the Rust Bangalore December 2025 Meetup",
+    "fork": false,
+    "full_name": "Vaishnav-Sabari-Girish/rust_bangalore_december_2025",
+    "html_url": "https://github.com/Vaishnav-Sabari-Girish/rust_bangalore_december_2025",
+    "language": "Shell",
+    "pushed_at": "2025-12-19T15:19:18Z",
+    "stargazers_count": 2,
+    "topics": [
+      "meetup",
+      "ppt"
+    ],
+    "updated_at": "2025-12-25T19:32:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "j-g00da/mousefood",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vaishnav-sabari-girish/mousefood-programs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is my presentation for the Rust Bangalore December Meetup held on 20/12/2025.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meetup"
+    }
+  ]
+}

@@ -55,6 +55,30 @@
       "source_repo": "exPHAT/SwiftWhisper",
       "status": "candidate-context",
       "text": "> The easiest way to use Whisper in Swift"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Macoron/whisper.unity",
+      "status": "candidate-context",
+      "text": "Running speech to text model (whisper.cpp) in Unity3d on your local machine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Macoron/whisper.unity",
+      "status": "candidate-context",
+      "text": "[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![whisper.cpp](https://img.shields.io/badge/whisper.cpp-v1.7.5-green)](https://github.com/ggerganov/whisper.cpp/releases/tag/v1.7.5) [![Ko-fi](https://img.shields.io/badge/\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mybigday/whisper.rn",
+      "status": "candidate-context",
+      "text": "React Native binding of whisper.cpp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/whisper.rn",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/mybigday/whisper.rn/workflows/CI/badge.svg)](https://github.com/mybigday/whisper.rn/actions)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "exPHAT/SwiftWhisper",
       "status": "candidate",
       "text": "> The easiest way to use Whisper in Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Macoron/whisper.unity",
+      "status": "candidate",
+      "text": "[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT) [![whisper.cpp](https://img.shields.io/badge/whisper.cpp-v1.7.5-green)](https://github.com/ggerganov/whisper.cpp/releases/tag/v1.7.5) [![Ko-fi](https://img.shields.io/badge/\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/whisper.rn",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/mybigday/whisper.rn/workflows/CI/badge.svg)](https://github.com/mybigday/whisper.rn/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -188,11 +224,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "exPHAT/SwiftWhisper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Macoron/whisper.unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mybigday/whisper.rn"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

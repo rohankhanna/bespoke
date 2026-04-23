@@ -151,6 +151,114 @@
       "source_repo": "fwcd/vscode-kotlin",
       "status": "candidate-context",
       "text": "[![Version](https://raster.shields.io/visual-studio-marketplace/v/fwcd.kotlin)](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "status": "candidate-context",
+      "text": "An open-source registry for VS Code extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VSCodeVim/Vim",
+      "status": "candidate-context",
+      "text": ":star: Vim for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodeVim/Vim",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\"><img src=\"https://raw.githubusercontent.com/VSCodeVim/Vim/master/images/icon.png\" height=\"128\"><br>VSCodeVim</h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VSCodium/vscodium",
+      "status": "candidate-context",
+      "text": "binary releases of VS Code without MS branding/telemetry/licensing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodium/vscodium",
+      "status": "candidate-context",
+      "text": "<div id=\"vscodium-logo\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamiBs/vscode-terraform-live-graph",
+      "status": "candidate-context",
+      "text": "The Terraform Live Graph Extension for Visual Studio Code is a plugin that allows you to generate a live Terraform graph as you code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamiBs/vscode-terraform-live-graph",
+      "status": "candidate-context",
+      "text": "[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](./LICENSE.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-docs",
+      "status": "candidate-context",
+      "text": "Public documentation for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-docs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matepek/vscode-catch2-test-adapter",
+      "status": "candidate-context",
+      "text": "Catch2, Google Test and doctest Adapter for the VSCode"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matepek/vscode-catch2-test-adapter",
+      "status": "candidate-context",
+      "text": "Announcment: Looking for contributors to polish:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "castwide/vscode-solargraph",
+      "status": "candidate-context",
+      "text": "A Visual Studio Code extension for Solargraph."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/vscode-solargraph",
+      "status": "candidate-context",
+      "text": "Solargraph is a language server that provides intellisense, code completion, and inline documentation for Ruby."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EclipseFdn/open-vsx.org",
+      "status": "candidate-context",
+      "text": "Source of open-vsx.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EclipseFdn/open-vsx.org",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-js-debug",
+      "status": "candidate-context",
+      "text": "A DAP-compatible JavaScript debugger. Used in VS Code, VS, + more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-js-debug",
+      "status": "candidate-context",
+      "text": "<h1>"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +333,60 @@
       "source_repo": "fwcd/vscode-kotlin",
       "status": "candidate",
       "text": "[![Version](https://raster.shields.io/visual-studio-marketplace/v/fwcd.kotlin)](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-openvsx/openvsx",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodeVim/Vim",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"><img src=\"https://raw.githubusercontent.com/VSCodeVim/Vim/master/images/icon.png\" height=\"128\"><br>VSCodeVim</h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodium/vscodium",
+      "status": "candidate",
+      "text": "<div id=\"vscodium-logo\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamiBs/vscode-terraform-live-graph",
+      "status": "candidate",
+      "text": "[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](./LICENSE.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-docs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matepek/vscode-catch2-test-adapter",
+      "status": "candidate",
+      "text": "Announcment: Looking for contributors to polish:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/vscode-solargraph",
+      "status": "candidate",
+      "text": "Solargraph is a language server that provides intellisense, code completion, and inline documentation for Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EclipseFdn/open-vsx.org",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-js-debug",
+      "status": "candidate",
+      "text": "<h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -304,11 +466,65 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "fwcd/vscode-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "VSCodeVim/Vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "VSCodium/vscodium"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "adamiBs/vscode-terraform-live-graph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "matepek/vscode-catch2-test-adapter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "castwide/vscode-solargraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "EclipseFdn/open-vsx.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "wgutils",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cspell",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graphql/defer-stream-wg",
+      "target": "graphql/graphql-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graphql/defer-stream-wg",
+      "target": "graphql/graphql-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graphql/defer-stream-wg",
+      "target": "graphql/graphql-over-http",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graphql/defer-stream-wg",
+      "target": "graphql/express-graphql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/defer-stream-wg",
+      "target": "wgutils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/defer-stream-wg",
+      "target": "cspell",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/defer-stream-wg",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graphql/defer-stream-wg",
+      "target": "graphql",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:31:46.976552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4782
+    },
+    {
+      "path": "package.json",
+      "size": 671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for discussions on the GraphQL defer-stream spec proposal",
+    "fork": false,
+    "full_name": "graphql/defer-stream-wg",
+    "html_url": "https://github.com/graphql/defer-stream-wg",
+    "language": "JavaScript",
+    "pushed_at": "2025-10-02T15:53:41Z",
+    "stargazers_count": 34,
+    "topics": [
+      "graphql"
+    ],
+    "updated_at": "2025-10-02T15:53:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphql/express-graphql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphql/graphql-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphql/graphql-over-http",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphql/graphql-spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This working group is a subcommittee of the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    }
+  ]
+}

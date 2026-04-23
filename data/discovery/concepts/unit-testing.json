@@ -1,7 +1,8 @@
 {
   "aliases": [
     "\ud83e\uddea Unit Testing",
-    "unit-testing"
+    "unit-testing",
+    "Unit Testing"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -58,6 +59,18 @@
       "source_repo": "pytest-dev/pytest",
       "status": "candidate-context",
       "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "run-llama/llama_index",
+      "status": "candidate-context",
+      "text": "LlamaIndex is the leading document agent and OCR platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "run-llama/llama_index",
+      "status": "candidate-context",
+      "text": "Unit Testing"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +97,12 @@
       "source_repo": "pytest-dev/pytest",
       "status": "candidate",
       "text": ".. image:: https://github.com/pytest-dev/pytest/raw/main/doc/en/img/pytest_logo_curves.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "run-llama/llama_index",
+      "status": "candidate",
+      "text": "Unit Testing"
     }
   ],
   "candidate_related_terms": [
@@ -121,6 +140,41 @@
       "score": 12802,
       "status": "candidate",
       "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20037325,
+      "status": "candidate",
+      "text": "test-driven development"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20037324,
+      "status": "candidate",
+      "text": "integration testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20037323,
+      "status": "candidate",
+      "text": "big bang testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20037322,
+      "status": "candidate",
+      "text": "white-box testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20037321,
+      "status": "candidate",
+      "text": "sandwich testing"
     }
   ],
   "candidate_synonyms": [],
@@ -151,11 +205,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "pytest-dev/pytest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/coverage_check.yml",
+      "source_repo": "run-llama/llama_index"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

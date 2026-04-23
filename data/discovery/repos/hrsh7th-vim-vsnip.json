@@ -1,0 +1,257 @@
+{
+  "components": [
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm-run-all",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "watch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_neovim.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_vim.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac_neovim.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_neovim.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_vim.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "hrsh7th/vim-vsnip-integ",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "lifepillar/vim-mucomplete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "girishji/vimcomplete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "microsoft/language-server-protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "npm-run-all",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "watch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_neovim.yml",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux_vim.yml",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac_neovim.yml",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_neovim.yml",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows_vim.yml",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "snippets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hrsh7th/vim-vsnip",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:45:39.478735+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6172
+    },
+    {
+      "path": "package.json",
+      "size": 1303
+    },
+    {
+      "path": ".github/workflows/linux_neovim.yml",
+      "size": 1292
+    },
+    {
+      "path": ".github/workflows/linux_vim.yml",
+      "size": 1384
+    },
+    {
+      "path": ".github/workflows/mac_neovim.yml",
+      "size": 1349
+    },
+    {
+      "path": ".github/workflows/windows_neovim.yml",
+      "size": 1497
+    },
+    {
+      "path": ".github/workflows/windows_vim.yml",
+      "size": 1696
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format.",
+    "fork": false,
+    "full_name": "hrsh7th/vim-vsnip",
+    "html_url": "https://github.com/hrsh7th/vim-vsnip",
+    "language": "Vim Script",
+    "pushed_at": "2025-10-05T13:45:10Z",
+    "stargazers_count": 915,
+    "topics": [
+      "neovim",
+      "neovim-plugin",
+      "snippets",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-04-22T13:54:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/vimcomplete",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hrsh7th/vim-vsnip-integ",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lifepillar/vim-mucomplete",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/language-server-protocol",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "VSCode(LSP)'s snippet feature in vim/nvim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "VSCode(LSP)'s snippet feature in vim/nvim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "VSCode(LSP)'s snippet feature in vim/nvim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snippets"
+    },
+    {
+      "context_snippet": "VSCode(LSP)'s snippet feature in vim/nvim.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

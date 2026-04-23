@@ -48,7 +48,7 @@
   "normalized_form": "certora",
   "observation_id": "30e892b1418dbd38",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "certora",
   "source_context_snippet": "certora",
   "source_file": ".github/workflows/certora.yml",

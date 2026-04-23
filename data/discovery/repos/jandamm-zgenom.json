@@ -1,0 +1,164 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jandamm/zgenom",
+      "target": "jandamm/zgenom-ext-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jandamm/zgenom",
+      "target": "jandamm/zgenom-ext-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jandamm/zgenom",
+      "target": "jandamm/zgenom-ext-run",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jandamm/zgenom",
+      "target": "mattmc3/zsh_unplugged",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom",
+      "target": "ohmyzsh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom",
+      "target": "plugin-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom",
+      "target": "prezto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom",
+      "target": "zgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom",
+      "target": "zgenom",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:40:18.500877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight and fast plugin manager for ZSH",
+    "fork": false,
+    "full_name": "jandamm/zgenom",
+    "html_url": "https://github.com/jandamm/zgenom",
+    "language": "Shell",
+    "pushed_at": "2026-01-01T13:22:10Z",
+    "stargazers_count": 422,
+    "topics": [
+      "ohmyzsh",
+      "plugin-manager",
+      "prezto",
+      "shell",
+      "zgen",
+      "zgenom",
+      "zsh"
+    ],
+    "updated_at": "2026-03-31T20:17:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jandamm/zgenom-ext-eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jandamm/zgenom-ext-release",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jandamm/zgenom-ext-run",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattmc3/zsh_unplugged",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A lightweight yet powerful plugin manager for Zsh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ohmyzsh"
+    },
+    {
+      "context_snippet": "A lightweight yet powerful plugin manager for Zsh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin-manager"
+    },
+    {
+      "context_snippet": "A lightweight yet powerful plugin manager for Zsh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prezto"
+    },
+    {
+      "context_snippet": "A lightweight yet powerful plugin manager for Zsh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "A lightweight yet powerful plugin manager for Zsh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zgen"
+    },
+    {
+      "context_snippet": "A lightweight yet powerful plugin manager for Zsh.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zgenom"
+    }
+  ]
+}

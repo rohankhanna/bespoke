@@ -1,0 +1,223 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-clean.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-clean.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "Aetherinox/delete-deploy-env-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-clean.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83e\uddf9 Deployments \u203a Clean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83d\udcd2 Docs \u203a Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/history-clean.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/history-clean.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/history-clean.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83e\uddf9 History \u203a Clean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-accept.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83c\udfab Issue \u203a Accept",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-new.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83c\udfab Issue \u203a New",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "tj-actions/changed-files@v46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-scan.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83c\udfab PR \u203a Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "dessant/lock-threads@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-stale.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83c\udfab Issues \u203a Stale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "mkdocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "mkdocs-material",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "mkdocs-material-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "mkdocs-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "mkdocs-plugins",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "Aetherinox/mkdocs-link-embeds"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LunarG/VulkanSamples",
+      "target": "khronosgroup/vulkan-samples",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:35:29.326774+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3840
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Vulkan Samples",
+    "fork": false,
+    "full_name": "LunarG/VulkanSamples",
+    "html_url": "https://github.com/LunarG/VulkanSamples",
+    "language": "C++",
+    "pushed_at": "2021-07-28T18:49:36Z",
+    "stargazers_count": 1420,
+    "topics": [],
+    "updated_at": "2026-04-21T09:38:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/vulkan-samples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

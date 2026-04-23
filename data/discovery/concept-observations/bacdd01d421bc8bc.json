@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A smarter cd command. Supports all major shells."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- markdownlint-configure-file {"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file {"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39893998,
+      "status": "candidate",
+      "text": "elfish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39893991,
+      "status": "candidate",
+      "text": "elfin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39805637,
+      "status": "candidate",
+      "text": "playful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19894006,
+      "status": "candidate",
+      "text": "elven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19894005,
+      "status": "candidate",
+      "text": "elfen"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "elvish",
+      "sense_id": "elvish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37031,
+      "status": "candidate",
+      "text": "playful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17031,
+      "status": "candidate",
+      "text": "elfin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3025,
+      "status": "candidate",
+      "text": "elfish"
+    }
+  ],
+  "concept_id": "elvish",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "elvish",
+  "observation_id": "bacdd01d421bc8bc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "elvish",
+  "source_context_snippet": "<!-- markdownlint-configure-file {",
+  "source_file": null,
+  "source_repo": "ajeetdsouza/zoxide",
+  "source_repo_description": "A smarter cd command. Supports all major shells."
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The participatory democracy framework. A generator and multiple gems made with Ruby on Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check locale completeness"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check locale completeness"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19750,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19750,
+      "status": "candidate",
+      "text": "commissioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19296,
+      "status": "candidate",
+      "text": "snopes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19223,
+      "status": "candidate",
+      "text": "assess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19223,
+      "status": "candidate",
+      "text": "auditing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check locale completeness",
+      "sense_id": "check-locale-completeness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-locale-completeness",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-locale-completeness",
+  "observation_id": "52c383d5dbad6ef6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Check locale completeness",
+  "source_context_snippet": "Check locale completeness",
+  "source_file": ".github/workflows/check_locale_completeness.yml",
+  "source_repo": "decidim/decidim",
+  "source_repo_description": "The participatory democracy framework. A generator and multiple gems made with Ruby on Rails"
+}

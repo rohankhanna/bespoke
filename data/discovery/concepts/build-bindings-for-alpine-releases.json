@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build bindings for Alpine releases"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sass/node-sass",
+      "status": "candidate-context",
+      "text": ":rainbow: Node.js bindings to libsass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/node-sass",
+      "status": "candidate-context",
+      "text": "Build bindings for Alpine releases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sass/node-sass",
+      "status": "candidate",
+      "text": "Build bindings for Alpine releases"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21226,
+      "status": "candidate",
+      "text": "collate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20966,
+      "status": "candidate",
+      "text": "gain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20879,
+      "status": "candidate",
+      "text": "offer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17657,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17657,
+      "status": "candidate",
+      "text": "prints"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build bindings for Alpine releases",
+  "concept_id": "build-bindings-for-alpine-releases",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "sass/node-sass"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build bindings for Alpine releases",
+      "sense_id": "build-bindings-for-alpine-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

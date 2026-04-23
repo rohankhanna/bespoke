@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dispatch Staff Label Feedback"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "community/community",
+      "status": "candidate-context",
+      "text": "Public feedback discussions for: GitHub Mobile, GitHub Discussions, GitHub Codespaces, GitHub Sponsors, GitHub Issues and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "community/community",
+      "status": "candidate-context",
+      "text": "Dispatch Staff Label Feedback"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "community/community",
+      "status": "candidate",
+      "text": "Dispatch Staff Label Feedback"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28703,
+      "status": "candidate",
+      "text": "message"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28703,
+      "status": "candidate",
+      "text": "sending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28675,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28444,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28444,
+      "status": "candidate",
+      "text": "spot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dispatch Staff Label Feedback",
+  "concept_id": "dispatch-staff-label-feedback",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/label-feedback-dispatch.yml",
+      "source_repo": "community/community"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dispatch Staff Label Feedback",
+      "sense_id": "dispatch-staff-label-feedback#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

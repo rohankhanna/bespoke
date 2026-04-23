@@ -1,0 +1,90 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scrape.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scrape.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scrape.yml",
+      "source_repo": "simonw/scrape-san-mateo-fire-dispatch",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scrape.yml",
+      "source_repo": "simonw/scrape-san-mateo-fire-dispatch",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scrape.yml",
+      "source_repo": "simonw/scrape-san-mateo-fire-dispatch",
+      "target": "Scrape latest data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "simonw/scrape-san-mateo-fire-dispatch",
+      "target": "git-scraping",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:32:07.533945+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 325
+    },
+    {
+      "path": "requirements.txt",
+      "size": 25
+    },
+    {
+      "path": ".github/workflows/scrape.yml",
+      "size": 741
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "simonw/scrape-san-mateo-fire-dispatch",
+    "html_url": "https://github.com/simonw/scrape-san-mateo-fire-dispatch",
+    "language": "Python",
+    "pushed_at": "2024-09-10T19:44:18Z",
+    "stargazers_count": 2,
+    "topics": [
+      "git-scraping"
+    ],
+    "updated_at": "2025-10-06T09:38:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Scrape latest data",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scrape.yml",
+      "term": "Scrape latest data"
+    },
+    {
+      "context_snippet": "[![Scrape latest data](https://github.com/simonw/scrape-san-mateo-fire-dispatch/actions/workflows/scrape.yml/badge.svg)](https://github.com/simonw/scrape-san-mateo-fire-dispatch/actions/workflows/scrape.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-scraping"
+    }
+  ]
+}

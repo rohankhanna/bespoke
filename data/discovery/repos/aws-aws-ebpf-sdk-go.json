@@ -1,0 +1,97 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/aws-ebpf-sdk-go",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/aws-ebpf-sdk-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/aws-ebpf-sdk-go",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "source_repo": "aws/aws-ebpf-sdk-go",
+      "target": "Automatic Pull Request test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:44:13.081252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2877
+    },
+    {
+      "path": "go.mod",
+      "size": 682
+    },
+    {
+      "path": ".github/workflows/pr-tests.yaml",
+      "size": 2382
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Golang based SDK for kernel eBPF operations i.e, load/attach/detach eBPF programs and create/delete/update maps. SDK relies on Unix bpf() system calls.",
+    "fork": false,
+    "full_name": "aws/aws-ebpf-sdk-go",
+    "html_url": "https://github.com/aws/aws-ebpf-sdk-go",
+    "language": "Go",
+    "pushed_at": "2026-03-25T21:52:53Z",
+    "stargazers_count": 83,
+    "topics": [],
+    "updated_at": "2026-04-19T14:51:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Automatic Pull Request test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-tests.yaml",
+      "term": "Automatic Pull Request test"
+    }
+  ]
+}

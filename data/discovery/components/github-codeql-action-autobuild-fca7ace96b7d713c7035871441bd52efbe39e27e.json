@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/autobuild@fca7ace96b7d713c7035871441bd52efbe39e27e",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "thanos-io/thanos"
+    }
+  ]
+}

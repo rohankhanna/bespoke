@@ -151,6 +151,54 @@
       "source_repo": "ApeWorX/ape",
       "status": "candidate-context",
       "text": "[![Pypi.org][pypi-badge]][pypi-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wighawag/hardhat-deploy",
+      "status": "candidate-context",
+      "text": "hardhat deployment plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wighawag/hardhat-deploy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alloy-rs/core",
+      "status": "candidate-context",
+      "text": "High-performance, well-tested & documented core libraries for Ethereum, in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/core",
+      "status": "candidate-context",
+      "text": "Core libraries at the root of the Rust Ethereum ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dethcrypto/eth-sdk",
+      "status": "candidate-context",
+      "text": "Type-safe, lightweight SDKs for Ethereum smart contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dethcrypto/eth-sdk",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alloy-rs/svm-rs",
+      "status": "candidate-context",
+      "text": "Solidity-Compiler Version Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/svm-rs",
+      "status": "candidate-context",
+      "text": "[<img alt=\"crates.io\" src=\"https://img.shields.io/crates/v/svm-rs.svg?style=for-the-badge&color=fc8d62&logo=rust\" height=\"20\">](https://crates.io/crates/svm-rs)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +273,30 @@
       "source_repo": "ApeWorX/ape",
       "status": "candidate",
       "text": "[![Pypi.org][pypi-badge]][pypi-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wighawag/hardhat-deploy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/core",
+      "status": "candidate",
+      "text": "Core libraries at the root of the Rust Ethereum ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dethcrypto/eth-sdk",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alloy-rs/svm-rs",
+      "status": "candidate",
+      "text": "[<img alt=\"crates.io\" src=\"https://img.shields.io/crates/v/svm-rs.svg?style=for-the-badge&color=fc8d62&logo=rust\" height=\"20\">](https://crates.io/crates/svm-rs)"
     }
   ],
   "candidate_related_terms": [
@@ -354,11 +426,53 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "ApeWorX/ape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "safe-fndn/safe-smart-account"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "wighawag/hardhat-deploy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alloy-rs/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/eth-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alloy-rs/svm-rs"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

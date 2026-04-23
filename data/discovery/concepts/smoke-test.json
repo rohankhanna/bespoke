@@ -19,12 +19,30 @@
       "source_repo": "rust-lang/crates.io",
       "status": "candidate-context",
       "text": "Smoke Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate-context",
+      "text": "A fast, flexible, configuration-based command-line interface for linting Markdown/CommonMark files with the markdownlint library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate-context",
+      "text": "Smoke Test"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "rust-lang/crates.io",
+      "status": "candidate",
+      "text": "Smoke Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint-cli2",
       "status": "candidate",
       "text": "Smoke Test"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/smoke-test.yml",
       "source_repo": "rust-lang/crates.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/smoke-test.yml",
+      "source_repo": "DavidAnson/markdownlint-cli2"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

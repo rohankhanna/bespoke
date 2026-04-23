@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "brian-ogrady/astradb-multivector",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "brian-ogrady/astradb-multivector",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "brian-ogrady/astradb-multivector",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "brian-ogrady/astradb-multivector",
+      "target": "Run Tests and Generate Coverage",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:28:40.382028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21438
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2159
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1190
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Creating CQL Tables with multiple vectors using the AstraDB Data API",
+    "fork": false,
+    "full_name": "brian-ogrady/astradb-multivector",
+    "html_url": "https://github.com/brian-ogrady/astradb-multivector",
+    "language": "Python",
+    "pushed_at": "2025-04-30T21:10:38Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-04-30T21:10:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Tests and Generate Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run Tests and Generate Coverage"
+    }
+  ]
+}

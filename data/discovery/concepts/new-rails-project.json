@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "New Rails project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iftheshoefritz/solargraph-rails",
+      "status": "candidate-context",
+      "text": "Solargraph plugin to add awareness of Rails-specific code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iftheshoefritz/solargraph-rails",
+      "status": "candidate-context",
+      "text": "New Rails project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iftheshoefritz/solargraph-rails",
+      "status": "candidate",
+      "text": "New Rails project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28164,
+      "status": "candidate",
+      "text": "gallirallus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27764,
+      "status": "candidate",
+      "text": "genus gallirallus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26373,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26373,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26373,
+      "status": "candidate",
+      "text": "projected"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "New Rails project",
+  "concept_id": "new-rails-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rails_new.yml",
+      "source_repo": "iftheshoefritz/solargraph-rails"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "New Rails project",
+      "sense_id": "new-rails-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

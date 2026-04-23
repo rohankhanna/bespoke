@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "vCard source for completion-nvim, nvim-compe and nvim-cmp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "vCard completion source for native Neovim LSP autocompletion (see `:h lsp-autocompletion`), [nvim-cmp](https://github.com/hrsh7th/nvim-cmp), [nvim-compe](https://github.com/hrsh7th/nvim-compe), and [completion-nvim](https://github.com/nvim-lua/completion-nvim)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "vCard completion source for native Neovim LSP autocompletion (see `:h lsp-autocompletion`), [nvim-cmp](https://github.com/hrsh7th/nvim-cmp), [nvim-compe](https://github.com/hrsh7th/nvim-compe), and [completion-nvim](https://github.com/nvim-lua/completion-nvim)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nvim-cmp",
+      "sense_id": "nvim-cmp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nvim-cmp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nvim-cmp",
+  "observation_id": "96cf8b8d4a543ef2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "nvim-cmp",
+  "source_context_snippet": "vCard completion source for native Neovim LSP autocompletion (see `:h lsp-autocompletion`), [nvim-cmp](https://github.com/hrsh7th/nvim-cmp), [nvim-compe](https://github.com/hrsh7th/nvim-compe), and [completion-nvim](https://github.com/nvim-lua/completion-nvim).",
+  "source_file": null,
+  "source_repo": "cbarrete/completion-vcard",
+  "source_repo_description": "vCard source for completion-nvim, nvim-compe and nvim-cmp"
+}

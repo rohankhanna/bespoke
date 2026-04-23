@@ -31,6 +31,30 @@
       "source_repo": "queryverse/VegaLite.jl",
       "status": "candidate-context",
       "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "status": "candidate-context",
+      "text": "\ud83c\udf88 Simple reactive notebooks for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaIO/MsgPack.jl",
+      "status": "candidate-context",
+      "text": "Julia MessagePack implementation with type-driven, overloadable packing/unpacking functionality // msgpack.org[Julia]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaIO/MsgPack.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "queryverse/VegaLite.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaPluto/Pluto.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaIO/MsgPack.jl",
       "status": "candidate",
       "text": "TagBot"
     }
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/jlpkgbutler-tagbot-workflow.yml",
       "source_repo": "queryverse/VegaLite.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaPluto/Pluto.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaIO/MsgPack.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

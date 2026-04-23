@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "multiarch/qemu-user-static",
+      "target": "qemu/qemu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "multiarch/qemu-user-static",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "multiarch/qemu-user-static",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "multiarch/qemu-user-static",
+      "target": "actions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:37:19.183630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10088
+    },
+    {
+      "path": ".github/workflows/actions.yml",
+      "size": 1639
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":earth_africa: `/usr/bin/qemu-*-static`",
+    "fork": false,
+    "full_name": "multiarch/qemu-user-static",
+    "html_url": "https://github.com/multiarch/qemu-user-static",
+    "language": "Shell",
+    "pushed_at": "2024-06-25T18:02:50Z",
+    "stargazers_count": 2691,
+    "topics": [],
+    "updated_at": "2026-04-14T14:31:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qemu/qemu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "actions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions.yml",
+      "term": "actions"
+    }
+  ]
+}

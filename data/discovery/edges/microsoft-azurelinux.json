@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-circular-deps.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-circular-deps.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Circular dependency check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-clean-stage.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-clean-stage.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Spec %clean stage check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-entangled-specs.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-entangled-specs.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-entangled-specs.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Spec Entanglement Mismatch Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-files.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-files.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Check Disallowed Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-kernel-configs.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-kernel-configs.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-kernel-configs.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Kernel Required Configs Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license-map.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license-map.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-license-map.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Spec License Map Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-manifests.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-manifests.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Check Manifests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "microsoft/azurelinux"
+}

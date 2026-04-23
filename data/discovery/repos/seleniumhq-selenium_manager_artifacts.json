@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:45:22.790309+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 521
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "trunk",
+    "description": "Snapshots of Selenium Manager builds",
+    "fork": false,
+    "full_name": "SeleniumHQ/selenium_manager_artifacts",
+    "html_url": "https://github.com/SeleniumHQ/selenium_manager_artifacts",
+    "language": null,
+    "pushed_at": "2026-04-09T21:12:51Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-04-09T21:12:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

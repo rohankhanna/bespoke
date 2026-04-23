@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Ultimate ZK Proving Software Suite for Securing OP Rollups"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img width=\"100%\" src=\"https://github.com/user-attachments/assets/c71a1018-d970-49c0-af37-ba8a66d00bea\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img width=\"100%\" src=\"https://github.com/user-attachments/assets/c71a1018-d970-49c0-af37-ba8a66d00bea\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011033,
+      "status": "candidate",
+      "text": "hopeful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010052,
+      "status": "candidate",
+      "text": "hope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30009202,
+      "status": "candidate",
+      "text": "confidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007566,
+      "status": "candidate",
+      "text": "complacency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30007255,
+      "status": "candidate",
+      "text": "encouraging"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "optimism",
+      "sense_id": "optimism#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "optimism",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "optimism",
+  "observation_id": "9df69503d78284d0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "optimism",
+  "source_context_snippet": "<img width=\"100%\" src=\"https://github.com/user-attachments/assets/c71a1018-d970-49c0-af37-ba8a66d00bea\" />",
+  "source_file": null,
+  "source_repo": "boundless-xyz/kailua",
+  "source_repo_description": "The Ultimate ZK Proving Software Suite for Securing OP Rollups"
+}

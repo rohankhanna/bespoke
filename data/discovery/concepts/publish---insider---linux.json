@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish - Insider - Linux"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VSCodium/vscodium",
+      "status": "candidate-context",
+      "text": "binary releases of VS Code without MS branding/telemetry/licensing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodium/vscodium",
+      "status": "candidate-context",
+      "text": "Publish - Insider - Linux"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VSCodium/vscodium",
+      "status": "candidate",
+      "text": "Publish - Insider - Linux"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18554,
+      "status": "candidate",
+      "text": "netbsd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18094,
+      "status": "candidate",
+      "text": "crossover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17941,
+      "status": "candidate",
+      "text": "links"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9977,
+      "status": "candidate",
+      "text": "con"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9977,
+      "status": "candidate",
+      "text": "leak"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish - Insider - Linux",
+  "concept_id": "publish---insider---linux",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish-insider-linux.yml",
+      "source_repo": "VSCodium/vscodium"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish - Insider - Linux",
+      "sense_id": "publish---insider---linux#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

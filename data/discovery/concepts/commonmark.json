@@ -31,6 +31,42 @@
       "source_repo": "remarkjs/remark",
       "status": "candidate-context",
       "text": "remark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate-context",
+      "text": "A Node.js style checker and lint tool for Markdown/CommonMark files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate-context",
+      "text": "> A Node.js style checker and lint tool for Markdown/CommonMark files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate-context",
+      "text": "A fast, flexible, configuration-based command-line interface for linting Markdown/CommonMark files with the markdownlint library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate-context",
+      "text": "> A fast, flexible, configuration-based command-line interface for linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "markdown-it/markdown-it",
+      "status": "candidate-context",
+      "text": "Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins & high speed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdown-it/markdown-it",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/markdown-it/markdown-it/actions/workflows/ci.yml/badge.svg)](https://github.com/markdown-it/markdown-it/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "remarkjs/remark",
       "status": "candidate",
       "text": "remark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate",
+      "text": "> A Node.js style checker and lint tool for Markdown/CommonMark files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate",
+      "text": "> A fast, flexible, configuration-based command-line interface for linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "markdown-it/markdown-it",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/markdown-it/markdown-it/actions/workflows/ci.yml/badge.svg)](https://github.com/markdown-it/markdown-it/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +124,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "hukkin/mdformat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "DavidAnson/markdownlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "DavidAnson/markdownlint-cli2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "markdown-it/markdown-it"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

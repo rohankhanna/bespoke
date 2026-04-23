@@ -19,6 +19,30 @@
       "source_repo": "embeddings-benchmark/mteb",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnswerDotAI/byaldi",
+      "status": "candidate-context",
+      "text": "Use late-interaction multi-modal models such as ColPali in just a few lines of code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnswerDotAI/byaldi",
+      "status": "candidate-context",
+      "text": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenBMB/VisRAG",
+      "status": "candidate-context",
+      "text": "Parsing-free RAG supported by VLMs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/VisRAG",
+      "status": "candidate-context",
+      "text": "[![Github](https://img.shields.io/badge/VisRAG-000000?style=for-the-badge&logo=github&logoColor=000&logoColor=white)](https://github.com/OpenBMB/VisRAG)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "embeddings-benchmark/mteb",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnswerDotAI/byaldi",
+      "status": "candidate",
+      "text": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenBMB/VisRAG",
+      "status": "candidate",
+      "text": "[![Github](https://img.shields.io/badge/VisRAG-000000?style=for-the-badge&logo=github&logoColor=000&logoColor=white)](https://github.com/OpenBMB/VisRAG)"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +120,23 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "embeddings-benchmark/mteb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AnswerDotAI/byaldi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/VisRAG"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

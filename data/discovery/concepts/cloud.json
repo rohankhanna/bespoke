@@ -55,6 +55,90 @@
       "source_repo": "digitalocean/doctl",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">doctl</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chronosphereio/calyptia-cli",
+      "status": "candidate-context",
+      "text": "Calyptia Cloud CLI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chronosphereio/calyptia-cli",
+      "status": "candidate-context",
+      "text": "This CLI interacts with the [Calyptia Cloud](https://core.calyptia.com) service"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/mesos",
+      "status": "candidate-context",
+      "text": "Apache Mesos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mesos",
+      "status": "candidate-context",
+      "text": "Apache Mesos is a cluster manager that provides efficient resource isolation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/nixops",
+      "status": "candidate-context",
+      "text": "NixOps is a tool for deploying to NixOS machines in a network or cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixops",
+      "status": "candidate-context",
+      "text": "> [!Warning]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_docker",
+      "status": "candidate-context",
+      "text": "Rules for building and handling Docker images with Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_docker",
+      "status": "candidate-context",
+      "text": "| Bazel CI |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate-context",
+      "text": "Sandboxed code execution for AI agents, locally or on the cloud. Massively parallel, easy to extend. Powering SWE-agent and more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petuum/adaptdl",
+      "status": "candidate-context",
+      "text": "Resource-adaptive cluster scheduler for deep learning training."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petuum/adaptdl",
+      "status": "candidate-context",
+      "text": "Release Helm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nats-io/nats-server",
+      "status": "candidate-context",
+      "text": "High-Performance server for NATS.io, the cloud and edge native messaging system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nats-io/nats-server",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +165,48 @@
       "source_repo": "digitalocean/doctl",
       "status": "candidate",
       "text": "<h1 align=\"center\">doctl</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chronosphereio/calyptia-cli",
+      "status": "candidate",
+      "text": "This CLI interacts with the [Calyptia Cloud](https://core.calyptia.com) service"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mesos",
+      "status": "candidate",
+      "text": "Apache Mesos is a cluster manager that provides efficient resource isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixops",
+      "status": "candidate",
+      "text": "> [!Warning]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_docker",
+      "status": "candidate",
+      "text": "| Bazel CI |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SWE-agent/SWE-ReX",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petuum/adaptdl",
+      "status": "candidate",
+      "text": "Release Helm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nats-io/nats-server",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +310,53 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "digitalocean/doctl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "chronosphereio/calyptia-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/mesos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NixOS/nixops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "SWE-agent/SWE-ReX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "petuum/adaptdl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nats-io/nats-server"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

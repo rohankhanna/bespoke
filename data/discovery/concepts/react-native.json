@@ -139,6 +139,138 @@
       "source_repo": "microsoft/react-native-windows",
       "status": "candidate-context",
       "text": "![Hero Image with Logo](https://github.com/microsoft/react-native-windows/raw/main/.github/hero3.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-netinfo/react-native-netinfo",
+      "status": "candidate-context",
+      "text": "React Native Network Info API for Android & iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-netinfo/react-native-netinfo",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/react-native-netinfo/react-native-netinfo/actions/workflows/ci.yml/badge.svg)](https://github.com/react-native-netinfo/react-native-netinfo/actions/workflows/ci.yml) ![Supports Android, iOS, macOS, Windows and Web](https://img.shields.io/badge/plat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "status": "candidate-context",
+      "text": "A repository showcasing React Native samples and templates for Windows, macOS, and Surface Duo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frostney/react-native-create-library",
+      "status": "candidate-context",
+      "text": ":notebook: Command line tool to create a React Native library with a single command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frostney/react-native-create-library",
+      "status": "candidate-context",
+      "text": "Tool to create a React Native library with a single command."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "The React Native Community CLI - command line tools to help you build RN apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate-context",
+      "text": "Command line tools that help you build apps with [`react-native`](https://github.com/facebook/react-native), shipped as the `@react-native-community/cli` NPM package."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morrys/wora",
+      "status": "candidate-context",
+      "text": "Write Once, Render Anywhere. typescript libraries: cache-persist, apollo-offline, relay-offline, offline-first, apollo-cache, relay-store, netinfo, detect-network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/wora",
+      "status": "candidate-context",
+      "text": "**the github page contains all the documentation relating to the libraries distributed by this monorepo.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/react-native",
+      "status": "candidate-context",
+      "text": "A framework for building native applications using React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mybigday/whisper.rn",
+      "status": "candidate-context",
+      "text": "React Native binding of whisper.cpp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/whisper.rn",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/mybigday/whisper.rn/workflows/CI/badge.svg)](https://github.com/mybigday/whisper.rn/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/react-native-winrt",
+      "status": "candidate-context",
+      "text": "Windows Runtime projection for React Native for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-winrt",
+      "status": "candidate-context",
+      "text": "React Native WinRT is a module for [React Native for Windows](https://microsoft.github.io/react-native-windows/) developers who want to call native (non-XAML) WinRT APIs in their apps. It uses components from [xlang](https://github.com/Microsoft/xlang) to [parse metadata](https:\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-share/react-native-share",
+      "status": "candidate-context",
+      "text": "Social share, sending simple data to other apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-share/react-native-share",
+      "status": "candidate-context",
+      "text": "[![npm version](https://badge.fury.io/js/react-native-share.svg)](http://badge.fury.io/js/react-native-share) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "peggyrayzis/react-native-create-bridge",
+      "status": "candidate-context",
+      "text": "A CLI tool that bridges React Native modules & UI components with ease \ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peggyrayzis/react-native-create-bridge",
+      "status": "candidate-context",
+      "text": "Bridging native modules & UI components made easy! If you're a JavaScript developer writing your first lines of native code or a more experienced developer looking to eliminate boilerplate from your React Native workflow, this tool is for you."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate-context",
+      "text": "Routing and navigation for React Native and Web apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate-context",
+      "text": "[![Build Status][build-badge]][build]"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +339,72 @@
       "source_repo": "microsoft/react-native-windows",
       "status": "candidate",
       "text": "![Hero Image with Logo](https://github.com/microsoft/react-native-windows/raw/main/.github/hero3.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-netinfo/react-native-netinfo",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/react-native-netinfo/react-native-netinfo/actions/workflows/ci.yml/badge.svg)](https://github.com/react-native-netinfo/react-native-netinfo/actions/workflows/ci.yml) ![Supports Android, iOS, macOS, Windows and Web](https://img.shields.io/badge/plat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frostney/react-native-create-library",
+      "status": "candidate",
+      "text": "Tool to create a React Native library with a single command."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-community/cli",
+      "status": "candidate",
+      "text": "Command line tools that help you build apps with [`react-native`](https://github.com/facebook/react-native), shipped as the `@react-native-community/cli` NPM package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/wora",
+      "status": "candidate",
+      "text": "**the github page contains all the documentation relating to the libraries distributed by this monorepo.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mybigday/whisper.rn",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/mybigday/whisper.rn/workflows/CI/badge.svg)](https://github.com/mybigday/whisper.rn/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-winrt",
+      "status": "candidate",
+      "text": "React Native WinRT is a module for [React Native for Windows](https://microsoft.github.io/react-native-windows/) developers who want to call native (non-XAML) WinRT APIs in their apps. It uses components from [xlang](https://github.com/Microsoft/xlang) to [parse metadata](https:\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-share/react-native-share",
+      "status": "candidate",
+      "text": "[![npm version](https://badge.fury.io/js/react-native-share.svg)](http://badge.fury.io/js/react-native-share) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "peggyrayzis/react-native-create-bridge",
+      "status": "candidate",
+      "text": "Bridging native modules & UI components made easy! If you're a JavaScript developer writing your first lines of native code or a more experienced developer looking to eliminate boilerplate from your React Native workflow, this tool is for you."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-navigation/react-navigation",
+      "status": "candidate",
+      "text": "[![Build Status][build-badge]][build]"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +478,83 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "microsoft/react-native-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "react-native-netinfo/react-native-netinfo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/react-native-windows-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "frostney/react-native-create-library"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "react-native-community/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "morrys/wora"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "facebook/react-native"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mybigday/whisper.rn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/react-native-winrt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "react-native-share/react-native-share"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "peggyrayzis/react-native-create-bridge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "react-navigation/react-navigation"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

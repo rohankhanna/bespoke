@@ -19,6 +19,30 @@
       "source_repo": "BrainiumLLC/cargo-mobile",
       "status": "candidate-context",
       "text": "*The answer to \"how do I use Rust on iOS and Android?\"*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yonaskolb/XcodeGen",
+      "status": "candidate-context",
+      "text": "A Swift command line tool for generating your Xcode project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/XcodeGen",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igor-makarov/xcake",
+      "status": "candidate-context",
+      "text": ":cake: Describe Xcode projects in a human readable format and (re)generate one on demand."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igor-makarov/xcake",
+      "status": "candidate-context",
+      "text": "[![Gem](https://img.shields.io/gem/v/xcake.svg)](https://rubygems.org/gems/xcake)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "BrainiumLLC/cargo-mobile",
       "status": "candidate",
       "text": "*The answer to \"how do I use Rust on iOS and Android?\"*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/XcodeGen",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igor-makarov/xcake",
+      "status": "candidate",
+      "text": "[![Gem](https://img.shields.io/gem/v/xcake.svg)](https://rubygems.org/gems/xcake)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "BrainiumLLC/cargo-mobile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "yonaskolb/XcodeGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

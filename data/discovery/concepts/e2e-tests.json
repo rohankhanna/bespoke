@@ -1,7 +1,9 @@
 {
   "aliases": [
     "E2E Tests",
-    "E2E tests"
+    "E2E tests",
+    "e2e-tests",
+    "e2e tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -68,6 +70,54 @@
       "source_repo": "netlify/cli",
       "status": "candidate-context",
       "text": "E2E Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyphar/libpathrs",
+      "status": "candidate-context",
+      "text": "C-friendly API to make path resolution safer on Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyphar/libpathrs",
+      "status": "candidate-context",
+      "text": "e2e-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cline/cline",
+      "status": "candidate-context",
+      "text": "Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser, and more with your permission every step of the way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cline/cline",
+      "status": "candidate-context",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/go-redis",
+      "status": "candidate-context",
+      "text": "Redis Go client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/go-redis",
+      "status": "candidate-context",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "status": "candidate-context",
+      "text": "VPC CNI plugins for Amazon ECS and EKS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "status": "candidate-context",
+      "text": "e2e tests"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +150,30 @@
       "source_repo": "netlify/cli",
       "status": "candidate",
       "text": "E2E Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyphar/libpathrs",
+      "status": "candidate",
+      "text": "e2e-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cline/cline",
+      "status": "candidate",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/go-redis",
+      "status": "candidate",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "status": "candidate",
+      "text": "e2e tests"
     }
   ],
   "candidate_related_terms": [
@@ -191,11 +265,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/e2e-tests.yml",
       "source_repo": "netlify/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "cyphar/libpathrs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "cline/cline"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "aws/amazon-vpc-cni-plugins"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

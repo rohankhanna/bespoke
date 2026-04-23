@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgokden/veri",
+      "target": "feature-store",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgokden/veri",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgokden/veri",
+      "target": "knn-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bgokden/veri",
+      "target": "machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:33.611179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3005
+    },
+    {
+      "path": "Dockerfile",
+      "size": 724
+    },
+    {
+      "path": "go.mod",
+      "size": 949
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Scalable Feature Store",
+    "fork": false,
+    "full_name": "bgokden/veri",
+    "html_url": "https://github.com/bgokden/veri",
+    "language": "Go",
+    "pushed_at": "2023-07-05T21:26:19Z",
+    "stargazers_count": 54,
+    "topics": [
+      "feature-store",
+      "golang",
+      "knn",
+      "knn-search",
+      "machine-learning"
+    ],
+    "updated_at": "2025-02-23T06:42:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![](./resources/verilogo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-store"
+    },
+    {
+      "context_snippet": "![](./resources/verilogo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "![](./resources/verilogo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knn-search"
+    },
+    {
+      "context_snippet": "![](./resources/verilogo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    }
+  ]
+}

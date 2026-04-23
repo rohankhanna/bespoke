@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:32:35.836576+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a lean linear math library, aimed at graphics programming. Supports vec3, vec4, mat4x4 and quaternions",
+    "fork": false,
+    "full_name": "datenwolf/linmath.h",
+    "html_url": "https://github.com/datenwolf/linmath.h",
+    "language": "C",
+    "pushed_at": "2023-05-31T19:52:33Z",
+    "stargazers_count": 1040,
+    "topics": [],
+    "updated_at": "2026-04-21T22:27:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

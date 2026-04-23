@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A pure C raylib backend for the immediate mode gui Dear ImGui, on top of cimgui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A pure C raylib backend for the immediate mode gui [Dear ImGui](https://github.com/ocornut/imgui), on top of [cimgui](https://github.com/cimgui/cimgui)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A pure C raylib backend for the immediate mode gui [Dear ImGui](https://github.com/ocornut/imgui), on top of [cimgui](https://github.com/cimgui/cimgui)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "cryptlib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "dlib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "alglib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "openal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "libavcodec"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "raylib",
+      "sense_id": "raylib#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "raylib",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "raylib",
+  "observation_id": "47020e0ec92c6cf0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "raylib",
+  "source_context_snippet": "A pure C raylib backend for the immediate mode gui [Dear ImGui](https://github.com/ocornut/imgui), on top of [cimgui](https://github.com/cimgui/cimgui).",
+  "source_file": null,
+  "source_repo": "alfredbaudisch/raylib-cimgui",
+  "source_repo_description": "A pure C raylib backend for the immediate mode gui Dear ImGui, on top of cimgui"
+}

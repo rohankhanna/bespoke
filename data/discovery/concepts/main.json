@@ -128,6 +128,102 @@
       "source_repo": "bottlenoselabs/c2cs",
       "status": "candidate-context",
       "text": "\"Main\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-crypto",
+      "status": "candidate-context",
+      "text": "Open-source implementation of a substantial portion of the API of Apple CryptoKit suitable for use on Linux platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-crypto",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pre-commit/mirrors-mypy",
+      "status": "candidate-context",
+      "text": "Mirror of mypy for pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/mirrors-mypy",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vishvananda/netlink",
+      "status": "candidate-context",
+      "text": "Simple netlink library for go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vishvananda/netlink",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikic/PHP-Parser",
+      "status": "candidate-context",
+      "text": "A PHP parser written in PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikic/PHP-Parser",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mtkennerly/shawl",
+      "status": "candidate-context",
+      "text": "Windows service wrapper for arbitrary commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtkennerly/shawl",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-log",
+      "status": "candidate-context",
+      "text": "A Logging API for Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-log",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urfave/cli-altsrc",
+      "status": "candidate-context",
+      "text": "Read values for urfave/cli/v3 flags from config files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urfave/cli-altsrc",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urfave/cli-docs",
+      "status": "candidate-context",
+      "text": "Extended documentation library for use with urfave/cli/v3"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urfave/cli-docs",
+      "status": "candidate-context",
+      "text": "main"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +286,54 @@
       "source_repo": "bottlenoselabs/c2cs",
       "status": "candidate",
       "text": "\"Main\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-crypto",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/mirrors-mypy",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vishvananda/netlink",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikic/PHP-Parser",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtkennerly/shawl",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-log",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urfave/cli-altsrc",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urfave/cli-docs",
+      "status": "candidate",
+      "text": "main"
     }
   ],
   "candidate_related_terms": [
@@ -347,11 +491,65 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "bottlenoselabs/c2cs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-crypto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pre-commit/mirrors-mypy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "bottlenoselabs/c2cs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vishvananda/netlink"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "nikic/PHP-Parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "mtkennerly/shawl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apple/swift-log"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "urfave/cli-altsrc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "urfave/cli-docs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

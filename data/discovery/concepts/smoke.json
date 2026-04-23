@@ -1,0 +1,161 @@
+{
+  "aliases": [
+    "smoke",
+    "Smoke"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "slackhq/nebula",
+      "status": "candidate-context",
+      "text": "A scalable overlay networking tool with a focus on performance, simplicity and security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slackhq/nebula",
+      "status": "candidate-context",
+      "text": "smoke"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/classic-level",
+      "status": "candidate-context",
+      "text": "An abstract-level database backed by LevelDB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/classic-level",
+      "status": "candidate-context",
+      "text": "Smoke"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slackhq/nebula",
+      "status": "candidate",
+      "text": "smoke"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/classic-level",
+      "status": "candidate",
+      "text": "Smoke"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042957,
+      "status": "candidate",
+      "text": "fume"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039552,
+      "status": "candidate",
+      "text": "marihuana"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40037999,
+      "status": "candidate",
+      "text": "ganja"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034374,
+      "status": "candidate",
+      "text": "pot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033877,
+      "status": "candidate",
+      "text": "marijuana"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15047,
+      "status": "candidate",
+      "text": "gage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14038,
+      "status": "candidate",
+      "text": "fume"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13034,
+      "status": "candidate",
+      "text": "hummer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10081,
+      "status": "candidate",
+      "text": "pot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9054,
+      "status": "candidate",
+      "text": "weed"
+    }
+  ],
+  "canonical_name": "smoke",
+  "concept_id": "smoke",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "slackhq/nebula"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "Level/classic-level"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "smoke",
+      "sense_id": "smoke#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

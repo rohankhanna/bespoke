@@ -421,6 +421,414 @@
       "source_repo": "coderaiser/try-to-catch",
       "status": "candidate-context",
       "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-to-catch.svg?style=flat&longCache=true"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-js",
+      "status": "candidate-context",
+      "text": "The Typescript implementation of Apache Dubbo. An RPC and microservice framework for Node.js and Web development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-js",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/github/license/alibaba/dubbo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eslint-community/eslint-plugin-n",
+      "status": "candidate-context",
+      "text": "Additional ESLint rules for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-community/eslint-plugin-n",
+      "status": "candidate-context",
+      "text": "> forked from [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node) v11.1.0. as the original repository seems [no longer maintained](https://github.com/mysticatea/eslint-plugin-node/issues/300)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/fastify",
+      "status": "candidate-context",
+      "text": "Fast and low overhead web framework, for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"> <a href=\"https://fastify.dev/\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "poolifier/poolifier",
+      "status": "candidate-context",
+      "text": "Fast and small Node.js worker_threads and cluster worker pool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/poolifier",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate-context",
+      "text": "A Node.js style checker and lint tool for Markdown/CommonMark files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate-context",
+      "text": "> A Node.js style checker and lint tool for Markdown/CommonMark files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate-context",
+      "text": "A fast, flexible, configuration-based command-line interface for linting Markdown/CommonMark files with the markdownlint library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate-context",
+      "text": "> A fast, flexible, configuration-based command-line interface for linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/anymatch",
+      "status": "candidate-context",
+      "text": ":bangbang: Matches strings against configurable strings, globs, regular expressions, and/or functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/anymatch",
+      "status": "candidate-context",
+      "text": "anymatch [![Build Status](https://travis-ci.org/micromatch/anymatch.svg?branch=master)](https://travis-ci.org/micromatch/anymatch) [![Coverage Status](https://img.shields.io/coveralls/micromatch/anymatch.svg?branch=master)](https://coveralls.io/r/micromatch/anymatch?branch=maste\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "Documenting the explosion of packages in the standard ecosystem!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate-context",
+      "text": "ESLint Config for JavaScript Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/standard/eslint-config-standard/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate-context",
+      "text": "ESLint Shareable Config for JSX support in JavaScript Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate-context",
+      "text": "nvm wrapper for fish-shell "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate-context",
+      "text": "[NVM] wrapper for fish-shell."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lnbc1QWFyb24/lnmessage",
+      "status": "candidate-context",
+      "text": "Talk to Lightning nodes from the Browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnbc1QWFyb24/lnmessage",
+      "status": "candidate-context",
+      "text": "Talk to Lightning nodes from the Browser and NodeJS apps."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/classic-level",
+      "status": "candidate-context",
+      "text": "An abstract-level database backed by LevelDB."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/classic-level",
+      "status": "candidate-context",
+      "text": "**An [`abstract-level`](https://github.com/Level/abstract-level) database backed by [LevelDB](https://github.com/google/leveldb).** The successor to [`leveldown`](https://github.com/Level/leveldown) with builtin encodings, sublevels, events, hooks and support of Uint8Array. If y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ekalinin/sitemap.js",
+      "status": "candidate-context",
+      "text": "Sitemap-generating framework for node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekalinin/sitemap.js",
+      "status": "candidate-context",
+      "text": "**sitemap** is a high-level streaming sitemap-generating library/CLI that"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "status": "candidate-context",
+      "text": "Checkbox with autocomplete and other additions for Inquirer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "status": "candidate-context",
+      "text": "A plugin for [Inquirer](https://github.com/SBoudrias/Inquirer.js), similar to the original checkbox with extra features."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-es",
+      "status": "candidate-context",
+      "text": "The TypeScript implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-es",
+      "status": "candidate-context",
+      "text": "<img src=\".github/connect-logo.png\" width=\"15%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isaacs/nave",
+      "status": "candidate-context",
+      "text": "Virtual Environments for Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaacs/nave",
+      "status": "candidate-context",
+      "text": "Virtual Environments for Node."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate-context",
+      "text": "Additional ESLint's rules for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate-context",
+      "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/create-fastify",
+      "status": "candidate-context",
+      "text": "Rapidly generate a Fastify project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/create-fastify",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/fastify/create-fastify/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/create-fastify/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/demo",
+      "status": "candidate-context",
+      "text": "A concrete example of a Fastify application using what are considered best practices by the Fastify community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/demo",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/fastify/demo/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/demo/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate-context",
+      "text": "Manage your app's Node.js environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate-context",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Schniz/fnm",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Fast and simple Node.js version manager, built in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Schniz/fnm",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate-context",
+      "text": "API and CLI for generating a markdown TOC (table of contents) for a README or any markdown files. Uses Remarkable to parse markdown. Used by NASA/openmct, Prisma, Joi, Mocha, Sass, Prettier, Orbit DB, FormatJS, Raneto, hapijs/code, webpack-flow, docusaurus, release-it, ts-loader, json-server, reactfire, bunyan, husky, react-easy-state, react-snap, chakra-ui, carbon, alfresco, repolinter, Assemble, Verb, and thousands of other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate-context",
+      "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "Official Docker Image for Node.js :whale: :turtle: :rocket: "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "[**node - Docker Official Images on Docker Hub**](https://hub.docker.com/_/node)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard-things/esm",
+      "status": "candidate-context",
+      "text": "Tomorrow's ECMAScript modules today!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard-things/esm",
+      "status": "candidate-context",
+      "text": "The brilliantly simple, babel-less, bundle-less ECMAScript module loader."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate-context",
+      "text": "List of packages that use `standard`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hapijs/hapi",
+      "status": "candidate-context",
+      "text": "The Simple, Secure Framework Developers Trust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hapijs/hapi",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/hapijs/assets/master/images/hapi.png\" width=\"400px\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expressjs/express",
+      "status": "candidate-context",
+      "text": "Fast, unopinionated, minimalist web framework for node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/express",
+      "status": "candidate-context",
+      "text": "express \u2014 Fast, unopinionated, minimalist web framework"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amqp-node/amqplib",
+      "status": "candidate-context",
+      "text": "AMQP 0-9-1 library and client for Node.JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amqp-node/amqplib",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/amqplib.svg?style=flat-square)](https://www.npmjs.com/package/amqplib)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "status": "candidate-context",
+      "text": ":package: Install C++ Build Tools for Windows using npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "status": "candidate-context",
+      "text": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/abstract-level",
+      "status": "candidate-context",
+      "text": "Abstract class for a lexicographically sorted key-value database."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/abstract-level",
+      "status": "candidate-context",
+      "text": "**Abstract class for a lexicographically sorted key-value database.** Provides encodings, sublevels, events and hooks. If you are upgrading, please see [`UPGRADING.md`](UPGRADING.md)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/awesome",
+      "status": "candidate-context",
+      "text": "An open list of awesome Level modules and resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/awesome",
+      "status": "candidate-context",
+      "text": "**An open list of awesome [Level][level-org] modules and resources. [Add yours!](#contributing)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/read-stream",
+      "status": "candidate-context",
+      "text": "Read from an abstract-level database using Node.js streams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/read-stream",
+      "status": "candidate-context",
+      "text": "**Read from an [`abstract-level`](https://github.com/Level/abstract-level) database using Node.js streams.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/abstract-leveldown",
+      "status": "candidate-context",
+      "text": "Superseded by abstract-level. An abstract prototype matching the leveldown API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/abstract-leveldown",
+      "status": "candidate-context",
+      "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
     }
   ],
   "candidate_glosses": [
@@ -627,6 +1035,210 @@
       "source_repo": "coderaiser/try-to-catch",
       "status": "candidate",
       "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-to-catch.svg?style=flat&longCache=true"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-js",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/github/license/alibaba/dubbo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-community/eslint-plugin-n",
+      "status": "candidate",
+      "text": "> forked from [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node) v11.1.0. as the original repository seems [no longer maintained](https://github.com/mysticatea/eslint-plugin-node/issues/300)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify",
+      "status": "candidate",
+      "text": "<div align=\"center\"> <a href=\"https://fastify.dev/\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/poolifier",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint",
+      "status": "candidate",
+      "text": "> A Node.js style checker and lint tool for Markdown/CommonMark files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavidAnson/markdownlint-cli2",
+      "status": "candidate",
+      "text": "> A fast, flexible, configuration-based command-line interface for linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/anymatch",
+      "status": "candidate",
+      "text": "anymatch [![Build Status](https://travis-ci.org/micromatch/anymatch.svg?branch=master)](https://travis-ci.org/micromatch/anymatch) [![Coverage Status](https://img.shields.io/coveralls/micromatch/anymatch.svg?branch=master)](https://coveralls.io/r/micromatch/anymatch?branch=maste\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/standard/eslint-config-standard/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate",
+      "text": "[NVM] wrapper for fish-shell."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnbc1QWFyb24/lnmessage",
+      "status": "candidate",
+      "text": "Talk to Lightning nodes from the Browser and NodeJS apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/classic-level",
+      "status": "candidate",
+      "text": "**An [`abstract-level`](https://github.com/Level/abstract-level) database backed by [LevelDB](https://github.com/google/leveldb).** The successor to [`leveldown`](https://github.com/Level/leveldown) with builtin encodings, sublevels, events, hooks and support of Uint8Array. If y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekalinin/sitemap.js",
+      "status": "candidate",
+      "text": "**sitemap** is a high-level streaming sitemap-generating library/CLI that"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "status": "candidate",
+      "text": "A plugin for [Inquirer](https://github.com/SBoudrias/Inquirer.js), similar to the original checkbox with extra features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-es",
+      "status": "candidate",
+      "text": "<img src=\".github/connect-logo.png\" width=\"15%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaacs/nave",
+      "status": "candidate",
+      "text": "Virtual Environments for Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate",
+      "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/create-fastify",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/fastify/create-fastify/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/create-fastify/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/demo",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/fastify/demo/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/demo/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Schniz/fnm",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate",
+      "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate",
+      "text": "[**node - Docker Official Images on Docker Hub**](https://hub.docker.com/_/node)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard-things/esm",
+      "status": "candidate",
+      "text": "The brilliantly simple, babel-less, bundle-less ECMAScript module loader."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hapijs/hapi",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/hapijs/assets/master/images/hapi.png\" width=\"400px\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/express",
+      "status": "candidate",
+      "text": "express \u2014 Fast, unopinionated, minimalist web framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amqp-node/amqplib",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/amqplib.svg?style=flat-square)](https://www.npmjs.com/package/amqplib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "status": "candidate",
+      "text": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/abstract-level",
+      "status": "candidate",
+      "text": "**Abstract class for a lexicographically sorted key-value database.** Provides encodings, sublevels, events and hooks. If you are upgrading, please see [`UPGRADING.md`](UPGRADING.md)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/awesome",
+      "status": "candidate",
+      "text": "**An open list of awesome [Level][level-org] modules and resources. [Add yours!](#contributing)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/read-stream",
+      "status": "candidate",
+      "text": "**Read from an [`abstract-level`](https://github.com/Level/abstract-level) database using Node.js streams.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/abstract-leveldown",
+      "status": "candidate",
+      "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
     }
   ],
   "candidate_related_terms": [],
@@ -916,11 +1528,245 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "eslint-community/eslint-plugin-n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fastify/fastify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "poolifier/poolifier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "DavidAnson/markdownlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "DavidAnson/markdownlint-cli2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/anymatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/awesome-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard-jsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "FabioAntunes/fish-nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lnbc1QWFyb24/lnmessage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/classic-level"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ekalinin/sitemap.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "isaacs/nave"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mysticatea/eslint-plugin-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fastify/create-fastify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fastify/demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Schniz/fnm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/markdown-toc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/docker-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard-things/esm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hapijs/hapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "expressjs/express"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/Release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "amqp-node/amqplib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "felixrieseberg/windows-build-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/abstract-level"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/awesome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/read-stream"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/abstract-leveldown"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bridge between vim-lsp and ALE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[vim-lsp][] + [ALE][]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[vim-lsp][] + [ALE][]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "language-server-protocol",
+      "sense_id": "language-server-protocol#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "language-server-protocol",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "language-server-protocol",
+  "observation_id": "ac3f1383df8ff89d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "language-server-protocol",
+  "source_context_snippet": "[vim-lsp][] + [ALE][]",
+  "source_file": null,
+  "source_repo": "rhysd/vim-lsp-ale",
+  "source_repo_description": "Bridge between vim-lsp and ALE"
+}

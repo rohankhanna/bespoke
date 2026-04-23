@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:44:49.445898+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "SQLCipher is a standalone fork of SQLite that adds 256 bit AES encryption of database files and other security features.",
+    "fork": false,
+    "full_name": "sqlcipher/sqlcipher",
+    "html_url": "https://github.com/sqlcipher/sqlcipher",
+    "language": "C",
+    "pushed_at": "2026-03-17T13:41:17Z",
+    "stargazers_count": 7101,
+    "topics": [],
+    "updated_at": "2026-04-22T05:31:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

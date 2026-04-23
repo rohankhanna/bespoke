@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mkdocs-material"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "status": "candidate-context",
+      "text": "Mkdocs plugin which displays links in a more elegant way. Links will automatically be populated with an image, description, fav icon, and title for the target website; or you can override the values to give your own."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mkdocs-material",
+  "concept_id": "mkdocs-material",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mkdocs-material",
+      "sense_id": "mkdocs-material#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

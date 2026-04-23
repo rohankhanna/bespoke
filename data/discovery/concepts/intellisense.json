@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "intellisense"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate-context",
+      "text": "A Ruby language server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate-context",
+      "text": "[![RSpec](https://github.com/castwide/solargraph/actions/workflows/rspec.yml/badge.svg)](https://github.com/castwide/solargraph/actions/workflows/rspec.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "castwide/vscode-solargraph",
+      "status": "candidate-context",
+      "text": "A Visual Studio Code extension for Solargraph."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/vscode-solargraph",
+      "status": "candidate-context",
+      "text": "Solargraph is a language server that provides intellisense, code completion, and inline documentation for Ruby."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate",
+      "text": "[![RSpec](https://github.com/castwide/solargraph/actions/workflows/rspec.yml/badge.svg)](https://github.com/castwide/solargraph/actions/workflows/rspec.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/vscode-solargraph",
+      "status": "candidate",
+      "text": "Solargraph is a language server that provides intellisense, code completion, and inline documentation for Ruby."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "intuitiveness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "inteligence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "intelligence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "intellection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "autocomplete"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "intellisense",
+  "concept_id": "intellisense",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "castwide/solargraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "castwide/vscode-solargraph"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "intellisense",
+      "sense_id": "intellisense#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "docker develop build and test only"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "besu-eth/besu",
+      "status": "candidate-context",
+      "text": "An enterprise-grade Java-based, Apache 2.0 licensed Ethereum client https://wiki.hyperledger.org/display/besu"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "besu-eth/besu",
+      "status": "candidate-context",
+      "text": "docker develop build and test only"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "besu-eth/besu",
+      "status": "candidate",
+      "text": "docker develop build and test only"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33879,
+      "status": "candidate",
+      "text": "footing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33674,
+      "status": "candidate",
+      "text": "turtle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33418,
+      "status": "candidate",
+      "text": "determination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30481,
+      "status": "candidate",
+      "text": "load"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30478,
+      "status": "candidate",
+      "text": "scoop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "docker develop build and test only",
+  "concept_id": "docker-develop-build-and-test-only",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/develop-pr.yml",
+      "source_repo": "besu-eth/besu"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "docker develop build and test only",
+      "sense_id": "docker-develop-build-and-test-only#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

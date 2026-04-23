@@ -1,0 +1,171 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/first-interaction@v1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "autodistill/autodistill-blip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "autodistill/autodistill-blip",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "autodistill/autodistill-blip",
+      "target": "Publish WorkFlow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "autodistill/autodistill-blip",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "autodistill/autodistill-blip",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "autodistill/autodistill-blip",
+      "target": "Test WorkFlow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/welcome.yml",
+      "source_repo": "autodistill/autodistill-blip",
+      "target": "actions/first-interaction@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodistill/autodistill-blip",
+      "target": "autodistill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodistill/autodistill-blip",
+      "target": "blip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodistill/autodistill-blip",
+      "target": "computer-vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:49:10.763349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1788
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 940
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 732
+    },
+    {
+      "path": ".github/workflows/welcome.yml",
+      "size": 524
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "BLIP module for use with Autodistill.",
+    "fork": false,
+    "full_name": "autodistill/autodistill-blip",
+    "html_url": "https://github.com/autodistill/autodistill-blip",
+    "language": "Python",
+    "pushed_at": "2023-12-06T10:43:15Z",
+    "stargazers_count": 4,
+    "topics": [
+      "autodistill",
+      "blip",
+      "computer-vision"
+    ],
+    "updated_at": "2026-03-27T10:23:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish WorkFlow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish WorkFlow"
+    },
+    {
+      "context_snippet": "Test WorkFlow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test WorkFlow"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autodistill"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blip"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    }
+  ]
+}

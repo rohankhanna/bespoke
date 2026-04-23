@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A collection of Dev Container Features managed by Dev Container spec maintainers. See https://github.com/devcontainers/feature-starter to publish your own"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Stress test - Docker in Docker\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Stress test - Docker in Docker\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27198,
+      "status": "candidate",
+      "text": "ekg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26012,
+      "status": "candidate",
+      "text": "ecg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25998,
+      "status": "candidate",
+      "text": "stress testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25998,
+      "status": "candidate",
+      "text": "treadmill test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15089,
+      "status": "candidate",
+      "text": "ark"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stress test - Docker in Docker",
+      "sense_id": "stress-test---docker-in-docker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stress-test---docker-in-docker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stress-test---docker-in-docker",
+  "observation_id": "70146fd896799123",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Stress test - Docker in Docker",
+  "source_context_snippet": "\"Stress test - Docker in Docker\"",
+  "source_file": ".github/workflows/docker-in-docker-stress-test.yaml",
+  "source_repo": "devcontainers/features",
+  "source_repo_description": "A collection of Dev Container Features managed by Dev Container spec maintainers. See https://github.com/devcontainers/feature-starter to publish your own"
+}

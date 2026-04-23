@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alibaba-NLP/MaskSearch",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alibaba-NLP/MaskSearch",
+      "target": "mattzheng/chinesewiki",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alibaba-NLP/MaskSearch",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:32.589023+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3463
+    },
+    {
+      "path": "requirements.txt",
+      "size": 44
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repo for \"MaskSearch: A Universal Pre-Training Framework to Enhance Agentic Search Capability\"",
+    "fork": false,
+    "full_name": "Alibaba-NLP/MaskSearch",
+    "html_url": "https://github.com/Alibaba-NLP/MaskSearch",
+    "language": "Python",
+    "pushed_at": "2025-05-27T06:53:01Z",
+    "stargazers_count": 151,
+    "topics": [],
+    "updated_at": "2026-04-16T08:44:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattzheng/chinesewiki",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

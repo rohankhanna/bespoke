@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ansible"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/ansible-lint",
+      "status": "candidate-context",
+      "text": "ansible-lint checks playbooks for practices and behavior that could potentially be improved and can fix some of the most common ones for you"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-lint",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/ansible-lint.svg)](https://pypi.org/project/ansible-lint)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-lint",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/ansible-lint.svg)](https://pypi.org/project/ansible-lint)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019933,
+      "status": "candidate",
+      "text": "subether"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019932,
+      "status": "candidate",
+      "text": "communicator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019931,
+      "status": "candidate",
+      "text": "teletransporter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019930,
+      "status": "candidate",
+      "text": "telecommunicator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019929,
+      "status": "candidate",
+      "text": "beamer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ansible",
+  "concept_id": "ansible",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ansible/ansible-lint"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ansible",
+      "sense_id": "ansible#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

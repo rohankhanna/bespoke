@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:34:04.993668+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1815
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Scripts to prevent Android phones from sleeping while connected via USB (keeps ADB working)",
+    "fork": false,
+    "full_name": "danielrosehill/adb-keep-awake",
+    "html_url": "https://github.com/danielrosehill/adb-keep-awake",
+    "language": "Shell",
+    "pushed_at": "2026-03-30T10:05:11Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-30T10:05:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

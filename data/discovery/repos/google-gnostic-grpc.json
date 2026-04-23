@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/gnostic-grpc",
+      "target": "jhump/protoreflect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/gnostic-grpc",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "google/gnostic-grpc",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "google/gnostic-grpc",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:39:45.105967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3539
+    },
+    {
+      "path": "go.mod",
+      "size": 674
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 805
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A gnostic plugin that converts an OpenAPI  API description into a description of a gRPC service that can be used to implement that API using gRPC-JSON Transcoding.",
+    "fork": false,
+    "full_name": "google/gnostic-grpc",
+    "html_url": "https://github.com/google/gnostic-grpc",
+    "language": "Go",
+    "pushed_at": "2024-12-19T01:38:23Z",
+    "stargazers_count": 314,
+    "topics": [],
+    "updated_at": "2026-03-21T22:05:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jhump/protoreflect",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mkdocs plugin which displays links in a more elegant way. Links will automatically be populated with an image, description, fav icon, and title for the target website; or you can override the values to give your own."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'\ud83c\udfab Issues \u203a Stale'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'\ud83c\udfab Issues \u203a Stale'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11623,
+      "status": "candidate",
+      "text": "flag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11561,
+      "status": "candidate",
+      "text": "flagged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10747,
+      "status": "candidate",
+      "text": "climate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10747,
+      "status": "candidate",
+      "text": "float"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10747,
+      "status": "candidate",
+      "text": "insipid"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83c\udfab Issues \u203a Stale",
+      "sense_id": "issues-stale#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "issues-stale",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "issues-stale",
+  "observation_id": "68f04abe426498ad",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "\ud83c\udfab Issues \u203a Stale",
+  "source_context_snippet": "'\ud83c\udfab Issues \u203a Stale'",
+  "source_file": ".github/workflows/issues-stale.yml",
+  "source_repo": "Aetherinox/mkdocs-link-embeds",
+  "source_repo_description": "Mkdocs plugin which displays links in a more elegant way. Links will automatically be populated with an image, description, fav icon, and title for the target website; or you can override the values to give your own."
+}

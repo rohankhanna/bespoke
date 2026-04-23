@@ -19,6 +19,18 @@
       "source_repo": "dask/dask",
       "status": "candidate-context",
       "text": "Dask"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cudf",
+      "status": "candidate-context",
+      "text": "cuDF - GPU DataFrame Library "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cudf",
+      "status": "candidate-context",
+      "text": "cuDF (pronounced \"KOO-dee-eff\") is an [Apache 2.0 licensed](LICENSE), GPU-accelerated DataFrame library"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dask/dask",
       "status": "candidate",
       "text": "Dask"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cudf",
+      "status": "candidate",
+      "text": "cuDF (pronounced \"KOO-dee-eff\") is an [Apache 2.0 licensed](LICENSE), GPU-accelerated DataFrame library"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "dask/dask"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/cudf"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,54 @@
       "source_repo": "docker-library/docs",
       "status": "candidate-context",
       "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-library/bashbrew",
+      "status": "candidate-context",
+      "text": "Canonical parsing tool for the official images library files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/bashbrew",
+      "status": "candidate-context",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-library/golang",
+      "status": "candidate-context",
+      "text": "Docker Official Image packaging for golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/golang",
+      "status": "candidate-context",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/hello-world",
+      "status": "candidate-context",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/buildpack-deps",
+      "status": "candidate-context",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker-library/docker",
+      "status": "candidate-context",
+      "text": "Docker Official Image packaging for Docker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/docker",
+      "status": "candidate-context",
+      "text": "GitHub CI"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +109,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "docker-library/docs",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/bashbrew",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/golang",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/hello-world",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/buildpack-deps",
+      "status": "candidate",
+      "text": "GitHub CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker-library/docker",
       "status": "candidate",
       "text": "GitHub CI"
     }
@@ -124,11 +202,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "docker-library/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/bashbrew"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/golang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/hello-world"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/buildpack-deps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/docker"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

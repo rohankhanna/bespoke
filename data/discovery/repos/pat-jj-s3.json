@@ -1,0 +1,147 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pat-jj/s3",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pat-jj/s3",
+      "target": "efficiency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pat-jj/s3",
+      "target": "gpt-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pat-jj/s3",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pat-jj/s3",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pat-jj/s3",
+      "target": "rlvr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pat-jj/s3",
+      "target": "search-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pat-jj/s3",
+      "target": "verifier",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:42.020606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7844
+    },
+    {
+      "path": "requirements.txt",
+      "size": 153
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[EMNLP'25] s3 - \u26a1 Efficient & Effective Search Agent Training via RL for RAG (RLVR for Search with Minimal Data)",
+    "fork": false,
+    "full_name": "pat-jj/s3",
+    "html_url": "https://github.com/pat-jj/s3",
+    "language": "Python",
+    "pushed_at": "2025-11-05T02:15:04Z",
+    "stargazers_count": 834,
+    "topics": [
+      "agentic-ai",
+      "efficiency",
+      "gpt-5",
+      "information-retrieval",
+      "large-language-models",
+      "rag",
+      "rlvr",
+      "search-agent",
+      "verifier"
+    ],
+    "updated_at": "2026-04-21T06:55:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficiency"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-5"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rlvr"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search-agent"
+    },
+    {
+      "context_snippet": "<div align=\"right\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verifier"
+    }
+  ]
+}

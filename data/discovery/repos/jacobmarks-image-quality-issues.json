@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jacobmarks/image-quality-issues",
+      "target": "willbrennan/blurdetection2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jacobmarks/image-quality-issues",
+      "target": "cleanlab/cleanvision",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jacobmarks/image-quality-issues",
+      "target": "mahmoudnafifi/exposure_correction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jacobmarks/image-quality-issues",
+      "target": "data-cleaning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jacobmarks/image-quality-issues",
+      "target": "fiftyone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jacobmarks/image-quality-issues",
+      "target": "plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:36:34.118111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7162
+    },
+    {
+      "path": "requirements.txt",
+      "size": 29
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "FiftyOne Plugin for finding common image quality issues",
+    "fork": false,
+    "full_name": "jacobmarks/image-quality-issues",
+    "html_url": "https://github.com/jacobmarks/image-quality-issues",
+    "language": "Python",
+    "pushed_at": "2024-10-21T19:54:42Z",
+    "stargazers_count": 35,
+    "topics": [
+      "data-cleaning",
+      "fiftyone",
+      "plugins",
+      "python"
+    ],
+    "updated_at": "2026-03-06T08:05:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cleanlab/cleanvision",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mahmoudnafifi/exposure_correction",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "willbrennan/blurdetection2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![common_image_issues_updated](https://github.com/jacobmarks/image-quality-issues/assets/12500356/4f3b89c9-58b6-4404-a9da-8cd6570a1793)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-cleaning"
+    },
+    {
+      "context_snippet": "![common_image_issues_updated](https://github.com/jacobmarks/image-quality-issues/assets/12500356/4f3b89c9-58b6-4404-a9da-8cd6570a1793)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fiftyone"
+    },
+    {
+      "context_snippet": "![common_image_issues_updated](https://github.com/jacobmarks/image-quality-issues/assets/12500356/4f3b89c9-58b6-4404-a9da-8cd6570a1793)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugins"
+    }
+  ]
+}

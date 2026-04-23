@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "No Response"
+    "No Response",
+    "no-response"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -67,6 +68,54 @@
       "source_repo": "flutter/website",
       "status": "candidate-context",
       "text": "No Response"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "A smarter cd command. Supports all major shells."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "no-response"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate-context",
+      "text": "Web server middleware for Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate-context",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/test",
+      "status": "candidate-context",
+      "text": "A library for writing unit tests in Dart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/test",
+      "status": "candidate-context",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/core",
+      "status": "candidate-context",
+      "text": ".NET news, announcements, release notes, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/core",
+      "status": "candidate-context",
+      "text": "No Response"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +146,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "flutter/website",
+      "status": "candidate",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate",
+      "text": "no-response"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/test",
+      "status": "candidate",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/core",
       "status": "candidate",
       "text": "No Response"
     }
@@ -178,11 +251,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/no-response.yaml",
       "source_repo": "flutter/website"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "ajeetdsouza/zoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/shelf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dart-lang/test"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "dotnet/core"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

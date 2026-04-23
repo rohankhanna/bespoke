@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:30:09.827228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 945
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "infiniflow/resource",
+    "html_url": "https://github.com/infiniflow/resource",
+    "language": "TeX",
+    "pushed_at": "2025-11-26T09:33:56Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-03-26T14:25:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

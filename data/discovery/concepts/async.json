@@ -139,6 +139,42 @@
       "source_repo": "coderaiser/try-to-catch",
       "status": "candidate-context",
       "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-to-catch.svg?style=flat&longCache=true"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prabirshrestha/vim-lsp",
+      "status": "candidate-context",
+      "text": "async language server protocol plugin for vim and neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/vim-lsp",
+      "status": "candidate-context",
+      "text": "Async [Language Server Protocol](https://github.com/Microsoft/language-server-protocol) plugin for vim8 and neovim."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperium/tonic",
+      "status": "candidate-context",
+      "text": "A native gRPC client & server implementation with async/await support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperium/tonic",
+      "status": "candidate-context",
+      "text": "![](https://github.com/hyperium/tonic/raw/master/.github/assets/tonic-banner.svg?sanitize=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate-context",
+      "text": "Cross-platform async library for system information fetching \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate-context",
+      "text": "![Project banner](./.github/readme-logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "coderaiser/try-to-catch",
       "status": "candidate",
       "text": "[NPMIMGURL]: https://img.shields.io/npm/v/try-to-catch.svg?style=flat&longCache=true"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prabirshrestha/vim-lsp",
+      "status": "candidate",
+      "text": "Async [Language Server Protocol](https://github.com/Microsoft/language-server-protocol) plugin for vim8 and neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperium/tonic",
+      "status": "candidate",
+      "text": "![](https://github.com/hyperium/tonic/raw/master/.github/assets/tonic-banner.svg?sanitize=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate",
+      "text": "![Project banner](./.github/readme-logo.png)"
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +370,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "coderaiser/try-to-catch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "prabirshrestha/vim-lsp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gitui-org/gitui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hyperium/tonic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "heim-rs/heim"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

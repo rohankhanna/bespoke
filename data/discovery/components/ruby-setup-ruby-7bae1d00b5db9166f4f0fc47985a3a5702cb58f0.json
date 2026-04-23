@@ -1,0 +1,12 @@
+{
+  "component": "ruby/setup-ruby@7bae1d00b5db9166f4f0fc47985a3a5702cb58f0",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-incident-discussions.yml",
+      "source_repo": "community/community"
+    }
+  ]
+}

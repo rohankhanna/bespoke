@@ -1,7 +1,7 @@
 {
   "component": "moonrepo/setup-rust@v1",
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-18T12:06:06.216548+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/daft-profiling.yml",
       "source_repo": "Eventual-Inc/Daft"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-tests.yml",
+      "source_repo": "sigp/lighthouse"
     }
   ]
 }

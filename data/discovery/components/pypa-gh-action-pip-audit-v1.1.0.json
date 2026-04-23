@@ -1,0 +1,17 @@
+{
+  "component": "pypa/gh-action-pip-audit@v1.1.0",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-branch.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-pr.yaml",
+      "source_repo": "aws-cloudformation/cfn-lint"
+    }
+  ]
+}

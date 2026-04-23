@@ -8,20 +8,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "facebookresearch/sam2",
-      "target": "rsms/inter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "facebookresearch/sam2",
-      "target": "zsef123/connected_components_pytorch",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_fmt.yml",
       "source_repo": "facebookresearch/sam2",
@@ -29,7 +15,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-21T19:01:21.640565+00:00",
+  "fetched_at": "2026-04-23T05:48:28.735933+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -54,21 +40,10 @@
     "html_url": "https://github.com/facebookresearch/sam2",
     "language": "Jupyter Notebook",
     "pushed_at": "2026-04-07T10:46:51Z",
-    "stargazers_count": 18990,
+    "stargazers_count": 18996,
     "topics": [],
-    "updated_at": "2026-04-21T17:41:06Z"
+    "updated_at": "2026-04-23T03:30:41Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rsms/inter",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zsef123/connected_components_pytorch",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

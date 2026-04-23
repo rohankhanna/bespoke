@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "containers/podman/.github/workflows/check_cirrus_cron.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orphan_vms.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orphan_vms.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orphan_vms.yml"
+    },
+    {
+      "component": "dawidd6/action-send-mail@v3.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orphan_vms.yml"
+    },
+    {
+      "component": "dawidd6/action-send-mail@v3.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orphan_vms.yml"
+    },
+    {
+      "component": "docker://quay.io/libpod/cirrus-ci_retrospective:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_image_id.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_image_id.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_image_id.yml"
+    },
+    {
+      "component": "exuanbo/actions-deploy-gist@v1.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_image_id.yml"
+    },
+    {
+      "component": "exuanbo/actions-deploy-gist@v1.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_image_id.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml",
+      "source_repo": "containers/automation_images",
+      "target": "containers/podman/.github/workflows/check_cirrus_cron.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orphan_vms.yml",
+      "source_repo": "containers/automation_images",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orphan_vms.yml",
+      "source_repo": "containers/automation_images",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/orphan_vms.yml",
+      "source_repo": "containers/automation_images",
+      "target": "dawidd6/action-send-mail@v3.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_image_id.yml",
+      "source_repo": "containers/automation_images",
+      "target": "docker://quay.io/libpod/cirrus-ci_retrospective:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_image_id.yml",
+      "source_repo": "containers/automation_images",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_image_id.yml",
+      "source_repo": "containers/automation_images",
+      "target": "thollander/actions-comment-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_image_id.yml",
+      "source_repo": "containers/automation_images",
+      "target": "exuanbo/actions-deploy-gist@v1.1.4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:37:18.005522+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20759
+    },
+    {
+      "path": ".github/workflows/check_cirrus_cron.yml",
+      "size": 869
+    },
+    {
+      "path": ".github/workflows/orphan_vms.yml",
+      "size": 4604
+    },
+    {
+      "path": ".github/workflows/pr_image_id.yml",
+      "size": 7059
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "containers/automation_images",
+    "html_url": "https://github.com/containers/automation_images",
+    "language": "Shell",
+    "pushed_at": "2026-04-21T20:10:17Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-04-17T12:22:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

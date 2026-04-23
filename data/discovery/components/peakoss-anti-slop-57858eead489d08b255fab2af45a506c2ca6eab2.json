@@ -1,0 +1,12 @@
+{
+  "component": "peakoss/anti-slop@57858eead489d08b255fab2af45a506c2ca6eab2",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-quality.yml",
+      "source_repo": "webpack/webpack"
+    }
+  ]
+}

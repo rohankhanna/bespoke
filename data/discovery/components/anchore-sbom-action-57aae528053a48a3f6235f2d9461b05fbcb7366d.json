@@ -1,0 +1,12 @@
+{
+  "component": "anchore/sbom-action@57aae528053a48a3f6235f2d9461b05fbcb7366d",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "dragonflyoss/dragonfly"
+    }
+  ]
+}

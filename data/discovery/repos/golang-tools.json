@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:30:46.806819+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3422
+    },
+    {
+      "path": "go.mod",
+      "size": 301
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[mirror] Go Tools",
+    "fork": false,
+    "full_name": "golang/tools",
+    "html_url": "https://github.com/golang/tools",
+    "language": "Go",
+    "pushed_at": "2026-04-22T20:43:00Z",
+    "stargazers_count": 7931,
+    "topics": [],
+    "updated_at": "2026-04-22T20:43:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

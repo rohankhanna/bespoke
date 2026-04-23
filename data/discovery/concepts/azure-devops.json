@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "azure-devops"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "renovate \u2014 Automated dependency updates. Flexible so you don't need to be."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "status": "candidate-context",
+      "text": "An Azure DevOps Task for tfsec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "status": "candidate-context",
+      "text": "An Azure DevOps Pipelines Task for [tfsec](https://github.com/aquasecurity/tfsec), with a bonus integrated UI."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate",
+      "text": "renovate \u2014 Automated dependency updates. Flexible so you don't need to be."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task",
+      "status": "candidate",
+      "text": "An Azure DevOps Pipelines Task for [tfsec](https://github.com/aquasecurity/tfsec), with a bonus integrated UI."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "azure-devops",
+  "concept_id": "azure-devops",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "renovatebot/renovate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-azure-pipelines-task"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "azure-devops",
+      "sense_id": "azure-devops#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

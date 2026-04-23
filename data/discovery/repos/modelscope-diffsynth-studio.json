@@ -16,7 +16,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "modelscope/DiffSynth-Studio",
-      "target": "ainseven/comfyui-fastblend",
+      "target": "modelscope/diffsynth-engine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "modelscope/DiffSynth-Studio",
+      "target": "artiprocher/sd-webui-fastblend",
       "target_type": "repository"
     },
     {
@@ -24,13 +31,6 @@
       "source_file": "README.md",
       "source_repo": "modelscope/DiffSynth-Studio",
       "target": "artiprocher/fastsdxl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "modelscope/DiffSynth-Studio",
-      "target": "alibaba/easynlp",
       "target_type": "repository"
     },
     {
@@ -62,7 +62,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:19:03.972838+00:00",
+  "fetched_at": "2026-04-23T06:34:06.212961+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -90,22 +90,12 @@
     "full_name": "modelscope/DiffSynth-Studio",
     "html_url": "https://github.com/modelscope/DiffSynth-Studio",
     "language": "Python",
-    "pushed_at": "2026-04-21T13:30:27Z",
+    "pushed_at": "2026-04-23T05:53:23Z",
     "stargazers_count": 12284,
     "topics": [],
-    "updated_at": "2026-04-22T16:39:53Z"
+    "updated_at": "2026-04-23T06:28:22Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ainseven/comfyui-fastblend",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alibaba/easynlp",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "artiprocher/diffsynth-studio",
@@ -114,6 +104,16 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "artiprocher/fastsdxl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artiprocher/sd-webui-fastblend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modelscope/diffsynth-engine",
       "source_file": "README.md"
     }
   ],

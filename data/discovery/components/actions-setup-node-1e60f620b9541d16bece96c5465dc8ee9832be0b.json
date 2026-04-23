@@ -1,0 +1,22 @@
+{
+  "component": "actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "semantic-release/changelog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "semantic-release/changelog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/react.yml",
+      "source_repo": "thanos-io/thanos"
+    }
+  ]
+}

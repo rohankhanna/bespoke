@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "asdf-vm/actions/plugin-test@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "luizm/asdf-shellcheck",
+      "target": "asdf-vm/actions/plugin-test@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "luizm/asdf-shellcheck",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luizm/asdf-shellcheck",
+      "target": "asdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luizm/asdf-shellcheck",
+      "target": "asdf-shellcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luizm/asdf-shellcheck",
+      "target": "shell-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "luizm/asdf-shellcheck",
+      "target": "shellcheck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:53.738020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 474
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 553
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "shellcheck plugin for asdf version manager https://github.com/asdf-vm/asdf",
+    "fork": false,
+    "full_name": "luizm/asdf-shellcheck",
+    "html_url": "https://github.com/luizm/asdf-shellcheck",
+    "language": "Shell",
+    "pushed_at": "2025-10-02T19:52:39Z",
+    "stargazers_count": 28,
+    "topics": [
+      "asdf",
+      "asdf-shellcheck",
+      "shell-script",
+      "shellcheck"
+    ],
+    "updated_at": "2026-03-17T17:28:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/luizm/asdf-shellcheck/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/luizm/asdf-shellcheck/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asdf-shellcheck"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/luizm/asdf-shellcheck/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-script"
+    },
+    {
+      "context_snippet": "![Build Status](https://github.com/luizm/asdf-shellcheck/actions/workflows/build.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shellcheck"
+    }
+  ]
+}

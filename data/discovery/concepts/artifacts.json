@@ -19,12 +19,30 @@
       "source_repo": "dexidp/dex",
       "status": "candidate-context",
       "text": "Artifacts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ms-jpq/chadtree",
+      "status": "candidate-context",
+      "text": "File manager for Neovim. Better than NERDTree."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ms-jpq/chadtree",
+      "status": "candidate-context",
+      "text": "Artifacts"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "dexidp/dex",
+      "status": "candidate",
+      "text": "Artifacts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ms-jpq/chadtree",
       "status": "candidate",
       "text": "Artifacts"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/artifacts.yaml",
       "source_repo": "dexidp/dex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/artifacts.yml",
+      "source_repo": "ms-jpq/chadtree"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

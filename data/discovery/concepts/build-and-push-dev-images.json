@@ -19,12 +19,30 @@
       "source_repo": "microsoft/vscode-dev-containers",
       "status": "candidate-context",
       "text": "Build and push \"dev\" images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/images",
+      "status": "candidate-context",
+      "text": "Repository for pre-built dev container images published under mcr.microsoft.com/devcontainers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/images",
+      "status": "candidate-context",
+      "text": "Build and push \"dev\" images"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/vscode-dev-containers",
+      "status": "candidate",
+      "text": "Build and push \"dev\" images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/images",
       "status": "candidate",
       "text": "Build and push \"dev\" images"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/push-dev.yml",
       "source_repo": "microsoft/vscode-dev-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/push-dev.yml",
+      "source_repo": "devcontainers/images"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

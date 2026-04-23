@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automatic Dependency Submission"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "termux/termux-app",
+      "status": "candidate-context",
+      "text": "Termux - a terminal emulator application for Android OS extendible by variety of packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-app",
+      "status": "candidate-context",
+      "text": "Automatic Dependency Submission"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "termux/termux-app",
+      "status": "candidate",
+      "text": "Automatic Dependency Submission"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18397,
+      "status": "candidate",
+      "text": "anguilla"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18397,
+      "status": "candidate",
+      "text": "dependence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18265,
+      "status": "candidate",
+      "text": "gear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18265,
+      "status": "candidate",
+      "text": "motion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18265,
+      "status": "candidate",
+      "text": "rote"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automatic Dependency Submission",
+  "concept_id": "automatic-dependency-submission",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/dependency-submission.yml",
+      "source_repo": "termux/termux-app"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automatic Dependency Submission",
+      "sense_id": "automatic-dependency-submission#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

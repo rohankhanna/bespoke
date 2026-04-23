@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "build-policy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AliyunContainerService/terway",
+      "status": "candidate-context",
+      "text": "CNI plugin for Alibaba Cloud VPC/ENI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliyunContainerService/terway",
+      "status": "candidate-context",
+      "text": "build-policy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AliyunContainerService/terway",
+      "status": "candidate",
+      "text": "build-policy"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "build-policy",
+  "concept_id": "build-policy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-policy.yml",
+      "source_repo": "AliyunContainerService/terway"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "build-policy",
+      "sense_id": "build-policy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

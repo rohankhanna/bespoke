@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes/metrics",
+      "target": "kubernetes-sigs/custom-metrics-apiserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes/metrics",
+      "target": "kubernetes-sigs/metrics-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/metrics",
+      "target": "k8s-staging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:44:35.368065+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2750
+    },
+    {
+      "path": "go.mod",
+      "size": 2523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Kubernetes metrics-related API types and clients",
+    "fork": false,
+    "full_name": "kubernetes/metrics",
+    "html_url": "https://github.com/kubernetes/metrics",
+    "language": "Go",
+    "pushed_at": "2026-04-22T20:36:59Z",
+    "stargazers_count": 531,
+    "topics": [
+      "k8s-staging"
+    ],
+    "updated_at": "2026-04-14T22:09:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/custom-metrics-apiserver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/metrics-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-staging"
+    }
+  ]
+}

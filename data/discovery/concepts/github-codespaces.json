@@ -19,6 +19,18 @@
       "source_repo": "microsoft/vscode-dev-containers",
       "status": "candidate-context",
       "text": "**IMPORTANT NOTE: Dev containers have a new, expanded home in the [dev containers GitHub org](https://github.com/devcontainers)! We're so excited to connect with you there. To learn more, you can check out our [migration announcement](https://github.com/microsoft/vscode-dev-cont\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "community/community",
+      "status": "candidate-context",
+      "text": "Public feedback discussions for: GitHub Mobile, GitHub Discussions, GitHub Codespaces, GitHub Sponsors, GitHub Issues and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "community/community",
+      "status": "candidate-context",
+      "text": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "microsoft/vscode-dev-containers",
       "status": "candidate",
       "text": "**IMPORTANT NOTE: Dev containers have a new, expanded home in the [dev containers GitHub org](https://github.com/devcontainers)! We're so excited to connect with you there. To learn more, you can check out our [migration announcement](https://github.com/microsoft/vscode-dev-cont\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "community/community",
+      "status": "candidate",
+      "text": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode-dev-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "community/community"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -298,6 +298,42 @@
       "source_repo": "langgenius/dify",
       "status": "candidate-context",
       "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate-context",
+      "text": "JavaScript API for Chrome and Firefox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/airflow",
+      "status": "candidate-context",
+      "text": "Apache Airflow - A platform to programmatically author, schedule, and monitor workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/airflow",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/create-github-app-token",
+      "status": "candidate-context",
+      "text": "GitHub Action for creating a GitHub App Installation Access Token"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/create-github-app-token",
+      "status": "candidate-context",
+      "text": "[![test](https://github.com/actions/create-github-app-token/actions/workflows/test.yml/badge.svg)](https://github.com/actions/create-github-app-token/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -438,6 +474,24 @@
       "source_repo": "langgenius/dify",
       "status": "candidate",
       "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puppeteer/puppeteer",
+      "status": "candidate",
+      "text": "[![build](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/puppeteer/puppeteer/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/airflow",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/create-github-app-token",
+      "status": "candidate",
+      "text": "[![test](https://github.com/actions/create-github-app-token/actions/workflows/test.yml/badge.svg)](https://github.com/actions/create-github-app-token/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -690,11 +744,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "langgenius/dify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/airflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "actions/create-github-app-token"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

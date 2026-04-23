@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Commandline Monitor for Icecream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Commandline Monitor for [Icecream](https://github.com/icecc/icecream)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Commandline Monitor for [Icecream](https://github.com/icecc/icecream)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39705075,
+      "status": "candidate",
+      "text": "mesotron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29663192,
+      "status": "candidate",
+      "text": "pseudoscalar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856822,
+      "status": "candidate",
+      "text": "mi-parti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856821,
+      "status": "candidate",
+      "text": "semilens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19856820,
+      "status": "candidate",
+      "text": "hemibody"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "meson",
+      "sense_id": "meson#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "mesotron"
+    }
+  ],
+  "concept_id": "meson",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "meson",
+  "observation_id": "80ff88bf447018c6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "meson",
+  "source_context_snippet": "Commandline Monitor for [Icecream](https://github.com/icecc/icecream).",
+  "source_file": null,
+  "source_repo": "JPEWdev/icecream-sundae",
+  "source_repo_description": "Commandline Monitor for Icecream"
+}

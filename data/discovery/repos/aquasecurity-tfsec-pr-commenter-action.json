@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aquasecurity/tfsec-pr-commenter-action",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aquasecurity/tfsec-pr-commenter-action",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aquasecurity/tfsec-pr-commenter-action",
+      "target": "goreleaser/goreleaser-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aquasecurity/tfsec-pr-commenter-action",
+      "target": "tfsec pr commenter release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-pr-commenter-action",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-pr-commenter-action",
+      "target": "pr-comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-pr-commenter-action",
+      "target": "tfsec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec-pr-commenter-action",
+      "target": "tfsec-checks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:43:15.009954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2875
+    },
+    {
+      "path": "Dockerfile",
+      "size": 202
+    },
+    {
+      "path": "go.mod",
+      "size": 131
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 566
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Add comments to pull requests where tfsec checks have failed",
+    "fork": false,
+    "full_name": "aquasecurity/tfsec-pr-commenter-action",
+    "html_url": "https://github.com/aquasecurity/tfsec-pr-commenter-action",
+    "language": "Go",
+    "pushed_at": "2023-09-20T07:49:40Z",
+    "stargazers_count": 170,
+    "topics": [
+      "hacktoberfest",
+      "pr",
+      "pr-comment",
+      "tfsec",
+      "tfsec-checks"
+    ],
+    "updated_at": "2026-02-27T14:03:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "tfsec pr commenter release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "tfsec pr commenter release"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pr-comment"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tfsec"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tfsec-checks"
+    }
+  ]
+}

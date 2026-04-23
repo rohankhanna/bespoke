@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check locale completeness"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decidim/decidim",
+      "status": "candidate-context",
+      "text": "The participatory democracy framework. A generator and multiple gems made with Ruby on Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decidim/decidim",
+      "status": "candidate-context",
+      "text": "Check locale completeness"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decidim/decidim",
+      "status": "candidate",
+      "text": "Check locale completeness"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19750,
+      "status": "candidate",
+      "text": "commission"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19750,
+      "status": "candidate",
+      "text": "commissioning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19296,
+      "status": "candidate",
+      "text": "snopes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19223,
+      "status": "candidate",
+      "text": "assess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19223,
+      "status": "candidate",
+      "text": "auditing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check locale completeness",
+  "concept_id": "check-locale-completeness",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check_locale_completeness.yml",
+      "source_repo": "decidim/decidim"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check locale completeness",
+      "sense_id": "check-locale-completeness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

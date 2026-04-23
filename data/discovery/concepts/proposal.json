@@ -19,6 +19,36 @@
       "source_repo": "npm/rfcs",
       "status": "candidate-context",
       "text": "This document describes the RFC process for the [npm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/annotations",
+      "status": "candidate-context",
+      "text": "Proposal for Custom Annotation Syntax in the Text Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/annotations",
+      "status": "candidate-context",
+      "text": "[![CI for specs](https://github.com/WebAssembly/annotations/actions/workflows/ci-spec.yml/badge.svg)](https://github.com/WebAssembly/annotations/actions/workflows/ci-spec.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/custom-page-sizes",
+      "status": "candidate-context",
+      "text": "This repository is a clone of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/esm-integration",
+      "status": "candidate-context",
+      "text": "ECMAScript module integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/esm-integration",
+      "status": "candidate-context",
+      "text": "![Spectec Status](https://github.com/WebAssembly/spec/actions/workflows/ci-spectec.yml/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +57,24 @@
       "source_repo": "npm/rfcs",
       "status": "candidate",
       "text": "This document describes the RFC process for the [npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/annotations",
+      "status": "candidate",
+      "text": "[![CI for specs](https://github.com/WebAssembly/annotations/actions/workflows/ci-spec.yml/badge.svg)](https://github.com/WebAssembly/annotations/actions/workflows/ci-spec.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/custom-page-sizes",
+      "status": "candidate",
+      "text": "This repository is a clone of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/esm-integration",
+      "status": "candidate",
+      "text": "![Spectec Status](https://github.com/WebAssembly/spec/actions/workflows/ci-spectec.yml/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +146,29 @@
       "observed_at": "2026-04-19T17:42:30.117329+00:00",
       "source_file": null,
       "source_repo": "npm/rfcs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "WebAssembly/annotations"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "WebAssembly/custom-page-sizes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "WebAssembly/esm-integration"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-Interactive-Demo",
+      "target": "ux-decoder/segment-everything-everywhere-all-at-once",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-Interactive-Demo",
+      "target": "advimman/lama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LLaVA-VL/LLaVA-Interactive-Demo",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "LLaVA-VL/LLaVA-Interactive-Demo",
+      "target": "maureenzou/detectron2-xyz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LLaVA-VL/LLaVA-Interactive-Demo",
+      "target": "multimodal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:49:33.966247+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3105
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 64
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1436
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LLaVA-Interactive-Demo",
+    "fork": false,
+    "full_name": "LLaVA-VL/LLaVA-Interactive-Demo",
+    "html_url": "https://github.com/LLaVA-VL/LLaVA-Interactive-Demo",
+    "language": "Python",
+    "pushed_at": "2024-07-25T18:03:44Z",
+    "stargazers_count": 380,
+    "topics": [
+      "lmm",
+      "multimodal"
+    ],
+    "updated_at": "2026-04-09T14:37:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "advimman/lama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ux-decoder/segment-everything-everywhere-all-at-once",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maureenzou/detectron2-xyz",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*An All-in-One Demo for Image Chat, Segmentation and Generation/Editing.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    }
+  ]
+}

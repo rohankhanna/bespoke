@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "prettier",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "wgutils",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graphql/graphql-js-wg",
+      "target": "graphql/graphql-spec",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graphql/graphql-js-wg",
+      "target": "graphql/express-graphql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graphql/graphql-js-wg",
+      "target": "graphql/graphql-relay-js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "graphql/graphql-js-wg",
+      "target": "graphql/foundation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/graphql-js-wg",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/graphql-js-wg",
+      "target": "wgutils",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:31:48.336799+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6496
+    },
+    {
+      "path": "package.json",
+      "size": 156
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Working group notes for graphql-js",
+    "fork": false,
+    "full_name": "graphql/graphql-js-wg",
+    "html_url": "https://github.com/graphql/graphql-js-wg",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-02T08:55:29Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-04-02T08:55:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphql/express-graphql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphql/foundation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphql/graphql-relay-js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "graphql/graphql-spec",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

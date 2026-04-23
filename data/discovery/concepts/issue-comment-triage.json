@@ -67,6 +67,18 @@
       "source_repo": "hashicorp/terraform-plugin-sdk",
       "status": "candidate-context",
       "text": "Issue Comment Triage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/terraform-plugin-go",
+      "status": "candidate-context",
+      "text": "A low-level Go binding for the Terraform protocol for integrations to be built on top of."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-go",
+      "status": "candidate-context",
+      "text": "Issue Comment Triage"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "hashicorp/terraform-plugin-sdk",
+      "status": "candidate",
+      "text": "Issue Comment Triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/terraform-plugin-go",
       "status": "candidate",
       "text": "Issue Comment Triage"
     }
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/issue-comment-triage.yml",
       "source_repo": "hashicorp/terraform-plugin-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/issue-comment-triage.yml",
+      "source_repo": "hashicorp/terraform-plugin-go"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

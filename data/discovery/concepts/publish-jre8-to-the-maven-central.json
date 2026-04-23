@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Publish JRE8 to the Maven Central"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/copper-multibase",
+      "status": "candidate-context",
+      "text": "Self-describing base encodings \u2014 Multibase encoder/decoder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/copper-multibase",
+      "status": "candidate-context",
+      "text": "Publish JRE8 to the Maven Central"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/copper-multicodec",
+      "status": "candidate-context",
+      "text": "Multicodec & Multihash \u2014 encoder/decoder for self-describing data formats"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/copper-multicodec",
+      "status": "candidate-context",
+      "text": "Publish JRE8 to the Maven Central"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/copper-multibase",
+      "status": "candidate",
+      "text": "Publish JRE8 to the Maven Central"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/copper-multicodec",
+      "status": "candidate",
+      "text": "Publish JRE8 to the Maven Central"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23305,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23036,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22809,
+      "status": "candidate",
+      "text": "numb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22809,
+      "status": "candidate",
+      "text": "worf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22788,
+      "status": "candidate",
+      "text": "ring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish JRE8 to the Maven Central",
+  "concept_id": "publish-jre8-to-the-maven-central",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/copper-multibase"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/copper-multicodec"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish JRE8 to the Maven Central",
+      "sense_id": "publish-jre8-to-the-maven-central#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

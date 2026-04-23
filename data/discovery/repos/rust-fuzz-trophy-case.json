@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-fuzz/trophy-case",
+      "target": "alex/rust-asn1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-fuzz/trophy-case",
+      "target": "3hren/msgpack-rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-fuzz/trophy-case",
+      "target": "alexcrichton/proc-macro2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-fuzz/trophy-case",
+      "target": "acw/simple_asn1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-fuzz/trophy-case",
+      "target": "fuzz-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-fuzz/trophy-case",
+      "target": "fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-fuzz/trophy-case",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-fuzz/trophy-case",
+      "target": "trophies",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:47:44.824954+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 41796
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udfc6 Collection of bugs uncovered by fuzzing Rust code",
+    "fork": false,
+    "full_name": "rust-fuzz/trophy-case",
+    "html_url": "https://github.com/rust-fuzz/trophy-case",
+    "language": null,
+    "pushed_at": "2026-01-25T13:24:47Z",
+    "stargazers_count": 450,
+    "topics": [
+      "fuzz-testing",
+      "fuzzing",
+      "rust",
+      "trophies"
+    ],
+    "updated_at": "2026-04-13T08:28:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "3hren/msgpack-rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "acw/simple_asn1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alex/rust-asn1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexcrichton/proc-macro2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A showcase of bugs found via fuzz testing Rust codebases. It serves multiple purposes:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzz-testing"
+    },
+    {
+      "context_snippet": "A showcase of bugs found via fuzz testing Rust codebases. It serves multiple purposes:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzing"
+    },
+    {
+      "context_snippet": "A showcase of bugs found via fuzz testing Rust codebases. It serves multiple purposes:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "A showcase of bugs found via fuzz testing Rust codebases. It serves multiple purposes:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trophies"
+    }
+  ]
+}

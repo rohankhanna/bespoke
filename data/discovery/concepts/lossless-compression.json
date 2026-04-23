@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lossless-compression"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avaneev/lzav",
+      "status": "candidate-context",
+      "text": "Fast In-Memory Data Compression Algorithm (header-only C/C++) 480+MB/s compress, 2800+MB/s decompress, ratio% better than LZ4, Snappy, and Zstd@-1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avaneev/lzav",
+      "status": "candidate-context",
+      "text": "LZAV is a fast general-purpose in-memory data compression algorithm based on"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avaneev/lzav",
+      "status": "candidate",
+      "text": "LZAV is a fast general-purpose in-memory data compression algorithm based on"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lossless-compression",
+  "concept_id": "lossless-compression",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "avaneev/lzav"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lossless-compression",
+      "sense_id": "lossless-compression#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

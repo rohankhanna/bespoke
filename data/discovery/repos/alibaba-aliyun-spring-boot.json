@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/aliyun-spring-boot",
+      "target": "alibaba/compileflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/aliyun-spring-boot",
+      "target": "aliyun",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/aliyun-spring-boot",
+      "target": "aliyun-oss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/aliyun-spring-boot",
+      "target": "aliyun-rds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/aliyun-spring-boot",
+      "target": "aliyun-redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/aliyun-spring-boot",
+      "target": "aliyun-schedulerx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/aliyun-spring-boot",
+      "target": "aliyun-sms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/aliyun-spring-boot",
+      "target": "spring-boot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/aliyun-spring-boot",
+      "target": "spring-boot-starters",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:39:18.978891+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5371
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Spring Boot Starters for Aliyun services",
+    "fork": false,
+    "full_name": "alibaba/aliyun-spring-boot",
+    "html_url": "https://github.com/alibaba/aliyun-spring-boot",
+    "language": "Java",
+    "pushed_at": "2023-03-08T06:58:57Z",
+    "stargazers_count": 461,
+    "topics": [
+      "aliyun",
+      "aliyun-oss",
+      "aliyun-rds",
+      "aliyun-redis",
+      "aliyun-schedulerx",
+      "aliyun-sms",
+      "spring-boot",
+      "spring-boot-starters"
+    ],
+    "updated_at": "2026-04-16T03:15:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/compileflow",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aliyun"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aliyun-oss"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aliyun-rds"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aliyun-redis"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aliyun-schedulerx"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aliyun-sms"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-boot"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-Apache%202-4EB1BA.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-boot-starters"
+    }
+  ]
+}

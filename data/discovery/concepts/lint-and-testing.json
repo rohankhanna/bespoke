@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Lint and Testing"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appleboy/drone-lambda",
+      "status": "candidate-context",
+      "text": "Deploying Lambda code with drone CI to an existing function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/drone-lambda",
+      "status": "candidate-context",
+      "text": "Lint and Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appleboy/go-fcm",
+      "status": "candidate-context",
+      "text": "Firebase Cloud Messaging Library for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/go-fcm",
+      "status": "candidate-context",
+      "text": "Lint and Testing"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/drone-lambda",
+      "status": "candidate",
+      "text": "Lint and Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/go-fcm",
+      "status": "candidate",
+      "text": "Lint and Testing"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11014,
+      "status": "candidate",
+      "text": "brush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11014,
+      "status": "candidate",
+      "text": "screen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11014,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11014,
+      "status": "candidate",
+      "text": "yarn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10871,
+      "status": "candidate",
+      "text": "bit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint and Testing",
+  "concept_id": "lint-and-testing",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "appleboy/drone-lambda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "appleboy/go-fcm"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint and Testing",
+      "sense_id": "lint-and-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

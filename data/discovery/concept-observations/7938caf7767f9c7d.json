@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Brings nebula to mobile devices (iOS, Android)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[Play Store](https://play.google.com/store/apps/details?id=net.defined.mobile_nebula&hl=en_US&gl=US) | [App Store](https://apps.apple.com/us/app/mobile-nebula/id1509587936)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[Play Store](https://play.google.com/store/apps/details?id=net.defined.mobile_nebula&hl=en_US&gl=US) | [App Store](https://apps.apple.com/us/app/mobile-nebula/id1509587936)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991028,
+      "status": "candidate",
+      "text": "fog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039724,
+      "status": "candidate",
+      "text": "nubecula"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039723,
+      "status": "candidate",
+      "text": "nebulium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039722,
+      "status": "candidate",
+      "text": "planetary nebula"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039721,
+      "status": "candidate",
+      "text": "nebulation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nebula",
+      "sense_id": "nebula#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nebula",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nebula",
+  "observation_id": "7938caf7767f9c7d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "nebula",
+  "source_context_snippet": "[Play Store](https://play.google.com/store/apps/details?id=net.defined.mobile_nebula&hl=en_US&gl=US) | [App Store](https://apps.apple.com/us/app/mobile-nebula/id1509587936)",
+  "source_file": null,
+  "source_repo": "DefinedNet/mobile_nebula",
+  "source_repo_description": "Brings nebula to mobile devices (iOS, Android)"
+}

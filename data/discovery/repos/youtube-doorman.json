@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "youtube/doorman",
+      "target": "coreos/etcd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:39:34.256725+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Doorman: Global Distributed Client Side Rate Limiting.",
+    "fork": false,
+    "full_name": "youtube/doorman",
+    "html_url": "https://github.com/youtube/doorman",
+    "language": "Go",
+    "pushed_at": "2023-09-26T14:11:32Z",
+    "stargazers_count": 1947,
+    "topics": [],
+    "updated_at": "2026-04-09T09:35:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreos/etcd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

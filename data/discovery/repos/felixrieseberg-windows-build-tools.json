@@ -1,0 +1,288 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "debug",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "in-gfw",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nugget",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "string-width",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/chalk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/fs-extra",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ts-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tslint-microsoft-contrib",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "in-gfw",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "nugget",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "string-width",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "@types/chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "@types/fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "@types/jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "ts-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "tslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "tslint-microsoft-contrib",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "node-gyp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:44:49.819165+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10709
+    },
+    {
+      "path": "package.json",
+      "size": 1776
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": ":package: Install C++ Build Tools for Windows using npm",
+    "fork": false,
+    "full_name": "felixrieseberg/windows-build-tools",
+    "html_url": "https://github.com/felixrieseberg/windows-build-tools",
+    "language": "TypeScript",
+    "pushed_at": "2021-06-20T20:01:54Z",
+    "stargazers_count": 3415,
+    "topics": [
+      "build-tool",
+      "microsoft",
+      "node-gyp",
+      "nodejs",
+      "npm",
+      "python",
+      "vcc",
+      "windows"
+    ],
+    "updated_at": "2026-04-18T20:45:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    },
+    {
+      "context_snippet": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-gyp"
+    },
+    {
+      "context_snippet": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

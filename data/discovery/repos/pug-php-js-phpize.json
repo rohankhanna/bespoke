@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "qltysh/qlty-action/coverage@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pug-php/js-phpize",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pug-php/js-phpize",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pug-php/js-phpize",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pug-php/js-phpize",
+      "target": "qltysh/qlty-action/coverage@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pug-php/js-phpize",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pug-php/js-phpize",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pug-php/js-phpize",
+      "target": "convert-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pug-php/js-phpize",
+      "target": "transpiler",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:31:12.702202+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1977
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 2236
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convert js-like syntax to standalone PHP code.",
+    "fork": false,
+    "full_name": "pug-php/js-phpize",
+    "html_url": "https://github.com/pug-php/js-phpize",
+    "language": "PHP",
+    "pushed_at": "2025-12-02T22:37:19Z",
+    "stargazers_count": 23,
+    "topics": [
+      "convert-js",
+      "php",
+      "transpiler"
+    ],
+    "updated_at": "2026-02-26T08:15:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "[![Latest Stable Version](https://poser.pugx.org/js-phpize/js-phpize/v/stable.png)](https://packagist.org/packages/js-phpize/js-phpize)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convert-js"
+    },
+    {
+      "context_snippet": "[![Latest Stable Version](https://poser.pugx.org/js-phpize/js-phpize/v/stable.png)](https://packagist.org/packages/js-phpize/js-phpize)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transpiler"
+    }
+  ]
+}

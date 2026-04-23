@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "OCI Conformance/Certification Working Group"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/3e16a8a1-e338-4050-a39d-426b33f5292a/deploy-status)](https://app.netlify.com/sites/oci-conformance/deploys)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/3e16a8a1-e338-4050-a39d-426b33f5292a/deploy-status)](https://app.netlify.com/sites/oci-conformance/deploys)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987696,
+      "status": "candidate",
+      "text": "certificate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987554,
+      "status": "candidate",
+      "text": "credential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987215,
+      "status": "candidate",
+      "text": "authentication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983830,
+      "status": "candidate",
+      "text": "credentials"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983236,
+      "status": "candidate",
+      "text": "corroboration"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "certification",
+      "sense_id": "certification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15030,
+      "status": "candidate",
+      "text": "corroboration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5045,
+      "status": "candidate",
+      "text": "documentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5030,
+      "status": "candidate",
+      "text": "credentials"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3028,
+      "status": "candidate",
+      "text": "credential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2054,
+      "status": "candidate",
+      "text": "certificate"
+    }
+  ],
+  "concept_id": "certification",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "certification",
+  "observation_id": "1301c9f1765db026",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "certification",
+  "source_context_snippet": "[![Netlify Status](https://api.netlify.com/api/v1/badges/3e16a8a1-e338-4050-a39d-426b33f5292a/deploy-status)](https://app.netlify.com/sites/oci-conformance/deploys)",
+  "source_file": null,
+  "source_repo": "opencontainers/oci-conformance",
+  "source_repo_description": "OCI Conformance/Certification Working Group"
+}

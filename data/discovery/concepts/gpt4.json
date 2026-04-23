@@ -19,6 +19,18 @@
       "source_repo": "microsoft/genaiscript",
       "status": "candidate-context",
       "text": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/graphrag",
+      "status": "candidate-context",
+      "text": "A modular graph-based Retrieval-Augmented Generation (RAG) system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/graphrag",
+      "status": "candidate-context",
+      "text": "\ud83d\udc49 [Microsoft Research Blog Post](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)<br/>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "microsoft/genaiscript",
       "status": "candidate",
       "text": "![A yellow square with the word \"gen\" in lowercase black letters above the uppercase black letters \"AI.\"](./docs/public/images/favicon.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/graphrag",
+      "status": "candidate",
+      "text": "\ud83d\udc49 [Microsoft Research Blog Post](https://www.microsoft.com/en-us/research/blog/graphrag-unlocking-llm-discovery-on-narrative-private-data/)<br/>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "microsoft/genaiscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/graphrag"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

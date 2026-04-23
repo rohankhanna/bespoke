@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Vaishnav-Sabari-Girish/rust_bangalore_oct_2025",
+      "target": "vaishnav-sabari-girish/hayasen",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:48.512221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "My presentation for the Rust Bangalore October 2025 Meetup",
+    "fork": false,
+    "full_name": "Vaishnav-Sabari-Girish/rust_bangalore_oct_2025",
+    "html_url": "https://github.com/Vaishnav-Sabari-Girish/rust_bangalore_oct_2025",
+    "language": "Rust",
+    "pushed_at": "2025-12-24T07:05:30Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-12-24T07:05:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vaishnav-sabari-girish/hayasen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

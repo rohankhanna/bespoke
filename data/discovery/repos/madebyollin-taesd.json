@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "madebyollin/taesd",
+      "target": "madebyollin/taehv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "madebyollin/taesd",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "madebyollin/taesd",
+      "target": "cumulo-autumn/streamdiffusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "madebyollin/taesd",
+      "target": "madebyollin/taem1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:34:53.531268+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8770
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tiny AutoEncoder for Stable Diffusion (and other image models)",
+    "fork": false,
+    "full_name": "madebyollin/taesd",
+    "html_url": "https://github.com/madebyollin/taesd",
+    "language": "Python",
+    "pushed_at": "2026-01-23T16:26:25Z",
+    "stargazers_count": 918,
+    "topics": [],
+    "updated_at": "2026-04-21T10:22:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cumulo-autumn/streamdiffusion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "madebyollin/taehv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "madebyollin/taem1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

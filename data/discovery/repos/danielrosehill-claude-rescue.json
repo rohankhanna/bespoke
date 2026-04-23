@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Rescue",
+      "target": "danielrosehill/claude-code-repos-index",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Rescue",
+      "target": "danielrosehill/github-master-index",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:36:53.474231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2959
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "WIP/Plan/Idea: System recovery/rescue utility that seeds Claude Code installation for AI-assisted repair from TTYS/shell",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Rescue",
+    "html_url": "https://github.com/danielrosehill/Claude-Rescue",
+    "language": null,
+    "pushed_at": "2025-11-25T13:41:51Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-11-25T13:41:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-repos-index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/github-master-index",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

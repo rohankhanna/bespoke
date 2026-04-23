@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "phantomjs-prebuilt",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asciinema/asciicast2gif",
+      "target": "asciinema/asciinema-player",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asciinema/asciicast2gif",
+      "target": "kornelski/giflossy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asciinema/asciicast2gif",
+      "target": "marionebl/svg-term-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asciinema/asciicast2gif",
+      "target": "anishkny/webgif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "asciinema/asciicast2gif",
+      "target": "phantomjs-prebuilt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asciinema/asciicast2gif",
+      "target": "terminal-recording",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:34:59.527646+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7196
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1763
+    },
+    {
+      "path": "package.json",
+      "size": 1006
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Generate GIF animations from asciicasts (asciinema recordings)",
+    "fork": false,
+    "full_name": "asciinema/asciicast2gif",
+    "html_url": "https://github.com/asciinema/asciicast2gif",
+    "language": "CSS",
+    "pushed_at": "2022-08-14T10:41:05Z",
+    "stargazers_count": 1212,
+    "topics": [
+      "gif",
+      "terminal-recording"
+    ],
+    "updated_at": "2026-04-08T19:05:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anishkny/webgif",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asciinema/asciinema-player",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kornelski/giflossy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marionebl/svg-term-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**This project is no longer maintained.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-recording"
+    }
+  ]
+}

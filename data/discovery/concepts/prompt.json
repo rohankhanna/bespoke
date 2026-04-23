@@ -115,6 +115,54 @@
       "source_repo": "powerline/powerline",
       "status": "candidate-context",
       "text": "Powerline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "status": "candidate-context",
+      "text": "Checkbox with autocomplete and other additions for Inquirer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "status": "candidate-context",
+      "text": "A plugin for [Inquirer](https://github.com/SBoudrias/Inquirer.js), similar to the original checkbox with extra features."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "denysdovhan/robbyrussell-node",
+      "status": "candidate-context",
+      "text": "Cross-shell robbyrussell theme written in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denysdovhan/robbyrussell-node",
+      "status": "candidate-context",
+      "text": "![robbyrussell-img][robbyrussell-img]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reujab/silver",
+      "status": "candidate-context",
+      "text": "A cross-shell customizable powerline-like prompt with icons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reujab/silver",
+      "status": "candidate-context",
+      "text": "[package] name = \"silver\" version = \"2.0.1\" authors = [\"reujab <reujab@gmail.com>\"] description = \"A cross-shell customizable powerline-like prompt with icons\" repository = \"https://github.com/reujab/silver\" readme = \"readme.md\" keywords = [\"shell\", \"prompt\", \"powerline\", \"agnos\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "c-bata/go-prompt",
+      "status": "candidate-context",
+      "text": "Building powerful interactive prompts in Go, inspired by python-prompt-toolkit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/go-prompt",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/c-bata/go-prompt)](https://goreportcard.com/report/github.com/c-bata/go-prompt)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +219,30 @@
       "source_repo": "powerline/powerline",
       "status": "candidate",
       "text": "Powerline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt",
+      "status": "candidate",
+      "text": "A plugin for [Inquirer](https://github.com/SBoudrias/Inquirer.js), similar to the original checkbox with extra features."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denysdovhan/robbyrussell-node",
+      "status": "candidate",
+      "text": "![robbyrussell-img][robbyrussell-img]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reujab/silver",
+      "status": "candidate",
+      "text": "[package] name = \"silver\" version = \"2.0.1\" authors = [\"reujab <reujab@gmail.com>\"] description = \"A cross-shell customizable powerline-like prompt with icons\" repository = \"https://github.com/reujab/silver\" readme = \"readme.md\" keywords = [\"shell\", \"prompt\", \"powerline\", \"agnos\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "c-bata/go-prompt",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/c-bata/go-prompt)](https://goreportcard.com/report/github.com/c-bata/go-prompt)"
     }
   ],
   "candidate_related_terms": [
@@ -310,11 +382,41 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "powerline/powerline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "faressoft/inquirer-checkbox-plus-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "denysdovhan/robbyrussell-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "reujab/silver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "c-bata/go-prompt"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "basf/neural-fingerprint-uncertainty",
+      "target": "chemprop/chemprop",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:30:40.783681+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4121
+    },
+    {
+      "path": "requirements.txt",
+      "size": 124
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "basf/neural-fingerprint-uncertainty",
+    "html_url": "https://github.com/basf/neural-fingerprint-uncertainty",
+    "language": "Python",
+    "pushed_at": "2024-07-25T16:43:24Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-09-13T08:26:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chemprop/chemprop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

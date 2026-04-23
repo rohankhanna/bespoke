@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Labeler: Cache Retention"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/core",
+      "status": "candidate-context",
+      "text": ".NET news, announcements, release notes, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/core",
+      "status": "candidate-context",
+      "text": "\"Labeler: Cache Retention\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "status": "candidate-context",
+      "text": ".NET API reference documentation (.NET 5+, .NET Core, .NET Framework)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "status": "candidate-context",
+      "text": "\"Labeler: Cache Retention\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/core",
+      "status": "candidate",
+      "text": "\"Labeler: Cache Retention\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "status": "candidate",
+      "text": "\"Labeler: Cache Retention\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11648,
+      "status": "candidate",
+      "text": "reserves"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10615,
+      "status": "candidate",
+      "text": "arms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10615,
+      "status": "candidate",
+      "text": "cached"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10615,
+      "status": "candidate",
+      "text": "depot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10615,
+      "status": "candidate",
+      "text": "hid"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Labeler: Cache Retention",
+  "concept_id": "labeler-cache-retention",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "dotnet/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "dotnet/dotnet-api-docs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Labeler: Cache Retention",
+      "sense_id": "labeler-cache-retention#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

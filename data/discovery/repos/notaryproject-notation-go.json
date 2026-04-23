@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml"
+    },
+    {
+      "component": "notaryproject/notation-core-go/.github/workflows/reusable-build.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "notaryproject/notation-core-go/.github/workflows/reusable-codeql.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "notaryproject/notation-core-go/.github/workflows/reusable-license-checker.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "notaryproject/notation-go",
+      "target": "actions/add-to-project@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "notaryproject/notation-go",
+      "target": "notaryproject/notation-core-go/.github/workflows/reusable-build.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "notaryproject/notation-go",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "notaryproject/notation-go",
+      "target": "notaryproject/notation-core-go/.github/workflows/reusable-codeql.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "notaryproject/notation-go",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "notaryproject/notation-go",
+      "target": "notaryproject/notation-core-go/.github/workflows/reusable-license-checker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "notaryproject/notation-go",
+      "target": "License Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "notaryproject/notation-go",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "notaryproject/notation-go",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:31:35.108127+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1904
+    },
+    {
+      "path": "go.mod",
+      "size": 866
+    },
+    {
+      "path": ".github/workflows/add-to-project.yml",
+      "size": 901
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 875
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 854
+    },
+    {
+      "path": ".github/workflows/license-checker.yml",
+      "size": 894
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A collection of libraries for supporting sign and verify OCI artifacts. Based on Notary Project specifications.",
+    "fork": false,
+    "full_name": "notaryproject/notation-go",
+    "html_url": "https://github.com/notaryproject/notation-go",
+    "language": "Go",
+    "pushed_at": "2026-04-13T00:42:37Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-03-27T12:44:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "License Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yml",
+      "term": "License Checker"
+    },
+    {
+      "context_snippet": "\"Close stale issues and PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    }
+  ]
+}

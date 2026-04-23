@@ -1,0 +1,62 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agarthetiger/mkdocs_latest_release_plugin",
+      "target": "mkdocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "agarthetiger/mkdocs_latest_release_plugin",
+      "target": "mkdocs-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:43:56.458528+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 0
+    },
+    {
+      "path": "requirements.txt",
+      "size": 495
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plugin for MKDocs to inject the latest release tag from git into markdown",
+    "fork": false,
+    "full_name": "agarthetiger/mkdocs_latest_release_plugin",
+    "html_url": "https://github.com/agarthetiger/mkdocs_latest_release_plugin",
+    "language": "Python",
+    "pushed_at": "2022-12-08T04:53:03Z",
+    "stargazers_count": 2,
+    "topics": [
+      "mkdocs",
+      "mkdocs-plugin"
+    ],
+    "updated_at": "2024-11-23T05:15:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "bleach==3.1.0 certifi==2019.3.9 chardet==3.0.4 Click==7.0 docutils==0.14 gitdb2==2.0.5 GitPython==2.1.11 idna==2.8 Jinja2==2.10 livereload==2.6.0 Markdown==3.0.1 MarkupSafe==1.1.1 mkdocs==1.0.4 mkdocs-git-revision-date-plugin==0.1.5 mkdocs-material==4.0.2 pkginfo==1.5.0.1 Pygmen\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mkdocs"
+    },
+    {
+      "context_snippet": "bleach==3.1.0 certifi==2019.3.9 chardet==3.0.4 Click==7.0 docutils==0.14 gitdb2==2.0.5 GitPython==2.1.11 idna==2.8 Jinja2==2.10 livereload==2.6.0 Markdown==3.0.1 MarkupSafe==1.1.1 mkdocs==1.0.4 mkdocs-git-revision-date-plugin==0.1.5 mkdocs-material==4.0.2 pkginfo==1.5.0.1 Pygmen\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mkdocs-plugin"
+    }
+  ]
+}

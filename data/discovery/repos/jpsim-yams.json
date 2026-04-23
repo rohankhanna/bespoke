@@ -1,0 +1,452 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "bazelbuild/setup-bazelisk@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint_analyze.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml"
+    },
+    {
+      "component": "SwiftyLab/setup-swift@4bbb093f8c68d1dee1caa8b67c681a3f8fe70a91",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml"
+    },
+    {
+      "component": "skiptools/swift-android-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodebuild.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpsim/Yams",
+      "target": "yaml/libyaml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "bazelbuild/setup-bazelisk@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "CMake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "Jazzy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "SwiftLint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint_analyze.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftlint_analyze.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "SwiftLint Analyze",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "SwiftyLab/setup-swift@4bbb093f8c68d1dee1caa8b67c681a3f8fe70a91",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "skiptools/swift-android-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftpm.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "SwiftPM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodebuild.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/xcodebuild.yml",
+      "source_repo": "jpsim/Yams",
+      "target": "xcodebuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpsim/Yams",
+      "target": "libyaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpsim/Yams",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpsim/Yams",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpsim/Yams",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jpsim/Yams",
+      "target": "yaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:38:46.352315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6935
+    },
+    {
+      "path": ".github/workflows/bazel.yml",
+      "size": 1152
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 2540
+    },
+    {
+      "path": ".github/workflows/jazzy.yml",
+      "size": 2151
+    },
+    {
+      "path": ".github/workflows/nightly.yml",
+      "size": 910
+    },
+    {
+      "path": ".github/workflows/swiftlint.yml",
+      "size": 426
+    },
+    {
+      "path": ".github/workflows/swiftlint_analyze.yml",
+      "size": 1127
+    },
+    {
+      "path": ".github/workflows/swiftpm.yml",
+      "size": 4228
+    },
+    {
+      "path": ".github/workflows/xcodebuild.yml",
+      "size": 5689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Sweet and Swifty YAML parser.",
+    "fork": false,
+    "full_name": "jpsim/Yams",
+    "html_url": "https://github.com/jpsim/Yams",
+    "language": "Swift",
+    "pushed_at": "2026-04-08T07:02:12Z",
+    "stargazers_count": 1242,
+    "topics": [
+      "ios",
+      "libyaml",
+      "linux",
+      "macos",
+      "swift",
+      "yaml"
+    ],
+    "updated_at": "2026-04-19T18:45:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yaml/libyaml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "term": "Bazel"
+    },
+    {
+      "context_snippet": "CMake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "CMake"
+    },
+    {
+      "context_snippet": "Jazzy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jazzy.yml",
+      "term": "Jazzy"
+    },
+    {
+      "context_snippet": "Nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly.yml",
+      "term": "Nightly"
+    },
+    {
+      "context_snippet": "SwiftLint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "term": "SwiftLint"
+    },
+    {
+      "context_snippet": "SwiftLint Analyze",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftlint_analyze.yml",
+      "term": "SwiftLint Analyze"
+    },
+    {
+      "context_snippet": "SwiftPM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftpm.yml",
+      "term": "SwiftPM"
+    },
+    {
+      "context_snippet": "xcodebuild",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/xcodebuild.yml",
+      "term": "xcodebuild"
+    },
+    {
+      "context_snippet": "![Yams](https://raw.githubusercontent.com/jpsim/Yams/main/yams.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libyaml"
+    },
+    {
+      "context_snippet": "![Yams](https://raw.githubusercontent.com/jpsim/Yams/main/yams.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "![Yams](https://raw.githubusercontent.com/jpsim/Yams/main/yams.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "![Yams](https://raw.githubusercontent.com/jpsim/Yams/main/yams.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "![Yams](https://raw.githubusercontent.com/jpsim/Yams/main/yams.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    }
+  ]
+}

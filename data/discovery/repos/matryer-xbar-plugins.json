@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matryer/xbar-plugins",
+      "target": "bitbar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matryer/xbar-plugins",
+      "target": "plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matryer/xbar-plugins",
+      "target": "tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matryer/xbar-plugins",
+      "target": "xbar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:31:07.562133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Plugin repository for xbar (the BitBar reboot)",
+    "fork": false,
+    "full_name": "matryer/xbar-plugins",
+    "html_url": "https://github.com/matryer/xbar-plugins",
+    "language": "Shell",
+    "pushed_at": "2026-04-05T16:38:11Z",
+    "stargazers_count": 2582,
+    "topics": [
+      "bitbar",
+      "plugins",
+      "tools",
+      "xbar"
+    ],
+    "updated_at": "2026-04-21T21:47:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo contains scripts, programs and command-line tools that add functionality to [xbar](https://github.com/matryer/xbar#get-started).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitbar"
+    },
+    {
+      "context_snippet": "This repo contains scripts, programs and command-line tools that add functionality to [xbar](https://github.com/matryer/xbar#get-started).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugins"
+    },
+    {
+      "context_snippet": "This repo contains scripts, programs and command-line tools that add functionality to [xbar](https://github.com/matryer/xbar#get-started).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    },
+    {
+      "context_snippet": "This repo contains scripts, programs and command-line tools that add functionality to [xbar](https://github.com/matryer/xbar#get-started).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xbar"
+    }
+  ]
+}

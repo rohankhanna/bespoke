@@ -1,0 +1,477 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-emulator-tests.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@ed92fe6cadad69be94a966a7ee3271275e62f779",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-emulator-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-emulator-tests.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-emulator-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-jni.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@ed92fe6cadad69be94a966a7ee3271275e62f779",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-jni.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-jni.yml"
+    },
+    {
+      "component": "android-actions/setup-android@651bceb6f9ca583f16b8d75b62c36ded2ae6fc9c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-jni.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-c-warnings.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-disable-gtest.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-format-check.yml"
+    },
+    {
+      "component": "RafikFarhad/clang-format-github-action@40f11200e893c5e48dee28fbfe3da60d6862418d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-format-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-format-check.yml"
+    },
+    {
+      "component": "neg-c/cmake-format-action@v0.1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-format-check.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzztest.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-artifacts.yml"
+    },
+    {
+      "component": "thedoctor0/zip-release@b57d897cb5d60cb78b51a507f63fa184cfe35554",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@e8f9f06c4b078e705bd2ea027f0926603fc9b4d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-artifacts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-artifacts.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-coverage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-coverage.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-golden-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-golden-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "xiph/rav1e",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "cheshirekow/cmake_format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-emulator-tests.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-emulator-tests.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "nttld/setup-ndk@ed92fe6cadad69be94a966a7ee3271275e62f779",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-emulator-tests.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-emulator-tests.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "reactivecircus/android-emulator-runner@e89f39f1abbbd05b1113a29cf4db69e7540cae5a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-android-emulator-tests.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "CI Android Emulator Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-jni.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-jni.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "nttld/setup-ndk@ed92fe6cadad69be94a966a7ee3271275e62f779",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-jni.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-android-jni.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "android-actions/setup-android@651bceb6f9ca583f16b8d75b62c36ded2ae6fc9c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-android-jni.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "CI Android JNI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-c-warnings.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-c-warnings.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "CI C conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-disable-gtest.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-disable-gtest.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "CI Disable GTest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-format-check.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-format-check.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "RafikFarhad/clang-format-github-action@40f11200e893c5e48dee28fbfe3da60d6862418d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-format-check.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "neg-c/cmake-format-action@v0.1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-format-check.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "CI Format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-fuzztest.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-fuzztest.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "CI Fuzztest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-artifacts.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-artifacts.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "thedoctor0/zip-release@b57d897cb5d60cb78b51a507f63fa184cfe35554",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-artifacts.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/upload-release-asset@e8f9f06c4b078e705bd2ea027f0926603fc9b4d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-artifacts.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/upload-artifact@50769540e7f4bd5e21e526ee35c689e35e0d6874",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linux-artifacts.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "CI Linux Release Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-coverage.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-coverage.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linux-coverage.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "CI Linux Code Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-golden-tests.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux-golden-tests.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linux-golden-tests.yml",
+      "source_repo": "AOMediaCodec/libavif",
+      "target": "CI Linux Golden Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:46:48.882999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7905
+    },
+    {
+      "path": ".github/workflows/ci-android-emulator-tests.yml",
+      "size": 2243
+    },
+    {
+      "path": ".github/workflows/ci-android-jni.yml",
+      "size": 1750
+    },
+    {
+      "path": ".github/workflows/ci-c-warnings.yml",
+      "size": 3543
+    },
+    {
+      "path": ".github/workflows/ci-disable-gtest.yml",
+      "size": 2097
+    },
+    {
+      "path": ".github/workflows/ci-format-check.yml",
+      "size": 1031
+    },
+    {
+      "path": ".github/workflows/ci-fuzztest.yml",
+      "size": 2082
+    },
+    {
+      "path": ".github/workflows/ci-linux-artifacts.yml",
+      "size": 2312
+    },
+    {
+      "path": ".github/workflows/ci-linux-coverage.yml",
+      "size": 2186
+    },
+    {
+      "path": ".github/workflows/ci-linux-golden-tests.yml",
+      "size": 3136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "libavif - Library for encoding and decoding .avif files",
+    "fork": false,
+    "full_name": "AOMediaCodec/libavif",
+    "html_url": "https://github.com/AOMediaCodec/libavif",
+    "language": "C",
+    "pushed_at": "2026-04-20T22:33:28Z",
+    "stargazers_count": 2051,
+    "topics": [],
+    "updated_at": "2026-04-22T18:09:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cheshirekow/cmake_format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xiph/rav1e",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Android Emulator Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-android-emulator-tests.yml",
+      "term": "CI Android Emulator Tests"
+    },
+    {
+      "context_snippet": "CI Android JNI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-android-jni.yml",
+      "term": "CI Android JNI"
+    },
+    {
+      "context_snippet": "CI C conformance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-c-warnings.yml",
+      "term": "CI C conformance"
+    },
+    {
+      "context_snippet": "CI Disable GTest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-disable-gtest.yml",
+      "term": "CI Disable GTest"
+    },
+    {
+      "context_snippet": "CI Format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-format-check.yml",
+      "term": "CI Format Check"
+    },
+    {
+      "context_snippet": "CI Fuzztest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-fuzztest.yml",
+      "term": "CI Fuzztest"
+    },
+    {
+      "context_snippet": "CI Linux Release Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linux-artifacts.yml",
+      "term": "CI Linux Release Artifacts"
+    },
+    {
+      "context_snippet": "CI Linux Code Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linux-coverage.yml",
+      "term": "CI Linux Code Coverage"
+    },
+    {
+      "context_snippet": "CI Linux Golden Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linux-golden-tests.yml",
+      "term": "CI Linux Golden Tests"
+    }
+  ]
+}

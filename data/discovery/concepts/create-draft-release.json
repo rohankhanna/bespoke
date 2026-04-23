@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Create draft release"
+    "Create draft release",
+    "Create Draft Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "Anaminus/rbxmk",
       "status": "candidate-context",
       "text": "Create draft release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/react-native",
+      "status": "candidate-context",
+      "text": "A framework for building native applications using React"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native",
+      "status": "candidate-context",
+      "text": "Create Draft Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/react-native-macos",
+      "status": "candidate-context",
+      "text": "A framework for building native macOS apps with React."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-macos",
+      "status": "candidate-context",
+      "text": "Create Draft Release"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "Anaminus/rbxmk",
       "status": "candidate",
       "text": "Create draft release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/react-native",
+      "status": "candidate",
+      "text": "Create Draft Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-macos",
+      "status": "candidate",
+      "text": "Create Draft Release"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "Anaminus/rbxmk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/create-draft-release.yml",
+      "source_repo": "facebook/react-native"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/create-draft-release.yml",
+      "source_repo": "microsoft/react-native-macos"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

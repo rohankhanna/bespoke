@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deoplete-plugins/deoplete-jedi",
+      "target": "neovim/python-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deoplete-plugins/deoplete-jedi",
+      "target": "deoplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deoplete-plugins/deoplete-jedi",
+      "target": "deoplete-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deoplete-plugins/deoplete-jedi",
+      "target": "jedi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deoplete-plugins/deoplete-jedi",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deoplete-plugins/deoplete-jedi",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:30:12.664417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3393
+    },
+    {
+      "path": "Dockerfile",
+      "size": 525
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "deoplete.nvim source for Python",
+    "fork": false,
+    "full_name": "deoplete-plugins/deoplete-jedi",
+    "html_url": "https://github.com/deoplete-plugins/deoplete-jedi",
+    "language": "Python",
+    "pushed_at": "2022-11-15T05:08:11Z",
+    "stargazers_count": 586,
+    "topics": [
+      "deoplete",
+      "deoplete-source",
+      "jedi",
+      "neovim",
+      "neovim-plugin",
+      "python"
+    ],
+    "updated_at": "2026-04-22T09:52:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neovim/python-client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[deoplete.nvim](https://github.com/Shougo/deoplete.nvim) source for [jedi](https://github.com/davidhalter/jedi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deoplete"
+    },
+    {
+      "context_snippet": "[deoplete.nvim](https://github.com/Shougo/deoplete.nvim) source for [jedi](https://github.com/davidhalter/jedi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deoplete-source"
+    },
+    {
+      "context_snippet": "[deoplete.nvim](https://github.com/Shougo/deoplete.nvim) source for [jedi](https://github.com/davidhalter/jedi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jedi"
+    },
+    {
+      "context_snippet": "[deoplete.nvim](https://github.com/Shougo/deoplete.nvim) source for [jedi](https://github.com/davidhalter/jedi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[deoplete.nvim](https://github.com/Shougo/deoplete.nvim) source for [jedi](https://github.com/davidhalter/jedi).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

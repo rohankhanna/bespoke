@@ -67,6 +67,42 @@
       "source_repo": "josStorer/RWKV-Runner",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate-context",
+      "text": "A general purpose syntax highlighter in pure Go "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate-context",
+      "text": "![Chroma](chroma.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate-context",
+      "text": "A command-line benchmarking tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate-context",
+      "text": "[![CICD](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/fastify-cli",
+      "status": "candidate-context",
+      "text": "Run a Fastify application with one command!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify-cli",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/fastify/fastify-cli/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/fastify-cli/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "josStorer/RWKV-Runner",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate",
+      "text": "![Chroma](chroma.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sharkdp/hyperfine",
+      "status": "candidate",
+      "text": "[![CICD](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml/badge.svg)](https://github.com/sharkdp/hyperfine/actions/workflows/CICD.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify-cli",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/fastify/fastify-cli/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/fastify/fastify-cli/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +262,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "josStorer/RWKV-Runner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alecthomas/chroma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sharkdp/hyperfine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fastify/fastify-cli"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,42 @@
       "source_repo": "lerna-lite/lerna-lite",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/changelog",
+      "status": "candidate-context",
+      "text": "\ud83d\udcc3semantic-release plugin to create or update a changelog file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/changelog",
+      "status": "candidate-context",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to create or update a changelog file."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/commit-analyzer",
+      "status": "candidate-context",
+      "text": ":bulb: semantic-release plugin to analyze commits with conventional-changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/commit-analyzer",
+      "status": "candidate-context",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to analyze commits with [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/git",
+      "status": "candidate-context",
+      "text": ":twisted_rightwards_arrows: semantic-release plugin to commit release assets to the project's git repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/git",
+      "status": "candidate-context",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to commit release assets to the project's [git](https://git-scm.com/) repository."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "lerna-lite/lerna-lite",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/changelog",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to create or update a changelog file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/commit-analyzer",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to analyze commits with [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/git",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to commit release assets to the project's [git](https://git-scm.com/) repository."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "lerna-lite/lerna-lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/commit-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/git"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GaoYusong/llm.cpp",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:40:06.841740+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4343
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A C++ port of karpathy/llm.c features a tiny torch library while maintaining overall simplicity.",
+    "fork": false,
+    "full_name": "GaoYusong/llm.cpp",
+    "html_url": "https://github.com/GaoYusong/llm.cpp",
+    "language": "C++",
+    "pushed_at": "2026-04-07T08:43:15Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2026-04-19T07:00:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

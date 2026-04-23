@@ -1,0 +1,305 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "anyvoiceai/masstts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "jaywalnut310/vits",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "innnky/emotional-vits",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "jiangyuxiaoxiao/bert-vits2-ui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "stefanzweifel/git-auto-commit-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_format.yml",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "pull format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_format.yml",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "peter-evans/create-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_format.yml",
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "push format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "bert-vits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "bert-vits2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "fish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "fish-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "vits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "vits2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fishaudio/Bert-VITS2",
+      "target": "vocoder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:33:40.582550+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2191
+    },
+    {
+      "path": "requirements.txt",
+      "size": 375
+    },
+    {
+      "path": ".github/workflows/pull_format.yml",
+      "size": 917
+    },
+    {
+      "path": ".github/workflows/push_format.yml",
+      "size": 1368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "vits2 backbone with multilingual-bert",
+    "fork": false,
+    "full_name": "fishaudio/Bert-VITS2",
+    "html_url": "https://github.com/fishaudio/Bert-VITS2",
+    "language": "Python",
+    "pushed_at": "2026-04-20T18:43:31Z",
+    "stargazers_count": 8728,
+    "topics": [
+      "agent",
+      "bert",
+      "bert-vits",
+      "bert-vits2",
+      "fish",
+      "fish-speech",
+      "llm",
+      "tts",
+      "vits",
+      "vits2",
+      "vocoder"
+    ],
+    "updated_at": "2026-04-22T16:06:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anyvoiceai/masstts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "innnky/emotional-vits",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jaywalnut310/vits",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiangyuxiaoxiao/bert-vits2-ui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "pull format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_format.yml",
+      "term": "pull format"
+    },
+    {
+      "context_snippet": "push format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push_format.yml",
+      "term": "push format"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert-vits"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert-vits2"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fish-speech"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vits2"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocoder"
+    }
+  ]
+}

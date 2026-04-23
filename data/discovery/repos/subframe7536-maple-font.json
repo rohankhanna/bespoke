@@ -1,0 +1,369 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "subframe7536/maple-font",
+      "target": "cyanohao/resource-han-rounded",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "subframe7536/maple-font",
+      "target": "jetbrains/jetbrainsmono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "subframe7536/maple-font",
+      "target": "googlefonts/robotomono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "subframe7536/maple-font",
+      "target": "eigilnikolajsen/commit-mono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom.yml",
+      "source_repo": "subframe7536/maple-font",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom.yml",
+      "source_repo": "subframe7536/maple-font",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom.yml",
+      "source_repo": "subframe7536/maple-font",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/custom.yml",
+      "source_repo": "subframe7536/maple-font",
+      "target": "Custom Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "subframe7536/maple-font",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "subframe7536/maple-font",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "subframe7536/maple-font",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "subframe7536/maple-font",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "subframe7536/maple-font",
+      "target": "Build All Formats and Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subframe7536/maple-font",
+      "target": "coding-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subframe7536/maple-font",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subframe7536/maple-font",
+      "target": "ligatures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subframe7536/maple-font",
+      "target": "monospace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subframe7536/maple-font",
+      "target": "monospace-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subframe7536/maple-font",
+      "target": "opentype",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subframe7536/maple-font",
+      "target": "programming-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subframe7536/maple-font",
+      "target": "programming-ligatures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subframe7536/maple-font",
+      "target": "typeface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subframe7536/maple-font",
+      "target": "typography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "subframe7536/maple-font",
+      "target": "variable-font",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:42:47.134884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30434
+    },
+    {
+      "path": "Dockerfile",
+      "size": 592
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 301
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3042
+    },
+    {
+      "path": ".github/workflows/custom.yml",
+      "size": 5593
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "variable",
+    "description": "Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. \u5e26\u8fde\u5b57\u548c\u63a7\u5236\u53f0\u56fe\u6807\u7684\u5706\u89d2\u7b49\u5bbd\u5b57\u4f53\uff0c\u4e2d\u82f1\u6587\u5bbd\u5ea6\u5b8c\u7f8e2:1\uff0c\u7ec6\u7c92\u5ea6\u7684\u81ea\u5b9a\u4e49\u9009\u9879",
+    "fork": false,
+    "full_name": "subframe7536/maple-font",
+    "html_url": "https://github.com/subframe7536/maple-font",
+    "language": "Python",
+    "pushed_at": "2026-04-05T07:58:35Z",
+    "stargazers_count": 25403,
+    "topics": [
+      "coding-font",
+      "font",
+      "ligatures",
+      "monospace",
+      "monospace-font",
+      "opentype",
+      "programming-font",
+      "programming-ligatures",
+      "typeface",
+      "typography",
+      "variable-font"
+    ],
+    "updated_at": "2026-04-23T06:32:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyanohao/resource-han-rounded",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eigilnikolajsen/commit-mono",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/robotomono",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jetbrains/jetbrainsmono",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Custom Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/custom.yml",
+      "term": "Custom Build"
+    },
+    {
+      "context_snippet": "Build All Formats and Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Build All Formats and Release"
+    },
+    {
+      "context_snippet": "![Cover](./resources/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coding-font"
+    },
+    {
+      "context_snippet": "![Cover](./resources/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "![Cover](./resources/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ligatures"
+    },
+    {
+      "context_snippet": "![Cover](./resources/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monospace"
+    },
+    {
+      "context_snippet": "![Cover](./resources/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monospace-font"
+    },
+    {
+      "context_snippet": "![Cover](./resources/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentype"
+    },
+    {
+      "context_snippet": "![Cover](./resources/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-font"
+    },
+    {
+      "context_snippet": "![Cover](./resources/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-ligatures"
+    },
+    {
+      "context_snippet": "![Cover](./resources/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    },
+    {
+      "context_snippet": "![Cover](./resources/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typography"
+    },
+    {
+      "context_snippet": "![Cover](./resources/header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "variable-font"
+    }
+  ]
+}

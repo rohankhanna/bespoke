@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "example"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morrys/offline-examples",
+      "status": "candidate-context",
+      "text": "Relay and Apollo Offline Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/offline-examples",
+      "status": "candidate-context",
+      "text": "A collection of example applications using [react-relay-offline](https://github.com/morrys/react-relay-offline)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casbin-rs/examples",
+      "status": "candidate-context",
+      "text": "Examples for Casbin-RS Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casbin-rs/examples",
+      "status": "candidate-context",
+      "text": "A curated list of examples related to [casbin-rs](https://github.com/casbin/casbin-rs). A curated list of examples related to [casbin-rs](https://github.com/casbin/casbin-rs)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/offline-examples",
+      "status": "candidate",
+      "text": "A collection of example applications using [react-relay-offline](https://github.com/morrys/react-relay-offline)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casbin-rs/examples",
+      "status": "candidate",
+      "text": "A curated list of examples related to [casbin-rs](https://github.com/casbin/casbin-rs). A curated list of examples related to [casbin-rs](https://github.com/casbin/casbin-rs)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032941,
+      "status": "candidate",
+      "text": "representative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032242,
+      "status": "candidate",
+      "text": "exemplar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031756,
+      "status": "candidate",
+      "text": "object lesson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029835,
+      "status": "candidate",
+      "text": "lesson"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022349,
+      "status": "candidate",
+      "text": "illustration"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41087,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33077,
+      "status": "candidate",
+      "text": "model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29035,
+      "status": "candidate",
+      "text": "exemplar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24048,
+      "status": "candidate",
+      "text": "representative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17047,
+      "status": "candidate",
+      "text": "instance"
+    }
+  ],
+  "canonical_name": "example",
+  "concept_id": "example",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "morrys/offline-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "casbin-rs/examples"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "example",
+      "sense_id": "example#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

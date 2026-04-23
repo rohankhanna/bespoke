@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release_plugins.yml",
       "source_repo": "darkweak/souin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/generate_release.sh",
+      "source_repo": "darkweak/storages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "darkweak/storages"
     }
   ],
   "term": "Tag submodules on release"

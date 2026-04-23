@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/nccl",
+      "target": "nvidia/nccl-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/nccl",
+      "target": "communications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/nccl",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/nccl",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NVIDIA/nccl",
+      "target": "nvidia",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:43:48.312986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2542
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Optimized primitives for collective multi-GPU communication",
+    "fork": false,
+    "full_name": "NVIDIA/nccl",
+    "html_url": "https://github.com/NVIDIA/nccl",
+    "language": "C++",
+    "pushed_at": "2026-04-22T23:51:39Z",
+    "stargazers_count": 4641,
+    "topics": [
+      "communications",
+      "cpp",
+      "cuda",
+      "deep-learning",
+      "gpu",
+      "nvidia"
+    ],
+    "updated_at": "2026-04-23T00:51:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nccl-tests",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Optimized primitives for inter-GPU communication.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "communications"
+    },
+    {
+      "context_snippet": "Optimized primitives for inter-GPU communication.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "Optimized primitives for inter-GPU communication.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Optimized primitives for inter-GPU communication.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    }
+  ]
+}

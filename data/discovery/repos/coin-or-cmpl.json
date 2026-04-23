@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Cmpl",
+      "target": "mikesteglich/cmpl2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Cmpl",
+      "target": "mikesteglich/coliop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Cmpl",
+      "target": "mikesteglich/pycmpl3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "coin-or/Cmpl",
+      "target": "mikesteglich/jcmpl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:40:52.800073+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "<Coliop|Coin> Mathematical Programming Language",
+    "fork": false,
+    "full_name": "coin-or/Cmpl",
+    "html_url": "https://github.com/coin-or/Cmpl",
+    "language": "C++",
+    "pushed_at": "2024-07-11T14:39:41Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-01-31T21:32:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikesteglich/cmpl2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikesteglich/coliop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikesteglich/jcmpl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikesteglich/pycmpl3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

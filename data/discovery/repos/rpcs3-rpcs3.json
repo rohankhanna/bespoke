@@ -1,0 +1,472 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "actions/cache/restore@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "actions/cache/save@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qt-ts.yml"
+    },
+    {
+      "component": "actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qt-ts.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/restore@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/save@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/restore@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/restore@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/save@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/save@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "nuget/setup-nuget@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/restore@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/restore@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/save@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/save@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/restore@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/save@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/restore@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    },
+    {
+      "component": "actions/cache/save@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "actions/cache/restore@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "microsoft/setup-msbuild@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "actions/cache/save@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llvm.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "Build LLVM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qt-ts.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qt-ts.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/qt-ts.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "Generate Translation Template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "actions/cache/restore@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "actions/cache/save@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "nuget/setup-nuget@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "microsoft/setup-msbuild@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rpcs3.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rpcs3.yml",
+      "source_repo": "RPCS3/rpcs3",
+      "target": "Build RPCS3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RPCS3/rpcs3",
+      "target": "assembly-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RPCS3/rpcs3",
+      "target": "emulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RPCS3/rpcs3",
+      "target": "emulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RPCS3/rpcs3",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RPCS3/rpcs3",
+      "target": "llvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RPCS3/rpcs3",
+      "target": "multiplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RPCS3/rpcs3",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RPCS3/rpcs3",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:35:33.893896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2192
+    },
+    {
+      "path": ".github/workflows/llvm.yml",
+      "size": 2307
+    },
+    {
+      "path": ".github/workflows/qt-ts.yml",
+      "size": 789
+    },
+    {
+      "path": ".github/workflows/rpcs3.yml",
+      "size": 17495
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PlayStation 3 emulator and debugger",
+    "fork": false,
+    "full_name": "RPCS3/rpcs3",
+    "html_url": "https://github.com/RPCS3/rpcs3",
+    "language": "C++",
+    "pushed_at": "2026-04-22T13:06:02Z",
+    "stargazers_count": 18625,
+    "topics": [
+      "assembly-language",
+      "c",
+      "cpp",
+      "emulation",
+      "emulator",
+      "hacktoberfest",
+      "llvm",
+      "multiplatform",
+      "opengl",
+      "ps3",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-23T02:42:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build LLVM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llvm.yml",
+      "term": "Build LLVM"
+    },
+    {
+      "context_snippet": "Generate Translation Template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/qt-ts.yml",
+      "term": "Generate Translation Template"
+    },
+    {
+      "context_snippet": "Build RPCS3",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rpcs3.yml",
+      "term": "Build RPCS3"
+    },
+    {
+      "context_snippet": "RPCS3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assembly-language"
+    },
+    {
+      "context_snippet": "RPCS3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emulation"
+    },
+    {
+      "context_snippet": "RPCS3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emulator"
+    },
+    {
+      "context_snippet": "RPCS3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "RPCS3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llvm"
+    },
+    {
+      "context_snippet": "RPCS3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiplatform"
+    },
+    {
+      "context_snippet": "RPCS3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "RPCS3",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

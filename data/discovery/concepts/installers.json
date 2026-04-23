@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "installers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axodotdev/cargo-dist",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 shippable application packaging"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodotdev/cargo-dist",
+      "status": "candidate-context",
+      "text": "<div class=\"oranda-hide\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axodotdev/cargo-dist",
+      "status": "candidate",
+      "text": "<div class=\"oranda-hide\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25102,
+      "status": "candidate",
+      "text": "driver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25102,
+      "status": "candidate",
+      "text": "drivers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25102,
+      "status": "candidate",
+      "text": "drywall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25102,
+      "status": "candidate",
+      "text": "fitters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25102,
+      "status": "candidate",
+      "text": "posers"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "installers",
+  "concept_id": "installers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "axodotdev/cargo-dist"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "installers",
+      "sense_id": "installers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:42:36.545261+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Build latest fish-shell on MSYS2!",
+    "fork": false,
+    "full_name": "Berrysoft/fish-msys2",
+    "html_url": "https://github.com/Berrysoft/fish-msys2",
+    "language": "Shell",
+    "pushed_at": "2025-08-15T13:41:10Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2025-11-13T08:17:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

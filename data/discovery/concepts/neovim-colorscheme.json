@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "neovim-colorscheme"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/tokyonight.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd9  A clean, dark Neovim theme written in Lua, with support for lsp, treesitter and lots of plugins. Includes additional themes for Kitty, Alacritty, iTerm and Fish."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/tokyonight.nvim",
+      "status": "candidate-context",
+      "text": "A dark and light [Neovim](https://github.com/neovim/neovim) theme written in"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/tokyonight.nvim",
+      "status": "candidate",
+      "text": "A dark and light [Neovim](https://github.com/neovim/neovim) theme written in"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "neovim-colorscheme",
+  "concept_id": "neovim-colorscheme",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "folke/tokyonight.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neovim-colorscheme",
+      "sense_id": "neovim-colorscheme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

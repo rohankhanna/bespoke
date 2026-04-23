@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "readme-template"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates",
+      "status": "candidate-context",
+      "text": "This repository contains best profile readme's for your reference. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Oii, eu sou a Julia Krisnarane \ud83d\udc8c\ud83c\udf37<img src=\"https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif\" width=\"30px\"> </h1>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Oii, eu sou a Julia Krisnarane \ud83d\udc8c\ud83c\udf37<img src=\"https://media.giphy.com/media/ObNTw8Uzwy6KQ/giphy.gif\" width=\"30px\"> </h1>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "readme-template",
+  "concept_id": "readme-template",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "durgeshsamariya/awesome-github-profile-readme-templates"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "readme-template",
+      "sense_id": "readme-template#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

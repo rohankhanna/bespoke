@@ -31,6 +31,66 @@
       "source_repo": "haskell/vscode-haskell",
       "status": "candidate-context",
       "text": "[![vsmarketplacebadge](https://vsmarketplacebadges.dev/version/haskell.haskell.png)](https://marketplace.visualstudio.com/items?itemName=haskell.haskell)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koalaman/shellcheck",
+      "status": "candidate-context",
+      "text": "ShellCheck, a static analysis tool for shell scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koalaman/shellcheck",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/koalaman/shellcheck/actions/workflows/build.yml/badge.svg)](https://github.com/koalaman/shellcheck/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ennocramer/floskell",
+      "status": "candidate-context",
+      "text": "Floskell is a flexible Haskell source code pretty printer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ennocramer/floskell",
+      "status": "candidate-context",
+      "text": "[![Hackage][hackage-image]][hackage-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fourmolu/fourmolu",
+      "status": "candidate-context",
+      "text": "A fourk of ormolu that uses four space indentation and allows arbitrary configuration. Don't like it? PRs welcome!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fourmolu/fourmolu",
+      "status": "candidate-context",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "Official Haskell IDE support via the language server protocol (LSP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "![haskell-language-server][logo]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/stylish-haskell",
+      "status": "candidate-context",
+      "text": "Haskell code prettifier"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/stylish-haskell",
+      "status": "candidate-context",
+      "text": "CI"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +105,36 @@
       "source_repo": "haskell/vscode-haskell",
       "status": "candidate",
       "text": "[![vsmarketplacebadge](https://vsmarketplacebadges.dev/version/haskell.haskell.png)](https://marketplace.visualstudio.com/items?itemName=haskell.haskell)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koalaman/shellcheck",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/koalaman/shellcheck/actions/workflows/build.yml/badge.svg)](https://github.com/koalaman/shellcheck/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ennocramer/floskell",
+      "status": "candidate",
+      "text": "[![Hackage][hackage-image]][hackage-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fourmolu/fourmolu",
+      "status": "candidate",
+      "text": "[![License BSD3](https://img.shields.io/badge/license-BSD3-brightgreen.svg)](http://opensource.org/licenses/BSD-3-Clause)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate",
+      "text": "![haskell-language-server][logo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/stylish-haskell",
+      "status": "candidate",
+      "text": "CI"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +190,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "haskell/vscode-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "koalaman/shellcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ennocramer/floskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fourmolu/fourmolu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "haskell/haskell-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "haskell/stylish-haskell"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

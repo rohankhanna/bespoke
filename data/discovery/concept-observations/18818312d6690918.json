@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83c\udf88 Simple reactive notebooks for Julia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bundle Web Assets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bundle Web Assets"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17900,
+      "status": "candidate",
+      "text": "bale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17812,
+      "status": "candidate",
+      "text": "clump"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17812,
+      "status": "candidate",
+      "text": "cord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17812,
+      "status": "candidate",
+      "text": "gang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17812,
+      "status": "candidate",
+      "text": "hay"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bundle Web Assets",
+      "sense_id": "bundle-web-assets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bundle-web-assets",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bundle-web-assets",
+  "observation_id": "18818312d6690918",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Bundle Web Assets",
+  "source_context_snippet": "Bundle Web Assets",
+  "source_file": ".github/workflows/Bundle.yml",
+  "source_repo": "JuliaPluto/Pluto.jl",
+  "source_repo_description": "\ud83c\udf88 Simple reactive notebooks for Julia"
+}

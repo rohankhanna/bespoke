@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bypass review in case of emergency"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation - replaced by https://github.com/bufbuild/protovalidate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate-context",
+      "text": "Bypass review in case of emergency"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate",
+      "text": "Bypass review in case of emergency"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44970,
+      "status": "candidate",
+      "text": "appeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44025,
+      "status": "candidate",
+      "text": "backstop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33678,
+      "status": "candidate",
+      "text": "emergencies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32699,
+      "status": "candidate",
+      "text": "skirt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32638,
+      "status": "candidate",
+      "text": "avoid"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bypass review in case of emergency",
+  "concept_id": "bypass-review-in-case-of-emergency",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/emergency-review-bypass.yaml",
+      "source_repo": "bufbuild/protoc-gen-validate"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bypass review in case of emergency",
+      "sense_id": "bypass-review-in-case-of-emergency#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

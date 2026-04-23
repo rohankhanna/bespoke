@@ -238,6 +238,222 @@
       "source_repo": "abaplint/abaplint",
       "status": "candidate-context",
       "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/cli?label=%40abaplint%2Fcli)](https://www.npmjs.com/package/@abaplint/cli)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/encodec",
+      "status": "candidate-context",
+      "text": "State-of-the-art deep learning based audio codec supporting both mono 24 kHz audio and stereo 48 kHz audio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/encodec",
+      "status": "candidate-context",
+      "text": "linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koalaman/shellcheck",
+      "status": "candidate-context",
+      "text": "ShellCheck, a static analysis tool for shell scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koalaman/shellcheck",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/koalaman/shellcheck/actions/workflows/build.yml/badge.svg)](https://github.com/koalaman/shellcheck/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Combination of multiple linters to run as a GitHub Action or standalone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Super-linter is a ready-to-run collection of linters and code analyzers, to help"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rhysd/vim-lsp-ale",
+      "status": "candidate-context",
+      "text": "Bridge between vim-lsp and ALE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/vim-lsp-ale",
+      "status": "candidate-context",
+      "text": "[vim-lsp][] + [ALE][]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "Documenting the explosion of packages in the standard ecosystem!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate-context",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate-context",
+      "text": "ESLint Config for JavaScript Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/standard/eslint-config-standard/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate-context",
+      "text": "ESLint Shareable Config for JSX support in JavaScript Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate-context",
+      "text": "High-performance In-browser LLM Inference Engine "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate-context",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "Tfsec is now part of Trivy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate-context",
+      "text": "TFLint ruleset for terraform-provider-azurerm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/terraform-linters/tflint-ruleset-azurerm/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/terraform-linters/tflint-ruleset-azurerm/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SublimeLinter/SublimeLinter-eslint",
+      "status": "candidate-context",
+      "text": "This linter plugin for SublimeLinter provides an interface to ESLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SublimeLinter/SublimeLinter-eslint",
+      "status": "candidate-context",
+      "text": "SublimeLinter-eslint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-cloudformation/cfn-lint",
+      "status": "candidate-context",
+      "text": "CloudFormation Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cfn-lint",
+      "status": "candidate-context",
+      "text": "<img alt=\"[cfn-lint logo]\" src=\"https://github.com/aws-cloudformation/cfn-python-lint/blob/main/logo.png?raw=true\" width=\"150\" align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clj-kondo/clj-kondo",
+      "status": "candidate-context",
+      "text": "Static analyzer and linter for Clojure code that sparks joy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-kondo/clj-kondo",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"400px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/ruff",
+      "status": "candidate-context",
+      "text": "An extremely fast Python linter and code formatter, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff",
+      "status": "candidate-context",
+      "text": "<!-- Begin section: Overview -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iftheshoefritz/solargraph-rails",
+      "status": "candidate-context",
+      "text": "Solargraph plugin to add awareness of Rails-specific code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iftheshoefritz/solargraph-rails",
+      "status": "candidate-context",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate-context",
+      "text": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate-context",
+      "text": "List of packages that use `standard`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/go-github",
+      "status": "candidate-context",
+      "text": "Go library for accessing the GitHub v3 API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-github",
+      "status": "candidate-context",
+      "text": "linter"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +570,114 @@
       "source_repo": "abaplint/abaplint",
       "status": "candidate",
       "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/cli?label=%40abaplint%2Fcli)](https://www.npmjs.com/package/@abaplint/cli)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/encodec",
+      "status": "candidate",
+      "text": "linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koalaman/shellcheck",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/koalaman/shellcheck/actions/workflows/build.yml/badge.svg)](https://github.com/koalaman/shellcheck/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate",
+      "text": "Super-linter is a ready-to-run collection of linters and code analyzers, to help"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhysd/vim-lsp-ale",
+      "status": "candidate",
+      "text": "[vim-lsp][] + [ALE][]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/awesome-standard",
+      "status": "candidate",
+      "text": "[![js-standard-style](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/standard/eslint-config-standard/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/eslint-config-standard-jsx",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/eslint-config-standard-jsx/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/terraform-linters/tflint-ruleset-azurerm/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/terraform-linters/tflint-ruleset-azurerm/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SublimeLinter/SublimeLinter-eslint",
+      "status": "candidate",
+      "text": "SublimeLinter-eslint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-cloudformation/cfn-lint",
+      "status": "candidate",
+      "text": "<img alt=\"[cfn-lint logo]\" src=\"https://github.com/aws-cloudformation/cfn-python-lint/blob/main/logo.png?raw=true\" width=\"150\" align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-kondo/clj-kondo",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"400px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff",
+      "status": "candidate",
+      "text": "<!-- Begin section: Overview -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iftheshoefritz/solargraph-rails",
+      "status": "candidate",
+      "text": "Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate",
+      "text": "<!-- \ud83d\udea8\ud83d\udea8 DON'T EDIT THIS FILE DIRECTLY. Edit `data/tools.yml` instead. \ud83d\udea8\ud83d\udea8 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-github",
+      "status": "candidate",
+      "text": "linter"
     }
   ],
   "candidate_related_terms": [
@@ -565,11 +889,143 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/CPUTests.yml",
       "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "facebookresearch/encodec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "koalaman/shellcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "super-linter/super-linter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "max-baz/lightline-ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rhysd/vim-lsp-ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/awesome-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard-jsx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/linter.yaml",
+      "source_repo": "mlc-ai/web-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/CPUTests.yml",
+      "source_repo": "AI-Hypercomputer/maxdiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "SublimeLinter/SublimeLinter-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aws-cloudformation/cfn-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "iftheshoefritz/solargraph-rails"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "analysis-tools-dev/static-analysis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "google/go-github"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

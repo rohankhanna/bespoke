@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "AudioKit/ci/.github/workflows/send_notification.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "AudioKit/Cookbook",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "AudioKit/Cookbook",
+      "target": "AudioKit/ci/.github/workflows/send_notification.yml@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:47:10.599548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2007
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Canonical Examples for Using the AudioKit Framework",
+    "fork": false,
+    "full_name": "AudioKit/Cookbook",
+    "html_url": "https://github.com/AudioKit/Cookbook",
+    "language": "Swift",
+    "pushed_at": "2026-03-27T00:16:06Z",
+    "stargazers_count": 807,
+    "topics": [],
+    "updated_at": "2026-04-22T21:04:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

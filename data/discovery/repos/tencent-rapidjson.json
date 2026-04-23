@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:41:26.293710+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast JSON parser/generator for C++ with both SAX/DOM style API",
+    "fork": false,
+    "full_name": "Tencent/rapidjson",
+    "html_url": "https://github.com/Tencent/rapidjson",
+    "language": "C++",
+    "pushed_at": "2025-02-05T13:28:08Z",
+    "stargazers_count": 15034,
+    "topics": [],
+    "updated_at": "2026-04-23T06:55:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,184 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "target": "human-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "target": "image-matting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "target": "image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "target": "interactive-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "target": "lane-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "target": "medical-image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "target": "panoptic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "target": "video-segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:29:41.477551+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release/2.10",
+    "description": "Easy-to-use image segmentation library with awesome pre-trained model zoo, supporting wide-range of practical tasks in Semantic Segmentation, Interactive Segmentation, Panoptic Segmentation, Image Matting, 3D Segmentation, etc.",
+    "fork": false,
+    "full_name": "PaddlePaddle/PaddleSeg",
+    "html_url": "https://github.com/PaddlePaddle/PaddleSeg",
+    "language": "Python",
+    "pushed_at": "2026-02-05T16:49:17Z",
+    "stargazers_count": 9325,
+    "topics": [
+      "autonomous-driving",
+      "human-segmentation",
+      "image-matting",
+      "image-segmentation",
+      "interactive-segmentation",
+      "lane-detection",
+      "medical-image-segmentation",
+      "panoptic-segmentation",
+      "semantic-segmentation",
+      "transformer",
+      "video-segmentation"
+    ],
+    "updated_at": "2026-04-22T14:24:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-segmentation"
+    },
+    {
+      "context_snippet": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-matting"
+    },
+    {
+      "context_snippet": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-segmentation"
+    },
+    {
+      "context_snippet": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive-segmentation"
+    },
+    {
+      "context_snippet": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lane-detection"
+    },
+    {
+      "context_snippet": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "medical-image-segmentation"
+    },
+    {
+      "context_snippet": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "panoptic-segmentation"
+    },
+    {
+      "context_snippet": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-segmentation"
+    }
+  ]
+}

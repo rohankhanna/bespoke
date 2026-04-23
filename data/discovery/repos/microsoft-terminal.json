@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/addToProject.yml"
+    },
+    {
+      "component": "check-spelling/check-spelling@c635c2f3f714eec2fcf27b643a1919b9a811ef2e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling2.yml"
+    },
+    {
+      "component": "check-spelling/check-spelling@c635c2f3f714eec2fcf27b643a1919b9a811ef2e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling2.yml"
+    },
+    {
+      "component": "check-spelling/check-spelling@c635c2f3f714eec2fcf27b643a1919b9a811ef2e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling2.yml"
+    },
+    {
+      "component": "check-spelling/check-spelling@c635c2f3f714eec2fcf27b643a1919b9a811ef2e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling2.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/terminal",
+      "target": "microsoftdocs/terminal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/terminal",
+      "target": "microsoftdocs/console-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/terminal",
+      "target": "lukesampson/scoop-extras",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/terminal",
+      "target": "microsoft/wil",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/addToProject.yml",
+      "source_repo": "microsoft/terminal",
+      "target": "actions/add-to-project@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spelling2.yml",
+      "source_repo": "microsoft/terminal",
+      "target": "check-spelling/check-spelling@c635c2f3f714eec2fcf27b643a1919b9a811ef2e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling2.yml",
+      "source_repo": "microsoft/terminal",
+      "target": "Spell checking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "microsoft/terminal",
+      "target": "Publish to WinGet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/terminal",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/terminal",
+      "target": "console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/terminal",
+      "target": "contributions-welcome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/terminal",
+      "target": "good-first-issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/terminal",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/terminal",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/terminal",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/terminal",
+      "target": "windows-console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/terminal",
+      "target": "windows-terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:31:00.319353+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18827
+    },
+    {
+      "path": ".github/workflows/addToProject.yml",
+      "size": 585
+    },
+    {
+      "path": ".github/workflows/spelling2.yml",
+      "size": 7759
+    },
+    {
+      "path": ".github/workflows/winget.yml",
+      "size": 1216
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+    "fork": false,
+    "full_name": "microsoft/terminal",
+    "html_url": "https://github.com/microsoft/terminal",
+    "language": "C++",
+    "pushed_at": "2026-04-22T00:47:50Z",
+    "stargazers_count": 102849,
+    "topics": [
+      "cmd",
+      "command-line",
+      "console",
+      "contributions-welcome",
+      "good-first-issue",
+      "hacktoberfest",
+      "terminal",
+      "windows",
+      "windows-console",
+      "windows-terminal",
+      "wsl"
+    ],
+    "updated_at": "2026-04-23T07:06:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukesampson/scoop-extras",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/wil",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoftdocs/console-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoftdocs/terminal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Spell checking",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/spelling2.yml",
+      "term": "Spell checking"
+    },
+    {
+      "context_snippet": "Publish to WinGet",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget.yml",
+      "term": "Publish to WinGet"
+    },
+    {
+      "context_snippet": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console"
+    },
+    {
+      "context_snippet": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contributions-welcome"
+    },
+    {
+      "context_snippet": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "good-first-issue"
+    },
+    {
+      "context_snippet": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-console"
+    },
+    {
+      "context_snippet": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-terminal"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Playground to GitHub Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fancy-regex/fancy-regex",
+      "status": "candidate-context",
+      "text": "Rust library for regular expressions using \"fancy\" features like look-around and backreferences. Has a mode which aims to be compatible with Oniguruma syntax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fancy-regex/fancy-regex",
+      "status": "candidate-context",
+      "text": "Deploy Playground to GitHub Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fancy-regex/fancy-regex",
+      "status": "candidate",
+      "text": "Deploy Playground to GitHub Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18562,
+      "status": "candidate",
+      "text": "appear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18562,
+      "status": "candidate",
+      "text": "appearing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18562,
+      "status": "candidate",
+      "text": "jibe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18534,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18534,
+      "status": "candidate",
+      "text": "turn"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Playground to GitHub Pages",
+  "concept_id": "deploy-playground-to-github-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "fancy-regex/fancy-regex"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Playground to GitHub Pages",
+      "sense_id": "deploy-playground-to-github-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

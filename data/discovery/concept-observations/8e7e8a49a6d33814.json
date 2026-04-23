@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd29 \u6211\u7684star\u5217\u8868\uff0c\u6bcf\u5929\u51cc\u6668\u81ea\u52a8\u66f4\u65b0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eryajf",
+      "sense_id": "eryajf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "eryajf",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eryajf",
+  "observation_id": "8e7e8a49a6d33814",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "eryajf",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "eryajf/awesome-stars-eryajf",
+  "source_repo_description": "\ud83e\udd29 \u6211\u7684star\u5217\u8868\uff0c\u6bcf\u5929\u51cc\u6668\u81ea\u52a8\u66f4\u65b0"
+}

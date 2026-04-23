@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "containers/podman/.github/workflows/check_cirrus_cron.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml"
+    },
+    {
+      "component": "containers/podman/.github/workflows/rerun_cirrus_cron.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rerun_cirrus_cron.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/image_build",
+      "target": "containers/automation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/image_build",
+      "target": "multiarch/qemu-user-static",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/image_build",
+      "target": "containers/automation_images",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml",
+      "source_repo": "containers/image_build",
+      "target": "containers/podman/.github/workflows/check_cirrus_cron.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rerun_cirrus_cron.yml",
+      "source_repo": "containers/image_build",
+      "target": "containers/podman/.github/workflows/rerun_cirrus_cron.yml@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:31:16.717044+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7707
+    },
+    {
+      "path": ".github/workflows/check_cirrus_cron.yml",
+      "size": 573
+    },
+    {
+      "path": ".github/workflows/rerun_cirrus_cron.yml",
+      "size": 670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Monorepo menagerie of container images and associated build automation",
+    "fork": false,
+    "full_name": "containers/image_build",
+    "html_url": "https://github.com/containers/image_build",
+    "language": "Shell",
+    "pushed_at": "2026-03-11T22:00:37Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2026-03-12T14:09:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/automation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/automation_images",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multiarch/qemu-user-static",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

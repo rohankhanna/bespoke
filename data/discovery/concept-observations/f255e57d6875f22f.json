@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python bindings for MetroHash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Python wrapper for [MetroHash](https://github.com/jandrewrogers/MetroHash), a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Python wrapper for [MetroHash](https://github.com/jandrewrogers/MetroHash), a"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39691262,
+      "status": "candidate",
+      "text": "hashish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29703547,
+      "status": "candidate",
+      "text": "extendible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19831365,
+      "status": "candidate",
+      "text": "coalesced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19831364,
+      "status": "candidate",
+      "text": "hash algorithm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19831363,
+      "status": "candidate",
+      "text": "hash buster"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hashing",
+      "sense_id": "hashing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hashing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hashing",
+  "observation_id": "f255e57d6875f22f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "hashing",
+  "source_context_snippet": "Python wrapper for [MetroHash](https://github.com/jandrewrogers/MetroHash), a",
+  "source_file": null,
+  "source_repo": "escherba/python-metrohash",
+  "source_repo_description": "Python bindings for MetroHash"
+}

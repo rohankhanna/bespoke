@@ -19,12 +19,30 @@
       "source_repo": "NVIDIA/Megatron-LM",
       "status": "candidate-context",
       "text": "~Update dependencies template"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA-NeMo/Megatron-Bridge",
+      "status": "candidate-context",
+      "text": "Training library for Megatron-based models with bidirectional Hugging Face conversion capability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Megatron-Bridge",
+      "status": "candidate-context",
+      "text": "~Update dependencies template"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "NVIDIA/Megatron-LM",
+      "status": "candidate",
+      "text": "~Update dependencies template"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA-NeMo/Megatron-Bridge",
       "status": "candidate",
       "text": "~Update dependencies template"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/_update_dependencies.yml",
       "source_repo": "NVIDIA/Megatron-LM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/_update_dependencies.yml",
+      "source_repo": "NVIDIA-NeMo/Megatron-Bridge"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "hashicorp-forge/go-test-split-action@v2.0.0",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/proof.yaml",
+      "source_repo": "op-rs/kona"
+    }
+  ]
+}

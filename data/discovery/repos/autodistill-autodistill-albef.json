@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodistill/autodistill-albef",
+      "target": "albef",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodistill/autodistill-albef",
+      "target": "autodistill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodistill/autodistill-albef",
+      "target": "computer-vision",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:49:08.169641+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1877
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ALBEF module for use with Autodistill.",
+    "fork": false,
+    "full_name": "autodistill/autodistill-albef",
+    "html_url": "https://github.com/autodistill/autodistill-albef",
+    "language": "Python",
+    "pushed_at": "2023-08-08T16:58:31Z",
+    "stargazers_count": 1,
+    "topics": [
+      "albef",
+      "autodistill",
+      "computer-vision"
+    ],
+    "updated_at": "2026-03-27T10:23:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "albef"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autodistill"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    }
+  ]
+}

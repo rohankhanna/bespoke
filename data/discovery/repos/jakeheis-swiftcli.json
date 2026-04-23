@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    },
+    {
+      "component": "fwal/setup-swift@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jakeheis/SwiftCLI",
+      "target": "jakeheis/ice",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jakeheis/SwiftCLI",
+      "target": "yonaskolb/mint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jakeheis/SwiftCLI",
+      "target": "sventiigi/swiftkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jakeheis/SwiftCLI",
+      "target": "flinesoft/bartycrouch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "jakeheis/SwiftCLI",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "jakeheis/SwiftCLI",
+      "target": "fwal/setup-swift@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "jakeheis/SwiftCLI",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakeheis/SwiftCLI",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakeheis/SwiftCLI",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakeheis/SwiftCLI",
+      "target": "option-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jakeheis/SwiftCLI",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:38:43.550112+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23336
+    },
+    {
+      "path": ".github/workflows/swift.yml",
+      "size": 392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A powerful framework for developing CLIs in Swift",
+    "fork": false,
+    "full_name": "jakeheis/SwiftCLI",
+    "html_url": "https://github.com/jakeheis/SwiftCLI",
+    "language": "Swift",
+    "pushed_at": "2021-09-17T16:12:00Z",
+    "stargazers_count": 878,
+    "topics": [
+      "cli",
+      "command-line",
+      "framework",
+      "option-parser",
+      "swift"
+    ],
+    "updated_at": "2026-04-19T19:06:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flinesoft/bartycrouch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jakeheis/ice",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sventiigi/swiftkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yonaskolb/mint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swift.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "SwiftCLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "SwiftCLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "SwiftCLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "option-parser"
+    },
+    {
+      "context_snippet": "SwiftCLI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

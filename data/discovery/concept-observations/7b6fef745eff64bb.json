@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Solargraph plugin to add awareness of Rails-specific code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "New Rails project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "New Rails project"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28164,
+      "status": "candidate",
+      "text": "gallirallus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27764,
+      "status": "candidate",
+      "text": "genus gallirallus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26373,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26373,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26373,
+      "status": "candidate",
+      "text": "projected"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "New Rails project",
+      "sense_id": "new-rails-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "new-rails-project",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "new-rails-project",
+  "observation_id": "7b6fef745eff64bb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "New Rails project",
+  "source_context_snippet": "New Rails project",
+  "source_file": ".github/workflows/rails_new.yml",
+  "source_repo": "iftheshoefritz/solargraph-rails",
+  "source_repo_description": "Solargraph plugin to add awareness of Rails-specific code"
+}

@@ -25,6 +25,18 @@
       "source_repo": "anthropics/claude-agent-sdk-python",
       "status": "candidate-context",
       "text": "Build and Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate-context",
+      "text": "Terminal in browser over http/https. (Ajaxterm/Anyterm alternative, but much better)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "butlerx/wetty",
+      "status": "candidate-context",
+      "text": "Build and Publish"
     }
   ],
   "candidate_glosses": [
@@ -37,6 +49,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "anthropics/claude-agent-sdk-python",
+      "status": "candidate",
+      "text": "Build and Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "butlerx/wetty",
       "status": "candidate",
       "text": "Build and Publish"
     }
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/build-and-publish.yml",
       "source_repo": "anthropics/claude-agent-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "butlerx/wetty"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

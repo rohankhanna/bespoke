@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check 'do not merge' label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_python",
+      "status": "candidate-context",
+      "text": "Bazel Python Rules"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_python",
+      "status": "candidate-context",
+      "text": "\"Check 'do not merge' label\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_python",
+      "status": "candidate",
+      "text": "\"Check 'do not merge' label\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 58642,
+      "status": "candidate",
+      "text": "brand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48196,
+      "status": "candidate",
+      "text": "clash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48196,
+      "status": "candidate",
+      "text": "clashing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48196,
+      "status": "candidate",
+      "text": "homelessness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48196,
+      "status": "candidate",
+      "text": "uppers"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check 'do not merge' label",
+  "concept_id": "check-do-not-merge-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check_do_not_merge_label.yml",
+      "source_repo": "bazel-contrib/rules_python"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check 'do not merge' label",
+      "sense_id": "check-do-not-merge-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

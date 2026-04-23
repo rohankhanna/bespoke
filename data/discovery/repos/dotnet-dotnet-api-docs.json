@@ -1,0 +1,422 @@
+{
+  "components": [
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml"
+    },
+    {
+      "component": "step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/actions/status-checker@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-cache-retention.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml"
+    },
+    {
+      "component": "step-security/harden-runner@cb605e52c26070c328afc4562f0b4ada7618a84e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/live-protection.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/live-protection.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/.github/actions/oidc-auth-flow@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest-bulk.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/actions/sequester@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest-bulk.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/docs-tools/actions/status-checker@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "OPS status checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "Labeler: Cache Retention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "Labeler: Predict (Issues)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/issue-labeler/restore@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/issue-labeler/predict@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "Labeler: Predict (Pulls)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/issue-labeler/promote@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "Labeler: Promotion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/issue-labeler/download@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/issue-labeler/train@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/issue-labeler/test@46125e85e6a568dc712f358c39f35317366f5eed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "Labeler: Training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/live-protection.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "step-security/harden-runner@cb605e52c26070c328afc4562f0b4ada7618a84e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/live-protection.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/live-protection.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "Base branch checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest-bulk.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/docs-tools/.github/actions/oidc-auth-flow@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quest-bulk.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "dotnet/docs-tools/actions/sequester@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quest-bulk.yml",
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "bulk quest import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/dotnet-api-docs",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:43:18.329815+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1937
+    },
+    {
+      "path": ".github/workflows/check-for-build-warnings.yml",
+      "size": 600
+    },
+    {
+      "path": ".github/workflows/labeler-cache-retention.yml",
+      "size": 1390
+    },
+    {
+      "path": ".github/workflows/labeler-predict-issues.yml",
+      "size": 2095
+    },
+    {
+      "path": ".github/workflows/labeler-predict-pulls.yml",
+      "size": 5850
+    },
+    {
+      "path": ".github/workflows/labeler-promote.yml",
+      "size": 1708
+    },
+    {
+      "path": ".github/workflows/labeler-train.yml",
+      "size": 6582
+    },
+    {
+      "path": ".github/workflows/labeler.md",
+      "size": 1436
+    },
+    {
+      "path": ".github/workflows/live-protection.yml",
+      "size": 667
+    },
+    {
+      "path": ".github/workflows/quest-bulk.yml",
+      "size": 2060
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ".NET API reference documentation (.NET 5+, .NET Core, .NET Framework)",
+    "fork": false,
+    "full_name": "dotnet/dotnet-api-docs",
+    "html_url": "https://github.com/dotnet/dotnet-api-docs",
+    "language": "C#",
+    "pushed_at": "2026-04-22T16:10:32Z",
+    "stargazers_count": 906,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-21T22:30:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/samples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'OPS status checker'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "term": "OPS status checker"
+    },
+    {
+      "context_snippet": "\"Labeler: Cache Retention\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-cache-retention.yml",
+      "term": "Labeler: Cache Retention"
+    },
+    {
+      "context_snippet": "\"Labeler: Predict (Issues)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-issues.yml",
+      "term": "Labeler: Predict (Issues)"
+    },
+    {
+      "context_snippet": "\"Labeler: Predict (Pulls)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-predict-pulls.yml",
+      "term": "Labeler: Predict (Pulls)"
+    },
+    {
+      "context_snippet": "\"Labeler: Promotion\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-promote.yml",
+      "term": "Labeler: Promotion"
+    },
+    {
+      "context_snippet": "\"Labeler: Training\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler-train.yml",
+      "term": "Labeler: Training"
+    },
+    {
+      "context_snippet": "Base branch checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/live-protection.yml",
+      "term": "Base branch checker"
+    },
+    {
+      "context_snippet": "\"bulk quest import\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quest-bulk.yml",
+      "term": "bulk quest import"
+    },
+    {
+      "context_snippet": "This repository contains documentation for the .NET API reference. We track all work for this repository using [GitHub issues](https://github.com/dotnet/dotnet-api-docs/issues). The documentation for APIs is built from the text and code snippets in this repo, and from the sample\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

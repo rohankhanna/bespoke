@@ -1,0 +1,12 @@
+{
+  "component": "step-security/harden-runner@c6295a65d1254861815972266d5933fd6e532bdf",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/dotnet-api-docs"
+    }
+  ]
+}

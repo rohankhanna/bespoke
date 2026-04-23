@@ -143,6 +143,54 @@
       "source_repo": "flashbots/mev-boost",
       "status": "candidate-context",
       "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate-context",
+      "text": "A Ruby language server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate-context",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airbnb/javascript",
+      "status": "candidate-context",
+      "text": "JavaScript Style Guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/javascript",
+      "status": "candidate-context",
+      "text": "*A mostly reasonable approach to JavaScript*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "run-llama/llama_index",
+      "status": "candidate-context",
+      "text": "LlamaIndex is the leading document agent and OCR platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "run-llama/llama_index",
+      "status": "candidate-context",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyg-team/pytorch_geometric",
+      "status": "candidate-context",
+      "text": "Graph Neural Network Library for PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyg-team/pytorch_geometric",
+      "status": "candidate-context",
+      "text": "Linting"
     }
   ],
   "candidate_glosses": [
@@ -209,6 +257,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "flashbots/mev-boost",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airbnb/javascript",
+      "status": "candidate",
+      "text": "*A mostly reasonable approach to JavaScript*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "run-llama/llama_index",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyg-team/pytorch_geometric",
       "status": "candidate",
       "text": "Linting"
     }
@@ -361,11 +433,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "flashbots/mev-boost"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "castwide/solargraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "airbnb/javascript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

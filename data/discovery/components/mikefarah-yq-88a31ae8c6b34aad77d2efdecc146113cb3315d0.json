@@ -1,0 +1,12 @@
+{
+  "component": "mikefarah/yq@88a31ae8c6b34aad77d2efdecc146113cb3315d0",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chart-testing.yaml",
+      "source_repo": "aquasecurity/trivy-operator"
+    }
+  ]
+}

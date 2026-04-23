@@ -1,0 +1,342 @@
+{
+  "components": [
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-large-files.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml"
+    },
+    {
+      "component": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erigontech/erigon",
+      "target": "mathmakesart/erigon-on-rpi-4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backups-dashboards.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "geekyeggo/delete-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backups-dashboards.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "Dashboards backup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-warming.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "Cache Warming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-large-files.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-large-files.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "Check large files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "docker/login-action@b45d80f862d83dbcd57f89517bcf500b2ab88fb2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "docker/setup-qemu-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cd-main-branch-docker-images.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-gate.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "CI Gate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "erigontech/erigon",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erigontech/erigon",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erigontech/erigon",
+      "target": "ethereum",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:30:40.068523+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32832
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4508
+    },
+    {
+      "path": "go.mod",
+      "size": 23139
+    },
+    {
+      "path": ".github/workflows/backups-dashboards.yml",
+      "size": 4502
+    },
+    {
+      "path": ".github/workflows/cache-warming.yml",
+      "size": 1714
+    },
+    {
+      "path": ".github/workflows/check-large-files.yml",
+      "size": 381
+    },
+    {
+      "path": ".github/workflows/ci-cd-main-branch-docker-images.yml",
+      "size": 10284
+    },
+    {
+      "path": ".github/workflows/ci-gate.yml",
+      "size": 2714
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 1433
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1886
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ethereum implementation on the efficiency frontier ",
+    "fork": false,
+    "full_name": "erigontech/erigon",
+    "html_url": "https://github.com/erigontech/erigon",
+    "language": "Go",
+    "pushed_at": "2026-04-23T05:11:04Z",
+    "stargazers_count": 3555,
+    "topics": [
+      "blockchain",
+      "ethereum"
+    ],
+    "updated_at": "2026-04-23T04:28:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mathmakesart/erigon-on-rpi-4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dashboards backup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backups-dashboards.yml",
+      "term": "Dashboards backup"
+    },
+    {
+      "context_snippet": "Cache Warming",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-warming.yml",
+      "term": "Cache Warming"
+    },
+    {
+      "context_snippet": "Check large files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-large-files.yml",
+      "term": "Check large files"
+    },
+    {
+      "context_snippet": "CI Gate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-gate.yml",
+      "term": "CI Gate"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "[![Docs](https://img.shields.io/badge/docs-up-green)](https://docs.erigon.tech/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "[![Docs](https://img.shields.io/badge/docs-up-green)](https://docs.erigon.tech/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    }
+  ]
+}

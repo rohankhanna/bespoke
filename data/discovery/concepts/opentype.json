@@ -91,6 +91,18 @@
       "source_repo": "n8willis/opentype-shaping-documents",
       "status": "candidate-context",
       "text": "Sponsored by [YesLogic](https://yeslogic.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "subframe7536/maple-font",
+      "status": "candidate-context",
+      "text": "Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. \u5e26\u8fde\u5b57\u548c\u63a7\u5236\u53f0\u56fe\u6807\u7684\u5706\u89d2\u7b49\u5bbd\u5b57\u4f53\uff0c\u4e2d\u82f1\u6587\u5bbd\u5ea6\u5b8c\u7f8e2:1\uff0c\u7ec6\u7c92\u5ea6\u7684\u81ea\u5b9a\u4e49\u9009\u9879"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subframe7536/maple-font",
+      "status": "candidate-context",
+      "text": "![Cover](./resources/header.png)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "n8willis/opentype-shaping-documents",
       "status": "candidate",
       "text": "Sponsored by [YesLogic](https://yeslogic.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subframe7536/maple-font",
+      "status": "candidate",
+      "text": "![Cover](./resources/header.png)"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +250,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "harfbuzz/ttf-parser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "subframe7536/maple-font"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

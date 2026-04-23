@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "nodejs-mobile-gyp",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tar.gz2",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "xcode",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yaml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaneaSystems/nodejs-mobile-cordova",
+      "target": "apache/cordova-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaneaSystems/nodejs-mobile-cordova",
+      "target": "android-ndk/ndk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaneaSystems/nodejs-mobile-cordova",
+      "target": "apache/cordova-ios",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JaneaSystems/nodejs-mobile-cordova",
+      "target": "nodejs-mobile-gyp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JaneaSystems/nodejs-mobile-cordova",
+      "target": "tar.gz2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "JaneaSystems/nodejs-mobile-cordova",
+      "target": "xcode",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yaml",
+      "source_repo": "JaneaSystems/nodejs-mobile-cordova",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yaml",
+      "source_repo": "JaneaSystems/nodejs-mobile-cordova",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yaml",
+      "source_repo": "JaneaSystems/nodejs-mobile-cordova",
+      "target": "Build Android Project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yaml",
+      "source_repo": "JaneaSystems/nodejs-mobile-cordova",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ios.yaml",
+      "source_repo": "JaneaSystems/nodejs-mobile-cordova",
+      "target": "Build IOS Project",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:45:02.977913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19404
+    },
+    {
+      "path": "package.json",
+      "size": 955
+    },
+    {
+      "path": ".github/workflows/build-android.yaml",
+      "size": 843
+    },
+    {
+      "path": ".github/workflows/build-ios.yaml",
+      "size": 691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "unstable",
+    "description": "Node.js for Mobile Apps Cordova plugin",
+    "fork": false,
+    "full_name": "JaneaSystems/nodejs-mobile-cordova",
+    "html_url": "https://github.com/JaneaSystems/nodejs-mobile-cordova",
+    "language": "C",
+    "pushed_at": "2024-01-20T01:06:26Z",
+    "stargazers_count": 135,
+    "topics": [],
+    "updated_at": "2026-01-29T14:27:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "android-ndk/ndk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/cordova-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/cordova-ios",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Android Project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yaml",
+      "term": "Build Android Project"
+    },
+    {
+      "context_snippet": "Build IOS Project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ios.yaml",
+      "term": "Build IOS Project"
+    }
+  ]
+}

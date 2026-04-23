@@ -1,7 +1,8 @@
 {
   "aliases": [
     "docker-image",
-    "Docker image"
+    "Docker image",
+    "Docker Image"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -58,6 +59,126 @@
       "source_repo": "dragonflyoss/dragonfly-archived",
       "status": "candidate-context",
       "text": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appleboy/gorush",
+      "status": "candidate-context",
+      "text": "A push notification server written in Go (Golang)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/gorush",
+      "status": "candidate-context",
+      "text": "Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dragonflyoss/dragonfly",
+      "status": "candidate-context",
+      "text": "Delivers efficient, stable, and secure data distribution and acceleration powered by P2P technology, with an optional content\u2011addressable filesystem that accelerates OCI container launch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly",
+      "status": "candidate-context",
+      "text": "![alt][logo-linear]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate-context",
+      "text": "Fast container image distribution plugin with lazy pulling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate-context",
+      "text": "[[\u2b07\ufe0f **Download**]](https://github.com/containerd/stargz-snapshotter/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmdjulian/mopy",
+      "status": "candidate-context",
+      "text": "mopy is a docker buildkit frontend to package and build your python app into a minimal best practice docker image. You don't have to be a docker pro anymore! \ud83d\udc0b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmdjulian/mopy",
+      "status": "candidate-context",
+      "text": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_docker",
+      "status": "candidate-context",
+      "text": "Rules for building and handling Docker images with Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_docker",
+      "status": "candidate-context",
+      "text": "| Bazel CI |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_k8s",
+      "status": "candidate-context",
+      "text": "This repository contains rules for interacting with Kubernetes configurations / clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_k8s",
+      "status": "candidate-context",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appleboy/drone-lambda",
+      "status": "candidate-context",
+      "text": "Deploying Lambda code with drone CI to an existing function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/drone-lambda",
+      "status": "candidate-context",
+      "text": "Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "Official Docker Image for Node.js :whale: :turtle: :rocket: "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "[**node - Docker Official Images on Docker Hub**](https://hub.docker.com/_/node)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate-context",
+      "text": "Pack npm package \"doctoc\" into a docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate-context",
+      "text": "Command line tool to create and query container image manifest list/indexes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate-context",
+      "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +205,66 @@
       "source_repo": "dragonflyoss/dragonfly-archived",
       "status": "candidate",
       "text": "This repository has be archived and **moved to the new repository** [https://github.com/dragonflyoss/Dragonfly2](https://github.com/dragonflyoss/Dragonfly2)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/gorush",
+      "status": "candidate",
+      "text": "Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly",
+      "status": "candidate",
+      "text": "![alt][logo-linear]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate",
+      "text": "[[\u2b07\ufe0f **Download**]](https://github.com/containerd/stargz-snapshotter/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmdjulian/mopy",
+      "status": "candidate",
+      "text": "[![Docker Pulls](https://badgen.net/docker/pulls/cmdjulian/mopy?icon=docker&label=pulls)](https://hub.docker.com/r/cmdjulian/mopy/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_docker",
+      "status": "candidate",
+      "text": "| Bazel CI |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_k8s",
+      "status": "candidate",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/drone-lambda",
+      "status": "candidate",
+      "text": "Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate",
+      "text": "[**node - Docker Official Images on Docker Hub**](https://hub.docker.com/_/node)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PeterDaveHello/docker-doctoc",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/badge/license-GPLv3.0-brightgreen.svg?style=flat)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "estesp/manifest-tool",
+      "status": "candidate",
+      "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
     }
   ],
   "candidate_related_terms": [
@@ -157,11 +338,77 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "dragonflyoss/dragonfly-archived"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "appleboy/gorush"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dragonflyoss/dragonfly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "containerd/stargz-snapshotter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cmdjulian/mopy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_docker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_k8s"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "appleboy/drone-lambda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/docker-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dragonflyoss/dragonfly-archived"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "estesp/manifest-tool"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

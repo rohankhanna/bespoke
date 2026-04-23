@@ -1,0 +1,139 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "anton-rs/kona",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "succinctlabs/op-succinct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "boundless-xyz/kailua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "ethpandaops/optimism-package",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf.yml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/elf.yml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "docker/setup-buildx-action/4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/elf.yml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "ELF",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis_devnet.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kurtosis_devnet.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "jdx/mise-action@c37c93293d6b742fc901e1406b8f764f6fb19dac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kurtosis_devnet.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "Kurtosis Devnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "taiki-e/install-action@7e4a4ef9ed66446ab203dacde3df96698830955f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "dtolnay/rust-toolchain@29eef336d9b2848a0b548edc03f92a220660cdb8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "Swatinem/rust-cache@c19371144df3bb44fab255c43d04cbc2ab54d1c4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "taiki-e/install-action@e9fe1d0c24b9415d0c0be1429c063ba3e3a8b277",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "dtolnay/rust-toolchain@5b842231ba77f5c045dba54ac5560fed2db780e2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "taiki-e/install-action@eea29cff9a2b68892c0845ae3e4f45fc47ee9354",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea",
+      "target": "Rust CI",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "Layr-Labs/hokulea"
+}

@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "release-drafter/release-drafter@v5.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "jenkinsci/winsw-maven-packaging",
+      "target": "release-drafter/release-drafter@v5.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "jenkinsci/winsw-maven-packaging",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/winsw-maven-packaging",
+      "target": "maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/winsw-maven-packaging",
+      "target": "windows-service",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jenkinsci/winsw-maven-packaging",
+      "target": "windows-service-wrapper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:42:21.213599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2234
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Maven Packaging for Windows Service Wrapper",
+    "fork": false,
+    "full_name": "jenkinsci/winsw-maven-packaging",
+    "html_url": "https://github.com/jenkinsci/winsw-maven-packaging",
+    "language": null,
+    "pushed_at": "2024-07-15T00:57:07Z",
+    "stargazers_count": 12,
+    "topics": [
+      "maven",
+      "windows-service",
+      "windows-service-wrapper"
+    ],
+    "updated_at": "2025-12-21T12:54:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "Maven Packaging for [Windows Service Wrapper](https://github.com/winsw/winsw)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maven"
+    },
+    {
+      "context_snippet": "Maven Packaging for [Windows Service Wrapper](https://github.com/winsw/winsw)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-service"
+    },
+    {
+      "context_snippet": "Maven Packaging for [Windows Service Wrapper](https://github.com/winsw/winsw)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-service-wrapper"
+    }
+  ]
+}

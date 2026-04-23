@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "covid-19"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nytimes/covid-19-data",
+      "status": "candidate-context",
+      "text": "A repository of data on coronavirus cases and deaths in the U.S."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nytimes/covid-19-data",
+      "status": "candidate-context",
+      "text": "**March 24, 2023 UPDATE: The data for daily cases and deaths will no longer be updated. The Times has updated its [Covid tracking pages]([url](https://www.nytimes.com/interactive/2023/us/covid-cases.html)) to use data from the federal government for cases and deaths. This GitHub\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrismattmann/tika-python",
+      "status": "candidate-context",
+      "text": "Tika-Python is a Python binding to the Apache Tika\u2122 REST services allowing Tika to be called natively in the Python community."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrismattmann/tika-python",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/chrismattmann/tika-python/actions/workflows/ci.yml/badge.svg)](https://github.com/chrismattmann/tika-python/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nytimes/covid-19-data",
+      "status": "candidate",
+      "text": "**March 24, 2023 UPDATE: The data for daily cases and deaths will no longer be updated. The Times has updated its [Covid tracking pages]([url](https://www.nytimes.com/interactive/2023/us/covid-cases.html)) to use data from the federal government for cases and deaths. This GitHub\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrismattmann/tika-python",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/chrismattmann/tika-python/actions/workflows/ci.yml/badge.svg)](https://github.com/chrismattmann/tika-python/actions/workflows/ci.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "covid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "coronavirus disease 2019"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "coronavirus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24993,
+      "status": "candidate",
+      "text": "wuhan coronavirus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24992,
+      "status": "candidate",
+      "text": "coronavirosis"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "covid-19",
+  "concept_id": "covid-19",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nytimes/covid-19-data"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "chrismattmann/tika-python"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "covid-19",
+      "sense_id": "covid-19#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

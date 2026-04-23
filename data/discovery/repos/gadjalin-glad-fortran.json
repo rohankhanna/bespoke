@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gadjalin/glad-fortran",
+      "target": "aarnoldgad/glf90w",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gadjalin/glad-fortran",
+      "target": "aarnoldgad/glad-fortran",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "gadjalin/glad-fortran",
+      "target": "aarnoldgad/glad-fortran",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:38:32.817453+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4377
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1573
+    },
+    {
+      "path": "requirements.txt",
+      "size": 30
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fortran OpenGL bindings generator extension for glad2.",
+    "fork": false,
+    "full_name": "gadjalin/glad-fortran",
+    "html_url": "https://github.com/gadjalin/glad-fortran",
+    "language": "Python",
+    "pushed_at": "2025-10-21T12:12:41Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-02-26T17:52:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aarnoldgad/glad-fortran",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aarnoldgad/glf90w",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aarnoldgad/glad-fortran",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

@@ -56,6 +56,30 @@
       "source_repo": "AdaCore/ada_language_server",
       "status": "candidate-context",
       "text": "Build binaries"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/ruff",
+      "status": "candidate-context",
+      "text": "An extremely fast Python linter and code formatter, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff",
+      "status": "candidate-context",
+      "text": "\"Build binaries\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mcmilk/7-Zip-zstd",
+      "status": "candidate-context",
+      "text": "7-Zip with support for Brotli, Fast-LZMA2, Lizard, LZ4, LZ5 and Zstandard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcmilk/7-Zip-zstd",
+      "status": "candidate-context",
+      "text": "Build binaries"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +104,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "AdaCore/ada_language_server",
+      "status": "candidate",
+      "text": "Build binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/ruff",
+      "status": "candidate",
+      "text": "\"Build binaries\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcmilk/7-Zip-zstd",
       "status": "candidate",
       "text": "Build binaries"
     }
@@ -161,11 +197,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/build-binaries.yml",
       "source_repo": "AdaCore/ada_language_server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-binaries.yml",
+      "source_repo": "astral-sh/ruff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "mcmilk/7-Zip-zstd"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

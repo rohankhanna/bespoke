@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync RFC Discussion"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/rfcs",
+      "status": "candidate-context",
+      "text": "RFCs for substantial changes to ComfyUI core, APIs, or standards."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/rfcs",
+      "status": "candidate-context",
+      "text": "Sync RFC Discussion"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/rfcs",
+      "status": "candidate",
+      "text": "Sync RFC Discussion"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22853,
+      "status": "candidate",
+      "text": "she"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18893,
+      "status": "candidate",
+      "text": "interrupt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18873,
+      "status": "candidate",
+      "text": "url"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14822,
+      "status": "candidate",
+      "text": "arc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14745,
+      "status": "candidate",
+      "text": "align"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync RFC Discussion",
+  "concept_id": "sync-rfc-discussion",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/sync-rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync RFC Discussion",
+      "sense_id": "sync-rfc-discussion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

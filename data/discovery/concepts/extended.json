@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Extended"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pq-code-package/mlkem-native",
+      "status": "candidate-context",
+      "text": "Secure, fast, and portable C90 implementation of ML-KEM / FIPS 203"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-code-package/mlkem-native",
+      "status": "candidate-context",
+      "text": "Extended"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pq-code-package/mlkem-native",
+      "status": "candidate",
+      "text": "Extended"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040683,
+      "status": "candidate",
+      "text": "elongated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039639,
+      "status": "candidate",
+      "text": "wide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039496,
+      "status": "candidate",
+      "text": "extensive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038782,
+      "status": "candidate",
+      "text": "outstretched"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038639,
+      "status": "candidate",
+      "text": "drawn-out"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36036,
+      "status": "candidate",
+      "text": "extensive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31024,
+      "status": "candidate",
+      "text": "prolonged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29032,
+      "status": "candidate",
+      "text": "considerable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28027,
+      "status": "candidate",
+      "text": "protracted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25050,
+      "status": "candidate",
+      "text": "large"
+    }
+  ],
+  "canonical_name": "Extended",
+  "concept_id": "extended",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pq-code-package/mlkem-native"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Extended",
+      "sense_id": "extended#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

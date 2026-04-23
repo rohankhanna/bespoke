@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jmsltnv/civitai-data-manager",
+      "target": "jeremysltn/civitai-data-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jmsltnv/civitai-data-manager",
+      "target": "civitai/civitai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager",
+      "target": "civitai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager",
+      "target": "flux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager",
+      "target": "safetensors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:34:00.590895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8320
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 528
+    },
+    {
+      "path": "requirements.txt",
+      "size": 16
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight tool to locally manage, back up, and organize SafeTensors model metadata from Civitai.",
+    "fork": false,
+    "full_name": "jmsltnv/civitai-data-manager",
+    "html_url": "https://github.com/jmsltnv/civitai-data-manager",
+    "language": "Python",
+    "pushed_at": "2025-07-30T17:37:17Z",
+    "stargazers_count": 58,
+    "topics": [
+      "civitai",
+      "flux",
+      "safetensors",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-01T17:21:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "civitai/civitai",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeremysltn/civitai-data-manager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A lightweight tool to locally manage, back up, and organize SafeTensors model metadata from Civitai.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "civitai"
+    },
+    {
+      "context_snippet": "A lightweight tool to locally manage, back up, and organize SafeTensors model metadata from Civitai.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux"
+    },
+    {
+      "context_snippet": "A lightweight tool to locally manage, back up, and organize SafeTensors model metadata from Civitai.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "safetensors"
+    },
+    {
+      "context_snippet": "A lightweight tool to locally manage, back up, and organize SafeTensors model metadata from Civitai.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

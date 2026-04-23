@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync Default Branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate-context",
+      "text": "Manage your app's Node.js environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate-context",
+      "text": "Sync Default Branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate",
+      "text": "Sync Default Branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24955,
+      "status": "candidate",
+      "text": "regulator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24186,
+      "status": "candidate",
+      "text": "alarm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24186,
+      "status": "candidate",
+      "text": "alarm clock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24186,
+      "status": "candidate",
+      "text": "century"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24186,
+      "status": "candidate",
+      "text": "close"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync Default Branch",
+  "concept_id": "sync-default-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/sync-default-branch.yml",
+      "source_repo": "nodenv/nodenv"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync Default Branch",
+      "sense_id": "sync-default-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

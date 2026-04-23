@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Audio-Production-Plugin",
+      "target": "danielrosehill/claude-code-plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Audio-Production-Plugin",
+      "target": "danielrosehill/claude-workspace-reshaping-190426",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:36:49.985444+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3467
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Claude Code plugin: audio production workflow \u2014 normalize, VAD, transcribe, diarize, podcast assembly, with engineering/podcast/transcript variants.",
+    "fork": false,
+    "full_name": "danielrosehill/Claude-Audio-Production-Plugin",
+    "html_url": "https://github.com/danielrosehill/Claude-Audio-Production-Plugin",
+    "language": null,
+    "pushed_at": "2026-04-19T13:02:48Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-19T13:05:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-code-plugins",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-workspace-reshaping-190426",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

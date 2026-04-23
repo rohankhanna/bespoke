@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "federicotdn/flymake-shellcheck",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "federicotdn/flymake-shellcheck",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "federicotdn/flymake-shellcheck",
+      "target": "flymake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "federicotdn/flymake-shellcheck",
+      "target": "shell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "federicotdn/flymake-shellcheck",
+      "target": "shellcheck",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:36:39.173009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2462
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A ShellCheck-powered backend for Flymake",
+    "fork": false,
+    "full_name": "federicotdn/flymake-shellcheck",
+    "html_url": "https://github.com/federicotdn/flymake-shellcheck",
+    "language": "Emacs Lisp",
+    "pushed_at": "2024-06-26T21:22:42Z",
+    "stargazers_count": 57,
+    "topics": [
+      "bash",
+      "emacs",
+      "flymake",
+      "sh",
+      "shell",
+      "shellcheck"
+    ],
+    "updated_at": "2025-05-07T12:27:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/flymake-shellcheck-badge.svg)](https://melpa.org/#/flymake-shellcheck)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/flymake-shellcheck-badge.svg)](https://melpa.org/#/flymake-shellcheck)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/flymake-shellcheck-badge.svg)](https://melpa.org/#/flymake-shellcheck)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flymake"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/flymake-shellcheck-badge.svg)](https://melpa.org/#/flymake-shellcheck)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/flymake-shellcheck-badge.svg)](https://melpa.org/#/flymake-shellcheck)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shellcheck"
+    }
+  ]
+}

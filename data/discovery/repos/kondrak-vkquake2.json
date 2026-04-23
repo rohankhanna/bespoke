@@ -1,0 +1,482 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "humbletim/install-vulkan-sdk@v1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "humbletim/install-vulkan-sdk@v1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "humbletim/install-vulkan-sdk@v1.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "dr-soft/miniaudio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "gpuopen-librariesandsdks/vulkanmemoryallocator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "novum/vkquake",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "mackron/vkquake2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "humbletim/install-vulkan-sdk@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "humbletim/install-vulkan-sdk@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "microsoft/setup-msbuild@v1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "humbletim/install-vulkan-sdk@v1.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "kondrak/vkQuake2",
+      "target": "Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "3d-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "hardware-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "moltenvk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "quake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "quake2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "vkquake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "vkquake2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "vkquake3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "vulkan-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "vulkan-game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2",
+      "target": "vulkan-renderer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:35:24.894243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14842
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 1602
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 1023
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 1412
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "id Software's Quake 2 v3.21 with mission packs and Vulkan support (Windows, Linux, macOS, FreeBSD, Raspberry Pi 4)",
+    "fork": false,
+    "full_name": "kondrak/vkQuake2",
+    "html_url": "https://github.com/kondrak/vkQuake2",
+    "language": "C",
+    "pushed_at": "2025-01-04T22:48:23Z",
+    "stargazers_count": 987,
+    "topics": [
+      "3d-graphics",
+      "freebsd",
+      "gpu",
+      "hardware-acceleration",
+      "linux",
+      "macos",
+      "moltenvk",
+      "quake",
+      "quake2",
+      "vkquake",
+      "vkquake2",
+      "vkquake3",
+      "vulkan",
+      "vulkan-api",
+      "vulkan-game-engine",
+      "vulkan-renderer"
+    ],
+    "updated_at": "2026-04-11T07:29:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dr-soft/miniaudio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gpuopen-librariesandsdks/vulkanmemoryallocator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mackron/vkquake2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "novum/vkquake",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "MacOS"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Windows"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-graphics"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freebsd"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hardware-acceleration"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "moltenvk"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quake"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quake2"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vkquake"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vkquake2"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vkquake3"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-api"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-game-engine"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-renderer"
+    }
+  ]
+}

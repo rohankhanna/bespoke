@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "session"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "27medkamal/tmux-session-wizard",
+      "status": "candidate-context",
+      "text": "One prefix to control all your session creation, naming, switching, etc using fzf & zoxide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "27medkamal/tmux-session-wizard",
+      "status": "candidate-context",
+      "text": "![GitHub](https://img.shields.io/github/license/27medkamal/tmux-session-wizard)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "27medkamal/tmux-session-wizard",
+      "status": "candidate",
+      "text": "![GitHub](https://img.shields.io/github/license/27medkamal/tmux-session-wizard)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39926075,
+      "status": "candidate",
+      "text": "seance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39913318,
+      "status": "candidate",
+      "text": "sitting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990086,
+      "status": "candidate",
+      "text": "academic term"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990086,
+      "status": "candidate",
+      "text": "school term"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29989944,
+      "status": "candidate",
+      "text": "parliamentary"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4027,
+      "status": "candidate",
+      "text": "seance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2047,
+      "status": "candidate",
+      "text": "sitting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "academic term"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "school term"
+    }
+  ],
+  "canonical_name": "session",
+  "concept_id": "session",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "27medkamal/tmux-session-wizard"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "session",
+      "sense_id": "session#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

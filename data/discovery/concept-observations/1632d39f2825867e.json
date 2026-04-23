@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ".NET news, announcements, release notes, and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Write Release Notes\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Write Release Notes\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35533,
+      "status": "candidate",
+      "text": "transcribe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34621,
+      "status": "candidate",
+      "text": "commentate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34333,
+      "status": "candidate",
+      "text": "comment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34333,
+      "status": "candidate",
+      "text": "transcribed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34221,
+      "status": "candidate",
+      "text": "note"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Write Release Notes",
+      "sense_id": "write-release-notes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "write-release-notes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "write-release-notes",
+  "observation_id": "1632d39f2825867e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Write Release Notes",
+  "source_context_snippet": "\"Write Release Notes\"",
+  "source_file": ".github/workflows/release-notes.lock.yml",
+  "source_repo": "dotnet/core",
+  "source_repo_description": ".NET news, announcements, release notes, and more!"
+}

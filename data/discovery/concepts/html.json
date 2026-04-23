@@ -43,6 +43,78 @@
       "source_repo": "electron/electron",
       "status": "candidate-context",
       "text": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pug-php/pug",
+      "status": "candidate-context",
+      "text": "Pug template engine for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/pug",
+      "status": "candidate-context",
+      "text": "[![Latest Stable Version](https://poser.pugx.org/pug-php/pug/v/stable.png)](https://packagist.org/packages/pug-php/pug)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "Emacs client/library for the Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate-context",
+      "text": "Test suites for Web platform specs \u2014 including WHATWG, W3C, and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate-context",
+      "text": "The web-platform-tests Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate-context",
+      "text": "A general purpose syntax highlighter in pure Go "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate-context",
+      "text": "![Chroma](chroma.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "videojs/video.js",
+      "status": "candidate-context",
+      "text": "Video.js - open source HTML5 video player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "videojs/video.js",
+      "status": "candidate-context",
+      "text": "[![Video.js logo][logo]][vjs]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pagedjs/pagedjs",
+      "status": "candidate-context",
+      "text": "Display paginated content in the browser and generate print books using web technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pagedjs/pagedjs",
+      "status": "candidate-context",
+      "text": "<img style=\"display: block; margin: 5em 0 auto;\" src=\"assets/pagedjs.png\" alt=\"Paged.js logo - pagination in the browser\"/>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +135,42 @@
       "source_repo": "electron/electron",
       "status": "candidate",
       "text": "[![Electron Logo](https://electronjs.org/images/electron-logo.svg)](https://electronjs.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/pug",
+      "status": "candidate",
+      "text": "[![Latest Stable Version](https://poser.pugx.org/pug-php/pug/v/stable.png)](https://packagist.org/packages/pug-php/pug)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate",
+      "text": "The web-platform-tests Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecthomas/chroma",
+      "status": "candidate",
+      "text": "![Chroma](chroma.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "videojs/video.js",
+      "status": "candidate",
+      "text": "[![Video.js logo][logo]][vjs]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pagedjs/pagedjs",
+      "status": "candidate",
+      "text": "<img style=\"display: block; margin: 5em 0 auto;\" src=\"assets/pagedjs.png\" alt=\"Paged.js logo - pagination in the browser\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -132,11 +240,47 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "electron/electron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pug-php/pug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alecthomas/chroma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "videojs/video.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pagedjs/pagedjs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

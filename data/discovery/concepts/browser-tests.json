@@ -19,12 +19,30 @@
       "source_repo": "ethers-io/ethers.js",
       "status": "candidate-context",
       "text": "Browser Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jquery/jquery",
+      "status": "candidate-context",
+      "text": "jQuery JavaScript Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/jquery",
+      "status": "candidate-context",
+      "text": "Browser Tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ethers-io/ethers.js",
+      "status": "candidate",
+      "text": "Browser Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/jquery",
       "status": "candidate",
       "text": "Browser Tests"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/test-browser.yml",
       "source_repo": "ethers-io/ethers.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/browser-tests.yml",
+      "source_repo": "jquery/jquery"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

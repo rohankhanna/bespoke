@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:35:16.657924+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25465
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 50
+    },
+    {
+      "path": "requirements.txt",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u26a1FlashRAG: A Python Toolkit for Efficient RAG Research",
+    "fork": true,
+    "full_name": "RUC-NLPIR/FlashRAG-MindSpore",
+    "html_url": "https://github.com/RUC-NLPIR/FlashRAG-MindSpore",
+    "language": "Python",
+    "pushed_at": "2024-12-08T07:10:37Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-07-21T11:05:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

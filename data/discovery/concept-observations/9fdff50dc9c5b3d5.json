@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A GitHub API wrapper written in Scala"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Join the chat at https://gitter.im/47degrees/github4s](https://badges.gitter.im/47degrees/github4s.svg)](https://gitter.im/47degrees/github4s?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![codecov.io](http://codecov.io/gh/47degrees/github4s/bran\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/47degrees/github4s](https://badges.gitter.im/47degrees/github4s.svg)](https://gitter.im/47degrees/github4s?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![codecov.io](http://codecov.io/gh/47degrees/github4s/bran\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19808989,
+      "status": "candidate",
+      "text": "ladder logic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19808987,
+      "status": "candidate",
+      "text": "scheme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19808986,
+      "status": "candidate",
+      "text": "cascade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19808985,
+      "status": "candidate",
+      "text": "loop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19808984,
+      "status": "candidate",
+      "text": "branch"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scala",
+      "sense_id": "scala#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scala",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scala",
+  "observation_id": "9fdff50dc9c5b3d5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "scala",
+  "source_context_snippet": "[![Join the chat at https://gitter.im/47degrees/github4s](https://badges.gitter.im/47degrees/github4s.svg)](https://gitter.im/47degrees/github4s?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![codecov.io](http://codecov.io/gh/47degrees/github4s/bran\u2026",
+  "source_file": null,
+  "source_repo": "47degrees/github4s",
+  "source_repo_description": "A GitHub API wrapper written in Scala"
+}

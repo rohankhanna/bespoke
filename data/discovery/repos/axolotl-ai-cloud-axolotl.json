@@ -284,23 +284,34 @@
       "component": "peter-evans/create-pull-request@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/precommit-autoupdate.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "quarto-dev/quarto-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "nwtgck/actions-netlify@v3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml"
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "axolotl-ai-cloud/axolotl",
-      "target": "axolotl-ai-cloud/grpo_code",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "axolotl-ai-cloud/axolotl",
-      "target": "axolotl-ai-cloud/ml-cross-entropy",
-      "target_type": "repository"
-    },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/base.yml",
@@ -540,6 +551,48 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "quarto-dev/quarto-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "nwtgck/actions-netlify@v3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl",
+      "target": "Preview",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "axolotl-ai-cloud/axolotl",
@@ -547,19 +600,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-19T01:09:11.025899+00:00",
+  "fetched_at": "2026-04-23T08:47:00.821641+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 17168
+      "size": 16459
     },
     {
       "path": "pyproject.toml",
-      "size": 1738
-    },
-    {
-      "path": "requirements.txt",
-      "size": 1218
+      "size": 5440
     },
     {
       "path": ".github/workflows/base.yml",
@@ -571,7 +620,7 @@
     },
     {
       "path": ".github/workflows/lint.yml",
-      "size": 715
+      "size": 713
     },
     {
       "path": ".github/workflows/main.yml",
@@ -579,7 +628,7 @@
     },
     {
       "path": ".github/workflows/multi-gpu-e2e.yml",
-      "size": 2838
+      "size": 2830
     },
     {
       "path": ".github/workflows/nightlies.yml",
@@ -588,9 +637,12 @@
     {
       "path": ".github/workflows/precommit-autoupdate.yml",
       "size": 1113
+    },
+    {
+      "path": ".github/workflows/preview-docs.yml",
+      "size": 2377
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:55.784954+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -600,26 +652,15 @@
     "full_name": "axolotl-ai-cloud/axolotl",
     "html_url": "https://github.com/axolotl-ai-cloud/axolotl",
     "language": "Python",
-    "pushed_at": "2026-04-19T01:53:10Z",
-    "stargazers_count": 11722,
+    "pushed_at": "2026-04-23T05:42:42Z",
+    "stargazers_count": 11743,
     "topics": [
       "fine-tuning",
       "llm"
     ],
-    "updated_at": "2026-04-19T09:36:40Z"
+    "updated_at": "2026-04-23T04:26:38Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "axolotl-ai-cloud/grpo_code",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "axolotl-ai-cloud/ml-cross-entropy",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "ci-cd-base",
@@ -662,6 +703,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/precommit-autoupdate.yml",
       "term": "Pre-commit auto-update"
+    },
+    {
+      "context_snippet": "Preview",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-docs.yml",
+      "term": "Preview"
     },
     {
       "context_snippet": "<p align=\"center\">",

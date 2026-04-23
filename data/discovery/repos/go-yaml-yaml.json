@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "go-yaml/yaml",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "go-yaml/yaml",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:37:52.109435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4633
+    },
+    {
+      "path": "go.mod",
+      "size": 95
+    },
+    {
+      "path": ".github/workflows/go.yaml",
+      "size": 1643
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "v3",
+    "description": "YAML support for the Go language.",
+    "fork": false,
+    "full_name": "go-yaml/yaml",
+    "html_url": "https://github.com/go-yaml/yaml",
+    "language": "Go",
+    "pushed_at": "2025-04-01T17:00:11Z",
+    "stargazers_count": 7030,
+    "topics": [],
+    "updated_at": "2026-04-20T13:18:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kawamuray/linux-taskstats-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kawamuray/linux-taskstats-rs",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kawamuray/linux-taskstats-rs",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "kawamuray/linux-taskstats-rs",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:41:43.616613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1045
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 991
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust interface for Linux taskstats",
+    "fork": false,
+    "full_name": "kawamuray/linux-taskstats-rs",
+    "html_url": "https://github.com/kawamuray/linux-taskstats-rs",
+    "language": "Rust",
+    "pushed_at": "2024-08-15T10:00:46Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-03-11T04:37:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

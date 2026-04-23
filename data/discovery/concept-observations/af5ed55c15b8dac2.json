@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":package: Install C++ Build Tools for Windows using npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nodejs",
+      "sense_id": "nodejs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nodejs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nodejs",
+  "observation_id": "af5ed55c15b8dac2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "nodejs",
+  "source_context_snippet": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>",
+  "source_file": null,
+  "source_repo": "felixrieseberg/windows-build-tools",
+  "source_repo_description": ":package: Install C++ Build Tools for Windows using npm"
+}

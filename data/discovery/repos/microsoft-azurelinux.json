@@ -1,0 +1,277 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-circular-deps.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-clean-stage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-entangled-specs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-entangled-specs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-files.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-kernel-configs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-kernel-configs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license-map.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license-map.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-manifests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-circular-deps.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-circular-deps.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Circular dependency check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-clean-stage.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-clean-stage.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Spec %clean stage check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-entangled-specs.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-entangled-specs.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-entangled-specs.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Spec Entanglement Mismatch Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-files.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-files.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Check Disallowed Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-kernel-configs.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-kernel-configs.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-kernel-configs.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Kernel Required Configs Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license-map.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-license-map.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-license-map.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Spec License Map Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-manifests.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-manifests.yml",
+      "source_repo": "microsoft/azurelinux",
+      "target": "Check Manifests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:30:53.672138+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6503
+    },
+    {
+      "path": ".github/workflows/azurelinux-spec-cleaner.patch",
+      "size": 0
+    },
+    {
+      "path": ".github/workflows/cgmanifest.json",
+      "size": 315
+    },
+    {
+      "path": ".github/workflows/check-circular-deps.yml",
+      "size": 1584
+    },
+    {
+      "path": ".github/workflows/check-clean-stage.yml",
+      "size": 1826
+    },
+    {
+      "path": ".github/workflows/check-entangled-specs.yml",
+      "size": 1351
+    },
+    {
+      "path": ".github/workflows/check-files.yml",
+      "size": 5354
+    },
+    {
+      "path": ".github/workflows/check-kernel-configs.yml",
+      "size": 4356
+    },
+    {
+      "path": ".github/workflows/check-license-map.yml",
+      "size": 1101
+    },
+    {
+      "path": ".github/workflows/check-manifests.yml",
+      "size": 1592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "3.0",
+    "description": "Linux OS for Azure 1P services and edge appliances",
+    "fork": false,
+    "full_name": "microsoft/azurelinux",
+    "html_url": "https://github.com/microsoft/azurelinux",
+    "language": "RPM Spec",
+    "pushed_at": "2026-04-23T08:13:11Z",
+    "stargazers_count": 4602,
+    "topics": [],
+    "updated_at": "2026-04-21T09:28:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Circular dependency check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-circular-deps.yml",
+      "term": "Circular dependency check"
+    },
+    {
+      "context_snippet": "Spec %clean stage check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-clean-stage.yml",
+      "term": "Spec %clean stage check"
+    },
+    {
+      "context_snippet": "Spec Entanglement Mismatch Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-entangled-specs.yml",
+      "term": "Spec Entanglement Mismatch Check"
+    },
+    {
+      "context_snippet": "Check Disallowed Files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-files.yml",
+      "term": "Check Disallowed Files"
+    },
+    {
+      "context_snippet": "Kernel Required Configs Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-kernel-configs.yml",
+      "term": "Kernel Required Configs Check"
+    },
+    {
+      "context_snippet": "Spec License Map Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-license-map.yml",
+      "term": "Spec License Map Check"
+    },
+    {
+      "context_snippet": "Check Manifests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-manifests.yml",
+      "term": "Check Manifests"
+    }
+  ]
+}

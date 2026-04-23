@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:29:27.430977+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4896
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Microsoft Artifact Registry description and related FAQ",
+    "fork": false,
+    "full_name": "microsoft/containerregistry",
+    "html_url": "https://github.com/microsoft/containerregistry",
+    "language": null,
+    "pushed_at": "2025-04-01T14:15:22Z",
+    "stargazers_count": 411,
+    "topics": [],
+    "updated_at": "2026-04-06T02:57:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

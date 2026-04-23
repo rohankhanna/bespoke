@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ".NET API reference documentation (.NET 5+, .NET Core, .NET Framework)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains documentation for the .NET API reference. We track all work for this repository using [GitHub issues](https://github.com/dotnet/dotnet-api-docs/issues). The documentation for APIs is built from the text and code snippets in this repo, and from the sample\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains documentation for the .NET API reference. We track all work for this repository using [GitHub issues](https://github.com/dotnet/dotnet-api-docs/issues). The documentation for APIs is built from the text and code snippets in this repo, and from the sample\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hacktoberfest",
+      "sense_id": "hacktoberfest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hacktoberfest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hacktoberfest",
+  "observation_id": "763711b4ba20b719",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "hacktoberfest",
+  "source_context_snippet": "This repository contains documentation for the .NET API reference. We track all work for this repository using [GitHub issues](https://github.com/dotnet/dotnet-api-docs/issues). The documentation for APIs is built from the text and code snippets in this repo, and from the sample\u2026",
+  "source_file": null,
+  "source_repo": "dotnet/dotnet-api-docs",
+  "source_repo_description": ".NET API reference documentation (.NET 5+, .NET Core, .NET Framework)"
+}

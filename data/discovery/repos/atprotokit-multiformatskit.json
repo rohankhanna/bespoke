@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ATProtoKit/MultiformatsKit",
+      "target": "masterj93/atprotokit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ATProtoKit/MultiformatsKit",
+      "target": "ipfs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ATProtoKit/MultiformatsKit",
+      "target": "ipld",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ATProtoKit/MultiformatsKit",
+      "target": "multibase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ATProtoKit/MultiformatsKit",
+      "target": "multicodec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ATProtoKit/MultiformatsKit",
+      "target": "multiformats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ATProtoKit/MultiformatsKit",
+      "target": "multihash",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:38:55.883399+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Swift implementation of the Multiformats spec, including Multibase, Multicodec, Multihash, and CID.",
+    "fork": false,
+    "full_name": "ATProtoKit/MultiformatsKit",
+    "html_url": "https://github.com/ATProtoKit/MultiformatsKit",
+    "language": "Swift",
+    "pushed_at": "2026-03-21T05:54:01Z",
+    "stargazers_count": 2,
+    "topics": [
+      "cid",
+      "ipfs",
+      "ipld",
+      "multibase",
+      "multicodec",
+      "multiformats",
+      "multihash"
+    ],
+    "updated_at": "2026-03-21T05:51:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "masterj93/atprotokit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipld"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multibase"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multicodec"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiformats"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multihash"
+    }
+  ]
+}

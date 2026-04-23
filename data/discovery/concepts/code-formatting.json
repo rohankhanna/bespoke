@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Code Formatting"
+    "Code Formatting",
+    "Code formatting"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "queryverse/VegaLite.jl",
       "status": "candidate-context",
       "text": "Code Formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NethermindEth/nethermind",
+      "status": "candidate-context",
+      "text": "A robust, high-performance execution client for Ethereum node operators."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NethermindEth/nethermind",
+      "status": "candidate-context",
+      "text": "Code formatting"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "queryverse/VegaLite.jl",
       "status": "candidate",
       "text": "Code Formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NethermindEth/nethermind",
+      "status": "candidate",
+      "text": "Code formatting"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +119,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/jlpkgbutler-codeformat-pr-workflow.yml",
       "source_repo": "queryverse/VegaLite.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/code-formatting.yml",
+      "source_repo": "NethermindEth/nethermind"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

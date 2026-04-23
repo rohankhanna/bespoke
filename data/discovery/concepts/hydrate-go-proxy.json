@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Hydrate Go Proxy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "status": "candidate-context",
+      "text": "Code generator for AWS Controllers for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "status": "candidate-context",
+      "text": "Hydrate Go Proxy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-controllers-k8s/runtime",
+      "status": "candidate-context",
+      "text": "Common ACK runtime and type system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-controllers-k8s/runtime",
+      "status": "candidate-context",
+      "text": "Hydrate Go Proxy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "status": "candidate",
+      "text": "Hydrate Go Proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-controllers-k8s/runtime",
+      "status": "candidate",
+      "text": "Hydrate Go Proxy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "regenerate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "regenerating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "umbrella"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27264,
+      "status": "candidate",
+      "text": "wishbone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23304,
+      "status": "candidate",
+      "text": "freeze"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Hydrate Go Proxy",
+  "concept_id": "hydrate-go-proxy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/postsubmit.yaml",
+      "source_repo": "aws-controllers-k8s/code-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/postsubmit.yaml",
+      "source_repo": "aws-controllers-k8s/runtime"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Hydrate Go Proxy",
+      "sense_id": "hydrate-go-proxy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

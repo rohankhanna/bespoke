@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Vulkan Quake port based on QuakeSpasm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Linux CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Linux CI"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995535,
+      "status": "candidate",
+      "text": "tremor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39886888,
+      "status": "candidate",
+      "text": "quiver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39782818,
+      "status": "candidate",
+      "text": "temblor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39780741,
+      "status": "candidate",
+      "text": "seism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39775958,
+      "status": "candidate",
+      "text": "earthquake"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "quake",
+      "sense_id": "quake#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34051,
+      "status": "candidate",
+      "text": "tremor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31044,
+      "status": "candidate",
+      "text": "quiver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6027,
+      "status": "candidate",
+      "text": "temblor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4016,
+      "status": "candidate",
+      "text": "seism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3049,
+      "status": "candidate",
+      "text": "earthquake"
+    }
+  ],
+  "concept_id": "quake",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "quake",
+  "observation_id": "5279e30b1d666561",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "quake",
+  "source_context_snippet": "Linux CI",
+  "source_file": null,
+  "source_repo": "Novum/vkQuake",
+  "source_repo_description": "Vulkan Quake port based on QuakeSpasm"
+}

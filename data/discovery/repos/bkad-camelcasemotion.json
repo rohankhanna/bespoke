@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bkad/CamelCaseMotion",
+      "target": "chaoren/vim-wordmotion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bkad/CamelCaseMotion",
+      "target": "kana/vim-smartword",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:34:45.540244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5079
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A vim script to provide CamelCase motion through words (fork of inkarkat's camelcasemotion script)",
+    "fork": false,
+    "full_name": "bkad/CamelCaseMotion",
+    "html_url": "https://github.com/bkad/CamelCaseMotion",
+    "language": "Vim Script",
+    "pushed_at": "2025-08-19T06:01:18Z",
+    "stargazers_count": 619,
+    "topics": [],
+    "updated_at": "2026-04-16T01:47:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoren/vim-wordmotion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kana/vim-smartword",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

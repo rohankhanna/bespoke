@@ -97,6 +97,78 @@
       "source_repo": "PaddlePaddle/PaddleSlim",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fishaudio/fish-speech",
+      "status": "candidate-context",
+      "text": "SOTA Open Source TTS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fishaudio/fish-speech",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer (parallelizable). We are at RWKV-7 \"Goose\". So it's combining the best of RNN and transformer - great performance, linear time, constant space (no kv-cache), fast training, infinite ctx_len, and free sentence embedding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-mmlab/mmdetection",
+      "status": "candidate-context",
+      "text": "OpenMMLab Detection Toolbox and Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdetection",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/MNN",
+      "status": "candidate-context",
+      "text": "MNN: A blazing-fast, lightweight inference engine battle-tested by Alibaba, powering high-performance on-device LLMs and Edge AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/MNN",
+      "status": "candidate-context",
+      "text": "![MNN](doc/banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "status": "candidate-context",
+      "text": "Easy-to-use image segmentation library with awesome pre-trained model zoo, supporting wide-range of practical tasks in Semantic Segmentation, Interactive Segmentation, Panoptic Segmentation, Image Matting, 3D Segmentation, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "status": "candidate-context",
+      "text": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Igorbek/typescript-plugin-styled-components",
+      "status": "candidate-context",
+      "text": "TypeScript transformer for improving the debugging experience of styled-components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Igorbek/typescript-plugin-styled-components",
+      "status": "candidate-context",
+      "text": "This is a TypeScript transformer that improves development experience of [`styled-components`](https://www.styled-components.com/)."
     }
   ],
   "candidate_glosses": [
@@ -141,6 +213,42 @@
       "source_repo": "PaddlePaddle/PaddleSlim",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fishaudio/fish-speech",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-mmlab/mmdetection",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/MNN",
+      "status": "candidate",
+      "text": "![MNN](doc/banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleSeg",
+      "status": "candidate",
+      "text": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Igorbek/typescript-plugin-styled-components",
+      "status": "candidate",
+      "text": "This is a TypeScript transformer that improves development experience of [`styled-components`](https://www.styled-components.com/)."
     }
   ],
   "candidate_related_terms": [
@@ -262,11 +370,53 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleSlim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fishaudio/fish-speech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmdetection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/MNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSeg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Igorbek/typescript-plugin-styled-components"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Circular dependency check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/azurelinux",
+      "status": "candidate-context",
+      "text": "Linux OS for Azure 1P services and edge appliances"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/azurelinux",
+      "status": "candidate-context",
+      "text": "Circular dependency check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/azurelinux",
+      "status": "candidate",
+      "text": "Circular dependency check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20374,
+      "status": "candidate",
+      "text": "colony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19908,
+      "status": "candidate",
+      "text": "degree"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19908,
+      "status": "candidate",
+      "text": "radian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19874,
+      "status": "candidate",
+      "text": "round"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19839,
+      "status": "candidate",
+      "text": "circulation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Circular dependency check",
+  "concept_id": "circular-dependency-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check-circular-deps.yml",
+      "source_repo": "microsoft/azurelinux"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Circular dependency check",
+      "sense_id": "circular-dependency-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

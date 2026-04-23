@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Rebuild Cookbook Website"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-cookbook",
+      "status": "candidate-context",
+      "text": "Examples and guides for using the OpenAI API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-cookbook",
+      "status": "candidate-context",
+      "text": "Rebuild Cookbook Website"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-cookbook",
+      "status": "candidate",
+      "text": "Rebuild Cookbook Website"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17805,
+      "status": "candidate",
+      "text": "counter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17805,
+      "status": "candidate",
+      "text": "declaration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17805,
+      "status": "candidate",
+      "text": "deed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17805,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17805,
+      "status": "candidate",
+      "text": "kitchen"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Rebuild Cookbook Website",
+  "concept_id": "rebuild-cookbook-website",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-website.yaml",
+      "source_repo": "openai/openai-cookbook"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Rebuild Cookbook Website",
+      "sense_id": "rebuild-cookbook-website#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

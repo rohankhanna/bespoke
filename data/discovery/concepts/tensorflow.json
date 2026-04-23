@@ -55,6 +55,30 @@
       "source_repo": "apple/coremltools",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/gitlab/pipeline/coremltools1/coremltools/main)](https://gitlab.com/coremltools1/coremltools/-/pipelines?page=1&scope=branches&ref=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/onnxruntime",
+      "status": "candidate-context",
+      "text": "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img width=\"50%\" src=\"docs/images/ONNX_Runtime_logo_dark.png\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ayulockin/SwAV-TF",
+      "status": "candidate-context",
+      "text": "TensorFlow implementation of \"Unsupervised Learning of Visual Features by Contrasting Cluster Assignments\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayulockin/SwAV-TF",
+      "status": "candidate-context",
+      "text": "By: [Ayush Thakur](https://twitter.com/ayushthakur0) and [Sayak Paul](https://twitter.com/RisingSayak)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "apple/coremltools",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/gitlab/pipeline/coremltools1/coremltools/main)](https://gitlab.com/coremltools1/coremltools/-/pipelines?page=1&scope=branches&ref=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/onnxruntime",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img width=\"50%\" src=\"docs/images/ONNX_Runtime_logo_dark.png\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ayulockin/SwAV-TF",
+      "status": "candidate",
+      "text": "By: [Ayush Thakur](https://twitter.com/ayushthakur0) and [Sayak Paul](https://twitter.com/RisingSayak)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "apple/coremltools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/onnxruntime"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ayulockin/SwAV-TF"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

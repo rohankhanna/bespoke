@@ -1,0 +1,128 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "moskomule/anatome",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "moskomule/anatome",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action.yml",
+      "source_repo": "moskomule/anatome",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moskomule/anatome",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moskomule/anatome",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moskomule/anatome",
+      "target": "pytorch-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moskomule/anatome",
+      "target": "representation-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:31:05.928015+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2828
+    },
+    {
+      "path": ".github/workflows/action.yml",
+      "size": 766
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u1f08\u03bd\u03b1\u03c4\u03bf\u03bc\u03ae is a PyTorch library to analyze representation of neural networks",
+    "fork": false,
+    "full_name": "moskomule/anatome",
+    "html_url": "https://github.com/moskomule/anatome",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-06-21T09:51:18Z",
+    "stargazers_count": 67,
+    "topics": [
+      "neural-networks",
+      "pytorch",
+      "pytorch-library",
+      "representation-learning"
+    ],
+    "updated_at": "2026-04-13T08:45:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pytest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action.yml",
+      "term": "pytest"
+    },
+    {
+      "context_snippet": "\u1f08\u03bd\u03b1\u03c4\u03bf\u03bc\u03ae is a PyTorch library to analyze internal representation of neural networks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "\u1f08\u03bd\u03b1\u03c4\u03bf\u03bc\u03ae is a PyTorch library to analyze internal representation of neural networks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "\u1f08\u03bd\u03b1\u03c4\u03bf\u03bc\u03ae is a PyTorch library to analyze internal representation of neural networks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch-library"
+    },
+    {
+      "context_snippet": "\u1f08\u03bd\u03b1\u03c4\u03bf\u03bc\u03ae is a PyTorch library to analyze internal representation of neural networks",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    }
+  ]
+}

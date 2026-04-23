@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqua_build_security.yml",
+      "source_repo": "tfsec/tfsec-example-project",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqua_build_security.yml",
+      "source_repo": "tfsec/tfsec-example-project",
+      "target": "aquasecurity/build-security-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aqua_build_security.yml",
+      "source_repo": "tfsec/tfsec-example-project",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commenter.yml",
+      "source_repo": "tfsec/tfsec-example-project",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commenter.yml",
+      "source_repo": "tfsec/tfsec-example-project",
+      "target": "aquasecurity/tfsec-pr-commenter-action@v1.1.0-beta.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commenter.yml",
+      "source_repo": "tfsec/tfsec-example-project",
+      "target": "tfsec-pr-commenter",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "tfsec/tfsec-example-project"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:40:06.373441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3294
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "port of Andrjey Karpathy's llm.c to Mojo",
+    "fork": false,
+    "full_name": "dorjeduck/llm.mojo",
+    "html_url": "https://github.com/dorjeduck/llm.mojo",
+    "language": "Mojo",
+    "pushed_at": "2025-08-05T19:20:07Z",
+    "stargazers_count": 364,
+    "topics": [],
+    "updated_at": "2026-04-09T04:15:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

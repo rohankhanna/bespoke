@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "micropython"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrianPugh/tamp",
+      "status": "candidate-context",
+      "text": "Tamp is a low-memory, DEFLATE-inspired lossless compression library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrianPugh/tamp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrianPugh/belay",
+      "status": "candidate-context",
+      "text": "Belay is a python library that enables the rapid development of projects that interact with hardware via a micropython-compatible board."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrianPugh/belay",
+      "status": "candidate-context",
+      "text": ".. image:: https://raw.githubusercontent.com/BrianPugh/belay/main/assets/logo_white_400w.png"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrianPugh/tamp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrianPugh/belay",
+      "status": "candidate",
+      "text": ".. image:: https://raw.githubusercontent.com/BrianPugh/belay/main/assets/logo_white_400w.png"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "small-c"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "cython"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "microcontroller"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "microprocessor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "microcomputer"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "micropython",
+  "concept_id": "micropython",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BrianPugh/tamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BrianPugh/belay"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "micropython",
+      "sense_id": "micropython#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

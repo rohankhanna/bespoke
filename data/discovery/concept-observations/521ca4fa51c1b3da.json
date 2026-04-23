@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Relay and Apollo Offline Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A collection of example applications using [react-relay-offline](https://github.com/morrys/react-relay-offline)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A collection of example applications using [react-relay-offline](https://github.com/morrys/react-relay-offline)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29877474,
+      "status": "candidate",
+      "text": "detached"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29872946,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29872466,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29870790,
+      "status": "candidate",
+      "text": "disconnection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29869763,
+      "status": "candidate",
+      "text": "deferred"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "offline",
+      "sense_id": "offline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "offline",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "offline",
+  "observation_id": "521ca4fa51c1b3da",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "offline",
+  "source_context_snippet": "A collection of example applications using [react-relay-offline](https://github.com/morrys/react-relay-offline).",
+  "source_file": null,
+  "source_repo": "morrys/offline-examples",
+  "source_repo_description": "Relay and Apollo Offline Examples"
+}

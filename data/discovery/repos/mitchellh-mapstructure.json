@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mitchellh/mapstructure",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mitchellh/mapstructure",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mitchellh/mapstructure",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:40:24.994089+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1678
+    },
+    {
+      "path": "go.mod",
+      "size": 50
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 388
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Go library for decoding generic map values into native Go structures and vice versa.",
+    "fork": false,
+    "full_name": "mitchellh/mapstructure",
+    "html_url": "https://github.com/mitchellh/mapstructure",
+    "language": "Go",
+    "pushed_at": "2024-06-25T15:17:23Z",
+    "stargazers_count": 8047,
+    "topics": [],
+    "updated_at": "2026-04-18T22:28:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

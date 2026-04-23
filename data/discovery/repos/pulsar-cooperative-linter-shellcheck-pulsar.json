@@ -1,0 +1,351 @@
+{
+  "components": [
+    {
+      "component": "atom-linter",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "atom-package-deps",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-airbnb-base",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jasmine-fix",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-issues.yml"
+    },
+    {
+      "component": "chuhlomin/render-template@v1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-issues.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "JasonEtco/create-an-issue@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "pulsar-edit/action-pulsar-dependency@v3.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "coactions/setup-xvfb@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "google-github-actions/release-please-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "pulsar-cooperative/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "atom-community/linter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "atom-linter",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "atom-package-deps",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "eslint-config-airbnb-base",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "eslint-plugin-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "jasmine-fix",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-issues.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-issues.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "chuhlomin/render-template@v1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-issues.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "peter-evans/create-or-update-comment@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-issues.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "Comment on New Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "JasonEtco/create-an-issue@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "Publish Package for the First Time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "Release New Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "pulsar-edit/action-pulsar-dependency@v3.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "coactions/setup-xvfb@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "google-github-actions/release-please-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version-bump.yml",
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "Bump Package Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pulsar-cooperative/linter-shellcheck-pulsar",
+      "target": "pulsar-package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:36:42.837737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2735
+    },
+    {
+      "path": "package.json",
+      "size": 2323
+    },
+    {
+      "path": ".github/workflows/comment-issues.yml",
+      "size": 777
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1614
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 404
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1347
+    },
+    {
+      "path": ".github/workflows/version-bump.yml",
+      "size": 482
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Linter plugin for Bash, using shellcheck.",
+    "fork": true,
+    "full_name": "pulsar-cooperative/linter-shellcheck-pulsar",
+    "html_url": "https://github.com/pulsar-cooperative/linter-shellcheck-pulsar",
+    "language": "JavaScript",
+    "pushed_at": "2023-12-31T00:08:25Z",
+    "stargazers_count": 5,
+    "topics": [
+      "pulsar-package"
+    ],
+    "updated_at": "2025-12-29T05:38:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atom-community/linter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pulsar-cooperative/.github",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Comment on New Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-issues.yml",
+      "term": "Comment on New Issues"
+    },
+    {
+      "context_snippet": "Publish Package for the First Time",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish Package for the First Time"
+    },
+    {
+      "context_snippet": "Release New Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release New Version"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "Bump Package Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/version-bump.yml",
+      "term": "Bump Package Version"
+    },
+    {
+      "context_snippet": "<!-- Pulsar Cooperative Package Repository Template, place underneath the first h1 heading in the original readme -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pulsar-package"
+    }
+  ]
+}

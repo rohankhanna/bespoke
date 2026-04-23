@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checklinks.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@1.0.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checklinks.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/superlinter.yml"
+    },
+    {
+      "component": "github/super-linter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/superlinter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "target": "jandamm/zgenom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "target": "unixorn/autoupdate-zgenom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "target": "robbyrussell/oh-my-zsh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checklinks.yml",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checklinks.yml",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "target": "gaurav-nelson/github-action-markdown-link-check@1.0.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/superlinter.yml",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/superlinter.yml",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "target": "github/super-linter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/superlinter.yml",
+      "source_repo": "unixorn/autoupdate-zgen",
+      "target": "Super-Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/autoupdate-zgen",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/autoupdate-zgen",
+      "target": "hacktoberfest2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/autoupdate-zgen",
+      "target": "zgen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "unixorn/autoupdate-zgen",
+      "target": "zsh-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:58.605230+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1771
+    },
+    {
+      "path": ".github/workflows/checklinks.yml",
+      "size": 293
+    },
+    {
+      "path": ".github/workflows/superlinter.yml",
+      "size": 674
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Autoupdate plugin for zgen",
+    "fork": false,
+    "full_name": "unixorn/autoupdate-zgen",
+    "html_url": "https://github.com/unixorn/autoupdate-zgen",
+    "language": "Shell",
+    "pushed_at": "2021-05-07T15:21:00Z",
+    "stargazers_count": 21,
+    "topics": [
+      "hacktoberfest",
+      "hacktoberfest2020",
+      "zgen",
+      "zsh",
+      "zsh-plugin"
+    ],
+    "updated_at": "2025-01-30T14:47:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jandamm/zgenom",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robbyrussell/oh-my-zsh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unixorn/autoupdate-zgenom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Super-Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/superlinter.yml",
+      "term": "Super-Linter"
+    },
+    {
+      "context_snippet": "[zgen](https://github.com/tarjoilija/zgen) is no longer getting updates. However, the [zgenom](https://github.com/jandamm/zgenom) fork is getting updates and new features, and is basically zgen but better.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[zgen](https://github.com/tarjoilija/zgen) is no longer getting updates. However, the [zgenom](https://github.com/jandamm/zgenom) fork is getting updates and new features, and is basically zgen but better.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2020"
+    },
+    {
+      "context_snippet": "[zgen](https://github.com/tarjoilija/zgen) is no longer getting updates. However, the [zgenom](https://github.com/jandamm/zgenom) fork is getting updates and new features, and is basically zgen but better.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zgen"
+    },
+    {
+      "context_snippet": "[zgen](https://github.com/tarjoilija/zgen) is no longer getting updates. However, the [zgenom](https://github.com/jandamm/zgenom) fork is getting updates and new features, and is basically zgen but better.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zsh-plugin"
+    }
+  ]
+}

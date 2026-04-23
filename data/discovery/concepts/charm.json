@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "charm"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabio42/sasqwatch",
+      "status": "candidate-context",
+      "text": "A modern take on the classic watch command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio42/sasqwatch",
+      "status": "candidate-context",
+      "text": "Introducing `sasqwatch`, a modern take on the classic watch command using charm.sh libraries."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio42/sasqwatch",
+      "status": "candidate",
+      "text": "Introducing `sasqwatch`, a modern take on the classic watch command using charm.sh libraries."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968255,
+      "status": "candidate",
+      "text": "bewitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968194,
+      "status": "candidate",
+      "text": "becharm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967734,
+      "status": "candidate",
+      "text": "enchant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966372,
+      "status": "candidate",
+      "text": "fascinate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39966307,
+      "status": "candidate",
+      "text": "captivate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36045,
+      "status": "candidate",
+      "text": "influence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28032,
+      "status": "candidate",
+      "text": "beguile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24040,
+      "status": "candidate",
+      "text": "entrance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20031,
+      "status": "candidate",
+      "text": "bewitch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19056,
+      "status": "candidate",
+      "text": "appeal"
+    }
+  ],
+  "canonical_name": "charm",
+  "concept_id": "charm",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fabio42/sasqwatch"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "charm",
+      "sense_id": "charm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

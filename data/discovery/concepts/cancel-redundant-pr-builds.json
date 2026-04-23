@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cancel Redundant PR Builds"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ConsenSys-archive/ganache",
+      "status": "candidate-context",
+      "text": ":warning: The Truffle Suite is being sunset. For information on ongoing support, migration options and FAQs, visit the Consensys blog. Thank you for all the support over the years."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConsenSys-archive/ganache",
+      "status": "candidate-context",
+      "text": "Cancel Redundant PR Builds"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ConsenSys-archive/ganache",
+      "status": "candidate",
+      "text": "Cancel Redundant PR Builds"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26789,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26789,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16926,
+      "status": "candidate",
+      "text": "hammer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16926,
+      "status": "candidate",
+      "text": "nim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16926,
+      "status": "candidate",
+      "text": "pound"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cancel Redundant PR Builds",
+  "concept_id": "cancel-redundant-pr-builds",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cancel-pr.yml",
+      "source_repo": "ConsenSys-archive/ganache"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cancel Redundant PR Builds",
+      "sense_id": "cancel-redundant-pr-builds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

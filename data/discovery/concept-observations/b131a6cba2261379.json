@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Plugin for MKDocs to inject the latest release tag from git into markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "bleach==3.1.0 certifi==2019.3.9 chardet==3.0.4 Click==7.0 docutils==0.14 gitdb2==2.0.5 GitPython==2.1.11 idna==2.8 Jinja2==2.10 livereload==2.6.0 Markdown==3.0.1 MarkupSafe==1.1.1 mkdocs==1.0.4 mkdocs-git-revision-date-plugin==0.1.5 mkdocs-material==4.0.2 pkginfo==1.5.0.1 Pygmen\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "bleach==3.1.0 certifi==2019.3.9 chardet==3.0.4 Click==7.0 docutils==0.14 gitdb2==2.0.5 GitPython==2.1.11 idna==2.8 Jinja2==2.10 livereload==2.6.0 Markdown==3.0.1 MarkupSafe==1.1.1 mkdocs==1.0.4 mkdocs-git-revision-date-plugin==0.1.5 mkdocs-material==4.0.2 pkginfo==1.5.0.1 Pygmen\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mkdocs-plugin",
+      "sense_id": "mkdocs-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mkdocs-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mkdocs-plugin",
+  "observation_id": "b131a6cba2261379",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "mkdocs-plugin",
+  "source_context_snippet": "bleach==3.1.0 certifi==2019.3.9 chardet==3.0.4 Click==7.0 docutils==0.14 gitdb2==2.0.5 GitPython==2.1.11 idna==2.8 Jinja2==2.10 livereload==2.6.0 Markdown==3.0.1 MarkupSafe==1.1.1 mkdocs==1.0.4 mkdocs-git-revision-date-plugin==0.1.5 mkdocs-material==4.0.2 pkginfo==1.5.0.1 Pygmen\u2026",
+  "source_file": null,
+  "source_repo": "agarthetiger/mkdocs_latest_release_plugin",
+  "source_repo_description": "Plugin for MKDocs to inject the latest release tag from git into markdown"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:31:29.251705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1013
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An archive of notes captured at https://hackmd.io/_vrqBGAOSUC_VWvFzWruZw?view",
+    "fork": false,
+    "full_name": "notaryproject/meeting-notes",
+    "html_url": "https://github.com/notaryproject/meeting-notes",
+    "language": null,
+    "pushed_at": "2024-04-08T04:22:06Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-08-22T06:08:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

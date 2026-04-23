@@ -607,6 +607,246 @@
       "source_repo": "labring/sealos",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate-context",
+      "text": "Open Container Initiative-based implementation of Kubernetes Container Runtime Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate-context",
+      "text": "Make underlay and overlay network can coexist, communicate, even be transformed purposefully."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/alibaba/hybridnet)](https://goreportcard.com/report/github.com/alibaba/hybridnet)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nacos-group/nacos-group.github.io",
+      "status": "candidate-context",
+      "text": "nacos-group.github.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nacos-group/nacos-group.github.io",
+      "status": "candidate-context",
+      "text": "This project keeps all sources used for building up [Nacos](https://github.com/alibaba/nacos) official website which's served at http://nacos.io."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-admin",
+      "status": "candidate-context",
+      "text": "The ops and reference implementation for Apache Dubbo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-admin",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/external-dns",
+      "status": "candidate-context",
+      "text": "Configure external DNS servers dynamically from Kubernetes resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/external-dns",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/kaniko",
+      "status": "candidate-context",
+      "text": "Build Container Images In Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/kaniko",
+      "status": "candidate-context",
+      "text": "The code remains available for historic purposes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "etcd-io/etcd",
+      "status": "candidate-context",
+      "text": "Distributed reliable key-value store for the most critical data of a distributed system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etcd-io/etcd",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/etcd-io/etcd?style=flat-square)](https://goreportcard.com/report/github.com/etcd-io/etcd)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helm/chart-releaser",
+      "status": "candidate-context",
+      "text": "Hosting Helm Charts via GitHub Pages and Releases"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-releaser",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artifacthub/hub",
+      "status": "candidate-context",
+      "text": "Find, install and publish Cloud Native packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artifacthub/hub",
+      "status": "candidate-context",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/artifacthub/hub)](https://goreportcard.com/report/github.com/artifacthub/hub)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/trivy-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes-native security toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-operator",
+      "status": "candidate-context",
+      "text": "![Trivy-operator logo](docs/images/trivy-operator-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "Add-on agent to generate and expose cluster-level metrics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/kubernetes/kube-state-metrics/workflows/continuous-integration/badge.svg)](https://github.com/kubernetes/kube-state-metrics/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "A curated list of awesome self-hosted GitHub Action runners in a large comparison matrix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazelbuild/rules_k8s",
+      "status": "candidate-context",
+      "text": "This repository contains rules for interacting with Kubernetes configurations / clusters."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_k8s",
+      "status": "candidate-context",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "petuum/adaptdl",
+      "status": "candidate-context",
+      "text": "Resource-adaptive cluster scheduler for deep learning training."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petuum/adaptdl",
+      "status": "candidate-context",
+      "text": "Release Helm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-kubernetes",
+      "status": "candidate-context",
+      "text": "Embed gRPC, use xDS, build inherent mesh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-kubernetes",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Apache Kdubbo</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate-context",
+      "text": "Kubernetes IN Docker - local clusters for testing Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "davidkarlsen/flyway-operator",
+      "status": "candidate-context",
+      "text": "k8s operator for Flyway migrations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidkarlsen/flyway-operator",
+      "status": "candidate-context",
+      "text": "[Kubernetes-operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) to apply [Flyway migrations](https://flywaydb.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate-context",
+      "text": "Grafana Community Kubernetes Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cortexproject/cortex",
+      "status": "candidate-context",
+      "text": "A horizontally scalable, highly available, multi-tenant, long term Prometheus."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortexproject/cortex",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"images/logo.png\" alt=\"Cortex Logo\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "status": "candidate-context",
+      "text": "apiserver-builder-alpha implements libraries and tools to quickly and easily build Kubernetes apiservers/controllers to support custom resource types based on APIServer Aggregation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "status": "candidate-context",
+      "text": "![build](https://github.com/kubernetes-sigs/apiserver-builder-alpha/workflows/build/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -909,6 +1149,126 @@
       "source_repo": "labring/sealos",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/alibaba/hybridnet)](https://goreportcard.com/report/github.com/alibaba/hybridnet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nacos-group/nacos-group.github.io",
+      "status": "candidate",
+      "text": "This project keeps all sources used for building up [Nacos](https://github.com/alibaba/nacos) official website which's served at http://nacos.io."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-admin",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/external-dns",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/kaniko",
+      "status": "candidate",
+      "text": "The code remains available for historic purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "etcd-io/etcd",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/etcd-io/etcd?style=flat-square)](https://goreportcard.com/report/github.com/etcd-io/etcd)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helm/chart-releaser",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artifacthub/hub",
+      "status": "candidate",
+      "text": "[![Go Report Card](https://goreportcard.com/badge/github.com/artifacthub/hub)](https://goreportcard.com/report/github.com/artifacthub/hub)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/trivy-operator",
+      "status": "candidate",
+      "text": "![Trivy-operator logo](docs/images/trivy-operator-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/kubernetes/kube-state-metrics/workflows/continuous-integration/badge.svg)](https://github.com/kubernetes/kube-state-metrics/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazelbuild/rules_k8s",
+      "status": "candidate",
+      "text": "**This repository is no longer maintained.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "petuum/adaptdl",
+      "status": "candidate",
+      "text": "Release Helm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-kubernetes",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Apache Kdubbo</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img alt=\"kind\" src=\"./logo/logo.png\" width=\"300px\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "davidkarlsen/flyway-operator",
+      "status": "candidate",
+      "text": "[Kubernetes-operator](https://kubernetes.io/docs/concepts/extend-kubernetes/operator/) to apply [Flyway migrations](https://flywaydb.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cortexproject/cortex",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"images/logo.png\" alt=\"Cortex Logo\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
+      "status": "candidate",
+      "text": "![build](https://github.com/kubernetes-sigs/apiserver-builder-alpha/workflows/build/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -1300,11 +1660,143 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "labring/sealos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cri-o/cri-o"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/hybridnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nacos-group/nacos-group.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/external-dns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AliyunContainerService/pouch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "GoogleContainerTools/kaniko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "etcd-io/etcd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "helm/chart-releaser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "artifacthub/hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/trivy-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/kube-state-metrics"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonico/awesome-runners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bazelbuild/rules_k8s"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "petuum/adaptdl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-kubernetes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/kind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "davidkarlsen/flyway-operator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "grafana-community/helm-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cortexproject/cortex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/apiserver-builder-alpha"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

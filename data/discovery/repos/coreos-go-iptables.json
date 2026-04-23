@@ -1,0 +1,73 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "coreos/go-iptables",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "coreos/go-iptables",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "coreos/go-iptables",
+      "target": "golangci/golangci-lint-action@v3",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:44:17.587815+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 797
+    },
+    {
+      "path": "go.mod",
+      "size": 46
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 1031
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go wrapper around iptables utility",
+    "fork": false,
+    "full_name": "coreos/go-iptables",
+    "html_url": "https://github.com/coreos/go-iptables",
+    "language": "Go",
+    "pushed_at": "2024-10-15T10:32:59Z",
+    "stargazers_count": 1219,
+    "topics": [],
+    "updated_at": "2026-04-09T10:32:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

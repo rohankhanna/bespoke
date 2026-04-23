@@ -1,7 +1,8 @@
 {
   "aliases": [
     "goreleaser",
-    "GoReleaser"
+    "GoReleaser",
+    "Goreleaser"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -254,6 +255,162 @@
       "source_repo": "ekalinin/github-markdown-toc.go",
       "status": "candidate-context",
       "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appleboy/gorush",
+      "status": "candidate-context",
+      "text": "A push notification server written in Go (Golang)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/gorush",
+      "status": "candidate-context",
+      "text": "Goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation - replaced by https://github.com/bufbuild/protovalidate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micro/go-micro",
+      "status": "candidate-context",
+      "text": "A Go microservices framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micro/go-micro",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlexNabokikh/tfsort",
+      "status": "candidate-context",
+      "text": "A CLI utility to sort Terraform variables and outputs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexNabokikh/tfsort",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint-ruleset-aws",
+      "status": "candidate-context",
+      "text": "TFLint ruleset for terraform-provider-aws"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-aws",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate-context",
+      "text": "TFLint ruleset for terraform-provider-azurerm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint-ruleset-google",
+      "status": "candidate-context",
+      "text": "TFLint ruleset for terraform-provider-google"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-google",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appleboy/drone-lambda",
+      "status": "candidate-context",
+      "text": "Deploying Lambda code with drone CI to an existing function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/drone-lambda",
+      "status": "candidate-context",
+      "text": "Goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appleboy/go-fcm",
+      "status": "candidate-context",
+      "text": "Firebase Cloud Messaging Library for Golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/go-fcm",
+      "status": "candidate-context",
+      "text": "Goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0ghny/gitconfig",
+      "status": "candidate-context",
+      "text": "Cli to manage multiple gitconfigs with ease"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/gitconfig",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0ghny/tlsg10x-cli",
+      "status": "candidate-context",
+      "text": "UnOfficial TPLink SG (Easy Smart) Switches CommandLine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/tlsg10x-cli",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "klauspost/asmfmt",
+      "status": "candidate-context",
+      "text": "Go Assembler Formatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "klauspost/asmfmt",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fabio42/sasqwatch",
+      "status": "candidate-context",
+      "text": "A modern take on the classic watch command"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio42/sasqwatch",
+      "status": "candidate-context",
+      "text": "goreleaser"
     }
   ],
   "candidate_glosses": [
@@ -368,6 +525,84 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ekalinin/github-markdown-toc.go",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/gorush",
+      "status": "candidate",
+      "text": "Goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micro/go-micro",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexNabokikh/tfsort",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-aws",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-google",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/drone-lambda",
+      "status": "candidate",
+      "text": "Goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appleboy/go-fcm",
+      "status": "candidate",
+      "text": "Goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/gitconfig",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/tlsg10x-cli",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "klauspost/asmfmt",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fabio42/sasqwatch",
       "status": "candidate",
       "text": "goreleaser"
     }
@@ -527,11 +762,89 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/goreleaser.yml",
       "source_repo": "ekalinin/github-markdown-toc.go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "appleboy/gorush"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "bufbuild/protoc-gen-validate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micro/go-micro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AlexNabokikh/tfsort"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-google"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "appleboy/drone-lambda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "appleboy/go-fcm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "0ghny/gitconfig"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "0ghny/tlsg10x-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "klauspost/asmfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "fabio42/sasqwatch"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

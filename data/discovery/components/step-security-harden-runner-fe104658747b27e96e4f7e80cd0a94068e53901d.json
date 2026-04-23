@@ -1,7 +1,7 @@
 {
   "component": "step-security/harden-runner@fe104658747b27e96e4f7e80cd0a94068e53901d",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "coder/coder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-extra.yml",
+      "source_repo": "netblue30/firejail"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "netblue30/firejail"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-c.yml",
+      "source_repo": "netblue30/firejail"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-profiles.yml",
+      "source_repo": "netblue30/firejail"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-python.yml",
+      "source_repo": "netblue30/firejail"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "netblue30/firejail"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "netblue30/firejail"
     }
   ]
 }

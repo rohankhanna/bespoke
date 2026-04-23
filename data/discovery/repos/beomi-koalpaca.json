@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Beomi/KoAlpaca",
+      "target": "deep-diver/alpaca-lora-serve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Beomi/KoAlpaca",
+      "target": "tloen/alpaca-lora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Beomi/KoAlpaca",
+      "target": "tatsu-lab/stanford_alpaca",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Beomi/KoAlpaca",
+      "target": "yizhongw/self-instruct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Beomi/KoAlpaca",
+      "target": "alpaca",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Beomi/KoAlpaca",
+      "target": "chatkoalpaca",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Beomi/KoAlpaca",
+      "target": "koalpaca",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Beomi/KoAlpaca",
+      "target": "korean-nlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Beomi/KoAlpaca",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Beomi/KoAlpaca",
+      "target": "polyglot-ko",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:28:10.755457+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28682
+    },
+    {
+      "path": "requirements.txt",
+      "size": 105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "KoAlpaca: \ud55c\uad6d\uc5b4 \uba85\ub839\uc5b4\ub97c \uc774\ud574\ud558\ub294 \uc624\ud508\uc18c\uc2a4 \uc5b8\uc5b4\ubaa8\ub378 (KoAlpaca: An open-source language model to understand Korean instructions)",
+    "fork": false,
+    "full_name": "Beomi/KoAlpaca",
+    "html_url": "https://github.com/Beomi/KoAlpaca",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-10-25T07:59:42Z",
+    "stargazers_count": 1578,
+    "topics": [
+      "alpaca",
+      "chatkoalpaca",
+      "koalpaca",
+      "korean-nlp",
+      "llama",
+      "polyglot-ko"
+    ],
+    "updated_at": "2026-04-16T02:02:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deep-diver/alpaca-lora-serve",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tatsu-lab/stanford_alpaca",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tloen/alpaca-lora",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yizhongw/self-instruct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpaca"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatkoalpaca"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "koalpaca"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "korean-nlp"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<p align=\"center\" width=\"100%\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyglot-ko"
+    }
+  ]
+}

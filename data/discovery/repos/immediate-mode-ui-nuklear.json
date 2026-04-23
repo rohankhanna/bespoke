@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml"
+    },
+    {
+      "component": "butlerlogic/action-autotag@1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ccpp.yml",
+      "source_repo": "Immediate-Mode-UI/Nuklear",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "Immediate-Mode-UI/Nuklear",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "Immediate-Mode-UI/Nuklear",
+      "target": "butlerlogic/action-autotag@1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "Immediate-Mode-UI/Nuklear",
+      "target": "Create Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Immediate-Mode-UI/Nuklear",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Immediate-Mode-UI/Nuklear",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "Immediate-Mode-UI/Nuklear",
+      "target": "Documentation on github.io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Immediate-Mode-UI/Nuklear",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Immediate-Mode-UI/Nuklear",
+      "target": "imgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Immediate-Mode-UI/Nuklear",
+      "target": "multiplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Immediate-Mode-UI/Nuklear",
+      "target": "nuklear",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Immediate-Mode-UI/Nuklear",
+      "target": "single-header",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Immediate-Mode-UI/Nuklear",
+      "target": "single-header-lib",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:32:40.362849+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/ccpp.yml",
+      "size": 2061
+    },
+    {
+      "path": ".github/workflows/create-tag.yml",
+      "size": 289
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A single-header ANSI C immediate mode cross-platform GUI library",
+    "fork": false,
+    "full_name": "Immediate-Mode-UI/Nuklear",
+    "html_url": "https://github.com/Immediate-Mode-UI/Nuklear",
+    "language": "C",
+    "pushed_at": "2026-04-21T14:14:37Z",
+    "stargazers_count": 11076,
+    "topics": [
+      "c",
+      "c89",
+      "gui",
+      "header-only",
+      "imgui",
+      "multiplatform",
+      "nuklear",
+      "single-header",
+      "single-header-lib"
+    ],
+    "updated_at": "2026-04-23T04:15:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-tag.yml",
+      "term": "Create Tag"
+    },
+    {
+      "context_snippet": "Documentation on github.io",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Documentation on github.io"
+    },
+    {
+      "context_snippet": "C/C++ CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "C/C++ CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imgui"
+    },
+    {
+      "context_snippet": "C/C++ CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiplatform"
+    },
+    {
+      "context_snippet": "C/C++ CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuklear"
+    },
+    {
+      "context_snippet": "C/C++ CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-header"
+    },
+    {
+      "context_snippet": "C/C++ CI",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-header-lib"
+    }
+  ]
+}

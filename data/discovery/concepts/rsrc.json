@@ -19,6 +19,18 @@
       "source_repo": "tc-hib/go-winres",
       "status": "candidate-context",
       "text": "A simple command line tool for embedding usual resources in Windows executables built with Go:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc-hib/winres",
+      "status": "candidate-context",
+      "text": "Functions for embedding typical Windows resources into Go executables: icon, manifest, version info..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc-hib/winres",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/tc-hib/winres.svg)](https://pkg.go.dev/github.com/tc-hib/winres)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "tc-hib/go-winres",
       "status": "candidate",
       "text": "A simple command line tool for embedding usual resources in Windows executables built with Go:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc-hib/winres",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/tc-hib/winres.svg)](https://pkg.go.dev/github.com/tc-hib/winres)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "tc-hib/go-winres"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "tc-hib/winres"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

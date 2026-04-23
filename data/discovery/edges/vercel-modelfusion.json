@@ -4,28 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vercel/modelfusion",
-      "target": "lgrammel/modelfusion-terminal-app-starter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vercel/modelfusion",
-      "target": "lgrammel/modelfusion-llamacpp-nextjs-starter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vercel/modelfusion",
-      "target": "lgrammel/modelfusion-ollama-nextjs-starter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vercel/modelfusion",
       "target": "lgrammel/modelfusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vercel/modelfusion",
+      "target": "lgrammel/storyteller",
       "target_type": "repository"
     },
     {
@@ -218,6 +204,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "vercel/modelfusion"
 }

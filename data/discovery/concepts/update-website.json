@@ -32,6 +32,18 @@
       "source_repo": "jqlang/jq",
       "status": "candidate-context",
       "text": "Update website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emscripten-core/emscripten",
+      "status": "candidate-context",
+      "text": "Emscripten: An LLVM-to-WebAssembly Compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emscripten-core/emscripten",
+      "status": "candidate-context",
+      "text": "Update website"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jqlang/jq",
+      "status": "candidate",
+      "text": "Update website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emscripten-core/emscripten",
       "status": "candidate",
       "text": "Update website"
     }
@@ -101,11 +119,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/website.yml",
       "source_repo": "jqlang/jq"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/update-website.yml",
+      "source_repo": "emscripten-core/emscripten"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "jqlang/jq"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

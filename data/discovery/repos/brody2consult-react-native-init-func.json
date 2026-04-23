@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "@react-native-community/cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "brody2consult/react-native-init-func",
+      "target": "brodybits/react-native-init-func",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "brody2consult/react-native-init-func",
+      "target": "@react-native-community/cli",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:47:30.647392+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1132
+    },
+    {
+      "path": "package.json",
+      "size": 1007
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "brody2consult/react-native-init-func",
+    "html_url": "https://github.com/brody2consult/react-native-init-func",
+    "language": "JavaScript",
+    "pushed_at": "2026-03-24T18:12:30Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-08-14T14:15:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brodybits/react-native-init-func",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,172 @@
+{
+  "aliases": [
+    "ligatures"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tonsky/FiraCode",
+      "status": "candidate-context",
+      "text": "Free monospaced font with programming ligatures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tonsky/FiraCode",
+      "status": "candidate-context",
+      "text": "![Fira Code](./extras/logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "subframe7536/maple-font",
+      "status": "candidate-context",
+      "text": "Maple Mono: Open source monospace font with round corner, ligatures and Nerd-Font icons for IDE and terminal, fine-grained customization options. \u5e26\u8fde\u5b57\u548c\u63a7\u5236\u53f0\u56fe\u6807\u7684\u5706\u89d2\u7b49\u5bbd\u5b57\u4f53\uff0c\u4e2d\u82f1\u6587\u5bbd\u5ea6\u5b8c\u7f8e2:1\uff0c\u7ec6\u7c92\u5ea6\u7684\u81ea\u5b9a\u4e49\u9009\u9879"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subframe7536/maple-font",
+      "status": "candidate-context",
+      "text": "![Cover](./resources/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i-tu/Hasklig",
+      "status": "candidate-context",
+      "text": "Hasklig - a code font with monospaced ligatures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i-tu/Hasklig",
+      "status": "candidate-context",
+      "text": "Programming languages are limited to relatively few characters. As a result, combined character operators surfaced quite early, such as the widely used arrow (`->`), comprised of a hyphen and greater sign. It looks like an arrow if you know the analogy and squint a bit."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JetBrains/JetBrainsMono",
+      "status": "candidate-context",
+      "text": "JetBrains Mono \u2013 the free and open-source typeface for developers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/JetBrainsMono",
+      "status": "candidate-context",
+      "text": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tonsky/FiraCode",
+      "status": "candidate",
+      "text": "![Fira Code](./extras/logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subframe7536/maple-font",
+      "status": "candidate",
+      "text": "![Cover](./resources/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i-tu/Hasklig",
+      "status": "candidate",
+      "text": "Programming languages are limited to relatively few characters. As a result, combined character operators surfaced quite early, such as the widely used arrow (`->`), comprised of a hyphen and greater sign. It looks like an arrow if you know the analogy and squint a bit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JetBrains/JetBrainsMono",
+      "status": "candidate",
+      "text": "[![official JetBrains project](http://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19875493,
+      "status": "candidate",
+      "text": "binder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9951077,
+      "status": "candidate",
+      "text": "ligates"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9951076,
+      "status": "candidate",
+      "text": "serifs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9951075,
+      "status": "candidate",
+      "text": "ligures"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9951074,
+      "status": "candidate",
+      "text": "typefaces"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ligatures",
+  "concept_id": "ligatures",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "tonsky/FiraCode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "subframe7536/maple-font"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "i-tu/Hasklig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "JetBrains/JetBrainsMono"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ligatures",
+      "sense_id": "ligatures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

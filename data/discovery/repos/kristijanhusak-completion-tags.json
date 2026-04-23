@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:47:25.515199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 910
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tags completion for completion-nvim",
+    "fork": false,
+    "full_name": "kristijanhusak/completion-tags",
+    "html_url": "https://github.com/kristijanhusak/completion-tags",
+    "language": "Lua",
+    "pushed_at": "2021-06-28T17:15:21Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2024-07-01T06:48:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

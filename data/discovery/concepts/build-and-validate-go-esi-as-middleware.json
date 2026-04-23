@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and validate go-esi as middleware"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "darkweak/go-esi",
+      "status": "candidate-context",
+      "text": "Pure implementation of the non-standard ESI (Edge-Side-Include) specification in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/go-esi",
+      "status": "candidate-context",
+      "text": "Build and validate go-esi as middleware"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "darkweak/go-esi",
+      "status": "candidate",
+      "text": "Build and validate go-esi as middleware"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "leg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "legs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14425,
+      "status": "candidate",
+      "text": "leh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "alcazar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14305,
+      "status": "candidate",
+      "text": "alicante"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and validate go-esi as middleware",
+  "concept_id": "build-and-validate-go-esi-as-middleware",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/middlewares.yml",
+      "source_repo": "darkweak/go-esi"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and validate go-esi as middleware",
+      "sense_id": "build-and-validate-go-esi-as-middleware#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

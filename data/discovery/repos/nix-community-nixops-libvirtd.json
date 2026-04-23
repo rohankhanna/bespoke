@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nix-community/nixops-libvirtd",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nix-community/nixops-libvirtd",
+      "target": "cachix/install-nix-action@v8",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:45:02.297303+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1649
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 561
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NixOps libvirtd backend plugin [maintainer=@AmineChikhaoui]",
+    "fork": false,
+    "full_name": "nix-community/nixops-libvirtd",
+    "html_url": "https://github.com/nix-community/nixops-libvirtd",
+    "language": "Python",
+    "pushed_at": "2024-03-20T16:45:41Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2026-02-17T12:46:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

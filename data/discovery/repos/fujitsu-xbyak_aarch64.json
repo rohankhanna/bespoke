@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fujitsu/xbyak_aarch64",
+      "target": "thinkski/osx-arm-linux-toolchains",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "fujitsu/xbyak_aarch64",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fujitsu/xbyak_aarch64",
+      "target": "aarch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fujitsu/xbyak_aarch64",
+      "target": "jit-assembler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fujitsu/xbyak_aarch64",
+      "target": "xbyak",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:32:54.671774+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25243
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "fujitsu/xbyak_aarch64",
+    "html_url": "https://github.com/fujitsu/xbyak_aarch64",
+    "language": "C++",
+    "pushed_at": "2026-03-27T15:11:43Z",
+    "stargazers_count": 223,
+    "topics": [
+      "aarch",
+      "jit-assembler",
+      "sve",
+      "xbyak"
+    ],
+    "updated_at": "2026-04-04T11:51:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thinkski/osx-arm-linux-toolchains",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/herumi/xbyak_aarch64.png)](https://travis-ci.org/herumi/xbyak_aarch64)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aarch"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/herumi/xbyak_aarch64.png)](https://travis-ci.org/herumi/xbyak_aarch64)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jit-assembler"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/herumi/xbyak_aarch64.png)](https://travis-ci.org/herumi/xbyak_aarch64)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xbyak"
+    }
+  ]
+}

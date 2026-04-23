@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonsky/FiraCode",
+      "target": "i-tu/hasklig",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonsky/FiraCode",
+      "target": "kika/fixedsys",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonsky/FiraCode",
+      "target": "microsoft/cascadia-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tonsky/FiraCode",
+      "target": "jetbrains/jetbrainsmono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tonsky/FiraCode",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tonsky/FiraCode",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tonsky/FiraCode",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tonsky/FiraCode",
+      "target": "ligatures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tonsky/FiraCode",
+      "target": "programming-ligatures",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:42:51.661302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12029
+    },
+    {
+      "path": "Dockerfile",
+      "size": 122
+    },
+    {
+      "path": "package.json",
+      "size": 574
+    },
+    {
+      "path": "requirements.txt",
+      "size": 102
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 891
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Free monospaced font with programming ligatures",
+    "fork": false,
+    "full_name": "tonsky/FiraCode",
+    "html_url": "https://github.com/tonsky/FiraCode",
+    "language": "Clojure",
+    "pushed_at": "2026-04-13T22:52:26Z",
+    "stargazers_count": 81475,
+    "topics": [
+      "font",
+      "ligatures",
+      "programming-ligatures"
+    ],
+    "updated_at": "2026-04-23T04:39:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "i-tu/hasklig",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jetbrains/jetbrainsmono",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kika/fixedsys",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/cascadia-code",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Fira Code](./extras/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "![Fira Code](./extras/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ligatures"
+    },
+    {
+      "context_snippet": "![Fira Code](./extras/logo.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-ligatures"
+    }
+  ]
+}

@@ -43,6 +43,30 @@
       "source_repo": "GoogleCloudPlatform/vertex-ai-samples",
       "status": "candidate-context",
       "text": "This repository contains notebooks, code samples, sample apps, skills, and other resources that demonstrate how to use, develop and manage machine learning and generative AI workflows using Google Cloud Vertex AI."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "Tfsec is now part of Trivy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamiBs/vscode-terraform-live-graph",
+      "status": "candidate-context",
+      "text": "The Terraform Live Graph Extension for Visual Studio Code is a plugin that allows you to generate a live Terraform graph as you code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamiBs/vscode-terraform-live-graph",
+      "status": "candidate-context",
+      "text": "[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](./LICENSE.md)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "GoogleCloudPlatform/vertex-ai-samples",
       "status": "candidate",
       "text": "This repository contains notebooks, code samples, sample apps, skills, and other resources that demonstrate how to use, develop and manage machine learning and generative AI workflows using Google Cloud Vertex AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aquasecurity/tfsec",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamiBs/vscode-terraform-live-graph",
+      "status": "candidate",
+      "text": "[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](./LICENSE.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "GoogleCloudPlatform/vertex-ai-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aquasecurity/tfsec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "adamiBs/vscode-terraform-live-graph"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

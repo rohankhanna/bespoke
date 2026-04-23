@@ -1,0 +1,285 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-build.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-license-checker.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@5c5b974209f0de5d905f37deb69369068ebfc15c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-license-checker.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/dependency@5c5b974209f0de5d905f37deb69369068ebfc15c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-license-checker.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "License Checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-build.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-build.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-build.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-build.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "Reusable build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-codeql.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-codeql.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "Reusable CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-license-checker.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-license-checker.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "apache/skywalking-eyes/header@5c5b974209f0de5d905f37deb69369068ebfc15c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-license-checker.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "apache/skywalking-eyes/dependency@5c5b974209f0de5d905f37deb69369068ebfc15c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-license-checker.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "Reusable license checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "notaryproject/notation-core-go",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:31:32.016109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1816
+    },
+    {
+      "path": "go.mod",
+      "size": 310
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 787
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 769
+    },
+    {
+      "path": ".github/workflows/license-checker.yml",
+      "size": 807
+    },
+    {
+      "path": ".github/workflows/reusable-build.yml",
+      "size": 1307
+    },
+    {
+      "path": ".github/workflows/reusable-codeql.yml",
+      "size": 1366
+    },
+    {
+      "path": ".github/workflows/reusable-license-checker.yml",
+      "size": 1185
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1464
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Contains support for Notary Project signature envelope, and format specific implementation",
+    "fork": false,
+    "full_name": "notaryproject/notation-core-go",
+    "html_url": "https://github.com/notaryproject/notation-core-go",
+    "language": "Go",
+    "pushed_at": "2026-04-13T17:57:13Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-03-23T14:12:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "License Checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yml",
+      "term": "License Checker"
+    },
+    {
+      "context_snippet": "Reusable build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-build.yml",
+      "term": "Reusable build"
+    },
+    {
+      "context_snippet": "Reusable CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-codeql.yml",
+      "term": "Reusable CodeQL"
+    },
+    {
+      "context_snippet": "Reusable license checker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-license-checker.yml",
+      "term": "Reusable license checker"
+    },
+    {
+      "context_snippet": "\"Close stale issues and PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    }
+  ]
+}

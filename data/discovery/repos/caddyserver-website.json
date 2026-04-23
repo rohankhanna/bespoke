@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caddyserver/website",
+      "target": "mholt/caddy-hitcounter",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:37:51.193678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Caddy website",
+    "fork": false,
+    "full_name": "caddyserver/website",
+    "html_url": "https://github.com/caddyserver/website",
+    "language": "HTML",
+    "pushed_at": "2026-04-17T20:16:29Z",
+    "stargazers_count": 213,
+    "topics": [],
+    "updated_at": "2026-04-22T08:12:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mholt/caddy-hitcounter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

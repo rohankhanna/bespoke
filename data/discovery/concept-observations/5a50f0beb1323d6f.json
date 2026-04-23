@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "cuDF - GPU DataFrame Library "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cuDF (pronounced \"KOO-dee-eff\") is an [Apache 2.0 licensed](LICENSE), GPU-accelerated DataFrame library"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cuDF (pronounced \"KOO-dee-eff\") is an [Apache 2.0 licensed](LICENSE), GPU-accelerated DataFrame library"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39632067,
+      "status": "candidate",
+      "text": "speedy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39597556,
+      "status": "candidate",
+      "text": "fast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29632071,
+      "status": "candidate",
+      "text": "mountain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29619045,
+      "status": "candidate",
+      "text": "riffle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29565263,
+      "status": "candidate",
+      "text": "early"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rapids",
+      "sense_id": "rapids#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rapids",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rapids",
+  "observation_id": "5a50f0beb1323d6f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "rapids",
+  "source_context_snippet": "cuDF (pronounced \"KOO-dee-eff\") is an [Apache 2.0 licensed](LICENSE), GPU-accelerated DataFrame library",
+  "source_file": null,
+  "source_repo": "rapidsai/cudf",
+  "source_repo_description": "cuDF - GPU DataFrame Library "
+}

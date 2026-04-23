@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Linux partially with CPROVER tools"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "diffblue/cbmc",
+      "status": "candidate-context",
+      "text": "C Bounded Model Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffblue/cbmc",
+      "status": "candidate-context",
+      "text": "Build Linux partially with CPROVER tools"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "diffblue/cbmc",
+      "status": "candidate",
+      "text": "Build Linux partially with CPROVER tools"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22010,
+      "status": "candidate",
+      "text": "crossover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21076,
+      "status": "candidate",
+      "text": "copula"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17501,
+      "status": "candidate",
+      "text": "computing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17501,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17501,
+      "status": "candidate",
+      "text": "tcp"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Linux partially with CPROVER tools",
+  "concept_id": "build-linux-partially-with-cprover-tools",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-and-test-Linux.yaml",
+      "source_repo": "diffblue/cbmc"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Linux partially with CPROVER tools",
+      "sense_id": "build-linux-partially-with-cprover-tools#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

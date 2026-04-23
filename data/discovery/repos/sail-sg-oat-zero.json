@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sail-sg/oat-zero",
+      "target": "sail-sg/oat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sail-sg/oat-zero",
+      "target": "hkust-nlp/simplerl-reason",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:35:28.135706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4047
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightweight reproduction of DeepSeek-R1-Zero with indepth analysis of self-reflection behavior.",
+    "fork": false,
+    "full_name": "sail-sg/oat-zero",
+    "html_url": "https://github.com/sail-sg/oat-zero",
+    "language": "Python",
+    "pushed_at": "2025-04-15T01:46:35Z",
+    "stargazers_count": 249,
+    "topics": [],
+    "updated_at": "2025-12-21T01:36:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkust-nlp/simplerl-reason",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sail-sg/oat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

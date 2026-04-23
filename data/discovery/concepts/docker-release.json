@@ -26,6 +26,30 @@
       "source_repo": "ryanoasis/nerd-fonts",
       "status": "candidate-context",
       "text": "Docker release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boundless-xyz/kailua",
+      "status": "candidate-context",
+      "text": "The Ultimate ZK Proving Software Suite for Securing OP Rollups"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/kailua",
+      "status": "candidate-context",
+      "text": "Docker Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "CoreDNS is a DNS server that chains plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "Docker Release"
     }
   ],
   "candidate_glosses": [
@@ -34,6 +58,18 @@
       "source_repo": "ryanoasis/nerd-fonts",
       "status": "candidate",
       "text": "Docker release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/kailua",
+      "status": "candidate",
+      "text": "Docker Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate",
+      "text": "Docker Release"
     }
   ],
   "candidate_related_terms": [
@@ -95,11 +131,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/docker-release.yml",
       "source_repo": "ryanoasis/nerd-fonts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "boundless-xyz/kailua"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "coredns/coredns"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

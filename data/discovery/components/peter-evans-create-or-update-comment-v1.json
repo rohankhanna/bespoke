@@ -1,12 +1,17 @@
 {
   "component": "peter-evans/create-or-update-comment@v1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/selenology.yml",
       "source_repo": "Kampfkarren/selene"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backwards-compatibility-commenter.yml",
+      "source_repo": "ajaxorg/ace"
     }
   ]
 }

@@ -1,0 +1,196 @@
+{
+  "aliases": [
+    "simd"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/highway",
+      "status": "candidate-context",
+      "text": "Performance-portable, length-agnostic SIMD with runtime dispatch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/highway",
+      "status": "candidate-context",
+      "text": "[//]: # (placeholder, do not remove)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ARM-software/ComputeLibrary",
+      "status": "candidate-context",
+      "text": "The Compute Library is a set of computer vision and machine learning functions optimised for both Arm CPUs and GPUs using SIMD technologies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/ComputeLibrary",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/NumKong",
+      "status": "candidate-context",
+      "text": "SIMD-accelerated distances, dot products, matrix ops, geospatial & geometric kernels for 16 numeric types \u2014 from 6-bit floats to 64-bit complex \u2014 across x86, Arm, RISC-V, and WASM, with bindings for Python, Rust, C, C++, Swift, JS, and Go \ud83d\udcd0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumKong",
+      "status": "candidate-context",
+      "text": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Nugine/simd",
+      "status": "candidate-context",
+      "text": "SIMD-accelerated operations"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nugine/simd",
+      "status": "candidate-context",
+      "text": "[![MIT licensed][mit-badge]][mit-url] [![CI][CI-badge]][CI-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simd-lite/simd-json",
+      "status": "candidate-context",
+      "text": "Rust port of simdjson"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simd-lite/simd-json",
+      "status": "candidate-context",
+      "text": "[Build Status ARM]: https://cloud.drone.io/api/badges/simd-lite/simd-json/status.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/highway",
+      "status": "candidate",
+      "text": "[//]: # (placeholder, do not remove)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ARM-software/ComputeLibrary",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/NumKong",
+      "status": "candidate",
+      "text": "Portable mixed-precision math, linear-algebra, & retrieval library with 2'000+ SIMD kernels for x86, Arm, RISC-V, LoongArch, Power, & WebAssembly, leveraging rare algebraic transforms with both 1D & 2D registers like AMX & SME, covering 15+ numeric types from 4-bit integers & 6-\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Nugine/simd",
+      "status": "candidate",
+      "text": "[![MIT licensed][mit-badge]][mit-url] [![CI][CI-badge]][CI-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simd-lite/simd-json",
+      "status": "candidate",
+      "text": "[Build Status ARM]: https://cloud.drone.io/api/badges/simd-lite/simd-json/status.svg"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022391,
+      "status": "candidate",
+      "text": "openmp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022390,
+      "status": "candidate",
+      "text": "mdct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022389,
+      "status": "candidate",
+      "text": "multiprecision"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022388,
+      "status": "candidate",
+      "text": "ocaml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20022387,
+      "status": "candidate",
+      "text": "rtti"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "simd",
+  "concept_id": "simd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/highway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ARM-software/ComputeLibrary"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Nugine/simd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "simd-lite/simd-json"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "simd",
+      "sense_id": "simd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

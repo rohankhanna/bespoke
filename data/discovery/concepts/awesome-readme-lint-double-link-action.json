@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Awesome readme lint double link action"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vuejs/awesome-vue",
+      "status": "candidate-context",
+      "text": "\ud83c\udf89 A curated list of awesome things related to Vue.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/awesome-vue",
+      "status": "candidate-context",
+      "text": "Awesome readme lint double link action"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vuejs/awesome-vue",
+      "status": "candidate",
+      "text": "Awesome readme lint double link action"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44010,
+      "status": "candidate",
+      "text": "thread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42778,
+      "status": "candidate",
+      "text": "connection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42692,
+      "status": "candidate",
+      "text": "triple"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33533,
+      "status": "candidate",
+      "text": "harp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33453,
+      "status": "candidate",
+      "text": "jump"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Awesome readme lint double link action",
+  "concept_id": "awesome-readme-lint-double-link-action",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/readme-lint-double-link.yml",
+      "source_repo": "vuejs/awesome-vue"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Awesome readme lint double link action",
+      "sense_id": "awesome-readme-lint-double-link-action#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

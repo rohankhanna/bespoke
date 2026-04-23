@@ -1,0 +1,12 @@
+{
+  "component": "CodSpeedHQ/action@658a901452bb54c799643e060733b7afe9121b8d",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "webpack/webpack"
+    }
+  ]
+}

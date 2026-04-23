@@ -1,0 +1,156 @@
+{
+  "aliases": [
+    "parallelism"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "poolifier/poolifier",
+      "status": "candidate-context",
+      "text": "Fast and small Node.js worker_threads and cluster worker pool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/poolifier",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kakaobrain/torchgpipe",
+      "status": "candidate-context",
+      "text": "A GPipe implementation in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kakaobrain/torchgpipe",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/torchgpipe.svg)](https://pypi.org/project/torchgpipe)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crossbeam-rs/crossbeam",
+      "status": "candidate-context",
+      "text": "Tools for concurrent programming in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbeam-rs/crossbeam",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/crossbeam-rs/crossbeam/workflows/CI/badge.svg)]("
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/poolifier",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kakaobrain/torchgpipe",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/torchgpipe.svg)](https://pypi.org/project/torchgpipe)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crossbeam-rs/crossbeam",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/crossbeam-rs/crossbeam/workflows/CI/badge.svg)]("
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038571,
+      "status": "candidate",
+      "text": "correspondence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049483,
+      "status": "candidate",
+      "text": "parallel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047499,
+      "status": "candidate",
+      "text": "comparison"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039063,
+      "status": "candidate",
+      "text": "concordance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10049686,
+      "status": "candidate",
+      "text": "similarity"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14041,
+      "status": "candidate",
+      "text": "correspondence"
+    }
+  ],
+  "canonical_name": "parallelism",
+  "concept_id": "parallelism",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "poolifier/poolifier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kakaobrain/torchgpipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "crossbeam-rs/crossbeam"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parallelism",
+      "sense_id": "parallelism#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

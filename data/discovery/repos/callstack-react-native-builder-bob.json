@@ -171,21 +171,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "callstack/react-native-builder-bob",
-      "target": "lerna-lite/lerna-lite",
+      "target": "react-native-community/react-native-webview",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "callstack/react-native-builder-bob",
-      "target": "brodybits/create-react-native-module",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "callstack/react-native-builder-bob",
-      "target": "patrickkabwe/create-nitro-module",
+      "target": "react-native-community/rnnewarchitecturelibraries",
       "target_type": "repository"
     },
     {
@@ -193,6 +186,13 @@
       "source_file": "README.md",
       "source_repo": "callstack/react-native-builder-bob",
       "target": "brodybits/react-native-module-init",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "callstack/react-native-builder-bob",
+      "target": "react-navigation/react-navigation",
       "target_type": "repository"
     },
     {
@@ -490,7 +490,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T04:53:37.718362+00:00",
+  "fetched_at": "2026-04-23T05:46:36.994623+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -550,23 +550,23 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "brodybits/create-react-native-module",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "brodybits/react-native-module-init",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "lerna-lite/lerna-lite",
+      "full_name": "react-native-community/react-native-webview",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "patrickkabwe/create-nitro-module",
+      "full_name": "react-native-community/rnnewarchitecturelibraries",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "react-navigation/react-navigation",
+      "source_file": "package.json"
     }
   ],
   "terms": [

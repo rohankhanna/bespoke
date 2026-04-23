@@ -9,13 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Dockerfile",
-      "source_repo": "dragonflyoss/dragonfly-archived",
-      "target": "dragonflyoss/dragonfly",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "dragonflyoss/dragonfly-archived",
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T19:11:41.222835+00:00",
+  "fetched_at": "2026-04-23T08:31:04.184674+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -92,11 +85,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "dragonflyoss/dragonfly2",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dragonflyoss/dragonfly",
-      "source_file": "Dockerfile"
     }
   ],
   "terms": [

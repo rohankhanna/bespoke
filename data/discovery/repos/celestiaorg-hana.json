@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:28:28.656601+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 451
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 5827
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Celestia derivation pipeline and proof crate built with kona",
+    "fork": false,
+    "full_name": "celestiaorg/hana",
+    "html_url": "https://github.com/celestiaorg/hana",
+    "language": "Rust",
+    "pushed_at": "2026-03-31T17:03:52Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-03-31T17:03:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

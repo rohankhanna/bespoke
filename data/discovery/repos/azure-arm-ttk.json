@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-cache.yml"
+    },
+    {
+      "component": "azure/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-cache.yml"
+    },
+    {
+      "component": "Azure/powershell@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-cache.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/arm-ttk",
+      "target": "azure/bicep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/arm-ttk",
+      "target": "azure/azure-quickstart-templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yml",
+      "source_repo": "Azure/arm-ttk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-unit-tests.yml",
+      "source_repo": "Azure/arm-ttk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-unit-tests.yml",
+      "source_repo": "Azure/arm-ttk",
+      "target": "RunPester",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-cache.yml",
+      "source_repo": "Azure/arm-ttk",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-cache.yml",
+      "source_repo": "Azure/arm-ttk",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-cache.yml",
+      "source_repo": "Azure/arm-ttk",
+      "target": "Azure/powershell@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-cache.yml",
+      "source_repo": "Azure/arm-ttk",
+      "target": "update-cache",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:42:15.688965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3897
+    },
+    {
+      "path": ".github/workflows/run-unit-tests.yml",
+      "size": 1624
+    },
+    {
+      "path": ".github/workflows/update-cache.yml",
+      "size": 2332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Azure Resource Manager Template Toolkit",
+    "fork": false,
+    "full_name": "Azure/arm-ttk",
+    "html_url": "https://github.com/Azure/arm-ttk",
+    "language": "PowerShell",
+    "pushed_at": "2026-02-13T23:24:56Z",
+    "stargazers_count": 458,
+    "topics": [],
+    "updated_at": "2026-04-17T08:18:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/azure-quickstart-templates",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/bicep",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "RunPester",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-unit-tests.yml",
+      "term": "RunPester"
+    },
+    {
+      "context_snippet": "update-cache",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-cache.yml",
+      "term": "update-cache"
+    }
+  ]
+}

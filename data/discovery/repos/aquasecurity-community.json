@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/community",
+      "target": "community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/community",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aquasecurity/community",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:42:51.671918+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Aqua Security's open source community",
+    "fork": false,
+    "full_name": "aquasecurity/community",
+    "html_url": "https://github.com/aquasecurity/community",
+    "language": null,
+    "pushed_at": "2024-04-10T15:06:09Z",
+    "stargazers_count": 49,
+    "topics": [
+      "community",
+      "hacktoberfest",
+      "open-source"
+    ],
+    "updated_at": "2026-03-25T20:46:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Aqua Security's open source community",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community"
+    },
+    {
+      "context_snippet": "Aqua Security's open source community",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Aqua Security's open source community",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    }
+  ]
+}

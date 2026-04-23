@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:43:26.375131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2974
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Set up your GitHub Actions workflow with a specific version of Trivy",
+    "fork": false,
+    "full_name": "aquasecurity/setup-trivy",
+    "html_url": "https://github.com/aquasecurity/setup-trivy",
+    "language": null,
+    "pushed_at": "2026-03-19T22:27:58Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-04-13T15:20:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

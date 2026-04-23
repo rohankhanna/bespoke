@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openxla/community",
+      "target": "openxla/stablehlo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openxla/community",
+      "target": "openxla/xla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openxla/community",
+      "target": "openxla/iree",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:35:44.193430+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2559
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Stores documents and resources used by the OpenXLA developer community",
+    "fork": false,
+    "full_name": "openxla/community",
+    "html_url": "https://github.com/openxla/community",
+    "language": null,
+    "pushed_at": "2024-08-02T23:11:53Z",
+    "stargazers_count": 133,
+    "topics": [],
+    "updated_at": "2026-01-13T20:37:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openxla/iree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openxla/stablehlo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openxla/xla",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "nilaway"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blinklabs-io/bluefin",
+      "status": "candidate-context",
+      "text": "A Fortuna (TUNA) miner, written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blinklabs-io/bluefin",
+      "status": "candidate-context",
+      "text": "nilaway"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blinklabs-io/bluefin",
+      "status": "candidate",
+      "text": "nilaway"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nilaway",
+  "concept_id": "nilaway",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/nilaway.yml",
+      "source_repo": "blinklabs-io/bluefin"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nilaway",
+      "sense_id": "nilaway#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

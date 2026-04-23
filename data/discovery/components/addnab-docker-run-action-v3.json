@@ -1,7 +1,7 @@
 {
   "component": "addnab/docker-run-action@v3",
   "first_seen_at": "2026-04-18T09:10:17.311509+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/node.yaml",
       "source_repo": "cmake-js/cmake-js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/artifact.yaml",
+      "source_repo": "ijl/orjson"
     }
   ]
 }

@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/peribolos-schema-validate.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/peribolos-schema-validate.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc-review-reminder.yaml"
+    },
+    {
+      "component": "rtCamp/action-slack-notify@v2.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc-review-reminder.yaml"
+    },
+    {
+      "component": "knative/actions/setup-go@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "knative/community",
+      "target": "knative/eventing",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "knative/community",
+      "target": "knative/serving",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/peribolos-schema-validate.yaml",
+      "source_repo": "knative/community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/peribolos-schema-validate.yaml",
+      "source_repo": "knative/community",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/peribolos-schema-validate.yaml",
+      "source_repo": "knative/community",
+      "target": "peribolos-schema-validate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc-review-reminder.yaml",
+      "source_repo": "knative/community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc-review-reminder.yaml",
+      "source_repo": "knative/community",
+      "target": "rtCamp/action-slack-notify@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "knative/community",
+      "target": "knative/actions/setup-go@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "knative/community",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "knative/community",
+      "target": "Verify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/community",
+      "target": "committee",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/community",
+      "target": "community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/community",
+      "target": "governance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/community",
+      "target": "guidelines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/community",
+      "target": "knative",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/community",
+      "target": "knative-authors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/community",
+      "target": "mechanics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/community",
+      "target": "meetings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "knative/community",
+      "target": "roles",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:35:29.814782+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4597
+    },
+    {
+      "path": ".github/workflows/peribolos-schema-validate.yaml",
+      "size": 1224
+    },
+    {
+      "path": ".github/workflows/toc-review-reminder.yaml",
+      "size": 2164
+    },
+    {
+      "path": ".github/workflows/verify.yaml",
+      "size": 2392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Knative governance and community material.",
+    "fork": false,
+    "full_name": "knative/community",
+    "html_url": "https://github.com/knative/community",
+    "language": "Go",
+    "pushed_at": "2026-04-20T15:05:32Z",
+    "stargazers_count": 291,
+    "topics": [
+      "committee",
+      "community",
+      "governance",
+      "guidelines",
+      "knative",
+      "knative-authors",
+      "mechanics",
+      "meetings",
+      "roles"
+    ],
+    "updated_at": "2026-04-20T15:06:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "knative/eventing",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "knative/serving",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "peribolos-schema-validate",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/peribolos-schema-validate.yaml",
+      "term": "peribolos-schema-validate"
+    },
+    {
+      "context_snippet": "Verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify.yaml",
+      "term": "Verify"
+    },
+    {
+      "context_snippet": "![Kuack the Knative Duck](./mascot/kuack.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "committee"
+    },
+    {
+      "context_snippet": "![Kuack the Knative Duck](./mascot/kuack.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community"
+    },
+    {
+      "context_snippet": "![Kuack the Knative Duck](./mascot/kuack.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "governance"
+    },
+    {
+      "context_snippet": "![Kuack the Knative Duck](./mascot/kuack.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "guidelines"
+    },
+    {
+      "context_snippet": "![Kuack the Knative Duck](./mascot/kuack.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knative"
+    },
+    {
+      "context_snippet": "![Kuack the Knative Duck](./mascot/kuack.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knative-authors"
+    },
+    {
+      "context_snippet": "![Kuack the Knative Duck](./mascot/kuack.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mechanics"
+    },
+    {
+      "context_snippet": "![Kuack the Knative Duck](./mascot/kuack.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meetings"
+    },
+    {
+      "context_snippet": "![Kuack the Knative Duck](./mascot/kuack.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "roles"
+    }
+  ]
+}

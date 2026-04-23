@@ -19,12 +19,30 @@
       "source_repo": "open-telemetry/opentelemetry-java",
       "status": "candidate-context",
       "text": "FOSSA"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artifacthub/hub",
+      "status": "candidate-context",
+      "text": "Find, install and publish Cloud Native packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artifacthub/hub",
+      "status": "candidate-context",
+      "text": "FOSSA"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "open-telemetry/opentelemetry-java",
+      "status": "candidate",
+      "text": "FOSSA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artifacthub/hub",
       "status": "candidate",
       "text": "FOSSA"
     }
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/fossa.yml",
       "source_repo": "open-telemetry/opentelemetry-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/fossa.yml",
+      "source_repo": "artifacthub/hub"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

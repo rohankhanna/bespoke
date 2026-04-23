@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Next generation AWS IoT Client SDK for Node.js using the AWS Common Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Main Branch Checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Main Branch Checks"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35306,
+      "status": "candidate",
+      "text": "determinate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27649,
+      "status": "candidate",
+      "text": "bough"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27575,
+      "status": "candidate",
+      "text": "distributary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27249,
+      "status": "candidate",
+      "text": "offshoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26849,
+      "status": "candidate",
+      "text": "feeder"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Main Branch Checks",
+      "sense_id": "main-branch-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "main-branch-checks",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "main-branch-checks",
+  "observation_id": "0018a101ad6f32f6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Main Branch Checks",
+  "source_context_snippet": "Main Branch Checks",
+  "source_file": ".github/workflows/aws-service-sanity-check.yml",
+  "source_repo": "aws/aws-iot-device-sdk-js-v2",
+  "source_repo_description": "Next generation AWS IoT Client SDK for Node.js using the AWS Common Runtime"
+}

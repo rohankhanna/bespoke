@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "acw/simple_asn1",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "acw/simple_asn1",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "acw/simple_asn1",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:48:18.725529+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 610
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 772
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 634
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "A simple ASN.1 DER encoding/decoding library for Rust",
+    "fork": false,
+    "full_name": "acw/simple_asn1",
+    "html_url": "https://github.com/acw/simple_asn1",
+    "language": "Rust",
+    "pushed_at": "2026-02-12T17:07:16Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-02-12T17:07:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

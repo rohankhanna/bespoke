@@ -168,34 +168,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "abapGit/abapGit",
-      "target": "larshp/abapgitserver",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "abapGit/abapGit",
-      "target": "abapgit/adt_frontend",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "abapGit/abapGit",
-      "target": "sbcgua/abap-string-map",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "abapGit/abapGit",
-      "target": "sap/abap-file-formats",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "abapGit/abapGit",
@@ -420,7 +392,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T19:00:12.868372+00:00",
+  "fetched_at": "2026-04-23T07:39:01.254957+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -456,7 +428,7 @@
     "full_name": "abapGit/abapGit",
     "html_url": "https://github.com/abapGit/abapGit",
     "language": "ABAP",
-    "pushed_at": "2026-04-20T06:51:46Z",
+    "pushed_at": "2026-04-23T07:21:28Z",
     "stargazers_count": 1817,
     "topics": [
       "abap",
@@ -469,28 +441,7 @@
     ],
     "updated_at": "2026-04-22T12:27:27Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "abapgit/adt_frontend",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "larshp/abapgitserver",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sap/abap-file-formats",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sbcgua/abap-string-map",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "ajson mirror",

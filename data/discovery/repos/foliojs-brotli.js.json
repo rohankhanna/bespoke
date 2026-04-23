@@ -1,0 +1,66 @@
+{
+  "components": [
+    {
+      "component": "base64-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "foliojs/brotli.js",
+      "target": "devongovett/brotli.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "foliojs/brotli.js",
+      "target": "base64-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "foliojs/brotli.js",
+      "target": "mocha",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:46:13.484287+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 786
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A JavaScript port of the Brotli compression algorithm, as used in WOFF2",
+    "fork": false,
+    "full_name": "foliojs/brotli.js",
+    "html_url": "https://github.com/foliojs/brotli.js",
+    "language": "JavaScript",
+    "pushed_at": "2024-05-14T13:52:43Z",
+    "stargazers_count": 535,
+    "topics": [],
+    "updated_at": "2026-04-03T07:23:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "devongovett/brotli.js",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

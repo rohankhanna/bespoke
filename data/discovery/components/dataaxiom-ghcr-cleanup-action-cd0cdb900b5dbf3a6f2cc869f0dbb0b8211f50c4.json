@@ -1,0 +1,12 @@
+{
+  "component": "dataaxiom/ghcr-cleanup-action@cd0cdb900b5dbf3a6f2cc869f0dbb0b8211f50c4",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clean-build-cache.yaml",
+      "source_repo": "BlackDex/rust-musl"
+    }
+  ]
+}

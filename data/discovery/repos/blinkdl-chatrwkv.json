@@ -1,0 +1,154 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "target": "blinkdl/albatross",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "target": "cgisky1980/ai00_rwkv_server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "target": "cryscan/web-rwkv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/ChatRWKV",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/ChatRWKV",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/ChatRWKV",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/ChatRWKV",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BlinkDL/ChatRWKV",
+      "target": "rwkv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:29:31.097302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6586
+    },
+    {
+      "path": "requirements.txt",
+      "size": 34
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source.",
+    "fork": false,
+    "full_name": "BlinkDL/ChatRWKV",
+    "html_url": "https://github.com/BlinkDL/ChatRWKV",
+    "language": "Python",
+    "pushed_at": "2026-02-11T01:35:42Z",
+    "stargazers_count": 9502,
+    "topics": [
+      "chatbot",
+      "chatgpt",
+      "language-model",
+      "pytorch",
+      "rnn",
+      "rwkv"
+    ],
+    "updated_at": "2026-04-22T09:38:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blinkdl/albatross",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cgisky1980/ai00_rwkv_server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cryscan/web-rwkv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/ggml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "RWKV-7 code: https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v7",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "RWKV-7 code: https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v7",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "RWKV-7 code: https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v7",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "RWKV-7 code: https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v7",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "RWKV-7 code: https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v7",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rwkv"
+    }
+  ]
+}

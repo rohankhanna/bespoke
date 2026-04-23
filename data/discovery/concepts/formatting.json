@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -44,6 +46,30 @@
       "source_repo": "deepspeedai/DeepSpeed",
       "status": "candidate-context",
       "text": "Formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate-context",
+      "text": "The fuzzer afl++ is afl with community patches, qemu 5.1 upgrade, collision-free coverage, enhanced laf-intel & redqueen, AFLfast++ power schedules, MOpt mutators, unicorn_mode, and a lot more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate-context",
+      "text": "Formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "A modern formatting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/576385/156254208-f5b743a9-88cf-439d-b0c0-923d53e8d551.png\" alt=\"{fmt}\" width=\"25%\"/>"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +90,18 @@
       "source_repo": "deepspeedai/DeepSpeed",
       "status": "candidate",
       "text": "Formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AFLplusplus/AFLplusplus",
+      "status": "candidate",
+      "text": "Formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/576385/156254208-f5b743a9-88cf-439d-b0c0-923d53e8d551.png\" alt=\"{fmt}\" width=\"25%\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -147,11 +185,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/formatting.yml",
       "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/code-format.yml",
+      "source_repo": "AFLplusplus/AFLplusplus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fmtlib/fmt"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

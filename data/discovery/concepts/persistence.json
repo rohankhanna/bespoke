@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "persistence"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-c",
+      "status": "candidate-context",
+      "text": "C and C++ database for objects and structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-c",
+      "status": "candidate-context",
+      "text": "ObjectBox Embedded Database for C and C++"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-c",
+      "status": "candidate",
+      "text": "ObjectBox Embedded Database for C and C++"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036004,
+      "status": "candidate",
+      "text": "persistency"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035687,
+      "status": "candidate",
+      "text": "tenaciousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035667,
+      "status": "candidate",
+      "text": "tenacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035436,
+      "status": "candidate",
+      "text": "perseveration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035238,
+      "status": "candidate",
+      "text": "doggedness"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 96037,
+      "status": "candidate",
+      "text": "tenacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40033,
+      "status": "candidate",
+      "text": "perseverance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13024,
+      "status": "candidate",
+      "text": "doggedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11018,
+      "status": "candidate",
+      "text": "tenaciousness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10005,
+      "status": "candidate",
+      "text": "perseverence"
+    }
+  ],
+  "canonical_name": "persistence",
+  "concept_id": "persistence",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-c"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "persistence",
+      "sense_id": "persistence#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

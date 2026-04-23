@@ -103,6 +103,114 @@
       "source_repo": "ekalinin/github-markdown-toc.go",
       "status": "candidate-context",
       "text": "github-markdown-toc"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "badges/shields",
+      "status": "candidate-context",
+      "text": "Concise, consistent, and legible badges in SVG and raster format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badges/shields",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/vhs-action",
+      "status": "candidate-context",
+      "text": "Keep your GIFs up to date with VHS + GitHub actions \ud83d\udcfd\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs-action",
+      "status": "candidate-context",
+      "text": "Keep your GIFs up to date with VHS + GitHub actions \ud83d\udcfd\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "A curated list of awesome self-hosted GitHub Action runners in a large comparison matrix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "semantic-release/commit-analyzer",
+      "status": "candidate-context",
+      "text": ":bulb: semantic-release plugin to analyze commits with conventional-changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/commit-analyzer",
+      "status": "candidate-context",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to analyze commits with [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "Home of the Renovate CLI: Cross-platform Dependency Automation by Mend.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate-context",
+      "text": "renovate \u2014 Automated dependency updates. Flexible so you don't need to be."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate-context",
+      "text": "\ud83d\ude0e A curated list of awesome GitHub Profile which updates in real time "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Awesome GitHub Profile README"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coderjojo/creative-profile-readme",
+      "status": "candidate-context",
+      "text": "A Collection of GitHub Profiles with awesome readme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderjojo/creative-profile-readme",
+      "status": "candidate-context",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub contributors](https://img.shields.io/github/contributors/coderjojo/creative-profile-readme)](https://github.com/coderjojo/creative-profile-readme/graphs/contributors) [![GitHub issues](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/go-github",
+      "status": "candidate-context",
+      "text": "Go library for accessing the GitHub v3 API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-github",
+      "status": "candidate-context",
+      "text": "[![go-github release (latest SemVer)](https://img.shields.io/github/v/release/google/go-github?sort=semver)](https://github.com/google/go-github/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "community/community",
+      "status": "candidate-context",
+      "text": "Public feedback discussions for: GitHub Mobile, GitHub Discussions, GitHub Codespaces, GitHub Sponsors, GitHub Issues and more!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "community/community",
+      "status": "candidate-context",
+      "text": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +261,60 @@
       "source_repo": "ekalinin/github-markdown-toc.go",
       "status": "candidate",
       "text": "github-markdown-toc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "badges/shields",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs-action",
+      "status": "candidate",
+      "text": "Keep your GIFs up to date with VHS + GitHub actions \ud83d\udcfd\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "semantic-release/commit-analyzer",
+      "status": "candidate",
+      "text": "[**semantic-release**](https://github.com/semantic-release/semantic-release) plugin to analyze commits with [conventional-changelog](https://github.com/conventional-changelog/conventional-changelog)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "renovatebot/renovate",
+      "status": "candidate",
+      "text": "renovate \u2014 Automated dependency updates. Flexible so you don't need to be."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Awesome GitHub Profile README"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coderjojo/creative-profile-readme",
+      "status": "candidate",
+      "text": "[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![GitHub contributors](https://img.shields.io/github/contributors/coderjojo/creative-profile-readme)](https://github.com/coderjojo/creative-profile-readme/graphs/contributors) [![GitHub issues](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/go-github",
+      "status": "candidate",
+      "text": "[![go-github release (latest SemVer)](https://img.shields.io/github/v/release/google/go-github?sort=semver)](https://github.com/google/go-github/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "community/community",
+      "status": "candidate",
+      "text": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions."
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +430,71 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "ekalinin/github-markdown-toc.go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "badges/shields"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/vhs-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonico/awesome-runners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "semantic-release/commit-analyzer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "renovatebot/renovate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abhisheknaiidu/awesome-github-profile-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "coderjojo/creative-profile-readme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/go-github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "community/community"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

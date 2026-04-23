@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Comfy-Org/rfcs",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs",
+      "target": "abirismyname/create-discussion@v1.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs",
+      "target": "Create RFC Discussion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs",
+      "target": "Sync RFC Discussion",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "Comfy-Org/rfcs"
+}

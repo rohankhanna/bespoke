@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AnswerDotAI/RAGatouille",
+      "target": "bclavie/ragatouille",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AnswerDotAI/RAGatouille",
+      "target": "stanford-futuredata/colbert",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AnswerDotAI/RAGatouille",
+      "target": "intellabs/fastrag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AnswerDotAI/RAGatouille",
+      "target": "run-llama/llama_index",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:33:49.530147+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13899
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Easily use and train state of the art late-interaction retrieval methods (ColBERT) in any RAG pipeline. Designed for modularity and ease-of-use, backed by research.",
+    "fork": false,
+    "full_name": "AnswerDotAI/RAGatouille",
+    "html_url": "https://github.com/AnswerDotAI/RAGatouille",
+    "language": "Python",
+    "pushed_at": "2025-05-17T12:45:38Z",
+    "stargazers_count": 3915,
+    "topics": [],
+    "updated_at": "2026-04-22T12:23:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bclavie/ragatouille",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intellabs/fastrag",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "run-llama/llama_index",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stanford-futuredata/colbert",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

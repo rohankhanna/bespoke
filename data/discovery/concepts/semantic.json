@@ -1,0 +1,127 @@
+{
+  "aliases": [
+    "Semantic",
+    "semantic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact",
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-Casbin.NET",
+      "status": "candidate-context",
+      "text": "An authorization library that supports access control models like ACL, RBAC, ABAC in .NET (C#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-Casbin.NET",
+      "status": "candidate-context",
+      "text": "Semantic"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "absolute-version/commit-and-tag-version",
+      "status": "candidate-context",
+      "text": "Fork of the excellent standard-version. Automate versioning and CHANGELOG generation, with semver.org and conventionalcommits.org :trophy:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absolute-version/commit-and-tag-version",
+      "status": "candidate-context",
+      "text": "> **`commit-and-tag-version` is a fork of `standard-version`**. Because of maintainer availability, `standard-version` was [deprecated on 15th May 2022](https://github.com/conventional-changelog/standard-version/pull/907). The previous maintainer recommends [release-please](http\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-Casbin.NET",
+      "status": "candidate",
+      "text": "Semantic"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "absolute-version/commit-and-tag-version",
+      "status": "candidate",
+      "text": "> **`commit-and-tag-version` is a fork of `standard-version`**. Because of maintainer availability, `standard-version` was [deprecated on 15th May 2022](https://github.com/conventional-changelog/standard-version/pull/907). The previous maintainer recommends [release-please](http\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027850,
+      "status": "candidate",
+      "text": "meaning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029014,
+      "status": "candidate",
+      "text": "meaningful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029013,
+      "status": "candidate",
+      "text": "verbal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029012,
+      "status": "candidate",
+      "text": "lexical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20029011,
+      "status": "candidate",
+      "text": "linguistic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Semantic",
+  "concept_id": "semantic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/semantic.yml",
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "absolute-version/commit-and-tag-version"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Semantic",
+      "sense_id": "semantic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "syntax-theme",
+      "sense_id": "syntax-theme#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "syntax-theme",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "syntax-theme",
+  "observation_id": "324e8b37e8bfef7d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "syntax-theme",
+  "source_context_snippet": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)",
+  "source_file": null,
+  "source_repo": "rose-pine/rose-pine-theme",
+  "source_repo_description": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist"
+}

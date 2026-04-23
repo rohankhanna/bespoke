@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:40:57.947579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4313
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Run Google Test suites in parallel.",
+    "fork": false,
+    "full_name": "google/gtest-parallel",
+    "html_url": "https://github.com/google/gtest-parallel",
+    "language": "Python",
+    "pushed_at": "2025-07-16T12:44:39Z",
+    "stargazers_count": 468,
+    "topics": [],
+    "updated_at": "2026-04-07T13:53:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

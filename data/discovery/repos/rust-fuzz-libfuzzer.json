@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "rust-fuzz/libfuzzer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "rust-fuzz/libfuzzer",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-fuzz/libfuzzer",
+      "target": "fuzz-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-fuzz/libfuzzer",
+      "target": "fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-fuzz/libfuzzer",
+      "target": "libfuzzer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-fuzz/libfuzzer",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:40:21.179567+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2577
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1237
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 1259
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Rust bindings and utilities for LLVM\u2019s libFuzzer",
+    "fork": false,
+    "full_name": "rust-fuzz/libfuzzer",
+    "html_url": "https://github.com/rust-fuzz/libfuzzer",
+    "language": "C++",
+    "pushed_at": "2026-02-10T16:37:30Z",
+    "stargazers_count": 253,
+    "topics": [
+      "fuzz-testing",
+      "fuzzing",
+      "libfuzzer",
+      "rust"
+    ],
+    "updated_at": "2026-04-10T18:17:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "Barebones wrapper around LLVM's libFuzzer runtime library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzz-testing"
+    },
+    {
+      "context_snippet": "Barebones wrapper around LLVM's libFuzzer runtime library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzing"
+    },
+    {
+      "context_snippet": "Barebones wrapper around LLVM's libFuzzer runtime library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libfuzzer"
+    },
+    {
+      "context_snippet": "Barebones wrapper around LLVM's libFuzzer runtime library.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

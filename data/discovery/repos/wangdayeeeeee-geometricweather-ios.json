@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:41:24.024999+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 762
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "GeometricWeather on Apple platforms",
+    "fork": false,
+    "full_name": "WangDaYeeeeee/GeometricWeather-iOS",
+    "html_url": "https://github.com/WangDaYeeeeee/GeometricWeather-iOS",
+    "language": "Swift",
+    "pushed_at": "2023-05-20T09:36:34Z",
+    "stargazers_count": 111,
+    "topics": [],
+    "updated_at": "2025-11-19T23:29:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

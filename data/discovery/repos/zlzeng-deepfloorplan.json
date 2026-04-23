@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zlzeng/DeepFloorplan",
+      "target": "art-programmer/floorplantransformation",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:36:50.620150+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3625
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "zlzeng/DeepFloorplan",
+    "html_url": "https://github.com/zlzeng/DeepFloorplan",
+    "language": "Python",
+    "pushed_at": "2024-02-01T12:00:22Z",
+    "stargazers_count": 398,
+    "topics": [],
+    "updated_at": "2026-04-21T19:23:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "art-programmer/floorplantransformation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

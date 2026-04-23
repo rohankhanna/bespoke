@@ -19,12 +19,30 @@
       "source_repo": "deepset-ai/haystack",
       "status": "candidate-context",
       "text": "Docker image release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepset-ai/hayhooks",
+      "status": "candidate-context",
+      "text": "Easily deploy Haystack pipelines as REST APIs and MCP Tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/hayhooks",
+      "status": "candidate-context",
+      "text": "Docker image release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "deepset-ai/haystack",
+      "status": "candidate",
+      "text": "Docker image release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepset-ai/hayhooks",
       "status": "candidate",
       "text": "Docker image release"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/docker_release.yml",
       "source_repo": "deepset-ai/haystack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "deepset-ai/hayhooks"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

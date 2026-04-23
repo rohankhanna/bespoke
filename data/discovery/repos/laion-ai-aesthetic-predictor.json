@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LAION-AI/aesthetic-predictor",
+      "target": "rom1504/embedding-reader",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:33:17.877388+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1757
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A linear estimator on top of clip to predict the aesthetic quality of pictures",
+    "fork": false,
+    "full_name": "LAION-AI/aesthetic-predictor",
+    "html_url": "https://github.com/LAION-AI/aesthetic-predictor",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-08-15T13:21:41Z",
+    "stargazers_count": 689,
+    "topics": [],
+    "updated_at": "2026-04-23T06:51:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rom1504/embedding-reader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

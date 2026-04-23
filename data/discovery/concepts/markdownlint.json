@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "markdownlint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "status": "candidate-context",
+      "text": "Cake Addin for calling Markdownlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "status": "candidate-context",
+      "text": "This addin for the Cake Build Automation System allows you to run [markdownlint] using [markdownlint-cli]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "igorshubovych/markdownlint-cli",
+      "status": "candidate-context",
+      "text": "MarkdownLint Command Line Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorshubovych/markdownlint-cli",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions Build Status][actions-badge]][actions-url]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cake-contrib/Cake.Markdownlint",
+      "status": "candidate",
+      "text": "This addin for the Cake Build Automation System allows you to run [markdownlint] using [markdownlint-cli]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "igorshubovych/markdownlint-cli",
+      "status": "candidate",
+      "text": "[![GitHub Actions Build Status][actions-badge]][actions-url]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "markdownlint",
+  "concept_id": "markdownlint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cake-contrib/Cake.Markdownlint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "igorshubovych/markdownlint-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "markdownlint",
+      "sense_id": "markdownlint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

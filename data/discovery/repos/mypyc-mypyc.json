@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mypyc/mypyc",
+      "target": "mypyc/mypyc-benchmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mypyc/mypyc",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mypyc/mypyc",
+      "target": "types",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:44:16.130455+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Compile type annotated Python to fast C extensions",
+    "fork": false,
+    "full_name": "mypyc/mypyc",
+    "html_url": "https://github.com/mypyc/mypyc",
+    "language": null,
+    "pushed_at": "2023-04-17T10:24:19Z",
+    "stargazers_count": 1984,
+    "topics": [
+      "compiler",
+      "python",
+      "types"
+    ],
+    "updated_at": "2026-04-21T13:03:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mypyc/mypyc-benchmarks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Mypyc compiles Python modules to C extensions. It uses standard Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "Mypyc compiles Python modules to C extensions. It uses standard Python",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "types"
+    }
+  ]
+}

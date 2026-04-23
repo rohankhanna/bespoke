@@ -52,6 +52,18 @@
       "source_repo": "kohya-ss/sd-webui-additional-networks",
       "status": "candidate-context",
       "text": "Typos"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaLang/julia",
+      "status": "candidate-context",
+      "text": "The Julia Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/julia",
+      "status": "candidate-context",
+      "text": "Typos"
     }
   ],
   "candidate_glosses": [
@@ -82,6 +94,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kohya-ss/sd-webui-additional-networks",
+      "status": "candidate",
+      "text": "Typos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLang/julia",
       "status": "candidate",
       "text": "Typos"
     }
@@ -157,11 +175,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/typos.yml",
       "source_repo": "kohya-ss/sd-webui-additional-networks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/Typos.yml",
+      "source_repo": "JuliaLang/julia"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

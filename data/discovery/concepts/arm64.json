@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +21,18 @@
       "source_repo": "moby/moby",
       "status": "candidate-context",
       "text": "arm64"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ariya/FastLZ",
+      "status": "candidate-context",
+      "text": "Small & portable byte-aligned LZ77 compression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ariya/FastLZ",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +41,12 @@
       "source_repo": "moby/moby",
       "status": "candidate",
       "text": "arm64"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ariya/FastLZ",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +66,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/arm64.yml",
       "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/arm64.yml",
+      "source_repo": "moby/moby"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

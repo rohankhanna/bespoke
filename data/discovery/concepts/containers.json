@@ -429,6 +429,234 @@
       "source_repo": "steren/awesome-cloud-run",
       "status": "candidate-context",
       "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cyphar/libpathrs",
+      "status": "candidate-context",
+      "text": "C-friendly API to make path resolution safer on Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyphar/libpathrs",
+      "status": "candidate-context",
+      "text": "[![rust docs](https://img.shields.io/docsrs/pathrs?logo=rust&logoColor=white&color=orange)](https://docs.rs/pathrs/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/cli",
+      "status": "candidate-context",
+      "text": "A reference implementation for the specification that can create and configure a dev container from a devcontainer.json."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/cli",
+      "status": "candidate-context",
+      "text": "This repository holds the dev container CLI, which can take a devcontainer.json and create and configure a dev container from it."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/feature-starter",
+      "status": "candidate-context",
+      "text": "A  bootstrap repo for self-authoring Dev Container Features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/feature-starter",
+      "status": "candidate-context",
+      "text": "> This repo provides a starting point and example for creating your own custom [dev container Features](https://containers.dev/implementors/features/), hosted for free on GitHub Container Registry. The example in this repository follows the [dev container Feature distribution sp\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/features",
+      "status": "candidate-context",
+      "text": "A collection of Dev Container Features managed by Dev Container spec maintainers. See https://github.com/devcontainers/feature-starter to publish your own"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/features",
+      "status": "candidate-context",
+      "text": "<table style=\"width: 100%; border-style: none;\"><tr>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/images",
+      "status": "candidate-context",
+      "text": "Repository for pre-built dev container images published under mcr.microsoft.com/devcontainers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/images",
+      "status": "candidate-context",
+      "text": "<table style=\"width: 100%; border-style: none;\"><tr>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dragonflyoss/dragonfly",
+      "status": "candidate-context",
+      "text": "Delivers efficient, stable, and secure data distribution and acceleration powered by P2P technology, with an optional content\u2011addressable filesystem that accelerates OCI container launch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly",
+      "status": "candidate-context",
+      "text": "![alt][logo-linear]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate-context",
+      "text": "Fast container image distribution plugin with lazy pulling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate-context",
+      "text": "[[\u2b07\ufe0f **Download**]](https://github.com/containerd/stargz-snapshotter/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GoogleContainerTools/kaniko",
+      "status": "candidate-context",
+      "text": "Build Container Images In Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/kaniko",
+      "status": "candidate-context",
+      "text": "The code remains available for historic purposes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "slimtoolkit/slim",
+      "status": "candidate-context",
+      "text": "Slim(toolkit): Don't change anything in your container image and minify it by up to 30x (and for compiled languages even more) making it secure too! (free and open source)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slimtoolkit/slim",
+      "status": "candidate-context",
+      "text": "![SK](assets/images/dslim/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/ramalama",
+      "status": "candidate-context",
+      "text": "RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and facilitates their use for inference in production, all through the familiar language of containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/ramalama",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/artifacts",
+      "status": "candidate-context",
+      "text": "OCI Artifacts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/artifacts",
+      "status": "candidate-context",
+      "text": "> ## \u26a0\ufe0fThis repository has been archived and is no longer maintained. \u26a0\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/oci-conformance",
+      "status": "candidate-context",
+      "text": "OCI Conformance/Certification Working Group"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/oci-conformance",
+      "status": "candidate-context",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/3e16a8a1-e338-4050-a39d-426b33f5292a/deploy-status)](https://app.netlify.com/sites/oci-conformance/deploys)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "distribution/distribution",
+      "status": "candidate-context",
+      "text": "The toolkit to pack, ship, store, and deliver container content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distribution/distribution",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/storage",
+      "status": "candidate-context",
+      "text": "Container Storage Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/storage",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/spec",
+      "status": "candidate-context",
+      "text": "Development Containers: Use a container as a full-featured development environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/spec",
+      "status": "candidate-context",
+      "text": "This repository is for the Development Container Specification. You can check out the spec on our website https://containers.dev/ too."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "status": "candidate-context",
+      "text": "Web content for the development containers specification."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "status": "candidate-context",
+      "text": "This repo holds the website for the [Development Containers Specification](https://github.com/devcontainers/spec)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devcontainers/action",
+      "status": "candidate-context",
+      "text": "GitHub Action to build & publish your own dev container assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/action",
+      "status": "candidate-context",
+      "text": "<table style=\"width: 100%; border-style: none;\"><tr>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_oci",
+      "status": "candidate-context",
+      "text": "Bazel rules for building OCI containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_oci",
+      "status": "candidate-context",
+      "text": "Very simple Bazel rules based on the Open Containers Initiative specification: <https://opencontainers.org/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "status": "candidate-context",
+      "text": "VPC CNI plugins for Amazon ECS and EKS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "status": "candidate-context",
+      "text": "VPC CNI plugins for Amazon ECS and Amazon EKS."
     }
   ],
   "candidate_glosses": [
@@ -641,6 +869,120 @@
       "source_repo": "steren/awesome-cloud-run",
       "status": "candidate",
       "text": "> A curated list of resources about all things [Cloud Run](https://cloud.google.com/run/). Feel free to send Pull Requests!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cyphar/libpathrs",
+      "status": "candidate",
+      "text": "[![rust docs](https://img.shields.io/docsrs/pathrs?logo=rust&logoColor=white&color=orange)](https://docs.rs/pathrs/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/cli",
+      "status": "candidate",
+      "text": "This repository holds the dev container CLI, which can take a devcontainer.json and create and configure a dev container from it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/feature-starter",
+      "status": "candidate",
+      "text": "> This repo provides a starting point and example for creating your own custom [dev container Features](https://containers.dev/implementors/features/), hosted for free on GitHub Container Registry. The example in this repository follows the [dev container Feature distribution sp\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/features",
+      "status": "candidate",
+      "text": "<table style=\"width: 100%; border-style: none;\"><tr>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/images",
+      "status": "candidate",
+      "text": "<table style=\"width: 100%; border-style: none;\"><tr>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dragonflyoss/dragonfly",
+      "status": "candidate",
+      "text": "![alt][logo-linear]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containerd/stargz-snapshotter",
+      "status": "candidate",
+      "text": "[[\u2b07\ufe0f **Download**]](https://github.com/containerd/stargz-snapshotter/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GoogleContainerTools/kaniko",
+      "status": "candidate",
+      "text": "The code remains available for historic purposes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "slimtoolkit/slim",
+      "status": "candidate",
+      "text": "![SK](assets/images/dslim/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/ramalama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/artifacts",
+      "status": "candidate",
+      "text": "> ## \u26a0\ufe0fThis repository has been archived and is no longer maintained. \u26a0\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/oci-conformance",
+      "status": "candidate",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/3e16a8a1-e338-4050-a39d-426b33f5292a/deploy-status)](https://app.netlify.com/sites/oci-conformance/deploys)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distribution/distribution",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/storage",
+      "status": "candidate",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/spec",
+      "status": "candidate",
+      "text": "This repository is for the Development Container Specification. You can check out the spec on our website https://containers.dev/ too."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/devcontainers.github.io",
+      "status": "candidate",
+      "text": "This repo holds the website for the [Development Containers Specification](https://github.com/devcontainers/spec)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devcontainers/action",
+      "status": "candidate",
+      "text": "<table style=\"width: 100%; border-style: none;\"><tr>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_oci",
+      "status": "candidate",
+      "text": "Very simple Bazel rules based on the Open Containers Initiative specification: <https://opencontainers.org/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "status": "candidate",
+      "text": "VPC CNI plugins for Amazon ECS and Amazon EKS."
     }
   ],
   "candidate_related_terms": [
@@ -918,11 +1260,143 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cyphar/libpathrs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/feature-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/features"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/images"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dragonflyoss/dragonfly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "containerd/stargz-snapshotter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AliyunContainerService/pouch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "GoogleContainerTools/kaniko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "slimtoolkit/slim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "containers/ramalama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "opencontainers/artifacts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "opencontainers/oci-conformance"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "distribution/distribution"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hexops-graveyard/dockerfile"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "containers/storage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/devcontainers.github.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "devcontainers/action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_oci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aws/amazon-vpc-cni-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

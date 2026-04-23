@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "codeigniter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pug-php/ci-pug-engine",
+      "status": "candidate-context",
+      "text": "Pug Template Engine for CodeIgniter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/ci-pug-engine",
+      "status": "candidate-context",
+      "text": "ci-pug is a library for CodeIgniter to enable [Pug Template Engine](http://jade-lang.com/) to render"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/ci-pug-engine",
+      "status": "candidate",
+      "text": "ci-pug is a library for CodeIgniter to enable [Pug Template Engine](http://jade-lang.com/) to render"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "symfony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "asp.net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "silverstripe cms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "bootstrap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "gyroscope"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "codeigniter",
+  "concept_id": "codeigniter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pug-php/ci-pug-engine"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "codeigniter",
+      "sense_id": "codeigniter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "rustfmt"
+    "rustfmt",
+    "Rustfmt"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -33,6 +34,42 @@
       "source_repo": "anderejd/cargo-geiger",
       "status": "candidate-context",
       "text": "rustfmt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitsuhiko/similar",
+      "status": "candidate-context",
+      "text": "A high level diffing library for rust based on diffs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/similar",
+      "status": "candidate-context",
+      "text": "Rustfmt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mitsuhiko/similar-asserts",
+      "status": "candidate-context",
+      "text": "Provides assert_eq! like macros with colorized diff output"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/similar-asserts",
+      "status": "candidate-context",
+      "text": "Rustfmt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "status": "candidate-context",
+      "text": "Detects usage of unsafe Rust in a Rust crate and its dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "status": "candidate-context",
+      "text": "rustfmt"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +82,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "anderejd/cargo-geiger",
+      "status": "candidate",
+      "text": "rustfmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/similar",
+      "status": "candidate",
+      "text": "Rustfmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mitsuhiko/similar-asserts",
+      "status": "candidate",
+      "text": "Rustfmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geiger-rs/cargo-geiger",
       "status": "candidate",
       "text": "rustfmt"
     }
@@ -72,11 +127,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/rustfmt.yml",
       "source_repo": "anderejd/cargo-geiger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "mitsuhiko/similar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "mitsuhiko/similar-asserts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "geiger-rs/cargo-geiger"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

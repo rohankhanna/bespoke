@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -56,6 +56,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build_documentation.yml",
       "source_repo": "huggingface/trl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "syncthing/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "huggingface/optimum-executorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "gligen/diffusers"
     }
   ],
   "term": "Build documentation"

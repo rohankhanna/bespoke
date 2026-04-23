@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ABAP development tools plug-in for abapGit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.com/abapGit/ADT_Frontend.svg?branch=master)](https://travis-ci.com/abapGit/ADT_Frontend)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/abapGit/ADT_Frontend.svg?branch=master)](https://travis-ci.com/abapGit/ADT_Frontend)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "abapgit",
+      "sense_id": "abapgit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "abapgit",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "abapgit",
+  "observation_id": "d690d482c1674c77",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "abapgit",
+  "source_context_snippet": "[![Build Status](https://travis-ci.com/abapGit/ADT_Frontend.svg?branch=master)](https://travis-ci.com/abapGit/ADT_Frontend)",
+  "source_file": null,
+  "source_repo": "abapGit/ADT_Frontend",
+  "source_repo_description": "ABAP development tools plug-in for abapGit"
+}

@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "jirutka/setup-alpine@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop-view",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop-view",
+      "target": "jirutka/setup-alpine@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop-view",
+      "target": "uraimo/run-on-arch-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BuddiesOfBudgie/budgie-desktop-view",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BuddiesOfBudgie/budgie-desktop-view",
+      "target": "desktop-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BuddiesOfBudgie/budgie-desktop-view",
+      "target": "desktop-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BuddiesOfBudgie/budgie-desktop-view",
+      "target": "linux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:43.049677+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4774
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1595
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Budgie Desktop View is the official Budgie desktop icons application / implementation.",
+    "fork": false,
+    "full_name": "BuddiesOfBudgie/budgie-desktop-view",
+    "html_url": "https://github.com/BuddiesOfBudgie/budgie-desktop-view",
+    "language": "Vala",
+    "pushed_at": "2026-03-07T16:29:49Z",
+    "stargazers_count": 33,
+    "topics": [
+      "desktop-application",
+      "desktop-icons",
+      "linux"
+    ],
+    "updated_at": "2026-03-07T16:29:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "![view](https://github.com/BuddiesOfBudgie/budgie-desktop-view/raw/main/.github/screenshots/budgie-desktop-settings-with-view.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop-application"
+    },
+    {
+      "context_snippet": "![view](https://github.com/BuddiesOfBudgie/budgie-desktop-view/raw/main/.github/screenshots/budgie-desktop-settings-with-view.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop-icons"
+    },
+    {
+      "context_snippet": "![view](https://github.com/BuddiesOfBudgie/budgie-desktop-view/raw/main/.github/screenshots/budgie-desktop-settings-with-view.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    }
+  ]
+}

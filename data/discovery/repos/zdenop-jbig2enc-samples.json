@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:47:06.332737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 908
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "zdenop/jbig2enc-samples",
+    "html_url": "https://github.com/zdenop/jbig2enc-samples",
+    "language": null,
+    "pushed_at": "2024-12-20T18:34:50Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-11-21T03:25:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:31:49.157057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "open-mmlab/mim-example",
+    "html_url": "https://github.com/open-mmlab/mim-example",
+    "language": "Python",
+    "pushed_at": "2021-11-01T08:14:29Z",
+    "stargazers_count": 58,
+    "topics": [],
+    "updated_at": "2024-09-11T09:13:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

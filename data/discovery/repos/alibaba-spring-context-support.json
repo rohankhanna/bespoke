@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-context-support",
+      "target": "alibaba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-context-support",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-context-support",
+      "target": "spring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-context-support",
+      "target": "spring-context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/spring-context-support",
+      "target": "spring-framework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:39:17.125522+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1080
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An internal support project for spring-context in Alibaba ",
+    "fork": false,
+    "full_name": "alibaba/spring-context-support",
+    "html_url": "https://github.com/alibaba/spring-context-support",
+    "language": "Java",
+    "pushed_at": "2024-02-02T21:01:11Z",
+    "stargazers_count": 156,
+    "topics": [
+      "alibaba",
+      "java",
+      "spring",
+      "spring-context",
+      "spring-framework"
+    ],
+    "updated_at": "2026-03-24T09:19:06Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "=====================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alibaba"
+    },
+    {
+      "context_snippet": "=====================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "=====================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring"
+    },
+    {
+      "context_snippet": "=====================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-context"
+    },
+    {
+      "context_snippet": "=====================",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-framework"
+    }
+  ]
+}

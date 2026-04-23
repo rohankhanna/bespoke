@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/artifacts",
+      "target": "containers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:31:36.461516+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "OCI Artifacts",
+    "fork": false,
+    "full_name": "opencontainers/artifacts",
+    "html_url": "https://github.com/opencontainers/artifacts",
+    "language": null,
+    "pushed_at": "2023-07-17T14:25:03Z",
+    "stargazers_count": 230,
+    "topics": [
+      "containers",
+      "oci"
+    ],
+    "updated_at": "2026-03-03T19:41:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "> ## \u26a0\ufe0fThis repository has been archived and is no longer maintained. \u26a0\ufe0f",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    }
+  ]
+}

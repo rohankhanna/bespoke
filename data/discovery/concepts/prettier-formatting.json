@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Prettier formatting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/composite-schemas-spec",
+      "status": "candidate-context",
+      "text": "GraphQL Composite Schema specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/composite-schemas-spec",
+      "status": "candidate-context",
+      "text": "Prettier formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql/graphql-over-http",
+      "status": "candidate-context",
+      "text": "Working draft of \"GraphQL over HTTP\" specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-over-http",
+      "status": "candidate-context",
+      "text": "Prettier formatting"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/composite-schemas-spec",
+      "status": "candidate",
+      "text": "Prettier formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql/graphql-over-http",
+      "status": "candidate",
+      "text": "Prettier formatting"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10505,
+      "status": "candidate",
+      "text": "cushion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10505,
+      "status": "candidate",
+      "text": "makeup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10483,
+      "status": "candidate",
+      "text": "arbor dianae"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10483,
+      "status": "candidate",
+      "text": "bet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10483,
+      "status": "candidate",
+      "text": "bets"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prettier formatting",
+  "concept_id": "prettier-formatting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/prettier.yaml",
+      "source_repo": "graphql/composite-schemas-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/prettier.yaml",
+      "source_repo": "graphql/graphql-over-http"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prettier formatting",
+      "sense_id": "prettier-formatting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

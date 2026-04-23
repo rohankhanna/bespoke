@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CocoaPods/Xcodeproj",
+      "target": "cocoapods/cocoapods",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/Xcodeproj",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/Xcodeproj",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Lint.yml",
+      "source_repo": "CocoaPods/Xcodeproj",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/Xcodeproj",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/Xcodeproj",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Specs.yml",
+      "source_repo": "CocoaPods/Xcodeproj",
+      "target": "Specs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:38:38.068787+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2893
+    },
+    {
+      "path": ".github/workflows/Lint.yml",
+      "size": 574
+    },
+    {
+      "path": ".github/workflows/Specs.yml",
+      "size": 760
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Create and modify Xcode projects from Ruby.",
+    "fork": false,
+    "full_name": "CocoaPods/Xcodeproj",
+    "html_url": "https://github.com/CocoaPods/Xcodeproj",
+    "language": "Ruby",
+    "pushed_at": "2026-04-09T01:13:14Z",
+    "stargazers_count": 2433,
+    "topics": [],
+    "updated_at": "2026-04-18T11:05:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cocoapods/cocoapods",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Specs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Specs.yml",
+      "term": "Specs"
+    }
+  ]
+}

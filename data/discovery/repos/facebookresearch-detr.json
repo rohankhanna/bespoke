@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:48:56.548648+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11890
+    },
+    {
+      "path": "Dockerfile",
+      "size": 328
+    },
+    {
+      "path": "requirements.txt",
+      "size": 224
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "End-to-End Object Detection with Transformers",
+    "fork": false,
+    "full_name": "facebookresearch/detr",
+    "html_url": "https://github.com/facebookresearch/detr",
+    "language": "Python",
+    "pushed_at": "2024-03-12T15:58:25Z",
+    "stargazers_count": 15232,
+    "topics": [],
+    "updated_at": "2026-04-23T07:52:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

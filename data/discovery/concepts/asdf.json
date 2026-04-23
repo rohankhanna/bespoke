@@ -55,6 +55,42 @@
       "source_repo": "asdf-community/asdf-direnv",
       "status": "candidate-context",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luizm/asdf-shellcheck",
+      "status": "candidate-context",
+      "text": "shellcheck plugin for asdf version manager https://github.com/asdf-vm/asdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizm/asdf-shellcheck",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/luizm/asdf-shellcheck/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luizm/asdf-shfmt",
+      "status": "candidate-context",
+      "text": "shfmt plugin for asdf version manager https://github.com/asdf-vm/asdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizm/asdf-shfmt",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml/badge.svg)](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdf-community/asdf-pdm",
+      "status": "candidate-context",
+      "text": "PDM plugin for the asdf version manager [maintainer=@1oglop1]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-community/asdf-pdm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "asdf-community/asdf-direnv",
       "status": "candidate",
       "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizm/asdf-shellcheck",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/luizm/asdf-shellcheck/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizm/asdf-shfmt",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml/badge.svg)](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdf-community/asdf-pdm",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +202,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "asdf-community/asdf-direnv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "luizm/asdf-shellcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "luizm/asdf-shfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "asdf-community/asdf-pdm"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

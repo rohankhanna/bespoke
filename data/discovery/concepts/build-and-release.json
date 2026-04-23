@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Build and Release"
+    "Build and Release",
+    "Build and release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -55,6 +56,54 @@
       "source_repo": "blaine/fantastty",
       "status": "candidate-context",
       "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amebalabs/SwiftKey",
+      "status": "candidate-context",
+      "text": "Hackable launcher for macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amebalabs/SwiftKey",
+      "status": "candidate-context",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amebalabs/TRex",
+      "status": "candidate-context",
+      "text": "Copy any text on your screen, stop retyping."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amebalabs/TRex",
+      "status": "candidate-context",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chrisguida/smaug",
+      "status": "candidate-context",
+      "text": "`smaug` watches your bitcoin treasury with a meticulous eye"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisguida/smaug",
+      "status": "candidate-context",
+      "text": "Build and release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "Official Haskell IDE support via the language server protocol (LSP)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate-context",
+      "text": "Build and release"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +130,30 @@
       "source_repo": "blaine/fantastty",
       "status": "candidate",
       "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amebalabs/SwiftKey",
+      "status": "candidate",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amebalabs/TRex",
+      "status": "candidate",
+      "text": "Build and Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chrisguida/smaug",
+      "status": "candidate",
+      "text": "Build and release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haskell/haskell-language-server",
+      "status": "candidate",
+      "text": "Build and release"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +221,35 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/build-and-release.yml",
       "source_repo": "blaine/fantastty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "amebalabs/SwiftKey"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "amebalabs/TRex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chrisguida/smaug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "haskell/haskell-language-server"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-user-config@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-try-push@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "coin-or-tools/homebrew-coinor",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "coin-or-tools/homebrew-coinor",
+      "target": "Homebrew/actions/git-user-config@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "coin-or-tools/homebrew-coinor",
+      "target": "Homebrew/actions/git-try-push@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "coin-or-tools/homebrew-coinor",
+      "target": "brew pr-pull",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "coin-or-tools/homebrew-coinor",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "coin-or-tools/homebrew-coinor",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "coin-or-tools/homebrew-coinor",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "coin-or-tools/homebrew-coinor",
+      "target": "brew test-bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:40:48.224723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 525
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1113
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Repository of Homebrew Formulae for COIN-OR Projects",
+    "fork": false,
+    "full_name": "coin-or-tools/homebrew-coinor",
+    "html_url": "https://github.com/coin-or-tools/homebrew-coinor",
+    "language": "Ruby",
+    "pushed_at": "2026-03-16T19:03:19Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-03-16T18:22:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "brew pr-pull",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "brew pr-pull"
+    },
+    {
+      "context_snippet": "brew test-bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "brew test-bot"
+    }
+  ]
+}

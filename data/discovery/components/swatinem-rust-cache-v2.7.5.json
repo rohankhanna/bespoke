@@ -1,7 +1,7 @@
 {
   "component": "Swatinem/rust-cache@v2.7.5",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "comit-network/xmr-btc-swap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code_coverage.yml",
+      "source_repo": "eigenwallet/bdk-old"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cont_integration.yml",
+      "source_repo": "eigenwallet/bdk-old"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docs.yml",
+      "source_repo": "eigenwallet/bdk-old"
     }
   ]
 }

@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "democracy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decidim/decidim",
+      "status": "candidate-context",
+      "text": "The participatory democracy framework. A generator and multiple gems made with Ruby on Rails"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decidim/decidim",
+      "status": "candidate-context",
+      "text": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decidim/decidim",
+      "status": "candidate",
+      "text": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40046962,
+      "status": "candidate",
+      "text": "republic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043588,
+      "status": "candidate",
+      "text": "commonwealth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047872,
+      "status": "candidate",
+      "text": "democratization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047611,
+      "status": "candidate",
+      "text": "democratically"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047232,
+      "status": "candidate",
+      "text": "democratic"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "commonwealth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "republic"
+    }
+  ],
+  "canonical_name": "democracy",
+  "concept_id": "democracy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "decidim/decidim"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "democracy",
+      "sense_id": "democracy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

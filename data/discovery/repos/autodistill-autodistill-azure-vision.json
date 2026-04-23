@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodistill/autodistill-azure-vision",
+      "target": "autodistill",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:49:09.361263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4741
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Use Azure Vision Studio to train a fine-tuned object detection model that you own.",
+    "fork": false,
+    "full_name": "autodistill/autodistill-azure-vision",
+    "html_url": "https://github.com/autodistill/autodistill-azure-vision",
+    "language": "Python",
+    "pushed_at": "2023-10-27T09:12:55Z",
+    "stargazers_count": 0,
+    "topics": [
+      "autodistill"
+    ],
+    "updated_at": "2023-10-31T12:55:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autodistill"
+    }
+  ]
+}

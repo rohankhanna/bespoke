@@ -1,0 +1,94 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akegarasu/lora-scripts",
+      "target": "dreambooth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akegarasu/lora-scripts",
+      "target": "finetune",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akegarasu/lora-scripts",
+      "target": "lora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Akegarasu/lora-scripts",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:34:05.717670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4900
+    },
+    {
+      "path": "Dockerfile",
+      "size": 549
+    },
+    {
+      "path": "requirements.txt",
+      "size": 783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SD-Trainer. LoRA & Dreambooth training scripts & GUI use kohya-ss's trainer, for diffusion model.",
+    "fork": false,
+    "full_name": "Akegarasu/lora-scripts",
+    "html_url": "https://github.com/Akegarasu/lora-scripts",
+    "language": "Python",
+    "pushed_at": "2025-09-08T09:56:23Z",
+    "stargazers_count": 6011,
+    "topics": [
+      "dreambooth",
+      "finetune",
+      "lora",
+      "stable-diffusion"
+    ],
+    "updated_at": "2026-04-22T13:43:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dreambooth"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finetune"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    }
+  ]
+}

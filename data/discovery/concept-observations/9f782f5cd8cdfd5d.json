@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Detects usage of unsafe Rust in a Rust crate and its dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Cache Zigs\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Cache Zigs\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14404,
+      "status": "candidate",
+      "text": "zag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14164,
+      "status": "candidate",
+      "text": "dance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14164,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14164,
+      "status": "candidate",
+      "text": "veer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11124,
+      "status": "candidate",
+      "text": "bends"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cache Zigs",
+      "sense_id": "cache-zigs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cache-zigs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cache-zigs",
+  "observation_id": "9f782f5cd8cdfd5d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Cache Zigs",
+  "source_context_snippet": "\"Cache Zigs\"",
+  "source_file": ".github/workflows/cache-zigs.yml",
+  "source_repo": "geiger-rs/cargo-geiger",
+  "source_repo_description": "Detects usage of unsafe Rust in a Rust crate and its dependencies."
+}

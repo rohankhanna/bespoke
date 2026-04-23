@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "PR label"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-crypto",
+      "status": "candidate-context",
+      "text": "Open-source implementation of a substantial portion of the API of Apple CryptoKit suitable for use on Linux platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-crypto",
+      "status": "candidate-context",
+      "text": "PR label"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/swift-log",
+      "status": "candidate-context",
+      "text": "A Logging API for Swift"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-log",
+      "status": "candidate-context",
+      "text": "PR label"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-crypto",
+      "status": "candidate",
+      "text": "PR label"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/swift-log",
+      "status": "candidate",
+      "text": "PR label"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11755,
+      "status": "candidate",
+      "text": "rep"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10898,
+      "status": "candidate",
+      "text": "praseodymium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10779,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10779,
+      "status": "candidate",
+      "text": "plot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10779,
+      "status": "candidate",
+      "text": "plotted"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PR label",
+  "concept_id": "pr-label",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-crypto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pull_request_label.yml",
+      "source_repo": "apple/swift-log"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR label",
+      "sense_id": "pr-label#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

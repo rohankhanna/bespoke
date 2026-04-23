@@ -1,0 +1,249 @@
+{
+  "components": [
+    {
+      "component": "hallmark",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Level/community",
+      "target": "level/awesome",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Level/community",
+      "target": "level/abstract-level",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Level/community",
+      "target": "github/feedback",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Level/community",
+      "target": "level/abstract-leveldown",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Level/community",
+      "target": "hallmark",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/community",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/community",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/community",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/community",
+      "target": "community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/community",
+      "target": "discussion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/community",
+      "target": "help",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/community",
+      "target": "level",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/community",
+      "target": "metadata",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/community",
+      "target": "project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/community",
+      "target": "social",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Level/community",
+      "target": "support",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:45:15.923295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23265
+    },
+    {
+      "path": "package.json",
+      "size": 536
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 403
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Discussion, support and common information for projects in the community.",
+    "fork": false,
+    "full_name": "Level/community",
+    "html_url": "https://github.com/Level/community",
+    "language": null,
+    "pushed_at": "2026-01-04T21:14:37Z",
+    "stargazers_count": 50,
+    "topics": [
+      "community",
+      "discussion",
+      "help",
+      "level",
+      "metadata",
+      "project",
+      "social",
+      "support"
+    ],
+    "updated_at": "2026-01-04T21:14:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/feedback",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "level/abstract-level",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "level/abstract-leveldown",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "level/awesome",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "**Discussion, support and common information for projects in the community.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community"
+    },
+    {
+      "context_snippet": "**Discussion, support and common information for projects in the community.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "discussion"
+    },
+    {
+      "context_snippet": "**Discussion, support and common information for projects in the community.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "help"
+    },
+    {
+      "context_snippet": "**Discussion, support and common information for projects in the community.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "level"
+    },
+    {
+      "context_snippet": "**Discussion, support and common information for projects in the community.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metadata"
+    },
+    {
+      "context_snippet": "**Discussion, support and common information for projects in the community.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project"
+    },
+    {
+      "context_snippet": "**Discussion, support and common information for projects in the community.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "social"
+    },
+    {
+      "context_snippet": "**Discussion, support and common information for projects in the community.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "support"
+    }
+  ]
+}

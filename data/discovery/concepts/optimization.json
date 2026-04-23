@@ -67,6 +67,30 @@
       "source_repo": "urjitbhatia/cozgo",
       "status": "candidate-context",
       "text": "Coz profiler Golang wrapper."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "privatenumber/esbuild-loader",
+      "status": "candidate-context",
+      "text": "\ud83d\udca0 Speed up your Webpack with esbuild \u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/esbuild-loader",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate-context",
+      "text": "Linux, Android and Chromium Performance Tools built using the Microsoft Performance Toolkit. Cross-platform .NET Core + WPA GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate-context",
+      "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "urjitbhatia/cozgo",
       "status": "candidate",
       "text": "Coz profiler Golang wrapper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "privatenumber/esbuild-loader",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate",
+      "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +214,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "urjitbhatia/cozgo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "privatenumber/esbuild-loader"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

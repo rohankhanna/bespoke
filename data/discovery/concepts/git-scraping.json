@@ -1,0 +1,58 @@
+{
+  "aliases": [
+    "git-scraping"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/scrape-san-mateo-fire-dispatch",
+      "status": "candidate-context",
+      "text": "[![Scrape latest data](https://github.com/simonw/scrape-san-mateo-fire-dispatch/actions/workflows/scrape.yml/badge.svg)](https://github.com/simonw/scrape-san-mateo-fire-dispatch/actions/workflows/scrape.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonw/scrape-san-mateo-fire-dispatch",
+      "status": "candidate",
+      "text": "[![Scrape latest data](https://github.com/simonw/scrape-san-mateo-fire-dispatch/actions/workflows/scrape.yml/badge.svg)](https://github.com/simonw/scrape-san-mateo-fire-dispatch/actions/workflows/scrape.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "git-scraping",
+  "concept_id": "git-scraping",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "simonw/scrape-san-mateo-fire-dispatch"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "git-scraping",
+      "sense_id": "git-scraping#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

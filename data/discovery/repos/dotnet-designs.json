@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/index.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/designs",
+      "target": "dotnet/csharplang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/designs",
+      "target": "dotnet/vblang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/designs",
+      "target": "fsharp/fslang-design",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/designs",
+      "target": "fsharp/fslang-suggestions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/index.yml",
+      "source_repo": "dotnet/designs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/index.yml",
+      "source_repo": "dotnet/designs",
+      "target": "Check INDEX.md is up-to-date",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:43:29.279722+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1439
+    },
+    {
+      "path": ".github/workflows/index.yml",
+      "size": 577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo is used for reviewing new .NET designs.",
+    "fork": false,
+    "full_name": "dotnet/designs",
+    "html_url": "https://github.com/dotnet/designs",
+    "language": "C#",
+    "pushed_at": "2026-04-20T17:29:34Z",
+    "stargazers_count": 940,
+    "topics": [],
+    "updated_at": "2026-04-17T12:01:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/csharplang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/vblang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fsharp/fslang-design",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fsharp/fslang-suggestions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check INDEX.md is up-to-date",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/index.yml",
+      "term": "Check INDEX.md is up-to-date"
+    }
+  ]
+}

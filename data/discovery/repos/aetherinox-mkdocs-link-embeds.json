@@ -1,0 +1,520 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-clean.yml"
+    },
+    {
+      "component": "Aetherinox/delete-deploy-env-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-clean.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/history-clean.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/history-clean.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml"
+    },
+    {
+      "component": "dessant/lock-threads@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-clean.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-clean.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "Aetherinox/delete-deploy-env-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-clean.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83e\uddf9 Deployments \u203a Clean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "peaceiris/actions-gh-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83d\udcd2 Docs \u203a Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/history-clean.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/history-clean.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "stefanzweifel/git-auto-commit-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/history-clean.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83e\uddf9 History \u203a Clean",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-accept.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83c\udfab Issue \u203a Accept",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-new.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-new.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83c\udfab Issue \u203a New",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-scan.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "tj-actions/changed-files@v46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-scan.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83c\udfab PR \u203a Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-stale.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "dessant/lock-threads@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-stale.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "\ud83c\udfab Issues \u203a Stale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "mkdocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "mkdocs-material",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "mkdocs-material-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "mkdocs-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "target": "mkdocs-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:43:52.510613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9421
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1250
+    },
+    {
+      "path": "requirements.txt",
+      "size": 91
+    },
+    {
+      "path": ".github/workflows/deploy-clean.yml",
+      "size": 6262
+    },
+    {
+      "path": ".github/workflows/documentation.yml",
+      "size": 3301
+    },
+    {
+      "path": ".github/workflows/history-clean.yml",
+      "size": 9045
+    },
+    {
+      "path": ".github/workflows/issues-accept.yml",
+      "size": 5654
+    },
+    {
+      "path": ".github/workflows/issues-new.yml",
+      "size": 64749
+    },
+    {
+      "path": ".github/workflows/issues-scan.yml",
+      "size": 52045
+    },
+    {
+      "path": ".github/workflows/issues-stale.yml",
+      "size": 49524
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mkdocs plugin which displays links in a more elegant way. Links will automatically be populated with an image, description, fav icon, and title for the target website; or you can override the values to give your own.",
+    "fork": false,
+    "full_name": "Aetherinox/mkdocs-link-embeds",
+    "html_url": "https://github.com/Aetherinox/mkdocs-link-embeds",
+    "language": "Python",
+    "pushed_at": "2025-05-04T09:38:50Z",
+    "stargazers_count": 12,
+    "topics": [
+      "documentation",
+      "mkdocs",
+      "mkdocs-material",
+      "mkdocs-material-theme",
+      "mkdocs-plugin",
+      "mkdocs-plugins",
+      "python"
+    ],
+    "updated_at": "2026-01-15T07:51:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'\ud83e\uddf9 Deployments \u203a Clean'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-clean.yml",
+      "term": "\ud83e\uddf9 Deployments \u203a Clean"
+    },
+    {
+      "context_snippet": "'\ud83d\udcd2 Docs \u203a Build'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/documentation.yml",
+      "term": "\ud83d\udcd2 Docs \u203a Build"
+    },
+    {
+      "context_snippet": "'\ud83e\uddf9 History \u203a Clean'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/history-clean.yml",
+      "term": "\ud83e\uddf9 History \u203a Clean"
+    },
+    {
+      "context_snippet": "'\ud83c\udfab Issue \u203a Accept'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-accept.yml",
+      "term": "\ud83c\udfab Issue \u203a Accept"
+    },
+    {
+      "context_snippet": "'\ud83c\udfab Issue \u203a New'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-new.yml",
+      "term": "\ud83c\udfab Issue \u203a New"
+    },
+    {
+      "context_snippet": "'\ud83c\udfab PR \u203a Scan'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-scan.yml",
+      "term": "\ud83c\udfab PR \u203a Scan"
+    },
+    {
+      "context_snippet": "'\ud83c\udfab Issues \u203a Stale'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-stale.yml",
+      "term": "\ud83c\udfab Issues \u203a Stale"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mkdocs"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mkdocs-material"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mkdocs-material-theme"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mkdocs-plugin"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mkdocs-plugins"
+    }
+  ]
+}

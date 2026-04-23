@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":star: Vim for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<h2 align=\"center\"><img src=\"https://raw.githubusercontent.com/VSCodeVim/Vim/master/images/icon.png\" height=\"128\"><br>VSCodeVim</h2>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<h2 align=\"center\"><img src=\"https://raw.githubusercontent.com/VSCodeVim/Vim/master/images/icon.png\" height=\"128\"><br>VSCodeVim</h2>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946736,
+      "status": "candidate",
+      "text": "keystrokes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946735,
+      "status": "candidate",
+      "text": "keystroke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946734,
+      "status": "candidate",
+      "text": "binds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946733,
+      "status": "candidate",
+      "text": "keyboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9946732,
+      "status": "candidate",
+      "text": "hotkey"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "keybindings",
+      "sense_id": "keybindings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "keybindings",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "keybindings",
+  "observation_id": "99315f99ca5680bd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "keybindings",
+  "source_context_snippet": "<h2 align=\"center\"><img src=\"https://raw.githubusercontent.com/VSCodeVim/Vim/master/images/icon.png\" height=\"128\"><br>VSCodeVim</h2>",
+  "source_file": null,
+  "source_repo": "VSCodeVim/Vim",
+  "source_repo_description": ":star: Vim for Visual Studio Code"
+}

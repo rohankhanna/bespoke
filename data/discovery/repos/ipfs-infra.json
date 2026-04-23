@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipfs/infra",
+      "target": "ipfs/infrastructure",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:38:35.461439+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4273
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Tools and systems for the IPFS community",
+    "fork": false,
+    "full_name": "ipfs/infra",
+    "html_url": "https://github.com/ipfs/infra",
+    "language": "Shell",
+    "pushed_at": "2021-11-23T22:01:52Z",
+    "stargazers_count": 133,
+    "topics": [],
+    "updated_at": "2026-03-03T18:43:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipfs/infrastructure",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

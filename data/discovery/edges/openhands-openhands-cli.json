@@ -1,0 +1,244 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "openhands/software-agent-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "openhands/software-agent-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-agent-sdk-version.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-agent-sdk-version.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-agent-sdk-version.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-agent-sdk-version.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "Bump Agent SDK Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "astral-sh/setup-uv@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-version.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "Bump Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-package-versions.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-package-versions.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-package-versions.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "Check Package Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-build-binary-and-optionally-release.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-build-binary-and-optionally-release.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-build-binary-and-optionally-release.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "astral-sh/setup-uv@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-build-binary-and-optionally-release.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-build-binary-and-optionally-release.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-build-binary-and-optionally-release.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-first-issue-labeler.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-first-issue-labeler.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/good-first-issue-labeler.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/good-first-issue-labeler.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "Weekly Good First Issue Labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "Pre-commit checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-review-by-openhands.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "OpenHands/extensions/plugins/pr-review@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-review-by-openhands.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "PR Review by OpenHands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-review-evaluation.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "dawidd6/action-download-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-review-evaluation.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-review-evaluation.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-review-evaluation.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "actions/upload-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-review-evaluation.yml",
+      "source_repo": "OpenHands/OpenHands-CLI",
+      "target": "PR Review Evaluation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "OpenHands/OpenHands-CLI"
+}

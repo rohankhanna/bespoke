@@ -70,6 +70,30 @@
       "source_repo": "fastapi/fastapi",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/gnostic",
+      "status": "candidate-context",
+      "text": "A compiler for APIs described by the OpenAPI Specification with plugins for code generation and other API support tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gnostic",
+      "status": "candidate-context",
+      "text": "[![Go Actions Status](https://github.com/google/gnostic/workflows/Go/badge.svg)](https://github.com/google/gnostic/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "status": "candidate-context",
+      "text": "The OpenAPI Specification Repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/OAI/OpenAPI-Specification/workflows/validate-markdown/badge.svg) [![Issue triagers](https://www.codetriage.com/oai/openapi-specification/badges/users.svg)](https://www.codetriage.com/oai/openapi-specification)"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +126,18 @@
       "source_repo": "fastapi/fastapi",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gnostic",
+      "status": "candidate",
+      "text": "[![Go Actions Status](https://github.com/google/gnostic/workflows/Go/badge.svg)](https://github.com/google/gnostic/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAI/OpenAPI-Specification",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/OAI/OpenAPI-Specification/workflows/validate-markdown/badge.svg) [![Issue triagers](https://www.codetriage.com/oai/openapi-specification/badges/users.svg)](https://www.codetriage.com/oai/openapi-specification)"
     }
   ],
   "candidate_related_terms": [],
@@ -139,11 +175,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/gnostic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "OAI/OpenAPI-Specification"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

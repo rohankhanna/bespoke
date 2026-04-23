@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "fastify/workflows/.github/workflows/lock-threads.yml@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock-threads.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "fastify/example",
+      "target": "fastify/workflows/.github/workflows/lock-threads.yml@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "source_repo": "fastify/example",
+      "target": "Lock Threads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastify/example",
+      "target": "demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastify/example",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fastify/example",
+      "target": "fastify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:41:46.986674+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1939
+    },
+    {
+      "path": ".github/workflows/lock-threads.yml",
+      "size": 293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Runnable examples of Fastify",
+    "fork": false,
+    "full_name": "fastify/example",
+    "html_url": "https://github.com/fastify/example",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-08T18:56:37Z",
+    "stargazers_count": 150,
+    "topics": [
+      "demo",
+      "examples",
+      "fastify"
+    ],
+    "updated_at": "2026-04-08T18:56:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lock Threads",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lock-threads.yml",
+      "term": "Lock Threads"
+    },
+    {
+      "context_snippet": "This repository is a collection of Fastify project that can be used to understand `how-to` achieve common",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demo"
+    },
+    {
+      "context_snippet": "This repository is a collection of Fastify project that can be used to understand `how-to` achieve common",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "This repository is a collection of Fastify project that can be used to understand `how-to` achieve common",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastify"
+    }
+  ]
+}

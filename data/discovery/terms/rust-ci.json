@@ -1,0 +1,27 @@
+{
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "cyphar/libpathrs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "axodotdev/cargo-dist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust_ci.yaml",
+      "source_repo": "Layr-Labs/hokulea"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/rust_ci.yml",
+      "source_repo": "celo-org/celo-threshold-bls-rs"
+    }
+  ],
+  "term": "rust-ci"
+}

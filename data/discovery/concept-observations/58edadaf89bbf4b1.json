@@ -84,7 +84,7 @@
   "normalized_form": "draft-new-release",
   "observation_id": "58edadaf89bbf4b1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T01:04:16.609102+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "Draft new release",
   "source_context_snippet": "\"Draft new release\"",
   "source_file": ".github/workflows/draft-new-release.yml",

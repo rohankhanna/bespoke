@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AdaCore/libadalang",
+      "target": "adacore/langkit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:41:37.318843+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6673
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ada semantic analysis library.",
+    "fork": false,
+    "full_name": "AdaCore/libadalang",
+    "html_url": "https://github.com/AdaCore/libadalang",
+    "language": "Ada",
+    "pushed_at": "2026-04-22T12:04:33Z",
+    "stargazers_count": 167,
+    "topics": [],
+    "updated_at": "2026-04-22T12:04:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adacore/langkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

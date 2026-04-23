@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -126,6 +126,71 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/goreleaser.yml",
       "source_repo": "ekalinin/github-markdown-toc.go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "appleboy/gorush"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "bufbuild/protoc-gen-validate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "micro/go-micro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AlexNabokikh/tfsort"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-google"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "appleboy/drone-lambda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "appleboy/go-fcm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "0ghny/gitconfig"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "0ghny/tlsg10x-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "klauspost/asmfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "fabio42/sasqwatch"
     }
   ],
   "term": "goreleaser"

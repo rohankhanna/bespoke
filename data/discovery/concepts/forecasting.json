@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "forecasting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebook/prophet",
+      "status": "candidate-context",
+      "text": "Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/prophet",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/facebook/prophet/workflows/Build/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebook/prophet",
+      "status": "candidate",
+      "text": "![Build](https://github.com/facebook/prophet/workflows/Build/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024802,
+      "status": "candidate",
+      "text": "foretelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40024760,
+      "status": "candidate",
+      "text": "prediction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024833,
+      "status": "candidate",
+      "text": "predicting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024831,
+      "status": "candidate",
+      "text": "predictor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30024818,
+      "status": "candidate",
+      "text": "predict"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5019,
+      "status": "candidate",
+      "text": "foretelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4040,
+      "status": "candidate",
+      "text": "prediction"
+    }
+  ],
+  "canonical_name": "forecasting",
+  "concept_id": "forecasting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "facebook/prophet"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "forecasting",
+      "sense_id": "forecasting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

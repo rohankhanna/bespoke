@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yanring/Megatron-MoE-ModelZoo",
+      "target": "mikefarah/yq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yanring/Megatron-MoE-ModelZoo",
+      "target": "iseekyan/mbridge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanring/Megatron-MoE-ModelZoo",
+      "target": "llm-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanring/Megatron-MoE-ModelZoo",
+      "target": "megatron-lm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yanring/Megatron-MoE-ModelZoo",
+      "target": "mixture-of-experts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:34:12.587660+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Best practices for training DeepSeek, Mixtral, Qwen and other MoE models using Megatron Core.",
+    "fork": false,
+    "full_name": "yanring/Megatron-MoE-ModelZoo",
+    "html_url": "https://github.com/yanring/Megatron-MoE-ModelZoo",
+    "language": "Python",
+    "pushed_at": "2026-03-17T17:12:53Z",
+    "stargazers_count": 185,
+    "topics": [
+      "llm-training",
+      "megatron-lm",
+      "mixture-of-experts"
+    ],
+    "updated_at": "2026-04-18T08:34:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iseekyan/mbridge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikefarah/yq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Production-ready training recipes for state-of-the-art MoE models \u2014 **DeepSeek-V3**, **Qwen3**, and **Mixtral** \u2014 built on \ud83d\ude80 [Megatron-Core DEV branch](https://github.com/NVIDIA/Megatron-LM/tree/dev).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-training"
+    },
+    {
+      "context_snippet": "Production-ready training recipes for state-of-the-art MoE models \u2014 **DeepSeek-V3**, **Qwen3**, and **Mixtral** \u2014 built on \ud83d\ude80 [Megatron-Core DEV branch](https://github.com/NVIDIA/Megatron-LM/tree/dev).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "megatron-lm"
+    },
+    {
+      "context_snippet": "Production-ready training recipes for state-of-the-art MoE models \u2014 **DeepSeek-V3**, **Qwen3**, and **Mixtral** \u2014 built on \ud83d\ude80 [Megatron-Core DEV branch](https://github.com/NVIDIA/Megatron-LM/tree/dev).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixture-of-experts"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cross-platform library to fetch system information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`sysinfo` is a crate used to get a system's information."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`sysinfo` is a crate used to get a system's information."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916329,
+      "status": "candidate",
+      "text": "bird"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39885722,
+      "status": "candidate",
+      "text": "snort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39857061,
+      "status": "candidate",
+      "text": "bronx cheer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39712240,
+      "status": "candidate",
+      "text": "hoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39706121,
+      "status": "candidate",
+      "text": "hiss"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "raspberry",
+      "sense_id": "raspberry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 61046,
+      "status": "candidate",
+      "text": "snort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25039,
+      "status": "candidate",
+      "text": "hiss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14042,
+      "status": "candidate",
+      "text": "hoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8043,
+      "status": "candidate",
+      "text": "boo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7016,
+      "status": "candidate",
+      "text": "razzing"
+    }
+  ],
+  "concept_id": "raspberry",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "raspberry",
+  "observation_id": "c502c954655320c1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "raspberry",
+  "source_context_snippet": "`sysinfo` is a crate used to get a system's information.",
+  "source_file": null,
+  "source_repo": "GuillaumeGomez/sysinfo",
+  "source_repo_description": "Cross-platform library to fetch system information"
+}

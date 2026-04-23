@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes/client-go",
+      "target": "kubernetes/sample-apiserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes/client-go",
+      "target": "kubernetes/apiextensions-apiserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/client-go",
+      "target": "k8s-staging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:44:33.723345+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9741
+    },
+    {
+      "path": "go.mod",
+      "size": 2339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go client for Kubernetes.",
+    "fork": false,
+    "full_name": "kubernetes/client-go",
+    "html_url": "https://github.com/kubernetes/client-go",
+    "language": "Go",
+    "pushed_at": "2026-04-23T03:38:26Z",
+    "stargazers_count": 9802,
+    "topics": [
+      "k8s-staging"
+    ],
+    "updated_at": "2026-04-23T03:38:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/apiextensions-apiserver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/sample-apiserver",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> \u26a0\ufe0f **This is an automatically published [staged repository](https://git.k8s.io/kubernetes/staging#external-repository-staging-area) for Kubernetes**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-staging"
+    }
+  ]
+}

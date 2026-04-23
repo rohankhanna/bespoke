@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Lora beYond Conventional methods, Other Rank adaptation Implementations for Stable diffusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![pypi](https://img.shields.io/pypi/v/lycoris-lora.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![pypi](https://img.shields.io/pypi/v/lycoris-lora.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022299,
+      "status": "candidate",
+      "text": "fine tune"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022298,
+      "status": "candidate",
+      "text": "fine-tune"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022297,
+      "status": "candidate",
+      "text": "tweak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022296,
+      "status": "candidate",
+      "text": "autotune"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10022295,
+      "status": "candidate",
+      "text": "tune"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "finetune",
+      "sense_id": "finetune#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "finetune",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "finetune",
+  "observation_id": "c5378f70ae314016",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "finetune",
+  "source_context_snippet": "![pypi](https://img.shields.io/pypi/v/lycoris-lora.svg)",
+  "source_file": null,
+  "source_repo": "KohakuBlueleaf/LyCORIS",
+  "source_repo_description": "Lora beYond Conventional methods, Other Rank adaptation Implementations for Stable diffusion."
+}

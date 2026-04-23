@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vint.yml"
+    },
+    {
+      "component": "reviewdog/action-vint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vint.yml",
+      "source_repo": "preservim/nerdtree",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vint.yml",
+      "source_repo": "preservim/nerdtree",
+      "target": "reviewdog/action-vint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vint.yml",
+      "source_repo": "preservim/nerdtree",
+      "target": "Vint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "preservim/nerdtree",
+      "target": "file-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "preservim/nerdtree",
+      "target": "file-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "preservim/nerdtree",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "preservim/nerdtree",
+      "target": "vim-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:46:02.345713+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/vint.yml",
+      "size": 348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tree explorer plugin for vim.",
+    "fork": false,
+    "full_name": "preservim/nerdtree",
+    "html_url": "https://github.com/preservim/nerdtree",
+    "language": "Vim Script",
+    "pushed_at": "2025-09-26T16:07:39Z",
+    "stargazers_count": 20073,
+    "topics": [
+      "file-management",
+      "file-manager",
+      "vim",
+      "vim-plugin",
+      "vim-plugins"
+    ],
+    "updated_at": "2026-04-22T23:28:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Vint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vint.yml",
+      "term": "Vint"
+    },
+    {
+      "context_snippet": "Vint",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-management"
+    },
+    {
+      "context_snippet": "Vint",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-manager"
+    },
+    {
+      "context_snippet": "Vint",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "Vint",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugins"
+    }
+  ]
+}

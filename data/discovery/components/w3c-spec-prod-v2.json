@@ -1,0 +1,42 @@
+{
+  "component": "w3c/spec-prod@v2",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/accname.yml",
+      "source_repo": "w3c/aria"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aria.yml",
+      "source_repo": "w3c/aria"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/core-aam.yml",
+      "source_repo": "w3c/aria"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dpub-aam.yml",
+      "source_repo": "w3c/aria"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dpub-aria.yml",
+      "source_repo": "w3c/aria"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/graphics-aam.yml",
+      "source_repo": "w3c/aria"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/html-amm.yml",
+      "source_repo": "w3c/aria"
+    }
+  ]
+}

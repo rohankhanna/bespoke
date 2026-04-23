@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Commandline Monitor for Icecream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Commandline Monitor for [Icecream](https://github.com/icecc/icecream)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Commandline Monitor for [Icecream](https://github.com/icecc/icecream)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020480,
+      "status": "candidate",
+      "text": "sundae"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020469,
+      "status": "candidate",
+      "text": "popsicle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020457,
+      "status": "candidate",
+      "text": "cream"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020079,
+      "status": "candidate",
+      "text": "icing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019544,
+      "status": "candidate",
+      "text": "cake"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ice-cream",
+      "sense_id": "ice-cream#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ice-cream",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ice-cream",
+  "observation_id": "66274dddb1c2490b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "ice-cream",
+  "source_context_snippet": "Commandline Monitor for [Icecream](https://github.com/icecc/icecream).",
+  "source_file": null,
+  "source_repo": "JPEWdev/icecream-sundae",
+  "source_repo_description": "Commandline Monitor for Icecream"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Comments for ensuring backward compatibility"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajaxorg/ace",
+      "status": "candidate-context",
+      "text": "Ace (Ajax.org Cloud9 Editor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajaxorg/ace",
+      "status": "candidate-context",
+      "text": "Comments for ensuring backward compatibility"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajaxorg/ace",
+      "status": "candidate",
+      "text": "Comments for ensuring backward compatibility"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29159,
+      "status": "candidate",
+      "text": "bringing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28867,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28867,
+      "status": "candidate",
+      "text": "balancing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28448,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28430,
+      "status": "candidate",
+      "text": "swing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Comments for ensuring backward compatibility",
+  "concept_id": "comments-for-ensuring-backward-compatibility",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/backwards-compatibility-commenter.yml",
+      "source_repo": "ajaxorg/ace"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Comments for ensuring backward compatibility",
+      "sense_id": "comments-for-ensuring-backward-compatibility#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

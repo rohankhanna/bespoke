@@ -55,6 +55,54 @@
       "source_repo": "andys8/git-brunch",
       "status": "candidate-context",
       "text": "A git command-line tool to work with branches"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate-context",
+      "text": "Gzip Decompression and Random Access for Modern Multi-Core Machines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "A smarter cd command. Supports all major shells."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate-context",
+      "text": "Fast parallel random access to bzip2 and gzip files in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sasha0552/nvidia-pstate",
+      "status": "candidate-context",
+      "text": "A library and CLI utilities for managing performance states of NVIDIA GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sasha0552/nvidia-pstate",
+      "status": "candidate-context",
+      "text": "A library and CLI utilities for managing performance states of NVIDIA GPUs."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "andys8/git-brunch",
       "status": "candidate",
       "text": "A git command-line tool to work with branches"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/rapidgzip",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajeetdsouza/zoxide",
+      "status": "candidate",
+      "text": "<!-- markdownlint-configure-file {"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/indexed_bzip2",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sasha0552/nvidia-pstate",
+      "status": "candidate",
+      "text": "A library and CLI utilities for managing performance states of NVIDIA GPUs."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +184,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "andys8/git-brunch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mxmlnkn/rapidgzip"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ajeetdsouza/zoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gitui-org/gitui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mxmlnkn/indexed_bzip2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sasha0552/nvidia-pstate"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

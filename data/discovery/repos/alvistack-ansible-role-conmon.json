@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:31:17.318519+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1694
+    },
+    {
+      "path": "requirements.txt",
+      "size": 797
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ansible Role for conmon Installation",
+    "fork": false,
+    "full_name": "alvistack/ansible-role-conmon",
+    "html_url": "https://github.com/alvistack/ansible-role-conmon",
+    "language": "Shell",
+    "pushed_at": "2026-04-17T04:37:38Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2026-04-17T04:37:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

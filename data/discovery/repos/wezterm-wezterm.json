@@ -1,0 +1,824 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian12.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian12.yml"
+    },
+    {
+      "component": "mozilla-actions/sccache-action@v0.0.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian12.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian12.yml"
+    },
+    {
+      "component": "baptiste0928/cargo-install@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian12.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian12.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "wezterm/wezterm",
+      "target": "wez/finl_unicode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "wezterm/wezterm",
+      "target": "wezterm/xcb-imdkit-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fmt.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fmt.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "fmt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen_centos9.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "centos9",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_centos9_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen_debian11.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "debian11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_continuous.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian11_tag.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian12.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian12.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian12.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "mozilla-actions/sccache-action@v0.0.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian12.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian12.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "baptiste0928/cargo-install@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gen_debian12.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen_debian12.yml",
+      "source_repo": "wezterm/wezterm",
+      "target": "debian12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wezterm/wezterm",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wezterm/wezterm",
+      "target": "serial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wezterm/wezterm",
+      "target": "serial-port",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wezterm/wezterm",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wezterm/wezterm",
+      "target": "terminal-emulator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wezterm/wezterm",
+      "target": "terminal-emulators",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:40:06.533000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1881
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 8226
+    },
+    {
+      "path": ".github/workflows/fmt.yml",
+      "size": 585
+    },
+    {
+      "path": ".github/workflows/gen_centos9.yml",
+      "size": 3450
+    },
+    {
+      "path": ".github/workflows/gen_centos9_continuous.yml",
+      "size": 4726
+    },
+    {
+      "path": ".github/workflows/gen_centos9_tag.yml",
+      "size": 3977
+    },
+    {
+      "path": ".github/workflows/gen_debian11.yml",
+      "size": 3447
+    },
+    {
+      "path": ".github/workflows/gen_debian11_continuous.yml",
+      "size": 4443
+    },
+    {
+      "path": ".github/workflows/gen_debian11_tag.yml",
+      "size": 4000
+    },
+    {
+      "path": ".github/workflows/gen_debian12.yml",
+      "size": 3447
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A GPU-accelerated cross-platform terminal emulator and multiplexer written by @wez and implemented in Rust",
+    "fork": false,
+    "full_name": "wezterm/wezterm",
+    "html_url": "https://github.com/wezterm/wezterm",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T00:58:26Z",
+    "stargazers_count": 25686,
+    "topics": [
+      "rust",
+      "serial",
+      "serial-port",
+      "terminal",
+      "terminal-emulator",
+      "terminal-emulators"
+    ],
+    "updated_at": "2026-04-23T07:39:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wez/finl_unicode",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wezterm/xcb-imdkit-rs",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "fmt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fmt.yml",
+      "term": "fmt"
+    },
+    {
+      "context_snippet": "centos9",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen_centos9.yml",
+      "term": "centos9"
+    },
+    {
+      "context_snippet": "debian11",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen_debian11.yml",
+      "term": "debian11"
+    },
+    {
+      "context_snippet": "debian12",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gen_debian12.yml",
+      "term": "debian12"
+    },
+    {
+      "context_snippet": "<img height=\"128\" alt=\"WezTerm Icon\" src=\"https://raw.githubusercontent.com/wezterm/wezterm/main/assets/icon/wezterm-icon.svg\" align=\"left\"> *A GPU-accelerated cross-platform terminal emulator and multiplexer written by <a href=\"https://github.com/wez\">@wez</a> and implemented i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<img height=\"128\" alt=\"WezTerm Icon\" src=\"https://raw.githubusercontent.com/wezterm/wezterm/main/assets/icon/wezterm-icon.svg\" align=\"left\"> *A GPU-accelerated cross-platform terminal emulator and multiplexer written by <a href=\"https://github.com/wez\">@wez</a> and implemented i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serial"
+    },
+    {
+      "context_snippet": "<img height=\"128\" alt=\"WezTerm Icon\" src=\"https://raw.githubusercontent.com/wezterm/wezterm/main/assets/icon/wezterm-icon.svg\" align=\"left\"> *A GPU-accelerated cross-platform terminal emulator and multiplexer written by <a href=\"https://github.com/wez\">@wez</a> and implemented i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serial-port"
+    },
+    {
+      "context_snippet": "<img height=\"128\" alt=\"WezTerm Icon\" src=\"https://raw.githubusercontent.com/wezterm/wezterm/main/assets/icon/wezterm-icon.svg\" align=\"left\"> *A GPU-accelerated cross-platform terminal emulator and multiplexer written by <a href=\"https://github.com/wez\">@wez</a> and implemented i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "<img height=\"128\" alt=\"WezTerm Icon\" src=\"https://raw.githubusercontent.com/wezterm/wezterm/main/assets/icon/wezterm-icon.svg\" align=\"left\"> *A GPU-accelerated cross-platform terminal emulator and multiplexer written by <a href=\"https://github.com/wez\">@wez</a> and implemented i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulator"
+    },
+    {
+      "context_snippet": "<img height=\"128\" alt=\"WezTerm Icon\" src=\"https://raw.githubusercontent.com/wezterm/wezterm/main/assets/icon/wezterm-icon.svg\" align=\"left\"> *A GPU-accelerated cross-platform terminal emulator and multiplexer written by <a href=\"https://github.com/wez\">@wez</a> and implemented i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-emulators"
+    }
+  ]
+}

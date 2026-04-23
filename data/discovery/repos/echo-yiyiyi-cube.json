@@ -1,0 +1,161 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "echo-yiyiyi/cube",
+      "target": "yiyiyi0817/cube",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube",
+      "target": "agent-based-modeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube",
+      "target": "agent-based-simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube",
+      "target": "multi-agent-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube",
+      "target": "nature-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube",
+      "target": "society-of-mind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube",
+      "target": "unity3d",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:34:23.020472+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10418
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 844
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83e\uddca CUBE: Dynamic Simulations in Customized Unity3D-Based Environments with Large Language Model-Based Multi-Agent Systems",
+    "fork": false,
+    "full_name": "echo-yiyiyi/cube",
+    "html_url": "https://github.com/echo-yiyiyi/cube",
+    "language": "Python",
+    "pushed_at": "2024-11-20T17:42:44Z",
+    "stargazers_count": 9,
+    "topics": [
+      "agent-based-modeling",
+      "agent-based-simulation",
+      "agents",
+      "large-language-models",
+      "llm",
+      "multi-agent-systems",
+      "nature-language-processing",
+      "simulation",
+      "society-of-mind",
+      "unity3d"
+    ],
+    "updated_at": "2026-04-22T15:12:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yiyiyi0817/cube",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Python Version][python-image]][python-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-based-modeling"
+    },
+    {
+      "context_snippet": "[![Python Version][python-image]][python-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-based-simulation"
+    },
+    {
+      "context_snippet": "[![Python Version][python-image]][python-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "[![Python Version][python-image]][python-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-systems"
+    },
+    {
+      "context_snippet": "[![Python Version][python-image]][python-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nature-language-processing"
+    },
+    {
+      "context_snippet": "[![Python Version][python-image]][python-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "[![Python Version][python-image]][python-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "society-of-mind"
+    },
+    {
+      "context_snippet": "[![Python Version][python-image]][python-url]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity3d"
+    }
+  ]
+}

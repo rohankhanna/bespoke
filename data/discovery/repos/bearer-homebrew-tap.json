@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Bearer/homebrew-tap",
+      "target": "homebrew",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:40:13.926972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Packages from Bearer on homebrew",
+    "fork": false,
+    "full_name": "Bearer/homebrew-tap",
+    "html_url": "https://github.com/Bearer/homebrew-tap",
+    "language": "Ruby",
+    "pushed_at": "2026-02-25T12:55:59Z",
+    "stargazers_count": 0,
+    "topics": [
+      "homebrew",
+      "tap"
+    ],
+    "updated_at": "2026-02-25T12:56:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is a Homebrew Tap for [bearer](https://github.com/Bearer/bearer).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebrew"
+    }
+  ]
+}

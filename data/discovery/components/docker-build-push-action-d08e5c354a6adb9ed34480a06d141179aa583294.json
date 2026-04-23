@@ -1,7 +1,7 @@
 {
   "component": "docker/build-push-action@d08e5c354a6adb9ed34480a06d141179aa583294",
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/openssh_server.yml",
       "source_repo": "libssh2/libssh2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust-musl.yml",
+      "source_repo": "BlackDex/rust-musl"
     }
   ]
 }

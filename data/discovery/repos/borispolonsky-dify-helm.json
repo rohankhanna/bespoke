@@ -1,0 +1,338 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-eso.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-eso.yml"
+    },
+    {
+      "component": "medyagh/setup-minikube@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-eso.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-eso.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-eso.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-eso.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-eso.yml"
+    },
+    {
+      "component": "medyagh/setup-minikube@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-eso.yml"
+    },
+    {
+      "component": "azure/setup-helm@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-eso.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cve-scan.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cve-scan.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cve-scan.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "azure/setup-helm@v4.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v5.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "helm/chart-releaser-action@v1.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-eso.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-eso.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-eso.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "medyagh/setup-minikube@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-eso.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "azure/setup-helm@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-eso.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "CI - External Secrets Operator Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cve-scan.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cve-scan.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cve-scan.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cve-scan.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "CVE Scan (Chart Images)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "azure/setup-helm@v4.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "actions/setup-python@v5.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "helm/chart-testing-action@v2.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "Lint and Test Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "helm/chart-releaser-action@v1.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "Release Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "dify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "helm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BorisPolonsky/dify-helm",
+      "target": "helm-chart",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:30:14.380332+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8302
+    },
+    {
+      "path": ".github/workflows/ci-eso.yml",
+      "size": 19260
+    },
+    {
+      "path": ".github/workflows/cve-scan.yml",
+      "size": 2429
+    },
+    {
+      "path": ".github/workflows/lint-test.yml",
+      "size": 1634
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1222
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deploy langgenious/dify, an LLM based app on kubernetes with helm chart.",
+    "fork": false,
+    "full_name": "BorisPolonsky/dify-helm",
+    "html_url": "https://github.com/BorisPolonsky/dify-helm",
+    "language": "Go Template",
+    "pushed_at": "2026-04-20T03:39:05Z",
+    "stargazers_count": 632,
+    "topics": [
+      "charts",
+      "dify",
+      "helm",
+      "helm-chart",
+      "k8s",
+      "llm"
+    ],
+    "updated_at": "2026-04-23T07:13:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CI - External Secrets Operator Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-eso.yml",
+      "term": "CI - External Secrets Operator Tests"
+    },
+    {
+      "context_snippet": "CVE Scan (Chart Images)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cve-scan.yml",
+      "term": "CVE Scan (Chart Images)"
+    },
+    {
+      "context_snippet": "Lint and Test Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-test.yml",
+      "term": "Lint and Test Charts"
+    },
+    {
+      "context_snippet": "Release Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Charts"
+    },
+    {
+      "context_snippet": "[![Github All Releases](https://img.shields.io/github/downloads/borispolonsky/dify-helm/total.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "charts"
+    },
+    {
+      "context_snippet": "[![Github All Releases](https://img.shields.io/github/downloads/borispolonsky/dify-helm/total.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dify"
+    },
+    {
+      "context_snippet": "[![Github All Releases](https://img.shields.io/github/downloads/borispolonsky/dify-helm/total.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm"
+    },
+    {
+      "context_snippet": "[![Github All Releases](https://img.shields.io/github/downloads/borispolonsky/dify-helm/total.svg)]()",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "helm-chart"
+    }
+  ]
+}

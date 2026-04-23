@@ -91,6 +91,66 @@
       "source_repo": "langgenius/dify",
       "status": "candidate-context",
       "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serafimcloud/21st",
+      "status": "candidate-context",
+      "text": "npm for design engineers: largest marketplace of shadcn/ui-based React Tailwind components, blocks and hooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serafimcloud/21st",
+      "status": "candidate-context",
+      "text": "**[21st.dev](https://21st.dev)** is your go-to open-source community registry for **React UI components**! Whether you're a developer, designer, or just someone who loves building beautiful interfaces, 21st.dev is the place to **publish, discover, and install** minimal, modern, \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lgrammel/modelfusion-llamacpp-nextjs-starter",
+      "status": "candidate-context",
+      "text": "Starter examples for using Next.js and the Vercel AI SDK with Llama.cpp and ModelFusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lgrammel/modelfusion-llamacpp-nextjs-starter",
+      "status": "candidate-context",
+      "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Llama.cpp](https://github.com/ggerganov/llama.cpp) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lgrammel/modelfusion-ollama-nextjs-starter",
+      "status": "candidate-context",
+      "text": "Starter examples for using Next.js and the Vercel AI SDK with Ollama and ModelFusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lgrammel/modelfusion-ollama-nextjs-starter",
+      "status": "candidate-context",
+      "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Ollama](https://ollama.ai/) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "larsbaunwall/bricky",
+      "status": "candidate-context",
+      "text": "Haystack/OpenAI based chatbot curating a custom knowledgebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larsbaunwall/bricky",
+      "status": "candidate-context",
+      "text": "Remember clippy? Meet bricky!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "connectrpc/connect-es",
+      "status": "candidate-context",
+      "text": "The TypeScript implementation of Connect: Protobuf RPC that works."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-es",
+      "status": "candidate-context",
+      "text": "<img src=\".github/connect-logo.png\" width=\"15%\" />"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +195,36 @@
       "source_repo": "langgenius/dify",
       "status": "candidate",
       "text": "![cover-v5-optimized](./images/GitHub_README_if.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serafimcloud/21st",
+      "status": "candidate",
+      "text": "**[21st.dev](https://21st.dev)** is your go-to open-source community registry for **React UI components**! Whether you're a developer, designer, or just someone who loves building beautiful interfaces, 21st.dev is the place to **publish, discover, and install** minimal, modern, \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lgrammel/modelfusion-llamacpp-nextjs-starter",
+      "status": "candidate",
+      "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Llama.cpp](https://github.com/ggerganov/llama.cpp) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lgrammel/modelfusion-ollama-nextjs-starter",
+      "status": "candidate",
+      "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Ollama](https://ollama.ai/) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "larsbaunwall/bricky",
+      "status": "candidate",
+      "text": "Remember clippy? Meet bricky!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "connectrpc/connect-es",
+      "status": "candidate",
+      "text": "<img src=\".github/connect-logo.png\" width=\"15%\" />"
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +322,53 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "langgenius/dify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "serafimcloud/21st"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lgrammel/modelfusion-llamacpp-nextjs-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lgrammel/modelfusion-ollama-nextjs-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "larsbaunwall/bricky"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "connectrpc/connect-es"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

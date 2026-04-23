@@ -55,6 +55,66 @@
       "source_repo": "zlib-ng/minizip-ng",
       "status": "candidate-context",
       "text": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/flate2-rs",
+      "status": "candidate-context",
+      "text": "DEFLATE, gzip, and zlib bindings for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/flate2-rs",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/flate2.svg?maxAge=2592000)](https://crates.io/crates/flate2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avaneev/lzav",
+      "status": "candidate-context",
+      "text": "Fast In-Memory Data Compression Algorithm (header-only C/C++) 480+MB/s compress, 2800+MB/s decompress, ratio% better than LZ4, Snappy, and Zstd@-1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avaneev/lzav",
+      "status": "candidate-context",
+      "text": "LZAV is a fast general-purpose in-memory data compression algorithm based on"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BrianPugh/tamp",
+      "status": "candidate-context",
+      "text": "Tamp is a low-memory, DEFLATE-inspired lossless compression library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrianPugh/tamp",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/libz-sys",
+      "status": "candidate-context",
+      "text": "Rust crate package to link to a system libz (zlib)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/libz-sys",
+      "status": "candidate-context",
+      "text": "A common library for linking `libz` to Rust programs (also known as zlib)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "powturbo/TurboBench",
+      "status": "candidate-context",
+      "text": "Compression Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/TurboBench",
+      "status": "candidate-context",
+      "text": "[![Build ubuntu](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +141,36 @@
       "source_repo": "zlib-ng/minizip-ng",
       "status": "candidate",
       "text": "minizip-ng is a zip manipulation library written in C that is supported on Windows, macOS, and Linux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/flate2-rs",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/flate2.svg?maxAge=2592000)](https://crates.io/crates/flate2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avaneev/lzav",
+      "status": "candidate",
+      "text": "LZAV is a fast general-purpose in-memory data compression algorithm based on"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BrianPugh/tamp",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/libz-sys",
+      "status": "candidate",
+      "text": "A common library for linking `libz` to Rust programs (also known as zlib)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "powturbo/TurboBench",
+      "status": "candidate",
+      "text": "[![Build ubuntu](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml/badge.svg)](https://github.com/powturbo/TurboBench/actions/workflows/build.yaml)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +202,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "zlib-ng/minizip-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/flate2-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "avaneev/lzav"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BrianPugh/tamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/libz-sys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "powturbo/TurboBench"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

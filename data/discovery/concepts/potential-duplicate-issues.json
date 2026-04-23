@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Potential Duplicate Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate-context",
+      "text": "Java language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate-context",
+      "text": "Potential Duplicate Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+      "status": "candidate",
+      "text": "Potential Duplicate Issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26064,
+      "status": "candidate",
+      "text": "challenges"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25991,
+      "status": "candidate",
+      "text": "problems"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18197,
+      "status": "candidate",
+      "text": "similar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18135,
+      "status": "candidate",
+      "text": "gamble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18047,
+      "status": "candidate",
+      "text": "end"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Potential Duplicate Issues",
+  "concept_id": "potential-duplicate-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/duplicate-issues-detector.yaml",
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Potential Duplicate Issues",
+      "sense_id": "potential-duplicate-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

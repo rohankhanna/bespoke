@@ -1,0 +1,210 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_full.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_full.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_full.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_full.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_reduced.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_reduced.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_reduced.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_reduced.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mseitzer/pytorch-fid",
+      "target": "bioinf-jku/ttur",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_full.yaml",
+      "source_repo": "mseitzer/pytorch-fid",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_full.yaml",
+      "source_repo": "mseitzer/pytorch-fid",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_reduced.yaml",
+      "source_repo": "mseitzer/pytorch-fid",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests_reduced.yaml",
+      "source_repo": "mseitzer/pytorch-fid",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mseitzer/pytorch-fid",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mseitzer/pytorch-fid",
+      "target": "fid-score",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mseitzer/pytorch-fid",
+      "target": "frechet-distance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mseitzer/pytorch-fid",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mseitzer/pytorch-fid",
+      "target": "inception-score",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mseitzer/pytorch-fid",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:31:07.629334+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4557
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 111
+    },
+    {
+      "path": ".github/workflows/tests_full.yaml",
+      "size": 1123
+    },
+    {
+      "path": ".github/workflows/tests_reduced.yaml",
+      "size": 1075
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Compute FID scores with PyTorch.",
+    "fork": false,
+    "full_name": "mseitzer/pytorch-fid",
+    "html_url": "https://github.com/mseitzer/pytorch-fid",
+    "language": "Python",
+    "pushed_at": "2024-07-03T06:40:02Z",
+    "stargazers_count": 3844,
+    "topics": [
+      "deep-learning",
+      "fid",
+      "fid-score",
+      "frechet-distance",
+      "gan",
+      "generative-adversarial-network",
+      "inception-score",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-22T09:50:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bioinf-jku/ttur",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/pytorch-fid.svg)](https://pypi.org/project/pytorch-fid/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/pytorch-fid.svg)](https://pypi.org/project/pytorch-fid/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fid-score"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/pytorch-fid.svg)](https://pypi.org/project/pytorch-fid/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frechet-distance"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/pytorch-fid.svg)](https://pypi.org/project/pytorch-fid/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/pytorch-fid.svg)](https://pypi.org/project/pytorch-fid/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inception-score"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/pytorch-fid.svg)](https://pypi.org/project/pytorch-fid/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

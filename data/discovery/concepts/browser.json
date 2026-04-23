@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "browser"
+    "browser",
+    "Browser"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,102 @@
       "source_repo": "vercel/next.js",
       "status": "candidate-context",
       "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/ghostty-web",
+      "status": "candidate-context",
+      "text": "Ghostty for the web with xterm.js API compatibility"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/ghostty-web",
+      "status": "candidate-context",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/ghostty-web)](https://npmjs.com/package/ghostty-web) [![NPM Downloads](https://img.shields.io/npm/dw/ghostty-web)](https://npmjs.com/package/ghostty-web) [![npm bundle size](https://img.shields.io/bundlephobia/minzip/ghostty-web)](htt\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "servo/servo",
+      "status": "candidate-context",
+      "text": "Servo aims to empower developers with a lightweight, high-performance alternative for embedding web technologies in applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "servo/servo",
+      "status": "candidate-context",
+      "text": "Servo is a prototype web browser engine written in the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate-context",
+      "text": "Test suites for Web platform specs \u2014 including WHATWG, W3C, and others"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate-context",
+      "text": "The web-platform-tests Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yudai/gotty",
+      "status": "candidate-context",
+      "text": "Share your terminal as a web application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yudai/gotty",
+      "status": "candidate-context",
+      "text": "[![GitHub release](http://img.shields.io/github/release/yudai/gotty.svg?style=flat-square)][release]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "Chrome DevTools for coding agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate-context",
+      "text": "[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate-context",
+      "text": "Ethereum L1 Protocol Stack and EVM in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate-context",
+      "text": "Browser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "debug-js/debug",
+      "status": "candidate-context",
+      "text": "A tiny JavaScript debugging utility modelled after Node.js core's debugging technique. Works in Node.js and web browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debug-js/debug",
+      "status": "candidate-context",
+      "text": "[![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/abstract-leveldown",
+      "status": "candidate-context",
+      "text": "Superseded by abstract-level. An abstract prototype matching the leveldown API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/abstract-leveldown",
+      "status": "candidate-context",
+      "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +126,54 @@
       "source_repo": "vercel/next.js",
       "status": "candidate",
       "text": "[workspace] resolver = \"2\" members = [ \"scripts/send-trace-to-jaeger\", \"crates/next-napi-bindings\", \"crates/wasm\", \"crates/next-api\", \"crates/next-build-test\", \"crates/next-build\", \"crates/next-code-frame\", \"crates/next-core\", \"crates/next-custom-transforms\", \"crates/next-taskle\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/ghostty-web",
+      "status": "candidate",
+      "text": "[![NPM Version](https://img.shields.io/npm/v/ghostty-web)](https://npmjs.com/package/ghostty-web) [![NPM Downloads](https://img.shields.io/npm/dw/ghostty-web)](https://npmjs.com/package/ghostty-web) [![npm bundle size](https://img.shields.io/bundlephobia/minzip/ghostty-web)](htt\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "servo/servo",
+      "status": "candidate",
+      "text": "Servo is a prototype web browser engine written in the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web-platform-tests/wpt",
+      "status": "candidate",
+      "text": "The web-platform-tests Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yudai/gotty",
+      "status": "candidate",
+      "text": "[![GitHub release](http://img.shields.io/github/release/yudai/gotty.svg?style=flat-square)][release]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp",
+      "status": "candidate",
+      "text": "[![npm chrome-devtools-mcp package](https://img.shields.io/npm/v/chrome-devtools-mcp.svg)](https://npmjs.org/package/chrome-devtools-mcp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate",
+      "text": "Browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debug-js/debug",
+      "status": "candidate",
+      "text": "[![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/abstract-leveldown",
+      "status": "candidate",
+      "text": "**Superseded by [`abstract-level`](https://github.com/Level/abstract-level). Please see [Frequently Asked Questions](https://github.com/Level/community#faq).**"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +231,59 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "coder/ghostty-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "servo/servo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "yudai/gotty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/browser.yml",
+      "source_repo": "ethereumjs/ethereumjs-monorepo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "debug-js/debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Level/abstract-leveldown"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

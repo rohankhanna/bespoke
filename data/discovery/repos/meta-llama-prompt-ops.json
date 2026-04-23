@@ -78,20 +78,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "meta-llama/prompt-ops",
-      "target": "meta-llama/synthetic-data-kit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "meta-llama/prompt-ops",
-      "target": "stanfordnlp/dspy",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-with-coverage.yml",
       "source_repo": "meta-llama/prompt-ops",
@@ -176,7 +162,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-21T11:36:39.436449+00:00",
+  "fetched_at": "2026-04-23T06:28:36.921769+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -212,23 +198,12 @@
     "full_name": "meta-llama/prompt-ops",
     "html_url": "https://github.com/meta-llama/prompt-ops",
     "language": "Python",
-    "pushed_at": "2026-04-15T20:57:41Z",
-    "stargazers_count": 801,
+    "pushed_at": "2026-04-21T18:28:47Z",
+    "stargazers_count": 802,
     "topics": [],
-    "updated_at": "2026-04-20T03:21:48Z"
+    "updated_at": "2026-04-22T14:45:22Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "meta-llama/synthetic-data-kit",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "stanfordnlp/dspy",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "CI with Coverage",

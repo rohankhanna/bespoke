@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "constraints"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation - replaced by https://github.com/bufbuild/protovalidate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/github/license/bufbuild/protoc-gen-validate?color=blue)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/github/license/bufbuild/protoc-gen-validate?color=blue)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051259,
+      "status": "candidate",
+      "text": "restraint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "barrier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "barriers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "bonds"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "borders"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "constraints",
+  "concept_id": "constraints",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protoc-gen-validate"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "constraints",
+      "sense_id": "constraints#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

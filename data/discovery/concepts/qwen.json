@@ -73,6 +73,30 @@
       "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
       "status": "candidate-context",
       "text": "<div align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unslothai/unsloth",
+      "status": "candidate-context",
+      "text": "Web UI for training and running open models like Gemma 4, Qwen3.5, DeepSeek, gpt-oss locally."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unslothai/unsloth",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"margin:0;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate-context",
+      "text": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate-context",
+      "text": "![# LLaMA Factory](assets/logo.png)"
     }
   ],
   "candidate_glosses": [
@@ -105,6 +129,18 @@
       "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
       "status": "candidate",
       "text": "<div align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unslothai/unsloth",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"margin:0;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/LlamaFactory",
+      "status": "candidate",
+      "text": "![# LLaMA Factory](assets/logo.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +208,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "zhayujie/CowAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "unslothai/unsloth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "zhayujie/CowAgent"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

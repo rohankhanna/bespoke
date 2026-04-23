@@ -1,0 +1,64 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agentic-Context-Development-Interview-Demo",
+      "target": "context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/Agentic-Context-Development-Interview-Demo",
+      "target": "llm-inference",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:36:59.194528+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4698
+    },
+    {
+      "path": "requirements.txt",
+      "size": 51
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Demonstration modelling how a chained LLM agent workflow could be used to expedite the generation of personal contextual data for personalised LLM experiences and personal RAG development",
+    "fork": false,
+    "full_name": "danielrosehill/Agentic-Context-Development-Interview-Demo",
+    "html_url": "https://github.com/danielrosehill/Agentic-Context-Development-Interview-Demo",
+    "language": "Python",
+    "pushed_at": "2025-11-07T17:23:58Z",
+    "stargazers_count": 2,
+    "topics": [
+      "context",
+      "llm",
+      "llm-inference",
+      "rag"
+    ],
+    "updated_at": "2025-11-07T17:24:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Made with Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-FF4B4B.svg)](https://www.streamlit.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "context"
+    },
+    {
+      "context_snippet": "[![Made with Streamlit](https://img.shields.io/badge/Made%20with-Streamlit-FF4B4B.svg)](https://www.streamlit.io)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    }
+  ]
+}

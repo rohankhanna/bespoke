@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Clang Tidy Diff"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aseprite/aseprite",
+      "status": "candidate-context",
+      "text": "Animated sprite editor & pixel art tool (Windows, macOS, Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/aseprite",
+      "status": "candidate-context",
+      "text": "Clang Tidy Diff"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aseprite/aseprite",
+      "status": "candidate",
+      "text": "Clang Tidy Diff"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22663,
+      "status": "candidate",
+      "text": "jar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22274,
+      "status": "candidate",
+      "text": "rhythm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22191,
+      "status": "candidate",
+      "text": "confrontation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22191,
+      "status": "candidate",
+      "text": "event"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22168,
+      "status": "candidate",
+      "text": "stack"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clang Tidy Diff",
+  "concept_id": "clang-tidy-diff",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/clang_tidy.yml",
+      "source_repo": "aseprite/aseprite"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clang Tidy Diff",
+      "sense_id": "clang-tidy-diff#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

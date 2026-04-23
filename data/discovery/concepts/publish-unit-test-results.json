@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Unit Test Results"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-lsp4j/lsp4j",
+      "status": "candidate-context",
+      "text": "A Java implementation of the language server protocol intended to be consumed by tools and language servers implemented in Java."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-lsp4j/lsp4j",
+      "status": "candidate-context",
+      "text": "Publish Unit Test Results"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-lsp4j/lsp4j",
+      "status": "candidate",
+      "text": "Publish Unit Test Results"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43956,
+      "status": "candidate",
+      "text": "negative"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35945,
+      "status": "candidate",
+      "text": "jury"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34421,
+      "status": "candidate",
+      "text": "findings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34421,
+      "status": "candidate",
+      "text": "outcomes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34021,
+      "status": "candidate",
+      "text": "analysis"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Unit Test Results",
+  "concept_id": "publish-unit-test-results",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/junit.yml",
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Unit Test Results",
+      "sense_id": "publish-unit-test-results#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

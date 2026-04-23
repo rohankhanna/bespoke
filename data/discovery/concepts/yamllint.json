@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "yamllint"
+    "yamllint",
+    "YamlLint"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "adrienverge/yamllint",
       "status": "candidate-context",
       "text": "yamllint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "status": "candidate-context",
+      "text": "Infoblox provider based on in-tree provider for ExternalDNS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "status": "candidate-context",
+      "text": "YamlLint"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "adrienverge/yamllint",
       "status": "candidate",
       "text": "yamllint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "status": "candidate",
+      "text": "YamlLint"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +61,17 @@
       "observed_at": "2026-04-22T04:41:58.081535+00:00",
       "source_file": null,
       "source_repo": "adrienverge/yamllint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/yamllint.yaml",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:41:58.081535+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

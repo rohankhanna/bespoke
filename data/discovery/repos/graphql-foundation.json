@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "graphql/foundation",
+      "target": "graphql",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:37:56.368725+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1310
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GraphQL Foundation Charter and Legal Documents",
+    "fork": false,
+    "full_name": "graphql/foundation",
+    "html_url": "https://github.com/graphql/foundation",
+    "language": null,
+    "pushed_at": "2024-01-04T03:39:03Z",
+    "stargazers_count": 94,
+    "topics": [
+      "graphql"
+    ],
+    "updated_at": "2026-04-21T09:40:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "* [GraphQL Charter v1.0](https://graphql.org/files/GraphQL_Foundation-Participation_Agreement-Preview.pdf)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphql"
+    }
+  ]
+}

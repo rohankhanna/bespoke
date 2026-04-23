@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "facebookresearch/sam2",
-      "target": "rsms/inter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "facebookresearch/sam2",
-      "target": "zsef123/connected_components_pytorch",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check_fmt.yml",
       "source_repo": "facebookresearch/sam2",
@@ -22,6 +8,6 @@
       "target_type": "component"
     }
   ],
-  "generated_at": "2026-04-21T18:51:25.552552+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "facebookresearch/sam2"
 }

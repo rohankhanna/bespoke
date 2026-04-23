@@ -1,0 +1,229 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-app.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-app.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-app.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-app.yml"
+    },
+    {
+      "component": "app-specific",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-app.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-app.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v31",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "exo-explore/exo",
+      "target": "rust-lang/rustup",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "exo-explore/exo",
+      "target": "vladkens/macmon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "exo-explore/exo",
+      "target": "rltakashige/mlx-jaccl-fix-small-recv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "exo-explore/exo",
+      "target": "hmellor/vllm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-app.yml",
+      "source_repo": "exo-explore/exo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-app.yml",
+      "source_repo": "exo-explore/exo",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-app.yml",
+      "source_repo": "exo-explore/exo",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-app.yml",
+      "source_repo": "exo-explore/exo",
+      "target": "cachix/cachix-action@v14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-app.yml",
+      "source_repo": "exo-explore/exo",
+      "target": "app-specific",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-app.yml",
+      "source_repo": "exo-explore/exo",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-app.yml",
+      "source_repo": "exo-explore/exo",
+      "target": "Build EXO macOS DMG",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "exo-explore/exo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "exo-explore/exo",
+      "target": "cachix/install-nix-action@v31",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "exo-explore/exo",
+      "target": "cachix/cachix-action@v14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pipeline.yml",
+      "source_repo": "exo-explore/exo",
+      "target": "ci-pipeline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:29:28.922112+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20525
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3383
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5416
+    },
+    {
+      "path": ".github/workflows/build-app.yml",
+      "size": 25419
+    },
+    {
+      "path": ".github/workflows/pipeline.yml",
+      "size": 4036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Run frontier AI locally.",
+    "fork": false,
+    "full_name": "exo-explore/exo",
+    "html_url": "https://github.com/exo-explore/exo",
+    "language": "Python",
+    "pushed_at": "2026-04-23T01:50:40Z",
+    "stargazers_count": 43950,
+    "topics": [],
+    "updated_at": "2026-04-23T06:23:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-lang/rustup",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vladkens/macmon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hmellor/vllm",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rltakashige/mlx-jaccl-fix-small-recv",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build EXO macOS DMG",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-app.yml",
+      "term": "Build EXO macOS DMG"
+    },
+    {
+      "context_snippet": "ci-pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pipeline.yml",
+      "term": "ci-pipeline"
+    }
+  ]
+}

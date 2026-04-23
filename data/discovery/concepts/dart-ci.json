@@ -31,6 +31,30 @@
       "source_repo": "dart-lang/http",
       "status": "candidate-context",
       "text": "Dart CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate-context",
+      "text": "Web server middleware for Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate-context",
+      "text": "Dart CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dart-lang/test",
+      "status": "candidate-context",
+      "text": "A library for writing unit tests in Dart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/test",
+      "status": "candidate-context",
+      "text": "Dart CI"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dart-lang/http",
+      "status": "candidate",
+      "text": "Dart CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/shelf",
+      "status": "candidate",
+      "text": "Dart CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dart-lang/test",
       "status": "candidate",
       "text": "Dart CI"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/dart.yml",
       "source_repo": "dart-lang/http"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/shelf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "dart-lang/test"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

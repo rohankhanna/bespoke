@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Windows Boost CONFIG Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apple/foundationdb",
+      "status": "candidate-context",
+      "text": "FoundationDB - the open source, distributed, transactional key-value store"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/foundationdb",
+      "status": "candidate-context",
+      "text": "Windows Boost CONFIG Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apple/foundationdb",
+      "status": "candidate",
+      "text": "Windows Boost CONFIG Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32933,
+      "status": "candidate",
+      "text": "lift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32459,
+      "status": "candidate",
+      "text": "luft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32378,
+      "status": "candidate",
+      "text": "det"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32378,
+      "status": "candidate",
+      "text": "sets"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32354,
+      "status": "candidate",
+      "text": "bear"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Windows Boost CONFIG Test",
+  "concept_id": "windows-boost-config-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/windows-boost-test.yml",
+      "source_repo": "apple/foundationdb"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Windows Boost CONFIG Test",
+      "sense_id": "windows-boost-config-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

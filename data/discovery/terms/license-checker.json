@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -16,6 +16,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/license-checker.yaml",
       "source_repo": "higress-group/higress-console"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "notaryproject/notation-core-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "notaryproject/notation-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yaml",
+      "source_repo": "apache/incubator-seata"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/licence-checker.yml",
+      "source_repo": "apache/dubbo-rust"
     }
   ],
   "term": "License Checker"

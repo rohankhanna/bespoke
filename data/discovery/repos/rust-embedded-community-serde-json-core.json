@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "target": "rust-embedded-community/meta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "target": "Continuous integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "target": "no-std",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "target": "rust-lang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "target": "serde",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rust-embedded-community/serde-json-core",
+      "target": "serde-json",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:41:19.711118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1010
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1113
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1481
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "`serde-json` for `no_std` programs",
+    "fork": false,
+    "full_name": "rust-embedded-community/serde-json-core",
+    "html_url": "https://github.com/rust-embedded-community/serde-json-core",
+    "language": "Rust",
+    "pushed_at": "2025-11-18T12:05:40Z",
+    "stargazers_count": 192,
+    "topics": [
+      "embedded",
+      "no-std",
+      "rust-lang",
+      "serde",
+      "serde-json"
+    ],
+    "updated_at": "2026-04-02T06:51:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-embedded-community/meta",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Continuous integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Continuous integration"
+    },
+    {
+      "context_snippet": "> [`serde-json`] for `no_std` programs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "> [`serde-json`] for `no_std` programs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "no-std"
+    },
+    {
+      "context_snippet": "> [`serde-json`] for `no_std` programs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-lang"
+    },
+    {
+      "context_snippet": "> [`serde-json`] for `no_std` programs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serde"
+    },
+    {
+      "context_snippet": "> [`serde-json`] for `no_std` programs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serde-json"
+    }
+  ]
+}

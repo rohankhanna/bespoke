@@ -190,6 +190,186 @@
       "source_repo": "nodejs/node-gyp",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/nodejs/node-gyp/workflows/Tests/badge.svg?branch=main)](https://github.com/nodejs/node-gyp/actions?query=workflow%3ATests+branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eslint-community/eslint-plugin-n",
+      "status": "candidate-context",
+      "text": "Additional ESLint rules for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-community/eslint-plugin-n",
+      "status": "candidate-context",
+      "text": "> forked from [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node) v11.1.0. as the original repository seems [no longer maintained](https://github.com/mysticatea/eslint-plugin-node/issues/300)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akula-bft/akula",
+      "status": "candidate-context",
+      "text": "Fastest Ethereum archive node ever built"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akula-bft/akula",
+      "status": "candidate-context",
+      "text": "Next-generation implementation of Ethereum protocol (\"client\") written in Rust, based on [Erigon architecture](https://github.com/ledgerwatch/interfaces)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/anymatch",
+      "status": "candidate-context",
+      "text": ":bangbang: Matches strings against configurable strings, globs, regular expressions, and/or functions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/anymatch",
+      "status": "candidate-context",
+      "text": "anymatch [![Build Status](https://travis-ci.org/micromatch/anymatch.svg?branch=master)](https://travis-ci.org/micromatch/anymatch) [![Coverage Status](https://img.shields.io/coveralls/micromatch/anymatch.svg?branch=master)](https://coveralls.io/r/micromatch/anymatch?branch=maste\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate-context",
+      "text": "nvm wrapper for fish-shell "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate-context",
+      "text": "[NVM] wrapper for fish-shell."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaredpalmer/backpack",
+      "status": "candidate-context",
+      "text": "\ud83c\udf92 Backpack is a minimalistic build system for Node.js projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/backpack",
+      "status": "candidate-context",
+      "text": "![backpack](https://cloud.githubusercontent.com/assets/4060187/21872211/318795e8-d835-11e6-8376-bea370605361.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "commitizen/cz-cli",
+      "status": "candidate-context",
+      "text": "The commitizen command line utility. #BlackLivesMatter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "commitizen/cz-cli",
+      "status": "candidate-context",
+      "text": "When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time. No more waiting until later for a git commit hook to run and reject your commit (though [that](https://github.com/kentcdodds/validate-commit-msg) can still be helpful). No \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jquery/jquery",
+      "status": "candidate-context",
+      "text": "jQuery JavaScript Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/jquery",
+      "status": "candidate-context",
+      "text": "Node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "isaacs/nave",
+      "status": "candidate-context",
+      "text": "Virtual Environments for Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaacs/nave",
+      "status": "candidate-context",
+      "text": "Virtual Environments for Node."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate-context",
+      "text": "Additional ESLint's rules for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate-context",
+      "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate-context",
+      "text": "Manage your app's Node.js environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate-context",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate-context",
+      "text": "API and CLI for generating a markdown TOC (table of contents) for a README or any markdown files. Uses Remarkable to parse markdown. Used by NASA/openmct, Prisma, Joi, Mocha, Sass, Prettier, Orbit DB, FormatJS, Raneto, hapijs/code, webpack-flow, docusaurus, release-it, ts-loader, json-server, reactfire, bunyan, husky, react-easy-state, react-snap, chakra-ui, carbon, alfresco, repolinter, Assemble, Verb, and thousands of other projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate-context",
+      "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "Official Docker Image for Node.js :whale: :turtle: :rocket: "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate-context",
+      "text": "[**node - Docker Official Images on Docker Hub**](https://hub.docker.com/_/node)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "op-rs/kona",
+      "status": "candidate-context",
+      "text": "Monorepo for OP Stack Types, Components, and Services built in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/kona",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/micromatch",
+      "status": "candidate-context",
+      "text": "Highly optimized wildcard and glob matching library. Faster, drop-in replacement to minimatch and multimatch. Used by square, webpack, babel core, yarn, jest, ract-native, taro, bulma, browser-sync, stylelint, nyc, ava, and many others! Follow micromatch's author: https://github.com/jonschlinkert"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/micromatch",
+      "status": "candidate-context",
+      "text": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "debug-js/debug",
+      "status": "candidate-context",
+      "text": "A tiny JavaScript debugging utility modelled after Node.js core's debugging technique. Works in Node.js and web browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debug-js/debug",
+      "status": "candidate-context",
+      "text": "[![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)"
     }
   ],
   "candidate_glosses": [
@@ -282,6 +462,96 @@
       "source_repo": "nodejs/node-gyp",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/nodejs/node-gyp/workflows/Tests/badge.svg?branch=main)](https://github.com/nodejs/node-gyp/actions?query=workflow%3ATests+branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eslint-community/eslint-plugin-n",
+      "status": "candidate",
+      "text": "> forked from [eslint-plugin-node](https://www.npmjs.com/package/eslint-plugin-node) v11.1.0. as the original repository seems [no longer maintained](https://github.com/mysticatea/eslint-plugin-node/issues/300)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akula-bft/akula",
+      "status": "candidate",
+      "text": "Next-generation implementation of Ethereum protocol (\"client\") written in Rust, based on [Erigon architecture](https://github.com/ledgerwatch/interfaces)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/anymatch",
+      "status": "candidate",
+      "text": "anymatch [![Build Status](https://travis-ci.org/micromatch/anymatch.svg?branch=master)](https://travis-ci.org/micromatch/anymatch) [![Coverage Status](https://img.shields.io/coveralls/micromatch/anymatch.svg?branch=master)](https://coveralls.io/r/micromatch/anymatch?branch=maste\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/fish-nvm",
+      "status": "candidate",
+      "text": "[NVM] wrapper for fish-shell."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaredpalmer/backpack",
+      "status": "candidate",
+      "text": "![backpack](https://cloud.githubusercontent.com/assets/4060187/21872211/318795e8-d835-11e6-8376-bea370605361.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "commitizen/cz-cli",
+      "status": "candidate",
+      "text": "When you commit with Commitizen, you'll be prompted to fill out any required commit fields at commit time. No more waiting until later for a git commit hook to run and reject your commit (though [that](https://github.com/kentcdodds/validate-commit-msg) can still be helpful). No \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jquery/jquery",
+      "status": "candidate",
+      "text": "Node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "isaacs/nave",
+      "status": "candidate",
+      "text": "Virtual Environments for Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mysticatea/eslint-plugin-node",
+      "status": "candidate",
+      "text": "This project has been no longer maintained. Please consider to use https://github.com/eslint-community/eslint-plugin-n."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv",
+      "status": "candidate",
+      "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/markdown-toc",
+      "status": "candidate",
+      "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/docker-node",
+      "status": "candidate",
+      "text": "[**node - Docker Official Images on Docker Hub**](https://hub.docker.com/_/node)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "op-rs/kona",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/micromatch",
+      "status": "candidate",
+      "text": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debug-js/debug",
+      "status": "candidate",
+      "text": "[![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)"
     }
   ],
   "candidate_related_terms": [
@@ -481,11 +751,119 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "eslint-community/eslint-plugin-n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "akula-bft/akula"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/anymatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "FabioAntunes/fish-nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "commitizen/cz-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "jquery/jquery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "isaacs/nave"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mysticatea/eslint-plugin-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/markdown-toc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/docker-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "op-rs/kona"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "debug-js/debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/Release"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

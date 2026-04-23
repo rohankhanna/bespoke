@@ -19,12 +19,30 @@
       "source_repo": "standard/standard",
       "status": "candidate-context",
       "text": "Test External"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rack/rack",
+      "status": "candidate-context",
+      "text": "A modular Ruby web server interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rack/rack",
+      "status": "candidate-context",
+      "text": "Test External"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "standard/standard",
+      "status": "candidate",
+      "text": "Test External"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rack/rack",
       "status": "candidate",
       "text": "Test External"
     }
@@ -88,11 +106,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/test-external.yml",
       "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/test-external.yml",
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/test-external.yaml",
+      "source_repo": "rack/rack"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

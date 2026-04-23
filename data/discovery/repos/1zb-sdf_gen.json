@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1zb/sdf_gen",
+      "target": "1zb/3dilg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "1zb/sdf_gen",
+      "target": "zekunhao1995/dualsdf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:31:09.765672+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7134
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "1zb/sdf_gen",
+    "html_url": "https://github.com/1zb/sdf_gen",
+    "language": "Cuda",
+    "pushed_at": "2025-04-11T16:37:45Z",
+    "stargazers_count": 71,
+    "topics": [],
+    "updated_at": "2026-04-10T07:13:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1zb/3dilg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zekunhao1995/dualsdf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,12 +1,17 @@
 {
   "component": "github/codeql-action/init@5d4e8d1aca955e8d8589aabd499c5cae939e33c7",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "libssh2/libssh2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-build-deploy.yml",
+      "source_repo": "cortexproject/cortex"
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:33:30.277072+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7299
+    },
+    {
+      "path": "requirements.txt",
+      "size": 55
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Seed-Coder is a family of lightweight open-source code LLMs comprising base, instruct and reasoning models, developed by ByteDance Seed.",
+    "fork": false,
+    "full_name": "ByteDance-Seed/Seed-Coder",
+    "html_url": "https://github.com/ByteDance-Seed/Seed-Coder",
+    "language": null,
+    "pushed_at": "2025-06-06T02:10:41Z",
+    "stargazers_count": 753,
+    "topics": [],
+    "updated_at": "2026-04-22T18:40:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

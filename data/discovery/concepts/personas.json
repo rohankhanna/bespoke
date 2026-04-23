@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "personas"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/AI-Agent-Virtual-Panel-Configs",
+      "status": "candidate-context",
+      "text": "Sets of \"panels\" for testing Rally (AskRally.com) exploring various \"frontier\" applications for the concept of AI personas and simulated voting bodies and thinking groups"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Agent-Virtual-Panel-Configs",
+      "status": "candidate-context",
+      "text": "A collection of panel configurations and persona system prompts for [Rally](https://askrally.com) - a platform for creating virtual focus groups comprised of AI agents representing diverse perspectives."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/AI-Agent-Virtual-Panel-Configs",
+      "status": "candidate",
+      "text": "A collection of panel configurations and persona system prompts for [Rally](https://askrally.com) - a platform for creating virtual focus groups comprised of AI agents representing diverse perspectives."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023182,
+      "status": "candidate",
+      "text": "character"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021736,
+      "status": "candidate",
+      "text": "role"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10004444,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9996412,
+      "status": "candidate",
+      "text": "part"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25003,
+      "status": "candidate",
+      "text": "theatrical role"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "personas",
+  "concept_id": "personas",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/AI-Agent-Virtual-Panel-Configs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "personas",
+      "sense_id": "personas#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

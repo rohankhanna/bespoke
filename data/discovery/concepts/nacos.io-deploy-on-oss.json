@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "nacos.io deploy on OSS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nacos-group/nacos-group.github.io",
+      "status": "candidate-context",
+      "text": "nacos-group.github.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nacos-group/nacos-group.github.io",
+      "status": "candidate-context",
+      "text": "nacos.io deploy on OSS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nacos-group/nacos-group.github.io",
+      "status": "candidate",
+      "text": "nacos.io deploy on OSS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10484,
+      "status": "candidate",
+      "text": "administrator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10484,
+      "status": "candidate",
+      "text": "anonymous file transfer protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10484,
+      "status": "candidate",
+      "text": "anonymous ftp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10484,
+      "status": "candidate",
+      "text": "authoring language"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10484,
+      "status": "candidate",
+      "text": "compatible"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "nacos.io deploy on OSS",
+  "concept_id": "nacos.io-deploy-on-oss",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy-oss.yml",
+      "source_repo": "nacos-group/nacos-group.github.io"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "nacos.io deploy on OSS",
+      "sense_id": "nacos.io-deploy-on-oss#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

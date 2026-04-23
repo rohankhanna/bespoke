@@ -31,6 +31,54 @@
       "source_repo": "NVIDIA/cutlass",
       "status": "candidate-context",
       "text": "![ALT](./media/images/gemm-hierarchy-with-epilogue-no-labels.png \"Complete CUDA GEMM decomposition\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cugraph",
+      "status": "candidate-context",
+      "text": "cuGraph - RAPIDS Graph Analytics Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cugraph",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"; style=\"font-style: italic\";>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nccl",
+      "status": "candidate-context",
+      "text": "Optimized primitives for collective multi-GPU communication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nccl",
+      "status": "candidate-context",
+      "text": "Optimized primitives for inter-GPU communication."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-nvml/nvml-wrapper",
+      "status": "candidate-context",
+      "text": "Safe Rust wrapper for the NVIDIA Management Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-nvml/nvml-wrapper",
+      "status": "candidate-context",
+      "text": "[![Docs.rs docs](https://docs.rs/nvml-wrapper/badge.svg)](https://docs.rs/nvml-wrapper)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sasha0552/nvidia-pstate",
+      "status": "candidate-context",
+      "text": "A library and CLI utilities for managing performance states of NVIDIA GPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sasha0552/nvidia-pstate",
+      "status": "candidate-context",
+      "text": "A library and CLI utilities for managing performance states of NVIDIA GPUs."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "NVIDIA/cutlass",
       "status": "candidate",
       "text": "![ALT](./media/images/gemm-hierarchy-with-epilogue-no-labels.png \"Complete CUDA GEMM decomposition\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cugraph",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"; style=\"font-style: italic\";>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nccl",
+      "status": "candidate",
+      "text": "Optimized primitives for inter-GPU communication."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-nvml/nvml-wrapper",
+      "status": "candidate",
+      "text": "[![Docs.rs docs](https://docs.rs/nvml-wrapper/badge.svg)](https://docs.rs/nvml-wrapper)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sasha0552/nvidia-pstate",
+      "status": "candidate",
+      "text": "A library and CLI utilities for managing performance states of NVIDIA GPUs."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +172,35 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "NVIDIA/cutlass"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/cugraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/nccl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "sasha0552/nvidia-pstate"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

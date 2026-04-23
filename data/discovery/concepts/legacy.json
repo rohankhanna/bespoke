@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "legacy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "expressjs/express",
+      "status": "candidate-context",
+      "text": "Fast, unopinionated, minimalist web framework for node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/express",
+      "status": "candidate-context",
+      "text": "legacy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "expressjs/express",
+      "status": "candidate",
+      "text": "legacy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027935,
+      "status": "candidate",
+      "text": "bequest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027996,
+      "status": "candidate",
+      "text": "inheritance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027820,
+      "status": "candidate",
+      "text": "intestacy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027474,
+      "status": "candidate",
+      "text": "testament"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027238,
+      "status": "candidate",
+      "text": "inherit"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19048,
+      "status": "candidate",
+      "text": "bequest"
+    }
+  ],
+  "canonical_name": "legacy",
+  "concept_id": "legacy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/legacy.yml",
+      "source_repo": "expressjs/express"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "legacy",
+      "sense_id": "legacy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

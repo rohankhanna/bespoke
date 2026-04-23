@@ -1,0 +1,180 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pug-php/ci-pug-engine",
+      "target": "pug-php/ci-pug",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "pug-php/ci-pug-engine",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "pug-php/ci-pug-engine",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "pug-php/ci-pug-engine",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "pug-php/ci-pug-engine",
+      "target": "Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pug-php/ci-pug-engine",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pug-php/ci-pug-engine",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pug-php/ci-pug-engine",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "pug-php/ci-pug-engine",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pug-php/ci-pug-engine",
+      "target": "adapter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pug-php/ci-pug-engine",
+      "target": "codeigniter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:31:10.999365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5786
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 1782
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1453
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pug Template Engine for CodeIgniter",
+    "fork": false,
+    "full_name": "pug-php/ci-pug-engine",
+    "html_url": "https://github.com/pug-php/ci-pug-engine",
+    "language": "PHP",
+    "pushed_at": "2023-02-24T08:11:36Z",
+    "stargazers_count": 21,
+    "topics": [
+      "adapter",
+      "codeigniter",
+      "php",
+      "pug"
+    ],
+    "updated_at": "2024-07-02T10:18:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pug-php/ci-pug",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Coverage"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "ci-pug is a library for CodeIgniter to enable [Pug Template Engine](http://jade-lang.com/) to render",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adapter"
+    },
+    {
+      "context_snippet": "ci-pug is a library for CodeIgniter to enable [Pug Template Engine](http://jade-lang.com/) to render",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codeigniter"
+    }
+  ]
+}

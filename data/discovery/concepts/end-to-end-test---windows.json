@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "End-to-End Test - Windows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/desktop",
+      "status": "candidate-context",
+      "text": "The desktop app for ComfyUI (Windows & macOS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/desktop",
+      "status": "candidate-context",
+      "text": "End-to-End Test - Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/desktop",
+      "status": "candidate",
+      "text": "End-to-End Test - Windows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18487,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10111,
+      "status": "candidate",
+      "text": "comprehensive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10111,
+      "status": "candidate",
+      "text": "convergent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10111,
+      "status": "candidate",
+      "text": "integrated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10111,
+      "status": "candidate",
+      "text": "overall"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "End-to-End Test - Windows",
+  "concept_id": "end-to-end-test---windows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/integration_test_windows.yml",
+      "source_repo": "Comfy-Org/desktop"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "End-to-End Test - Windows",
+      "sense_id": "end-to-end-test---windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

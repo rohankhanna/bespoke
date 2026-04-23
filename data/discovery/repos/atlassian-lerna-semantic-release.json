@@ -1,0 +1,172 @@
+{
+  "components": [
+    {
+      "component": "commitizen",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cz-lerna-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lerna-semantic-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "validate-commit-msg",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atlassian/lerna-semantic-release",
+      "target": "atlassian/cz-lerna-changelog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atlassian/lerna-semantic-release",
+      "target": "commitizen/cz-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/lerna-semantic-release",
+      "target": "commitizen",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/lerna-semantic-release",
+      "target": "cz-lerna-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/lerna-semantic-release",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/lerna-semantic-release",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/lerna-semantic-release",
+      "target": "lerna",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/lerna-semantic-release",
+      "target": "lerna-semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atlassian/lerna-semantic-release",
+      "target": "validate-commit-msg",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian/lerna-semantic-release",
+      "target": "lerna",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "atlassian/lerna-semantic-release",
+      "target": "semantic-release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:46:43.630007+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2494
+    },
+    {
+      "path": "package.json",
+      "size": 1670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "caribou",
+    "description": "\ud83d\udce6:\ud83d\udee0\u2728\ud83d\udca5 \u2013 fully automated package publishing",
+    "fork": true,
+    "full_name": "atlassian/lerna-semantic-release",
+    "html_url": "https://github.com/atlassian/lerna-semantic-release",
+    "language": "JavaScript",
+    "pushed_at": "2024-04-17T02:58:39Z",
+    "stargazers_count": 685,
+    "topics": [
+      "lerna",
+      "semantic-release"
+    ],
+    "updated_at": "2026-04-18T19:17:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atlassian/cz-lerna-changelog",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "commitizen/cz-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Status:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lerna"
+    },
+    {
+      "context_snippet": "Status:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-release"
+    }
+  ]
+}

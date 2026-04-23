@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heroku/heroku-buildpack-pgbouncer",
+      "target": "rails/rails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heroku/heroku-buildpack-pgbouncer",
+      "target": "heroku/heroku-buildpack-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "heroku/heroku-buildpack-pgbouncer",
+      "target": "tchandy/octopus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-pgbouncer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-pgbouncer",
+      "target": "Check Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "heroku/heroku-buildpack-pgbouncer",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "heroku/heroku-buildpack-pgbouncer",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "heroku/heroku-buildpack-pgbouncer",
+      "target": "heroku-data",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:45:00.569211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8642
+    },
+    {
+      "path": "Dockerfile",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 554
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Classic buildpack that installs pgbouncer in the dyno alongside your app.",
+    "fork": false,
+    "full_name": "heroku/heroku-buildpack-pgbouncer",
+    "html_url": "https://github.com/heroku/heroku-buildpack-pgbouncer",
+    "language": "Shell",
+    "pushed_at": "2026-03-23T15:46:57Z",
+    "stargazers_count": 335,
+    "topics": [
+      "heroku-data"
+    ],
+    "updated_at": "2026-04-11T00:28:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "heroku/heroku-buildpack-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rails/rails",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tchandy/octopus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Check Changelog"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "This is a [Heroku buildpack](http://devcenter.heroku.com/articles/buildpacks) that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "heroku-data"
+    }
+  ]
+}

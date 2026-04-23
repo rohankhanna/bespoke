@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MikeSteglich/Cmpl2",
+      "target": "mikesteglich/coliop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MikeSteglich/Cmpl2",
+      "target": "mikesteglich/pycmpl3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MikeSteglich/Cmpl2",
+      "target": "mikesteglich/jcmpl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:40:46.108324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4545
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CMPL (<Coliop|Coin> Mathematical Programming Language) - version 2",
+    "fork": false,
+    "full_name": "MikeSteglich/Cmpl2",
+    "html_url": "https://github.com/MikeSteglich/Cmpl2",
+    "language": "C++",
+    "pushed_at": "2024-07-10T13:37:37Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2025-10-09T12:39:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikesteglich/coliop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikesteglich/jcmpl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikesteglich/pycmpl3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

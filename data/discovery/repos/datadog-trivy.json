@@ -1,0 +1,251 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "joelanford/go-apidiff@60c4206be8f84348ebda2a3e0c3ac9cb54b8f685",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-issue.yaml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-ready-for-review.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-labels.yaml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "joelanford/go-apidiff@60c4206be8f84348ebda2a3e0c3ac9cb54b8f685",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "API Diff Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-issue.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-issue.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "Auto-close issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-ready-for-review.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-ready-for-review.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "Auto Ready for Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update-labels.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-labels.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "Auto-update labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "Automatic Backporting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bypass-cla.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "CLA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bypass-test.yaml",
+      "source_repo": "DataDog/trivy",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:40:10.179320+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5629
+    },
+    {
+      "path": "Dockerfile",
+      "size": 143
+    },
+    {
+      "path": "go.mod",
+      "size": 27056
+    },
+    {
+      "path": ".github/workflows/apidiff.yaml",
+      "size": 7106
+    },
+    {
+      "path": ".github/workflows/auto-close-issue.yaml",
+      "size": 1815
+    },
+    {
+      "path": ".github/workflows/auto-ready-for-review.yaml",
+      "size": 6012
+    },
+    {
+      "path": ".github/workflows/auto-update-labels.yaml",
+      "size": 597
+    },
+    {
+      "path": ".github/workflows/backport.yaml",
+      "size": 2359
+    },
+    {
+      "path": ".github/workflows/bypass-cla.yaml",
+      "size": 382
+    },
+    {
+      "path": ".github/workflows/bypass-test.yaml",
+      "size": 919
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
+    "fork": true,
+    "full_name": "DataDog/trivy",
+    "html_url": "https://github.com/DataDog/trivy",
+    "language": "Go",
+    "pushed_at": "2026-04-07T22:13:45Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-02-25T10:33:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "API Diff Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/apidiff.yaml",
+      "term": "API Diff Check"
+    },
+    {
+      "context_snippet": "Auto-close issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-issue.yaml",
+      "term": "Auto-close issues"
+    },
+    {
+      "context_snippet": "Auto Ready for Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-ready-for-review.yaml",
+      "term": "Auto Ready for Review"
+    },
+    {
+      "context_snippet": "Auto-update labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update-labels.yaml",
+      "term": "Auto-update labels"
+    },
+    {
+      "context_snippet": "Automatic Backporting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yaml",
+      "term": "Automatic Backporting"
+    },
+    {
+      "context_snippet": "CLA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bypass-cla.yaml",
+      "term": "CLA"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bypass-test.yaml",
+      "term": "Test"
+    }
+  ]
+}

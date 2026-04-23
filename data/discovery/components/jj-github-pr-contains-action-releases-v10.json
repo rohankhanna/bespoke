@@ -1,0 +1,12 @@
+{
+  "component": "JJ/github-pr-contains-action@releases/v10",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/RFC-2119-usage.yml",
+      "source_repo": "w3c/aria"
+    }
+  ]
+}

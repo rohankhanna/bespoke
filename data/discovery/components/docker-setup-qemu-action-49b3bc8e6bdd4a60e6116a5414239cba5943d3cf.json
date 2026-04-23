@@ -1,0 +1,12 @@
+{
+  "component": "docker/setup-qemu-action@49b3bc8e6bdd4a60e6116a5414239cba5943d3cf",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "juice-shop/juice-shop"
+    }
+  ]
+}

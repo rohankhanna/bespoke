@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pal3love/dream-han-cjk",
+      "target": "adobe-fonts/source-han-sans",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pal3love/dream-han-cjk",
+      "target": "adobe-fonts/source-han-serif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pal3love/dream-han-cjk",
+      "target": "adobe-type-tools/afdko",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Pal3love/dream-han-cjk",
+      "target": "adobe-fonts/source-han-mono",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pal3love/dream-han-cjk",
+      "target": "source-han-sans",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pal3love/dream-han-cjk",
+      "target": "source-han-serif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Pal3love/dream-han-cjk",
+      "target": "source-han-truetype",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "Pal3love/dream-han-cjk"
+}

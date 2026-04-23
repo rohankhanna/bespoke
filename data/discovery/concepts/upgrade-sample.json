@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upgrade Sample"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "status": "candidate-context",
+      "text": "A repository showcasing React Native samples and templates for Windows, macOS, and Surface Duo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "status": "candidate-context",
+      "text": "Upgrade Sample"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "status": "candidate",
+      "text": "Upgrade Sample"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10769,
+      "status": "candidate",
+      "text": "ascent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10769,
+      "status": "candidate",
+      "text": "better"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10769,
+      "status": "candidate",
+      "text": "emend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10769,
+      "status": "candidate",
+      "text": "enlargement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10769,
+      "status": "candidate",
+      "text": "promote"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upgrade Sample",
+  "concept_id": "upgrade-sample",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/template-upgradesample.yml",
+      "source_repo": "microsoft/react-native-windows-samples"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upgrade Sample",
+      "sense_id": "upgrade-sample#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

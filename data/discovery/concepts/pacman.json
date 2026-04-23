@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "pacman"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jguer/yay",
+      "status": "candidate-context",
+      "text": "Yet another Yogurt - An AUR Helper written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jguer/yay",
+      "status": "candidate-context",
+      "text": "[![yay](https://img.shields.io/aur/version/yay?color=1793d1&label=yay&logo=arch-linux&style=for-the-badge)](https://aur.archlinux.org/packages/yay/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aurutils/aurutils",
+      "status": "candidate-context",
+      "text": "Helper tools for the AUR."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aurutils/aurutils",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/github/license/aladw/aurutils)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Morganamilo/paru",
+      "status": "candidate-context",
+      "text": "Feature packed AUR helper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Morganamilo/paru",
+      "status": "candidate-context",
+      "text": "Feature packed AUR helper"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jguer/yay",
+      "status": "candidate",
+      "text": "[![yay](https://img.shields.io/aur/version/yay?color=1793d1&label=yay&logo=arch-linux&style=for-the-badge)](https://aur.archlinux.org/packages/yay/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aurutils/aurutils",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/github/license/aladw/aurutils)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Morganamilo/paru",
+      "status": "candidate",
+      "text": "Feature packed AUR helper"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31363,
+      "status": "candidate",
+      "text": "apple m2"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31362,
+      "status": "candidate",
+      "text": "apple m1"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31361,
+      "status": "candidate",
+      "text": "cyrix coma bug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31360,
+      "status": "candidate",
+      "text": "pentium fdiv bug"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31359,
+      "status": "candidate",
+      "text": "pentium f00f bug"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pacman",
+  "concept_id": "pacman",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Jguer/yay"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "aurutils/aurutils"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Morganamilo/paru"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pacman",
+      "sense_id": "pacman#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

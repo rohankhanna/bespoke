@@ -1,0 +1,17 @@
+{
+  "component": "ruby/setup-ruby@1a615958ad9d422dd932dc1d5823942ee002799f",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "castwide/solargraph"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "iftheshoefritz/solargraph-rails"
+    }
+  ]
+}

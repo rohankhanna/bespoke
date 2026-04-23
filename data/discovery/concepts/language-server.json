@@ -67,6 +67,78 @@
       "source_repo": "haskell/vscode-haskell",
       "status": "candidate-context",
       "text": "[![vsmarketplacebadge](https://vsmarketplacebadges.dev/version/haskell.haskell.png)](https://marketplace.visualstudio.com/items?itemName=haskell.haskell)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bash-lsp/bash-language-server",
+      "status": "candidate-context",
+      "text": "A language server for Bash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bash-lsp/bash-language-server",
+      "status": "candidate-context",
+      "text": "Bash language server that brings an IDE-like experience for bash scripts to most editors. This is based on the [Tree Sitter parser][tree-sitter-bash] and supports [explainshell][explainshell], [shellcheck][shellcheck] and [shfmt][shfmt]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate-context",
+      "text": "A Ruby language server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate-context",
+      "text": "[![RSpec](https://github.com/castwide/solargraph/actions/workflows/rspec.yml/badge.svg)](https://github.com/castwide/solargraph/actions/workflows/rspec.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate-context",
+      "text": "Quickstart configs for Nvim LSP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate-context",
+      "text": "nvim-lspconfig is a collection of LSP server configurations for the [Nvim LSP client](https://neovim.io/doc/user/lsp.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LuaLS/lua-language-server",
+      "status": "candidate-context",
+      "text": "A language server that offers Lua language support - programmed in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/lua-language-server",
+      "status": "candidate-context",
+      "text": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate-context",
+      "text": "TypeScript & JavaScript Language Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate-context",
+      "text": "[![Discord][discord-src]][discord-href]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "castwide/vscode-solargraph",
+      "status": "candidate-context",
+      "text": "A Visual Studio Code extension for Solargraph."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/vscode-solargraph",
+      "status": "candidate-context",
+      "text": "Solargraph is a language server that provides intellisense, code completion, and inline documentation for Ruby."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +171,42 @@
       "source_repo": "haskell/vscode-haskell",
       "status": "candidate",
       "text": "[![vsmarketplacebadge](https://vsmarketplacebadges.dev/version/haskell.haskell.png)](https://marketplace.visualstudio.com/items?itemName=haskell.haskell)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bash-lsp/bash-language-server",
+      "status": "candidate",
+      "text": "Bash language server that brings an IDE-like experience for bash scripts to most editors. This is based on the [Tree Sitter parser][tree-sitter-bash] and supports [explainshell][explainshell], [shellcheck][shellcheck] and [shfmt][shfmt]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate",
+      "text": "[![RSpec](https://github.com/castwide/solargraph/actions/workflows/rspec.yml/badge.svg)](https://github.com/castwide/solargraph/actions/workflows/rspec.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate",
+      "text": "nvim-lspconfig is a collection of LSP server configurations for the [Nvim LSP client](https://neovim.io/doc/user/lsp.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LuaLS/lua-language-server",
+      "status": "candidate",
+      "text": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typescript-language-server/typescript-language-server",
+      "status": "candidate",
+      "text": "[![Discord][discord-src]][discord-href]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/vscode-solargraph",
+      "status": "candidate",
+      "text": "Solargraph is a language server that provides intellisense, code completion, and inline documentation for Ruby."
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +250,47 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "haskell/vscode-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bash-lsp/bash-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "castwide/solargraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "neovim/nvim-lspconfig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/lua-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "typescript-language-server/typescript-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "castwide/vscode-solargraph"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "pr-naming",
   "observation_id": "e8e6d520bd87a2a8",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T18:52:26.467154+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "PR Naming",
   "source_context_snippet": "PR Naming",
   "source_file": ".github/workflows/PR.yml",

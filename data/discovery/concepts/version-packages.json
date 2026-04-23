@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Version Packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenZeppelin/openzeppelin-upgrades",
+      "status": "candidate-context",
+      "text": "Plugins for Hardhat and Foundry to deploy and manage upgradeable contracts on Ethereum."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-upgrades",
+      "status": "candidate-context",
+      "text": "Version Packages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades",
+      "status": "candidate-context",
+      "text": "Foundry library for deploying and managing upgradeable contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades",
+      "status": "candidate-context",
+      "text": "Version Packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-upgrades",
+      "status": "candidate",
+      "text": "Version Packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades",
+      "status": "candidate",
+      "text": "Version Packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10906,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10906,
+      "status": "candidate",
+      "text": "kits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10906,
+      "status": "candidate",
+      "text": "parcel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10858,
+      "status": "candidate",
+      "text": "approximation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10858,
+      "status": "candidate",
+      "text": "beta"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Version Packages",
+  "concept_id": "version-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-upgrades"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Version Packages",
+      "sense_id": "version-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,422 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_clang.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_gcc.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_tcc.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_clang.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_gcc.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_clang.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_clang.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_gcc.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_gcc.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_tcc.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_vs2019.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_vs2019.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ariya/FastLZ",
+      "target": "centaurean/density",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ariya/FastLZ",
+      "target": "oneoo/lua-fastlz",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_clang.yml",
+      "source_repo": "ariya/FastLZ",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_gcc.yml",
+      "source_repo": "ariya/FastLZ",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_tcc.yml",
+      "source_repo": "ariya/FastLZ",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_clang.yml",
+      "source_repo": "ariya/FastLZ",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_gcc.yml",
+      "source_repo": "ariya/FastLZ",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_clang.yml",
+      "source_repo": "ariya/FastLZ",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_clang.yml",
+      "source_repo": "ariya/FastLZ",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_gcc.yml",
+      "source_repo": "ariya/FastLZ",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_gcc.yml",
+      "source_repo": "ariya/FastLZ",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_tcc.yml",
+      "source_repo": "ariya/FastLZ",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_vs2019.yml",
+      "source_repo": "ariya/FastLZ",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_vs2019.yml",
+      "source_repo": "ariya/FastLZ",
+      "target": "ilammy/msvc-dev-cmd@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ",
+      "target": "amd64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ",
+      "target": "ansi-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ",
+      "target": "arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ",
+      "target": "fastlz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ",
+      "target": "freedos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ",
+      "target": "intel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ",
+      "target": "lempel-ziv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ",
+      "target": "lz77",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ",
+      "target": "mipsel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ",
+      "target": "ms-dos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ",
+      "target": "portable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/FastLZ",
+      "target": "riscv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:47:50.208337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23050
+    },
+    {
+      "path": ".github/workflows/amd64_linux_clang.yml",
+      "size": 832
+    },
+    {
+      "path": ".github/workflows/amd64_linux_gcc.yml",
+      "size": 822
+    },
+    {
+      "path": ".github/workflows/amd64_linux_tcc.yml",
+      "size": 815
+    },
+    {
+      "path": ".github/workflows/amd64_macos_clang.yml",
+      "size": 762
+    },
+    {
+      "path": ".github/workflows/amd64_macos_gcc.yml",
+      "size": 812
+    },
+    {
+      "path": ".github/workflows/amd64_windows_clang.yml",
+      "size": 884
+    },
+    {
+      "path": ".github/workflows/amd64_windows_gcc.yml",
+      "size": 857
+    },
+    {
+      "path": ".github/workflows/amd64_windows_tcc.yml",
+      "size": 1124
+    },
+    {
+      "path": ".github/workflows/amd64_windows_vs2019.yml",
+      "size": 833
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Small & portable byte-aligned LZ77 compression",
+    "fork": false,
+    "full_name": "ariya/FastLZ",
+    "html_url": "https://github.com/ariya/FastLZ",
+    "language": "C",
+    "pushed_at": "2024-08-02T13:21:55Z",
+    "stargazers_count": 526,
+    "topics": [
+      "amd64",
+      "ansi-c",
+      "arm64",
+      "c",
+      "c90",
+      "c99",
+      "compression",
+      "dos",
+      "fastlz",
+      "freedos",
+      "intel",
+      "lempel-ziv",
+      "lz77",
+      "mipsel",
+      "ms-dos",
+      "portable",
+      "riscv"
+    ],
+    "updated_at": "2026-04-04T15:59:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "centaurean/density",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oneoo/lua-fastlz",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amd64"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansi-c"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm64"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastlz"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freedos"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intel"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lempel-ziv"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lz77"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mipsel"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ms-dos"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "portable"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "riscv"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "google-artifact-registry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "status": "candidate-context",
+      "text": "Serverless reverse proxy for exposing container registries (GCR, Docker Hub, Artifact Registry etc) on custom domains."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "status": "candidate-context",
+      "text": "This project offers a very simple reverse proxy that lets you expose your public"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ahmetb/serverless-registry-proxy",
+      "status": "candidate",
+      "text": "This project offers a very simple reverse proxy that lets you expose your public"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "google-artifact-registry",
+  "concept_id": "google-artifact-registry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ahmetb/serverless-registry-proxy"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "google-artifact-registry",
+      "sense_id": "google-artifact-registry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

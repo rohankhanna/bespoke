@@ -1,0 +1,534 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions_labeller.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions_labeller.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-feedback-comment.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-feedback-comment.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-pr.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-dormant-discussions.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-dormant-discussions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-incident-discussions.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@7bae1d00b5db9166f4f0fc47985a3a5702cb58f0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-incident-discussions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-dormant-discussions.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-dormant-discussions.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feature-topic-area-labeler.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feature-topic-area-labeler.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-feedback-dispatch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-templated-discussions.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-templated-discussions.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "community/community",
+      "target": "github/roadmap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actions_labeller.yml",
+      "source_repo": "community/community",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions_labeller.yml",
+      "source_repo": "community/community",
+      "target": "Auto-Label Discussions for Actions Category",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-feedback-comment.yml",
+      "source_repo": "community/community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-feedback-comment.yml",
+      "source_repo": "community/community",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-pr.yml",
+      "source_repo": "community/community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-pr.yml",
+      "source_repo": "community/community",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-close-pr.yml",
+      "source_repo": "community/community",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-pr.yml",
+      "source_repo": "community/community",
+      "target": "Auto Close PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-dormant-discussions.yml",
+      "source_repo": "community/community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-dormant-discussions.yml",
+      "source_repo": "community/community",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-dormant-discussions.yml",
+      "source_repo": "community/community",
+      "target": "Close out dormant discussions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-incident-discussions.yml",
+      "source_repo": "community/community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-incident-discussions.yml",
+      "source_repo": "community/community",
+      "target": "ruby/setup-ruby@7bae1d00b5db9166f4f0fc47985a3a5702cb58f0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-incident-discussions.yml",
+      "source_repo": "community/community",
+      "target": "Close incident discussion after time elapsed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-dormant-discussions.yml",
+      "source_repo": "community/community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/comment-on-dormant-discussions.yml",
+      "source_repo": "community/community",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-on-dormant-discussions.yml",
+      "source_repo": "community/community",
+      "target": "Comment on dormant discussions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feature-topic-area-labeler.yml",
+      "source_repo": "community/community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/feature-topic-area-labeler.yml",
+      "source_repo": "community/community",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-feedback-dispatch.yml",
+      "source_repo": "community/community",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-feedback-dispatch.yml",
+      "source_repo": "community/community",
+      "target": "Dispatch Staff Label Feedback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-templated-discussions.yml",
+      "source_repo": "community/community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-templated-discussions.yml",
+      "source_repo": "community/community",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-templated-discussions.yml",
+      "source_repo": "community/community",
+      "target": "Label Templated Discussions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "community/community",
+      "target": "feedback",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "community/community",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "community/community",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "community/community",
+      "target": "github-codespaces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "community/community",
+      "target": "github-discussions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "community/community",
+      "target": "github-enterprise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "community/community",
+      "target": "github-issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "community/community",
+      "target": "github-mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "community/community",
+      "target": "github-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "community/community",
+      "target": "github-releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "community/community",
+      "target": "github-sponsors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:46:29.358979+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7722
+    },
+    {
+      "path": ".github/workflows/actions_labeller.yml",
+      "size": 6474
+    },
+    {
+      "path": ".github/workflows/add-feedback-comment.yml",
+      "size": 739
+    },
+    {
+      "path": ".github/workflows/auto-close-pr.yml",
+      "size": 1299
+    },
+    {
+      "path": ".github/workflows/close-dormant-discussions.yml",
+      "size": 608
+    },
+    {
+      "path": ".github/workflows/close-incident-discussions.yml",
+      "size": 712
+    },
+    {
+      "path": ".github/workflows/comment-on-dormant-discussions.yml",
+      "size": 611
+    },
+    {
+      "path": ".github/workflows/feature-topic-area-labeler.yml",
+      "size": 1034
+    },
+    {
+      "path": ".github/workflows/label-feedback-dispatch.yml",
+      "size": 2172
+    },
+    {
+      "path": ".github/workflows/label-templated-discussions.yml",
+      "size": 2953
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Public feedback discussions for: GitHub Mobile, GitHub Discussions, GitHub Codespaces, GitHub Sponsors, GitHub Issues and more!",
+    "fork": false,
+    "full_name": "community/community",
+    "html_url": "https://github.com/community/community",
+    "language": "Ruby",
+    "pushed_at": "2026-04-22T19:39:05Z",
+    "stargazers_count": 8241,
+    "topics": [
+      "feedback",
+      "github",
+      "github-actions",
+      "github-codespaces",
+      "github-discussions",
+      "github-enterprise",
+      "github-issues",
+      "github-mobile",
+      "github-packages",
+      "github-releases",
+      "github-sponsors"
+    ],
+    "updated_at": "2026-04-23T07:20:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/roadmap",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto-Label Discussions for Actions Category",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actions_labeller.yml",
+      "term": "Auto-Label Discussions for Actions Category"
+    },
+    {
+      "context_snippet": "Auto Close PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-close-pr.yml",
+      "term": "Auto Close PRs"
+    },
+    {
+      "context_snippet": "Close out dormant discussions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-dormant-discussions.yml",
+      "term": "Close out dormant discussions"
+    },
+    {
+      "context_snippet": "Close incident discussion after time elapsed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-incident-discussions.yml",
+      "term": "Close incident discussion after time elapsed"
+    },
+    {
+      "context_snippet": "Comment on dormant discussions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/comment-on-dormant-discussions.yml",
+      "term": "Comment on dormant discussions"
+    },
+    {
+      "context_snippet": "Dispatch Staff Label Feedback",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-feedback-dispatch.yml",
+      "term": "Dispatch Staff Label Feedback"
+    },
+    {
+      "context_snippet": "Label Templated Discussions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-templated-discussions.yml",
+      "term": "Label Templated Discussions"
+    },
+    {
+      "context_snippet": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feedback"
+    },
+    {
+      "context_snippet": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-codespaces"
+    },
+    {
+      "context_snippet": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-discussions"
+    },
+    {
+      "context_snippet": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-enterprise"
+    },
+    {
+      "context_snippet": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-issues"
+    },
+    {
+      "context_snippet": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-mobile"
+    },
+    {
+      "context_snippet": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-packages"
+    },
+    {
+      "context_snippet": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-releases"
+    },
+    {
+      "context_snippet": "In this repository, you will find categories for various product areas. Feel free to share feedback, discuss topics with other community members, or ask questions.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-sponsors"
+    }
+  ]
+}

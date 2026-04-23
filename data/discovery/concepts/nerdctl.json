@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "nerdctl"
+    "nerdctl",
+    "Nerdctl"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "runfinch/finch",
       "status": "candidate-context",
       "text": "<!-- markdownlint-disable first-line-h1 no-inline-html -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate-context",
+      "text": "Kubernetes IN Docker - local clusters for testing Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate-context",
+      "text": "Nerdctl"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +60,12 @@
       "source_repo": "runfinch/finch",
       "status": "candidate",
       "text": "<!-- markdownlint-disable first-line-h1 no-inline-html -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/kind",
+      "status": "candidate",
+      "text": "Nerdctl"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +85,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "runfinch/finch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/nerdctl.yaml",
+      "source_repo": "kubernetes-sigs/kind"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

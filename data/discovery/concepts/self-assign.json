@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "Self-assign"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chalk-diagrams/chalk",
+      "status": "candidate-context",
+      "text": "A declarative drawing API in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chalk-diagrams/chalk",
+      "status": "candidate-context",
+      "text": "Self-assign"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chalk-diagrams/chalk",
+      "status": "candidate",
+      "text": "Self-assign"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "Self-assign",
+  "concept_id": "self-assign",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/selfassign.yml",
+      "source_repo": "chalk-diagrams/chalk"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Self-assign",
+      "sense_id": "self-assign#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

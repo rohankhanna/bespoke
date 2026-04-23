@@ -43,6 +43,42 @@
       "source_repo": "vercel/modelfusion",
       "status": "candidate-context",
       "text": "> ### The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lgrammel/modelfusion-llamacpp-nextjs-starter",
+      "status": "candidate-context",
+      "text": "Starter examples for using Next.js and the Vercel AI SDK with Llama.cpp and ModelFusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lgrammel/modelfusion-llamacpp-nextjs-starter",
+      "status": "candidate-context",
+      "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Llama.cpp](https://github.com/ggerganov/llama.cpp) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/ramalama",
+      "status": "candidate-context",
+      "text": "RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and facilitates their use for inference in production, all through the familiar language of containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/ramalama",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intentee/paddler",
+      "status": "candidate-context",
+      "text": "Open-source LLM/VLM load balancer and serving platform for self-hosting LLMs (and VLMs) at scale \ud83c\udfd3\ud83e\udd99 Alternative to projects like llm-d, Docker Model Runner, etc but with less moving parts and simple deployments built around ggml ecosystem. Runs on CPU and GPU."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intentee/paddler",
+      "status": "candidate-context",
+      "text": "<img alt=\"Paddler 3.0 supports multimodal!\" src=\"https://github.com/user-attachments/assets/cc3b4a1d-4ab3-4a57-8cf0-14e682cf1492\" width=\"100%\" />"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "vercel/modelfusion",
       "status": "candidate",
       "text": "> ### The TypeScript library for building AI applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lgrammel/modelfusion-llamacpp-nextjs-starter",
+      "status": "candidate",
+      "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Llama.cpp](https://github.com/ggerganov/llama.cpp) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/ramalama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intentee/paddler",
+      "status": "candidate",
+      "text": "<img alt=\"Paddler 3.0 supports multimodal!\" src=\"https://github.com/user-attachments/assets/cc3b4a1d-4ab3-4a57-8cf0-14e682cf1492\" width=\"100%\" />"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +142,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lgrammel/modelfusion-llamacpp-nextjs-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "containers/ramalama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "intentee/paddler"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

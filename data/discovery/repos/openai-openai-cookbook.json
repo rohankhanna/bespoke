@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@1160a2240286f5da8ec72b1c0816ce2481aabf84",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-notebooks.yaml"
+    },
+    {
+      "component": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-notebooks.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-website.yaml",
+      "source_repo": "openai/openai-cookbook",
+      "target": "Rebuild Cookbook Website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "openai/openai-cookbook",
+      "target": "actions/stale@1160a2240286f5da8ec72b1c0816ce2481aabf84",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "openai/openai-cookbook",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-notebooks.yaml",
+      "source_repo": "openai/openai-cookbook",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-notebooks.yaml",
+      "source_repo": "openai/openai-cookbook",
+      "target": "actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-notebooks.yaml",
+      "source_repo": "openai/openai-cookbook",
+      "target": "Validate Changed Notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/openai-cookbook",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/openai-cookbook",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openai/openai-cookbook",
+      "target": "openai-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:13.381047+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1209
+    },
+    {
+      "path": ".github/workflows/build-website.yaml",
+      "size": 223
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 916
+    },
+    {
+      "path": ".github/workflows/validate-notebooks.yaml",
+      "size": 652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples and guides for using the OpenAI API",
+    "fork": false,
+    "full_name": "openai/openai-cookbook",
+    "html_url": "https://github.com/openai/openai-cookbook",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-22T17:45:25Z",
+    "stargazers_count": 72898,
+    "topics": [
+      "chatgpt",
+      "gpt-4",
+      "openai",
+      "openai-api"
+    ],
+    "updated_at": "2026-04-23T04:19:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rebuild Cookbook Website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-website.yaml",
+      "term": "Rebuild Cookbook Website"
+    },
+    {
+      "context_snippet": "\"Close stale issues and PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "Validate Changed Notebooks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-notebooks.yaml",
+      "term": "Validate Changed Notebooks"
+    },
+    {
+      "context_snippet": "<a href=\"https://cookbook.openai.com\" target=\"_blank\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<a href=\"https://cookbook.openai.com\" target=\"_blank\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "<a href=\"https://cookbook.openai.com\" target=\"_blank\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-api"
+    }
+  ]
+}

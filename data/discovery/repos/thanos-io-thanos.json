@@ -1,0 +1,650 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@fca7ace96b7d713c7035871441bd52efbe39e27e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@fca7ace96b7d713c7035871441bd52efbe39e27e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@fca7ace96b7d713c7035871441bd52efbe39e27e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-version.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@dd2324fc52d5d43c699a5636bcf19fceaa70c284",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-version.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/cache@0c907a75c2c80ebcb7f088228285e798b750cf8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/cache@0c907a75c2c80ebcb7f088228285e798b750cf8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/cache@0c907a75c2c80ebcb7f088228285e798b750cf8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/cache@0c907a75c2c80ebcb7f088228285e798b750cf8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/cache@0c907a75c2c80ebcb7f088228285e798b750cf8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "codespell-project/actions-codespell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/cache@0c907a75c2c80ebcb7f088228285e798b750cf8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mixin.yaml"
+    },
+    {
+      "component": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mixin.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mixin.yaml"
+    },
+    {
+      "component": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mixin.yaml"
+    },
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react.yml"
+    },
+    {
+      "component": "actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react.yml"
+    },
+    {
+      "component": "actions/cache@0c907a75c2c80ebcb7f088228285e798b750cf8f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "thanos-io/thanos",
+      "target": "bradfitz/gomemcache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "thanos-io/thanos",
+      "target": "github/codeql-action/init@fca7ace96b7d713c7035871441bd52efbe39e27e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "thanos-io/thanos",
+      "target": "github/codeql-action/autobuild@fca7ace96b7d713c7035871441bd52efbe39e27e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "thanos-io/thanos",
+      "target": "github/codeql-action/analyze@fca7ace96b7d713c7035871441bd52efbe39e27e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "thanos-io/thanos",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-version.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/container-version.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "peter-evans/create-pull-request@dd2324fc52d5d43c699a5636bcf19fceaa70c284",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-version.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "busybox-update workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/cache@0c907a75c2c80ebcb7f088228285e798b750cf8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/cache@0c907a75c2c80ebcb7f088228285e798b750cf8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "codespell-project/actions-codespell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mixin.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mixin.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/setup-go@0a12ed9d6a96ab950c8f026ed9f722fe0da7ef32",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mixin.yaml",
+      "source_repo": "thanos-io/thanos",
+      "target": "mixin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react.yml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react.yml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/setup-node@1e60f620b9541d16bece96c5465dc8ee9832be0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/react.yml",
+      "source_repo": "thanos-io/thanos",
+      "target": "actions/cache@0c907a75c2c80ebcb7f088228285e798b750cf8f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/react.yml",
+      "source_repo": "thanos-io/thanos",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos",
+      "target": "google-cloud-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos",
+      "target": "high-availability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos",
+      "target": "prometheus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos",
+      "target": "prometheus-ha-pairs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos",
+      "target": "prometheus-setup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos",
+      "target": "storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thanos-io/thanos",
+      "target": "thanos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:44:16.069159+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5897
+    },
+    {
+      "path": "Dockerfile",
+      "size": 497
+    },
+    {
+      "path": "go.mod",
+      "size": 17410
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2799
+    },
+    {
+      "path": ".github/workflows/container-version.yaml",
+      "size": 1212
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 1145
+    },
+    {
+      "path": ".github/workflows/go.yaml",
+      "size": 5663
+    },
+    {
+      "path": ".github/workflows/mixin.yaml",
+      "size": 1047
+    },
+    {
+      "path": ".github/workflows/react.yml",
+      "size": 868
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Highly available Prometheus setup with long term storage capabilities. A CNCF Incubating project.",
+    "fork": false,
+    "full_name": "thanos-io/thanos",
+    "html_url": "https://github.com/thanos-io/thanos",
+    "language": "Go",
+    "pushed_at": "2026-04-22T10:50:02Z",
+    "stargazers_count": 14026,
+    "topics": [
+      "cncf",
+      "go",
+      "google-cloud-storage",
+      "hacktoberfest",
+      "high-availability",
+      "metrics",
+      "monitoring",
+      "observability",
+      "prometheus",
+      "prometheus-ha-pairs",
+      "prometheus-setup",
+      "s3",
+      "storage",
+      "thanos"
+    ],
+    "updated_at": "2026-04-22T17:53:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bradfitz/gomemcache",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "busybox-update workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/container-version.yaml",
+      "term": "busybox-update workflow"
+    },
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "mixin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mixin.yaml",
+      "term": "mixin"
+    },
+    {
+      "context_snippet": "react",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/react.yml",
+      "term": "react"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-storage"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-availability"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observability"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prometheus"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prometheus-ha-pairs"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prometheus-setup"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"docs/img/Thanos-logo_fullmedium.png\" alt=\"Thanos Logo\"></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thanos"
+    }
+  ]
+}

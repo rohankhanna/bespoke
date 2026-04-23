@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml"
+    },
+    {
+      "component": "etils-actions/pypi-auto-publish@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/ml_collections",
+      "target": "deepmind/launchpad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/ml_collections",
+      "target": "cloudpipe/cloudpickle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google/ml_collections",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google/ml_collections",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google/ml_collections",
+      "target": "etils-actions/pypi-auto-publish@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "source_repo": "google/ml_collections",
+      "target": "Unittests & Auto-publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:30:49.518100+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21147
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2222
+    },
+    {
+      "path": ".github/workflows/pytest_and_autopublish.yml",
+      "size": 1670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ML Collections is a library of Python Collections designed for ML use cases.",
+    "fork": false,
+    "full_name": "google/ml_collections",
+    "html_url": "https://github.com/google/ml_collections",
+    "language": "Python",
+    "pushed_at": "2026-03-14T21:42:03Z",
+    "stargazers_count": 1028,
+    "topics": [],
+    "updated_at": "2026-04-20T22:10:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudpipe/cloudpickle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/launchpad",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unittests & Auto-publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pytest_and_autopublish.yml",
+      "term": "Unittests & Auto-publish"
+    }
+  ]
+}

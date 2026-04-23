@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "derrian-distro/LoRA_Easy_Training_Scripts",
+      "target": "un-gcpds/qt-material",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:34:11.522026+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16390
+    },
+    {
+      "path": "requirements.txt",
+      "size": 39
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A UI made in Pyside6 to make training LoRA/LoCon and other LoRA type models in sd-scripts easy",
+    "fork": false,
+    "full_name": "derrian-distro/LoRA_Easy_Training_Scripts",
+    "html_url": "https://github.com/derrian-distro/LoRA_Easy_Training_Scripts",
+    "language": "Python",
+    "pushed_at": "2025-06-05T23:45:38Z",
+    "stargazers_count": 1303,
+    "topics": [],
+    "updated_at": "2026-04-19T21:00:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "un-gcpds/qt-material",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

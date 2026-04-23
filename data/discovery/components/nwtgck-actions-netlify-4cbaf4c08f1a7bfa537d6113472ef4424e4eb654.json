@@ -1,0 +1,17 @@
+{
+  "component": "nwtgck/actions-netlify@4cbaf4c08f1a7bfa537d6113472ef4424e4eb654",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-pr.yml",
+      "source_repo": "NixOS/nixos-homepage"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-prod.yml",
+      "source_repo": "NixOS/nixos-homepage"
+    }
+  ]
+}

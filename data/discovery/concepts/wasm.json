@@ -1,11 +1,15 @@
 {
   "aliases": [
-    "wasm"
+    "wasm",
+    "WASM",
+    "Wasm"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -187,6 +191,90 @@
       "source_repo": "JetBrains/kotlin",
       "status": "candidate-context",
       "text": "The Kotlin Programming Language."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "status": "candidate-context",
+      "text": "Build library for finding native libraries in vcpkg for Rust - Windows (msvc), Linux and macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "status": "candidate-context",
+      "text": "WASM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/highway",
+      "status": "candidate-context",
+      "text": "Performance-portable, length-agnostic SIMD with runtime dispatch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/highway",
+      "status": "candidate-context",
+      "text": "[//]: # (placeholder, do not remove)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rustwasm/console_error_panic_hook",
+      "status": "candidate-context",
+      "text": "A panic hook for wasm32-unknown-unknown that logs panics with console.error"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustwasm/console_error_panic_hook",
+      "status": "candidate-context",
+      "text": "[![](https://docs.rs/console_error_panic_hook/badge.svg)](https://docs.rs/console_error_panic_hook/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wasm-bindgen/wasm-bindgen",
+      "status": "candidate-context",
+      "text": "Facilitating high-level interactions between Wasm modules and JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasm-bindgen/wasm-bindgen",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emscripten-core/emscripten",
+      "status": "candidate-context",
+      "text": "Emscripten: An LLVM-to-WebAssembly Compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emscripten-core/emscripten",
+      "status": "candidate-context",
+      "text": "![emscripten logo](media/switch_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter/tree-sitter",
+      "status": "candidate-context",
+      "text": "An incremental parsing system for programming tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/14164618.svg)](https://zenodo.org/badge/latestdoi/14164618)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ImageOptim/gifski",
+      "status": "candidate-context",
+      "text": "GIF encoder based on libimagequant (pngquant). Squeezes maximum possible quality from the awful GIF format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageOptim/gifski",
+      "status": "candidate-context",
+      "text": "Wasm"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +367,48 @@
       "source_repo": "JetBrains/kotlin",
       "status": "candidate",
       "text": "The Kotlin Programming Language."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "status": "candidate",
+      "text": "WASM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/highway",
+      "status": "candidate",
+      "text": "[//]: # (placeholder, do not remove)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rustwasm/console_error_panic_hook",
+      "status": "candidate",
+      "text": "[![](https://docs.rs/console_error_panic_hook/badge.svg)](https://docs.rs/console_error_panic_hook/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wasm-bindgen/wasm-bindgen",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emscripten-core/emscripten",
+      "status": "candidate",
+      "text": "![emscripten logo](media/switch_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/14164618.svg)](https://zenodo.org/badge/latestdoi/14164618)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ImageOptim/gifski",
+      "status": "candidate",
+      "text": "Wasm"
     }
   ],
   "candidate_related_terms": [
@@ -442,11 +572,59 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "JetBrains/kotlin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "mcgoo/vcpkg-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/highway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rustwasm/console_error_panic_hook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-bindgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "emscripten-core/emscripten"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter/tree-sitter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "ImageOptim/gifski"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

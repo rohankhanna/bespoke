@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "aidc-ai/parrot",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "aidc-ai/ovis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "01-ai/yi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "1zhou-wang/memvr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "chain-of-thought",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "in-context-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "instruction-following",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "instruction-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "large-vision-language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "large-vision-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "multi-modality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "multimodal-chain-of-thought",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "multimodal-in-context-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "multimodal-instruction-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "multimodal-large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models",
+      "target": "visual-instruction-tuning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "BradyFU/Awesome-Multimodal-Large-Language-Models"
+}

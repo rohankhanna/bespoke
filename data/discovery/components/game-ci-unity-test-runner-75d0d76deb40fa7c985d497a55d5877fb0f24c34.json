@@ -1,0 +1,12 @@
+{
+  "component": "game-ci/unity-test-runner@75d0d76deb40fa7c985d497a55d5877fb0f24c34",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Macoron/whisper.unity"
+    }
+  ]
+}

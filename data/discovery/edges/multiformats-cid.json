@@ -18,14 +18,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "multiformats/cid",
-      "target": "ipfs/go-cid",
+      "target": "ipld/java-cid",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "multiformats/cid",
-      "target": "dwyl/dart_cid",
+      "target": "multiformats/js-multiformats",
       "target_type": "repository"
     },
     {
@@ -78,6 +78,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T01:09:11.871080+00:00",
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
   "source_repo": "multiformats/cid"
 }

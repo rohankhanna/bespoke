@@ -163,13 +163,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "langchain-ai/langchain",
-      "target": "langchain-ai/deepagents",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_compile_integration_test.yml",
       "source_repo": "langchain-ai/langchain",
@@ -429,7 +422,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T18:32:04.237722+00:00",
+  "fetched_at": "2026-04-23T06:36:25.830368+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -472,7 +465,6 @@
       "size": 1176
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:57.156086+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -482,8 +474,8 @@
     "full_name": "langchain-ai/langchain",
     "html_url": "https://github.com/langchain-ai/langchain",
     "language": "Python",
-    "pushed_at": "2026-04-19T07:26:03Z",
-    "stargazers_count": 134049,
+    "pushed_at": "2026-04-23T02:42:38Z",
+    "stargazers_count": 134569,
     "topics": [
       "agents",
       "ai",
@@ -505,15 +497,9 @@
       "python",
       "rag"
     ],
-    "updated_at": "2026-04-19T13:53:33Z"
+    "updated_at": "2026-04-23T06:34:54Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "langchain-ai/deepagents",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\"\ud83d\udd17 Compile Integration Tests\"",

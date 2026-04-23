@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ascend NPU Test Suite"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ascend/Ascend-CI",
+      "status": "candidate-context",
+      "text": "CI system for Ascend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ascend/Ascend-CI",
+      "status": "candidate-context",
+      "text": "\"Ascend NPU Test Suite\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ascend/Ascend-CI",
+      "status": "candidate",
+      "text": "\"Ascend NPU Test Suite\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19196,
+      "status": "candidate",
+      "text": "sty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18998,
+      "status": "candidate",
+      "text": "scrambled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18974,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18950,
+      "status": "candidate",
+      "text": "amount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18950,
+      "status": "candidate",
+      "text": "elevator"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ascend NPU Test Suite",
+  "concept_id": "ascend-npu-test-suite",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ascend_npu-test.yml",
+      "source_repo": "Ascend/Ascend-CI"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ascend NPU Test Suite",
+      "sense_id": "ascend-npu-test-suite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

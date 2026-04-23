@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Maven Manual Deploy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation - replaced by https://github.com/bufbuild/protovalidate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate-context",
+      "text": "Maven Manual Deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate",
+      "text": "Maven Manual Deploy"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26637,
+      "status": "candidate",
+      "text": "cookbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18814,
+      "status": "candidate",
+      "text": "master"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18623,
+      "status": "candidate",
+      "text": "adroit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18586,
+      "status": "candidate",
+      "text": "crafty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18573,
+      "status": "candidate",
+      "text": "beam"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Maven Manual Deploy",
+  "concept_id": "maven-manual-deploy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/maven-release.yaml",
+      "source_repo": "bufbuild/protoc-gen-validate"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Maven Manual Deploy",
+      "sense_id": "maven-manual-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

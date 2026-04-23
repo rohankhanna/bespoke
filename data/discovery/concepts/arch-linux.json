@@ -19,6 +19,18 @@
       "source_repo": "nfnty/pkgbuilds",
       "status": "candidate-context",
       "text": "Personal PKGBUILDs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actionless/pikaur",
+      "status": "candidate-context",
+      "text": "AUR helper with minimal dependencies. Review PKGBUILDs all in once, next build them all without user interaction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actionless/pikaur",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/actionless/pikaur/actions/workflows/tests.yml/badge.svg)](https://github.com/actionless/pikaur/actions/workflows/tests.yml) [![Coverage Status](https://coveralls.io/repos/github/actionless/pikaur/badge.svg?branch=master)](https://coveralls.io/github/\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nfnty/pkgbuilds",
       "status": "candidate",
       "text": "Personal PKGBUILDs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actionless/pikaur",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/actionless/pikaur/actions/workflows/tests.yml/badge.svg)](https://github.com/actionless/pikaur/actions/workflows/tests.yml) [![Coverage Status](https://coveralls.io/repos/github/actionless/pikaur/badge.svg?branch=master)](https://coveralls.io/github/\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "nfnty/pkgbuilds"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "actionless/pikaur"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "larshp/abapGitServer",
+      "target": "bunysae/abap_db_preparator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "larshp/abapGitServer",
+      "target": "babel/babel-standalone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "larshp/abapGitServer",
+      "target": "kpdecker/jsdiff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "larshp/abapGitServer",
+      "target": "jquery/jquery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "larshp/abapGitServer",
+      "target": "abap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "larshp/abapGitServer",
+      "target": "abapgit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "larshp/abapGitServer",
+      "target": "git-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:32:55.251612+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3382
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Git server implemented in ABAP",
+    "fork": false,
+    "full_name": "larshp/abapGitServer",
+    "html_url": "https://github.com/larshp/abapGitServer",
+    "language": "ABAP",
+    "pushed_at": "2026-03-13T14:04:47Z",
+    "stargazers_count": 69,
+    "topics": [
+      "abap",
+      "abapgit",
+      "git",
+      "git-server"
+    ],
+    "updated_at": "2026-03-13T14:04:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "babel/babel-standalone",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bunysae/abap_db_preparator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jquery/jquery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kpdecker/jsdiff",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Git server implemented in ABAP",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abap"
+    },
+    {
+      "context_snippet": "Git server implemented in ABAP",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abapgit"
+    },
+    {
+      "context_snippet": "Git server implemented in ABAP",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "git-server"
+    }
+  ]
+}

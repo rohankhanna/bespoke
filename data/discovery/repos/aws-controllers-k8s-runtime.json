@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "aws-controllers-k8s/.github/.github/workflows/reusable-create-release.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "aws-controllers-k8s/.github/.github/workflows/reusable-postsubmit.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "aws-controllers-k8s/runtime",
+      "target": "aws-controllers-k8s/.github/.github/workflows/reusable-create-release.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "aws-controllers-k8s/runtime",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yaml",
+      "source_repo": "aws-controllers-k8s/runtime",
+      "target": "aws-controllers-k8s/.github/.github/workflows/reusable-postsubmit.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/postsubmit.yaml",
+      "source_repo": "aws-controllers-k8s/runtime",
+      "target": "Hydrate Go Proxy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:44:08.034321+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1716
+    },
+    {
+      "path": "go.mod",
+      "size": 3904
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 237
+    },
+    {
+      "path": ".github/workflows/postsubmit.yaml",
+      "size": 181
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Common ACK runtime and type system",
+    "fork": false,
+    "full_name": "aws-controllers-k8s/runtime",
+    "html_url": "https://github.com/aws-controllers-k8s/runtime",
+    "language": "Go",
+    "pushed_at": "2026-03-05T23:35:42Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-03-19T08:39:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "Hydrate Go Proxy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/postsubmit.yaml",
+      "term": "Hydrate Go Proxy"
+    }
+  ]
+}

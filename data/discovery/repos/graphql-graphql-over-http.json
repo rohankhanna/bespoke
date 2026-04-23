@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "cspell",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodemon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "spec-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "wgutils",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yaml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wgutils-automerge.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/graphql-over-http",
+      "target": "cspell",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/graphql-over-http",
+      "target": "nodemon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/graphql-over-http",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/graphql-over-http",
+      "target": "spec-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "graphql/graphql-over-http",
+      "target": "wgutils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "graphql/graphql-over-http",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "graphql/graphql-over-http",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "graphql/graphql-over-http",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yaml",
+      "source_repo": "graphql/graphql-over-http",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prettier.yaml",
+      "source_repo": "graphql/graphql-over-http",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prettier.yaml",
+      "source_repo": "graphql/graphql-over-http",
+      "target": "Prettier formatting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wgutils-automerge.yml",
+      "source_repo": "graphql/graphql-over-http",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wgutils-automerge.yml",
+      "source_repo": "graphql/graphql-over-http",
+      "target": "Agenda auto-merge",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:37:54.546398+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2969
+    },
+    {
+      "path": "package.json",
+      "size": 799
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 855
+    },
+    {
+      "path": ".github/workflows/prettier.yaml",
+      "size": 274
+    },
+    {
+      "path": ".github/workflows/wgutils-automerge.yml",
+      "size": 1783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Working draft of \"GraphQL over HTTP\" specification",
+    "fork": false,
+    "full_name": "graphql/graphql-over-http",
+    "html_url": "https://github.com/graphql/graphql-over-http",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-17T15:22:24Z",
+    "stargazers_count": 421,
+    "topics": [],
+    "updated_at": "2026-04-16T17:38:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Prettier formatting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prettier.yaml",
+      "term": "Prettier formatting"
+    },
+    {
+      "context_snippet": "Agenda auto-merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wgutils-automerge.yml",
+      "term": "Agenda auto-merge"
+    }
+  ]
+}

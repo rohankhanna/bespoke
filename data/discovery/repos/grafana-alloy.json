@@ -1,0 +1,646 @@
+{
+  "components": [
+    {
+      "component": "grafana/shared-workflows/actions/get-vault-secrets@a37de51f3d713a30a9e4b21bcdfbd38170020593",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@cd77b50d2b0808657f8e6774085c8bf54484351c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml"
+    },
+    {
+      "component": "grafana/shared-workflows/actions/get-vault-secrets@a37de51f3d713a30a9e4b21bcdfbd38170020593",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@cd77b50d2b0808657f8e6774085c8bf54484351c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-dependency-review.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-dependency-review.yml"
+    },
+    {
+      "component": "grafana/shared-workflows/actions/get-vault-secrets@a37de51f3d713a30a9e4b21bcdfbd38170020593",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-dependency-review.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-apply-component-labels.yml"
+    },
+    {
+      "component": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autolock.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula-pr.yml"
+    },
+    {
+      "component": "grafana/shared-workflows/actions/get-vault-secrets@a37de51f3d713a30a9e4b21bcdfbd38170020593",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula-pr.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula-pr.yml"
+    },
+    {
+      "component": "rez0n/actions-github-release@794c12f5e8d629e6ca329cf2e2daeb0f0ce6a3ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula-pr.yml"
+    },
+    {
+      "component": "dawidd6/action-homebrew-bump-formula@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-alloy-mixin-rendered.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-alloy-mixin-rendered.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grafana/alloy",
+      "target": "grafana/pyroscope",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "grafana/alloy",
+      "target": "grafana/cadvisor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "grafana/alloy",
+      "target": "deneonet/benc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "grafana/alloy",
+      "target": "datadog/vault",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml",
+      "source_repo": "grafana/alloy",
+      "target": "grafana/shared-workflows/actions/get-vault-secrets@a37de51f3d713a30a9e4b21bcdfbd38170020593",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml",
+      "source_repo": "grafana/alloy",
+      "target": "anthropics/claude-code-action@cd77b50d2b0808657f8e6774085c8bf54484351c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/agent_bump_beyla.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent_bump_beyla.yml",
+      "source_repo": "grafana/alloy",
+      "target": "Update Beyla Component From Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-dependency-review.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-dependency-review.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ai-dependency-review.yml",
+      "source_repo": "grafana/alloy",
+      "target": "grafana/shared-workflows/actions/get-vault-secrets@a37de51f3d713a30a9e4b21bcdfbd38170020593",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-dependency-review.yml",
+      "source_repo": "grafana/alloy",
+      "target": "AI Dependency Change Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-apply-component-labels.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-apply-component-labels.yml",
+      "source_repo": "grafana/alloy",
+      "target": "Apply labels on a new issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autolock.yml",
+      "source_repo": "grafana/alloy",
+      "target": "dessant/lock-threads@7266a7ce5c1df01b1c6db85bf8cd86c737dadbe7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autolock.yml",
+      "source_repo": "grafana/alloy",
+      "target": "Lock closed issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "grafana/alloy",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula-pr.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula-pr.yml",
+      "source_repo": "grafana/alloy",
+      "target": "grafana/shared-workflows/actions/get-vault-secrets@a37de51f3d713a30a9e4b21bcdfbd38170020593",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula-pr.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula-pr.yml",
+      "source_repo": "grafana/alloy",
+      "target": "rez0n/actions-github-release@794c12f5e8d629e6ca329cf2e2daeb0f0ce6a3ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-formula-pr.yml",
+      "source_repo": "grafana/alloy",
+      "target": "dawidd6/action-homebrew-bump-formula@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-formula-pr.yml",
+      "source_repo": "grafana/alloy",
+      "target": "bump-formula-pr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-alloy-mixin-rendered.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-alloy-mixin-rendered.yml",
+      "source_repo": "grafana/alloy",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-alloy-mixin-rendered.yml",
+      "source_repo": "grafana/alloy",
+      "target": "Test Alloy mixin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/alloy",
+      "target": "collector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/alloy",
+      "target": "grafana",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/alloy",
+      "target": "loki",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/alloy",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/alloy",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/alloy",
+      "target": "opentelemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/alloy",
+      "target": "opentelemetry-collector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grafana/alloy",
+      "target": "prometheus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:40:22.054649+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5370
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2905
+    },
+    {
+      "path": "go.mod",
+      "size": 74748
+    },
+    {
+      "path": ".github/workflows/agent_bump_beyla.yml",
+      "size": 16877
+    },
+    {
+      "path": ".github/workflows/ai-dependency-review.yml",
+      "size": 1544
+    },
+    {
+      "path": ".github/workflows/auto-apply-component-labels.yml",
+      "size": 662
+    },
+    {
+      "path": ".github/workflows/autolock.yml",
+      "size": 557
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 5628
+    },
+    {
+      "path": ".github/workflows/bump-formula-pr.yml",
+      "size": 3214
+    },
+    {
+      "path": ".github/workflows/check-alloy-mixin-rendered.yml",
+      "size": 1080
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "OpenTelemetry Collector distribution with programmable pipelines",
+    "fork": false,
+    "full_name": "grafana/alloy",
+    "html_url": "https://github.com/grafana/alloy",
+    "language": "Go",
+    "pushed_at": "2026-04-23T03:16:10Z",
+    "stargazers_count": 3104,
+    "topics": [
+      "collector",
+      "grafana",
+      "loki",
+      "monitoring",
+      "observability",
+      "opentelemetry",
+      "opentelemetry-collector",
+      "prometheus"
+    ],
+    "updated_at": "2026-04-23T07:31:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grafana/pyroscope",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "datadog/vault",
+      "source_file": "go.mod"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deneonet/benc",
+      "source_file": "go.mod"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grafana/cadvisor",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update Beyla Component From Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/agent_bump_beyla.yml",
+      "term": "Update Beyla Component From Release"
+    },
+    {
+      "context_snippet": "AI Dependency Change Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ai-dependency-review.yml",
+      "term": "AI Dependency Change Review"
+    },
+    {
+      "context_snippet": "'Apply labels on a new issue'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-apply-component-labels.yml",
+      "term": "Apply labels on a new issue"
+    },
+    {
+      "context_snippet": "Lock closed issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autolock.yml",
+      "term": "Lock closed issues and PRs"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "bump-formula-pr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-formula-pr.yml",
+      "term": "bump-formula-pr"
+    },
+    {
+      "context_snippet": "Test Alloy mixin",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-alloy-mixin-rendered.yml",
+      "term": "Test Alloy mixin"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collector"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grafana"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loki"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observability"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry-collector"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prometheus"
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "components": [
+    {
+      "component": "braces",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "picomatch",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fill-range",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimatch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "time-require",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/micromatch",
+      "target": "isaacs/minimatch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/micromatch",
+      "target": "micromatch/braces",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/micromatch",
+      "target": "jonschlinkert/glob-object",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/micromatch",
+      "target": "jonschlinkert/fill-range",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/micromatch",
+      "target": "braces",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/micromatch",
+      "target": "picomatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/micromatch",
+      "target": "fill-range",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/micromatch",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/micromatch",
+      "target": "minimatch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/micromatch",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/micromatch",
+      "target": "time-require",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "micromatch/micromatch",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "micromatch/micromatch",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "micromatch/micromatch",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "bash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "extended-glob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "extglob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "glob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "glob-matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "glob-pattern",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "globbing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "globby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "matcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "micromatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "minimatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "multimatch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "node-glob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "regex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "regular-expression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "tidelift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "wildcard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch",
+      "target": "wildmat",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:31:25.764979+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 38929
+    },
+    {
+      "path": "package.json",
+      "size": 2645
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 879
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Highly optimized wildcard and glob matching library. Faster, drop-in replacement to minimatch and multimatch. Used by square, webpack, babel core, yarn, jest, ract-native, taro, bulma, browser-sync, stylelint, nyc, ava, and many others! Follow micromatch's author: https://github.com/jonschlinkert",
+    "fork": false,
+    "full_name": "micromatch/micromatch",
+    "html_url": "https://github.com/micromatch/micromatch",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-26T23:15:58Z",
+    "stargazers_count": 3027,
+    "topics": [
+      "bash",
+      "extended-glob",
+      "extglob",
+      "glob",
+      "glob-matching",
+      "glob-pattern",
+      "globbing",
+      "globby",
+      "javascript",
+      "matcher",
+      "micromatch",
+      "minimatch",
+      "multimatch",
+      "node",
+      "node-glob",
+      "regex",
+      "regular-expression",
+      "tidelift",
+      "wildcard",
+      "wildmat"
+    ],
+    "updated_at": "2026-04-21T09:38:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isaacs/minimatch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/fill-range",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/glob-object",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "micromatch/braces",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extended-glob"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extglob"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glob"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glob-matching"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glob-pattern"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "globbing"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "globby"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matcher"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "micromatch"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minimatch"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimatch"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-glob"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regex"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regular-expression"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tidelift"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wildcard"
+    },
+    {
+      "context_snippet": "> Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wildmat"
+    }
+  ]
+}

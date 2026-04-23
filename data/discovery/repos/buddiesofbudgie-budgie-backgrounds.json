@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BuddiesOfBudgie/budgie-backgrounds",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "BuddiesOfBudgie/budgie-backgrounds",
+      "target": "Build on Linux",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:39:53.565564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2640
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The default background set for the Budgie Desktop.",
+    "fork": false,
+    "full_name": "BuddiesOfBudgie/budgie-backgrounds",
+    "html_url": "https://github.com/BuddiesOfBudgie/budgie-backgrounds",
+    "language": "Meson",
+    "pushed_at": "2025-10-20T04:27:34Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-02-17T10:12:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build on Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build on Linux"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "sp1-patches/bn",
+      "target": "paritytech/bn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:28:29.665778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3069
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 827
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pairing cryptography library in Rust",
+    "fork": true,
+    "full_name": "sp1-patches/bn",
+    "html_url": "https://github.com/sp1-patches/bn",
+    "language": null,
+    "pushed_at": "2026-04-10T07:53:20Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-12-20T14:50:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paritytech/bn",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

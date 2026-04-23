@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "external-dns-webhook"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "status": "candidate-context",
+      "text": "Infoblox provider based on in-tree provider for ExternalDNS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "status": "candidate-context",
+      "text": "Infoblox provider based on in-tree provider for ExternalDNS. Supported records:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amoniacou/external-dns-digitalocean-webhook",
+      "status": "candidate-context",
+      "text": "External DNS DigitalOcean Webhook"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amoniacou/external-dns-digitalocean-webhook",
+      "status": "candidate-context",
+      "text": "A webhook provider for [ExternalDNS](https://github.com/kubernetes-sigs/external-dns) that manages DNS records in DigitalOcean."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook",
+      "status": "candidate",
+      "text": "Infoblox provider based on in-tree provider for ExternalDNS. Supported records:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amoniacou/external-dns-digitalocean-webhook",
+      "status": "candidate",
+      "text": "A webhook provider for [ExternalDNS](https://github.com/kubernetes-sigs/external-dns) that manages DNS records in DigitalOcean."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "external-dns-webhook",
+  "concept_id": "external-dns-webhook",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AbsaOSS/external-dns-infoblox-webhook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "amoniacou/external-dns-digitalocean-webhook"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "external-dns-webhook",
+      "sense_id": "external-dns-webhook#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,766 @@
+{
+  "components": [
+    {
+      "component": "concurrently",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-footer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-svgmin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "open",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "run-script-os",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sass",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yargs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_icons.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_icons.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_icons.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_icons.yml"
+    },
+    {
+      "component": "devicons/public-upload-to-imgur@v2.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_icons.yml"
+    },
+    {
+      "component": "juliangruber/read-file-action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_icons.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_icons.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_icon_pr.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_icon_pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_icon_pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_icon_pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/in_develop_labeler.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/in_develop_labeler.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/in_develop_labeler.yml"
+    },
+    {
+      "component": "juliangruber/read-file-action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/in_develop_labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/in_develop_labeler_preflight.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/in_develop_labeler_preflight.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/peek_icons.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/peek_icons.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/peek_icons.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/peek_icons.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/peek_icons.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/peek_icons.yml"
+    },
+    {
+      "component": "cutenode/action-always-fail@v1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_check_icon_pr_comment.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_check_icon_pr_comment.yml"
+    },
+    {
+      "component": "juliangruber/read-file-action@v1.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_check_icon_pr_comment.yml"
+    },
+    {
+      "component": "juliangruber/read-file-action@v1.1.6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_check_icon_pr_comment.yml"
+    },
+    {
+      "component": "jungwinter/comment@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_check_icon_pr_comment.yml"
+    },
+    {
+      "component": "jungwinter/comment@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_check_icon_pr_comment.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devicons/devicon",
+      "target": "concurrently",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devicons/devicon",
+      "target": "gulp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devicons/devicon",
+      "target": "gulp-footer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devicons/devicon",
+      "target": "gulp-sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devicons/devicon",
+      "target": "gulp-svgmin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devicons/devicon",
+      "target": "open",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devicons/devicon",
+      "target": "run-script-os",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devicons/devicon",
+      "target": "sass",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "devicons/devicon",
+      "target": "yargs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_icons.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_icons.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_icons.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_icons.yml",
+      "source_repo": "devicons/devicon",
+      "target": "devicons/public-upload-to-imgur@v2.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_icons.yml",
+      "source_repo": "devicons/devicon",
+      "target": "juliangruber/read-file-action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_icons.yml",
+      "source_repo": "devicons/devicon",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_icons.yml",
+      "source_repo": "devicons/devicon",
+      "target": "Build Icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_icon_pr.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_icon_pr.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_icon_pr.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_icon_pr.yml",
+      "source_repo": "devicons/devicon",
+      "target": "Check Icon PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "devicons/devicon",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "devicons/devicon",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "devicons/devicon",
+      "target": "Code Scanning - Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/in_develop_labeler.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/in_develop_labeler.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/in_develop_labeler.yml",
+      "source_repo": "devicons/devicon",
+      "target": "dawidd6/action-download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/in_develop_labeler.yml",
+      "source_repo": "devicons/devicon",
+      "target": "juliangruber/read-file-action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/in_develop_labeler.yml",
+      "source_repo": "devicons/devicon",
+      "target": "Label Issue In Develop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/in_develop_labeler_preflight.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/in_develop_labeler_preflight.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/in_develop_labeler_preflight.yml",
+      "source_repo": "devicons/devicon",
+      "target": "On Develop PR Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_publish.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/npm_publish.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm_publish.yml",
+      "source_repo": "devicons/devicon",
+      "target": "Publish to npm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/peek_icons.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/peek_icons.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/peek_icons.yml",
+      "source_repo": "devicons/devicon",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/peek_icons.yml",
+      "source_repo": "devicons/devicon",
+      "target": "Peek Icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_check_icon_pr_comment.yml",
+      "source_repo": "devicons/devicon",
+      "target": "cutenode/action-always-fail@v1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_check_icon_pr_comment.yml",
+      "source_repo": "devicons/devicon",
+      "target": "dawidd6/action-download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_check_icon_pr_comment.yml",
+      "source_repo": "devicons/devicon",
+      "target": "juliangruber/read-file-action@v1.1.6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_check_icon_pr_comment.yml",
+      "source_repo": "devicons/devicon",
+      "target": "jungwinter/comment@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devicons/devicon",
+      "target": "brands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devicons/devicon",
+      "target": "devicon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devicons/devicon",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devicons/devicon",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devicons/devicon",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devicons/devicon",
+      "target": "logos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devicons/devicon",
+      "target": "stylesheet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:28:52.351790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13109
+    },
+    {
+      "path": "package.json",
+      "size": 1956
+    },
+    {
+      "path": ".github/workflows/build_icons.yml",
+      "size": 3004
+    },
+    {
+      "path": ".github/workflows/check_icon_pr.yml",
+      "size": 1753
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 2523
+    },
+    {
+      "path": ".github/workflows/in_develop_labeler.yml",
+      "size": 1397
+    },
+    {
+      "path": ".github/workflows/in_develop_labeler_preflight.yml",
+      "size": 596
+    },
+    {
+      "path": ".github/workflows/npm_publish.yml",
+      "size": 750
+    },
+    {
+      "path": ".github/workflows/peek_icons.yml",
+      "size": 1869
+    },
+    {
+      "path": ".github/workflows/post_check_icon_pr_comment.yml",
+      "size": 2841
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Set of icons representing programming languages, designing & development tools",
+    "fork": false,
+    "full_name": "devicons/devicon",
+    "html_url": "https://github.com/devicons/devicon",
+    "language": "CSS",
+    "pushed_at": "2026-04-02T07:50:53Z",
+    "stargazers_count": 11575,
+    "topics": [
+      "brands",
+      "devicon",
+      "font",
+      "hacktoberfest",
+      "icons",
+      "logos",
+      "stylesheet",
+      "svg"
+    ],
+    "updated_at": "2026-04-23T00:38:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Icons",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_icons.yml",
+      "term": "Build Icons"
+    },
+    {
+      "context_snippet": "Check Icon PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_icon_pr.yml",
+      "term": "Check Icon PR"
+    },
+    {
+      "context_snippet": "\"Code Scanning - Action\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "Code Scanning - Action"
+    },
+    {
+      "context_snippet": "Label Issue In Develop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/in_develop_labeler.yml",
+      "term": "Label Issue In Develop"
+    },
+    {
+      "context_snippet": "On Develop PR Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/in_develop_labeler_preflight.yml",
+      "term": "On Develop PR Merge"
+    },
+    {
+      "context_snippet": "\"Publish to npm\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/npm_publish.yml",
+      "term": "Publish to npm"
+    },
+    {
+      "context_snippet": "Peek Icons",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/peek_icons.yml",
+      "term": "Peek Icons"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brands"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devicon"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "logos"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylesheet"
+    }
+  ]
+}

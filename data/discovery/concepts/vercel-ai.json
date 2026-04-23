@@ -7,8 +7,46 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lgrammel/modelfusion-llamacpp-nextjs-starter",
+      "status": "candidate-context",
+      "text": "Starter examples for using Next.js and the Vercel AI SDK with Llama.cpp and ModelFusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lgrammel/modelfusion-llamacpp-nextjs-starter",
+      "status": "candidate-context",
+      "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Llama.cpp](https://github.com/ggerganov/llama.cpp) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lgrammel/modelfusion-ollama-nextjs-starter",
+      "status": "candidate-context",
+      "text": "Starter examples for using Next.js and the Vercel AI SDK with Ollama and ModelFusion."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lgrammel/modelfusion-ollama-nextjs-starter",
+      "status": "candidate-context",
+      "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Ollama](https://ollama.ai/) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lgrammel/modelfusion-llamacpp-nextjs-starter",
+      "status": "candidate",
+      "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Llama.cpp](https://github.com/ggerganov/llama.cpp) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lgrammel/modelfusion-ollama-nextjs-starter",
+      "status": "candidate",
+      "text": "This starter example shows how to use [Next.js](https://nextjs.org/), the [Vercel AI SDK](https://sdk.vercel.ai/docs), [Ollama](https://ollama.ai/) and [ModelFusion](https://modelfusion.dev) to create a ChatGPT-like AI-powered streaming chat bot."
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "vercel-ai",
@@ -20,12 +58,26 @@
       "observed_at": "2026-04-18T11:32:22.637859+00:00",
       "source_file": null,
       "source_repo": "lobehub/lobe-vidol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lgrammel/modelfusion-llamacpp-nextjs-starter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lgrammel/modelfusion-ollama-nextjs-starter"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

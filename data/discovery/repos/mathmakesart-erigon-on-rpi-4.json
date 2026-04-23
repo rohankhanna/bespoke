@@ -1,0 +1,296 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "joan2937/pigpio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "geekworm-com/x-c1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "blockchain-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "blockchain-node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "blockchain-node-sync",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "blockchain-nodes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "blockchain-technology",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "erigon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "ethereum-blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "ethereum-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "ethereum-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "ethereum-node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "naspi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "network-attached-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "raspberry-pi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "raspberry-pi-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mathMakesArt/Erigon-on-RPi-4",
+      "target": "sata",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:47:55.195748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15994
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Step-by-step guide to running an Erigon archive node (Ethereum) on an 8GB Raspberry Pi 4. Recommended minimum 4 TB SSD (SATA III) with Ubuntu Server 21.",
+    "fork": false,
+    "full_name": "mathMakesArt/Erigon-on-RPi-4",
+    "html_url": "https://github.com/mathMakesArt/Erigon-on-RPi-4",
+    "language": "Python",
+    "pushed_at": "2022-03-05T04:00:16Z",
+    "stargazers_count": 27,
+    "topics": [
+      "blockchain",
+      "blockchain-network",
+      "blockchain-node",
+      "blockchain-node-sync",
+      "blockchain-nodes",
+      "blockchain-technology",
+      "erigon",
+      "ethereum",
+      "ethereum-blockchain",
+      "ethereum-client",
+      "ethereum-network",
+      "ethereum-node",
+      "nas",
+      "naspi",
+      "network-attached-storage",
+      "nuc",
+      "raspberry-pi",
+      "raspberry-pi-4",
+      "sata",
+      "ssd"
+    ],
+    "updated_at": "2026-02-19T16:21:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geekworm-com/x-c1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joan2937/pigpio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain-network"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain-node"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain-node-sync"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain-nodes"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain-technology"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "erigon"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum-blockchain"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum-client"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum-network"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum-node"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "naspi"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network-attached-storage"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspberry-pi"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raspberry-pi-4"
+    },
+    {
+      "context_snippet": "<br />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sata"
+    }
+  ]
+}

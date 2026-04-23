@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Docs Build",
-    "docs-build"
+    "docs-build",
+    "\ud83d\udcd2 Docs \u203a Build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -20,6 +21,18 @@
       "source_repo": "elastic/go-elasticsearch",
       "status": "candidate-context",
       "text": "docs-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "status": "candidate-context",
+      "text": "Mkdocs plugin which displays links in a more elegant way. Links will automatically be populated with an image, description, fav icon, and title for the target website; or you can override the values to give your own."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "status": "candidate-context",
+      "text": "'\ud83d\udcd2 Docs \u203a Build'"
     }
   ],
   "candidate_glosses": [
@@ -28,9 +41,51 @@
       "source_repo": "elastic/go-elasticsearch",
       "status": "candidate",
       "text": "docs-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aetherinox/mkdocs-link-embeds",
+      "status": "candidate",
+      "text": "'\ud83d\udcd2 Docs \u203a Build'"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14444,
+      "status": "candidate",
+      "text": "gpo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14444,
+      "status": "candidate",
+      "text": "gps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13239,
+      "status": "candidate",
+      "text": "clinic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13239,
+      "status": "candidate",
+      "text": "compile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13239,
+      "status": "candidate",
+      "text": "press"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Docs Build",
   "concept_id": "docs-build",
@@ -47,11 +102,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/docs-build.yml",
       "source_repo": "elastic/go-elasticsearch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "Aetherinox/mkdocs-link-embeds"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -370,6 +370,144 @@
       "source_repo": "coderaiser/cloudcmd",
       "status": "candidate-context",
       "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "status": "candidate-context",
+      "text": "Build library for finding native libraries in vcpkg for Rust - Windows (msvc), Linux and macOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-colorable",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/mattn/go-colorable/workflows/test/badge.svg)](https://github.com/mattn/go-colorable/actions?query=workflow%3Atest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc-hib/winres",
+      "status": "candidate-context",
+      "text": "Functions for embedding typical Windows resources into Go executables: icon, manifest, version info..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc-hib/winres",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/tc-hib/winres.svg)](https://pkg.go.dev/github.com/tc-hib/winres)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "A modern formatting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kondrak/vkQuake2",
+      "status": "candidate-context",
+      "text": "id Software's Quake 2 v3.21 with mission packs and Vulkan support (Windows, Linux, macOS, FreeBSD, Raspberry Pi 4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kondrak/vkQuake2",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-ecs-agent",
+      "status": "candidate-context",
+      "text": "Amazon Elastic Container Service Agent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-ecs-agent",
+      "status": "candidate-context",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate-context",
+      "text": "The new Windows Terminal and the original Windows console host, all in the same place!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate-context",
+      "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "daipeihust/im-select",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdf Switch your input method through terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daipeihust/im-select",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/13344830/232276894-f84ee7d9-091e-40dd-8ad4-0b8840456a58.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GuillaumeGomez/sysinfo",
+      "status": "candidate-context",
+      "text": "Cross-platform library to fetch system information"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuillaumeGomez/sysinfo",
+      "status": "candidate-context",
+      "text": "`sysinfo` is a crate used to get a system's information."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate-context",
+      "text": "Cross-platform async library for system information fetching \ud83e\udd80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate-context",
+      "text": "![Project banner](./.github/readme-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "status": "candidate-context",
+      "text": ":package: Install C++ Build Tools for Windows using npm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "status": "candidate-context",
+      "text": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/react-native-winrt",
+      "status": "candidate-context",
+      "text": "Windows Runtime projection for React Native for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-winrt",
+      "status": "candidate-context",
+      "text": "React Native WinRT is a module for [React Native for Windows](https://microsoft.github.io/react-native-windows/) developers who want to call native (non-XAML) WinRT APIs in their apps. It uses components from [xlang](https://github.com/Microsoft/xlang) to [parse metadata](https:\u2026"
     }
   ],
   "candidate_glosses": [
@@ -552,6 +690,78 @@
       "source_repo": "coderaiser/cloudcmd",
       "status": "candidate",
       "text": "[MainURL]: https://cloudcmd.io \"Main\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattn/go-colorable",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/mattn/go-colorable/workflows/test/badge.svg)](https://github.com/mattn/go-colorable/actions?query=workflow%3Atest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc-hib/winres",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/tc-hib/winres.svg)](https://pkg.go.dev/github.com/tc-hib/winres)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate",
+      "text": "windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kondrak/vkQuake2",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-ecs-agent",
+      "status": "candidate",
+      "text": "Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/terminal",
+      "status": "candidate",
+      "text": "![terminal-logos](https://github.com/microsoft/terminal/assets/91625426/333ddc76-8ab2-4eb4-a8c0-4d7b953b1179)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "daipeihust/im-select",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/13344830/232276894-f84ee7d9-091e-40dd-8ad4-0b8840456a58.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GuillaumeGomez/sysinfo",
+      "status": "candidate",
+      "text": "`sysinfo` is a crate used to get a system's information."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heim-rs/heim",
+      "status": "candidate",
+      "text": "![Project banner](./.github/readme-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "felixrieseberg/windows-build-tools",
+      "status": "candidate",
+      "text": "<a href=\"https://ci.appveyor.com/project/felixrieseberg/windows-build-tools\"><img src=\"https://ci.appveyor.com/api/projects/status/gpna6y54wnfp07xr?svg=true\" /></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/react-native-winrt",
+      "status": "candidate",
+      "text": "React Native WinRT is a module for [React Native for Windows](https://microsoft.github.io/react-native-windows/) developers who want to call native (non-XAML) WinRT APIs in their apps. It uses components from [xlang](https://github.com/Microsoft/xlang) to [parse metadata](https:\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -829,11 +1039,101 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "mcgoo/vcpkg-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mattn/go-colorable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "tc-hib/winres"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "fmtlib/fmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "kondrak/vkQuake2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "aws/amazon-ecs-agent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "daipeihust/im-select"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "GuillaumeGomez/sysinfo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "heim-rs/heim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "felixrieseberg/windows-build-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/react-native-winrt"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

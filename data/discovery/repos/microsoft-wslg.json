@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/wslg",
+      "target": "microsoft/azurelinux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/wslg",
+      "target": "microsoft/pulseaudio-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/wslg",
+      "target": "freerdp/freerdp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/wslg",
+      "target": "microsoft/freerdp-mirror",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:33:42.108284+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22243
+    },
+    {
+      "path": "Dockerfile",
+      "size": 14589
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Enabling the Windows Subsystem for Linux to include support for Wayland and X server related scenarios",
+    "fork": false,
+    "full_name": "microsoft/wslg",
+    "html_url": "https://github.com/microsoft/wslg",
+    "language": "C++",
+    "pushed_at": "2026-04-13T17:57:05Z",
+    "stargazers_count": 11588,
+    "topics": [],
+    "updated_at": "2026-04-23T04:33:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "freerdp/freerdp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/azurelinux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/freerdp-mirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/pulseaudio-mirror",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

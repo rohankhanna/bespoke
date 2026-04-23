@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "isl-org/Next-ViT",
+      "target": "open-mmlab/mmsegmentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "isl-org/Next-ViT",
+      "target": "meituan-automl/twins",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:30:53.856804+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19335
+    },
+    {
+      "path": "requirements.txt",
+      "size": 209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": true,
+    "full_name": "isl-org/Next-ViT",
+    "html_url": "https://github.com/isl-org/Next-ViT",
+    "language": "Python",
+    "pushed_at": "2024-05-21T02:39:51Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2023-11-11T04:30:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meituan-automl/twins",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmsegmentation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

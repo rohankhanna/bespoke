@@ -1,0 +1,344 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "docker/build-push-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "Publish Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "JamesIves/github-pages-deploy-action@releases/v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-pages.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "Build GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "Linux Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "macOS Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-release.yml",
+      "source_repo": "songquanpeng/wechat-server",
+      "target": "Windows Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:43:06.454698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2305
+    },
+    {
+      "path": "Dockerfile",
+      "size": 573
+    },
+    {
+      "path": "go.mod",
+      "size": 2316
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 1369
+    },
+    {
+      "path": ".github/workflows/github-pages.yml",
+      "size": 1067
+    },
+    {
+      "path": ".github/workflows/linux-release.yml",
+      "size": 1008
+    },
+    {
+      "path": ".github/workflows/macos-release.yml",
+      "size": 992
+    },
+    {
+      "path": ".github/workflows/windows-release.yml",
+      "size": 1042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u5fae\u4fe1\u516c\u4f17\u53f7\u7684\u540e\u7aef\uff0c\u4e3a\u5176\u4ed6\u7cfb\u7edf\u63d0\u4f9b\u5fae\u4fe1\u767b\u5f55\u9a8c\u8bc1\u529f\u80fd",
+    "fork": false,
+    "full_name": "songquanpeng/wechat-server",
+    "html_url": "https://github.com/songquanpeng/wechat-server",
+    "language": "Go",
+    "pushed_at": "2023-12-19T00:14:46Z",
+    "stargazers_count": 515,
+    "topics": [],
+    "updated_at": "2026-04-23T05:51:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Publish Docker image"
+    },
+    {
+      "context_snippet": "Build GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-pages.yml",
+      "term": "Build GitHub Pages"
+    },
+    {
+      "context_snippet": "Linux Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-release.yml",
+      "term": "Linux Release"
+    },
+    {
+      "context_snippet": "macOS Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-release.yml",
+      "term": "macOS Release"
+    },
+    {
+      "context_snippet": "Windows Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-release.yml",
+      "term": "Windows Release"
+    }
+  ]
+}

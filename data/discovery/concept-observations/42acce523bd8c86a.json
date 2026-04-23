@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A multipage DjVu encoder. This is a fork of minidjvu, with full-scale shared dictionaries (djbz) optimization and a few tricks in order to compensate the subsequent  performance drop (multi-threading etc.)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Windows: [![Build status](https://ci.appveyor.com/api/projects/status/v71a13vhb65ji614?svg=true)](https://ci.appveyor.com/project/Truf/minidjvu-mod-windows), Linux: [![Build status](https://ci.appveyor.com/api/projects/status/11629wtfwqp9ni0j?svg=true)](https://ci.appveyor.com/p\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Windows: [![Build status](https://ci.appveyor.com/api/projects/status/v71a13vhb65ji614?svg=true)](https://ci.appveyor.com/project/Truf/minidjvu-mod-windows), Linux: [![Build status](https://ci.appveyor.com/api/projects/status/11629wtfwqp9ni0j?svg=true)](https://ci.appveyor.com/p\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-processing",
+      "sense_id": "image-processing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-processing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-processing",
+  "observation_id": "42acce523bd8c86a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "image-processing",
+  "source_context_snippet": "Windows: [![Build status](https://ci.appveyor.com/api/projects/status/v71a13vhb65ji614?svg=true)](https://ci.appveyor.com/project/Truf/minidjvu-mod-windows), Linux: [![Build status](https://ci.appveyor.com/api/projects/status/11629wtfwqp9ni0j?svg=true)](https://ci.appveyor.com/p\u2026",
+  "source_file": null,
+  "source_repo": "trufanov-nok/minidjvu-mod",
+  "source_repo_description": "A multipage DjVu encoder. This is a fork of minidjvu, with full-scale shared dictionaries (djbz) optimization and a few tricks in order to compensate the subsequent  performance drop (multi-threading etc.)."
+}

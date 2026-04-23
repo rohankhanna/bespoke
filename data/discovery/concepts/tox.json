@@ -19,12 +19,30 @@
       "source_repo": "eclipse-paho/paho.mqtt.python",
       "status": "candidate-context",
       "text": "tox"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible/ansible-lint",
+      "status": "candidate-context",
+      "text": "ansible-lint checks playbooks for practices and behavior that could potentially be improved and can fix some of the most common ones for you"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-lint",
+      "status": "candidate-context",
+      "text": "tox"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "eclipse-paho/paho.mqtt.python",
+      "status": "candidate",
+      "text": "tox"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible/ansible-lint",
       "status": "candidate",
       "text": "tox"
     }
@@ -88,11 +106,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/tox.yml",
       "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "ansible/ansible-lint"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

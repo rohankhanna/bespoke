@@ -1,0 +1,12 @@
+{
+  "component": "oras-project/setup-oras@f0fe559615f43dcb02b17c56800daa7542ee0f91",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/obs.yml",
+      "source_repo": "cri-o/packaging"
+    }
+  ]
+}

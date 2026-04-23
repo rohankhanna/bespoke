@@ -1,0 +1,12 @@
+{
+  "component": "crate-ci/typos@c7af4712eda24dd1ef54bd8212973888489eb0ce",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Typos.yml",
+      "source_repo": "JuliaLang/julia"
+    }
+  ]
+}

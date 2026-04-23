@@ -19,6 +19,30 @@
       "source_repo": "AirGuanZ/imgui-filebrowser",
       "status": "candidate-context",
       "text": "[imgui-filebrowser](https://github.com/AirGuanZ/imgui-filebrowser) is a header-only file browser implementation for [dear-imgui](https://github.com/ocornut/imgui). C++ 17 is required."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alfredbaudisch/raylib-cimgui",
+      "status": "candidate-context",
+      "text": "A pure C raylib backend for the immediate mode gui Dear ImGui, on top of cimgui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alfredbaudisch/raylib-cimgui",
+      "status": "candidate-context",
+      "text": "A pure C raylib backend for the immediate mode gui [Dear ImGui](https://github.com/ocornut/imgui), on top of [cimgui](https://github.com/cimgui/cimgui)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "status": "candidate-context",
+      "text": "Kotlin bindings for Dear ImGui"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-MIT%20License%202.0-blue.svg?style=flat)](https://en.wikipedia.org/wiki/MIT_License)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "AirGuanZ/imgui-filebrowser",
       "status": "candidate",
       "text": "[imgui-filebrowser](https://github.com/AirGuanZ/imgui-filebrowser) is a header-only file browser implementation for [dear-imgui](https://github.com/ocornut/imgui). C++ 17 is required."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alfredbaudisch/raylib-cimgui",
+      "status": "candidate",
+      "text": "A pure C raylib backend for the immediate mode gui [Dear ImGui](https://github.com/ocornut/imgui), on top of [cimgui](https://github.com/cimgui/cimgui)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Dominaezzz/kotlin-imgui",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/badge/license-MIT%20License%202.0-blue.svg?style=flat)](https://en.wikipedia.org/wiki/MIT_License)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "AirGuanZ/imgui-filebrowser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alfredbaudisch/raylib-cimgui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Dominaezzz/kotlin-imgui"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -92,6 +92,90 @@
       "source_repo": "oras-project/distribution",
       "status": "candidate-context",
       "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint-ruleset-aws",
+      "status": "candidate-context",
+      "text": "TFLint ruleset for terraform-provider-aws"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-aws",
+      "status": "candidate-context",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate-context",
+      "text": "TFLint ruleset for terraform-provider-azurerm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate-context",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "terraform-linters/tflint-ruleset-google",
+      "status": "candidate-context",
+      "text": "TFLint ruleset for terraform-provider-google"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-google",
+      "status": "candidate-context",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "distribution/distribution",
+      "status": "candidate-context",
+      "text": "The toolkit to pack, ship, store, and deliver container content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distribution/distribution",
+      "status": "candidate-context",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boundless-xyz/steel",
+      "status": "candidate-context",
+      "text": "Steel: The ZK Coprocessor for EVM Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/steel",
+      "status": "candidate-context",
+      "text": "E2E"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/buildx",
+      "status": "candidate-context",
+      "text": "Docker CLI plugin for extended build capabilities with BuildKit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/buildx",
+      "status": "candidate-context",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/build-push-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to build and push Docker images with Buildx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/build-push-action",
+      "status": "candidate-context",
+      "text": "e2e"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +218,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "oras-project/distribution",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-aws",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "terraform-linters/tflint-ruleset-google",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "distribution/distribution",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/steel",
+      "status": "candidate",
+      "text": "E2E"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/buildx",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/build-push-action",
       "status": "candidate",
       "text": "e2e"
     }
@@ -257,11 +383,65 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "oras-project/distribution"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/e2e-base.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-aws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-azurerm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "terraform-linters/tflint-ruleset-google"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "distribution/distribution"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "boundless-xyz/steel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "docker/buildx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "docker/build-push-action"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

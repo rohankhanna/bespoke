@@ -1,7 +1,7 @@
 {
   "component": "actions/checkout@v2.3.4",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/old-test.yml",
       "source_repo": "standard/standardx"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checklinks.yml",
+      "source_repo": "unixorn/autoupdate-zgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checklinks.yml",
+      "source_repo": "unixorn/autoupdate-zgenom"
     }
   ]
 }

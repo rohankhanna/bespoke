@@ -1,0 +1,222 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/copper-multicodec",
+      "target": "filip26/ld-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filip26/copper-multicodec",
+      "target": "multiformats/unsigned-varint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/copper-multicodec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/copper-multicodec",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-build.yml",
+      "source_repo": "filip26/copper-multicodec",
+      "target": "Java 8 CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/copper-multicodec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/copper-multicodec",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "source_repo": "filip26/copper-multicodec",
+      "target": "Publish JRE8 to the Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multicodec",
+      "target": "multicodec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multicodec",
+      "target": "multiformats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multicodec",
+      "target": "multihash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multicodec",
+      "target": "self-describing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multicodec",
+      "target": "self-descriptive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filip26/copper-multicodec",
+      "target": "varint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:39:06.005687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6625
+    },
+    {
+      "path": ".github/workflows/java8-build.yml",
+      "size": 541
+    },
+    {
+      "path": ".github/workflows/java8-publish.yml",
+      "size": 964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Multicodec & Multihash \u2014 encoder/decoder for self-describing data formats",
+    "fork": false,
+    "full_name": "filip26/copper-multicodec",
+    "html_url": "https://github.com/filip26/copper-multicodec",
+    "language": "Java",
+    "pushed_at": "2026-02-23T23:26:06Z",
+    "stargazers_count": 2,
+    "topics": [
+      "multicodec",
+      "multiformats",
+      "multihash",
+      "self-describing",
+      "self-descriptive",
+      "varint"
+    ],
+    "updated_at": "2026-02-23T23:26:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filip26/ld-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multiformats/unsigned-varint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Java 8 CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-build.yml",
+      "term": "Java 8 CI"
+    },
+    {
+      "context_snippet": "Publish JRE8 to the Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/java8-publish.yml",
+      "term": "Publish JRE8 to the Maven Central"
+    },
+    {
+      "context_snippet": "A multicodec is a **self-describing** format: encoded data always begins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multicodec"
+    },
+    {
+      "context_snippet": "A multicodec is a **self-describing** format: encoded data always begins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiformats"
+    },
+    {
+      "context_snippet": "A multicodec is a **self-describing** format: encoded data always begins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multihash"
+    },
+    {
+      "context_snippet": "A multicodec is a **self-describing** format: encoded data always begins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-describing"
+    },
+    {
+      "context_snippet": "A multicodec is a **self-describing** format: encoded data always begins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-descriptive"
+    },
+    {
+      "context_snippet": "A multicodec is a **self-describing** format: encoded data always begins",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "varint"
+    }
+  ]
+}

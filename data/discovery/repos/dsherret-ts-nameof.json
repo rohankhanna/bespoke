@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dsherret/ts-nameof",
+      "target": "babel-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dsherret/ts-nameof",
+      "target": "custom-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:44:10.533192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3992
+    },
+    {
+      "path": "package.json",
+      "size": 770
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "nameof in TypeScript",
+    "fork": false,
+    "full_name": "dsherret/ts-nameof",
+    "html_url": "https://github.com/dsherret/ts-nameof",
+    "language": "TypeScript",
+    "pushed_at": "2023-03-23T16:04:22Z",
+    "stargazers_count": 505,
+    "topics": [
+      "babel-plugin",
+      "custom-transformer",
+      "typescript"
+    ],
+    "updated_at": "2026-04-22T14:49:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/dsherret/ts-nameof.svg)](https://travis-ci.org/dsherret/ts-nameof)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babel-plugin"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/dsherret/ts-nameof.svg)](https://travis-ci.org/dsherret/ts-nameof)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "custom-transformer"
+    }
+  ]
+}

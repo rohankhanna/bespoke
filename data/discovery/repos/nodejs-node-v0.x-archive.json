@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:34:28.614811+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "moved",
+    "description": "Moved to https://github.com/nodejs/node",
+    "fork": false,
+    "full_name": "nodejs/node-v0.x-archive",
+    "html_url": "https://github.com/nodejs/node-v0.x-archive",
+    "language": null,
+    "pushed_at": "2024-08-15T20:32:32Z",
+    "stargazers_count": 34319,
+    "topics": [],
+    "updated_at": "2026-04-22T14:05:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

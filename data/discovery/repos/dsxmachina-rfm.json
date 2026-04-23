@@ -1,0 +1,63 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dsxmachina/rfm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dsxmachina/rfm",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:35:23.069564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10288
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1432
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 397
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "rust-file-manager",
+    "fork": false,
+    "full_name": "dsxmachina/rfm",
+    "html_url": "https://github.com/dsxmachina/rfm",
+    "language": "Rust",
+    "pushed_at": "2026-02-21T16:57:19Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-04-01T07:27:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    }
+  ]
+}

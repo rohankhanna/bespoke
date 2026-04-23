@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "google/gnostic-models",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "google/gnostic-models",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:39:45.993059+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 900
+    },
+    {
+      "path": "go.mod",
+      "size": 125
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google/gnostic-models",
+    "html_url": "https://github.com/google/gnostic-models",
+    "language": "Go",
+    "pushed_at": "2025-11-19T16:49:05Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-01-18T19:12:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

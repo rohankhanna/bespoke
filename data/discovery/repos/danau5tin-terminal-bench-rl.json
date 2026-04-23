@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Danau5tin/terminal-bench-rl",
+      "target": "laude-institute/terminal-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Danau5tin/terminal-bench-rl",
+      "target": "danau5tin/tbench-agentic-data-pipeline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "Danau5tin/terminal-bench-rl",
+      "target": "danau5tin/terminal-bench-py311",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:35:21.080129+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23970
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GRPO training code which scales to 32xH100s for long horizon terminal/coding tasks. Base agent is now the top Qwen3 agent on Stanford's TerminalBench leaderboard.",
+    "fork": false,
+    "full_name": "Danau5tin/terminal-bench-rl",
+    "html_url": "https://github.com/Danau5tin/terminal-bench-rl",
+    "language": "Python",
+    "pushed_at": "2025-08-24T10:28:11Z",
+    "stargazers_count": 373,
+    "topics": [],
+    "updated_at": "2026-04-21T09:54:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danau5tin/tbench-agentic-data-pipeline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laude-institute/terminal-bench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danau5tin/terminal-bench-py311",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

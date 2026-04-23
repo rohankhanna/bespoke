@@ -1,7 +1,7 @@
 {
   "component": "reactivecircus/android-emulator-runner@v2",
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-packages.yml",
       "source_repo": "patrickkabwe/create-nitro-module"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml",
+      "source_repo": "pytorch/executorch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android-emulator.yml",
+      "source_repo": "meta-pytorch/executorch-examples"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/llm-android.yml",
+      "source_repo": "meta-pytorch/executorch-examples"
     }
   ]
 }

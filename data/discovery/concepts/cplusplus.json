@@ -67,6 +67,30 @@
       "source_repo": "ocornut/imgui",
       "status": "candidate-context",
       "text": "build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/mesos",
+      "status": "candidate-context",
+      "text": "Apache Mesos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mesos",
+      "status": "candidate-context",
+      "text": "Apache Mesos is a cluster manager that provides efficient resource isolation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-cpp",
+      "status": "candidate-context",
+      "text": "An authorization library that supports access control models like ACL, RBAC, ABAC in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-cpp",
+      "status": "candidate-context",
+      "text": "Casbin-CPP"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "ocornut/imgui",
       "status": "candidate",
       "text": "build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mesos",
+      "status": "candidate",
+      "text": "Apache Mesos is a cluster manager that provides efficient resource isolation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-cpp",
+      "status": "candidate",
+      "text": "Casbin-CPP"
     }
   ],
   "candidate_related_terms": [],
@@ -154,11 +190,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/mesos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "dsanders11/json-schema-validate-action@79b2d95a446a0d786f7f244ae7764f8370ff3657",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ossf/osv-schema"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/honggfuzz",
+      "target": "fuzzing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/honggfuzz",
+      "target": "security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:43:29.298370+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3919
+    },
+    {
+      "path": "Dockerfile",
+      "size": 378
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Security oriented software fuzzer. Supports evolutionary, feedback-driven fuzzing based on code coverage (SW and HW based)",
+    "fork": false,
+    "full_name": "google/honggfuzz",
+    "html_url": "https://github.com/google/honggfuzz",
+    "language": "C",
+    "pushed_at": "2026-04-13T06:34:57Z",
+    "stargazers_count": 3328,
+    "topics": [
+      "c",
+      "fuzzing",
+      "security"
+    ],
+    "updated_at": "2026-04-22T21:11:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**A security-oriented, feedback-driven, evolutionary fuzzer.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzing"
+    },
+    {
+      "context_snippet": "**A security-oriented, feedback-driven, evolutionary fuzzer.**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    }
+  ]
+}

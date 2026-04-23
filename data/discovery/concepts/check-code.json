@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Check code"
+    "Check code",
+    "Check Code"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "tazz4843/whisper-rs",
       "status": "candidate-context",
       "text": "Check code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casbin-rs/examples",
+      "status": "candidate-context",
+      "text": "Examples for Casbin-RS Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casbin-rs/examples",
+      "status": "candidate-context",
+      "text": "Check Code"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "tazz4843/whisper-rs",
       "status": "candidate",
       "text": "Check code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casbin-rs/examples",
+      "status": "candidate",
+      "text": "Check Code"
     }
   ],
   "candidate_related_terms": [
@@ -50,6 +69,41 @@
       "score": 110094630,
       "status": "candidate",
       "text": "debugging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11654,
+      "status": "candidate",
+      "text": "attention"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11654,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11654,
+      "status": "candidate",
+      "text": "case"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11654,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11654,
+      "status": "candidate",
+      "text": "irs"
     }
   ],
   "candidate_synonyms": [],
@@ -62,11 +116,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "tazz4843/whisper-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "casbin-rs/examples"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

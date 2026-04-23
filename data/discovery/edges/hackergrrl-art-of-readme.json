@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hackergrrl/art-of-readme",
+      "target": "hackergrrl/collide-2d-aabb-aabb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hackergrrl/art-of-readme",
+      "target": "hackergrrl/bisecting-between",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hackergrrl/art-of-readme",
+      "target": "feross/bittorrent-dht",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hackergrrl/art-of-readme",
+      "target": "freeman-lab/pixel-grid",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "hackergrrl/art-of-readme"
+}

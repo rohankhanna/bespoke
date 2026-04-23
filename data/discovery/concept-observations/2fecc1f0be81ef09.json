@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Use late-interaction multi-modal models such as ColPali in just a few lines of code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043913,
+      "status": "candidate",
+      "text": "recovery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044333,
+      "status": "candidate",
+      "text": "retrieving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044147,
+      "status": "candidate",
+      "text": "recover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044124,
+      "status": "candidate",
+      "text": "retrieve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30043966,
+      "status": "candidate",
+      "text": "reclaim"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "retrieval",
+      "sense_id": "retrieval#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7065,
+      "status": "candidate",
+      "text": "recovery"
+    }
+  ],
+  "concept_id": "retrieval",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "retrieval",
+  "observation_id": "2fecc1f0be81ef09",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "retrieval",
+  "source_context_snippet": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._",
+  "source_file": null,
+  "source_repo": "AnswerDotAI/byaldi",
+  "source_repo_description": "Use late-interaction multi-modal models such as ColPali in just a few lines of code."
+}

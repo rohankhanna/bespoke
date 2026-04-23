@@ -1,0 +1,360 @@
+{
+  "components": [
+    {
+      "component": "amd-loader",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "architect-build",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "asyncjs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "c8",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dryice",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard-version",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backwards-compatibility-commenter.yml"
+    },
+    {
+      "component": "aws-actions/stale-issue-cleanup@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml"
+    },
+    {
+      "component": "kaizencc/issue-reprioritization-manager@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-reprioritization.yml"
+    },
+    {
+      "component": "kaizencc/pr-triage-manager@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-reprioritization.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-comment.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "ajaxorg/ace",
+      "target": "c9/architect-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajaxorg/ace",
+      "target": "amd-loader",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajaxorg/ace",
+      "target": "architect-build",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajaxorg/ace",
+      "target": "asyncjs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajaxorg/ace",
+      "target": "c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajaxorg/ace",
+      "target": "dryice",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajaxorg/ace",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajaxorg/ace",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajaxorg/ace",
+      "target": "standard-version",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ajaxorg/ace",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backwards-compatibility-commenter.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "peter-evans/create-or-update-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backwards-compatibility-commenter.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "Comments for ensuring backward compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "aws-actions/stale-issue-cleanup@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "Close Stale Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-reprioritization.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "kaizencc/issue-reprioritization-manager@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-reprioritization.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "kaizencc/pr-triage-manager@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-reprioritization.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "issue-reprioritization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-comment.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-comment.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "Update PR Description",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajaxorg/ace",
+      "target": "Publish to NPM",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:36:26.852863+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 2287
+    },
+    {
+      "path": ".github/workflows/backwards-compatibility-commenter.yml",
+      "size": 615
+    },
+    {
+      "path": ".github/workflows/close-stale-issues.yml",
+      "size": 1800
+    },
+    {
+      "path": ".github/workflows/issue-reprioritization.yml",
+      "size": 623
+    },
+    {
+      "path": ".github/workflows/link-comment.yml",
+      "size": 1413
+    },
+    {
+      "path": ".github/workflows/nodejs.yml",
+      "size": 2229
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 756
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ace (Ajax.org Cloud9 Editor)",
+    "fork": false,
+    "full_name": "ajaxorg/ace",
+    "html_url": "https://github.com/ajaxorg/ace",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-21T19:31:34Z",
+    "stargazers_count": 27131,
+    "topics": [],
+    "updated_at": "2026-04-22T09:51:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "c9/architect-build",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Comments for ensuring backward compatibility",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backwards-compatibility-commenter.yml",
+      "term": "Comments for ensuring backward compatibility"
+    },
+    {
+      "context_snippet": "\"Close Stale Issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "term": "Close Stale Issues"
+    },
+    {
+      "context_snippet": "issue-reprioritization",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-reprioritization.yml",
+      "term": "issue-reprioritization"
+    },
+    {
+      "context_snippet": "Update PR Description",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-comment.yml",
+      "term": "Update PR Description"
+    },
+    {
+      "context_snippet": "Publish to NPM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to NPM"
+    }
+  ]
+}

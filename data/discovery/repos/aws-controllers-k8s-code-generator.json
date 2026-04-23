@@ -1,0 +1,109 @@
+{
+  "components": [
+    {
+      "component": "aws-controllers-k8s/.github/.github/workflows/reusable-create-release.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "aws-controllers-k8s/.github/.github/workflows/reusable-postsubmit.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "target": "aws/aws-controllers-k8s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "target": "aws-controllers-k8s/.github/.github/workflows/reusable-create-release.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/postsubmit.yaml",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "target": "aws-controllers-k8s/.github/.github/workflows/reusable-postsubmit.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/postsubmit.yaml",
+      "source_repo": "aws-controllers-k8s/code-generator",
+      "target": "Hydrate Go Proxy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:44:06.594518+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 989
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2616
+    },
+    {
+      "path": "go.mod",
+      "size": 4660
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 237
+    },
+    {
+      "path": ".github/workflows/postsubmit.yaml",
+      "size": 181
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code generator for AWS Controllers for Kubernetes",
+    "fork": false,
+    "full_name": "aws-controllers-k8s/code-generator",
+    "html_url": "https://github.com/aws-controllers-k8s/code-generator",
+    "language": "Go",
+    "pushed_at": "2026-04-22T18:11:35Z",
+    "stargazers_count": 91,
+    "topics": [],
+    "updated_at": "2026-04-16T21:37:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/aws-controllers-k8s",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "Hydrate Go Proxy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/postsubmit.yaml",
+      "term": "Hydrate Go Proxy"
+    }
+  ]
+}

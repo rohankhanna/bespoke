@@ -19,6 +19,18 @@
       "source_repo": "antonbabenko/pre-commit-terraform",
       "status": "candidate-context",
       "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "status": "candidate-context",
+      "text": "Infrastructure as code generator - from visual diagrams created with Cloudcraft.co to Terraform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "status": "candidate-context",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "antonbabenko/pre-commit-terraform",
       "status": "candidate",
       "text": "[![Latest Github tag]](https://github.com/antonbabenko/pre-commit-terraform/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/modules.tf-lambda",
+      "status": "candidate",
+      "text": "[![Financial Contributors on Open Collective](https://opencollective.com/modulestf/all/badge.svg?label=financial+contributors)](https://opencollective.com/modulestf) [![MIT license](https://img.shields.io/github/license/antonbabenko/modules.tf-lambda.svg)]() [![@antonbabenko](ht\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "antonbabenko/pre-commit-terraform"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/modules.tf-lambda"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

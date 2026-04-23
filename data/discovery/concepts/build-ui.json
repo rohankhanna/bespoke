@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build UI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpecterOps/BloodHound",
+      "status": "candidate-context",
+      "text": "Six Degrees of Domain Admin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/BloodHound",
+      "status": "candidate-context",
+      "text": "Build UI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/BloodHound",
+      "status": "candidate",
+      "text": "Build UI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16591,
+      "status": "candidate",
+      "text": "benefit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15470,
+      "status": "candidate",
+      "text": "allowances"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15470,
+      "status": "candidate",
+      "text": "benefits"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15470,
+      "status": "candidate",
+      "text": "delivery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15470,
+      "status": "candidate",
+      "text": "entitlements"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build UI",
+  "concept_id": "build-ui",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build-ui.yml",
+      "source_repo": "SpecterOps/BloodHound"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build UI",
+      "sense_id": "build-ui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

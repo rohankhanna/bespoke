@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_helper_test.yml"
+    },
+    {
+      "component": "docker://quay.io/libpod/cirrus-ci_retrospective:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml"
+    },
+    {
+      "component": "docker://quay.io/libpod/cirrus-ci_retrospective:latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/create-release@v1.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu_unit_tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action_helper_test.yml",
+      "source_repo": "containers/automation",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml",
+      "source_repo": "containers/automation",
+      "target": "docker://quay.io/libpod/cirrus-ci_retrospective:latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml",
+      "source_repo": "containers/automation",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml",
+      "source_repo": "containers/automation",
+      "target": "thollander/actions-comment-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cirrus-ci_retrospective.yml",
+      "source_repo": "containers/automation",
+      "target": "actions/upload-artifact@v7.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/automation",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/automation",
+      "target": "actions/create-release@v1.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/automation",
+      "target": "actions/upload-release-asset@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "containers/automation",
+      "target": "actions/upload-artifact@v7.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu_unit_tests.yml",
+      "source_repo": "containers/automation",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:37:16.497484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4545
+    },
+    {
+      "path": ".github/workflows/action_helper_test.yml",
+      "size": 1406
+    },
+    {
+      "path": ".github/workflows/cirrus-ci_retrospective.yml",
+      "size": 13365
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 5825
+    },
+    {
+      "path": ".github/workflows/ubuntu_unit_tests.yml",
+      "size": 660
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automation scripts and configurations common across the containers org. repositories",
+    "fork": false,
+    "full_name": "containers/automation",
+    "html_url": "https://github.com/containers/automation",
+    "language": "Shell",
+    "pushed_at": "2026-04-10T21:30:54Z",
+    "stargazers_count": 20,
+    "topics": [],
+    "updated_at": "2026-03-12T19:31:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

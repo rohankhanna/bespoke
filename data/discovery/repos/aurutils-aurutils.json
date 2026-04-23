@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "aurutils/aurutils",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aurutils/aurutils",
+      "target": "archlinux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aurutils/aurutils",
+      "target": "aur-helper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aurutils/aurutils",
+      "target": "aur-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aurutils/aurutils",
+      "target": "aurutils",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aurutils/aurutils",
+      "target": "pacman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aurutils/aurutils",
+      "target": "repository-utilities",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:46:40.731888+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2486
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Helper tools for the AUR.",
+    "fork": false,
+    "full_name": "aurutils/aurutils",
+    "html_url": "https://github.com/aurutils/aurutils",
+    "language": "Shell",
+    "pushed_at": "2026-04-22T12:20:45Z",
+    "stargazers_count": 1039,
+    "topics": [
+      "archlinux",
+      "aur",
+      "aur-helper",
+      "aur-packages",
+      "aurutils",
+      "pacman",
+      "repository-utilities"
+    ],
+    "updated_at": "2026-04-22T23:26:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![license](https://img.shields.io/github/license/aladw/aurutils)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "archlinux"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/github/license/aladw/aurutils)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aur-helper"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/github/license/aladw/aurutils)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aur-packages"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/github/license/aladw/aurutils)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aurutils"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/github/license/aladw/aurutils)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pacman"
+    },
+    {
+      "context_snippet": "[![license](https://img.shields.io/github/license/aladw/aurutils)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repository-utilities"
+    }
+  ]
+}

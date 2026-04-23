@@ -103,6 +103,102 @@
       "source_repo": "mason-org/mason.nvim",
       "status": "candidate-context",
       "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onsails/lspkind.nvim",
+      "status": "candidate-context",
+      "text": "VS Code\u2013style pictograms for Neovim completion items"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsails/lspkind.nvim",
+      "status": "candidate-context",
+      "text": "> VS Code\u2013style pictograms for Neovim completion items"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MunifTanjim/nui.nvim",
+      "status": "candidate-context",
+      "text": "UI Component Library for Neovim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MunifTanjim/nui.nvim",
+      "status": "candidate-context",
+      "text": "![GitHub Workflow Status: CI](https://img.shields.io/github/actions/workflow/status/MunifTanjim/nui.nvim/ci.yml?branch=main&label=CI&style=for-the-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate-context",
+      "text": "Quickstart configs for Nvim LSP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate-context",
+      "text": "nvim-lspconfig is a collection of LSP server configurations for the [Nvim LSP client](https://neovim.io/doc/user/lsp.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrsh7th/nvim-compe",
+      "status": "candidate-context",
+      "text": "Auto completion Lua plugin for nvim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/nvim-compe",
+      "status": "candidate-context",
+      "text": "nvim-compe is now deprecated. Please use [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) the successor of nvim-compe."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simonmclean/triptych.nvim",
+      "status": "candidate-context",
+      "text": "Directory browser plugin for Neovim, inspired by Ranger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonmclean/triptych.nvim",
+      "status": "candidate-context",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ms-jpq/chadtree",
+      "status": "candidate-context",
+      "text": "File manager for Neovim. Better than NERDTree."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ms-jpq/chadtree",
+      "status": "candidate-context",
+      "text": "File Manager for Neovim, Better than NERDTree."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/resession.nvim",
+      "status": "candidate-context",
+      "text": "A replacement for mksession with a better API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/resession.nvim",
+      "status": "candidate-context",
+      "text": "A replacement for `:mksession` with a better API"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate-context",
+      "text": "The missing motion for Vim :athletic_shoe:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate-context",
+      "text": "sneak.vim \ud83d\udc5f"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +249,54 @@
       "source_repo": "mason-org/mason.nvim",
       "status": "candidate",
       "text": "![Linux](https://img.shields.io/badge/Linux-%23.svg?logo=linux&color=FCC624&logoColor=black)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onsails/lspkind.nvim",
+      "status": "candidate",
+      "text": "> VS Code\u2013style pictograms for Neovim completion items"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MunifTanjim/nui.nvim",
+      "status": "candidate",
+      "text": "![GitHub Workflow Status: CI](https://img.shields.io/github/actions/workflow/status/MunifTanjim/nui.nvim/ci.yml?branch=main&label=CI&style=for-the-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neovim/nvim-lspconfig",
+      "status": "candidate",
+      "text": "nvim-lspconfig is a collection of LSP server configurations for the [Nvim LSP client](https://neovim.io/doc/user/lsp.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/nvim-compe",
+      "status": "candidate",
+      "text": "nvim-compe is now deprecated. Please use [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) the successor of nvim-compe."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simonmclean/triptych.nvim",
+      "status": "candidate",
+      "text": "<!-- panvimdoc-ignore-start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ms-jpq/chadtree",
+      "status": "candidate",
+      "text": "File Manager for Neovim, Better than NERDTree."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/resession.nvim",
+      "status": "candidate",
+      "text": "A replacement for `:mksession` with a better API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinmk/vim-sneak",
+      "status": "candidate",
+      "text": "sneak.vim \ud83d\udc5f"
     }
   ],
   "candidate_related_terms": [],
@@ -214,11 +358,59 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "mason-org/mason.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "MunifTanjim/nui.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "neovim/nvim-lspconfig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hrsh7th/nvim-compe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "simonmclean/triptych.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ms-jpq/chadtree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/resession.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "justinmk/vim-sneak"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

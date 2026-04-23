@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Java language server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Potential Duplicate Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Potential Duplicate Issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26064,
+      "status": "candidate",
+      "text": "challenges"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25991,
+      "status": "candidate",
+      "text": "problems"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18197,
+      "status": "candidate",
+      "text": "similar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18135,
+      "status": "candidate",
+      "text": "gamble"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18047,
+      "status": "candidate",
+      "text": "end"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Potential Duplicate Issues",
+      "sense_id": "potential-duplicate-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "potential-duplicate-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "potential-duplicate-issues",
+  "observation_id": "078b788ab5f8eaee",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Potential Duplicate Issues",
+  "source_context_snippet": "Potential Duplicate Issues",
+  "source_file": ".github/workflows/duplicate-issues-detector.yaml",
+  "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
+  "source_repo_description": "Java language server"
+}

@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fish-shell/rust-pcre2",
+      "target": "burntsushi/rust-pcre2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fish-shell/rust-pcre2",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "fish-shell/rust-pcre2",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:42:37.709882+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 890
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 827
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1769
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High level Rust bindings to PCRE2.",
+    "fork": true,
+    "full_name": "fish-shell/rust-pcre2",
+    "html_url": "https://github.com/fish-shell/rust-pcre2",
+    "language": "C",
+    "pushed_at": "2024-10-06T01:55:18Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-10-28T13:13:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "burntsushi/rust-pcre2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

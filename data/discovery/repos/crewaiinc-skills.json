@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T04:28:48.362705+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2474
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "crewAIInc/skills",
+    "html_url": "https://github.com/crewAIInc/skills",
+    "language": null,
+    "pushed_at": "2026-04-21T15:38:33Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-23T01:04:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Production-ready retry library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Release](https://img.shields.io/github/release/codeGROOVE-dev/retry.svg?style=flat-square)](https://github.com/codeGROOVE-dev/retry/releases/latest)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Release](https://img.shields.io/github/release/codeGROOVE-dev/retry.svg?style=flat-square)](https://github.com/codeGROOVE-dev/retry/releases/latest)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998446,
+      "status": "candidate",
+      "text": "dependability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998435,
+      "status": "candidate",
+      "text": "reliableness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998117,
+      "status": "candidate",
+      "text": "dependableness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998546,
+      "status": "candidate",
+      "text": "dependable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998527,
+      "status": "candidate",
+      "text": "reliable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "reliability",
+      "sense_id": "reliability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3021,
+      "status": "candidate",
+      "text": "dependability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1016,
+      "status": "candidate",
+      "text": "reliableness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "dependableness"
+    }
+  ],
+  "concept_id": "reliability",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reliability",
+  "observation_id": "04e7b5bda4f7a079",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "reliability",
+  "source_context_snippet": "[![Release](https://img.shields.io/github/release/codeGROOVE-dev/retry.svg?style=flat-square)](https://github.com/codeGROOVE-dev/retry/releases/latest)",
+  "source_file": null,
+  "source_repo": "codeGROOVE-dev/retry",
+  "source_repo_description": "Production-ready retry library for Go"
+}

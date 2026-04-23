@@ -1,7 +1,7 @@
 {
   "component": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -62,6 +62,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/semantic.yml",
       "source_repo": "electron/fiddle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/convetional-commit.yml",
+      "source_repo": "puppeteer/puppeteer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commits.yml",
+      "source_repo": "grafana/loki"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/semantic.yml",
+      "source_repo": "kubernetes/kube-state-metrics"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/conventional-commit.yml",
+      "source_repo": "ChromeDevTools/chrome-devtools-mcp"
     }
   ]
 }

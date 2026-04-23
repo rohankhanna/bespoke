@@ -1,0 +1,417 @@
+{
+  "components": [
+    {
+      "component": "subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fluttercheck.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fluttercheck.yml"
+    },
+    {
+      "component": "subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fluttercheck.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fluttercheck.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gofmt.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gofmt.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml"
+    },
+    {
+      "component": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "DefinedNet/patch-go@c8e4a17c75eb242d34c212419d7d3d25e8d58949",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@a06a81a03ee405af7f2048a818ed3f03bbf83c7b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "DefinedNet/patch-go@c8e4a17c75eb242d34c212419d7d3d25e8d58949",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "DefinedNet/patch-go@c8e4a17c75eb242d34c212419d7d3d25e8d58949",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftfmt.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "swiftlang/swift-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fluttercheck.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fluttercheck.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fluttercheck.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "Flutter check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gofmt.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gofmt.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gofmt.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "gofmt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gotest.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "actions/setup-go@7a3fe6cf4cb3a834922a1244abfce67bcef6a0c5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gotest.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "Go tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "DefinedNet/patch-go@c8e4a17c75eb242d34c212419d7d3d25e8d58949",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "softprops/action-gh-release@a06a81a03ee405af7f2048a818ed3f03bbf83c7b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "DefinedNet/patch-go@c8e4a17c75eb242d34c212419d7d3d25e8d58949",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "subosito/flutter-action@fd55f4c5af5b953cc57a2be44cb082c8f6635e8e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "Smoke build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftfmt.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftfmt.yml",
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "Swift format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DefinedNet/mobile_nebula",
+      "target": "nebula",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:40:33.337280+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2413
+    },
+    {
+      "path": ".github/workflows/fluttercheck.yml",
+      "size": 1189
+    },
+    {
+      "path": ".github/workflows/gofmt.sh",
+      "size": 304
+    },
+    {
+      "path": ".github/workflows/gofmt.yml",
+      "size": 887
+    },
+    {
+      "path": ".github/workflows/gotest.yml",
+      "size": 654
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 7259
+    },
+    {
+      "path": ".github/workflows/smoke.yml",
+      "size": 5459
+    },
+    {
+      "path": ".github/workflows/swiftfmt.yml",
+      "size": 444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Brings nebula to mobile devices (iOS, Android)",
+    "fork": false,
+    "full_name": "DefinedNet/mobile_nebula",
+    "html_url": "https://github.com/DefinedNet/mobile_nebula",
+    "language": "Dart",
+    "pushed_at": "2026-04-10T15:56:31Z",
+    "stargazers_count": 165,
+    "topics": [
+      "android",
+      "ios",
+      "nebula"
+    ],
+    "updated_at": "2026-04-10T15:56:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swiftlang/swift-format",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Flutter check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fluttercheck.yml",
+      "term": "Flutter check"
+    },
+    {
+      "context_snippet": "gofmt",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gofmt.yml",
+      "term": "gofmt"
+    },
+    {
+      "context_snippet": "Go tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gotest.yml",
+      "term": "Go tests"
+    },
+    {
+      "context_snippet": "Smoke build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/smoke.yml",
+      "term": "Smoke build"
+    },
+    {
+      "context_snippet": "Swift format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftfmt.yml",
+      "term": "Swift format"
+    },
+    {
+      "context_snippet": "[Play Store](https://play.google.com/store/apps/details?id=net.defined.mobile_nebula&hl=en_US&gl=US) | [App Store](https://apps.apple.com/us/app/mobile-nebula/id1509587936)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "[Play Store](https://play.google.com/store/apps/details?id=net.defined.mobile_nebula&hl=en_US&gl=US) | [App Store](https://apps.apple.com/us/app/mobile-nebula/id1509587936)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nebula"
+    }
+  ]
+}

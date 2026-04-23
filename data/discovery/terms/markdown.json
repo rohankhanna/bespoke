@@ -1,21 +1,56 @@
 {
-  "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "hukkin/mdformat"
+      "source_repo": "DavidAnson/markdownlint"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "ekalinin/github-markdown-toc.go"
+      "source_repo": "DavidAnson/markdownlint-cli2"
     },
     {
       "discovered_via": "repo-topic",
       "source_file": null,
-      "source_repo": "open-rpc/markdown-gen"
+      "source_repo": "adrienbrignon/mkdocs-exporter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "liran-funaro/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "depado/bfchroma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "kentaro-m/blackfriday-confluence"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/markdown-toc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "igorshubovych/markdownlint-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "markdown-it/markdown-it"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "PeterDaveHello/docker-doctoc"
     }
   ],
   "term": "markdown"

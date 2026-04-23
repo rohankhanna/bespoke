@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "runfinch/finch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-build-deploy.yml",
+      "source_repo": "cortexproject/cortex"
     }
   ]
 }

@@ -1,0 +1,515 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/actions/setup-ssh@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_link_check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_link_check.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_link_check.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_backend.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_backend.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_backend.yml"
+    },
+    {
+      "component": "seemethere/upload-artifact-s3@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_backend.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/macos_job.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_backend.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_cadence.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_cadence.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unittest.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/macos_job.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unittest.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/windows_job.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unittest.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-unanswered-to-project.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-release-artifacts.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-release-artifacts.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/executorch",
+      "target": "huggingface/optimum-executorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/executorch",
+      "target": "meta-pytorch/executorch-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "pytorch/test-infra/.github/actions/setup-ssh@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_android.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "reactivecircus/android-emulator-runner@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_android.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_get-changed-files.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "Get Changed Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_link_check.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_backend.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_backend.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_backend.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_backend.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "seemethere/upload-artifact-s3@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_backend.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "pytorch/test-infra/.github/workflows/macos_job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test_backend.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "Test Backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_test_cadence.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test_cadence.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "Test Cadence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unittest.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unittest.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "pytorch/test-infra/.github/workflows/macos_job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_unittest.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "pytorch/test-infra/.github/workflows/windows_job.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_unittest.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "Run all unittests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-unanswered-to-project.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-release-artifacts.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-release-artifacts.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-release-artifacts.yml",
+      "source_repo": "pytorch/executorch",
+      "target": "Android Release Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/executorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/executorch",
+      "target": "embedded",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/executorch",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/executorch",
+      "target": "mobile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/executorch",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/executorch",
+      "target": "tensor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:46:12.671875+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12956
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5089
+    },
+    {
+      "path": ".github/workflows/_android.yml",
+      "size": 3518
+    },
+    {
+      "path": ".github/workflows/_get-changed-files.yml",
+      "size": 1509
+    },
+    {
+      "path": ".github/workflows/_link_check.yml",
+      "size": 4082
+    },
+    {
+      "path": ".github/workflows/_test_backend.yml",
+      "size": 4497
+    },
+    {
+      "path": ".github/workflows/_test_cadence.yml",
+      "size": 2363
+    },
+    {
+      "path": ".github/workflows/_unittest.yml",
+      "size": 2891
+    },
+    {
+      "path": ".github/workflows/add-unanswered-to-project.yml",
+      "size": 11934
+    },
+    {
+      "path": ".github/workflows/android-release-artifacts.yml",
+      "size": 7380
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "On-device AI across mobile, embedded and edge for PyTorch",
+    "fork": false,
+    "full_name": "pytorch/executorch",
+    "html_url": "https://github.com/pytorch/executorch",
+    "language": "Python",
+    "pushed_at": "2026-04-23T05:42:12Z",
+    "stargazers_count": 4536,
+    "topics": [
+      "deep-learning",
+      "embedded",
+      "gpu",
+      "machine-learning",
+      "mobile",
+      "neural-network",
+      "tensor"
+    ],
+    "updated_at": "2026-04-23T05:38:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/optimum-executorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meta-pytorch/executorch-examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_android.yml",
+      "term": "Android"
+    },
+    {
+      "context_snippet": "Get Changed Files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_get-changed-files.yml",
+      "term": "Get Changed Files"
+    },
+    {
+      "context_snippet": "Test Backend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test_backend.yml",
+      "term": "Test Backend"
+    },
+    {
+      "context_snippet": "Test Cadence",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_test_cadence.yml",
+      "term": "Test Cadence"
+    },
+    {
+      "context_snippet": "Run all unittests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_unittest.yml",
+      "term": "Run all unittests"
+    },
+    {
+      "context_snippet": "Android Release Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-release-artifacts.yml",
+      "term": "Android Release Artifacts"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensor"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Succinct's Production-Grade Proving Engine for the OP Stack."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Cycle Count Diff (EigenDA)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Cycle Count Diff (EigenDA)"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23095,
+      "status": "candidate",
+      "text": "var"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22645,
+      "status": "candidate",
+      "text": "age"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22612,
+      "status": "candidate",
+      "text": "dismount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22579,
+      "status": "candidate",
+      "text": "era"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22545,
+      "status": "candidate",
+      "text": "day"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cycle Count Diff (EigenDA)",
+      "sense_id": "cycle-count-diff-eigenda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cycle-count-diff-eigenda",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cycle-count-diff-eigenda",
+  "observation_id": "b01a52bab4a3a5a5",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Cycle Count Diff (EigenDA)",
+  "source_context_snippet": "Cycle Count Diff (EigenDA)",
+  "source_file": ".github/workflows/cycle-count-diff-eigenda.yml",
+  "source_repo": "succinctlabs/op-succinct",
+  "source_repo_description": "Succinct's Production-Grade Proving Engine for the OP Stack."
+}

@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-pr.yml",
+      "source_repo": "nss-dev/nss",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-pr.yml",
+      "source_repo": "nss-dev/nss",
+      "target": "close pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nss-dev/nss",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nss-dev/nss",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nss-dev/nss",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nss-dev/nss",
+      "target": "NSS Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload.yml",
+      "source_repo": "nss-dev/nss",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload.yml",
+      "source_repo": "nss-dev/nss",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/upload.yml",
+      "source_repo": "nss-dev/nss",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload.yml",
+      "source_repo": "nss-dev/nss",
+      "target": "NSS Upload",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:34:56.091147+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/close-pr.yml",
+      "size": 645
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2379
+    },
+    {
+      "path": ".github/workflows/upload.yml",
+      "size": 1571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Network Security Services (NSS)",
+    "fork": false,
+    "full_name": "nss-dev/nss",
+    "html_url": "https://github.com/nss-dev/nss",
+    "language": "C",
+    "pushed_at": "2026-04-22T22:27:07Z",
+    "stargazers_count": 179,
+    "topics": [],
+    "updated_at": "2026-04-22T22:27:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "close pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-pr.yml",
+      "term": "close pull request"
+    },
+    {
+      "context_snippet": "NSS Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "NSS Release"
+    },
+    {
+      "context_snippet": "NSS Upload",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/upload.yml",
+      "term": "NSS Upload"
+    }
+  ]
+}

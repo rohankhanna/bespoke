@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A dependency manager for .NET with support for NuGet packages and Git repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Travis build status](https://api.travis-ci.org/fsprojects/Paket.svg?branch=master)](https://travis-ci.org/fsprojects/Paket?branch=master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Travis build status](https://api.travis-ci.org/fsprojects/Paket.svg?branch=master)](https://travis-ci.org/fsprojects/Paket?branch=master)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39861244,
+      "status": "candidate",
+      "text": "mononucleosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39700941,
+      "status": "candidate",
+      "text": "monaural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39627395,
+      "status": "candidate",
+      "text": "monophonic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29861258,
+      "status": "candidate",
+      "text": "single-channel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29828717,
+      "status": "candidate",
+      "text": "diiodotyrosine"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mono",
+      "sense_id": "mono#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1031,
+      "status": "candidate",
+      "text": "monaural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1030,
+      "status": "candidate",
+      "text": "monophonic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41,
+      "status": "candidate",
+      "text": "mononucleosis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "single-channel"
+    }
+  ],
+  "concept_id": "mono",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mono",
+  "observation_id": "e21bbb3ca59546f4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "mono",
+  "source_context_snippet": "[![Travis build status](https://api.travis-ci.org/fsprojects/Paket.svg?branch=master)](https://travis-ci.org/fsprojects/Paket?branch=master)",
+  "source_file": null,
+  "source_repo": "fsprojects/Paket",
+  "source_repo_description": "A dependency manager for .NET with support for NuGet packages and Git repositories."
+}

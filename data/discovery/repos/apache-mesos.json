@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/mesos",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/mesos",
+      "target": "cplusplus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/mesos",
+      "target": "mesos",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:31:32.879027+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1103
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache Mesos",
+    "fork": false,
+    "full_name": "apache/mesos",
+    "html_url": "https://github.com/apache/mesos",
+    "language": "C++",
+    "pushed_at": "2024-08-23T18:59:16Z",
+    "stargazers_count": 5363,
+    "topics": [
+      "cloud",
+      "cplusplus",
+      "mesos"
+    ],
+    "updated_at": "2026-04-21T07:54:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Apache Mesos is a cluster manager that provides efficient resource isolation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "Apache Mesos is a cluster manager that provides efficient resource isolation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus"
+    },
+    {
+      "context_snippet": "Apache Mesos is a cluster manager that provides efficient resource isolation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mesos"
+    }
+  ]
+}

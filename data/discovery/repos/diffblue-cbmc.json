@@ -1,0 +1,418 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml"
+    },
+    {
+      "component": "vmactions/freebsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml"
+    },
+    {
+      "component": "vmactions/openbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml"
+    },
+    {
+      "component": "vmactions/netbsd-vm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-Linux.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-Linux.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-Linux.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-Xen.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-Xen.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-analysis.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csmith.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csmith.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "diffblue/cbmc",
+      "target": "diffblue/homebrew-cbmc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "vmactions/freebsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "vmactions/openbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "vmactions/netbsd-vm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bsd.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "Build and Test on *BSD",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-Linux.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-Linux.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-Linux.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-Linux.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "Build Linux partially with CPROVER tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-Xen.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test-Xen.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-Xen.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "Build Xen with CPROVER tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-analysis.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-analysis.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "CI Performance Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "diffblue/cbmc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "diffblue/cbmc",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "diffblue/cbmc",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "diffblue/cbmc",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "codecov/codecov-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "Codecov coverage report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csmith.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/csmith.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/csmith.yaml",
+      "source_repo": "diffblue/cbmc",
+      "target": "Run CSmith",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:34:56.752961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5314
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1105
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 2189
+    },
+    {
+      "path": ".github/workflows/bsd.yaml",
+      "size": 7980
+    },
+    {
+      "path": ".github/workflows/build-and-test-Linux.yaml",
+      "size": 1909
+    },
+    {
+      "path": ".github/workflows/build-and-test-Xen.yaml",
+      "size": 2905
+    },
+    {
+      "path": ".github/workflows/ci-analysis.yaml",
+      "size": 1092
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1457
+    },
+    {
+      "path": ".github/workflows/coverage.yaml",
+      "size": 2965
+    },
+    {
+      "path": ".github/workflows/csmith.yaml",
+      "size": 1709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "C Bounded Model Checker",
+    "fork": false,
+    "full_name": "diffblue/cbmc",
+    "html_url": "https://github.com/diffblue/cbmc",
+    "language": "C++",
+    "pushed_at": "2026-04-23T00:50:03Z",
+    "stargazers_count": 1046,
+    "topics": [],
+    "updated_at": "2026-04-22T12:21:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "diffblue/homebrew-cbmc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test on *BSD",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bsd.yaml",
+      "term": "Build and Test on *BSD"
+    },
+    {
+      "context_snippet": "Build Linux partially with CPROVER tools",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-Linux.yaml",
+      "term": "Build Linux partially with CPROVER tools"
+    },
+    {
+      "context_snippet": "Build Xen with CPROVER tools",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test-Xen.yaml",
+      "term": "Build Xen with CPROVER tools"
+    },
+    {
+      "context_snippet": "CI Performance Analysis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-analysis.yaml",
+      "term": "CI Performance Analysis"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Codecov coverage report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yaml",
+      "term": "Codecov coverage report"
+    },
+    {
+      "context_snippet": "Run CSmith",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/csmith.yaml",
+      "term": "Run CSmith"
+    }
+  ]
+}

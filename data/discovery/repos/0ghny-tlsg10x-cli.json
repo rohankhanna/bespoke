@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "0ghny/tlsg10x-cli",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "0ghny/tlsg10x-cli",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "0ghny/tlsg10x-cli",
+      "target": "goreleaser/goreleaser-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "0ghny/tlsg10x-cli",
+      "target": "goreleaser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:36:51.802190+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1134
+    },
+    {
+      "path": "go.mod",
+      "size": 389
+    },
+    {
+      "path": ".github/workflows/goreleaser.yml",
+      "size": 960
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "UnOfficial TPLink SG (Easy Smart) Switches CommandLine",
+    "fork": false,
+    "full_name": "0ghny/tlsg10x-cli",
+    "html_url": "https://github.com/0ghny/tlsg10x-cli",
+    "language": "Go",
+    "pushed_at": "2023-05-05T13:24:19Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-05-05T13:43:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "term": "goreleaser"
+    }
+  ]
+}

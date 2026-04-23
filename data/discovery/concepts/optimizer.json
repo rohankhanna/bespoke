@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "optimizer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/pytorch-image-models",
+      "status": "candidate-context",
+      "text": "The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts, and pretrained weights -- ResNet, ResNeXT, EfficientNet, NFNet, Vision Transformer (ViT), MobileNetV4, MobileNet-V3 & V2, RegNet, DPN, CSPNet, Swin Transformer, MaxViT, CoAtNet, ConvNeXt, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/pytorch-image-models",
+      "status": "candidate-context",
+      "text": "- [What's New](#whats-new)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AGI-Arena/MARS",
+      "status": "candidate-context",
+      "text": "The official implementation of MARS: Unleashing the Power of Variance Reduction for Training Large Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AGI-Arena/MARS",
+      "status": "candidate-context",
+      "text": "This repository contains the official code for the paper [MARS: Unleashing the Power of Variance Reduction for Training Large Models](https://arxiv.org/abs/2411.10438)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/pytorch-image-models",
+      "status": "candidate",
+      "text": "- [What's New](#whats-new)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AGI-Arena/MARS",
+      "status": "candidate",
+      "text": "This repository contains the official code for the paper [MARS: Unleashing the Power of Variance Reduction for Training Large Models](https://arxiv.org/abs/2411.10438)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29862308,
+      "status": "candidate",
+      "text": "optimization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29857486,
+      "status": "candidate",
+      "text": "optimisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29728344,
+      "status": "candidate",
+      "text": "tuner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19891425,
+      "status": "candidate",
+      "text": "optimiser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19891424,
+      "status": "candidate",
+      "text": "operations manager"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "optimizer",
+  "concept_id": "optimizer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AGI-Arena/MARS"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "optimizer",
+      "sense_id": "optimizer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

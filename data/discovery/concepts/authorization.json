@@ -43,6 +43,42 @@
       "source_repo": "aporthq/aport-spec",
       "status": "candidate-context",
       "text": "> *The runtime trust rail for AI agents*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-Casbin.NET",
+      "status": "candidate-context",
+      "text": "An authorization library that supports access control models like ACL, RBAC, ABAC in .NET (C#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-Casbin.NET",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/Casbin/Casbin.NET/_apis/build/status/casbin.Casbin.NET?branchName=master)](https://dev.azure.com/Casbin/Casbin.NET/_build?definitionId=1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-cpp",
+      "status": "candidate-context",
+      "text": "An authorization library that supports access control models like ACL, RBAC, ABAC in C/C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-cpp",
+      "status": "candidate-context",
+      "text": "Casbin-CPP"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/casbin-rs",
+      "status": "candidate-context",
+      "text": "An authorization library that supports access control models like ACL, RBAC, ABAC in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-rs",
+      "status": "candidate-context",
+      "text": "[![GitHub Actions](https://github.com/casbin/casbin-rs/workflows/CI/badge.svg)](https://github.com/casbin/casbin-rs/actions)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "aporthq/aport-spec",
       "status": "candidate",
       "text": "> *The runtime trust rail for AI agents*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-Casbin.NET",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/Casbin/Casbin.NET/_apis/build/status/casbin.Casbin.NET?branchName=master)](https://dev.azure.com/Casbin/Casbin.NET/_build?definitionId=1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-cpp",
+      "status": "candidate",
+      "text": "Casbin-CPP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/casbin-rs",
+      "status": "candidate",
+      "text": "[![GitHub Actions](https://github.com/casbin/casbin-rs/workflows/CI/badge.svg)](https://github.com/casbin/casbin-rs/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -153,11 +207,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "aporthq/aport-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

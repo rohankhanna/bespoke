@@ -84,7 +84,7 @@
   "normalized_form": "brew-update",
   "observation_id": "f545b70946fadd12",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-22T04:49:29.633207+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "brew update",
   "source_context_snippet": "brew update",
   "source_file": ".github/workflows/brew.yml",

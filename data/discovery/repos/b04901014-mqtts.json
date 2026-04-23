@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "b04901014/MQTTS",
+      "target": "pyannote/pyannote-audio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "b04901014/MQTTS",
+      "target": "speechcolab/gigaspeech",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "b04901014/MQTTS",
+      "target": "pyannote/pyannote-audio",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:33:35.146825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4167
+    },
+    {
+      "path": "requirements.txt",
+      "size": 168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "b04901014/MQTTS",
+    "html_url": "https://github.com/b04901014/MQTTS",
+    "language": "Python",
+    "pushed_at": "2023-05-15T21:06:14Z",
+    "stargazers_count": 260,
+    "topics": [],
+    "updated_at": "2026-03-30T06:07:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyannote/pyannote-audio",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "speechcolab/gigaspeech",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyannote/pyannote-audio",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

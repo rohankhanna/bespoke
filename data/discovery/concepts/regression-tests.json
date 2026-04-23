@@ -32,6 +32,18 @@
       "source_repo": "slothy-optimizer/slothy",
       "status": "candidate-context",
       "text": "Regression tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clj-kondo/clj-kondo",
+      "status": "candidate-context",
+      "text": "Static analyzer and linter for Clojure code that sparks joy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-kondo/clj-kondo",
+      "status": "candidate-context",
+      "text": "Regression tests"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +56,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "slothy-optimizer/slothy",
+      "status": "candidate",
+      "text": "Regression tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-kondo/clj-kondo",
       "status": "candidate",
       "text": "Regression tests"
     }
@@ -125,11 +143,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/regression.yml",
       "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/regression.yml",
+      "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/diff.yml",
+      "source_repo": "clj-kondo/clj-kondo"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

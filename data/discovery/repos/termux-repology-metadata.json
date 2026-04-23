@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repology_metadata.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/repology_metadata.yml",
+      "source_repo": "termux/repology-metadata",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repology_metadata.yml",
+      "source_repo": "termux/repology-metadata",
+      "target": "Repology metadata",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:28:08.129290+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 301
+    },
+    {
+      "path": ".github/workflows/repology_metadata.yml",
+      "size": 2004
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Scripts and Github Actions workflow for generating Repology metadata.",
+    "fork": false,
+    "full_name": "termux/repology-metadata",
+    "html_url": "https://github.com/termux/repology-metadata",
+    "language": "Shell",
+    "pushed_at": "2026-04-23T03:41:24Z",
+    "stargazers_count": 128,
+    "topics": [],
+    "updated_at": "2026-04-23T03:41:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Repology metadata",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/repology_metadata.yml",
+      "term": "Repology metadata"
+    }
+  ]
+}

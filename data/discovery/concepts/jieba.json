@@ -55,6 +55,18 @@
       "source_repo": "fengkx/jieba-wasm",
       "status": "candidate-context",
       "text": "> [jieba-rs](https://github.com/messense/jieba-rs) \u7684 wasm binding"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anderscui/jieba.NET",
+      "status": "candidate-context",
+      "text": "jieba\u4e2d\u6587\u5206\u8bcd\u7684.NET\u7248\u672c\uff08\u652f\u6301.NET Framework\u4e0e.NET Core\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anderscui/jieba.NET",
+      "status": "candidate-context",
+      "text": "jieba.NET\u662f[jieba\u4e2d\u6587\u5206\u8bcd](https://github.com/fxsjy/jieba)\u7684.NET\u7248\u672c\uff08C#\u5b9e\u73b0\uff09\u3002"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "fengkx/jieba-wasm",
       "status": "candidate",
       "text": "> [jieba-rs](https://github.com/messense/jieba-rs) \u7684 wasm binding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anderscui/jieba.NET",
+      "status": "candidate",
+      "text": "jieba.NET\u662f[jieba\u4e2d\u6587\u5206\u8bcd](https://github.com/fxsjy/jieba)\u7684.NET\u7248\u672c\uff08C#\u5b9e\u73b0\uff09\u3002"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "fengkx/jieba-wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "anderscui/jieba.NET"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

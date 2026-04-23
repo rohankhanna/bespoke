@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deploy langgenious/dify, an LLM based app on kubernetes with helm chart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Github All Releases](https://img.shields.io/github/downloads/borispolonsky/dify-helm/total.svg)]()"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Github All Releases](https://img.shields.io/github/downloads/borispolonsky/dify-helm/total.svg)]()"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "helm-chart",
+      "sense_id": "helm-chart#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "helm-chart",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "helm-chart",
+  "observation_id": "367c1eb4a77dc520",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "helm-chart",
+  "source_context_snippet": "[![Github All Releases](https://img.shields.io/github/downloads/borispolonsky/dify-helm/total.svg)]()",
+  "source_file": null,
+  "source_repo": "BorisPolonsky/dify-helm",
+  "source_repo_description": "Deploy langgenious/dify, an LLM based app on kubernetes with helm chart."
+}

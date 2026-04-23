@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "conor42/fast-lzma2",
+      "target": "conor42/7-zip-fl2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "conor42/fast-lzma2",
+      "target": "mcmilk/7-zip-zstd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "conor42/fast-lzma2",
+      "target": "szcnick/p7zip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "conor42/fast-lzma2",
+      "target": "conor42/fxz",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:48:05.296925+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast LZMA2 Library",
+    "fork": false,
+    "full_name": "conor42/fast-lzma2",
+    "html_url": "https://github.com/conor42/fast-lzma2",
+    "language": "C",
+    "pushed_at": "2026-01-11T06:02:31Z",
+    "stargazers_count": 336,
+    "topics": [],
+    "updated_at": "2026-04-18T13:48:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conor42/7-zip-fl2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "conor42/fxz",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mcmilk/7-zip-zstd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "szcnick/p7zip",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

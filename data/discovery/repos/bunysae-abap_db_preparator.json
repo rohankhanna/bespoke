@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bunysae/abap_db_preparator",
+      "target": "cesar-sap/abap_fm_json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bunysae/abap_db_preparator",
+      "target": "larshp/abapgit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bunysae/abap_db_preparator",
+      "target": "abap-prep/abap_db_preparator",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:38:54.289224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Avoid breaking tests with database preparation",
+    "fork": false,
+    "full_name": "bunysae/abap_db_preparator",
+    "html_url": "https://github.com/bunysae/abap_db_preparator",
+    "language": "ABAP",
+    "pushed_at": "2024-06-17T08:33:13Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2024-12-30T02:10:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abap-prep/abap_db_preparator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cesar-sap/abap_fm_json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "larshp/abapgit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -44,6 +44,54 @@
       "source_repo": "neovim/neovim",
       "status": "candidate-context",
       "text": "coverity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "git/git",
+      "status": "candidate-context",
+      "text": "Git Source Code Mirror - This is a publish-only repository but pull requests can be turned into patches to the mailing list via GitGitGadget (https://gitgitgadget.github.io/). Please follow Documentation/SubmittingPatches procedure for any of your improvements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git/git",
+      "status": "candidate-context",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libressl/portable",
+      "status": "candidate-context",
+      "text": "LibreSSL Portable itself. This includes the build scaffold and compatibility layer that builds portable LibreSSL from the OpenBSD source code. Pull requests or patches sent to tech@openbsd.org are welcome."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libressl/portable",
+      "status": "candidate-context",
+      "text": "\"Coverity\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strukturag/libheif",
+      "status": "candidate-context",
+      "text": "libheif is an HEIF and AVIF file format decoder and encoder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strukturag/libheif",
+      "status": "candidate-context",
+      "text": "coverity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FreeRDP/FreeRDP",
+      "status": "candidate-context",
+      "text": "FreeRDP is a free remote desktop protocol library and clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreeRDP/FreeRDP",
+      "status": "candidate-context",
+      "text": "Coverity"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +112,30 @@
       "source_repo": "neovim/neovim",
       "status": "candidate",
       "text": "coverity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "git/git",
+      "status": "candidate",
+      "text": "Coverity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libressl/portable",
+      "status": "candidate",
+      "text": "\"Coverity\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strukturag/libheif",
+      "status": "candidate",
+      "text": "coverity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FreeRDP/FreeRDP",
+      "status": "candidate",
+      "text": "Coverity"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +197,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/coverity.yml",
       "source_repo": "neovim/neovim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "git/git"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "libressl/portable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "strukturag/libheif"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "FreeRDP/FreeRDP"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

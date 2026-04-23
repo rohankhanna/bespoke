@@ -301,6 +301,150 @@
       "source_repo": "zhayujie/bot-on-anything",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/6e931057-e09f-4742-9fbd-2417cf6bc2f3\" alt=\"Bot-On-Anything\" width=\"600\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blrchen/chatgpt-lite",
+      "status": "candidate-context",
+      "text": "ChatGPT Lite is a feature-rich, self-hostable ChatGPT app. Built with Next.js.  ChatGPT Lite \u662f\u4e00\u4e2a\u529f\u80fd\u5b8c\u6574\u3001\u652f\u6301\u79c1\u6709\u5316\u90e8\u7f72\u7684 ChatGPT \u5e94\u7528\u3002\u57fa\u4e8e Next.js\uff0c\u5f00\u7bb1\u5373\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blrchen/chatgpt-lite",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-cookbook",
+      "status": "candidate-context",
+      "text": "Examples and guides for using the OpenAI API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-cookbook",
+      "status": "candidate-context",
+      "text": "<a href=\"https://cookbook.openai.com\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate-context",
+      "text": "\ud83d\ude4c OpenHands: AI-Driven Development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate-context",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate-context",
+      "text": "High-performance In-browser LLM Inference Engine "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"top\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV (pronounced RwaKuv) is an RNN with great LLM performance, which can also be directly trained like a GPT transformer (parallelizable). We are at RWKV-7 \"Goose\". So it's combining the best of RNN and transformer - great performance, linear time, constant space (no kv-cache), fast training, infinite ctx_len, and free sentence embedding."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate-context",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "InternLM/InternLM-XComposer",
+      "status": "candidate-context",
+      "text": "InternLM-XComposer2.5-OmniLive: A Comprehensive Multimodal System for Long-term Streaming Video and Audio Interactions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM-XComposer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenMOSS/MOSS",
+      "status": "candidate-context",
+      "text": "An open-source tool-augmented conversational language model from Fudan University"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenMOSS/MOSS",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langflow-ai/langflow",
+      "status": "candidate-context",
+      "text": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langflow-ai/langflow",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "status": "candidate-context",
+      "text": "ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "status": "candidate-context",
+      "text": "RWKV-7 code: https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v7"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blrchen/chatgpt-minimal",
+      "status": "candidate-context",
+      "text": "ChatGPT Minimal implements core ChatGPT features with a minimal codebase. Built with Next.js. Clean code, easy to extend. ChatGPT Minimal \u4ee5\u6700\u5c0f\u4ee3\u7801\u91cf\u5b9e\u73b0\u4e86 ChatGPT \u6838\u5fc3\u529f\u80fd\u3002\u57fa\u4e8e Next.js\uff0c\u4ee3\u7801\u6e05\u6670\uff0c\u6613\u4e8e\u6269\u5c55\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blrchen/chatgpt-minimal",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "status": "candidate-context",
+      "text": "This is the repository for the Tool Learning survey."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "status": "candidate-context",
+      "text": "Recently, tool learning with large language models(LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ai00-X/ai00_server",
+      "status": "candidate-context",
+      "text": "The all-in-one RWKV runtime box with embed, RAG, AI agents, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ai00-X/ai00_server",
+      "status": "candidate-context",
+      "text": "<p align='center'>"
     }
   ],
   "candidate_glosses": [
@@ -447,6 +591,78 @@
       "source_repo": "zhayujie/bot-on-anything",
       "status": "candidate",
       "text": "<p align=\"center\"><img src= \"https://github.com/user-attachments/assets/6e931057-e09f-4742-9fbd-2417cf6bc2f3\" alt=\"Bot-On-Anything\" width=\"600\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blrchen/chatgpt-lite",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-cookbook",
+      "status": "candidate",
+      "text": "<a href=\"https://cookbook.openai.com\" target=\"_blank\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenHands/OpenHands",
+      "status": "candidate",
+      "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlc-ai/web-llm",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"top\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/RWKV-LM",
+      "status": "candidate",
+      "text": "RWKV website: https://rwkv.com (with 150+ papers training various RWKV models)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "InternLM/InternLM-XComposer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenMOSS/MOSS",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langflow-ai/langflow",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD030 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "status": "candidate",
+      "text": "RWKV-7 code: https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blrchen/chatgpt-minimal",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quchangle1/LLM-Tool-Survey",
+      "status": "candidate",
+      "text": "Recently, tool learning with large language models(LLMs) has emerged as a promising paradigm for augmenting the capabilities of LLMs to tackle highly complex problems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ai00-X/ai00_server",
+      "status": "candidate",
+      "text": "<p align='center'>"
     }
   ],
   "candidate_related_terms": [],
@@ -772,11 +988,125 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "zhayujie/bot-on-anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "blrchen/chatgpt-lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "openai/openai-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BlinkDL/RWKV-LM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "InternLM/InternLM-XComposer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobehub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ElricLiu/Awesome-One-Click-Deployment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "anse-app/chatgpt-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BlinkDL/ChatRWKV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "blrchen/chatgpt-minimal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "quchangle1/LLM-Tool-Survey"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Ai00-X/ai00_server"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

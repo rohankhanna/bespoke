@@ -1,0 +1,135 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@nextest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-audit",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml",
+      "source_repo": "celo-org/celo-threshold-bls-rs",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml",
+      "source_repo": "celo-org/celo-threshold-bls-rs",
+      "target": "taiki-e/install-action@nextest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml",
+      "source_repo": "celo-org/celo-threshold-bls-rs",
+      "target": "taiki-e/install-action@cargo-audit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml",
+      "source_repo": "celo-org/celo-threshold-bls-rs",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust_ci.yml",
+      "source_repo": "celo-org/celo-threshold-bls-rs",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust_ci.yml",
+      "source_repo": "celo-org/celo-threshold-bls-rs",
+      "target": "Rust CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:31:44.787175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3104
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 467
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1587
+    },
+    {
+      "path": ".github/workflows/rust_ci.yml",
+      "size": 2449
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Threshold BLS Signatures and DKG",
+    "fork": false,
+    "full_name": "celo-org/celo-threshold-bls-rs",
+    "html_url": "https://github.com/celo-org/celo-threshold-bls-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T23:28:46Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-04-22T14:25:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust_ci.yml",
+      "term": "Rust CI"
+    }
+  ]
+}

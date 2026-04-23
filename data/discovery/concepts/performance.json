@@ -103,6 +103,114 @@
       "source_repo": "rust-lang/rustc-perf",
       "status": "candidate-context",
       "text": "This repository contains two primary crates:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate-context",
+      "text": "oneAPI Deep Neural Network Library (oneDNN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate-context",
+      "text": "[![UXL Foundation Logo](https://github.com/uxlfoundation/artwork/blob/main/foundation/uxl-foundation-logo-horizontal-color.png)][UXL Foundation]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fastify/fastify",
+      "status": "candidate-context",
+      "text": "Fast and low overhead web framework, for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"> <a href=\"https://fastify.dev/\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "poolifier/poolifier",
+      "status": "candidate-context",
+      "text": "Fast and small Node.js worker_threads and cluster worker pool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/poolifier",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "A modern formatting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/576385/156254208-f5b743a9-88cf-439d-b0c0-923d53e8d551.png\" alt=\"{fmt}\" width=\"25%\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/tvm",
+      "status": "candidate-context",
+      "text": "Open Machine Learning Compiler Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tvm",
+      "status": "candidate-context",
+      "text": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "objectbox/objectbox-c",
+      "status": "candidate-context",
+      "text": "C and C++ database for objects and structs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-c",
+      "status": "candidate-context",
+      "text": "ObjectBox Embedded Database for C and C++"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mypyc/mypyc-benchmarks",
+      "status": "candidate-context",
+      "text": "Mypyc benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mypyc/mypyc-benchmarks",
+      "status": "candidate-context",
+      "text": "This is a collection of mypyc benchmarks. They are intended to track"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate-context",
+      "text": "Linux, Android and Chromium Performance Tools built using the Microsoft Performance Toolkit. Cross-platform .NET Core + WPA GUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate-context",
+      "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maypok86/otter",
+      "status": "candidate-context",
+      "text": "A high performance caching library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maypok86/otter",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +261,60 @@
       "source_repo": "rust-lang/rustc-perf",
       "status": "candidate",
       "text": "This repository contains two primary crates:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDNN",
+      "status": "candidate",
+      "text": "[![UXL Foundation Logo](https://github.com/uxlfoundation/artwork/blob/main/foundation/uxl-foundation-logo-horizontal-color.png)][UXL Foundation]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fastify/fastify",
+      "status": "candidate",
+      "text": "<div align=\"center\"> <a href=\"https://fastify.dev/\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "poolifier/poolifier",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/576385/156254208-f5b743a9-88cf-439d-b0c0-923d53e8d551.png\" alt=\"{fmt}\" width=\"25%\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/tvm",
+      "status": "candidate",
+      "text": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "objectbox/objectbox-c",
+      "status": "candidate",
+      "text": "ObjectBox Embedded Database for C and C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mypyc/mypyc-benchmarks",
+      "status": "candidate",
+      "text": "This is a collection of mypyc benchmarks. They are intended to track"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android",
+      "status": "candidate",
+      "text": "> This repo contains various Linux and Android Performance Analysis tools built with the [Microsoft Performance Toolkit SDK](https://github.com/microsoft/microsoft-performance-toolkit-sdk)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maypok86/otter",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +442,65 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "rust-lang/rustc-perf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fastify/fastify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "poolifier/poolifier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "fmtlib/fmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/tvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "objectbox/objectbox-c"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "mypyc/mypyc-benchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "maypok86/otter"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

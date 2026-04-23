@@ -31,6 +31,24 @@
       "source_repo": "LazyVim/LazyVim",
       "status": "candidate-context",
       "text": "PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/tokyonight.nvim",
+      "status": "candidate-context",
+      "text": "\ud83c\udfd9  A clean, dark Neovim theme written in Lua, with support for lsp, treesitter and lots of plugins. Includes additional themes for Kitty, Alacritty, iTerm and Fish."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/tokyonight.nvim",
+      "status": "candidate-context",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shakacode/package_json",
+      "status": "candidate-context",
+      "text": "PR Title"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +61,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "LazyVim/LazyVim",
+      "status": "candidate",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/tokyonight.nvim",
+      "status": "candidate",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shakacode/package_json",
       "status": "candidate",
       "text": "PR Title"
     }
@@ -106,11 +136,23 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "LazyVim/LazyVim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/tokyonight.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/title.yml",
+      "source_repo": "shakacode/package_json"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

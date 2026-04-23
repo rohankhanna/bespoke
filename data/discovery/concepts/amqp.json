@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "amqp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "streadway/amqp",
+      "status": "candidate-context",
+      "text": "Go client for AMQP 0.9.1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streadway/amqp",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://api.travis-ci.org/streadway/amqp.svg)](http://travis-ci.org/streadway/amqp) [![GoDoc](https://godoc.org/github.com/streadway/amqp?status.svg)](http://godoc.org/github.com/streadway/amqp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amqp-node/amqplib",
+      "status": "candidate-context",
+      "text": "AMQP 0-9-1 library and client for Node.JS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amqp-node/amqplib",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/amqplib.svg?style=flat-square)](https://www.npmjs.com/package/amqplib)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "streadway/amqp",
+      "status": "candidate",
+      "text": "[![Build Status](https://api.travis-ci.org/streadway/amqp.svg)](http://travis-ci.org/streadway/amqp) [![GoDoc](https://godoc.org/github.com/streadway/amqp?status.svg)](http://godoc.org/github.com/streadway/amqp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amqp-node/amqplib",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/amqplib.svg?style=flat-square)](https://www.npmjs.com/package/amqplib)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "amqp",
+  "concept_id": "amqp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "streadway/amqp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "amqp-node/amqplib"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "amqp",
+      "sense_id": "amqp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

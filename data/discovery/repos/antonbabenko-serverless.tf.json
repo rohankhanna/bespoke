@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonbabenko/serverless.tf",
+      "target": "terraform-aws-modules/terraform-aws-notify-slack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonbabenko/serverless.tf",
+      "target": "antonbabenko/serverless.tf-playground",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonbabenko/serverless.tf",
+      "target": "terraform-aws-modules/terraform-aws-lambda",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "antonbabenko/serverless.tf",
+      "target": "scottwinkler/terraform-provider-shell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf",
+      "target": "aws-serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf",
+      "target": "infrastructure-as-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf",
+      "target": "serverless-terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antonbabenko/serverless.tf",
+      "target": "terraform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:43:09.951946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "serverless.tf is an opinionated open-source framework for developing, building, deploying, and securing serverless applications and infrastructures on AWS using Terraform.",
+    "fork": false,
+    "full_name": "antonbabenko/serverless.tf",
+    "html_url": "https://github.com/antonbabenko/serverless.tf",
+    "language": null,
+    "pushed_at": "2025-03-19T14:56:19Z",
+    "stargazers_count": 867,
+    "topics": [
+      "aws-serverless",
+      "infrastructure-as-code",
+      "serverless",
+      "serverless-terraform",
+      "terraform"
+    ],
+    "updated_at": "2026-04-23T03:18:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonbabenko/serverless.tf-playground",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scottwinkler/terraform-provider-shell",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "terraform-aws-modules/terraform-aws-lambda",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "terraform-aws-modules/terraform-aws-notify-slack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository / _[serverless.tf framework](https://serverless.tf)_ aims to provide information, solutions, and tools for building, deploying, and managing serverless applications and infrastructure using [Terraform](https://www.terraform.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-serverless"
+    },
+    {
+      "context_snippet": "This repository / _[serverless.tf framework](https://serverless.tf)_ aims to provide information, solutions, and tools for building, deploying, and managing serverless applications and infrastructure using [Terraform](https://www.terraform.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure-as-code"
+    },
+    {
+      "context_snippet": "This repository / _[serverless.tf framework](https://serverless.tf)_ aims to provide information, solutions, and tools for building, deploying, and managing serverless applications and infrastructure using [Terraform](https://www.terraform.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "This repository / _[serverless.tf framework](https://serverless.tf)_ aims to provide information, solutions, and tools for building, deploying, and managing serverless applications and infrastructure using [Terraform](https://www.terraform.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-terraform"
+    },
+    {
+      "context_snippet": "This repository / _[serverless.tf framework](https://serverless.tf)_ aims to provide information, solutions, and tools for building, deploying, and managing serverless applications and infrastructure using [Terraform](https://www.terraform.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terraform"
+    }
+  ]
+}

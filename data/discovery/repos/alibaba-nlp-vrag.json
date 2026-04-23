@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alibaba-NLP/VRAG",
+      "target": "qwenlm/qwen3-vl-embedding",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alibaba-NLP/VRAG",
+      "target": "alibaba-nlp/vidorag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alibaba-NLP/VRAG",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alibaba-NLP/VRAG",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:33.666754+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12693
+    },
+    {
+      "path": "requirements.txt",
+      "size": 621
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Multimodal Retrieval-augmented Generation Framework Built by Tongyi Lab, Alibaba Group.",
+    "fork": false,
+    "full_name": "Alibaba-NLP/VRAG",
+    "html_url": "https://github.com/Alibaba-NLP/VRAG",
+    "language": "Python",
+    "pushed_at": "2026-04-03T06:11:08Z",
+    "stargazers_count": 868,
+    "topics": [],
+    "updated_at": "2026-04-23T06:32:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba-nlp/vidorag",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen3-vl-embedding",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

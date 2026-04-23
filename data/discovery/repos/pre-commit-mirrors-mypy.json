@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pre-commit/mirrors-mypy",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pre-commit/mirrors-mypy",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pre-commit/mirrors-mypy",
+      "target": "main",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:44:17.198054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1156
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mirror of mypy for pre-commit",
+    "fork": false,
+    "full_name": "pre-commit/mirrors-mypy",
+    "html_url": "https://github.com/pre-commit/mirrors-mypy",
+    "language": "Python",
+    "pushed_at": "2026-04-22T09:00:31Z",
+    "stargazers_count": 349,
+    "topics": [],
+    "updated_at": "2026-04-22T09:00:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    }
+  ]
+}

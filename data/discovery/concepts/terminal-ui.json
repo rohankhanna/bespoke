@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "terminal-ui"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blacknon/hwatch",
+      "status": "candidate-context",
+      "text": "A modern alternative to the watch command, records the differences in execution results and can check this differences at after."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blacknon/hwatch",
+      "status": "candidate-context",
+      "text": "hwatch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blacknon/hwatch",
+      "status": "candidate",
+      "text": "hwatch"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "terminal-ui",
+  "concept_id": "terminal-ui",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "blacknon/hwatch"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "terminal-ui",
+      "sense_id": "terminal-ui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

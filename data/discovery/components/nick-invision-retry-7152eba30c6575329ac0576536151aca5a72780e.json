@@ -1,0 +1,12 @@
+{
+  "component": "nick-invision/retry@7152eba30c6575329ac0576536151aca5a72780e",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "juice-shop/juice-shop"
+    }
+  ]
+}

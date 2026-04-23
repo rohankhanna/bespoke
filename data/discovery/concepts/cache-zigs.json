@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cache Zigs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "status": "candidate-context",
+      "text": "Detects usage of unsafe Rust in a Rust crate and its dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "status": "candidate-context",
+      "text": "\"Cache Zigs\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geiger-rs/cargo-geiger",
+      "status": "candidate",
+      "text": "\"Cache Zigs\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14404,
+      "status": "candidate",
+      "text": "zag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14164,
+      "status": "candidate",
+      "text": "dance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14164,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14164,
+      "status": "candidate",
+      "text": "veer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11124,
+      "status": "candidate",
+      "text": "bends"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cache Zigs",
+  "concept_id": "cache-zigs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cache-zigs.yml",
+      "source_repo": "geiger-rs/cargo-geiger"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cache Zigs",
+      "sense_id": "cache-zigs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

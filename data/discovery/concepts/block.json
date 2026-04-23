@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "Block"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate-context",
+      "text": "Ethereum L1 Protocol Stack and EVM in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate-context",
+      "text": "Block"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethereumjs/ethereumjs-monorepo",
+      "status": "candidate",
+      "text": "Block"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998409,
+      "status": "candidate",
+      "text": "bar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984600,
+      "status": "candidate",
+      "text": "stuff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981897,
+      "status": "candidate",
+      "text": "pulley"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39981833,
+      "status": "candidate",
+      "text": "barricade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979495,
+      "status": "candidate",
+      "text": "engine block"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40031,
+      "status": "candidate",
+      "text": "impede"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26106,
+      "status": "candidate",
+      "text": "bar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23037,
+      "status": "candidate",
+      "text": "deflect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20033,
+      "status": "candidate",
+      "text": "obstruct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16064,
+      "status": "candidate",
+      "text": "closure"
+    }
+  ],
+  "canonical_name": "Block",
+  "concept_id": "block",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/block-build.yml",
+      "source_repo": "ethereumjs/ethereumjs-monorepo"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Block",
+      "sense_id": "block#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

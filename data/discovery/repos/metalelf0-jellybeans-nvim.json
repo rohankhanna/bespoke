@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "metalelf0/jellybeans-nvim",
+      "target": "savq/paq-nvim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:45:41.632498+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A port of jellybeans colorscheme for neovim",
+    "fork": false,
+    "full_name": "metalelf0/jellybeans-nvim",
+    "html_url": "https://github.com/metalelf0/jellybeans-nvim",
+    "language": "Lua",
+    "pushed_at": "2025-01-15T08:09:08Z",
+    "stargazers_count": 126,
+    "topics": [],
+    "updated_at": "2026-04-18T20:30:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "savq/paq-nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

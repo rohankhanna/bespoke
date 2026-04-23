@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Serverless reverse proxy for exposing container registries (GCR, Docker Hub, Artifact Registry etc) on custom domains."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project offers a very simple reverse proxy that lets you expose your public"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project offers a very simple reverse proxy that lets you expose your public"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "google-cloud-run",
+      "sense_id": "google-cloud-run#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "google-cloud-run",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "google-cloud-run",
+  "observation_id": "81b1875ef31bd539",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "google-cloud-run",
+  "source_context_snippet": "This project offers a very simple reverse proxy that lets you expose your public",
+  "source_file": null,
+  "source_repo": "ahmetb/serverless-registry-proxy",
+  "source_repo_description": "Serverless reverse proxy for exposing container registries (GCR, Docker Hub, Artifact Registry etc) on custom domains."
+}

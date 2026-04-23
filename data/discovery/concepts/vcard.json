@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "vcard"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbarrete/completion-vcard",
+      "status": "candidate-context",
+      "text": "vCard source for completion-nvim, nvim-compe and nvim-cmp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbarrete/completion-vcard",
+      "status": "candidate-context",
+      "text": "vCard completion source for native Neovim LSP autocompletion (see `:h lsp-autocompletion`), [nvim-cmp](https://github.com/hrsh7th/nvim-cmp), [nvim-compe](https://github.com/hrsh7th/nvim-compe), and [completion-nvim](https://github.com/nvim-lua/completion-nvim)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbarrete/completion-vcard",
+      "status": "candidate",
+      "text": "vCard completion source for native Neovim LSP autocompletion (see `:h lsp-autocompletion`), [nvim-cmp](https://github.com/hrsh7th/nvim-cmp), [nvim-compe](https://github.com/hrsh7th/nvim-compe), and [completion-nvim](https://github.com/nvim-lua/completion-nvim)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "ical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "jpeg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "bitmap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "xml"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "powerpoint"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "vcard",
+  "concept_id": "vcard",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cbarrete/completion-vcard"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vcard",
+      "sense_id": "vcard#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

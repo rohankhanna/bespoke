@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "antonbabenko"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "status": "candidate-context",
+      "text": "Info about many of my Terraform, AWS, and DevOps projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "status": "candidate-context",
+      "text": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antonbabenko/terraform-aws-devops",
+      "status": "candidate",
+      "text": "1. [AWS Community Hero profile](https://builder.aws.com/community/@antonbabenko)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "antonbabenko",
+  "concept_id": "antonbabenko",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "antonbabenko/terraform-aws-devops"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "antonbabenko",
+      "sense_id": "antonbabenko#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

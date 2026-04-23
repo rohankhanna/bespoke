@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "quake"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kondrak/vkQuake2",
+      "status": "candidate-context",
+      "text": "id Software's Quake 2 v3.21 with mission packs and Vulkan support (Windows, Linux, macOS, FreeBSD, Raspberry Pi 4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kondrak/vkQuake2",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Novum/vkQuake",
+      "status": "candidate-context",
+      "text": "Vulkan Quake port based on QuakeSpasm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Novum/vkQuake",
+      "status": "candidate-context",
+      "text": "Linux CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kondrak/vkQuake2",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Novum/vkQuake",
+      "status": "candidate",
+      "text": "Linux CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995535,
+      "status": "candidate",
+      "text": "tremor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39886888,
+      "status": "candidate",
+      "text": "quiver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39782818,
+      "status": "candidate",
+      "text": "temblor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39780741,
+      "status": "candidate",
+      "text": "seism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39775958,
+      "status": "candidate",
+      "text": "earthquake"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34051,
+      "status": "candidate",
+      "text": "tremor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31044,
+      "status": "candidate",
+      "text": "quiver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6027,
+      "status": "candidate",
+      "text": "temblor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4016,
+      "status": "candidate",
+      "text": "seism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3049,
+      "status": "candidate",
+      "text": "earthquake"
+    }
+  ],
+  "canonical_name": "quake",
+  "concept_id": "quake",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kondrak/vkQuake2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Novum/vkQuake"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "quake",
+      "sense_id": "quake#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

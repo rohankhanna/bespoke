@@ -1,0 +1,86 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "renqibing/MultiAgent4Collusion",
+      "target": "cuilimeng/coaid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "renqibing/MultiAgent4Collusion",
+      "target": "kaidmml/fakenewsnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "renqibing/MultiAgent4Collusion",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "renqibing/MultiAgent4Collusion",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:34:25.924754+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10565
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1007
+    },
+    {
+      "path": ".github/workflows/python-app.yml",
+      "size": 761
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "renqibing/MultiAgent4Collusion",
+    "html_url": "https://github.com/renqibing/MultiAgent4Collusion",
+    "language": "Python",
+    "pushed_at": "2025-07-19T15:37:26Z",
+    "stargazers_count": 44,
+    "topics": [],
+    "updated_at": "2026-04-21T05:21:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cuilimeng/coaid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaidmml/fakenewsnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

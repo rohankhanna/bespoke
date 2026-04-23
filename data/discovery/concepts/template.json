@@ -79,6 +79,42 @@
       "source_repo": "songquanpeng/gin-template",
       "status": "candidate-context",
       "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/typescript-action",
+      "status": "candidate-context",
+      "text": "Create a TypeScript Action with tests, linting, workflow, publishing, and versioning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/typescript-action",
+      "status": "candidate-context",
+      "text": "![Linter](https://github.com/actions/typescript-action/actions/workflows/linter.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pug-php/pug",
+      "status": "candidate-context",
+      "text": "Pug template engine for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/pug",
+      "status": "candidate-context",
+      "text": "[![Latest Stable Version](https://poser.pugx.org/pug-php/pug/v/stable.png)](https://packagist.org/packages/pug-php/pug)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "decaporg/one-click-hugo-cms",
+      "status": "candidate-context",
+      "text": "Hugo template with Decap CMS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/one-click-hugo-cms",
+      "status": "candidate-context",
+      "text": "This is a small business template built with [Hugo](https://gohugo.io) and [Decap CMS](https://github.com/decaporg/decap-cms), designed and developed by [Darin Dimitroff](https://twitter.com/deezel), [spacefarm.digital](https://www.spacefarm.digital)."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "songquanpeng/gin-template",
       "status": "candidate",
       "text": "<p align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/typescript-action",
+      "status": "candidate",
+      "text": "![Linter](https://github.com/actions/typescript-action/actions/workflows/linter.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/pug",
+      "status": "candidate",
+      "text": "[![Latest Stable Version](https://poser.pugx.org/pug-php/pug/v/stable.png)](https://packagist.org/packages/pug-php/pug)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "decaporg/one-click-hugo-cms",
+      "status": "candidate",
+      "text": "This is a small business template built with [Hugo](https://gohugo.io) and [Decap CMS](https://github.com/decaporg/decap-cms), designed and developed by [Darin Dimitroff](https://twitter.com/deezel), [spacefarm.digital](https://www.spacefarm.digital)."
     }
   ],
   "candidate_related_terms": [
@@ -211,11 +265,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "songquanpeng/gin-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "actions/typescript-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pug-php/pug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "decaporg/one-click-hugo-cms"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

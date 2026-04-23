@@ -1,0 +1,32 @@
+{
+  "component": "chainguard-dev/setup-chainctl@2cddd35a2f120d9973e58094dc6878c93cf58c28",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/legacy-release.yaml",
+      "source_repo": "chainguard-images/images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reinstate-images.yaml",
+      "source_repo": "chainguard-images/images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "chainguard-images/images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/withdraw-images.yaml",
+      "source_repo": "chainguard-images/images"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/withdraw-repos.yaml",
+      "source_repo": "chainguard-images/images"
+    }
+  ]
+}

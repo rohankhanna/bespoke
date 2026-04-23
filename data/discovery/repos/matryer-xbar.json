@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-xbarappcom.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-xbarappcom.yaml"
+    },
+    {
+      "component": "google-github-actions/auth@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-xbarappcom.yaml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-xbarappcom.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "matryer/xbar",
+      "target": "matryer/xbar-plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-xbarappcom.yaml",
+      "source_repo": "matryer/xbar",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-xbarappcom.yaml",
+      "source_repo": "matryer/xbar",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-xbarappcom.yaml",
+      "source_repo": "matryer/xbar",
+      "target": "google-github-actions/auth@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-xbarappcom.yaml",
+      "source_repo": "matryer/xbar",
+      "target": "google-github-actions/setup-gcloud@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-xbarappcom.yaml",
+      "source_repo": "matryer/xbar",
+      "target": "Build and Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matryer/xbar",
+      "target": "bitbar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matryer/xbar",
+      "target": "macos-menu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matryer/xbar",
+      "target": "macosx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matryer/xbar",
+      "target": "menubar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matryer/xbar",
+      "target": "scripting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matryer/xbar",
+      "target": "xbar",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:34:00.018548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2801
+    },
+    {
+      "path": ".github/workflows/deploy-xbarappcom.yaml",
+      "size": 1200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Put the output from any script or program into your macOS Menu Bar (the BitBar reboot)",
+    "fork": false,
+    "full_name": "matryer/xbar",
+    "html_url": "https://github.com/matryer/xbar",
+    "language": "Go",
+    "pushed_at": "2024-09-10T10:18:51Z",
+    "stargazers_count": 18020,
+    "topics": [
+      "bitbar",
+      "mac",
+      "macos-menu",
+      "macosx",
+      "menubar",
+      "scripting",
+      "xbar"
+    ],
+    "updated_at": "2026-04-23T03:34:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "matryer/xbar-plugins",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-xbarappcom.yaml",
+      "term": "Build and Deploy"
+    },
+    {
+      "context_snippet": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitbar"
+    },
+    {
+      "context_snippet": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos-menu"
+    },
+    {
+      "context_snippet": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macosx"
+    },
+    {
+      "context_snippet": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "menubar"
+    },
+    {
+      "context_snippet": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scripting"
+    },
+    {
+      "context_snippet": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xbar"
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Publish to PyPI",
-    "Publish to pypi"
+    "Publish to pypi",
+    "Publish to PYPI"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -230,6 +231,126 @@
       "source_repo": "python-hyper/uritemplate",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/decord",
+      "status": "candidate-context",
+      "text": "An efficient video loader for deep learning with smart shuffling that's super easy to digest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/decord",
+      "status": "candidate-context",
+      "text": "Publish to PYPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/ComfyUI-Manager",
+      "status": "candidate-context",
+      "text": "ComfyUI-Manager is an extension designed to enhance the usability of ComfyUI. It offers management functions to install, remove, disable, and enable various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI-Manager",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "toshas/torch-fidelity",
+      "status": "candidate-context",
+      "text": "High-fidelity performance metrics for generative models in PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toshas/torch-fidelity",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/sphinx-copybutton",
+      "status": "candidate-context",
+      "text": "Add a \"copy\" button to code blocks in Sphinx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/sphinx-copybutton",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cookiecutter/cookiecutter",
+      "status": "candidate-context",
+      "text": "A cross-platform command-line utility that creates projects from cookiecutters (project templates), e.g. Python package projects, C projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "audreyfeldroy/cookiecutter-pypackage",
+      "status": "candidate-context",
+      "text": "Cookiecutter template for a Python package."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audreyfeldroy/cookiecutter-pypackage",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate-context",
+      "text": "Command Line Interface for Managing ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "facebookresearch/hydra",
+      "status": "candidate-context",
+      "text": "Hydra is a framework for elegantly configuring complex applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/hydra",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bnprks/BPCells",
+      "status": "candidate-context",
+      "text": "Scaling Single Cell Analysis to Millions of Cells"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnprks/BPCells",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mxmlnkn/ratarmount",
+      "status": "candidate-context",
+      "text": "Access large archives as a filesystem efficiently, e.g., TAR, RAR, ZIP, GZ, BZ2, XZ, ZSTD archives"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/ratarmount",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -344,6 +465,66 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "python-hyper/uritemplate",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/decord",
+      "status": "candidate",
+      "text": "Publish to PYPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/ComfyUI-Manager",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toshas/torch-fidelity",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/sphinx-copybutton",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cookiecutter/cookiecutter",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "audreyfeldroy/cookiecutter-pypackage",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/comfy-cli",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "facebookresearch/hydra",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bnprks/BPCells",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mxmlnkn/ratarmount",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -527,11 +708,77 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "python-hyper/uritemplate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "dmlc/decord"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "toshas/torch-fidelity"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "executablebooks/sphinx-copybutton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cookiecutter/cookiecutter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "audreyfeldroy/cookiecutter-pypackage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "facebookresearch/hydra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "bnprks/BPCells"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "mxmlnkn/ratarmount"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

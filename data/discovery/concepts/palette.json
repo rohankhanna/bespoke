@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "palette"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rose-pine/rose-pine-theme",
+      "status": "candidate-context",
+      "text": "All natural pine, faux fur and a bit of soho vibes for the classy minimalist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rose-pine/rose-pine-theme",
+      "status": "candidate-context",
+      "text": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rose-pine/rose-pine-theme",
+      "status": "candidate",
+      "text": "[![Stand with Ukraine](https://user-images.githubusercontent.com/1474821/173256840-2cf59d8c-a9d7-4a2c-a8c3-02302227d97a.png)](https://www.stopputin.net)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39910653,
+      "status": "candidate",
+      "text": "pallette"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39869875,
+      "status": "candidate",
+      "text": "pallet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29889082,
+      "status": "candidate",
+      "text": "range"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29883400,
+      "status": "candidate",
+      "text": "shoulder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29881171,
+      "status": "candidate",
+      "text": "blade"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6042,
+      "status": "candidate",
+      "text": "pallet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3017,
+      "status": "candidate",
+      "text": "pallette"
+    }
+  ],
+  "canonical_name": "palette",
+  "concept_id": "palette",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rose-pine/rose-pine-theme"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "palette",
+      "sense_id": "palette#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

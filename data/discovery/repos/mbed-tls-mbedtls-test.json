@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Mbed-TLS/mbedtls-test",
+      "target": "armmbed/mbedtls",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:35:19.378858+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2176
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MbedTLS testing",
+    "fork": false,
+    "full_name": "Mbed-TLS/mbedtls-test",
+    "html_url": "https://github.com/Mbed-TLS/mbedtls-test",
+    "language": "Groovy",
+    "pushed_at": "2026-04-21T12:35:35Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-07T11:50:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "armmbed/mbedtls",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

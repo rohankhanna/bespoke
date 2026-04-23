@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/repository-dispatch@28959ce8df70de7be546dd1250a005dd32156697",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release_published.yml",
       "source_repo": "caddyserver/caddy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-insider-linux.yml",
+      "source_repo": "VSCodium/vscodium"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-insider-spearhead.yml",
+      "source_repo": "VSCodium/vscodium"
     }
   ]
 }

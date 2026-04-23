@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u5fae\u4fe1\u516c\u4f17\u53f7\u7684\u540e\u7aef\uff0c\u4e3a\u5176\u4ed6\u7cfb\u7edf\u63d0\u4f9b\u5fae\u4fe1\u767b\u5f55\u9a8c\u8bc1\u529f\u80fd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Linux Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Linux Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15711,
+      "status": "candidate",
+      "text": "celestia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15711,
+      "status": "candidate",
+      "text": "debian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14903,
+      "status": "candidate",
+      "text": "arduino"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14903,
+      "status": "candidate",
+      "text": "knoppix"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14903,
+      "status": "candidate",
+      "text": "kubuntu"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Linux Release",
+      "sense_id": "linux-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "linux-release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "linux-release",
+  "observation_id": "f90fc7142198c1da",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Linux Release",
+  "source_context_snippet": "Linux Release",
+  "source_file": ".github/workflows/linux-release.yml",
+  "source_repo": "songquanpeng/wechat-server",
+  "source_repo_description": "\u5fae\u4fe1\u516c\u4f17\u53f7\u7684\u540e\u7aef\uff0c\u4e3a\u5176\u4ed6\u7cfb\u7edf\u63d0\u4f9b\u5fae\u4fe1\u767b\u5f55\u9a8c\u8bc1\u529f\u80fd"
+}

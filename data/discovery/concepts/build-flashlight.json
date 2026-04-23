@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Flashlight"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flashlight/flashlight",
+      "status": "candidate-context",
+      "text": "A C++ standalone library for machine learning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashlight/flashlight",
+      "status": "candidate-context",
+      "text": "Build Flashlight"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flashlight/flashlight",
+      "status": "candidate",
+      "text": "Build Flashlight"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13101,
+      "status": "candidate",
+      "text": "beam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11980,
+      "status": "candidate",
+      "text": "penlight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11980,
+      "status": "candidate",
+      "text": "shine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11980,
+      "status": "candidate",
+      "text": "torchlight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11738,
+      "status": "candidate",
+      "text": "flash"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Flashlight",
+  "concept_id": "build-flashlight",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "flashlight/flashlight"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Flashlight",
+      "sense_id": "build-flashlight#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

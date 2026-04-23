@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Redox CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Stebalien/tempfile",
+      "status": "candidate-context",
+      "text": "Temporary file library for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stebalien/tempfile",
+      "status": "candidate-context",
+      "text": "Redox CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stebalien/tempfile",
+      "status": "candidate",
+      "text": "Redox CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4540,
+      "status": "candidate",
+      "text": "oxidation-reduction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4464,
+      "status": "candidate",
+      "text": "disproportionation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4464,
+      "status": "candidate",
+      "text": "polarography"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4387,
+      "status": "candidate",
+      "text": "activating"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Redox CI",
+  "concept_id": "redox-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/redox.yml",
+      "source_repo": "Stebalien/tempfile"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Redox CI",
+      "sense_id": "redox-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

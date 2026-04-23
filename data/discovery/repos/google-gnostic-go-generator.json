@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:39:44.000601+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 928
+    },
+    {
+      "path": "go.mod",
+      "size": 523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A gnostic plugin that generates Go clients and servers for REST APIs",
+    "fork": false,
+    "full_name": "google/gnostic-go-generator",
+    "html_url": "https://github.com/google/gnostic-go-generator",
+    "language": "Go",
+    "pushed_at": "2022-02-05T10:24:11Z",
+    "stargazers_count": 50,
+    "topics": [],
+    "updated_at": "2026-01-30T11:02:22Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

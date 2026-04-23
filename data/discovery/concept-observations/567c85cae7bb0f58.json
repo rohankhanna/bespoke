@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AUR helper with minimal dependencies. Review PKGBUILDs all in once, next build them all without user interaction."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Tests](https://github.com/actionless/pikaur/actions/workflows/tests.yml/badge.svg)](https://github.com/actionless/pikaur/actions/workflows/tests.yml) [![Coverage Status](https://coveralls.io/repos/github/actionless/pikaur/badge.svg?branch=master)](https://coveralls.io/github/\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/actionless/pikaur/actions/workflows/tests.yml/badge.svg)](https://github.com/actionless/pikaur/actions/workflows/tests.yml) [![Coverage Status](https://coveralls.io/repos/github/actionless/pikaur/badge.svg?branch=master)](https://coveralls.io/github/\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aur-helper",
+      "sense_id": "aur-helper#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aur-helper",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aur-helper",
+  "observation_id": "567c85cae7bb0f58",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "aur-helper",
+  "source_context_snippet": "[![Tests](https://github.com/actionless/pikaur/actions/workflows/tests.yml/badge.svg)](https://github.com/actionless/pikaur/actions/workflows/tests.yml) [![Coverage Status](https://coveralls.io/repos/github/actionless/pikaur/badge.svg?branch=master)](https://coveralls.io/github/\u2026",
+  "source_file": null,
+  "source_repo": "actionless/pikaur",
+  "source_repo_description": "AUR helper with minimal dependencies. Review PKGBUILDs all in once, next build them all without user interaction."
+}

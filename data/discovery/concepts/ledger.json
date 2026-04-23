@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "ledger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "status": "candidate-context",
+      "text": "Ethers extension for LedgerSigner for Ledger Hardware Wallet support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "status": "candidate-context",
+      "text": "Ethers: LedgerSigner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethers-io/ext-signer-ledger",
+      "status": "candidate",
+      "text": "Ethers: LedgerSigner"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043629,
+      "status": "candidate",
+      "text": "account book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031105,
+      "status": "candidate",
+      "text": "daybook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020880,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916162,
+      "status": "candidate",
+      "text": "leger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044339,
+      "status": "candidate",
+      "text": "book of account"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15079,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10022,
+      "status": "candidate",
+      "text": "leger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6026,
+      "status": "candidate",
+      "text": "daybook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21,
+      "status": "candidate",
+      "text": "account book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "book of account"
+    }
+  ],
+  "canonical_name": "ledger",
+  "concept_id": "ledger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ethers-io/ext-signer-ledger"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ledger",
+      "sense_id": "ledger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

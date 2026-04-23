@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "rsennrich/subword-nmt",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pythonpublish.yml",
+      "source_repo": "rsennrich/subword-nmt",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rsennrich/subword-nmt",
+      "target": "machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rsennrich/subword-nmt",
+      "target": "neural-machine-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rsennrich/subword-nmt",
+      "target": "segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rsennrich/subword-nmt",
+      "target": "subword-units",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:48:00.676899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8423
+    },
+    {
+      "path": ".github/workflows/pythonpublish.yml",
+      "size": 619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Unsupervised Word Segmentation for Neural Machine Translation and Text Generation",
+    "fork": false,
+    "full_name": "rsennrich/subword-nmt",
+    "html_url": "https://github.com/rsennrich/subword-nmt",
+    "language": "Python",
+    "pushed_at": "2024-08-07T14:21:16Z",
+    "stargazers_count": 2271,
+    "topics": [
+      "bpe",
+      "machine-translation",
+      "neural-machine-translation",
+      "nmt",
+      "segmentation",
+      "subword-units"
+    ],
+    "updated_at": "2026-04-21T01:15:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Subword Neural Machine Translation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-translation"
+    },
+    {
+      "context_snippet": "Subword Neural Machine Translation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-machine-translation"
+    },
+    {
+      "context_snippet": "Subword Neural Machine Translation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    },
+    {
+      "context_snippet": "Subword Neural Machine Translation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subword-units"
+    }
+  ]
+}

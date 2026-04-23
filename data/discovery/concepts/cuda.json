@@ -139,6 +139,114 @@
       "source_repo": "NVIDIA/MatX",
       "status": "candidate-context",
       "text": "[![GitHub Releases](https://img.shields.io/github/v/release/NVIDIA/MatX)](https://github.com/NVIDIA/MatX/releases/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/ramalama",
+      "status": "candidate-context",
+      "text": "RamaLama is an open-source developer tool that simplifies the local serving of AI models from any source and facilitates their use for inference in production, all through the familiar language of containers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/ramalama",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate-context",
+      "text": "A library for accelerating Transformer models on NVIDIA GPUs, including using 8-bit and 4-bit floating point (FP8 and FP4) precision on Hopper, Ada and Blackwell GPUs, to provide better performance with lower memory utilization in both training and inference."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate-context",
+      "text": ".."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "srush/GPU-Puzzles",
+      "status": "candidate-context",
+      "text": "Solve puzzles. Learn CUDA."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srush/GPU-Puzzles",
+      "status": "candidate-context",
+      "text": "- by [Sasha Rush](http://rush-nlp.com) - [srush_nlp](https://twitter.com/srush_nlp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/TensorRT-LLM",
+      "status": "candidate-context",
+      "text": "TensorRT LLM provides users with an easy-to-use Python API to define Large Language Models (LLMs) and supports state-of-the-art optimizations to perform inference efficiently on NVIDIA GPUs. TensorRT LLM also contains components to create Python and C++ runtimes that orchestrate the inference execution in a performant way."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT-LLM",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cudf",
+      "status": "candidate-context",
+      "text": "cuDF - GPU DataFrame Library "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cudf",
+      "status": "candidate-context",
+      "text": "cuDF (pronounced \"KOO-dee-eff\") is an [Apache 2.0 licensed](LICENSE), GPU-accelerated DataFrame library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/cugraph",
+      "status": "candidate-context",
+      "text": "cuGraph - RAPIDS Graph Analytics Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cugraph",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\"; style=\"font-style: italic\";>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rapidsai/rmm",
+      "status": "candidate-context",
+      "text": "RAPIDS Memory Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/rmm",
+      "status": "candidate-context",
+      "text": "**NOTE:** For the latest stable [README.md](https://github.com/rapidsai/rmm/blob/main/README.md) ensure you are on the `main` branch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NVIDIA/nccl",
+      "status": "candidate-context",
+      "text": "Optimized primitives for collective multi-GPU communication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nccl",
+      "status": "candidate-context",
+      "text": "Optimized primitives for inter-GPU communication."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-nvml/nvml-wrapper",
+      "status": "candidate-context",
+      "text": "Safe Rust wrapper for the NVIDIA Management Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-nvml/nvml-wrapper",
+      "status": "candidate-context",
+      "text": "[![Docs.rs docs](https://docs.rs/nvml-wrapper/badge.svg)](https://docs.rs/nvml-wrapper)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +315,60 @@
       "source_repo": "NVIDIA/MatX",
       "status": "candidate",
       "text": "[![GitHub Releases](https://img.shields.io/github/v/release/NVIDIA/MatX)](https://github.com/NVIDIA/MatX/releases/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/ramalama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TransformerEngine",
+      "status": "candidate",
+      "text": ".."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "srush/GPU-Puzzles",
+      "status": "candidate",
+      "text": "- by [Sasha Rush](http://rush-nlp.com) - [srush_nlp](https://twitter.com/srush_nlp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/TensorRT-LLM",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cudf",
+      "status": "candidate",
+      "text": "cuDF (pronounced \"KOO-dee-eff\") is an [Apache 2.0 licensed](LICENSE), GPU-accelerated DataFrame library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/cugraph",
+      "status": "candidate",
+      "text": "<h1 align=\"center\"; style=\"font-style: italic\";>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rapidsai/rmm",
+      "status": "candidate",
+      "text": "**NOTE:** For the latest stable [README.md](https://github.com/rapidsai/rmm/blob/main/README.md) ensure you are on the `main` branch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NVIDIA/nccl",
+      "status": "candidate",
+      "text": "Optimized primitives for inter-GPU communication."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-nvml/nvml-wrapper",
+      "status": "candidate",
+      "text": "[![Docs.rs docs](https://docs.rs/nvml-wrapper/badge.svg)](https://docs.rs/nvml-wrapper)"
     }
   ],
   "candidate_related_terms": [
@@ -340,11 +502,65 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "NVIDIA/MatX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "containers/ramalama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/TransformerEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "srush/GPU-Puzzles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/TensorRT-LLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/cudf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/cugraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rapidsai/rmm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA/nccl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

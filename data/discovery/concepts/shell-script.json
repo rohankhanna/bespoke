@@ -55,6 +55,30 @@
       "source_repo": "basherpm/basher",
       "status": "candidate-context",
       "text": "A package manager for shell scripts and functions."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luizm/asdf-shellcheck",
+      "status": "candidate-context",
+      "text": "shellcheck plugin for asdf version manager https://github.com/asdf-vm/asdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizm/asdf-shellcheck",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/luizm/asdf-shellcheck/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luizm/asdf-shfmt",
+      "status": "candidate-context",
+      "text": "shfmt plugin for asdf version manager https://github.com/asdf-vm/asdf"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizm/asdf-shfmt",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml/badge.svg)](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "basherpm/basher",
       "status": "candidate",
       "text": "A package manager for shell scripts and functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizm/asdf-shellcheck",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/luizm/asdf-shellcheck/actions/workflows/build.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luizm/asdf-shfmt",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml/badge.svg)](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "basherpm/basher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "luizm/asdf-shellcheck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "luizm/asdf-shfmt"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

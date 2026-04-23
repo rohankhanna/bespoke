@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cavedweller509/LMDeploy-Jetson",
+      "target": "internlm/internlm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cavedweller509/LMDeploy-Jetson",
+      "target": "bestanhongjun/interndog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cavedweller509/LMDeploy-Jetson",
+      "target": "bestanhongjun/lmdeploy-jetson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cavedweller509/LMDeploy-Jetson",
+      "target": "internlm/tutorial",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:32:49.459896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3443
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Deploying LLMs offline on the NVIDIA Jetson platform marks the dawn of a new era in embodied intelligence, where devices can function independently without continuous internet access.",
+    "fork": false,
+    "full_name": "cavedweller509/LMDeploy-Jetson",
+    "html_url": "https://github.com/cavedweller509/LMDeploy-Jetson",
+    "language": null,
+    "pushed_at": "2024-03-23T00:00:13Z",
+    "stargazers_count": 107,
+    "topics": [],
+    "updated_at": "2026-03-20T11:45:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bestanhongjun/interndog",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bestanhongjun/lmdeploy-jetson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "internlm/internlm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "internlm/tutorial",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

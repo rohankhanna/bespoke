@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "base16"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filip26/copper-multibase",
+      "status": "candidate-context",
+      "text": "Self-describing base encodings \u2014 Multibase encoder/decoder"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/copper-multibase",
+      "status": "candidate-context",
+      "text": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate-context",
+      "text": "base16 for fish shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate-context",
+      "text": "There are multiple projects out there that provide better functionality and are under active development."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filip26/copper-multibase",
+      "status": "candidate",
+      "text": "Multibase is a **self-describing** format for representing binary data as text. Each multibase-encoded string begins with a single character that uniquely identifies the base encoding (e.g., `z` for Base58BTC, `m` for Base64)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FabioAntunes/base16-fish-shell",
+      "status": "candidate",
+      "text": "There are multiple projects out there that provide better functionality and are under active development."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "base16",
+  "concept_id": "base16",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "filip26/copper-multibase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "FabioAntunes/base16-fish-shell"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "base16",
+      "sense_id": "base16#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

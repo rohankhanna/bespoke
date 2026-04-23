@@ -1,0 +1,736 @@
+{
+  "components": [
+    {
+      "component": "read",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/actions/status-checker@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-articles.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-articles.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/cleanrepo@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-articles.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-articles.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-images.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-images.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/cleanrepo@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-images.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-images.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-includes.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-includes.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/cleanrepo@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-includes.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-includes.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-snippets.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-snippets.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/cleanrepo@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-snippets.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-snippets.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-redirect-hops.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-redirect-hops.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/cleanrepo@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-redirect-hops.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-redirect-hops.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-relative-links.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-relative-links.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/cleanrepo@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-relative-links.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-relative-links.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-replace-redirects.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-replace-redirects.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/cleanrepo@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-replace-redirects.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-replace-redirects.yml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-bot.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-bot.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@4d4a70f4a5b2a5a5329f13be4ac933f2c9206ac0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-bot.yml"
+    },
+    {
+      "component": "dotnet/docs-tools/actions/dependabot-bot@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-bot.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-bot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/docs",
+      "target": "dotnet/aspnetcore.docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/docs",
+      "target": "dotnet/android-api-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/docs",
+      "target": "dotnet/csharplang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dotnet/docs",
+      "target": "dotnet/csharpstandard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/docs",
+      "target": "read",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/docs",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/docs",
+      "target": "dotnet/docs-tools/actions/status-checker@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "source_repo": "dotnet/docs",
+      "target": "OPS status checker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-articles.yml",
+      "source_repo": "dotnet/docs",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-articles.yml",
+      "source_repo": "dotnet/docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-articles.yml",
+      "source_repo": "dotnet/docs",
+      "target": "dotnet/docs-tools/cleanrepo@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-articles.yml",
+      "source_repo": "dotnet/docs",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-orphaned-articles.yml",
+      "source_repo": "dotnet/docs",
+      "target": "clean repo - articles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-images.yml",
+      "source_repo": "dotnet/docs",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-images.yml",
+      "source_repo": "dotnet/docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-images.yml",
+      "source_repo": "dotnet/docs",
+      "target": "dotnet/docs-tools/cleanrepo@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-images.yml",
+      "source_repo": "dotnet/docs",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-orphaned-images.yml",
+      "source_repo": "dotnet/docs",
+      "target": "clean repo - images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-includes.yml",
+      "source_repo": "dotnet/docs",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-includes.yml",
+      "source_repo": "dotnet/docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-includes.yml",
+      "source_repo": "dotnet/docs",
+      "target": "dotnet/docs-tools/cleanrepo@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-includes.yml",
+      "source_repo": "dotnet/docs",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-orphaned-includes.yml",
+      "source_repo": "dotnet/docs",
+      "target": "clean repo - includes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-snippets.yml",
+      "source_repo": "dotnet/docs",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-snippets.yml",
+      "source_repo": "dotnet/docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-snippets.yml",
+      "source_repo": "dotnet/docs",
+      "target": "dotnet/docs-tools/cleanrepo@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-orphaned-snippets.yml",
+      "source_repo": "dotnet/docs",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-orphaned-snippets.yml",
+      "source_repo": "dotnet/docs",
+      "target": "clean repo - snippets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-redirect-hops.yml",
+      "source_repo": "dotnet/docs",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-redirect-hops.yml",
+      "source_repo": "dotnet/docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-redirect-hops.yml",
+      "source_repo": "dotnet/docs",
+      "target": "dotnet/docs-tools/cleanrepo@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-redirect-hops.yml",
+      "source_repo": "dotnet/docs",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-redirect-hops.yml",
+      "source_repo": "dotnet/docs",
+      "target": "clean repo - redirect hops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-relative-links.yml",
+      "source_repo": "dotnet/docs",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-relative-links.yml",
+      "source_repo": "dotnet/docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-relative-links.yml",
+      "source_repo": "dotnet/docs",
+      "target": "dotnet/docs-tools/cleanrepo@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-relative-links.yml",
+      "source_repo": "dotnet/docs",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-relative-links.yml",
+      "source_repo": "dotnet/docs",
+      "target": "clean repo - relative links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-replace-redirects.yml",
+      "source_repo": "dotnet/docs",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-replace-redirects.yml",
+      "source_repo": "dotnet/docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-replace-redirects.yml",
+      "source_repo": "dotnet/docs",
+      "target": "dotnet/docs-tools/cleanrepo@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanrepo-replace-redirects.yml",
+      "source_repo": "dotnet/docs",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-replace-redirects.yml",
+      "source_repo": "dotnet/docs",
+      "target": "clean repo - replace redirects",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-bot.yml",
+      "source_repo": "dotnet/docs",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-bot.yml",
+      "source_repo": "dotnet/docs",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-bot.yml",
+      "source_repo": "dotnet/docs",
+      "target": "actions/setup-dotnet@4d4a70f4a5b2a5a5329f13be4ac933f2c9206ac0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-bot.yml",
+      "source_repo": "dotnet/docs",
+      "target": "dotnet/docs-tools/actions/dependabot-bot@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependabot-bot.yml",
+      "source_repo": "dotnet/docs",
+      "target": "peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/docs",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/docs",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/docs",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/docs",
+      "target": "fsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/docs",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dotnet/docs",
+      "target": "visual-basic",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:48:27.474831+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8558
+    },
+    {
+      "path": ".github/workflows/check-for-build-warnings.yml",
+      "size": 635
+    },
+    {
+      "path": ".github/workflows/cleanrepo-orphaned-articles.yml",
+      "size": 1270
+    },
+    {
+      "path": ".github/workflows/cleanrepo-orphaned-images.yml",
+      "size": 1260
+    },
+    {
+      "path": ".github/workflows/cleanrepo-orphaned-includes.yml",
+      "size": 1277
+    },
+    {
+      "path": ".github/workflows/cleanrepo-orphaned-snippets.yml",
+      "size": 1270
+    },
+    {
+      "path": ".github/workflows/cleanrepo-redirect-hops.yml",
+      "size": 1310
+    },
+    {
+      "path": ".github/workflows/cleanrepo-relative-links.yml",
+      "size": 1289
+    },
+    {
+      "path": ".github/workflows/cleanrepo-replace-redirects.yml",
+      "size": 1288
+    },
+    {
+      "path": ".github/workflows/dependabot-bot.yml",
+      "size": 2194
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository contains .NET Documentation.",
+    "fork": false,
+    "full_name": "dotnet/docs",
+    "html_url": "https://github.com/dotnet/docs",
+    "language": null,
+    "pushed_at": "2026-04-23T04:03:19Z",
+    "stargazers_count": 4671,
+    "topics": [
+      "csharp",
+      "dotnet",
+      "dotnet-core",
+      "fsharp",
+      "hacktoberfest",
+      "visual-basic"
+    ],
+    "updated_at": "2026-04-23T00:00:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/android-api-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/aspnetcore.docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/csharplang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/csharpstandard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'OPS status checker'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-build-warnings.yml",
+      "term": "OPS status checker"
+    },
+    {
+      "context_snippet": "\"clean repo - articles\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-orphaned-articles.yml",
+      "term": "clean repo - articles"
+    },
+    {
+      "context_snippet": "\"clean repo - images\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-orphaned-images.yml",
+      "term": "clean repo - images"
+    },
+    {
+      "context_snippet": "\"clean repo - includes\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-orphaned-includes.yml",
+      "term": "clean repo - includes"
+    },
+    {
+      "context_snippet": "\"clean repo - snippets\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-orphaned-snippets.yml",
+      "term": "clean repo - snippets"
+    },
+    {
+      "context_snippet": "\"clean repo - redirect hops\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-redirect-hops.yml",
+      "term": "clean repo - redirect hops"
+    },
+    {
+      "context_snippet": "\"clean repo - relative links\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-relative-links.yml",
+      "term": "clean repo - relative links"
+    },
+    {
+      "context_snippet": "\"clean repo - replace redirects\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanrepo-replace-redirects.yml",
+      "term": "clean repo - replace redirects"
+    },
+    {
+      "context_snippet": "[![GitHub contributors](https://img.shields.io/github/contributors/dotnet/docs.svg)](https://GitHub.com/dotnet/docs/graphs/contributors/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "[![GitHub contributors](https://img.shields.io/github/contributors/dotnet/docs.svg)](https://GitHub.com/dotnet/docs/graphs/contributors/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![GitHub contributors](https://img.shields.io/github/contributors/dotnet/docs.svg)](https://GitHub.com/dotnet/docs/graphs/contributors/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "[![GitHub contributors](https://img.shields.io/github/contributors/dotnet/docs.svg)](https://GitHub.com/dotnet/docs/graphs/contributors/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsharp"
+    },
+    {
+      "context_snippet": "[![GitHub contributors](https://img.shields.io/github/contributors/dotnet/docs.svg)](https://GitHub.com/dotnet/docs/graphs/contributors/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![GitHub contributors](https://img.shields.io/github/contributors/dotnet/docs.svg)](https://GitHub.com/dotnet/docs/graphs/contributors/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-basic"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -111,6 +111,56 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/create-release.yml",
       "source_repo": "UnstoppableSwap/wallet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "badges/shields"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "cgrindel/rules_swift_package_manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "aws-controllers-k8s/code-generator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "aws-controllers-k8s/runtime"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/README.md",
+      "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "richgel999/miniz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "butlerx/wetty"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create_release.yml",
+      "source_repo": "cgrindel/bazel-starlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "coin-or/CHiPPS-ALPS"
     }
   ],
   "term": "Create Release"

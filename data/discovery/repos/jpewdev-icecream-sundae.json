@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JPEWdev/icecream-sundae",
+      "target": "ninja-build/ninja",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JPEWdev/icecream-sundae",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "JPEWdev/icecream-sundae",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JPEWdev/icecream-sundae",
+      "target": "commandline-monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JPEWdev/icecream-sundae",
+      "target": "ice-cream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JPEWdev/icecream-sundae",
+      "target": "meson",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:32:36.018343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6544
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 650
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Commandline Monitor for Icecream",
+    "fork": false,
+    "full_name": "JPEWdev/icecream-sundae",
+    "html_url": "https://github.com/JPEWdev/icecream-sundae",
+    "language": "C++",
+    "pushed_at": "2026-02-28T17:53:48Z",
+    "stargazers_count": 63,
+    "topics": [
+      "commandline-monitor",
+      "ice-cream",
+      "meson"
+    ],
+    "updated_at": "2026-04-21T09:40:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ninja-build/ninja",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Commandline Monitor for [Icecream](https://github.com/icecc/icecream).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commandline-monitor"
+    },
+    {
+      "context_snippet": "Commandline Monitor for [Icecream](https://github.com/icecc/icecream).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ice-cream"
+    },
+    {
+      "context_snippet": "Commandline Monitor for [Icecream](https://github.com/icecc/icecream).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "meson"
+    }
+  ]
+}

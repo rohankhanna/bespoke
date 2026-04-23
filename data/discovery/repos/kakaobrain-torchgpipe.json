@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kakaobrain/torchgpipe",
+      "target": "checkpointing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kakaobrain/torchgpipe",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kakaobrain/torchgpipe",
+      "target": "gpipe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kakaobrain/torchgpipe",
+      "target": "model-parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kakaobrain/torchgpipe",
+      "target": "parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kakaobrain/torchgpipe",
+      "target": "pipeline-parallelism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kakaobrain/torchgpipe",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:34:12.950920+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7838
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A GPipe implementation in PyTorch",
+    "fork": false,
+    "full_name": "kakaobrain/torchgpipe",
+    "html_url": "https://github.com/kakaobrain/torchgpipe",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:55:29Z",
+    "stargazers_count": 862,
+    "topics": [
+      "checkpointing",
+      "deep-learning",
+      "gpipe",
+      "model-parallelism",
+      "parallelism",
+      "pipeline-parallelism",
+      "pytorch"
+    ],
+    "updated_at": "2026-03-05T22:23:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/torchgpipe.svg)](https://pypi.org/project/torchgpipe)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "checkpointing"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/torchgpipe.svg)](https://pypi.org/project/torchgpipe)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/torchgpipe.svg)](https://pypi.org/project/torchgpipe)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpipe"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/torchgpipe.svg)](https://pypi.org/project/torchgpipe)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-parallelism"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/torchgpipe.svg)](https://pypi.org/project/torchgpipe)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallelism"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/torchgpipe.svg)](https://pypi.org/project/torchgpipe)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipeline-parallelism"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/torchgpipe.svg)](https://pypi.org/project/torchgpipe)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

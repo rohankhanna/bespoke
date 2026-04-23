@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PzySeere/MetaSpatial",
+      "target": "atcelen/idesign",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PzySeere/MetaSpatial",
+      "target": "nvidia/minkowskiengine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PzySeere/MetaSpatial",
+      "target": "hiyouga/easyr1",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PzySeere/MetaSpatial",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:44.962375+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11995
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2154
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 734
+    },
+    {
+      "path": "requirements.txt",
+      "size": 212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MetaSpatial leverages reinforcement learning to enhance 3D spatial reasoning in vision-language models (VLMs), enabling more structured, realistic, and adaptive scene generation for applications in the metaverse, AR/VR, and game development.",
+    "fork": false,
+    "full_name": "PzySeere/MetaSpatial",
+    "html_url": "https://github.com/PzySeere/MetaSpatial",
+    "language": "Python",
+    "pushed_at": "2025-05-05T19:00:27Z",
+    "stargazers_count": 206,
+    "topics": [],
+    "updated_at": "2026-04-02T14:42:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atcelen/idesign",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/easyr1",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/minkowskiengine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

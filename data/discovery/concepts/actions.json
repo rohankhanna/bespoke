@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "actions"
+    "actions",
+    "Actions"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -81,6 +82,66 @@
       "source_repo": "multiarch/crossbuild",
       "status": "candidate-context",
       "text": "actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/vhs-action",
+      "status": "candidate-context",
+      "text": "Keep your GIFs up to date with VHS + GitHub actions \ud83d\udcfd\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs-action",
+      "status": "candidate-context",
+      "text": "Keep your GIFs up to date with VHS + GitHub actions \ud83d\udcfd\ufe0f"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "react-native-netinfo/react-native-netinfo",
+      "status": "candidate-context",
+      "text": "React Native Network Info API for Android & iOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-netinfo/react-native-netinfo",
+      "status": "candidate-context",
+      "text": "Actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Combination of multiple linters to run as a GitHub Action or standalone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate-context",
+      "text": "Super-linter is a ready-to-run collection of linters and code analyzers, to help"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "A curated list of awesome self-hosted GitHub Action runners in a large comparison matrix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "multiarch/qemu-user-static",
+      "status": "candidate-context",
+      "text": ":earth_africa: `/usr/bin/qemu-*-static`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiarch/qemu-user-static",
+      "status": "candidate-context",
+      "text": "actions"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +178,36 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "multiarch/crossbuild",
+      "status": "candidate",
+      "text": "actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs-action",
+      "status": "candidate",
+      "text": "Keep your GIFs up to date with VHS + GitHub actions \ud83d\udcfd\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "react-native-netinfo/react-native-netinfo",
+      "status": "candidate",
+      "text": "Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "super-linter/super-linter",
+      "status": "candidate",
+      "text": "Super-linter is a ready-to-run collection of linters and code analyzers, to help"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonico/awesome-runners",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/1872314/109429007-f211c300-79f9-11eb-940d-2e778c89c9ea.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "multiarch/qemu-user-static",
       "status": "candidate",
       "text": "actions"
     }
@@ -198,11 +289,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/actions.yml",
       "source_repo": "multiarch/crossbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "charmbracelet/vhs-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "react-native-netinfo/react-native-netinfo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "super-linter/super-linter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jonico/awesome-runners"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "multiarch/qemu-user-static"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

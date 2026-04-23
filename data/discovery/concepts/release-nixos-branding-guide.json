@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release NixOS Branding Guide"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/branding",
+      "status": "candidate-context",
+      "text": "The home of the NixOS branding guide and media kit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/branding",
+      "status": "candidate-context",
+      "text": "Release NixOS Branding Guide"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/branding",
+      "status": "candidate",
+      "text": "Release NixOS Branding Guide"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21748,
+      "status": "candidate",
+      "text": "iron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21655,
+      "status": "candidate",
+      "text": "chute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21396,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21396,
+      "status": "candidate",
+      "text": "turned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21306,
+      "status": "candidate",
+      "text": "draw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release NixOS Branding Guide",
+  "concept_id": "release-nixos-branding-guide",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release-guide.yml",
+      "source_repo": "NixOS/branding"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release NixOS Branding Guide",
+      "sense_id": "release-nixos-branding-guide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

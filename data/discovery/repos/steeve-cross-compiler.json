@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:40:31.795542+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 78
+    },
+    {
+      "path": "Dockerfile",
+      "size": 425
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dockerfiles for cross compiling environments",
+    "fork": false,
+    "full_name": "steeve/cross-compiler",
+    "html_url": "https://github.com/steeve/cross-compiler",
+    "language": "Shell",
+    "pushed_at": "2022-09-23T23:02:40Z",
+    "stargazers_count": 113,
+    "topics": [],
+    "updated_at": "2026-02-16T23:31:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

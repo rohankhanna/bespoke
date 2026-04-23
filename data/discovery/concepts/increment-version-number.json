@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Increment Version Number"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Atheos/Atheos",
+      "status": "candidate-context",
+      "text": "A self-hosted browser-based cloud IDE, updated from Codiad IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atheos/Atheos",
+      "status": "candidate-context",
+      "text": "Increment Version Number"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Atheos/Atheos",
+      "status": "candidate",
+      "text": "Increment Version Number"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39936,
+      "status": "candidate",
+      "text": "meter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31779,
+      "status": "candidate",
+      "text": "metering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26579,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26579,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25857,
+      "status": "candidate",
+      "text": "variation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Increment Version Number",
+  "concept_id": "increment-version-number",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/increment.yml",
+      "source_repo": "Atheos/Atheos"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Increment Version Number",
+      "sense_id": "increment-version-number#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

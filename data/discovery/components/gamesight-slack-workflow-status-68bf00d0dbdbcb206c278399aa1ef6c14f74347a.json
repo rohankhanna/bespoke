@@ -1,0 +1,17 @@
+{
+  "component": "Gamesight/slack-workflow-status@68bf00d0dbdbcb206c278399aa1ef6c14f74347a",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "juice-shop/juice-shop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-compliance.yml",
+      "source_repo": "juice-shop/juice-shop"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/prometheus-adapter",
+      "target": "kubernetes/metrics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/prometheus-adapter",
+      "target": "kubernetes-incubator/metrics-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/prometheus-adapter",
+      "target": "luxas/kubeadm-workshop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes-sigs/prometheus-adapter",
+      "target": "kubernetes-incubator/apiserver-builder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/prometheus-adapter",
+      "target": "k8s-sig-instrumentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:44:28.762395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11708
+    },
+    {
+      "path": "Dockerfile",
+      "size": 391
+    },
+    {
+      "path": "go.mod",
+      "size": 5585
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An implementation of the custom.metrics.k8s.io API using Prometheus",
+    "fork": false,
+    "full_name": "kubernetes-sigs/prometheus-adapter",
+    "html_url": "https://github.com/kubernetes-sigs/prometheus-adapter",
+    "language": "Go",
+    "pushed_at": "2026-04-08T19:38:29Z",
+    "stargazers_count": 2069,
+    "topics": [
+      "k8s-sig-instrumentation"
+    ],
+    "updated_at": "2026-04-21T07:08:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-incubator/apiserver-builder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-incubator/metrics-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes/metrics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luxas/kubeadm-workshop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains an implementation of the Kubernetes Custom, Resource and External",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-instrumentation"
+    }
+  ]
+}

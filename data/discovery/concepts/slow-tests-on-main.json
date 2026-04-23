@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Slow tests on main"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gligen/diffusers",
+      "status": "candidate-context",
+      "text": "GLIGEN fork of \ud83e\udd17 Diffusers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gligen/diffusers",
+      "status": "candidate-context",
+      "text": "Slow tests on main"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gligen/diffusers",
+      "status": "candidate",
+      "text": "Slow tests on main"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18897,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18897,
+      "status": "candidate",
+      "text": "checking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18813,
+      "status": "candidate",
+      "text": "ordeal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18743,
+      "status": "candidate",
+      "text": "hardship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18584,
+      "status": "candidate",
+      "text": "cool"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Slow tests on main",
+  "concept_id": "slow-tests-on-main",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/push_tests.yml",
+      "source_repo": "gligen/diffusers"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Slow tests on main",
+      "sense_id": "slow-tests-on-main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

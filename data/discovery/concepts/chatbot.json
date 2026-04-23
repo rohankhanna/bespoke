@@ -91,6 +91,54 @@
       "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
       "status": "candidate-context",
       "text": "<div align=\"right\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blrchen/chatgpt-lite",
+      "status": "candidate-context",
+      "text": "ChatGPT Lite is a feature-rich, self-hostable ChatGPT app. Built with Next.js.  ChatGPT Lite \u662f\u4e00\u4e2a\u529f\u80fd\u5b8c\u6574\u3001\u652f\u6301\u79c1\u6709\u5316\u90e8\u7f72\u7684 ChatGPT \u5e94\u7528\u3002\u57fa\u4e8e Next.js\uff0c\u5f00\u7bb1\u5373\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blrchen/chatgpt-lite",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wechaty/wechaty",
+      "status": "candidate-context",
+      "text": "Conversational RPA SDK for Chatbot Makers. Join our Discord: https://discord.gg/7q8NBZbQzt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wechaty/wechaty",
+      "status": "candidate-context",
+      "text": "[![Wechaty](https://wechaty.js.org/img/wechaty-logo.svg)](https://wechaty.js.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "status": "candidate-context",
+      "text": "ChatRWKV is like ChatGPT but powered by RWKV (100% RNN) language model, and open source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "status": "candidate-context",
+      "text": "RWKV-7 code: https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v7"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blrchen/chatgpt-minimal",
+      "status": "candidate-context",
+      "text": "ChatGPT Minimal implements core ChatGPT features with a minimal codebase. Built with Next.js. Clean code, easy to extend. ChatGPT Minimal \u4ee5\u6700\u5c0f\u4ee3\u7801\u91cf\u5b9e\u73b0\u4e86 ChatGPT \u6838\u5fc3\u529f\u80fd\u3002\u57fa\u4e8e Next.js\uff0c\u4ee3\u7801\u6e05\u6670\uff0c\u6613\u4e8e\u6269\u5c55\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blrchen/chatgpt-minimal",
+      "status": "candidate-context",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "GaiZhenbiao/ChuanhuChatGPT",
       "status": "candidate",
       "text": "<div align=\"right\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blrchen/chatgpt-lite",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wechaty/wechaty",
+      "status": "candidate",
+      "text": "[![Wechaty](https://wechaty.js.org/img/wechaty-logo.svg)](https://wechaty.js.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BlinkDL/ChatRWKV",
+      "status": "candidate",
+      "text": "RWKV-7 code: https://github.com/BlinkDL/RWKV-LM/tree/main/RWKV-v7"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blrchen/chatgpt-minimal",
+      "status": "candidate",
+      "text": "English | [\u7b80\u4f53\u4e2d\u6587](./README.zh-CN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +304,41 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "GaiZhenbiao/ChuanhuChatGPT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "blrchen/chatgpt-lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "wechaty/wechaty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "BlinkDL/ChatRWKV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "blrchen/chatgpt-minimal"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

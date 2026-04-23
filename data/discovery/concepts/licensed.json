@@ -43,6 +43,36 @@
       "source_repo": "licensee/licensed",
       "status": "candidate-context",
       "text": "Licensed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/container-toolkit-action",
+      "status": "candidate-context",
+      "text": "Template repo for creating container actions using https://github.com/actions/toolkit/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/container-toolkit-action",
+      "status": "candidate-context",
+      "text": "Licensed"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/typescript-action",
+      "status": "candidate-context",
+      "text": "Create a TypeScript Action with tests, linting, workflow, publishing, and versioning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/typescript-action",
+      "status": "candidate-context",
+      "text": "Licensed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/upload-artifact",
+      "status": "candidate-context",
+      "text": "Licensed"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +91,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "licensee/licensed",
+      "status": "candidate",
+      "text": "Licensed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/container-toolkit-action",
+      "status": "candidate",
+      "text": "Licensed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/typescript-action",
+      "status": "candidate",
+      "text": "Licensed"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/upload-artifact",
       "status": "candidate",
       "text": "Licensed"
     }
@@ -153,11 +201,35 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/licensed.yml",
       "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/typescript-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/licensed.yml",
+      "source_repo": "actions/upload-artifact"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

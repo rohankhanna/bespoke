@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "windows-build"
+    "windows-build",
+    "windows build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "UB-Mannheim/tesseract",
       "status": "candidate-context",
       "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/tesseract-ocr/badge.svg)](https://scan.coverity.com/projects/tesseract-ocr)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clj-kondo/clj-kondo",
+      "status": "candidate-context",
+      "text": "Static analyzer and linter for Clojure code that sparks joy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-kondo/clj-kondo",
+      "status": "candidate-context",
+      "text": "windows build"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +42,51 @@
       "source_repo": "UB-Mannheim/tesseract",
       "status": "candidate",
       "text": "[![Coverity Scan Build Status](https://scan.coverity.com/projects/tesseract-ocr/badge.svg)](https://scan.coverity.com/projects/tesseract-ocr)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-kondo/clj-kondo",
+      "status": "candidate",
+      "text": "windows build"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11718,
+      "status": "candidate",
+      "text": "pane"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11718,
+      "status": "candidate",
+      "text": "tile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11629,
+      "status": "candidate",
+      "text": "lock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11575,
+      "status": "candidate",
+      "text": "brick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10691,
+      "status": "candidate",
+      "text": "balcony"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "windows-build",
   "concept_id": "windows-build",
@@ -40,11 +97,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "UB-Mannheim/tesseract"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "clj-kondo/clj-kondo"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

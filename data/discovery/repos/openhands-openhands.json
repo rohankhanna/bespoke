@@ -1,0 +1,555 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-image.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-image.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-image.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-package-versions.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-package-versions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-version-consistency.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-version-consistency.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml"
+    },
+    {
+      "component": "abatilo/actions-poetry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enterprise-check-migrations.yml"
+    },
+    {
+      "component": "peter-evans/find-comment@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enterprise-check-migrations.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enterprise-check-migrations.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fe-e2e-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fe-e2e-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fe-e2e-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fe-unit-tests.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fe-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "openhands/software-agent-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "openhands/openhands-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "openhands/benchmarks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "openhands/openhands-chrome-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-image.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-image.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-image.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-image.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build-image.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "Build and push multi-arch image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-package-versions.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-package-versions.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-package-versions.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "Check Package Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-version-consistency.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-version-consistency.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-version-consistency.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "Check Version Consistency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "abatilo/actions-poetry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "End-to-End Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enterprise-check-migrations.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enterprise-check-migrations.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "peter-evans/find-comment@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enterprise-check-migrations.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "peter-evans/create-or-update-comment@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enterprise-check-migrations.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "Enterprise Check Migrations",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fe-e2e-tests.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fe-e2e-tests.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fe-e2e-tests.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fe-e2e-tests.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "Run Frontend E2E Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fe-unit-tests.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fe-unit-tests.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fe-unit-tests.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "Run Frontend Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "source_repo": "OpenHands/OpenHands",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands",
+      "target": "claude-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenHands/OpenHands",
+      "target": "developer-tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:44:49.239069+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8358
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 8159
+    },
+    {
+      "path": ".github/workflows/_build-image.yml",
+      "size": 3954
+    },
+    {
+      "path": ".github/workflows/check-package-versions.yml",
+      "size": 1998
+    },
+    {
+      "path": ".github/workflows/check-version-consistency.yml",
+      "size": 4585
+    },
+    {
+      "path": ".github/workflows/e2e-tests.yml",
+      "size": 8146
+    },
+    {
+      "path": ".github/workflows/enterprise-check-migrations.yml",
+      "size": 1586
+    },
+    {
+      "path": ".github/workflows/fe-e2e-tests.yml",
+      "size": 1354
+    },
+    {
+      "path": ".github/workflows/fe-unit-tests.yml",
+      "size": 1321
+    },
+    {
+      "path": ".github/workflows/ghcr-build.yml",
+      "size": 2237
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude4c OpenHands: AI-Driven Development",
+    "fork": false,
+    "full_name": "OpenHands/OpenHands",
+    "html_url": "https://github.com/OpenHands/OpenHands",
+    "language": "Python",
+    "pushed_at": "2026-04-23T03:50:19Z",
+    "stargazers_count": 71820,
+    "topics": [
+      "agent",
+      "artificial-intelligence",
+      "chatgpt",
+      "claude-ai",
+      "cli",
+      "developer-tools",
+      "gpt",
+      "llm",
+      "openai"
+    ],
+    "updated_at": "2026-04-23T04:33:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openhands/benchmarks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openhands/openhands-chrome-extension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openhands/openhands-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openhands/software-agent-sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and push multi-arch image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build-image.yml",
+      "term": "Build and push multi-arch image"
+    },
+    {
+      "context_snippet": "Check Package Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-package-versions.yml",
+      "term": "Check Package Versions"
+    },
+    {
+      "context_snippet": "Check Version Consistency",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-version-consistency.yml",
+      "term": "Check Version Consistency"
+    },
+    {
+      "context_snippet": "End-to-End Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "term": "End-to-End Tests"
+    },
+    {
+      "context_snippet": "Enterprise Check Migrations",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enterprise-check-migrations.yml",
+      "term": "Enterprise Check Migrations"
+    },
+    {
+      "context_snippet": "Run Frontend E2E Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fe-e2e-tests.yml",
+      "term": "Run Frontend E2E Tests"
+    },
+    {
+      "context_snippet": "Run Frontend Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fe-unit-tests.yml",
+      "term": "Run Frontend Unit Tests"
+    },
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ghcr-build.yml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-ai"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "developer-tools"
+    }
+  ]
+}

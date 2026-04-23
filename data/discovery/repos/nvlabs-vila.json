@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "NVlabs/VILA",
-      "target": "junjie99/mlvu",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "NVlabs/VILA",
       "target": "efficient-large-model/vila",
       "target_type": "repository"
     },
@@ -26,11 +19,18 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "NVlabs/VILA",
-      "target": "internlm/internlm-xcomposer",
+      "target": "mbzuai-oryx/video-chatgpt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVlabs/VILA",
+      "target": "kakaobrain/coyo-dataset",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-23T01:14:37.202276+00:00",
+  "fetched_at": "2026-04-23T08:49:39.814061+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -72,12 +72,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "internlm/internlm-xcomposer",
+      "full_name": "kakaobrain/coyo-dataset",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "junjie99/mlvu",
+      "full_name": "mbzuai-oryx/video-chatgpt",
       "source_file": "README.md"
     }
   ],

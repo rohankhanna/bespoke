@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:41:08.862929+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12479
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "afl-cov successor - simpler and using modern llvm tools",
+    "fork": false,
+    "full_name": "AFLplusplus/cov-analysis",
+    "html_url": "https://github.com/AFLplusplus/cov-analysis",
+    "language": "Shell",
+    "pushed_at": "2026-04-21T16:14:35Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-04-22T14:33:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

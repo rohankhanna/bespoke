@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "postcss-modules"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "madyankin/postcss-modules",
+      "status": "candidate-context",
+      "text": "PostCSS plugin to use CSS Modules everywhere"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madyankin/postcss-modules",
+      "status": "candidate-context",
+      "text": "A [PostCSS] plugin to use [CSS Modules] everywhere. Not only at the client side."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "madyankin/postcss-modules",
+      "status": "candidate",
+      "text": "A [PostCSS] plugin to use [CSS Modules] everywhere. Not only at the client side."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "postcss-modules",
+  "concept_id": "postcss-modules",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "madyankin/postcss-modules"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "postcss-modules",
+      "sense_id": "postcss-modules#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

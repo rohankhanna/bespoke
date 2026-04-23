@@ -19,6 +19,18 @@
       "source_repo": "cevek/ttypescript",
       "status": "candidate-context",
       "text": "> **`ttypescript` is deprecated**. It currently works with TS below 5.0, but it will not be updated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dsherret/ts-nameof",
+      "status": "candidate-context",
+      "text": "nameof in TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dsherret/ts-nameof",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/dsherret/ts-nameof.svg)](https://travis-ci.org/dsherret/ts-nameof)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cevek/ttypescript",
       "status": "candidate",
       "text": "> **`ttypescript` is deprecated**. It currently works with TS below 5.0, but it will not be updated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dsherret/ts-nameof",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/dsherret/ts-nameof.svg)](https://travis-ci.org/dsherret/ts-nameof)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "cevek/ttypescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "dsherret/ts-nameof"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

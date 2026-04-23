@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cimgui/cimgui",
+      "target": "dominaezzz/kotlin-imgui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cimgui/cimgui",
+      "target": "dpethes/imgui-pas",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cimgui/cimgui",
+      "target": "canoi12/cimgui_c_sdl2_example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cimgui/cimgui",
+      "target": "alfredbaudisch/raylib-cimgui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cimgui/cimgui",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cimgui/cimgui",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cimgui/cimgui",
+      "target": "binding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cimgui/cimgui",
+      "target": "cimgui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cimgui/cimgui",
+      "target": "gamedev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cimgui/cimgui",
+      "target": "imgui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:38:59.548298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10575
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1748
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "docking_inter",
+    "description": "c-api for imgui (https://github.com/ocornut/imgui)    Look at: https://github.com/cimgui for other widgets",
+    "fork": false,
+    "full_name": "cimgui/cimgui",
+    "html_url": "https://github.com/cimgui/cimgui",
+    "language": "Lua",
+    "pushed_at": "2026-04-20T08:38:05Z",
+    "stargazers_count": 1868,
+    "topics": [
+      "binding",
+      "c",
+      "cimgui",
+      "gamedev",
+      "gui",
+      "imgui"
+    ],
+    "updated_at": "2026-04-22T19:43:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alfredbaudisch/raylib-cimgui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "canoi12/cimgui_c_sdl2_example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dominaezzz/kotlin-imgui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dpethes/imgui-pas",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "This is a thin c-api wrapper programmatically generated for the excellent C++ immediate mode gui [Dear ImGui](https://github.com/ocornut/imgui).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binding"
+    },
+    {
+      "context_snippet": "This is a thin c-api wrapper programmatically generated for the excellent C++ immediate mode gui [Dear ImGui](https://github.com/ocornut/imgui).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cimgui"
+    },
+    {
+      "context_snippet": "This is a thin c-api wrapper programmatically generated for the excellent C++ immediate mode gui [Dear ImGui](https://github.com/ocornut/imgui).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gamedev"
+    },
+    {
+      "context_snippet": "This is a thin c-api wrapper programmatically generated for the excellent C++ immediate mode gui [Dear ImGui](https://github.com/ocornut/imgui).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imgui"
+    }
+  ]
+}

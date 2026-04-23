@@ -31,6 +31,18 @@
       "source_repo": "binaryoung/jieba-php",
       "status": "candidate-context",
       "text": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/binaryoung/jieba-php.svg?style=flat-square)](https://packagist.org/packages/binaryoung/jieba-php)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baidu/lac",
+      "status": "candidate-context",
+      "text": "\u767e\u5ea6NLP\uff1a\u5206\u8bcd\uff0c\u8bcd\u6027\u6807\u6ce8\uff0c\u547d\u540d\u5b9e\u4f53\u8bc6\u522b\uff0c\u8bcd\u91cd\u8981\u6027"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidu/lac",
+      "status": "candidate-context",
+      "text": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "binaryoung/jieba-php",
       "status": "candidate",
       "text": "[![Latest Version on Packagist](https://img.shields.io/packagist/v/binaryoung/jieba-php.svg?style=flat-square)](https://packagist.org/packages/binaryoung/jieba-php)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baidu/lac",
+      "status": "candidate",
+      "text": "LAC\u5168\u79f0Lexical Analysis of Chinese\uff0c\u662f\u767e\u5ea6\u81ea\u7136\u8bed\u8a00\u5904\u7406\u90e8\u7814\u53d1\u7684\u4e00\u6b3e\u8054\u5408\u7684\u8bcd\u6cd5\u5206\u6790\u5de5\u5177\uff0c\u5b9e\u73b0\u4e2d\u6587\u5206\u8bcd\u3001\u8bcd\u6027\u6807\u6ce8\u3001\u4e13\u540d\u8bc6\u522b\u7b49\u529f\u80fd\u3002\u8be5\u5de5\u5177\u5177\u6709\u4ee5\u4e0b\u7279\u70b9\u4e0e\u4f18\u52bf\uff1a"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "binaryoung/jieba-php"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "baidu/lac"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

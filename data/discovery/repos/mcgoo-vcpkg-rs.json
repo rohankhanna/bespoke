@@ -1,0 +1,234 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-1.12.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "alexcrichton/pkg-config-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust-1.12.yml",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "mymindstorm/setup-emsdk@v11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasm.yml",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "WASM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "cargo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mcgoo/vcpkg-rs",
+      "target": "vcpkg",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:32:09.635519+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1419
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 541
+    },
+    {
+      "path": ".github/workflows/linux.yml",
+      "size": 536
+    },
+    {
+      "path": ".github/workflows/macos.yml",
+      "size": 558
+    },
+    {
+      "path": ".github/workflows/rust-1.12.yml",
+      "size": 1340
+    },
+    {
+      "path": ".github/workflows/wasm.yml",
+      "size": 684
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 3487
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Build library for finding native libraries in vcpkg for Rust - Windows (msvc), Linux and macOS",
+    "fork": false,
+    "full_name": "mcgoo/vcpkg-rs",
+    "html_url": "https://github.com/mcgoo/vcpkg-rs",
+    "language": "Rust",
+    "pushed_at": "2025-02-01T16:35:21Z",
+    "stargazers_count": 115,
+    "topics": [
+      "cargo",
+      "rust",
+      "vcpkg"
+    ],
+    "updated_at": "2026-03-25T00:45:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexcrichton/pkg-config-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux.yml",
+      "term": "Linux"
+    },
+    {
+      "context_snippet": "macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos.yml",
+      "term": "macOS"
+    },
+    {
+      "context_snippet": "WASM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/wasm.yml",
+      "term": "WASM"
+    },
+    {
+      "context_snippet": "Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows.yml",
+      "term": "Windows"
+    },
+    {
+      "context_snippet": "[Documentation](https://docs.rs/vcpkg) [Changelog](CHANGELOG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo"
+    },
+    {
+      "context_snippet": "[Documentation](https://docs.rs/vcpkg) [Changelog](CHANGELOG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[Documentation](https://docs.rs/vcpkg) [Changelog](CHANGELOG.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vcpkg"
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-lint-double-link.yml"
+    },
+    {
+      "component": "Scrum/awesome-readme-lint-double-link-action@cea741ae76b31fdde3e5105e964e98a2adbf60ed",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-lint-double-link.yml"
+    },
+    {
+      "component": "technote-space/toc-generator@9e238e7974de5fcf7b17b7acc54c896160dda0a3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "ably-labs/realtime-quiz-framework",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "14nrv/buefy-shop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "aaronlamz/navpress",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "aaronlamz/vue-next-i18n",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-lint-double-link.yml",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/readme-lint-double-link.yml",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "Scrum/awesome-readme-lint-double-link-action@cea741ae76b31fdde3e5105e964e98a2adbf60ed",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme-lint-double-link.yml",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "Awesome readme lint double link action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "technote-space/toc-generator@9e238e7974de5fcf7b17b7acc54c896160dda0a3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "vuejs/awesome-vue",
+      "target": "TOC Generator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:37:43.399512+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 142040
+    },
+    {
+      "path": ".github/workflows/readme-lint-double-link.yml",
+      "size": 530
+    },
+    {
+      "path": ".github/workflows/toc.yml",
+      "size": 299
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udf89 A curated list of awesome things related to Vue.js",
+    "fork": false,
+    "full_name": "vuejs/awesome-vue",
+    "html_url": "https://github.com/vuejs/awesome-vue",
+    "language": null,
+    "pushed_at": "2026-03-27T08:14:33Z",
+    "stargazers_count": 73607,
+    "topics": [],
+    "updated_at": "2026-04-23T06:22:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "14nrv/buefy-shop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaronlamz/navpress",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaronlamz/vue-next-i18n",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ably-labs/realtime-quiz-framework",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Awesome readme lint double link action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/readme-lint-double-link.yml",
+      "term": "Awesome readme lint double link action"
+    },
+    {
+      "context_snippet": "TOC Generator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/toc.yml",
+      "term": "TOC Generator"
+    }
+  ]
+}

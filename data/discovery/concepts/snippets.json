@@ -19,6 +19,30 @@
       "source_repo": "SirVer/ultisnips",
       "status": "candidate-context",
       "text": "![Build Status](https://github.com/SirVer/ultisnips/actions/workflows/main.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbb macOS / Ubuntu dotfiles"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate-context",
+      "text": "[![CI status for macOS][ci badge macos]][ci link macos]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "status": "candidate-context",
+      "text": "Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "status": "candidate-context",
+      "text": "VSCode(LSP)'s snippet feature in vim/nvim."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "SirVer/ultisnips",
       "status": "candidate",
       "text": "![Build Status](https://github.com/SirVer/ultisnips/actions/workflows/main.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alrra/dotfiles",
+      "status": "candidate",
+      "text": "[![CI status for macOS][ci badge macos]][ci link macos]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hrsh7th/vim-vsnip",
+      "status": "candidate",
+      "text": "VSCode(LSP)'s snippet feature in vim/nvim."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "SirVer/ultisnips"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alrra/dotfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "hrsh7th/vim-vsnip"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

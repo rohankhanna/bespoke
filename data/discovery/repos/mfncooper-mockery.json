@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "istanbul",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jshint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "unix-dgram",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vows",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mfncooper/mockery",
+      "target": "istanbul",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mfncooper/mockery",
+      "target": "jshint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mfncooper/mockery",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mfncooper/mockery",
+      "target": "unix-dgram",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mfncooper/mockery",
+      "target": "vows",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:42:33.482288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9779
+    },
+    {
+      "path": "package.json",
+      "size": 1154
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Simplifying the use of mocks with Node.js",
+    "fork": false,
+    "full_name": "mfncooper/mockery",
+    "html_url": "https://github.com/mfncooper/mockery",
+    "language": "JavaScript",
+    "pushed_at": "2023-08-16T20:23:55Z",
+    "stargazers_count": 1098,
+    "topics": [],
+    "updated_at": "2026-03-27T11:23:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

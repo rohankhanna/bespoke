@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "streadway/amqp",
+      "target": "soundtrackyourbrand/gaeamqp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streadway/amqp",
+      "target": "amqp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streadway/amqp",
+      "target": "protocol",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "streadway/amqp",
+      "target": "rabbitmq",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:40:47.599965+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4108
+    },
+    {
+      "path": "go.mod",
+      "size": 124
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go client for AMQP 0.9.1",
+    "fork": false,
+    "full_name": "streadway/amqp",
+    "html_url": "https://github.com/streadway/amqp",
+    "language": "Go",
+    "pushed_at": "2023-09-07T02:58:29Z",
+    "stargazers_count": 4933,
+    "topics": [
+      "amqp",
+      "go",
+      "protocol",
+      "rabbitmq"
+    ],
+    "updated_at": "2026-04-17T13:58:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "soundtrackyourbrand/gaeamqp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.org/streadway/amqp.svg)](http://travis-ci.org/streadway/amqp) [![GoDoc](https://godoc.org/github.com/streadway/amqp?status.svg)](http://godoc.org/github.com/streadway/amqp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amqp"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.org/streadway/amqp.svg)](http://travis-ci.org/streadway/amqp) [![GoDoc](https://godoc.org/github.com/streadway/amqp?status.svg)](http://godoc.org/github.com/streadway/amqp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol"
+    },
+    {
+      "context_snippet": "[![Build Status](https://api.travis-ci.org/streadway/amqp.svg)](http://travis-ci.org/streadway/amqp) [![GoDoc](https://godoc.org/github.com/streadway/amqp?status.svg)](http://godoc.org/github.com/streadway/amqp)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rabbitmq"
+    }
+  ]
+}

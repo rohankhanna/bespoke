@@ -344,6 +344,138 @@
       "source_repo": "multiformats/multihash",
       "status": "candidate-context",
       "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "web3/web3.js",
+      "status": "candidate-context",
+      "text": "Collection of comprehensive TypeScript libraries for Interaction with the Ethereum JSON RPC API and utility functions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web3/web3.js",
+      "status": "candidate-context",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ajaxorg/ace",
+      "status": "candidate-context",
+      "text": "Ace (Ajax.org Cloud9 Editor)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajaxorg/ace",
+      "status": "candidate-context",
+      "text": "\"Close Stale Issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-iot-device-sdk-js-v2",
+      "status": "candidate-context",
+      "text": "Next generation AWS IoT Client SDK for Node.js using the AWS Common Runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-iot-device-sdk-js-v2",
+      "status": "candidate-context",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/ms-swift",
+      "status": "candidate-context",
+      "text": "Use PEFT or Full-parameter to CPT/SFT/DPO/GRPO 600+ LLMs (Qwen3.6, DeepSeek-R1, GLM-5.1, InternLM3, Llama4, ...) and 300+ MLLMs (Qwen3-VL, Qwen3-Omni, InternVL3.5, Ovis2.5, GLM4.5v, Gemma4, Llava, Phi4, ...) (AAAI 2025)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/ms-swift",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/contributors-hex-grid",
+      "status": "candidate-context",
+      "text": "InterPlanetary Contributors WebPage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/contributors-hex-grid",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/go-cid",
+      "status": "candidate-context",
+      "text": "Content ID v1 implemented in go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-cid",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipld/ipld",
+      "status": "candidate-context",
+      "text": "This repo holds Website and Specs at https://ipld.io"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/ipld",
+      "status": "candidate-context",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "QwenLM/Qwen",
+      "status": "candidate-context",
+      "text": "The official repo of Qwen (\u901a\u4e49\u5343\u95ee) chat & pretrained large language model proposed by Alibaba Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen",
+      "status": "candidate-context",
+      "text": "Close stale issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gobackup/gobackup",
+      "status": "candidate-context",
+      "text": "\ud83d\uddc4 CLI tool for backup your databases, files to cloud storages in schedully."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobackup/gobackup",
+      "status": "candidate-context",
+      "text": "\"Close Stale Issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analysis-tools-dev/dynamic-analysis",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f A curated list of dynamic analysis tools and linters for all programming languages, binaries, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analysis-tools-dev/dynamic-analysis",
+      "status": "candidate-context",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f A curated list of static analysis (SAST) tools and linters for all programming languages, config files, build tools, and more. The focus is on tools which improve code quality."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate-context",
+      "text": "\"Close stale issues\""
     }
   ],
   "candidate_glosses": [
@@ -514,6 +646,72 @@
       "source_repo": "multiformats/multihash",
       "status": "candidate",
       "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "web3/web3.js",
+      "status": "candidate",
+      "text": "'Close stale issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ajaxorg/ace",
+      "status": "candidate",
+      "text": "\"Close Stale Issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-iot-device-sdk-js-v2",
+      "status": "candidate",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/ms-swift",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/contributors-hex-grid",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-cid",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipld/ipld",
+      "status": "candidate",
+      "text": "Close Stale Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "QwenLM/Qwen",
+      "status": "candidate",
+      "text": "Close stale issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobackup/gobackup",
+      "status": "candidate",
+      "text": "\"Close Stale Issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analysis-tools-dev/dynamic-analysis",
+      "status": "candidate",
+      "text": "\"Close stale issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "analysis-tools-dev/static-analysis",
+      "status": "candidate",
+      "text": "\"Close stale issues\""
     }
   ],
   "candidate_related_terms": [
@@ -731,11 +929,83 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "multiformats/multihash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "web3/web3.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "ajaxorg/ace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale_issue.yml",
+      "source_repo": "aws/aws-iot-device-sdk-js-v2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/close_tale_issue.yaml",
+      "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs-shipyard/contributors-hex-grid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipfs/go-cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "ipld/ipld"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "QwenLM/Qwen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/close-slate-issues.yml",
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "analysis-tools-dev/dynamic-analysis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "analysis-tools-dev/static-analysis"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

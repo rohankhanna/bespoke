@@ -1,0 +1,432 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-intel.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-intel.yml"
+    },
+    {
+      "component": "actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-intel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-intel.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml"
+    },
+    {
+      "component": "actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml"
+    },
+    {
+      "component": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml"
+    },
+    {
+      "component": "actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml"
+    },
+    {
+      "component": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml"
+    },
+    {
+      "component": "azure/trusted-signing-action@b443cf8ea4124818d2ea9f043cba29fc3ec47b16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "aaif-goose/goose",
+      "target": "agentclientprotocol/symposium-acp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose",
+      "source_repo": "aaif-goose/goose",
+      "target": "Close inactive issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cli.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cli.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "Reusable workflow to build CLI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-notify.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "BuildNotify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-intel.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-intel.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-intel.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-intel.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "Bundle Desktop (Linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bundle-desktop-manual.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "Manual Desktop Bundle (Unsigned)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/cache@8b402f58fbc84540c8b491a91e594a4576fec3d7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "azure/login@a457da9ea143d694b1b9c7c869ebb04ebe844ef5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "azure/trusted-signing-action@b443cf8ea4124818d2ea9f043cba29fc3ec47b16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml",
+      "source_repo": "aaif-goose/goose",
+      "target": "Bundle Desktop (Windows)",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:44:54.282457+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3209
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 3677
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1946
+    },
+    {
+      "path": ".github/workflows/autoclose",
+      "size": 740
+    },
+    {
+      "path": ".github/workflows/build-cli.yml",
+      "size": 5958
+    },
+    {
+      "path": ".github/workflows/build-notify.yml",
+      "size": 1171
+    },
+    {
+      "path": ".github/workflows/bundle-desktop-intel.yml",
+      "size": 6805
+    },
+    {
+      "path": ".github/workflows/bundle-desktop-linux.yml",
+      "size": 6063
+    },
+    {
+      "path": ".github/workflows/bundle-desktop-manual.yml",
+      "size": 607
+    },
+    {
+      "path": ".github/workflows/bundle-desktop-windows.yml",
+      "size": 8220
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM",
+    "fork": false,
+    "full_name": "aaif-goose/goose",
+    "html_url": "https://github.com/aaif-goose/goose",
+    "language": "Rust",
+    "pushed_at": "2026-04-23T03:29:04Z",
+    "stargazers_count": 43052,
+    "topics": [
+      "acp",
+      "ai",
+      "ai-agents",
+      "mcp"
+    ],
+    "updated_at": "2026-04-23T04:34:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agentclientprotocol/symposium-acp",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close inactive issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose",
+      "term": "Close inactive issues"
+    },
+    {
+      "context_snippet": "\"Reusable workflow to build CLI\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cli.yml",
+      "term": "Reusable workflow to build CLI"
+    },
+    {
+      "context_snippet": "BuildNotify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-notify.yml",
+      "term": "BuildNotify"
+    },
+    {
+      "context_snippet": "\"Bundle Desktop (Linux)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml",
+      "term": "Bundle Desktop (Linux)"
+    },
+    {
+      "context_snippet": "Manual Desktop Bundle (Unsigned)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bundle-desktop-manual.yml",
+      "term": "Manual Desktop Bundle (Unsigned)"
+    },
+    {
+      "context_snippet": "\"Bundle Desktop (Windows)\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bundle-desktop-windows.yml",
+      "term": "Bundle Desktop (Windows)"
+    }
+  ]
+}

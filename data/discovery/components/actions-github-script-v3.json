@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v3",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue-triage.yml",
       "source_repo": "expo/expo-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/binder-badge.yaml",
+      "source_repo": "krassowski/jupyterlab-lsp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-labels.yml",
+      "source_repo": "react-navigation/react-navigation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-repro.yml",
+      "source_repo": "react-navigation/react-navigation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/closed-issue.yml",
+      "source_repo": "react-navigation/react-navigation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-template.yml",
+      "source_repo": "facebookresearch/detectron2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/needs-reply.yml",
+      "source_repo": "facebookresearch/detectron2"
     }
   ]
 }

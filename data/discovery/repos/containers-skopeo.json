@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "containers/podman/.github/workflows/check_cirrus_cron.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml"
+    },
+    {
+      "component": "containers/podman/.github/workflows/issue_pr_lock.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_pr_lock.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "containers/skopeo",
+      "target": "containers/storage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_cirrus_cron.yml",
+      "source_repo": "containers/skopeo",
+      "target": "containers/podman/.github/workflows/check_cirrus_cron.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_pr_lock.yml",
+      "source_repo": "containers/skopeo",
+      "target": "containers/podman/.github/workflows/issue_pr_lock.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "containers/skopeo",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "containers/skopeo",
+      "target": "Mark stale issues and pull requests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:31:18.719608+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11905
+    },
+    {
+      "path": "go.mod",
+      "size": 5462
+    },
+    {
+      "path": ".github/workflows/check_cirrus_cron.yml",
+      "size": 971
+    },
+    {
+      "path": ".github/workflows/issue_pr_lock.yml",
+      "size": 525
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 888
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Work with remote images registries - retrieving information, images, signing content",
+    "fork": false,
+    "full_name": "containers/skopeo",
+    "html_url": "https://github.com/containers/skopeo",
+    "language": "Go",
+    "pushed_at": "2026-04-20T19:40:33Z",
+    "stargazers_count": 10761,
+    "topics": [],
+    "updated_at": "2026-04-23T03:57:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "containers/storage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Mark stale issues and pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Mark stale issues and pull requests"
+    }
+  ]
+}

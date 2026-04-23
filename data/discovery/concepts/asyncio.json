@@ -91,6 +91,18 @@
       "source_repo": "fastapi/fastapi",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nonebot/aiocqhttp",
+      "status": "candidate-context",
+      "text": "A Python SDK with async I/O for CQHTTP (OneBot)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nonebot/aiocqhttp",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/github/license/nonebot/aiocqhttp.svg)](LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "fastapi/fastapi",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nonebot/aiocqhttp",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/github/license/nonebot/aiocqhttp.svg)](LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nonebot/aiocqhttp"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

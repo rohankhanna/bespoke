@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "ruby"
+    "ruby",
+    "Ruby"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -97,6 +100,78 @@
       "source_repo": "rbenv/ruby-build",
       "status": "candidate-context",
       "text": "ruby-build is a command-line tool that simplifies installation of any Ruby version from source on Unix-like systems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate-context",
+      "text": "A Ruby language server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate-context",
+      "text": "[![RSpec](https://github.com/castwide/solargraph/actions/workflows/rspec.yml/badge.svg)](https://github.com/castwide/solargraph/actions/workflows/rspec.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "Emacs client/library for the Language Server Protocol"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "castwide/vscode-solargraph",
+      "status": "candidate-context",
+      "text": "A Visual Studio Code extension for Solargraph."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/vscode-solargraph",
+      "status": "candidate-context",
+      "text": "Solargraph is a language server that provides intellisense, code completion, and inline documentation for Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shakacode/package_json",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ruby/rbs",
+      "status": "candidate-context",
+      "text": "The type signature language for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate-context",
+      "text": "RBS is a language to describe the structure of Ruby programs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rack/rack",
+      "status": "candidate-context",
+      "text": "A modular Ruby web server interface."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rack/rack",
+      "status": "candidate-context",
+      "text": "Rack provides a minimal, modular, and adaptable interface for developing web"
     }
   ],
   "candidate_glosses": [
@@ -141,6 +216,48 @@
       "source_repo": "rbenv/ruby-build",
       "status": "candidate",
       "text": "ruby-build is a command-line tool that simplifies installation of any Ruby version from source on Unix-like systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/solargraph",
+      "status": "candidate",
+      "text": "[![RSpec](https://github.com/castwide/solargraph/actions/workflows/rspec.yml/badge.svg)](https://github.com/castwide/solargraph/actions/workflows/rspec.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-mode",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castwide/vscode-solargraph",
+      "status": "candidate",
+      "text": "Solargraph is a language server that provides intellisense, code completion, and inline documentation for Ruby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shakacode/package_json",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ruby/rbs",
+      "status": "candidate",
+      "text": "RBS is a language to describe the structure of Ruby programs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rack/rack",
+      "status": "candidate",
+      "text": "Rack provides a minimal, modular, and adaptable interface for developing web"
     }
   ],
   "candidate_related_terms": [
@@ -274,11 +391,59 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "rbenv/rbenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/ruby-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "castwide/solargraph"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "castwide/vscode-solargraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "shakacode/package_json"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "ruby/rbs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "ruby/rbs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "rack/rack"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

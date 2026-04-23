@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "purcell/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dimitri/el-get",
+      "target": "tarao/elisp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dimitri/el-get",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dimitri/el-get",
+      "target": "purcell/setup-emacs@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:41:23.393152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13900
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1031
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Manage the external elisp bits and pieces upon which you depend!",
+    "fork": false,
+    "full_name": "dimitri/el-get",
+    "html_url": "https://github.com/dimitri/el-get",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-08T13:07:08Z",
+    "stargazers_count": 1660,
+    "topics": [],
+    "updated_at": "2026-04-22T14:49:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tarao/elisp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

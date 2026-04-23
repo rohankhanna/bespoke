@@ -1,0 +1,147 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "target": "bytedance/sandboxfusion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "target": "alibaba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "target": "deep-research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "target": "deepresearch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "target": "information-seeking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "target": "tongyi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch",
+      "target": "web-agent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:35:17.507070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14118
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tongyi Deep Research, the Leading Open-source Deep Research Agent",
+    "fork": false,
+    "full_name": "Alibaba-NLP/DeepResearch",
+    "html_url": "https://github.com/Alibaba-NLP/DeepResearch",
+    "language": "Python",
+    "pushed_at": "2026-02-27T13:12:11Z",
+    "stargazers_count": 18725,
+    "topics": [
+      "agent",
+      "alibaba",
+      "artificial-intelligence",
+      "deep-research",
+      "deepresearch",
+      "information-seeking",
+      "llm",
+      "tongyi",
+      "web-agent"
+    ],
+    "updated_at": "2026-04-23T05:47:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/sandboxfusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alibaba"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-research"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepresearch"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-seeking"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tongyi"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-agent"
+    }
+  ]
+}

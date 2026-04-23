@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "style"
+    "style",
+    "Style"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -21,6 +22,42 @@
       "source_repo": "httplib2/httplib2",
       "status": "candidate-context",
       "text": "style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sentinel-group/sentinel-rust",
+      "status": "candidate-context",
+      "text": "Sentinel Rust version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sentinel-group/sentinel-rust",
+      "status": "candidate-context",
+      "text": "Style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpm-cmake/CPM.cmake",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 CMake's missing package manager. A small CMake script for setup-free, cross-platform, reproducible dependency management."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpm-cmake/CPM.cmake",
+      "status": "candidate-context",
+      "text": "Style"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate-context",
+      "text": "List of packages that use `standard`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
     }
   ],
   "candidate_glosses": [
@@ -29,6 +66,24 @@
       "source_repo": "httplib2/httplib2",
       "status": "candidate",
       "text": "style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sentinel-group/sentinel-rust",
+      "status": "candidate",
+      "text": "Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpm-cmake/CPM.cmake",
+      "status": "candidate",
+      "text": "Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/standard-packages",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/standard/standard-packages/master.svg"
     }
   ],
   "candidate_related_terms": [
@@ -120,11 +175,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/style.yaml",
       "source_repo": "httplib2/httplib2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "sentinel-group/sentinel-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/style.yaml",
+      "source_repo": "cpm-cmake/CPM.cmake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard-packages"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

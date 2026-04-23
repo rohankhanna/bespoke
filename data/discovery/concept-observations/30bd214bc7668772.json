@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Runs Trivy as GitHub action to scan your Docker container image for vulnerabilities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> [GitHub Action](https://github.com/features/actions) for [Trivy](https://github.com/aquasecurity/trivy)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> [GitHub Action](https://github.com/features/actions) for [Trivy](https://github.com/aquasecurity/trivy)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023829,
+      "status": "candidate",
+      "text": "exposure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30030031,
+      "status": "candidate",
+      "text": "frailty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029106,
+      "status": "candidate",
+      "text": "weakened"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029095,
+      "status": "candidate",
+      "text": "weakening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029077,
+      "status": "candidate",
+      "text": "debility"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vulnerability",
+      "sense_id": "vulnerability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19068,
+      "status": "candidate",
+      "text": "exposure"
+    }
+  ],
+  "concept_id": "vulnerability",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vulnerability",
+  "observation_id": "30bd214bc7668772",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "vulnerability",
+  "source_context_snippet": "> [GitHub Action](https://github.com/features/actions) for [Trivy](https://github.com/aquasecurity/trivy)",
+  "source_file": null,
+  "source_repo": "aquasecurity/trivy-action",
+  "source_repo_description": "Runs Trivy as GitHub action to scan your Docker container image for vulnerabilities"
+}

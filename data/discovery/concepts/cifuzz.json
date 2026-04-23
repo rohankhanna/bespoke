@@ -151,6 +151,132 @@
       "source_repo": "nothings/stb",
       "status": "candidate-context",
       "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "WebAssembly/wabt",
+      "status": "candidate-context",
+      "text": "The WebAssembly Binary Toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/wabt",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/brotli",
+      "status": "candidate-context",
+      "text": "Brotli compression format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/brotli",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/flate2-rs",
+      "status": "candidate-context",
+      "text": "DEFLATE, gzip, and zlib bindings for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/flate2-rs",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "A modern formatting library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/sentencepiece",
+      "status": "candidate-context",
+      "text": "Unsupervised text tokenizer for Neural Network-based text generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/sentencepiece",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "CoreDNS is a DNS server that chains plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/double-conversion",
+      "status": "candidate-context",
+      "text": "Efficient binary-decimal and decimal-binary conversion routines for IEEE doubles."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/double-conversion",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "richgel999/miniz",
+      "status": "candidate-context",
+      "text": "miniz: Single C source file zlib-replacement library, originally from code.google.com/p/miniz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "richgel999/miniz",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libressl/portable",
+      "status": "candidate-context",
+      "text": "LibreSSL Portable itself. This includes the build scaffold and compatibility layer that builds portable LibreSSL from the OpenBSD source code. Pull requests or patches sent to tech@openbsd.org are welcome."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libressl/portable",
+      "status": "candidate-context",
+      "text": "\"CIFuzz\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/jpegli",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "strukturag/libheif",
+      "status": "candidate-context",
+      "text": "libheif is an HEIF and AVIF file format decoder and encoder."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strukturag/libheif",
+      "status": "candidate-context",
+      "text": "CIFuzz"
     }
   ],
   "candidate_glosses": [
@@ -223,6 +349,72 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nothings/stb",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "WebAssembly/wabt",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/brotli",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/flate2-rs",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fmtlib/fmt",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/sentencepiece",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coredns/coredns",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/double-conversion",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "richgel999/miniz",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libressl/portable",
+      "status": "candidate",
+      "text": "\"CIFuzz\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/jpegli",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "strukturag/libheif",
       "status": "candidate",
       "text": "CIFuzz"
     }
@@ -322,11 +514,83 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/ci-fuzz.yml",
       "source_repo": "nothings/stb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/wabt-cifuzz.yml",
+      "source_repo": "WebAssembly/wabt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "google/brotli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "rust-lang/flate2-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "fmtlib/fmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "google/sentencepiece"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "coredns/coredns"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "google/double-conversion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci-fuzz.yml",
+      "source_repo": "richgel999/miniz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "libressl/portable"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "google/jpegli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "strukturag/libheif"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

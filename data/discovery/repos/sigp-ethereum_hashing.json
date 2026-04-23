@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cross",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cross",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cross",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "taiki-e/install-action@cargo-tarpaulin",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sigp/ethereum_hashing",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sigp/ethereum_hashing",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "sigp/ethereum_hashing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "sigp/ethereum_hashing",
+      "target": "taiki-e/install-action@cross",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "sigp/ethereum_hashing",
+      "target": "taiki-e/install-action@cargo-tarpaulin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "sigp/ethereum_hashing",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-suite.yml",
+      "source_repo": "sigp/ethereum_hashing",
+      "target": "test-suite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:28:57.357054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 493
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 981
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 622
+    },
+    {
+      "path": ".github/workflows/test-suite.yml",
+      "size": 7496
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hashing primitives used in Ethereum",
+    "fork": false,
+    "full_name": "sigp/ethereum_hashing",
+    "html_url": "https://github.com/sigp/ethereum_hashing",
+    "language": "Rust",
+    "pushed_at": "2026-02-19T01:02:00Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2026-02-19T01:02:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "test-suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-suite.yml",
+      "term": "test-suite"
+    }
+  ]
+}

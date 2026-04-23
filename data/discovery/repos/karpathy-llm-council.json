@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:37:14.105712+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3135
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 278
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LLM Council works together to answer your hardest questions",
+    "fork": false,
+    "full_name": "karpathy/llm-council",
+    "html_url": "https://github.com/karpathy/llm-council",
+    "language": "Python",
+    "pushed_at": "2025-11-22T23:35:21Z",
+    "stargazers_count": 17545,
+    "topics": [],
+    "updated_at": "2026-04-23T05:29:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

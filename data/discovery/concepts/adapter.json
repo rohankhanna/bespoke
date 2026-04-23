@@ -19,6 +19,18 @@
       "source_repo": "huggingface/peft",
       "status": "candidate-context",
       "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pug-php/ci-pug-engine",
+      "status": "candidate-context",
+      "text": "Pug Template Engine for CodeIgniter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/ci-pug-engine",
+      "status": "candidate-context",
+      "text": "ci-pug is a library for CodeIgniter to enable [Pug Template Engine](http://jade-lang.com/) to render"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "huggingface/peft",
       "status": "candidate",
       "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/ci-pug-engine",
+      "status": "candidate",
+      "text": "ci-pug is a library for CodeIgniter to enable [Pug Template Engine](http://jade-lang.com/) to render"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "huggingface/peft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pug-php/ci-pug-engine"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

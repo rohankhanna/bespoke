@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An authorization library that supports access control models like ACL, RBAC, ABAC in .NET (C#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "InferSharp"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "InferSharp"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "InferSharp",
+      "sense_id": "infersharp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "infersharp",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "infersharp",
+  "observation_id": "bc2ebe4aea6e0d26",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "InferSharp",
+  "source_context_snippet": "InferSharp",
+  "source_file": ".github/workflows/infersharp.yml",
+  "source_repo": "apache/casbin-Casbin.NET",
+  "source_repo_description": "An authorization library that supports access control models like ACL, RBAC, ABAC in .NET (C#)"
+}

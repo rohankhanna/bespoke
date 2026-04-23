@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "stale issues"
+    "stale issues",
+    "Stale Issues"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "Layr-Labs/eigensdk-rs",
       "status": "candidate-context",
       "text": "stale issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nats-io/nats-server",
+      "status": "candidate-context",
+      "text": "High-Performance server for NATS.io, the cloud and edge native messaging system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nats-io/nats-server",
+      "status": "candidate-context",
+      "text": "Stale Issues"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "Layr-Labs/eigensdk-rs",
       "status": "candidate",
       "text": "stale issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nats-io/nats-server",
+      "status": "candidate",
+      "text": "Stale Issues"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "Layr-Labs/eigensdk-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale-issues.yaml",
+      "source_repo": "nats-io/nats-server"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

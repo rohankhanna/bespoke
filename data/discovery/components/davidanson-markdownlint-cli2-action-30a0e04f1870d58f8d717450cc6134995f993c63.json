@@ -1,0 +1,12 @@
+{
+  "component": "DavidAnson/markdownlint-cli2-action@30a0e04f1870d58f8d717450cc6134995f993c63",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/markdownlint.yml",
+      "source_repo": "gohugoio/hugoDocs"
+    }
+  ]
+}

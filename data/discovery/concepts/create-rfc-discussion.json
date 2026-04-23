@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create RFC Discussion"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Comfy-Org/rfcs",
+      "status": "candidate-context",
+      "text": "RFCs for substantial changes to ComfyUI core, APIs, or standards."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/rfcs",
+      "status": "candidate-context",
+      "text": "Create RFC Discussion"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Comfy-Org/rfcs",
+      "status": "candidate",
+      "text": "Create RFC Discussion"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18417,
+      "status": "candidate",
+      "text": "interrupt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15361,
+      "status": "candidate",
+      "text": "telnet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10432,
+      "status": "candidate",
+      "text": "network"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10361,
+      "status": "candidate",
+      "text": "browser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10361,
+      "status": "candidate",
+      "text": "declarative"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create RFC Discussion",
+  "concept_id": "create-rfc-discussion",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/rfc-discussion.yml",
+      "source_repo": "Comfy-Org/rfcs"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create RFC Discussion",
+      "sense_id": "create-rfc-discussion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

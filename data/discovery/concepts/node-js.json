@@ -55,6 +55,18 @@
       "source_repo": "SBoudrias/Inquirer.js",
       "status": "candidate-context",
       "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "debug-js/debug",
+      "status": "candidate-context",
+      "text": "A tiny JavaScript debugging utility modelled after Node.js core's debugging technique. Works in Node.js and web browsers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debug-js/debug",
+      "status": "candidate-context",
+      "text": "[![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "SBoudrias/Inquirer.js",
       "status": "candidate",
       "text": "<img width=\"75px\" height=\"75px\" align=\"right\" alt=\"Inquirer Logo\" src=\"https://raw.githubusercontent.com/SBoudrias/Inquirer.js/main/assets/inquirer_readme.svg?sanitize=true\" title=\"Inquirer.js\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "debug-js/debug",
+      "status": "candidate",
+      "text": "[![OpenCollective](https://opencollective.com/debug/backers/badge.svg)](#backers)"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +136,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "debug-js/debug"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

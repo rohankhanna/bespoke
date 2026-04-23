@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:38:57.494182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2015
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Implementation of [multibase](https://github.com/multiformats/multibase) -self identifying base encodings- in Kotlin.",
+    "fork": false,
+    "full_name": "changjiashuai/kotlin-multibase",
+    "html_url": "https://github.com/changjiashuai/kotlin-multibase",
+    "language": "Kotlin",
+    "pushed_at": "2022-07-22T09:24:46Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2023-09-09T08:44:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

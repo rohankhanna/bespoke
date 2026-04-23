@@ -1,0 +1,91 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nix-community/nixops-vbox",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "nix-community/nixops-vbox",
+      "target": "cachix/install-nix-action@v8",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:45:03.263082+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1824
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 522
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NixOps VirtualBox backend [maintainer=@AmineChikhaoui]",
+    "fork": false,
+    "full_name": "nix-community/nixops-vbox",
+    "html_url": "https://github.com/nix-community/nixops-vbox",
+    "language": "Python",
+    "pushed_at": "2023-08-10T13:34:20Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-01-08T16:35:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

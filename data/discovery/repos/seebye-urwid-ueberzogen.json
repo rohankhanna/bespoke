@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:36:28.161946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 212
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "seebye/urwid-ueberzogen",
+    "html_url": "https://github.com/seebye/urwid-ueberzogen",
+    "language": null,
+    "pushed_at": "2023-01-10T16:19:11Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2023-07-17T04:08:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

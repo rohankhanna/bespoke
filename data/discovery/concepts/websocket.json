@@ -31,6 +31,54 @@
       "source_repo": "songquanpeng/message-pusher",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tsl0922/ttyd",
+      "status": "candidate-context",
+      "text": "Share your terminal over the web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsl0922/ttyd",
+      "status": "candidate-context",
+      "text": "![backend](https://github.com/tsl0922/ttyd/workflows/backend/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "curl/curl",
+      "status": "candidate-context",
+      "text": "A command line tool and library for transferring data with URL syntax, supporting DICT, FILE, FTP, FTPS, GOPHER, GOPHERS, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, MQTT, MQTTS, POP3, POP3S, RTMP, RTMPS, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET, TFTP, WS and WSS. libcurl offers a myriad of powerful features"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curl/curl",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lnbc1QWFyb24/lnmessage",
+      "status": "candidate-context",
+      "text": "Talk to Lightning nodes from the Browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnbc1QWFyb24/lnmessage",
+      "status": "candidate-context",
+      "text": "Talk to Lightning nodes from the Browser and NodeJS apps."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yudai/gotty",
+      "status": "candidate-context",
+      "text": "Share your terminal as a web application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yudai/gotty",
+      "status": "candidate-context",
+      "text": "[![GitHub release](http://img.shields.io/github/release/yudai/gotty.svg?style=flat-square)][release]"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "songquanpeng/message-pusher",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsl0922/ttyd",
+      "status": "candidate",
+      "text": "![backend](https://github.com/tsl0922/ttyd/workflows/backend/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "curl/curl",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lnbc1QWFyb24/lnmessage",
+      "status": "candidate",
+      "text": "Talk to Lightning nodes from the Browser and NodeJS apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yudai/gotty",
+      "status": "candidate",
+      "text": "[![GitHub release](http://img.shields.io/github/release/yudai/gotty.svg?style=flat-square)][release]"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +136,35 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": null,
       "source_repo": "songquanpeng/message-pusher"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "tsl0922/ttyd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "curl/curl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "lnbc1QWFyb24/lnmessage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "yudai/gotty"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A clean, modular SDK for building AI agents with OpenHands V1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Auto-label New Issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Auto-label New Issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48565,
+      "status": "candidate",
+      "text": "challenges"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48565,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48565,
+      "status": "candidate",
+      "text": "problems"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48565,
+      "status": "candidate",
+      "text": "questions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28965,
+      "status": "candidate",
+      "text": "retrial"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Auto-label New Issues",
+      "sense_id": "auto-label-new-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "auto-label-new-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "auto-label-new-issues",
+  "observation_id": "cc80569984620a98",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Auto-label New Issues",
+  "source_context_snippet": "Auto-label New Issues",
+  "source_file": ".github/workflows/auto-label-issues.yml",
+  "source_repo": "OpenHands/software-agent-sdk",
+  "source_repo_description": "A clean, modular SDK for building AI agents with OpenHands V1."
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Steel Documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boundless-xyz/steel",
+      "status": "candidate-context",
+      "text": "Steel: The ZK Coprocessor for EVM Apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/steel",
+      "status": "candidate-context",
+      "text": "Deploy Steel Documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boundless-xyz/steel",
+      "status": "candidate",
+      "text": "Deploy Steel Documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21931,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20720,
+      "status": "candidate",
+      "text": "steels"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20697,
+      "status": "candidate",
+      "text": "belay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20697,
+      "status": "candidate",
+      "text": "belaying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20697,
+      "status": "candidate",
+      "text": "chink"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Steel Documentation",
+  "concept_id": "deploy-steel-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/steel-documentation.yml",
+      "source_repo": "boundless-xyz/steel"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Steel Documentation",
+      "sense_id": "deploy-steel-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

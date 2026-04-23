@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "component": "theupdateframework/specification/.github/workflows/check-latest-spec-version.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-latest-spec-version.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-latest-spec-version.yml"
+    },
+    {
+      "component": "actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft.yml"
+    },
+    {
+      "component": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft.yml"
+    },
+    {
+      "component": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft.yml"
+    },
+    {
+      "component": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/create-release@0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-latest-spec-version.yml",
+      "source_repo": "theupdateframework/specification",
+      "target": "theupdateframework/specification/.github/workflows/check-latest-spec-version.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-latest-spec-version.yml",
+      "source_repo": "theupdateframework/specification",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft.yml",
+      "source_repo": "theupdateframework/specification",
+      "target": "actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/draft.yml",
+      "source_repo": "theupdateframework/specification",
+      "target": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft.yml",
+      "source_repo": "theupdateframework/specification",
+      "target": "Update draft specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "theupdateframework/specification",
+      "target": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "theupdateframework/specification",
+      "target": "actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theupdateframework/specification",
+      "target": "actions/checkout@3df4ab11eba7bda6032a0b82a6bb43b11571feac",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theupdateframework/specification",
+      "target": "actions/setup-python@0a5c61591373683505ea898e09a3ea4f39ef2b9c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theupdateframework/specification",
+      "target": "actions/create-release@0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theupdateframework/specification",
+      "target": "Release specification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:40:23.407307+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4167
+    },
+    {
+      "path": "requirements.txt",
+      "size": 8
+    },
+    {
+      "path": ".github/workflows/check-latest-spec-version.yml",
+      "size": 3953
+    },
+    {
+      "path": ".github/workflows/draft.yml",
+      "size": 1082
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 731
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Update Framework specification",
+    "fork": false,
+    "full_name": "theupdateframework/specification",
+    "html_url": "https://github.com/theupdateframework/specification",
+    "language": "Python",
+    "pushed_at": "2026-01-22T20:28:23Z",
+    "stargazers_count": 398,
+    "topics": [],
+    "updated_at": "2026-02-03T10:08:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Update draft specification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/draft.yml",
+      "term": "Update draft specification"
+    },
+    {
+      "context_snippet": "Release specification",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release specification"
+    }
+  ]
+}

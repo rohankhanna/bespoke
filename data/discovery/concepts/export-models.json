@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Export Models"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/executorch-examples",
+      "status": "candidate-context",
+      "text": "Example apps and demos using PyTorch's ExecuTorch framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/executorch-examples",
+      "status": "candidate-context",
+      "text": "Export Models"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/executorch-examples",
+      "status": "candidate",
+      "text": "Export Models"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11489,
+      "status": "candidate",
+      "text": "usa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10490,
+      "status": "candidate",
+      "text": "acculturation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10490,
+      "status": "candidate",
+      "text": "adore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10490,
+      "status": "candidate",
+      "text": "adored"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10490,
+      "status": "candidate",
+      "text": "atm"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Export Models",
+  "concept_id": "export-models",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/export-models.yml",
+      "source_repo": "meta-pytorch/executorch-examples"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Export Models",
+      "sense_id": "export-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

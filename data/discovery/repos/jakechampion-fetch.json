@@ -131,20 +131,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JakeChampion/fetch",
-      "target": "whatwg/fetch",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JakeChampion/fetch",
-      "target": "taylorhakes/promise-polyfill",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JakeChampion/fetch",
       "target": "github/fetch",
       "target_type": "repository"
     },
@@ -373,7 +359,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:27:41.764623+00:00",
+  "fetched_at": "2026-04-23T07:30:21.620031+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -423,16 +409,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "github/fetch",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "taylorhakes/promise-polyfill",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "whatwg/fetch",
       "source_file": "README.md"
     }
   ],

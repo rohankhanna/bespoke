@@ -1,7 +1,7 @@
 {
   "component": "ilammy/setup-nasm@v1",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/cmake-win64.yml",
       "source_repo": "tesseract-ocr/tesseract"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aws-lc-rs.yml",
+      "source_repo": "aws/aws-lc"
     }
   ]
 }

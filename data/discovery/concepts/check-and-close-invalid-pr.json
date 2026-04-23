@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check and Close Invalid PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mrs4s/go-cqhttp",
+      "status": "candidate-context",
+      "text": "cqhttp\u7684golang\u5b9e\u73b0\uff0c\u8f7b\u91cf\u3001\u539f\u751f\u8de8\u5e73\u53f0."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mrs4s/go-cqhttp",
+      "status": "candidate-context",
+      "text": "Check and Close Invalid PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mrs4s/go-cqhttp",
+      "status": "candidate",
+      "text": "Check and Close Invalid PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32025,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26091,
+      "status": "candidate",
+      "text": "reclaim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26091,
+      "status": "candidate",
+      "text": "reclaimed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21979,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21979,
+      "status": "candidate",
+      "text": "keying"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check and Close Invalid PR",
+  "concept_id": "check-and-close-invalid-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/close_pr.yml",
+      "source_repo": "Mrs4s/go-cqhttp"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check and Close Invalid PR",
+      "sense_id": "check-and-close-invalid-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

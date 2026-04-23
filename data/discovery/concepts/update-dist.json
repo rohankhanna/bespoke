@@ -1,0 +1,149 @@
+{
+  "aliases": [
+    "update dist",
+    "update-dist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "charmbracelet/vhs-action",
+      "status": "candidate-context",
+      "text": "Keep your GIFs up to date with VHS + GitHub actions \ud83d\udcfd\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs-action",
+      "status": "candidate-context",
+      "text": "update dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/build-push-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to build and push Docker images with Buildx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/build-push-action",
+      "status": "candidate-context",
+      "text": "update-dist"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docker/login-action",
+      "status": "candidate-context",
+      "text": "GitHub Action to login against a Docker registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/login-action",
+      "status": "candidate-context",
+      "text": "update-dist"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "charmbracelet/vhs-action",
+      "status": "candidate",
+      "text": "update dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/build-push-action",
+      "status": "candidate",
+      "text": "update-dist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docker/login-action",
+      "status": "candidate",
+      "text": "update-dist"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11555,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "acute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "balanced"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "biology"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11434,
+      "status": "candidate",
+      "text": "blackout"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "update dist",
+  "concept_id": "update-dist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/update-dist.yml",
+      "source_repo": "charmbracelet/vhs-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/update-dist.yml",
+      "source_repo": "docker/build-push-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/update-dist.yml",
+      "source_repo": "docker/login-action"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "update dist",
+      "sense_id": "update-dist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

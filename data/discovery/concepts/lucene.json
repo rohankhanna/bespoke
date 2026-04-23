@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lucene"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anderscui/jieba.NET",
+      "status": "candidate-context",
+      "text": "jieba\u4e2d\u6587\u5206\u8bcd\u7684.NET\u7248\u672c\uff08\u652f\u6301.NET Framework\u4e0e.NET Core\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anderscui/jieba.NET",
+      "status": "candidate-context",
+      "text": "jieba.NET\u662f[jieba\u4e2d\u6587\u5206\u8bcd](https://github.com/fxsjy/jieba)\u7684.NET\u7248\u672c\uff08C#\u5b9e\u73b0\uff09\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anderscui/jieba.NET",
+      "status": "candidate",
+      "text": "jieba.NET\u662f[jieba\u4e2d\u6587\u5206\u8bcd](https://github.com/fxsjy/jieba)\u7684.NET\u7248\u672c\uff08C#\u5b9e\u73b0\uff09\u3002"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lucene",
+  "concept_id": "lucene",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "anderscui/jieba.NET"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lucene",
+      "sense_id": "lucene#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

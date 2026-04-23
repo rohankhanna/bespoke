@@ -1,0 +1,184 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hackerb9/lsix",
+      "target": "hackerb9/vt340test",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackerb9/lsix",
+      "target": "files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackerb9/lsix",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackerb9/lsix",
+      "target": "imagemagick",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackerb9/lsix",
+      "target": "montage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackerb9/lsix",
+      "target": "sixel-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackerb9/lsix",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackerb9/lsix",
+      "target": "terminal-graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackerb9/lsix",
+      "target": "thumbnails",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackerb9/lsix",
+      "target": "vt340",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hackerb9/lsix",
+      "target": "xterm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:35:42.498188+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Like \"ls\", but for images. Shows thumbnails in terminal using sixel graphics.",
+    "fork": false,
+    "full_name": "hackerb9/lsix",
+    "html_url": "https://github.com/hackerb9/lsix",
+    "language": "Shell",
+    "pushed_at": "2024-06-20T15:12:30Z",
+    "stargazers_count": 4156,
+    "topics": [
+      "files",
+      "graphics",
+      "imagemagick",
+      "ls",
+      "montage",
+      "sixel-graphics",
+      "terminal",
+      "terminal-graphics",
+      "thumbnails",
+      "vt340",
+      "xterm"
+    ],
+    "updated_at": "2026-04-23T04:42:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hackerb9/vt340test",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img align=\"right\" src=\"README.md.d/thumb.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "files"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"README.md.d/thumb.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"README.md.d/thumb.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagemagick"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"README.md.d/thumb.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "montage"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"README.md.d/thumb.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sixel-graphics"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"README.md.d/thumb.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"README.md.d/thumb.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal-graphics"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"README.md.d/thumb.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "thumbnails"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"README.md.d/thumb.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vt340"
+    },
+    {
+      "context_snippet": "<img align=\"right\" src=\"README.md.d/thumb.png\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xterm"
+    }
+  ]
+}

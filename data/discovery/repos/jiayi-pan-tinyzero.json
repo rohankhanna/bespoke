@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dataset.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_digit_completion.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_gsm8k.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ray_test.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity.yml"
+    },
+    {
+      "component": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vllm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "parallel-reasoning/apr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "qwenlm/qwen2.5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_digit_completion.yml",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_gsm8k.yml",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/model.yml",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ray_test.yml",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ray_test.yml",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "ray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity.yml",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity.yml",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "actions/setup-python@0b93645e9fea7318ecaed2b359559ac225c90a2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanity.yml",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "sanity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vllm.yml",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vllm.yml",
+      "source_repo": "Jiayi-Pan/TinyZero",
+      "target": "vllm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:37.591417+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3532
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2219
+    },
+    {
+      "path": "requirements.txt",
+      "size": 135
+    },
+    {
+      "path": ".github/workflows/dataset.yml",
+      "size": 949
+    },
+    {
+      "path": ".github/workflows/e2e_digit_completion.yml",
+      "size": 1166
+    },
+    {
+      "path": ".github/workflows/e2e_gsm8k.yml",
+      "size": 2132
+    },
+    {
+      "path": ".github/workflows/model.yml",
+      "size": 1338
+    },
+    {
+      "path": ".github/workflows/ray_test.yml",
+      "size": 1140
+    },
+    {
+      "path": ".github/workflows/sanity.yml",
+      "size": 1085
+    },
+    {
+      "path": ".github/workflows/vllm.yml",
+      "size": 1148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Minimal reproduction of DeepSeek R1-Zero",
+    "fork": false,
+    "full_name": "Jiayi-Pan/TinyZero",
+    "html_url": "https://github.com/Jiayi-Pan/TinyZero",
+    "language": "Python",
+    "pushed_at": "2026-02-27T05:42:07Z",
+    "stargazers_count": 13067,
+    "topics": [],
+    "updated_at": "2026-04-23T05:32:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "parallel-reasoning/apr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen2.5",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dataset",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dataset.yml",
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "ray",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ray_test.yml",
+      "term": "ray"
+    },
+    {
+      "context_snippet": "sanity",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanity.yml",
+      "term": "sanity"
+    },
+    {
+      "context_snippet": "vllm",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vllm.yml",
+      "term": "vllm"
+    }
+  ]
+}

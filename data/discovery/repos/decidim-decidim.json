@@ -1,0 +1,530 @@
+{
+  "components": [
+    {
+      "component": "@decidim/browserslist-config",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@decidim/core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@decidim/webpacker",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@decidim/dev",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@decidim/eslint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@decidim/prettier-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@decidim/stylelint-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "concat-stream",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "enzyme",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-environment-jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-localstorage-mock",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-test-renderer",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "yaml-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_locale_completeness.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_locale_completeness.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_backporter.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_backporter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "@decidim/browserslist-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "@decidim/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "@decidim/webpacker",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "@decidim/dev",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "@decidim/eslint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "@decidim/prettier-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "@decidim/stylelint-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "babel-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "concat-stream",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "enzyme",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "jest-environment-jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "jest-localstorage-mock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "react-test-renderer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "decidim/decidim",
+      "target": "yaml-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_locale_completeness.yml",
+      "source_repo": "decidim/decidim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_locale_completeness.yml",
+      "source_repo": "decidim/decidim",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_locale_completeness.yml",
+      "source_repo": "decidim/decidim",
+      "target": "Check locale completeness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_backporter.yml",
+      "source_repo": "decidim/decidim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_backporter.yml",
+      "source_repo": "decidim/decidim",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_backporter.yml",
+      "source_repo": "decidim/decidim",
+      "target": "Backport",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "citizen-participation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "civic-tech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "civictech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "collective-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "community",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "decidim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "democracy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "digital-public-goods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "digital-public-infrastructure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "government",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "govtech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "ideation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "participation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "decidim/decidim",
+      "target": "stakeholder-engagement",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:33:25.420635+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1689
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 1639
+    },
+    {
+      "path": ".github/workflows/check_locale_completeness.yml",
+      "size": 570
+    },
+    {
+      "path": ".github/workflows/ci_accountability.yml",
+      "size": 957
+    },
+    {
+      "path": ".github/workflows/ci_admin.yml",
+      "size": 1231
+    },
+    {
+      "path": ".github/workflows/ci_ai.yml",
+      "size": 657
+    },
+    {
+      "path": ".github/workflows/ci_api.yml",
+      "size": 829
+    },
+    {
+      "path": ".github/workflows/ci_assemblies.yml",
+      "size": 1247
+    },
+    {
+      "path": ".github/workflows/ci_backporter.yml",
+      "size": 2051
+    },
+    {
+      "path": ".github/workflows/ci_blogs.yml",
+      "size": 869
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "The participatory democracy framework. A generator and multiple gems made with Ruby on Rails",
+    "fork": false,
+    "full_name": "decidim/decidim",
+    "html_url": "https://github.com/decidim/decidim",
+    "language": "Ruby",
+    "pushed_at": "2026-04-23T08:20:33Z",
+    "stargazers_count": 1732,
+    "topics": [
+      "citizen-participation",
+      "civic-tech",
+      "civictech",
+      "collective-intelligence",
+      "community",
+      "decidim",
+      "democracy",
+      "digital-public-goods",
+      "digital-public-infrastructure",
+      "dpg",
+      "government",
+      "govtech",
+      "ideation",
+      "participation",
+      "stakeholder-engagement"
+    ],
+    "updated_at": "2026-04-23T08:20:36Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Check locale completeness",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_locale_completeness.yml",
+      "term": "Check locale completeness"
+    },
+    {
+      "context_snippet": "Backport",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_backporter.yml",
+      "term": "Backport"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "citizen-participation"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "civic-tech"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "civictech"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "collective-intelligence"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "community"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decidim"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "democracy"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "digital-public-goods"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "digital-public-infrastructure"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "government"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "govtech"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ideation"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "participation"
+    },
+    {
+      "context_snippet": "a-decidim-app \u2014 Note: this is not a package, just the dependencies for the project in the dev environment.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stakeholder-engagement"
+    }
+  ]
+}

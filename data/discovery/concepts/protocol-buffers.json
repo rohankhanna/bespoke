@@ -67,6 +67,42 @@
       "source_repo": "go-woo/protoc-gen-echo",
       "status": "candidate-context",
       "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation - replaced by https://github.com/bufbuild/protovalidate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/github/license/bufbuild/protoc-gen-validate?color=blue)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/gnostic",
+      "status": "candidate-context",
+      "text": "A compiler for APIs described by the OpenAPI Specification with plugins for code generation and other API support tasks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gnostic",
+      "status": "candidate-context",
+      "text": "[![Go Actions Status](https://github.com/google/gnostic/workflows/Go/badge.svg)](https://github.com/google/gnostic/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bufbuild/protovalidate",
+      "status": "candidate-context",
+      "text": "Protocol Buffer Validation - Go, Java, Python, C++ and JS/TS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate",
+      "status": "candidate-context",
+      "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "go-woo/protoc-gen-echo",
       "status": "candidate",
       "text": "`protoc-gen-echo` is a protoc plug-in that generates [Echo](https://github.com/labstack/echo) server code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protoc-gen-validate",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/github/license/bufbuild/protoc-gen-validate?color=blue)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/gnostic",
+      "status": "candidate",
+      "text": "[![Go Actions Status](https://github.com/google/gnostic/workflows/Go/badge.svg)](https://github.com/google/gnostic/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bufbuild/protovalidate",
+      "status": "candidate",
+      "text": "![The Buf logo](https://raw.githubusercontent.com/bufbuild/protovalidate/main/.github/buf-logo.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -154,11 +208,35 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protoc-gen-validate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "google/gnostic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bufbuild/protovalidate"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

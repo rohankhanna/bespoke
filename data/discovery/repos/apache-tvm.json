@@ -1,0 +1,474 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cc_bot.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@b75a909f75acd358c2196fb9a5f1299a9a8868a4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docker_update.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docker_update.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ping_reviewers.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_teams.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tvmbot.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tvmbot.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_last_successful_branch.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/tvm",
+      "target": "halide/halide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/tvm",
+      "target": "inducer/loopy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/tvm",
+      "target": "theano/theano",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cc_bot.yml",
+      "source_repo": "apache/tvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/tvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/tvm",
+      "target": "astral-sh/setup-uv@b75a909f75acd358c2196fb9a5f1299a9a8868a4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/tvm",
+      "target": "pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "apache/tvm",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "apache/tvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docker_update.yml",
+      "source_repo": "apache/tvm",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly_docker_update.yml",
+      "source_repo": "apache/tvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_docker_update.yml",
+      "source_repo": "apache/tvm",
+      "target": "Nightly Docker Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ping_reviewers.yml",
+      "source_repo": "apache/tvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ping_reviewers.yml",
+      "source_repo": "apache/tvm",
+      "target": "Ping Reviewers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag_teams.yml",
+      "source_repo": "apache/tvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag_teams.yml",
+      "source_repo": "apache/tvm",
+      "target": "Teams",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tvmbot.yml",
+      "source_repo": "apache/tvm",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tvmbot.yml",
+      "source_repo": "apache/tvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tvmbot.yml",
+      "source_repo": "apache/tvm",
+      "target": "tvm-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update_last_successful_branch.yml",
+      "source_repo": "apache/tvm",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_last_successful_branch.yml",
+      "source_repo": "apache/tvm",
+      "target": "Update last-successful branch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tvm",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tvm",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tvm",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tvm",
+      "target": "metal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tvm",
+      "target": "opencl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tvm",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tvm",
+      "target": "rocm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tvm",
+      "target": "spirv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tvm",
+      "target": "tensor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/tvm",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:32:53.945044+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3494
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6581
+    },
+    {
+      "path": ".github/workflows/cc_bot.yml",
+      "size": 1695
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1464
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3701
+    },
+    {
+      "path": ".github/workflows/nightly_docker_update.yml",
+      "size": 689
+    },
+    {
+      "path": ".github/workflows/ping_reviewers.yml",
+      "size": 539
+    },
+    {
+      "path": ".github/workflows/tag_teams.yml",
+      "size": 1490
+    },
+    {
+      "path": ".github/workflows/tvmbot.yml",
+      "size": 1217
+    },
+    {
+      "path": ".github/workflows/update_last_successful_branch.yml",
+      "size": 1476
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Open Machine Learning Compiler Framework",
+    "fork": false,
+    "full_name": "apache/tvm",
+    "html_url": "https://github.com/apache/tvm",
+    "language": "Python",
+    "pushed_at": "2026-04-23T06:02:51Z",
+    "stargazers_count": 13296,
+    "topics": [
+      "compiler",
+      "deep-learning",
+      "gpu",
+      "javascript",
+      "machine-learning",
+      "metal",
+      "opencl",
+      "performance",
+      "rocm",
+      "spirv",
+      "tensor",
+      "tvm",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-23T06:02:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "halide/halide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inducer/loopy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "theano/theano",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Nightly Docker Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly_docker_update.yml",
+      "term": "Nightly Docker Update"
+    },
+    {
+      "context_snippet": "Ping Reviewers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ping_reviewers.yml",
+      "term": "Ping Reviewers"
+    },
+    {
+      "context_snippet": "Teams",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag_teams.yml",
+      "term": "Teams"
+    },
+    {
+      "context_snippet": "tvm-bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tvmbot.yml",
+      "term": "tvm-bot"
+    },
+    {
+      "context_snippet": "Update last-successful branch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update_last_successful_branch.yml",
+      "term": "Update last-successful branch"
+    },
+    {
+      "context_snippet": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metal"
+    },
+    {
+      "context_snippet": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencl"
+    },
+    {
+      "context_snippet": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    },
+    {
+      "context_snippet": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spirv"
+    },
+    {
+      "context_snippet": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensor"
+    },
+    {
+      "context_snippet": "<!--- Licensed to the Apache Software Foundation (ASF) under one -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "softprops/action-gh-release@6da8fa9354ddfdc4aeace5fc48d7f679b5214090",
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "kubernetes-sigs/metrics-server"
+    }
+  ]
+}

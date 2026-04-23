@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Deploy VitePress site to Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wighawag/hardhat-deploy",
+      "status": "candidate-context",
+      "text": "hardhat deployment plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wighawag/hardhat-deploy",
+      "status": "candidate-context",
+      "text": "Deploy VitePress site to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wighawag/rocketh",
+      "status": "candidate-context",
+      "text": "A tool to test and deploy ethereum smart contract "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wighawag/rocketh",
+      "status": "candidate-context",
+      "text": "Deploy VitePress site to Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ai00-X/ai00_server",
+      "status": "candidate-context",
+      "text": "The all-in-one RWKV runtime box with embed, RAG, AI agents, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ai00-X/ai00_server",
+      "status": "candidate-context",
+      "text": "Deploy VitePress site to Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wighawag/hardhat-deploy",
+      "status": "candidate",
+      "text": "Deploy VitePress site to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wighawag/rocketh",
+      "status": "candidate",
+      "text": "Deploy VitePress site to Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ai00-X/ai00_server",
+      "status": "candidate",
+      "text": "Deploy VitePress site to Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23167,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23145,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23123,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23123,
+      "status": "candidate",
+      "text": "booking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23123,
+      "status": "candidate",
+      "text": "books"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy VitePress site to Pages",
+  "concept_id": "deploy-vitepress-site-to-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "wighawag/hardhat-deploy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "wighawag/rocketh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "Ai00-X/ai00_server"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy VitePress site to Pages",
+      "sense_id": "deploy-vitepress-site-to-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

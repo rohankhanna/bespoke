@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "target": "e2e tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "target": "amazon-ecs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "target": "amazon-eks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "target": "cni-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws/amazon-vpc-cni-plugins",
+      "target": "containers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:43:54.517948+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 430
+    },
+    {
+      "path": "go.mod",
+      "size": 1202
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 317
+    },
+    {
+      "path": ".github/workflows/e2e.yaml",
+      "size": 1105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VPC CNI plugins for Amazon ECS and EKS.",
+    "fork": false,
+    "full_name": "aws/amazon-vpc-cni-plugins",
+    "html_url": "https://github.com/aws/amazon-vpc-cni-plugins",
+    "language": "Go",
+    "pushed_at": "2026-03-18T23:51:02Z",
+    "stargazers_count": 69,
+    "topics": [
+      "amazon-ecs",
+      "amazon-eks",
+      "aws",
+      "cni-plugin",
+      "containers"
+    ],
+    "updated_at": "2026-03-21T05:32:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "e2e tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e.yaml",
+      "term": "e2e tests"
+    },
+    {
+      "context_snippet": "VPC CNI plugins for Amazon ECS and Amazon EKS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon-ecs"
+    },
+    {
+      "context_snippet": "VPC CNI plugins for Amazon ECS and Amazon EKS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon-eks"
+    },
+    {
+      "context_snippet": "VPC CNI plugins for Amazon ECS and Amazon EKS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cni-plugin"
+    },
+    {
+      "context_snippet": "VPC CNI plugins for Amazon ECS and Amazon EKS.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    }
+  ]
+}

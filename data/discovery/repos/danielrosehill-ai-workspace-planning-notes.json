@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:36:52.487855+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Spec/notes for an AI workspace I have been planning for some time (incl consolidating previous notes)",
+    "fork": false,
+    "full_name": "danielrosehill/Ai-Workspace-Planning-Notes",
+    "html_url": "https://github.com/danielrosehill/Ai-Workspace-Planning-Notes",
+    "language": null,
+    "pushed_at": "2025-11-25T13:27:05Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-11-25T23:17:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,112 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqua_build_security.yml"
+    },
+    {
+      "component": "aquasecurity/build-security-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqua_build_security.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commenter.yml"
+    },
+    {
+      "component": "aquasecurity/tfsec-pr-commenter-action@v1.1.0-beta.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commenter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqua_build_security.yml",
+      "source_repo": "tfsec/tfsec-example-project",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aqua_build_security.yml",
+      "source_repo": "tfsec/tfsec-example-project",
+      "target": "aquasecurity/build-security-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aqua_build_security.yml",
+      "source_repo": "tfsec/tfsec-example-project",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commenter.yml",
+      "source_repo": "tfsec/tfsec-example-project",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commenter.yml",
+      "source_repo": "tfsec/tfsec-example-project",
+      "target": "aquasecurity/tfsec-pr-commenter-action@v1.1.0-beta.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commenter.yml",
+      "source_repo": "tfsec/tfsec-example-project",
+      "target": "tfsec-pr-commenter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:43:18.597357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 152
+    },
+    {
+      "path": ".github/workflows/aqua_build_security.yml",
+      "size": 529
+    },
+    {
+      "path": ".github/workflows/commenter.yml",
+      "size": 335
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A test project with known bad terraform to run tfsec against",
+    "fork": false,
+    "full_name": "tfsec/tfsec-example-project",
+    "html_url": "https://github.com/tfsec/tfsec-example-project",
+    "language": "HCL",
+    "pushed_at": "2022-10-27T08:02:57Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2025-01-01T09:36:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aqua_build_security.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "tfsec-pr-commenter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commenter.yml",
+      "term": "tfsec-pr-commenter"
+    }
+  ]
+}

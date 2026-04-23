@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T08:30:57.612807+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mirror of the PulseAudio sound server (for bug reports and pull requests go to the website!)",
+    "fork": true,
+    "full_name": "microsoft/pulseaudio-mirror",
+    "html_url": "https://github.com/microsoft/pulseaudio-mirror",
+    "language": "C",
+    "pushed_at": "2024-09-17T16:25:07Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-14T18:41:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

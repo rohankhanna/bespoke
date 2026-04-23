@@ -164,6 +164,78 @@
       "source_repo": "tc39/test262",
       "status": "candidate-context",
       "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenZeppelin/openzeppelin-upgrades",
+      "status": "candidate-context",
+      "text": "Plugins for Hardhat and Foundry to deploy and manage upgradeable contracts on Ethereum."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-upgrades",
+      "status": "candidate-context",
+      "text": "checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "status": "candidate-context",
+      "text": "Generate changelogs and release notes from a project's commit messages and metadata."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ossf/osv-schema",
+      "status": "candidate-context",
+      "text": "Open Source Vulnerability schema. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ossf/osv-schema",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades",
+      "status": "candidate-context",
+      "text": "Foundry library for deploying and managing upgradeable contracts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades",
+      "status": "candidate-context",
+      "text": "checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hashicorp/memberlist",
+      "status": "candidate-context",
+      "text": "Golang package for gossip based membership and failure detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/memberlist",
+      "status": "candidate-context",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TrigenSoftware/simple-release",
+      "status": "candidate-context",
+      "text": "A simple tool to release projects with monorepo support."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrigenSoftware/simple-release",
+      "status": "candidate-context",
+      "text": "Checks"
     }
   ],
   "candidate_glosses": [
@@ -242,6 +314,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tc39/test262",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-upgrades",
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conventional-changelog/conventional-changelog",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ossf/osv-schema",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades",
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hashicorp/memberlist",
+      "status": "candidate",
+      "text": "Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrigenSoftware/simple-release",
       "status": "candidate",
       "text": "Checks"
     }
@@ -371,11 +479,47 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/checks.yml",
       "source_repo": "tc39/test262"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-upgrades"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "ossf/osv-schema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "hashicorp/memberlist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "TrigenSoftware/simple-release"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

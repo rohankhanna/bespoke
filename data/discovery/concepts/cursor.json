@@ -55,6 +55,18 @@
       "source_repo": "askbudi/roundtable",
       "status": "candidate-context",
       "text": "[![PyPI version](https://badge.fury.io/py/roundtable-ai.svg)](https://badge.fury.io/py/roundtable-ai)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AndrewRadev/switch.vim",
+      "status": "candidate-context",
+      "text": "A simple Vim plugin to switch segments of text with predefined replacements"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndrewRadev/switch.vim",
+      "status": "candidate-context",
+      "text": "[![GitHub version](https://badge.fury.io/gh/andrewradev%2Fswitch.vim.svg)](https://badge.fury.io/gh/andrewradev%2Fswitch.vim)"
     }
   ],
   "candidate_glosses": [
@@ -75,6 +87,12 @@
       "source_repo": "askbudi/roundtable",
       "status": "candidate",
       "text": "[![PyPI version](https://badge.fury.io/py/roundtable-ai.svg)](https://badge.fury.io/py/roundtable-ai)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AndrewRadev/switch.vim",
+      "status": "candidate",
+      "text": "[![GitHub version](https://badge.fury.io/gh/andrewradev%2Fswitch.vim.svg)](https://badge.fury.io/gh/andrewradev%2Fswitch.vim)"
     }
   ],
   "candidate_related_terms": [
@@ -186,11 +204,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AndrewRadev/switch.vim"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

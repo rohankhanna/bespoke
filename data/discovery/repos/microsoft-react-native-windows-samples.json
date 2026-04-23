@@ -1,0 +1,335 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-upgrade.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-buildsample.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-buildsample.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-buildsample.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-buildwebsite.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-buildwebsite.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-upgradesample.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-upgradesample.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-upgradesample.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "microsoft/react-native-macos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "microsoft/react-native-winrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-upgrade.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-upgrade.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "CI (Upgrade)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "dorny/paths-filter@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-buildsample.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-buildsample.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-buildsample.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "Build Sample",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-buildwebsite.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-buildwebsite.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "Build Website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-upgradesample.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/template-upgradesample.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-upgradesample.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "Upgrade Sample",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website-publish.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website-publish.yml",
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "RNW Website Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "react-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "react-native-macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/react-native-windows-samples",
+      "target": "react-native-windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:46:29.351066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2669
+    },
+    {
+      "path": "Dockerfile",
+      "size": 148
+    },
+    {
+      "path": ".github/workflows/ci-upgrade.yml",
+      "size": 1675
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1535
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 3408
+    },
+    {
+      "path": ".github/workflows/template-buildsample.yml",
+      "size": 3316
+    },
+    {
+      "path": ".github/workflows/template-buildwebsite.yml",
+      "size": 2415
+    },
+    {
+      "path": ".github/workflows/template-upgradesample.yml",
+      "size": 4373
+    },
+    {
+      "path": ".github/workflows/website-publish.yml",
+      "size": 929
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repository showcasing React Native samples and templates for Windows, macOS, and Surface Duo.",
+    "fork": false,
+    "full_name": "microsoft/react-native-windows-samples",
+    "html_url": "https://github.com/microsoft/react-native-windows-samples",
+    "language": "C#",
+    "pushed_at": "2026-04-23T01:55:49Z",
+    "stargazers_count": 540,
+    "topics": [
+      "react-native",
+      "react-native-macos",
+      "react-native-windows"
+    ],
+    "updated_at": "2026-04-21T20:06:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/react-native-macos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/react-native-winrt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI (Upgrade)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-upgrade.yml",
+      "term": "CI (Upgrade)"
+    },
+    {
+      "context_snippet": "Build Sample",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-buildsample.yml",
+      "term": "Build Sample"
+    },
+    {
+      "context_snippet": "Build Website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-buildwebsite.yml",
+      "term": "Build Website"
+    },
+    {
+      "context_snippet": "Upgrade Sample",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/template-upgradesample.yml",
+      "term": "Upgrade Sample"
+    },
+    {
+      "context_snippet": "RNW Website Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website-publish.yml",
+      "term": "RNW Website Publish"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native-macos"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native-windows"
+    }
+  ]
+}

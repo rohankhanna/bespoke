@@ -19,6 +19,30 @@
       "source_repo": "ldayton/Parable",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abaplint/transpiler",
+      "status": "candidate-context",
+      "text": "ABAP to JS transpiler & runtime"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/transpiler",
+      "status": "candidate-context",
+      "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/runtime?label=%40abaplint%2Fruntime)](https://www.npmjs.com/package/@abaplint/runtime)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pug-php/js-phpize",
+      "status": "candidate-context",
+      "text": "Convert js-like syntax to standalone PHP code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/js-phpize",
+      "status": "candidate-context",
+      "text": "[![Latest Stable Version](https://poser.pugx.org/js-phpize/js-phpize/v/stable.png)](https://packagist.org/packages/js-phpize/js-phpize)"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +51,57 @@
       "source_repo": "ldayton/Parable",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abaplint/transpiler",
+      "status": "candidate",
+      "text": "[![npm (scoped)](https://img.shields.io/npm/v/@abaplint/runtime?label=%40abaplint%2Fruntime)](https://www.npmjs.com/package/@abaplint/runtime)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pug-php/js-phpize",
+      "status": "candidate",
+      "text": "[![Latest Stable Version](https://poser.pugx.org/js-phpize/js-phpize/v/stable.png)](https://packagist.org/packages/js-phpize/js-phpize)"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003384,
+      "status": "candidate",
+      "text": "transcompiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003383,
+      "status": "candidate",
+      "text": "transcompilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003382,
+      "status": "candidate",
+      "text": "translator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003381,
+      "status": "candidate",
+      "text": "supercompiler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003380,
+      "status": "candidate",
+      "text": "transposer"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "transpiler",
   "concept_id": "transpiler",
@@ -52,12 +124,26 @@
       "observed_at": "2026-04-18T13:50:38.061794+00:00",
       "source_file": null,
       "source_repo": "ldayton/Parable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "abaplint/transpiler"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pug-php/js-phpize"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

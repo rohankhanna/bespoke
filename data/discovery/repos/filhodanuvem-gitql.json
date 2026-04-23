@@ -123,7 +123,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T18:58:46.510065+00:00",
+  "fetched_at": "2026-04-23T07:37:59.121360+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -156,13 +156,13 @@
     "html_url": "https://github.com/filhodanuvem/gitql",
     "language": "Go",
     "pushed_at": "2024-10-14T14:32:41Z",
-    "stargazers_count": 6298,
+    "stargazers_count": 6297,
     "topics": [
       "git",
       "go",
       "hacktoberfest"
     ],
-    "updated_at": "2026-04-21T08:41:33Z"
+    "updated_at": "2026-04-22T20:54:04Z"
   },
   "repo_links": [
     {

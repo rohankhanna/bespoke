@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "jackpal/gateway",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "jackpal/gateway",
+      "target": "actions/setup-go@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:32:20.922933+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2668
+    },
+    {
+      "path": "go.mod",
+      "size": 313
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A golang library for discovering the address of a LAN gateway.",
+    "fork": false,
+    "full_name": "jackpal/gateway",
+    "html_url": "https://github.com/jackpal/gateway",
+    "language": "Go",
+    "pushed_at": "2025-04-03T19:00:13Z",
+    "stargazers_count": 246,
+    "topics": [],
+    "updated_at": "2026-04-16T16:32:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

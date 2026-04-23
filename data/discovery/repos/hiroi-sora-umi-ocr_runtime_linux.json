@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR_runtime_linux",
+      "target": "hiroi-sora/umi-ocr_runtime_windows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroi-sora/Umi-OCR_runtime_linux",
+      "target": "lmbelo/python3-embeddable",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hiroi-sora/Umi-OCR_runtime_linux",
+      "target": "umi-ocr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:29:57.858695+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8677
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1560
+    },
+    {
+      "path": "requirements.txt",
+      "size": 98
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Umi-OCR Linux \u8fd0\u884c\u73af\u5883",
+    "fork": false,
+    "full_name": "hiroi-sora/Umi-OCR_runtime_linux",
+    "html_url": "https://github.com/hiroi-sora/Umi-OCR_runtime_linux",
+    "language": "Python",
+    "pushed_at": "2025-03-25T16:48:28Z",
+    "stargazers_count": 188,
+    "topics": [
+      "umi-ocr"
+    ],
+    "updated_at": "2026-04-22T10:21:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiroi-sora/umi-ocr_runtime_windows",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lmbelo/python3-embeddable",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "umi-ocr"
+    }
+  ]
+}

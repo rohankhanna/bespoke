@@ -67,6 +67,42 @@
       "source_repo": "Shougo/dein.vim",
       "status": "candidate-context",
       "text": "[![Gitter](https://img.shields.io/gitter/room/Shougo/dein.vim?color=mediumaquamarine)](https://gitter.im/Shougo/dein.vim)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/dpp.vim",
+      "status": "candidate-context",
+      "text": "Dark powered plugin manager for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp.vim",
+      "status": "candidate-context",
+      "text": "> Dark Powered Plugin manager for Vim/Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jandamm/zgenom",
+      "status": "candidate-context",
+      "text": "A lightweight and fast plugin manager for ZSH"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jandamm/zgenom",
+      "status": "candidate-context",
+      "text": "A lightweight yet powerful plugin manager for Zsh."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0ghny/shellx",
+      "status": "candidate-context",
+      "text": "Generic shell session bootstrapper and plugins manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/shellx",
+      "status": "candidate-context",
+      "text": "ZSH/BASH or any other shell has their own plugin managers and configuration managers which, for me:"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "Shougo/dein.vim",
       "status": "candidate",
       "text": "[![Gitter](https://img.shields.io/gitter/room/Shougo/dein.vim?color=mediumaquamarine)](https://gitter.im/Shougo/dein.vim)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/dpp.vim",
+      "status": "candidate",
+      "text": "> Dark Powered Plugin manager for Vim/Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jandamm/zgenom",
+      "status": "candidate",
+      "text": "A lightweight yet powerful plugin manager for Zsh."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0ghny/shellx",
+      "status": "candidate",
+      "text": "ZSH/BASH or any other shell has their own plugin managers and configuration managers which, for me:"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +196,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "Shougo/dein.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/dpp.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "jandamm/zgenom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "0ghny/shellx"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

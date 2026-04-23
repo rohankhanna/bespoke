@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T07:45:20.416313+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 141
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A safe Rust wrapper for libsixel",
+    "fork": false,
+    "full_name": "AdnoC/sixel-rs",
+    "html_url": "https://github.com/AdnoC/sixel-rs",
+    "language": "Rust",
+    "pushed_at": "2023-08-30T16:16:30Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2025-09-04T13:13:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

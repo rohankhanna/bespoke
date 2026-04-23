@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "mamba-org/setup-micromamba@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mamba-org/boa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "mamba-org/boa",
+      "target": "mamba-org/setup-micromamba@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mamba-org/boa",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mamba-org/boa",
+      "target": "mamba-org/setup-micromamba@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "mamba-org/boa",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mamba-org/boa",
+      "target": "conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mamba-org/boa",
+      "target": "conda-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mamba-org/boa",
+      "target": "mamba",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:47:01.226555+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2913
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 421
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The fast conda package builder, based on mamba",
+    "fork": false,
+    "full_name": "mamba-org/boa",
+    "html_url": "https://github.com/mamba-org/boa",
+    "language": "Python",
+    "pushed_at": "2024-12-05T13:53:00Z",
+    "stargazers_count": 255,
+    "topics": [
+      "conda",
+      "conda-packages",
+      "mamba"
+    ],
+    "updated_at": "2026-02-24T04:59:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "![boa header image](docs/assets/boa_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda"
+    },
+    {
+      "context_snippet": "![boa header image](docs/assets/boa_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conda-packages"
+    },
+    {
+      "context_snippet": "![boa header image](docs/assets/boa_header.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mamba"
+    }
+  ]
+}

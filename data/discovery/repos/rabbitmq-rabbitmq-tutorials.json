@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rabbitmq/rabbitmq-tutorials",
+      "target": "amqp-node/amqplib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rabbitmq/rabbitmq-tutorials",
+      "target": "rabbitmq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rabbitmq/rabbitmq-tutorials",
+      "target": "tutorials",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:40:46.401901+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tutorials for using RabbitMQ in various ways",
+    "fork": false,
+    "full_name": "rabbitmq/rabbitmq-tutorials",
+    "html_url": "https://github.com/rabbitmq/rabbitmq-tutorials",
+    "language": "Java",
+    "pushed_at": "2026-04-23T02:04:09Z",
+    "stargazers_count": 6884,
+    "topics": [
+      "rabbitmq",
+      "tutorials"
+    ],
+    "updated_at": "2026-04-23T02:04:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amqp-node/amqplib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project contains code for [RabbitMQ tutorials](https://www.rabbitmq.com/getstarted.html) with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rabbitmq"
+    },
+    {
+      "context_snippet": "This project contains code for [RabbitMQ tutorials](https://www.rabbitmq.com/getstarted.html) with",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorials"
+    }
+  ]
+}

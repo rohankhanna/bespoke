@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Analytics Events Report"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana/grafana",
+      "status": "candidate-context",
+      "text": "The open and composable observability and data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/grafana",
+      "status": "candidate-context",
+      "text": "Analytics Events Report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana/grafana",
+      "status": "candidate",
+      "text": "Analytics Events Report"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35141,
+      "status": "candidate",
+      "text": "account"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34741,
+      "status": "candidate",
+      "text": "accounting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26091,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25691,
+      "status": "candidate",
+      "text": "annual"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25691,
+      "status": "candidate",
+      "text": "narrative"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Analytics Events Report",
+  "concept_id": "analytics-events-report",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/analytics-events-report.yml",
+      "source_repo": "grafana/grafana"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Analytics Events Report",
+      "sense_id": "analytics-events-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

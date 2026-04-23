@@ -43,6 +43,30 @@
       "source_repo": "opencontainers/tob",
       "status": "candidate-context",
       "text": "The TOB is responsible for managing conflicts, violations of procedures or guidelines and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Projects. The TOB shall also be responsible for adding, removing or reorganizing OCI Projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate-context",
+      "text": "Open Container Initiative-based implementation of Kubernetes Container Runtime Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencontainers/runtime-tools",
+      "status": "candidate-context",
+      "text": "OCI Runtime Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runtime-tools",
+      "status": "candidate-context",
+      "text": "oci-runtime-tool is a collection of tools for working with the [OCI runtime specification][runtime-spec]."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "opencontainers/tob",
       "status": "candidate",
       "text": "The TOB is responsible for managing conflicts, violations of procedures or guidelines and any cross-project or high-level issues that cannot be resolved in the TDC for OCI Projects. The TOB shall also be responsible for adding, removing or reorganizing OCI Projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable-next-line MD041 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencontainers/runtime-tools",
+      "status": "candidate",
+      "text": "oci-runtime-tool is a collection of tools for working with the [OCI runtime specification][runtime-spec]."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "opencontainers/tob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "cri-o/cri-o"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "opencontainers/runtime-tools"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

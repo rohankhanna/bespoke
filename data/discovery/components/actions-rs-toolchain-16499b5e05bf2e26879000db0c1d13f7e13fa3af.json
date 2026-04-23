@@ -1,12 +1,47 @@
 {
   "component": "actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "arxanas/git-branchless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/admin.yml",
+      "source_repo": "rustsec/rustsec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-audit.yml",
+      "source_repo": "rustsec/rustsec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cargo-lock.yml",
+      "source_repo": "rustsec/rustsec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cvss.yml",
+      "source_repo": "rustsec/rustsec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platforms.yml",
+      "source_repo": "rustsec/rustsec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/quitters.yml",
+      "source_repo": "rustsec/rustsec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "rustsec/rustsec"
     }
   ]
 }

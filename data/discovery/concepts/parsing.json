@@ -43,6 +43,30 @@
       "source_repo": "jquery/esprima",
       "status": "candidate-context",
       "text": "[![NPM version](https://img.shields.io/npm/v/esprima.svg)](https://www.npmjs.com/package/esprima)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tree-sitter/tree-sitter",
+      "status": "candidate-context",
+      "text": "An incremental parsing system for programming tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter",
+      "status": "candidate-context",
+      "text": "[![DOI](https://zenodo.org/badge/14164618.svg)](https://zenodo.org/badge/latestdoi/14164618)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-tree-sitter/tree-sitter-langs",
+      "status": "candidate-context",
+      "text": "Language bundle for Emacs's tree-sitter package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-tree-sitter/tree-sitter-langs",
+      "status": "candidate-context",
+      "text": "Bump Version"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "jquery/esprima",
       "status": "candidate",
       "text": "[![NPM version](https://img.shields.io/npm/v/esprima.svg)](https://www.npmjs.com/package/esprima)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tree-sitter/tree-sitter",
+      "status": "candidate",
+      "text": "[![DOI](https://zenodo.org/badge/14164618.svg)](https://zenodo.org/badge/latestdoi/14164618)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-tree-sitter/tree-sitter-langs",
+      "status": "candidate",
+      "text": "Bump Version"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "jquery/esprima"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "tree-sitter/tree-sitter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "emacs-tree-sitter/tree-sitter-langs"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,30 @@
       "source_repo": "morrys/react-relay-offline",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morrys/offline-examples",
+      "status": "candidate-context",
+      "text": "Relay and Apollo Offline Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/offline-examples",
+      "status": "candidate-context",
+      "text": "A collection of example applications using [react-relay-offline](https://github.com/morrys/react-relay-offline)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "morrys/wora",
+      "status": "candidate-context",
+      "text": "Write Once, Render Anywhere. typescript libraries: cache-persist, apollo-offline, relay-offline, offline-first, apollo-cache, relay-store, netinfo, detect-network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/wora",
+      "status": "candidate-context",
+      "text": "**the github page contains all the documentation relating to the libraries distributed by this monorepo.**"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "morrys/react-relay-offline",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/offline-examples",
+      "status": "candidate",
+      "text": "A collection of example applications using [react-relay-offline](https://github.com/morrys/react-relay-offline)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "morrys/wora",
+      "status": "candidate",
+      "text": "**the github page contains all the documentation relating to the libraries distributed by this monorepo.**"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "morrys/react-relay-offline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "morrys/offline-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "morrys/wora"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

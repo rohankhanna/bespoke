@@ -1,0 +1,525 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose_schedule.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose_schedule.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose_schedule.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@8d2b08b68458a16aeb24b64e68a09ab1c8e82084",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@8d2b08b68458a16aeb24b64e68a09ab1c8e82084",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@8d2b08b68458a16aeb24b64e68a09ab1c8e82084",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@8d2b08b68458a16aeb24b64e68a09ab1c8e82084",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@8d2b08b68458a16aeb24b64e68a09ab1c8e82084",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml"
+    },
+    {
+      "component": "scientific-python/circleci-artifacts-redirector-action@5d358ff96e96429a5c64a969bb4a574555439f4f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml"
+    },
+    {
+      "component": "reviewdog/action-setup@d8a7baabd7f3e8544ee4dbde3ee41d0011c3a93f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean_pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "eps1lon/actions-label-merge-conflict@1df065ebe6e3310545d4f4c4e862e43bdca146f0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conflictcheck.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@711d29f3da23c9f4a1798e369a6f01198c13b11a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "charliermarsh/ruff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "pybind/pybind11",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose_comment.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "autoclose comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose_schedule.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autoclose_schedule.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose_schedule.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "autoclose schedule",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "pypa/cibuildwheel@8d2b08b68458a16aeb24b64e68a09ab1c8e82084",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "Build CI wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "scientific-python/circleci-artifacts-redirector-action@5d358ff96e96429a5c64a969bb4a574555439f4f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/circleci.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "reviewdog/action-setup@d8a7baabd7f3e8544ee4dbde3ee41d0011c3a93f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/circleci.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "CircleCI artifact handling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean_pr.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean_pr.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "PR cleanliness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conflictcheck.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "eps1lon/actions-label-merge-conflict@1df065ebe6e3310545d4f4c4e862e43bdca146f0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conflictcheck.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "Maintenance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "cygwin/cygwin-install-action@711d29f3da23c9f4a1798e369a6f01198c13b11a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin.yml",
+      "source_repo": "matplotlib/matplotlib",
+      "target": "Cygwin Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matplotlib/matplotlib",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matplotlib/matplotlib",
+      "target": "data-visualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matplotlib/matplotlib",
+      "target": "matplotlib",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matplotlib/matplotlib",
+      "target": "plotting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:27:48.677401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3966
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 12447
+    },
+    {
+      "path": ".github/workflows/autoclose_comment.yml",
+      "size": 3246
+    },
+    {
+      "path": ".github/workflows/autoclose_schedule.yml",
+      "size": 1040
+    },
+    {
+      "path": ".github/workflows/cibuildwheel.yml",
+      "size": 6886
+    },
+    {
+      "path": ".github/workflows/circleci.yml",
+      "size": 2860
+    },
+    {
+      "path": ".github/workflows/clean_pr.yml",
+      "size": 2206
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1184
+    },
+    {
+      "path": ".github/workflows/conflictcheck.yml",
+      "size": 811
+    },
+    {
+      "path": ".github/workflows/cygwin.yml",
+      "size": 9871
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "matplotlib: plotting with Python",
+    "fork": false,
+    "full_name": "matplotlib/matplotlib",
+    "html_url": "https://github.com/matplotlib/matplotlib",
+    "language": "Python",
+    "pushed_at": "2026-04-23T04:15:30Z",
+    "stargazers_count": 22730,
+    "topics": [
+      "data-science",
+      "data-visualization",
+      "gtk",
+      "matplotlib",
+      "plotting",
+      "python",
+      "qt",
+      "tk",
+      "wx"
+    ],
+    "updated_at": "2026-04-23T04:15:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "charliermarsh/ruff",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pybind/pybind11",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "autoclose comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose_comment.yml",
+      "term": "autoclose comment"
+    },
+    {
+      "context_snippet": "autoclose schedule",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autoclose_schedule.yml",
+      "term": "autoclose schedule"
+    },
+    {
+      "context_snippet": "Build CI wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "term": "Build CI wheels"
+    },
+    {
+      "context_snippet": "\"CircleCI artifact handling\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/circleci.yml",
+      "term": "CircleCI artifact handling"
+    },
+    {
+      "context_snippet": "PR cleanliness",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean_pr.yml",
+      "term": "PR cleanliness"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"Maintenance\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conflictcheck.yml",
+      "term": "Maintenance"
+    },
+    {
+      "context_snippet": "Cygwin Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cygwin.yml",
+      "term": "Cygwin Tests"
+    },
+    {
+      "context_snippet": "[![PyPi](https://img.shields.io/pypi/v/matplotlib)](https://pypi.org/project/matplotlib/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "[![PyPi](https://img.shields.io/pypi/v/matplotlib)](https://pypi.org/project/matplotlib/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualization"
+    },
+    {
+      "context_snippet": "[![PyPi](https://img.shields.io/pypi/v/matplotlib)](https://pypi.org/project/matplotlib/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matplotlib"
+    },
+    {
+      "context_snippet": "[![PyPi](https://img.shields.io/pypi/v/matplotlib)](https://pypi.org/project/matplotlib/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotting"
+    }
+  ]
+}

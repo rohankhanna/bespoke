@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI Android Emulator Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AOMediaCodec/libavif",
+      "status": "candidate-context",
+      "text": "libavif - Library for encoding and decoding .avif files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AOMediaCodec/libavif",
+      "status": "candidate-context",
+      "text": "CI Android Emulator Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AOMediaCodec/libavif",
+      "status": "candidate",
+      "text": "CI Android Emulator Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17011,
+      "status": "candidate",
+      "text": "hal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17011,
+      "status": "candidate",
+      "text": "star"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12392,
+      "status": "candidate",
+      "text": "radon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12369,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12345,
+      "status": "candidate",
+      "text": "chemist"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Android Emulator Tests",
+  "concept_id": "ci-android-emulator-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/ci-android-emulator-tests.yml",
+      "source_repo": "AOMediaCodec/libavif"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Android Emulator Tests",
+      "sense_id": "ci-android-emulator-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

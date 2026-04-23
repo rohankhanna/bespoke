@@ -1,0 +1,113 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml"
+    },
+    {
+      "component": "denoland/setup-deno@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/dpp-ext-installer",
+      "target": "vim-denops/denops.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/dpp-ext-installer",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/dpp-ext-installer",
+      "target": "denoland/setup-deno@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr.yml",
+      "source_repo": "Shougo/dpp-ext-installer",
+      "target": "jsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/dpp-ext-installer",
+      "target": "dpp-exts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/dpp-ext-installer",
+      "target": "dpp-vim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:32:00.346752+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 907
+    },
+    {
+      "path": ".github/workflows/jsr.yml",
+      "size": 548
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Installer ext for dpp.vim",
+    "fork": false,
+    "full_name": "Shougo/dpp-ext-installer",
+    "html_url": "https://github.com/Shougo/dpp-ext-installer",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-17T02:58:50Z",
+    "stargazers_count": 12,
+    "topics": [
+      "dpp-exts",
+      "dpp-vim"
+    ],
+    "updated_at": "2026-04-17T02:58:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim-denops/denops.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "jsr",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jsr.yml",
+      "term": "jsr"
+    },
+    {
+      "context_snippet": "This ext implements plugins installer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dpp-exts"
+    },
+    {
+      "context_snippet": "This ext implements plugins installer.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dpp-vim"
+    }
+  ]
+}

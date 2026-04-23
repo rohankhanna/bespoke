@@ -84,7 +84,7 @@
   "normalized_form": "oniguruma",
   "observation_id": "6591bae6bacea79c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
   "observed_text": "oniguruma",
   "source_context_snippet": "oniguruma",
   "source_file": ".github/workflows/oniguruma.yml",

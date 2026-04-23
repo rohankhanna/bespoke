@@ -46,6 +46,18 @@
       "source_repo": "bottlenoselabs/c2cs",
       "status": "candidate-context",
       "text": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/rust-bindgen",
+      "status": "candidate-context",
+      "text": "Automatically generates Rust FFI bindings to C (and some C++) libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-bindgen",
+      "status": "candidate-context",
+      "text": "bindgen"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "bottlenoselabs/c2cs",
       "status": "candidate",
       "text": "C to C# library bindings code generator. In go `.h` file, out come `.cs` file. 100% deterministic; no AI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/rust-bindgen",
+      "status": "candidate",
+      "text": "bindgen"
     }
   ],
   "candidate_related_terms": [],
@@ -91,11 +109,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "bottlenoselabs/c2cs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/bindgen.yml",
+      "source_repo": "rust-lang/rust-bindgen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "bottlenoselabs/c2cs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

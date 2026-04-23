@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:35:19.474848+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3448
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udcbb SETA: Scaling Environments for Terminal Agents",
+    "fork": false,
+    "full_name": "camel-ai/seta",
+    "html_url": "https://github.com/camel-ai/seta",
+    "language": "Python",
+    "pushed_at": "2026-02-16T14:10:50Z",
+    "stargazers_count": 91,
+    "topics": [],
+    "updated_at": "2026-04-18T11:44:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

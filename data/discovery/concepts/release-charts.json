@@ -31,6 +31,42 @@
       "source_repo": "prometheus-community/helm-charts",
       "status": "candidate-context",
       "text": "Release Charts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate-context",
+      "text": "Make underlay and overlay network can coexist, communicate, even be transformed purposefully."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate-context",
+      "text": "Release Charts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "status": "candidate-context",
+      "text": "Deploy langgenious/dify, an LLM based app on kubernetes with helm chart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "status": "candidate-context",
+      "text": "Release Charts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate-context",
+      "text": "Grafana Community Kubernetes Helm Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana-community/helm-charts",
+      "status": "candidate-context",
+      "text": "Release Charts"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +79,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "prometheus-community/helm-charts",
+      "status": "candidate",
+      "text": "Release Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/hybridnet",
+      "status": "candidate",
+      "text": "Release Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BorisPolonsky/dify-helm",
+      "status": "candidate",
+      "text": "Release Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grafana-community/helm-charts",
       "status": "candidate",
       "text": "Release Charts"
     }
@@ -100,11 +154,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "prometheus-community/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/helm.yml",
+      "source_repo": "alibaba/hybridnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "BorisPolonsky/dify-helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "grafana-community/helm-charts"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

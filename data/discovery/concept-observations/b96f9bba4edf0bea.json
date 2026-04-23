@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast, unopinionated, minimalist web framework for node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "express \u2014 Fast, unopinionated, minimalist web framework"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "express \u2014 Fast, unopinionated, minimalist web framework"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39929970,
+      "status": "candidate",
+      "text": "express train"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892513,
+      "status": "candidate",
+      "text": "expressage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39872274,
+      "status": "candidate",
+      "text": "carry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39858554,
+      "status": "candidate",
+      "text": "convey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39830730,
+      "status": "candidate",
+      "text": "state"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "express",
+      "sense_id": "express#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66045,
+      "status": "candidate",
+      "text": "convey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 53080,
+      "status": "candidate",
+      "text": "state"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35056,
+      "status": "candidate",
+      "text": "show"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34033,
+      "status": "candidate",
+      "text": "evince"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27055,
+      "status": "candidate",
+      "text": "carry"
+    }
+  ],
+  "concept_id": "express",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "express",
+  "observation_id": "b96f9bba4edf0bea",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "express",
+  "source_context_snippet": "express \u2014 Fast, unopinionated, minimalist web framework",
+  "source_file": null,
+  "source_repo": "expressjs/express",
+  "source_repo_description": "Fast, unopinionated, minimalist web framework for node."
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Official front-end implementation of ComfyUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "'Api: Update Manager API Types'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "'Api: Update Manager API Types'"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23178,
+      "status": "candidate",
+      "text": "cio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23166,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22035,
+      "status": "candidate",
+      "text": "remake"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21746,
+      "status": "candidate",
+      "text": "footage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21746,
+      "status": "candidate",
+      "text": "lot"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Api: Update Manager API Types",
+      "sense_id": "api-update-manager-api-types#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "api-update-manager-api-types",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "api-update-manager-api-types",
+  "observation_id": "8cbc3ff6eea2a18e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_text": "Api: Update Manager API Types",
+  "source_context_snippet": "'Api: Update Manager API Types'",
+  "source_file": ".github/workflows/api-update-manager-api-types.yaml",
+  "source_repo": "Comfy-Org/ComfyUI_frontend",
+  "source_repo_description": "Official front-end implementation of ComfyUI"
+}

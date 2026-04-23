@@ -91,6 +91,18 @@
       "source_repo": "microsoft/vscode",
       "status": "candidate-context",
       "text": "[![Feature Requests](https://img.shields.io/github/issues/microsoft/vscode/feature-request.svg)](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electron-userland/electron-installer-snap",
+      "status": "candidate-context",
+      "text": "Build Snap packages for Electron applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-installer-snap",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/electron-userland/electron-installer-snap/workflows/CI/badge.svg)](https://github.com/electron-userland/electron-installer-snap/actions?query=workflow:CI)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "microsoft/vscode",
       "status": "candidate",
       "text": "[![Feature Requests](https://img.shields.io/github/issues/microsoft/vscode/feature-request.svg)](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electron-userland/electron-installer-snap",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/electron-userland/electron-installer-snap/workflows/CI/badge.svg)](https://github.com/electron-userland/electron-installer-snap/actions?query=workflow:CI)"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +244,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "microsoft/vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "electron-userland/electron-installer-snap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

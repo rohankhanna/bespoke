@@ -19,6 +19,54 @@
       "source_repo": "NixOS/nixpkgs",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pwnwriter/PTN11",
+      "status": "candidate-context",
+      "text": "My talk on Pentester Nepal's 11th anniversary 'bout nix(os). "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pwnwriter/PTN11",
+      "status": "candidate-context",
+      "text": "My talk on Pentester Nepal's 11th anniversary 'bout nix(os)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/nixops",
+      "status": "candidate-context",
+      "text": "NixOps is a tool for deploying to NixOS machines in a network or cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixops",
+      "status": "candidate-context",
+      "text": "> [!Warning]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NixOS/nixos-homepage",
+      "status": "candidate-context",
+      "text": "Sources for nixos.org"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixos-homepage",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/NixOS/nixos-homepage/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/NixOS/nixos-homepage/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "3rd/config",
+      "status": "candidate-context",
+      "text": "My personal configuration - NixOS, Neovim, and all the good stuff."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3rd/config",
+      "status": "candidate-context",
+      "text": "This repository contains most of the plumbing that powers my workflow."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +75,30 @@
       "source_repo": "NixOS/nixpkgs",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pwnwriter/PTN11",
+      "status": "candidate",
+      "text": "My talk on Pentester Nepal's 11th anniversary 'bout nix(os)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixops",
+      "status": "candidate",
+      "text": "> [!Warning]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NixOS/nixos-homepage",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/NixOS/nixos-homepage/actions/workflows/deploy-prod.yml/badge.svg)](https://github.com/NixOS/nixos-homepage/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "3rd/config",
+      "status": "candidate",
+      "text": "This repository contains most of the plumbing that powers my workflow."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +148,35 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "NixOS/nixpkgs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "pwnwriter/PTN11"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NixOS/nixops"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "NixOS/nixos-homepage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "3rd/config"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,132 @@
+{
+  "aliases": [
+    "colbert"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnswerDotAI/byaldi",
+      "status": "candidate-context",
+      "text": "Use late-interaction multi-modal models such as ColPali in just a few lines of code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnswerDotAI/byaldi",
+      "status": "candidate-context",
+      "text": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate-context",
+      "text": "Efficient Retrieval Augmentation and Generation Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate-context",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnswerDotAI/byaldi",
+      "status": "candidate",
+      "text": "_Did you know? In the movie RAGatouille, the dish Remy makes is not actually a ratatouille, but a refined version of the dish called \"Confit Byaldi\"._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IntelLabs/fastRAG",
+      "status": "candidate",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8668826,
+      "status": "candidate",
+      "text": "colbert butter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8668823,
+      "status": "candidate",
+      "text": "colwell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8668822,
+      "status": "candidate",
+      "text": "cole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8668821,
+      "status": "candidate",
+      "text": "colwin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8668820,
+      "status": "candidate",
+      "text": "colo"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "colbert butter"
+    }
+  ],
+  "canonical_name": "colbert",
+  "concept_id": "colbert",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "AnswerDotAI/byaldi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "IntelLabs/fastRAG"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "colbert",
+      "sense_id": "colbert#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

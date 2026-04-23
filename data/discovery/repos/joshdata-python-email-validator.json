@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JoshData/python-email-validator",
+      "target": "michaelherold/pyisemail",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JoshData/python-email-validator",
+      "target": "kjd/idna",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml",
+      "source_repo": "JoshData/python-email-validator",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_and_build.yaml",
+      "source_repo": "JoshData/python-email-validator",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_build.yaml",
+      "source_repo": "JoshData/python-email-validator",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JoshData/python-email-validator",
+      "target": "email",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JoshData/python-email-validator",
+      "target": "normalization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JoshData/python-email-validator",
+      "target": "syntax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JoshData/python-email-validator",
+      "target": "validation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:35:09.405558+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24960
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 380
+    },
+    {
+      "path": ".github/workflows/test_and_build.yaml",
+      "size": 734
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A robust email syntax and deliverability validation library for Python.",
+    "fork": false,
+    "full_name": "JoshData/python-email-validator",
+    "html_url": "https://github.com/JoshData/python-email-validator",
+    "language": "Python",
+    "pushed_at": "2026-04-14T01:23:31Z",
+    "stargazers_count": 1393,
+    "topics": [
+      "dns",
+      "email",
+      "normalization",
+      "syntax",
+      "validation"
+    ],
+    "updated_at": "2026-04-22T16:39:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kjd/idna",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michaelherold/pyisemail",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_and_build.yaml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "email-validator: Validate Email Addresses",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "email"
+    },
+    {
+      "context_snippet": "email-validator: Validate Email Addresses",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "normalization"
+    },
+    {
+      "context_snippet": "email-validator: Validate Email Addresses",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax"
+    },
+    {
+      "context_snippet": "email-validator: Validate Email Addresses",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "validation"
+    }
+  ]
+}

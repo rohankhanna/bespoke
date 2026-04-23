@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codety.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codety.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codety.yml",
+      "source_repo": "codetyio/codety-scanner",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codety.yml",
+      "source_repo": "codetyio/codety-scanner",
+      "target": "github/codeql-action/upload-sarif@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codety.yml",
+      "source_repo": "codetyio/codety-scanner",
+      "target": "Codety",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codetyio/codety-scanner",
+      "target": "code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codetyio/codety-scanner",
+      "target": "code-scanner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codetyio/codety-scanner",
+      "target": "code-scanning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codetyio/codety-scanner",
+      "target": "codety",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codetyio/codety-scanner",
+      "target": "scanner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codetyio/codety-scanner",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codetyio/codety-scanner",
+      "target": "security-scanner",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:36:37.079288+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2793
+    },
+    {
+      "path": ".github/workflows/codety.yml",
+      "size": 1134
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Codety Scanner is a comprehensive code scanner designed to detect code issues for 30+ programming languages and IaC frameworks. It embeds more than 6,000 code analysis rules and can detect code smells, vulnerable code, secrets in the code, performance issues, style violations, and more. ",
+    "fork": false,
+    "full_name": "codetyio/codety-scanner",
+    "html_url": "https://github.com/codetyio/codety-scanner",
+    "language": "Java",
+    "pushed_at": "2026-04-09T14:16:53Z",
+    "stargazers_count": 50,
+    "topics": [
+      "code",
+      "code-scanner",
+      "code-scanning",
+      "codety",
+      "scanner",
+      "security",
+      "security-scanner"
+    ],
+    "updated_at": "2026-03-22T04:56:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Codety",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codety.yml",
+      "term": "Codety"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-scanner"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-scanning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codety"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scanner"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security-scanner"
+    }
+  ]
+}

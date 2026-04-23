@@ -1,0 +1,97 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "janeasystems/nodejs-mobile-react-native",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "janeasystems/nodejs-mobile-cordova",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "janeasystems/nodejs-mobile-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-start-ci.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-start-ci.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "actions/setup-node@v2-beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-start-ci.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "octokit/graphql-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-start-ci.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "Auto Start CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-stalled.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-stalled.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "Close stalled issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-queue.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-queue.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "actions/setup-node@v2-beta",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/commit-queue.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "octokit/graphql-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/commit-queue.yml",
+      "source_repo": "JaneaSystems/nodejs-mobile",
+      "target": "Commit Queue",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "source_repo": "JaneaSystems/nodejs-mobile"
+}

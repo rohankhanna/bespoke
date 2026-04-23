@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsprojects/Paket",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsprojects/Paket",
+      "target": "fsharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsprojects/Paket",
+      "target": "mono",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsprojects/Paket",
+      "target": "nuget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsprojects/Paket",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fsprojects/Paket",
+      "target": "paket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:30:11.272847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A dependency manager for .NET with support for NuGet packages and Git repositories.",
+    "fork": false,
+    "full_name": "fsprojects/Paket",
+    "html_url": "https://github.com/fsprojects/Paket",
+    "language": "F#",
+    "pushed_at": "2026-01-20T08:53:10Z",
+    "stargazers_count": 2086,
+    "topics": [
+      "dotnet",
+      "fsharp",
+      "mono",
+      "nuget",
+      "package-manager",
+      "paket"
+    ],
+    "updated_at": "2026-04-21T11:46:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Travis build status](https://api.travis-ci.org/fsprojects/Paket.svg?branch=master)](https://travis-ci.org/fsprojects/Paket?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "[![Travis build status](https://api.travis-ci.org/fsprojects/Paket.svg?branch=master)](https://travis-ci.org/fsprojects/Paket?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fsharp"
+    },
+    {
+      "context_snippet": "[![Travis build status](https://api.travis-ci.org/fsprojects/Paket.svg?branch=master)](https://travis-ci.org/fsprojects/Paket?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mono"
+    },
+    {
+      "context_snippet": "[![Travis build status](https://api.travis-ci.org/fsprojects/Paket.svg?branch=master)](https://travis-ci.org/fsprojects/Paket?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuget"
+    },
+    {
+      "context_snippet": "[![Travis build status](https://api.travis-ci.org/fsprojects/Paket.svg?branch=master)](https://travis-ci.org/fsprojects/Paket?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "[![Travis build status](https://api.travis-ci.org/fsprojects/Paket.svg?branch=master)](https://travis-ci.org/fsprojects/Paket?branch=master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paket"
+    }
+  ]
+}

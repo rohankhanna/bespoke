@@ -19,6 +19,30 @@
       "source_repo": "sharkdp/bat",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "trishume/syntect",
+      "status": "candidate-context",
+      "text": "Rust library for syntax highlighting using Sublime Text syntax definitions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trishume/syntect",
+      "status": "candidate-context",
+      "text": "[package] name = \"syntect\" description = \"library for high quality syntax highlighting and code intelligence using Sublime Text's grammars\" documentation = \"https://docs.rs/syntect\" repository = \"https://github.com/trishume/syntect\" keywords = [\"syntax\", \"highlighting\", \"highlig\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "depado/bfchroma",
+      "status": "candidate-context",
+      "text": "Integrating Chroma syntax highlighter as a Blackfriday renderer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "depado/bfchroma",
+      "status": "candidate-context",
+      "text": "[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "sharkdp/bat",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "trishume/syntect",
+      "status": "candidate",
+      "text": "[package] name = \"syntect\" description = \"library for high quality syntax highlighting and code intelligence using Sublime Text's grammars\" documentation = \"https://docs.rs/syntect\" repository = \"https://github.com/trishume/syntect\" keywords = [\"syntax\", \"highlighting\", \"highlig\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "depado/bfchroma",
+      "status": "candidate",
+      "text": "[![forthebadge](https://forthebadge.com/images/badges/made-with-go.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "sharkdp/bat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "trishume/syntect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "depado/bfchroma"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

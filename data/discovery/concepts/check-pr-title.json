@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Check PR Title"
+    "Check PR Title",
+    "Check PR title"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "toon-format/toon",
       "status": "candidate-context",
       "text": "Check PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ethpandaops/optimism-package",
+      "status": "candidate-context",
+      "text": "A kurtosis package for deploying an optimistic rollup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/optimism-package",
+      "status": "candidate-context",
+      "text": "Check PR title"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "toon-format/toon",
       "status": "candidate",
       "text": "Check PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ethpandaops/optimism-package",
+      "status": "candidate",
+      "text": "Check PR title"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-19T04:47:57.443742+00:00",
       "source_file": ".github/workflows/pr-title.yml",
       "source_repo": "toon-format/toon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/conventional-pr-title-checker.yml",
+      "source_repo": "ethpandaops/optimism-package"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-19T04:47:57.443742+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

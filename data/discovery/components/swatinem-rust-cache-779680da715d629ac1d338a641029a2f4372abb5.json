@@ -1,7 +1,7 @@
 {
   "component": "Swatinem/rust-cache@779680da715d629ac1d338a641029a2f4372abb5",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -52,6 +52,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "arxanas/git-branchless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-cli.yml",
+      "source_repo": "aaif-goose/goose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-intel.yml",
+      "source_repo": "aaif-goose/goose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bundle-desktop-linux.yml",
+      "source_repo": "aaif-goose/goose"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "typst/typst"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cache-factory.yml",
+      "source_repo": "sigp/rust-libp2p"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sigp/rust-libp2p"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc.yml",
+      "source_repo": "diesel-rs/diesel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/metrics.yml",
+      "source_repo": "diesel-rs/diesel"
     }
   ]
 }

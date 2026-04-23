@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nacos-group/nacos-spring-project",
+      "target": "alibaba/spring-context-support",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nacos-group/nacos-spring-project",
+      "target": "distributed-configuration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nacos-group/nacos-spring-project",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nacos-group/nacos-spring-project",
+      "target": "nacos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nacos-group/nacos-spring-project",
+      "target": "spring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nacos-group/nacos-spring-project",
+      "target": "springframework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:11.507914+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27066
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Nacos ECO Project for Spring Framework",
+    "fork": false,
+    "full_name": "nacos-group/nacos-spring-project",
+    "html_url": "https://github.com/nacos-group/nacos-spring-project",
+    "language": "Java",
+    "pushed_at": "2025-12-15T08:32:58Z",
+    "stargazers_count": 767,
+    "topics": [
+      "distributed-configuration",
+      "java",
+      "nacos",
+      "spring",
+      "springframework"
+    ],
+    "updated_at": "2026-02-27T10:00:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/spring-context-support",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Nacos Spring Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-configuration"
+    },
+    {
+      "context_snippet": "Nacos Spring Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "Nacos Spring Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nacos"
+    },
+    {
+      "context_snippet": "Nacos Spring Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring"
+    },
+    {
+      "context_snippet": "Nacos Spring Project",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "springframework"
+    }
+  ]
+}

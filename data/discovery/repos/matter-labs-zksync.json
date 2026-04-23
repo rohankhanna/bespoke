@@ -1,0 +1,549 @@
+{
+  "components": [
+    {
+      "component": "@typescript-eslint/eslint-plugin",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@typescript-eslint/parser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-alloy",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdown-toc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "markdownlint-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier-plugin-solidity",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "solhint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-data-restore-docker.yml"
+    },
+    {
+      "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "technote-space/workflow-conclusion-action@482bb0dbebad067b3b26ca4f6222c4023cf51ccf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "tferreira/matterfy@releases/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml"
+    },
+    {
+      "component": "matter-labs/zksync-dev/.github/workflows/setup.runtime.yml@dev",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml"
+    },
+    {
+      "component": "matter-labs/zksync-dev/.github/workflows/server.update-config.yml@dev",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml"
+    },
+    {
+      "component": "matter-labs/zksync-dev/.github/workflows/deploy.yml@dev",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml"
+    },
+    {
+      "component": "technote-space/workflow-conclusion-action@482bb0dbebad067b3b26ca4f6222c4023cf51ccf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml"
+    },
+    {
+      "component": "tferreira/matterfy@releases/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml"
+    },
+    {
+      "component": "technote-space/workflow-conclusion-action@482bb0dbebad067b3b26ca4f6222c4023cf51ccf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.tag.yml"
+    },
+    {
+      "component": "tferreira/matterfy@releases/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.tag.yml"
+    },
+    {
+      "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "chrnorm/deployment-status@releases/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "matter-labs/zksync-dev/.github/workflows/setup.runtime.yml@dev",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loadtest.yml"
+    },
+    {
+      "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loadtest.yml"
+    },
+    {
+      "component": "technote-space/workflow-conclusion-action@482bb0dbebad067b3b26ca4f6222c4023cf51ccf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loadtest.yml"
+    },
+    {
+      "component": "tferreira/matterfy@releases/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loadtest.yml"
+    },
+    {
+      "component": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secrets_scanner.yaml"
+    },
+    {
+      "component": "trufflesecurity/trufflehog@0c66d30c1f4075cee1aada2e1ab46dabb1b0071a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secrets_scanner.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matter-labs/zksync",
+      "target": "@typescript-eslint/eslint-plugin",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matter-labs/zksync",
+      "target": "@typescript-eslint/parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matter-labs/zksync",
+      "target": "babel-eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matter-labs/zksync",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matter-labs/zksync",
+      "target": "eslint-config-alloy",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matter-labs/zksync",
+      "target": "markdown-toc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matter-labs/zksync",
+      "target": "markdownlint-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matter-labs/zksync",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matter-labs/zksync",
+      "target": "prettier-plugin-solidity",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "matter-labs/zksync",
+      "target": "solhint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-data-restore-docker.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-data-restore-docker.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "Build and Push Data-restore docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "technote-space/workflow-conclusion-action@482bb0dbebad067b3b26ca4f6222c4023cf51ccf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "tferreira/matterfy@releases/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "matter-labs/zksync-dev/.github/workflows/setup.runtime.yml@dev",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "matter-labs/zksync-dev/.github/workflows/server.update-config.yml@dev",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "matter-labs/zksync-dev/.github/workflows/deploy.yml@dev",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "technote-space/workflow-conclusion-action@482bb0dbebad067b3b26ca4f6222c4023cf51ccf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "tferreira/matterfy@releases/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "Deploy Stage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.tag.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "technote-space/workflow-conclusion-action@482bb0dbebad067b3b26ca4f6222c4023cf51ccf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.tag.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "tferreira/matterfy@releases/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.tag.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "Deploy from tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "chrnorm/deployment-status@releases/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loadtest.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "matter-labs/zksync-dev/.github/workflows/setup.runtime.yml@dev",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loadtest.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loadtest.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "technote-space/workflow-conclusion-action@482bb0dbebad067b3b26ca4f6222c4023cf51ccf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/loadtest.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "tferreira/matterfy@releases/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/loadtest.yml",
+      "source_repo": "matter-labs/zksync",
+      "target": "Loadtest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secrets_scanner.yaml",
+      "source_repo": "matter-labs/zksync",
+      "target": "actions/checkout@ac593985615ec2ede58e132d2e21d2b1cbd6127c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secrets_scanner.yaml",
+      "source_repo": "matter-labs/zksync",
+      "target": "trufflesecurity/trufflehog@0c66d30c1f4075cee1aada2e1ab46dabb1b0071a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/secrets_scanner.yaml",
+      "source_repo": "matter-labs/zksync",
+      "target": "Leaked Secrets Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "matter-labs/zksync",
+      "target": "team-core",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:29:47.377359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2824
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1437
+    },
+    {
+      "path": "package.json",
+      "size": 1247
+    },
+    {
+      "path": ".github/workflows/build-data-restore-docker.yml",
+      "size": 1671
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 12505
+    },
+    {
+      "path": ".github/workflows/deploy.goerli-beta.yml",
+      "size": 3696
+    },
+    {
+      "path": ".github/workflows/deploy.tag.yml",
+      "size": 2788
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 5066
+    },
+    {
+      "path": ".github/workflows/loadtest.yml",
+      "size": 1566
+    },
+    {
+      "path": ".github/workflows/secrets_scanner.yaml",
+      "size": 520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "zkSync: trustless scaling and privacy engine for Ethereum",
+    "fork": false,
+    "full_name": "matter-labs/zksync",
+    "html_url": "https://github.com/matter-labs/zksync",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T12:29:42Z",
+    "stargazers_count": 4934,
+    "topics": [
+      "team-core"
+    ],
+    "updated_at": "2026-04-22T19:52:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Push Data-restore docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-data-restore-docker.yml",
+      "term": "Build and Push Data-restore docker Image"
+    },
+    {
+      "context_snippet": "Deploy Stage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.goerli-beta.yml",
+      "term": "Deploy Stage"
+    },
+    {
+      "context_snippet": "Deploy from tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.tag.yml",
+      "term": "Deploy from tag"
+    },
+    {
+      "context_snippet": "Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Deploy"
+    },
+    {
+      "context_snippet": "Loadtest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/loadtest.yml",
+      "term": "Loadtest"
+    },
+    {
+      "context_snippet": "Leaked Secrets Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/secrets_scanner.yaml",
+      "term": "Leaked Secrets Scan"
+    },
+    {
+      "context_snippet": "[![Logo](zkSyncLogo.svg)](https://zksync.io/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "team-core"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "axon-rl/gem",
+      "target": "openai/gym",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "axon-rl/gem",
+      "target": "chenmientan/rl2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "axon-rl/gem",
+      "target": "leonguertler/textarena",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "axon-rl/gem",
+      "target": "open-thought/reasoning-gym",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:33:47.044394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9128
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 3874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Gym for Agentic LLMs",
+    "fork": false,
+    "full_name": "axon-rl/gem",
+    "html_url": "https://github.com/axon-rl/gem",
+    "language": "Python",
+    "pushed_at": "2026-01-21T15:38:39Z",
+    "stargazers_count": 477,
+    "topics": [
+      "gym",
+      "llm",
+      "rl"
+    ],
+    "updated_at": "2026-04-13T23:49:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenmientan/rl2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leonguertler/textarena",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-thought/reasoning-gym",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/gym",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

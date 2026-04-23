@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T06:39:52.047761+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3054
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tom's Obvious, Minimal Language",
+    "fork": false,
+    "full_name": "toml-lang/toml",
+    "html_url": "https://github.com/toml-lang/toml",
+    "language": null,
+    "pushed_at": "2025-12-24T17:29:44Z",
+    "stargazers_count": 20457,
+    "topics": [],
+    "updated_at": "2026-04-22T13:10:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

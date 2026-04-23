@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bluejekyll/trust-dns",
+      "target": "hickory-dns/hickory-dns",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:30:47.690035+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 335
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "bluejekyll/trust-dns",
+    "html_url": "https://github.com/bluejekyll/trust-dns",
+    "language": null,
+    "pushed_at": "2024-08-04T21:31:32Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2026-04-21T09:44:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hickory-dns/hickory-dns",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

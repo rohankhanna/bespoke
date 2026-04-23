@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "korean-nlp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Beomi/KoAlpaca",
+      "status": "candidate-context",
+      "text": "KoAlpaca: \ud55c\uad6d\uc5b4 \uba85\ub839\uc5b4\ub97c \uc774\ud574\ud558\ub294 \uc624\ud508\uc18c\uc2a4 \uc5b8\uc5b4\ubaa8\ub378 (KoAlpaca: An open-source language model to understand Korean instructions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beomi/KoAlpaca",
+      "status": "candidate-context",
+      "text": "<p align=\"center\" width=\"100%\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Beomi/KoAlpaca",
+      "status": "candidate",
+      "text": "<p align=\"center\" width=\"100%\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "korean-nlp",
+  "concept_id": "korean-nlp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "Beomi/KoAlpaca"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "korean-nlp",
+      "sense_id": "korean-nlp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

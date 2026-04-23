@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ethereum/retesteth",
+      "target": "ethereum/execution-spec-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ethereum/retesteth",
+      "target": "ethereum/execution-spec-tests",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ethereum/retesteth",
+      "target": "ethereum/evmone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ethereum/retesteth",
+      "target": "ethereum/execution-specs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethereum/retesteth",
+      "target": "ethereum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ethereum/retesteth",
+      "target": "tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:29:01.135877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 779
+    },
+    {
+      "path": "Dockerfile",
+      "size": 5830
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "testeth via RPC. Test run, generation by t8ntool protocol",
+    "fork": false,
+    "full_name": "ethereum/retesteth",
+    "html_url": "https://github.com/ethereum/retesteth",
+    "language": "C++",
+    "pushed_at": "2025-06-04T11:33:03Z",
+    "stargazers_count": 135,
+    "topics": [
+      "ethereum",
+      "evm",
+      "tests"
+    ],
+    "updated_at": "2026-03-12T23:58:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/execution-spec-tests",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/evmone",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/execution-spec-tests",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethereum/execution-specs",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Refer to https://github.com/ethereum/execution-spec-tests for the recent testing effords.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ethereum"
+    },
+    {
+      "context_snippet": "Refer to https://github.com/ethereum/execution-spec-tests for the recent testing effords.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tests"
+    }
+  ]
+}

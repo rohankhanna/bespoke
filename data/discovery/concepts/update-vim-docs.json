@@ -19,12 +19,30 @@
       "source_repo": "ycm-core/YouCompleteMe",
       "status": "candidate-context",
       "text": "\"Update vim docs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate-context",
+      "text": "vimspector - A multi-language debugging system for Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puremourning/vimspector",
+      "status": "candidate-context",
+      "text": "\"Update vim docs\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "ycm-core/YouCompleteMe",
+      "status": "candidate",
+      "text": "\"Update vim docs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puremourning/vimspector",
       "status": "candidate",
       "text": "\"Update vim docs\""
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/update_vim_docs.yaml",
       "source_repo": "ycm-core/YouCompleteMe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/update_vim_docs.yaml",
+      "source_repo": "puremourning/vimspector"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

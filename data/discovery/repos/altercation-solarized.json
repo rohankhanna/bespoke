@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "altercation/solarized",
+      "target": "altercation/vim-colors-solarized",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "altercation/solarized",
+      "target": "apenwarr/git-subtree",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "altercation/solarized",
+      "target": "altercation/mutt-colors-solarized",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "altercation/solarized",
+      "target": "bobthecow/solarized-seestyle",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T04:33:46.558988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "precision color scheme for multiple applications (terminal, vim, etc.) with both dark/light modes",
+    "fork": false,
+    "full_name": "altercation/solarized",
+    "html_url": "https://github.com/altercation/solarized",
+    "language": "Vim script",
+    "pushed_at": "2024-07-11T19:57:30Z",
+    "stargazers_count": 15983,
+    "topics": [],
+    "updated_at": "2026-04-21T11:17:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "altercation/mutt-colors-solarized",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "altercation/vim-colors-solarized",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apenwarr/git-subtree",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bobthecow/solarized-seestyle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

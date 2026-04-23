@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "tim-actions/get-pr-commits@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "tim-actions/commit-message-checker-with-regex@v0.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencontainers/runtime-tools",
+      "target": "opencontainers/org",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "opencontainers/runtime-tools",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "opencontainers/runtime-tools",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "opencontainers/runtime-tools",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "opencontainers/runtime-tools",
+      "target": "tim-actions/get-pr-commits@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "opencontainers/runtime-tools",
+      "target": "tim-actions/commit-message-checker-with-regex@v0.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/runtime-tools",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/runtime-tools",
+      "target": "opencontainers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencontainers/runtime-tools",
+      "target": "runc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:37:24.961549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6647
+    },
+    {
+      "path": "go.mod",
+      "size": 969
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "OCI Runtime Tools",
+    "fork": false,
+    "full_name": "opencontainers/runtime-tools",
+    "html_url": "https://github.com/opencontainers/runtime-tools",
+    "language": "Go",
+    "pushed_at": "2026-03-16T12:58:33Z",
+    "stargazers_count": 479,
+    "topics": [
+      "docker",
+      "oci",
+      "opencontainers",
+      "runc"
+    ],
+    "updated_at": "2026-04-19T07:36:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencontainers/org",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "oci-runtime-tool is a collection of tools for working with the [OCI runtime specification][runtime-spec].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "oci-runtime-tool is a collection of tools for working with the [OCI runtime specification][runtime-spec].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencontainers"
+    },
+    {
+      "context_snippet": "oci-runtime-tool is a collection of tools for working with the [OCI runtime specification][runtime-spec].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "runc"
+    }
+  ]
+}

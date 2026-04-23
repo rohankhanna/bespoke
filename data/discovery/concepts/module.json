@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "module"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gfx-rs/rspirv",
+      "status": "candidate-context",
+      "text": "Rust implementation of SPIR-V module processing functionalities"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/rspirv",
+      "status": "candidate-context",
+      "text": "rspirv"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gfx-rs/rspirv",
+      "status": "candidate",
+      "text": "rspirv"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010142,
+      "status": "candidate",
+      "text": "faculty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049212,
+      "status": "candidate",
+      "text": "mental faculty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049211,
+      "status": "candidate",
+      "text": "modular"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042267,
+      "status": "candidate",
+      "text": "pcm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038034,
+      "status": "candidate",
+      "text": "dimm"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5047,
+      "status": "candidate",
+      "text": "faculty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1010,
+      "status": "candidate",
+      "text": "mental faculty"
+    }
+  ],
+  "canonical_name": "module",
+  "concept_id": "module",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "gfx-rs/rspirv"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "module",
+      "sense_id": "module#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

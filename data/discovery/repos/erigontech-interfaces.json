@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erigontech/interfaces",
+      "target": "erigontech/silkworm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T07:47:49.722667+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 697
+    },
+    {
+      "path": "go.mod",
+      "size": 49
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Interfaces for Erigon components",
+    "fork": false,
+    "full_name": "erigontech/interfaces",
+    "html_url": "https://github.com/erigontech/interfaces",
+    "language": "Go",
+    "pushed_at": "2026-03-09T19:00:46Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-04-15T08:54:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erigontech/silkworm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

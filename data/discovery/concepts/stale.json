@@ -68,6 +68,30 @@
       "source_repo": "AssemblyScript/assemblyscript",
       "status": "candidate-context",
       "text": "Stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate-context",
+      "text": "Open Container Initiative-based implementation of Kubernetes Container Runtime Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate-context",
+      "text": "stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actions/create-github-app-token",
+      "status": "candidate-context",
+      "text": "GitHub Action for creating a GitHub App Installation Access Token"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/create-github-app-token",
+      "status": "candidate-context",
+      "text": "Stale"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +122,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "AssemblyScript/assemblyscript",
+      "status": "candidate",
+      "text": "Stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cri-o/cri-o",
+      "status": "candidate",
+      "text": "stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actions/create-github-app-token",
       "status": "candidate",
       "text": "Stale"
     }
@@ -215,11 +251,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "AssemblyScript/assemblyscript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "cri-o/cri-o"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "actions/create-github-app-token"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

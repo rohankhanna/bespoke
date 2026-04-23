@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/handy-wayland-autostart-fix",
+      "target": "cjpais/handy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/handy-wayland-autostart-fix",
+      "target": "tauri-apps/global-hotkey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/handy-wayland-autostart-fix",
+      "target": "enigo-rs/enigo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T08:34:07.777507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Documenting and fixing Handy speech-to-text app failing on KDE Plasma Wayland due to autostart race condition",
+    "fork": false,
+    "full_name": "danielrosehill/handy-wayland-autostart-fix",
+    "html_url": "https://github.com/danielrosehill/handy-wayland-autostart-fix",
+    "language": null,
+    "pushed_at": "2026-03-31T11:35:12Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-31T11:35:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cjpais/handy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "enigo-rs/enigo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tauri-apps/global-hotkey",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

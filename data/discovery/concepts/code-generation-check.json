@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Code Generation Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SpecterOps/BloodHound",
+      "status": "candidate-context",
+      "text": "Six Degrees of Domain Admin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/BloodHound",
+      "status": "candidate-context",
+      "text": "Code Generation Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SpecterOps/BloodHound",
+      "status": "candidate",
+      "text": "Code Generation Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18033,
+      "status": "candidate",
+      "text": "codified"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18033,
+      "status": "candidate",
+      "text": "codify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18033,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18018,
+      "status": "candidate",
+      "text": "production"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17997,
+      "status": "candidate",
+      "text": "access"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Code Generation Check",
+  "concept_id": "code-generation-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/code-generation-check.yml",
+      "source_repo": "SpecterOps/BloodHound"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Generation Check",
+      "sense_id": "code-generation-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

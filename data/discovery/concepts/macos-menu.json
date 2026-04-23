@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "macos-menu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matryer/xbar",
+      "status": "candidate-context",
+      "text": "Put the output from any script or program into your macOS Menu Bar (the BitBar reboot)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matryer/xbar",
+      "status": "candidate-context",
+      "text": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matryer/xbar",
+      "status": "candidate",
+      "text": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "macos-menu",
+  "concept_id": "macos-menu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "matryer/xbar"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "macos-menu",
+      "sense_id": "macos-menu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

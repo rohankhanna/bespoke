@@ -1,0 +1,273 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-release.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-release.yaml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-release.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-release.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beta-release.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "beta-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "integration-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-release.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prod-release.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "aws-actions/configure-aws-credentials@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prod-release.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "prod-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "AppMesh controller Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "source_repo": "aws/aws-app-mesh-controller-for-k8s",
+      "target": "unit-test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T05:44:03.824231+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 1210
+    },
+    {
+      "path": "go.mod",
+      "size": 7710
+    },
+    {
+      "path": ".github/workflows/beta-release.yaml",
+      "size": 1877
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 499
+    },
+    {
+      "path": ".github/workflows/integration-test.yaml",
+      "size": 533
+    },
+    {
+      "path": ".github/workflows/prod-release.yaml",
+      "size": 5992
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 711
+    },
+    {
+      "path": ".github/workflows/unit-test.yml",
+      "size": 891
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A controller to help manage App Mesh resources for a Kubernetes cluster.",
+    "fork": false,
+    "full_name": "aws/aws-app-mesh-controller-for-k8s",
+    "html_url": "https://github.com/aws/aws-app-mesh-controller-for-k8s",
+    "language": "Go",
+    "pushed_at": "2026-03-26T22:14:31Z",
+    "stargazers_count": 183,
+    "topics": [],
+    "updated_at": "2026-04-04T23:34:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "beta-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beta-release.yaml",
+      "term": "beta-release"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "integration-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "term": "integration-test"
+    },
+    {
+      "context_snippet": "prod-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prod-release.yaml",
+      "term": "prod-release"
+    },
+    {
+      "context_snippet": "AppMesh controller Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "AppMesh controller Release"
+    },
+    {
+      "context_snippet": "unit-test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test.yml",
+      "term": "unit-test"
+    }
+  ]
+}

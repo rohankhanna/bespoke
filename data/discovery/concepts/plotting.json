@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "plotting"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matplotlib/matplotlib",
+      "status": "candidate-context",
+      "text": "matplotlib: plotting with Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matplotlib/matplotlib",
+      "status": "candidate-context",
+      "text": "[![PyPi](https://img.shields.io/pypi/v/matplotlib)](https://pypi.org/project/matplotlib/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matplotlib/matplotlib",
+      "status": "candidate",
+      "text": "[![PyPi](https://img.shields.io/pypi/v/matplotlib)](https://pypi.org/project/matplotlib/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022311,
+      "status": "candidate",
+      "text": "aforethought"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022311,
+      "status": "candidate",
+      "text": "planned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022311,
+      "status": "candidate",
+      "text": "premeditated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022310,
+      "status": "candidate",
+      "text": "conspiring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006898,
+      "status": "candidate",
+      "text": "masterminding"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "plotting",
+  "concept_id": "plotting",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "matplotlib/matplotlib"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plotting",
+      "sense_id": "plotting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

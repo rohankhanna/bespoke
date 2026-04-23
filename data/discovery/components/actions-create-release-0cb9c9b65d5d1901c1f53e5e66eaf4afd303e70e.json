@@ -1,7 +1,7 @@
 {
   "component": "actions/create-release@0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-and-publish.yml",
       "source_repo": "kulshekhar/ts-jest"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "theupdateframework/specification"
     }
   ]
 }

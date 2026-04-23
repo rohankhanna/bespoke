@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-up/libgit2",
+      "target": "carlosmn/geef",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-up/libgit2",
+      "target": "ethomson/jagged",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-up/libgit2",
+      "target": "alexcrichton/git2-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "git-up/libgit2",
+      "target": "apmasell/vapis",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:41:20.312201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11039
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "gitup",
+    "description": "The Library",
+    "fork": true,
+    "full_name": "git-up/libgit2",
+    "html_url": "https://github.com/git-up/libgit2",
+    "language": "C",
+    "pushed_at": "2025-05-20T14:35:34Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2022-04-03T02:34:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexcrichton/git2-rs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apmasell/vapis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carlosmn/geef",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethomson/jagged",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

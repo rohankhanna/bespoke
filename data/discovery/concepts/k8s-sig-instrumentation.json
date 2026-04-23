@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "k8s-sig-instrumentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/prometheus-adapter",
+      "status": "candidate-context",
+      "text": "An implementation of the custom.metrics.k8s.io API using Prometheus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/prometheus-adapter",
+      "status": "candidate-context",
+      "text": "This repository contains an implementation of the Kubernetes Custom, Resource and External"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/metrics-server",
+      "status": "candidate-context",
+      "text": "Scalable and efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/metrics-server",
+      "status": "candidate-context",
+      "text": "Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/custom-metrics-apiserver",
+      "status": "candidate-context",
+      "text": "Framework for implementing custom metrics support for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/custom-metrics-apiserver",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/sigs.k8s.io/custom-metrics-apiserver.svg)](https://pkg.go.dev/sigs.k8s.io/custom-metrics-apiserver)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/prometheus-adapter",
+      "status": "candidate",
+      "text": "This repository contains an implementation of the Kubernetes Custom, Resource and External"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/metrics-server",
+      "status": "candidate",
+      "text": "Metrics Server is a scalable, efficient source of container resource metrics for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/custom-metrics-apiserver",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/sigs.k8s.io/custom-metrics-apiserver.svg)](https://pkg.go.dev/sigs.k8s.io/custom-metrics-apiserver)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "k8s-sig-instrumentation",
+  "concept_id": "k8s-sig-instrumentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/prometheus-adapter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/metrics-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/custom-metrics-apiserver"
+    }
+  ],
+  "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "k8s-sig-instrumentation",
+      "sense_id": "k8s-sig-instrumentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

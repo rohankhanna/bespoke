@@ -26,6 +26,42 @@
       "source_repo": "ocaml-wasm/wasm_of_ocaml",
       "status": "candidate-context",
       "text": "Check changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocsigen/js_of_ocaml",
+      "status": "candidate-context",
+      "text": "Compiler from OCaml to Javascript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocsigen/js_of_ocaml",
+      "status": "candidate-context",
+      "text": "Check changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "Modern C++ Terminal Emulator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate-context",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heroku/heroku-buildpack-pgbouncer",
+      "status": "candidate-context",
+      "text": "Classic buildpack that installs pgbouncer in the dyno alongside your app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-pgbouncer",
+      "status": "candidate-context",
+      "text": "Check Changelog"
     }
   ],
   "candidate_glosses": [
@@ -40,6 +76,24 @@
       "source_repo": "ocaml-wasm/wasm_of_ocaml",
       "status": "candidate",
       "text": "Check changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocsigen/js_of_ocaml",
+      "status": "candidate",
+      "text": "Check changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "contour-terminal/contour",
+      "status": "candidate",
+      "text": "Check Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heroku/heroku-buildpack-pgbouncer",
+      "status": "candidate",
+      "text": "Check Changelog"
     }
   ],
   "candidate_related_terms": [
@@ -95,11 +149,29 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "ocaml-wasm/wasm_of_ocaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "ocsigen/js_of_ocaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "contour-terminal/contour"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "heroku/heroku-buildpack-pgbouncer"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],

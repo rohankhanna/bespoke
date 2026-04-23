@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-23T05:37:00.272471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3980
+    },
+    {
+      "path": "requirements.txt",
+      "size": 73
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Ideation agent that generates ideas for AI agents!",
+    "fork": false,
+    "full_name": "danielrosehill/AI-Agent-Ideation-Agent",
+    "html_url": "https://github.com/danielrosehill/AI-Agent-Ideation-Agent",
+    "language": "Python",
+    "pushed_at": "2025-03-25T06:28:06Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-25T06:28:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

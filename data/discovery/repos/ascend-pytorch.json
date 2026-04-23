@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "ascend/pytorch/.github/actions/fetch-and-rebase@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fetch_and_rebase.yml"
+    },
+    {
+      "component": "ascend/pytorch/.github/actions/fetch-and-rebase@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fetch_and_rebase.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build-and-test.yml",
+      "source_repo": "Ascend/pytorch",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fetch_and_rebase.yml",
+      "source_repo": "Ascend/pytorch",
+      "target": "ascend/pytorch/.github/actions/fetch-and-rebase@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_fetch_and_rebase.yml",
+      "source_repo": "Ascend/pytorch",
+      "target": "Fetch and Rebase",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "source_repo": "Ascend/pytorch",
+      "target": "Ascend NPU(Manual)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/periodic.yml",
+      "source_repo": "Ascend/pytorch",
+      "target": "Ascend NPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ascend/pytorch",
+      "target": "ascend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ascend/pytorch",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ascend/pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-23T06:32:58.860939+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20738
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 7212
+    },
+    {
+      "path": "requirements.txt",
+      "size": 127
+    },
+    {
+      "path": ".github/workflows/_build-and-test.yml",
+      "size": 2107
+    },
+    {
+      "path": ".github/workflows/_fetch_and_rebase.yml",
+      "size": 834
+    },
+    {
+      "path": ".github/workflows/manual.yml",
+      "size": 991
+    },
+    {
+      "path": ".github/workflows/periodic.yml",
+      "size": 615
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ascend PyTorch adapter (torch_npu). Mirror of https://gitcode.com/Ascend/pytorch",
+    "fork": false,
+    "full_name": "Ascend/pytorch",
+    "html_url": "https://github.com/Ascend/pytorch",
+    "language": "Python",
+    "pushed_at": "2026-04-23T04:49:03Z",
+    "stargazers_count": 502,
+    "topics": [
+      "ascend",
+      "deep-learning",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-23T04:49:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build-and-test.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "Fetch and Rebase",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_fetch_and_rebase.yml",
+      "term": "Fetch and Rebase"
+    },
+    {
+      "context_snippet": "Ascend NPU(Manual)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual.yml",
+      "term": "Ascend NPU(Manual)"
+    },
+    {
+      "context_snippet": "Ascend NPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/periodic.yml",
+      "term": "Ascend NPU"
+    },
+    {
+      "context_snippet": "This repository develops the **Ascend Extension for PyTorch** named **torch_npu** to adapt **Ascend NPU** to **PyTorch** so that developers who use the **PyTorch** can obtain powerful compute capabilities of **Ascend AI Processors**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ascend"
+    },
+    {
+      "context_snippet": "This repository develops the **Ascend Extension for PyTorch** named **torch_npu** to adapt **Ascend NPU** to **PyTorch** so that developers who use the **PyTorch** can obtain powerful compute capabilities of **Ascend AI Processors**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository develops the **Ascend Extension for PyTorch** named **torch_npu** to adapt **Ascend NPU** to **PyTorch** so that developers who use the **PyTorch** can obtain powerful compute capabilities of **Ascend AI Processors**.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

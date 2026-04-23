@@ -43,6 +43,90 @@
       "source_repo": "apache/dubbo",
       "status": "candidate-context",
       "text": "[![Build and Test For PR](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml/badge.svg)](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate-context",
+      "text": "Spring Cloud Alibaba provides a one-stop solution for application development for the distributed solutions of Alibaba middleware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/sentinel-golang",
+      "status": "candidate-context",
+      "text": "Sentinel Go enables reliability and resiliency for Go microservices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/sentinel-golang",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-admin",
+      "status": "candidate-context",
+      "text": "The ops and reference implementation for Apache Dubbo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-admin",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-go",
+      "status": "candidate-context",
+      "text": "Go Implementation For Apache Dubbo ."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-go",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/apache/dubbo-go/workflows/CI/badge.svg)](https://github.com/apache/dubbo-go/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-js",
+      "status": "candidate-context",
+      "text": "The Typescript implementation of Apache Dubbo. An RPC and microservice framework for Node.js and Web development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-js",
+      "status": "candidate-context",
+      "text": "![License](https://img.shields.io/github/license/alibaba/dubbo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micro/go-micro",
+      "status": "candidate-context",
+      "text": "A Go microservices framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micro/go-micro",
+      "status": "candidate-context",
+      "text": "Go Micro is a framework for distributed systems development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/dubbo-go-pixiu",
+      "status": "candidate-context",
+      "text": "Based on the proxy gateway service of dubbo-go, it solves the problem that the external protocol calls the internal Dubbo cluster. At present, it supports HTTP and gRPC[developing]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-go-pixiu",
+      "status": "candidate-context",
+      "text": "[![Pixiu Logo](docs/images/pixiu-logo-v4.png)](http://alexstocks.github.io/html/dubbogo.html)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +147,48 @@
       "source_repo": "apache/dubbo",
       "status": "candidate",
       "text": "[![Build and Test For PR](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml/badge.svg)](https://github.com/apache/dubbo/actions/workflows/build-and-test-pr.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/spring-cloud-alibaba",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x.svg?style=svg)](https://circleci.com/gh/alibaba/spring-cloud-alibaba/tree/2025.1.x)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/sentinel-golang",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-admin",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-go",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/apache/dubbo-go/workflows/CI/badge.svg)](https://github.com/apache/dubbo-go/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-js",
+      "status": "candidate",
+      "text": "![License](https://img.shields.io/github/license/alibaba/dubbo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micro/go-micro",
+      "status": "candidate",
+      "text": "Go Micro is a framework for distributed systems development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/dubbo-go-pixiu",
+      "status": "candidate",
+      "text": "[![Pixiu Logo](docs/images/pixiu-logo-v4.png)](http://alexstocks.github.io/html/dubbogo.html)"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +250,53 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/spring-cloud-alibaba"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/sentinel-golang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-admin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "micro/go-micro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-23T04:27:42.433064+00:00",
+      "source_file": null,
+      "source_repo": "apache/dubbo-go-pixiu"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "lexical_providers": [
     "datamuse"
   ],
